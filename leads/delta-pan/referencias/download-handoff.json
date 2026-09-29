@@ -1,0 +1,16 @@
+{
+  "empresa": "Delta Pan Equipamentos",
+  "slug": "delta-pan",
+  "urlOficial": "https://deltapan.com.br/",
+  "paginasBaixadas": [
+    "Home",
+    "Sobre",
+    "Produtos",
+    "Contato"
+  ],
+  "caminhoSiteAtualMd": "D:\\projetos antigravity\\Site automatico\\leads\\delta-pan\\referencias\\site-atual.md",
+  "caminhoAssetsManifest": "D:\\projetos antigravity\\Site automatico\\leads\\delta-pan\\referencias\\assets-manifest.json",
+  "caminhoPagesManifest": "D:\\projetos antigravity\\Site automatico\\leads\\delta-pan\\referencias\\pages-manifest.json",
+  "caminhoLogoPrincipal": "/assets/clients/delta-pan/logo-white.png",
+  "raizSiteBaixado": "D:\\projetos antigravity\\Site automatico\\leads\\delta-pan\\referencias\\site-baixado"
+}

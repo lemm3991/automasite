@@ -1,0 +1,30 @@
+{
+  "client": "Delta Pan Equipamentos",
+  "slug": "delta-pan",
+  "logo": {
+    "primary": "/assets/clients/delta-pan/logo.png",
+    "white": "/assets/clients/delta-pan/logo-white.png"
+  },
+  "images": [
+    {
+      "id": "logo-dark",
+      "name": "Logo Oficial Escura",
+      "publicPath": "/assets/clients/delta-pan/logo.png"
+    },
+    {
+      "id": "logo-white",
+      "name": "Logo Oficial Branca",
+      "publicPath": "/assets/clients/delta-pan/logo-white.png"
+    },
+    {
+      "id": "fabrica-sobre",
+      "name": "Foto Fabril 1",
+      "publicPath": "/assets/clients/delta-pan/fabrica-sobre.png"
+    },
+    {
+      "id": "fabrica-meio",
+      "name": "Foto Fabril 2 Maquinário",
+      "publicPath": "/assets/clients/delta-pan/fabrica-maquinario.png"
+    }
+  ]
+}

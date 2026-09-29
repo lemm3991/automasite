@@ -1,0 +1,45 @@
+{
+  "cliente": "Delta Pan Equipamentos",
+  "slug": "delta-pan",
+  "siteOriginal": "https://deltapan.com.br/",
+  "siteAtualMdUtilizado": "leads/delta-pan/referencias/site-atual.md",
+  "designDirectionMd": "leads/delta-pan/referencias/art-direction.json",
+  "paginasConsultadas": [
+    "https://deltapan.com.br/",
+    "https://deltapan.com.br/sobre",
+    "https://deltapan.com.br/produtos",
+    "https://deltapan.com.br/contato"
+  ],
+  "logoUtilizado": "/assets/clients/delta-pan/logo-white.png",
+  "assetsUtilizados": [
+    "/assets/clients/delta-pan/logo.png",
+    "/assets/clients/delta-pan/logo-white.png",
+    "/assets/clients/delta-pan/fabrica-sobre.png",
+    "/assets/clients/delta-pan/fabrica-maquinario.png"
+  ],
+  "designSystemsConsultados": [
+    {
+      "name": "axion-ai.aura.build"
+    },
+    {
+      "name": "futureui.aura.build"
+    },
+    {
+      "name": "aex.aura.build"
+    }
+  ],
+  "secoesUtilizadas": [
+    "Header01 (Sticky Clean com Logo Branca)",
+    "Hero07 (Split Hero Industrial com Foto Fabril e Métrica Alimentícia)",
+    "Services01 (Linha de Produtos para Panificação e Fornos)",
+    "About01 (História e Sede em Criciúma)",
+    "Features02 (Rigor Técnico, Aço Inox e Conformidade Sanitária)",
+    "SocialProof04 (Métricas Industriais de Fábrica)",
+    "Contact01 (Hub de Cotação Direta em Criciúma)",
+    "CTA04 (Conversão Direta WhatsApp B2B)",
+    "Footer08 (Rodapé com Logo Oficial e Dados Legais)"
+  ],
+  "urlPreview": "http://127.0.0.1:4321/delta-pan/",
+  "criterioAutenticidade": "APROVADO: Construído com os componentes compartilhados do Design System e dados 100% autênticos da metalúrgica em Criciúma.",
+  "status": "APROVADO_BUILDER"
+}

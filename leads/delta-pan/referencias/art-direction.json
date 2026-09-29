@@ -1,0 +1,17 @@
+{
+  "client": "Delta Pan Equipamentos",
+  "slug": "delta-pan",
+  "aesthetic_concept": "Axion Industrial Enterprise & Future UI Heavy Metalwork",
+  "consulted_design_systems": [
+    "axion-ai.aura.build",
+    "futureui.aura.build",
+    "aex.aura.build"
+  ],
+  "primaryColor": "#161b22",
+  "secondaryColor": "#21262d",
+  "accentColor": "#f97316",
+  "backgroundColor": "#0c0f12",
+  "textColor": "#f1f5f9",
+  "headingFont": "Plus Jakarta Sans",
+  "bodyFont": "Inter"
+}
