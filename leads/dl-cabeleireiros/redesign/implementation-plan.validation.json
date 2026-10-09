@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "slug": "dl-cabeleireiros",
+  "phase": "plan",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "planHash": "d9c6812158ad01ab87348f8b0e5475d0067feb437966d6aa5feb5c38e6314512",
+  "inputHashes": {
+    "leads/dl-cabeleireiros/referencias/creative-brief.md": "80dd667a605d5b66d64936c2566ba7f5c936b4a3e55b18cf12c4e80cccef97f3",
+    "leads/dl-cabeleireiros/referencias/art-direction.json": "855285da51c030caea5e00e3946acf69250596cec4a0454bff3373b597adfbdc",
+    "leads/dl-cabeleireiros/referencias/design-selection.json": "e9f3cc44a61a6432e4c9fd335ae10a463c626e34cfa19b16cfd94817442f2ed6",
+    "leads/dl-cabeleireiros/visual/visual-handoff.json": "d3a021fe6dffead5b7dac52622625aeabdb042afa8260dc726f37c4dcb80455e",
+    "leads/dl-cabeleireiros/referencias/site-atual.md": "d1bd226ef6671acd41f1d592e0fcba368be56cf0e1477804f4c5f1fc2684ee9a",
+    "leads/dl-cabeleireiros/lead.json": "67adef03a22cb5dad83cd3f31060f2b442fd3a06c6d9e604a9a16af38baf8031",
+    "leads/dl-cabeleireiros/referencias/assets-manifest.json": "187a064dadd1f38527ed39f96ba49576fbde21b1c56fab1f45c68d59d979dba9",
+    "leads/dl-cabeleireiros/referencias/source-evidence.json": "19fdd69a3fea9520c6bdaa38019b3f8c5339e25010124602c401367c69738c8a",
+    "leads/dl-cabeleireiros/referencias/source-review.json": "c5e2d04243b083f798c9c5de73270f2e0194cf08c0bc7949ca9d050642f4ead9",
+    "leads/dl-cabeleireiros/referencias/asset-review.json": "1ae33ce400ab2595e3bab02f24d981dd71b376168929a9fb3a2d87316e91bd42",
+    "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/design-system.html": "8eed37ef6f2d3150a46a0d666d99a3a732aa81b18e3a91bdb3d0716b378e642e",
+    "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/STACK.md": "3ab2be6362f25e43e60ccb85b2e806a22b7915452f7debec593f9d22b9bd63ee",
+    "Design System/temas_claros/green-museum/design-system.html": "7ba2a32470b7d2b52027d17d6b896349bd6bfffbaf989ef064667d615924a161",
+    "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html": "f9ea2cc867febcf8cbf885bd2f1d7461166f294383607c6870c017476ccbb005",
+    "Design System/temas_escuros/barbershop-landing-51.aura.build/STACK.md": "a622c88ca1744de65b4cacdd31351ba1f85ec4ce7f3bdf63c33ac91ec4b04686"
+  },
+  "checkedAt": "2026-10-07T14:47:59.556Z",
+  "fingerprint": null,
+  "comparisons": [],
+  "limitations": [
+    "Trechos existentes não comprovam interpretação factual; revisar sentido e imagens.",
+    "Similaridade estrutural não mede qualidade visual."
+  ]
+}

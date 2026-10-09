@@ -1,0 +1,20 @@
+---
+const {content} = Astro.props;
+---
+<section id="hero" class="sj-hero" data-composition="industrial-editorial-photo-split" data-image-strategy="machine-photo-dominant-and-captioned-gallery" data-card-treatment="technical-rules-open-panels">
+  <div class="sj-wrap sj-hero-grid">
+    <div class="sj-hero-copy">
+      <p class="sj-kicker"><span></span>{content.eyebrow}</p>
+      <h1 class="sj-hero-title">{content.lines.map((line:string,i:number)=><span class={i===2?'sj-outline-line':''}>{line}</span>)}</h1>
+      <p class="sj-hero-description">{content.description}</p>
+    </div>
+    <figure class="sj-machine-frame">
+      <div class="sj-photo-top"><span>01 / CORTE E DOBRA</span><span>PORTO ALEGRE — RS</span></div>
+      <img src={content.featuredImage} alt={content.imageAlt} width="1024" height="683" fetchpriority="high" loading="eager" />
+      <div class="sj-photo-cross" aria-hidden="true">+</div>
+      <figcaption><span>DA CHAPA AO PROJETO.</span><span>Aço carbono & galvanizado</span></figcaption>
+    </figure>
+    <div class="sj-hero-action"><a class="sj-button" href={content.primaryCtaHref} target="_blank" rel="noopener noreferrer">{content.primaryCtaLabel}<span aria-hidden="true">↗</span></a><a class="sj-text-link" href="#servicos">Conheça nossas capacidades <span aria-hidden="true">↓</span></a></div>
+  </div>
+  <div class="sj-wrap sj-spec-strip">{content.metrics.map((m:any)=><div><span class="sj-spec-label">{m.label}</span><strong>{m.value}</strong><span class="sj-spec-note">{m.note}</span></div>)}</div>
+</section>

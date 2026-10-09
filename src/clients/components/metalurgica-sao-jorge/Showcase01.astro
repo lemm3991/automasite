@@ -1,0 +1,7 @@
+---
+const {content} = Astro.props;
+---
+<section id="portfolio" class="sj-section sj-portfolio"><div class="sj-wrap">
+  <div class="sj-section-heading"><div><p class="sj-kicker">04 / PORTFÓLIO</p><h2>{content.title}</h2></div><p>{content.description}</p></div>
+  <div class="sj-gallery">{content.items.map((m:any,i:number)=><figure class="sj-gallery-item"><div class="sj-gallery-photo"><img src={m.image} alt={m.alt} width="554" height="312" loading="lazy"/><span class="sj-photo-id">0{i+1}</span></div><figcaption><h3>{m.title}</h3><span>{m.caption}</span></figcaption></figure>)}</div>
+</div></section>

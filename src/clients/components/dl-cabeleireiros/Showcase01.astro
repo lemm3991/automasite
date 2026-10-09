@@ -1,0 +1,7 @@
+---
+const { content } = Astro.props;
+---
+<section id="galeria" class="dl-gallery dl-wrap">
+  <div class="dl-gallery-copy"><p class="dl-eyebrow">O universo D&L</p><h2>{content.title}</h2><p class="dl-founders">{content.founders}</p><p>{content.description}</p><a href="#unidades" class="dl-text-link">Venha viver o seu momento ↗</a></div>
+  <div class="dl-gallery-grid">{content.items.map(item => <figure><div class="dl-portrait"><img src={item.image} alt={item.alt} loading="lazy" width="480" height="360" /></div><figcaption>{item.caption}</figcaption></figure>)}</div>
+</section>

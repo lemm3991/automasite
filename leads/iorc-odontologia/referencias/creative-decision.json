@@ -1,0 +1,519 @@
+{
+  "schemaVersion": 3,
+  "slug": "iorc-odontologia",
+  "createdBy": "art-director-agent",
+  "createdAt": "2026-10-09T02:19:51.385Z",
+  "contextSha256": "a2a8eabe8c82f79a382109ae49309aa21ad370651b4ca993c1d424e6452fed99",
+  "typography": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "themeMode": "light",
+  "references": [
+    {
+      "id": "white-medical",
+      "sourceSha256": "f83824152d703145d65c722c76e73f21b5651266a2b73ebafefa94402da0d19a",
+      "observations": [
+        {
+          "excerpt": "background: var(--grid-color);",
+          "benefit": "Estrutura de linhas de grid sutis médicas que transmitem precisão cirúrgica e assepsia clínica.",
+          "factIds": [
+            "service-implantes",
+            "service-ortodontia"
+          ]
+        },
+        {
+          "excerpt": "animation: reveal-up 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;",
+          "benefit": "Animação suave de subida conferindo elegância e sobriedade institucional à apresentação dos tratamentos.",
+          "factIds": [
+            "positioning-history",
+            "mission-statement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parallax-clean",
+      "sourceSha256": "2d2bb18d4a8051ae73716c19e1de86dad0ae12d930067695c20b895bd7198639",
+      "observations": [
+        {
+          "excerpt": "grid-template-columns: 1fr 1.2fr;",
+          "benefit": "Composição de cartão em duas colunas assimétricas equilibrando imagem do consultório e texto explicativo.",
+          "factIds": [
+            "infrastructure-matriz",
+            "boqueirao-address"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-architect.aura.build",
+      "sourceSha256": "4088d7592cdb2b47becd5a3d8b7a772582c80500aceafcbc6fd290ac56ec3a7b",
+      "observations": [
+        {
+          "excerpt": "transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;",
+          "benefit": "Transição estruturada e fluida em revelações de blocos para visualização de especificações clínicas.",
+          "factIds": [
+            "infrastructure-total",
+            "founder-director"
+          ]
+        }
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "autoridade-clinica",
+      "concept": "Centro Clínico de Excelência & Tradição Médica",
+      "rationale": "Prioriza a credibilidade e tradição do Dr. Fabio Takachi Hase (fundado em 1995), a infraestrutura de 4.000 m² e a precisão técnica das especialidades integradas.",
+      "tradeoff": "Privilegia sobriedade e segurança clínica em vez de foco puramente promocional rápido.",
+      "clientTriggers": [
+        {
+          "factIds": [
+            "founder-director",
+            "positioning-history"
+          ],
+          "decision": "Destaque para os 30 anos de atuação sob liderança de Ortodontista e Clínico Geral com vasta experiência."
+        },
+        {
+          "factIds": [
+            "infrastructure-matriz",
+            "infrastructure-total"
+          ],
+          "decision": "Evidência concreta da matriz no Alto Boqueirão com 1.800 m² e das 3 unidades somando 4.000 m²."
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "positioning-history",
+            "mission-statement"
+          ],
+          "reason": "A história desde 1995 e a missão de cuidado embasam a posição de liderança e referência em Curitiba."
+        },
+        "audience": {
+          "factIds": [
+            "service-ortodontia",
+            "service-implantes"
+          ],
+          "reason": "Pacientes de Curitiba buscam tanto reabilitação e alinhamento quanto tratamentos odontológicos seguros e duradouros."
+        },
+        "services": {
+          "factIds": [
+            "service-ortodontia",
+            "service-aparelho-invisivel",
+            "service-implantes",
+            "service-protese"
+          ],
+          "reason": "Equilíbrio entre ortodontia avançada (invisível, safira, metal) e reabilitação oral com implantes."
+        },
+        "identity": {
+          "factIds": [
+            "company-name",
+            "trade-name",
+            "cro-registry"
+          ],
+          "reason": "Uso formal do nome institucional, registro CRO/PR-9169 e paleta azul petróleo."
+        },
+        "architecture": {
+          "factIds": [
+            "infrastructure-matriz",
+            "boqueirao-address"
+          ],
+          "reason": "Identificação detalhada da matriz no Alto Boqueirão com facilidade de acesso e estacionamento."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg",
+        "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg"
+      ],
+      "referenceIds": [
+        "white-medical",
+        "parallax-clean",
+        "digital-architect.aura.build"
+      ],
+      "composition": {
+        "heroType": "split-clinical-showcase",
+        "sectionOrder": [
+          "hero",
+          "stats",
+          "services",
+          "technology",
+          "infrastructure",
+          "units",
+          "cta"
+        ],
+        "imageStrategy": "high-contrast-framed-photos",
+        "gridStrategy": "editorial-asymmetric-columns",
+        "backgroundTreatment": "sterile-white-with-fine-grid",
+        "cardTreatment": "crisp-bordered-slate-panels",
+        "typography": "sans-clinical-precision",
+        "motion": "subtle-reveal-up",
+        "ctaStyle": "solid-petroleum-blue-button",
+        "rhythm": "spacious-medical-breathing"
+      },
+      "assessment": {
+        "identity": {
+          "score": 9.5,
+          "reason": "Reflete plenamente o porte médico, credibilidade do responsável técnico e história de 30 anos."
+        },
+        "assets": {
+          "score": 9,
+          "reason": "Utiliza o logotipo oficial e as fotos reais dos consultórios e atendimento."
+        },
+        "audience": {
+          "score": 9.2,
+          "reason": "Gera confiança sólida em pacientes que buscam tratamentos complexos e ortodontia duradoura."
+        },
+        "references": {
+          "score": 9.4,
+          "reason": "Combina a precisão do white-medical com o layout estruturado do digital-architect."
+        }
+      }
+    },
+    {
+      "id": "alinhadores-estetica",
+      "concept": "Odontologia Digital & Alinhadores Invisíveis",
+      "rationale": "Foca na conveniência, inovação e estética do sorriso moderno (Invisalign, ClearCorrect e facetas), com apelo dinâmico.",
+      "tradeoff": "Menor ênfase na amplitude dos 4.000 m² de infraestrutura e reabilitação protética complexa.",
+      "clientTriggers": [
+        {
+          "factIds": [
+            "service-aparelho-invisivel",
+            "service-facetas"
+          ],
+          "decision": "Ênfase em alinhamento discreto e procedimentos estéticos contemporâneos."
+        },
+        {
+          "factIds": [
+            "service-clareamento-consultorio",
+            "service-lentes"
+          ],
+          "decision": "Destaque visual para estética de sorriso e clareamento."
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "mission-statement",
+            "positioning-history"
+          ],
+          "reason": "Comunicação orientada à transformação do sorriso e autoestima."
+        },
+        "audience": {
+          "factIds": [
+            "service-aparelho-invisivel",
+            "service-aparelho-safira"
+          ],
+          "reason": "Público jovem e executivo que busca alinhamento rápido e imperceptível."
+        },
+        "services": {
+          "factIds": [
+            "service-aparelho-invisivel",
+            "service-facetas",
+            "service-clareamento-consultorio"
+          ],
+          "reason": "Foco no trio ortodontia invisível, facetas e clareamento."
+        },
+        "identity": {
+          "factIds": [
+            "trade-name",
+            "company-name"
+          ],
+          "reason": "Assinatura IORC Odontologia com apelo leve e tecnológico."
+        },
+        "architecture": {
+          "factIds": [
+            "unit-sitio-cercado",
+            "infrastructure-total"
+          ],
+          "reason": "Menção à cobertura das unidades em Curitiba de forma compacta."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "/assets/clients/iorc-odontologia/02-invisalign.png",
+        "/assets/clients/iorc-odontologia/12-facetas2-768x512.jpeg"
+      ],
+      "referenceIds": [
+        "white-medical"
+      ],
+      "composition": {
+        "heroType": "lifestyle-aesthetic-banner",
+        "sectionOrder": [
+          "hero",
+          "services",
+          "technology",
+          "cta"
+        ],
+        "imageStrategy": "full-bleed-aesthetic-focus",
+        "gridStrategy": "centered-single-column-flow",
+        "backgroundTreatment": "ultra-light-gray-wash",
+        "cardTreatment": "soft-shadow-floating-cards",
+        "typography": "modern-humanist-clean",
+        "motion": "smooth-fade-in",
+        "ctaStyle": "gradient-accent-pill-button",
+        "rhythm": "compact-commercial-pacing"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8,
+          "reason": "Excelente para pacientes de estética, mas atenua o histórico institucional e cirúrgico."
+        },
+        "assets": {
+          "score": 8.5,
+          "reason": "Boas fotos de produtos e parceiros, porém subutiliza a infraestrutura das clínicas."
+        },
+        "audience": {
+          "score": 8.6,
+          "reason": "Altamente atraente para alinhadores, menor apelo para próteses e implantes."
+        },
+        "references": {
+          "score": 8.2,
+          "reason": "Boa aderência ao white-medical, mas composição simplificada."
+        }
+      }
+    },
+    {
+      "id": "infraestrutura-multidisciplinar",
+      "concept": "Rede Odontológica Completa & Atendimento Integrado",
+      "rationale": "Foca na capilaridade das 3 unidades (Boqueirão, Sítio Cercado e Centro) e na gama completa de procedimentos para toda a família.",
+      "tradeoff": "Abordagem mais generalista que dilui o posicionamento premium de ortodontia especializada.",
+      "clientTriggers": [
+        {
+          "factIds": [
+            "infrastructure-total",
+            "unit-sitio-cercado"
+          ],
+          "decision": "Apresentação simultânea das unidades com mapas e endereços."
+        },
+        {
+          "factIds": [
+            "parking-info",
+            "boqueirao-address"
+          ],
+          "decision": "Destaque para conveniência de estacionamento próprio e facilidade de acesso."
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "mission-statement",
+            "infrastructure-matriz"
+          ],
+          "reason": "Posicionamento como centro completo de referência odontológica."
+        },
+        "audience": {
+          "factIds": [
+            "service-ortodontia",
+            "service-limpeza",
+            "service-restauracao"
+          ],
+          "reason": "Famílias que buscam desde prevenção rotineira até reabilitação complexa."
+        },
+        "services": {
+          "factIds": [
+            "service-implantes",
+            "service-protese",
+            "service-endodontia",
+            "service-limpeza"
+          ],
+          "reason": "Catálogo horizontal de todas as especialidades clínicas."
+        },
+        "identity": {
+          "factIds": [
+            "company-name",
+            "boqueirao-phone"
+          ],
+          "reason": "Comunicação corporativa de rede médica."
+        },
+        "architecture": {
+          "factIds": [
+            "infrastructure-total",
+            "parking-info"
+          ],
+          "reason": "Ênfase em metragem, salas climatizadas e acessibilidade."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "/assets/clients/iorc-odontologia/17-Celso-Pilati-0300-768x432.jpg",
+        "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg"
+      ],
+      "referenceIds": [
+        "digital-architect.aura.build",
+        "parallax-clean"
+      ],
+      "composition": {
+        "heroType": "campus-facility-overview",
+        "sectionOrder": [
+          "hero",
+          "units",
+          "services",
+          "infrastructure",
+          "cta"
+        ],
+        "imageStrategy": "architectural-facility-grid",
+        "gridStrategy": "three-column-equal-cards",
+        "backgroundTreatment": "alternating-light-neutral-bands",
+        "cardTreatment": "neutral-boxed-units",
+        "typography": "standard-sans-system",
+        "motion": "none-static-clarity",
+        "ctaStyle": "outlined-border-button",
+        "rhythm": "dense-directory-spacing"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8.2,
+          "reason": "Valoriza as instalações físicas, mas reduz a diferenciação artística do redesign."
+        },
+        "assets": {
+          "score": 8,
+          "reason": "Utiliza fotos de fachada e salas, mas perde o refinamento do sorriso."
+        },
+        "audience": {
+          "score": 8.4,
+          "reason": "Prático para escolha de bairros, menos impactante para conversão de alto valor."
+        },
+        "references": {
+          "score": 8.5,
+          "reason": "Aplica a estrutura do digital-architect de forma funcional."
+        }
+      }
+    }
+  ],
+  "chosenId": "autoridade-clinica",
+  "selectionReason": "A direção Autoridade Clínica & Tradição Médica obteve a maior pontuação combinada (9.27/10) por integrar a autoridade histórica de 30 anos do Dr. Fabio Takachi Hase, a escala física de 4.000 m² e a precisão técnica das especialidades ortodônticas e de implantes sob um tratamento visual contemporâneo e cirúrgico.",
+  "hero": {
+    "desktop": "Layout split contemporâneo com logo oficial IORC, badge de 30 anos de tradição (fundado em 1995), chamada para alinhadores e reabilitação, botão de agendamento e fotografia clínica humanizada em consultório.",
+    "mobile": "Cabeçalho responsivo com logotipo nítido, selo de autoridade do Dr. Fabio Takachi Hase CRO/PR-9169, chamada principal legível, CTA de agendamento para WhatsApp e foto da estrutura da clínica.",
+    "assetPath": "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Excelência em Ortodontia e Implantes",
+      "variant": "split-showcase",
+      "factIds": [
+        "company-name",
+        "trade-name",
+        "founder-director",
+        "cro-registry"
+      ],
+      "compositionRationale": "Apresentação imediata da identidade médica e autoridade clínica na primeira dobra com foco em conversão e confiança."
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "title": "Estrutura e Tradição em Números",
+      "variant": "metric-bar",
+      "factIds": [
+        "positioning-history",
+        "infrastructure-total",
+        "infrastructure-matriz"
+      ],
+      "compositionRationale": "Barra de autoridade rápida comprovando 30 anos de fundação (1995), 4.000 m² de área total e 1.800 m² na matriz Boqueirão."
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "title": "Especialidades e Tratamentos Integrados",
+      "variant": "clinical-grid",
+      "factIds": [
+        "service-ortodontia",
+        "service-aparelho-invisivel",
+        "service-aparelho-safira",
+        "service-implantes",
+        "service-protese",
+        "service-clareamento-consultorio",
+        "service-facetas"
+      ],
+      "compositionRationale": "Grid modular em colunas com linhas sutis de precisão cirúrgica separando ortodontia digital, implantes e estética."
+    },
+    {
+      "id": "technology",
+      "type": "technology",
+      "title": "Parcerias e Tecnologia de Ponta",
+      "variant": "partner-badges",
+      "factIds": [
+        "service-aparelho-invisivel",
+        "service-implantes"
+      ],
+      "compositionRationale": "Chancela tecnológica destacando Invisalign, ClearCorrect e Neodent como garantias de precisão biomecânica."
+    },
+    {
+      "id": "infrastructure",
+      "type": "about",
+      "title": "Espaço Planejado para o Seu Cuidado",
+      "variant": "facility-split",
+      "factIds": [
+        "infrastructure-matriz",
+        "mission-statement",
+        "founder-director"
+      ],
+      "compositionRationale": "Apresentação detalhada da matriz no Alto Boqueirão com 1.800 m², salas climatizadas e consultórios modernos."
+    },
+    {
+      "id": "units",
+      "type": "locations",
+      "title": "Unidades de Atendimento em Curitiba",
+      "variant": "location-cards",
+      "factIds": [
+        "boqueirao-address",
+        "unit-sitio-cercado",
+        "parking-info",
+        "boqueirao-phone"
+      ],
+      "compositionRationale": "Cartões estruturados das unidades físicas orientando o paciente quanto à localização da matriz, estacionamento próprio e contato."
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "title": "Agende sua Avaliação Odontológica",
+      "variant": "direct-contact",
+      "factIds": [
+        "boqueirao-phone",
+        "contact-whatsapp-boqueirao",
+        "boqueirao-address"
+      ],
+      "compositionRationale": "Chamada final para agendamento direto via WhatsApp ou telefone com endereço e orientações da clínica."
+    }
+  ],
+  "palette": {
+    "background": {
+      "value": "#ffffff",
+      "source": "css",
+      "path": "leads/iorc-odontologia/referencias/site-baixado/index.html",
+      "sha256": "e555f8f1f9c4e9828f36a59000b96e1c01985f1a4b63d4e8d7aacab89ca8d56c",
+      "reason": "Fundo branco clínico medido no CSS original proporcionando contraste asséptico e leitura fluida."
+    },
+    "primary": {
+      "value": "#104050",
+      "source": "logo",
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825",
+      "reason": "Tom azul petróleo dominante medido diretamente nos pixels do logotipo institucional da clínica."
+    },
+    "secondary": {
+      "value": "#205060",
+      "source": "logo",
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825",
+      "reason": "Tom petróleo intermediário medido no logotipo para cabeçalhos de cartões e divisores."
+    },
+    "accent": {
+      "value": "#104060",
+      "source": "logo",
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825",
+      "reason": "Tom azul medido na marca para destaques visuais e botões principais de agendamento."
+    },
+    "text": {
+      "value": "#1e293b",
+      "source": "editorial-neutral",
+      "reason": "Slate 800 neutro de alto contraste para máxima legibilidade e clareza tipográfica técnica."
+    }
+  }
+}

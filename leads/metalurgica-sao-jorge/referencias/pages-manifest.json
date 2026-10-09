@@ -1,0 +1,63 @@
+{
+  "slug": "metalurgica-sao-jorge",
+  "client": "Metalúrgica São Jorge",
+  "domain": "metalurgicasaojorge.com.br",
+  "auditTimestamp": "2026-10-05T21:20:46.156Z",
+  "sitemapsInspected": [
+    "/sitemap.xml",
+    "/wp-sitemap.xml",
+    "/page-sitemap.xml",
+    "/sitemap_index.xml",
+    "/robots.txt"
+  ],
+  "realPages": [
+    {
+      "url": "https://metalurgicasaojorge.com.br/",
+      "type": "ROTA_REAL_PRINCIPAL",
+      "category": "home",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 162707
+    },
+    {
+      "url": "https://metalurgicasaojorge.com.br/politica-de-privacidade",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "legal",
+      "localPath": "referencias/site-baixado/politica-de-privacidade/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113351
+    }
+  ],
+  "homeAnchors": [
+    {
+      "anchor": "#content",
+      "label": "Pular para o conteúdo",
+      "targetUrl": "https://metalurgicasaojorge.com.br/#content"
+    },
+    {
+      "anchor": "#empresa",
+      "label": "EMPRESA",
+      "targetUrl": "https://metalurgicasaojorge.com.br/#empresa"
+    },
+    {
+      "anchor": "#servicos",
+      "label": "SERVIÇOS",
+      "targetUrl": "https://metalurgicasaojorge.com.br/#servicos"
+    },
+    {
+      "anchor": "#materiais",
+      "label": "MATERIAIS",
+      "targetUrl": "https://metalurgicasaojorge.com.br/#materiais"
+    },
+    {
+      "anchor": "#localizacao",
+      "label": "LOCALIZAÇÃO",
+      "targetUrl": "https://metalurgicasaojorge.com.br/#localizacao"
+    },
+    {
+      "anchor": "#contato",
+      "label": "CONTATO",
+      "targetUrl": "https://metalurgicasaojorge.com.br/#contato"
+    }
+  ]
+}

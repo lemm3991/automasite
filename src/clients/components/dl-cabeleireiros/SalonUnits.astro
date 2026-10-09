@@ -1,0 +1,4 @@
+---
+const { content } = Astro.props;
+---
+<section id="unidades" class="dl-units"><div class="dl-wrap"><p class="dl-eyebrow">Nossas unidades</p><div class="dl-section-heading"><h2>{content.title}</h2><p>Seu próximo momento de cuidado<br /> começa com uma conversa.</p></div><div class="dl-units-grid">{content.units.map(unit => <article><p class="dl-unit-city">{unit.city}</p><h3>{unit.name}</h3><address>{unit.address}</address><p class="dl-hours">{unit.hours}</p><a class="dl-phone" href={`tel:+55${unit.phone.replace(/\D/g,'')}`}>{unit.phone}</a><a class="dl-button" href={`https://wa.me/55${unit.phone.replace(/\D/g,'')}?text=${encodeURIComponent('Olá! Gostaria de agendar um horário.')}`} target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp <span aria-hidden="true">↗</span></a></article>)}</div></div></section>

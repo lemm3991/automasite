@@ -1,0 +1,13 @@
+{
+  "mobile": {
+    "hasHorizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390
+  },
+  "form": {
+    "exists": false,
+    "isVisible": false,
+    "reason": "NO_FORM"
+  },
+  "capturedAt": "2026-10-09T12:57:32.126Z"
+}

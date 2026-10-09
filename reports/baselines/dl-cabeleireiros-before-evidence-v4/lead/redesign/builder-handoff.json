@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 2,
+  "slug": "dl-cabeleireiros",
+  "status": "READY_FOR_DEMO",
+  "generatedAt": "2026-10-06T18:21:17.411Z",
+  "passed": true,
+  "errors": [],
+  "priorities": [
+    "Personalização e adequação ao cliente/ramo",
+    "Primeira dobra e qualidade visual",
+    "Identidade, conteúdo e assets reais",
+    "Fidelidade ao 2A",
+    "Responsividade/build",
+    "Integrações posteriores"
+  ],
+  "implementation": {
+    "planPath": "leads/dl-cabeleireiros/redesign/implementation-plan.json",
+    "components": [
+      {
+        "id": "header-main",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Header01.astro",
+        "reason": "Barra de navegação refinada para salão de alto padrão com logo oficial e botão direto para agendamento no WhatsApp."
+      },
+      {
+        "id": "hero",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+        "reason": "Painel de abertura editorial com fotografia vertical de transformação capilar real e credenciais de fundação."
+      },
+      {
+        "id": "servicos",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Services01.astro",
+        "reason": "Grid refinado de especialidades capilares e estética baseado nos 7 serviços literais do site atual."
+      },
+      {
+        "id": "diferenciais",
+        "action": "create",
+        "path": "src/clients/components/dl-cabeleireiros/SalonExperience.astro",
+        "reason": "Componente exclusivo para evidenciar a filosofia de atendimento, protocolos avançados e produtos premium."
+      },
+      {
+        "id": "unidades",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/About01.astro",
+        "reason": "Seção institucional destacando a história de fundação por Douglas e Luciano e as duas unidades físicas em SC."
+      },
+      {
+        "id": "portfolio",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+        "reason": "Galeria fotográfica com os 4 registros reais de trabalhos e transformações capilares do salão."
+      },
+      {
+        "id": "contato",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Contact01.astro",
+        "reason": "Canal de contato e agendamento direto pelo WhatsApp com separação clara das unidades."
+      },
+      {
+        "id": "cta-final",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/CTA04.astro",
+        "reason": "Faixa de conversão final para agendamento direto antes do encerramento da página."
+      },
+      {
+        "id": "footer",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Footer08.astro",
+        "reason": "Rodapé institucional completo com os endereços das 2 unidades e direitos autorais."
+      }
+    ],
+    "referenceApplications": [
+      {
+        "referenceId": "barbershop-landing-51.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+        "codeExcerpt": "<span class=\"section-tag-line\"></span>",
+        "explanation": "Aplicação da linha sutil decorativa dourada em Hero07 para introduzir o badge de localização."
+      },
+      {
+        "referenceId": "barbershop-landing-51.aura.build",
+        "sectionId": "servicos",
+        "codePath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+        "codeExcerpt": "<span class=\"section-tag-line\"></span>",
+        "explanation": "Aplicação de linha de cabeçalho refinada para categorização de serviços em Services01."
+      },
+      {
+        "referenceId": "barbershop-landing-51.aura.build",
+        "sectionId": "unidades",
+        "codePath": "src/clients/components/dl-cabeleireiros/About01.astro",
+        "codeExcerpt": "<span class=\"section-tag-line\"></span>",
+        "explanation": "Linha decorativa dourada de cabeçalho na introdução dos espaços físicos em About01."
+      },
+      {
+        "referenceId": "ai-automation-17.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+        "codeExcerpt": "text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400",
+        "explanation": "Micro-badge com tracking expandido para identificar a chancela de salão em Palhoça."
+      },
+      {
+        "referenceId": "ai-automation-17.aura.build",
+        "sectionId": "diferenciais",
+        "codePath": "src/clients/components/dl-cabeleireiros/SalonExperience.astro",
+        "codeExcerpt": "text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400",
+        "explanation": "Tags com tracking amplo sobre cada card de protocolo avançado e exclusividade cosmética."
+      },
+      {
+        "referenceId": "parallax-clean",
+        "sectionId": "servicos",
+        "codePath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+        "codeExcerpt": "grid-template-columns: 1fr 1.2fr;",
+        "explanation": "Grid assimétrico 1fr 1.2fr para bloco de destaque de protocolos de mechas e iluminação."
+      },
+      {
+        "referenceId": "parallax-clean",
+        "sectionId": "portfolio",
+        "codePath": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+        "codeExcerpt": "grid-template-columns: 1fr 1.2fr;",
+        "explanation": "Grid assimétrico 1fr 1.2fr com proporção e acabamento sutil inspirado no parallax-clean."
+      }
+    ],
+    "previousFingerprint": null,
+    "fingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "header",
+        "hero",
+        "services",
+        "benefits",
+        "about",
+        "projects",
+        "contact",
+        "cta",
+        "footer"
+      ],
+      "imageStrategy": [
+        "hero",
+        "projects"
+      ],
+      "gridStrategy": [
+        "1",
+        "2",
+        "3"
+      ],
+      "backgroundTreatment": [
+        "light",
+        "none",
+        "continuous"
+      ],
+      "cardTreatment": "luxury-bordered",
+      "typography": [
+        "Inter",
+        "Inter"
+      ],
+      "motion": "local-reduced-motion",
+      "selectedVariants": [
+        {
+          "variant": "Header01",
+          "file": "src/clients/components/dl-cabeleireiros/Header01.astro",
+          "sha256": "513b118fcdc9639474b8d20ebb33f1ed37c42888890cbab5a36780a6c39e6967"
+        },
+        {
+          "variant": "Hero07",
+          "file": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+          "sha256": "4d598839f93ab2e5aab6ca7cd4eec12eb3aec0502bf4132b257b68234124c968"
+        },
+        {
+          "variant": "Services01",
+          "file": "src/clients/components/dl-cabeleireiros/Services01.astro",
+          "sha256": "6e30f754af2572e6289d30ce5f19b3362220842a315415c22b3c36b309eb56d2"
+        },
+        {
+          "variant": "SalonExperience",
+          "file": "src/clients/components/dl-cabeleireiros/SalonExperience.astro",
+          "sha256": "21d4678848531cb99a4705c0d8ef8e0b1a69b1466df0192b9146efcfe8fed618"
+        },
+        {
+          "variant": "About01",
+          "file": "src/clients/components/dl-cabeleireiros/About01.astro",
+          "sha256": "4cb9a50e2676e9dbdf15385f988e9455eff651be76a1dcde0d050d27bcea20eb"
+        },
+        {
+          "variant": "Showcase01",
+          "file": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+          "sha256": "4f920a259fd66d8a4b54ee80e6560afae1c23f81f9af8d5c892a38fdb9eb4deb"
+        },
+        {
+          "variant": "Contact01",
+          "file": "src/clients/components/dl-cabeleireiros/Contact01.astro",
+          "sha256": "b0e8a72478cf03dbea9bc1c0bc36dd30776ebda624a4c1af6f475e96f70d96ba"
+        },
+        {
+          "variant": "CTA04",
+          "file": "src/clients/components/dl-cabeleireiros/CTA04.astro",
+          "sha256": "39cb88e3f4d5c39691b4e31868064663a472146ca0e9f2bde41c80d7c1f0cc53"
+        },
+        {
+          "variant": "Footer08",
+          "file": "src/clients/components/dl-cabeleireiros/Footer08.astro",
+          "sha256": "b9b210e423408483fb1b216862a4f9f79b12839c7ba507222b41531ea747661a"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "slug": "cadas-arquitetura",
+        "method": "Heurística estrutural de nove dimensões; não é nota visual",
+        "structuralSimilarity": 36,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.6666666666666666,
+          "imageStrategy": 0.6666666666666666,
+          "gridStrategy": 0.75,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0,
+          "motion": 0,
+          "selectedVariants": 0
+        },
+        "sharedBaseVariants": [
+          "About01",
+          "Showcase01"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "delta-pan",
+        "method": "Heurística estrutural de nove dimensões; não é nota visual",
+        "structuralSimilarity": 35,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.7777777777777778,
+          "imageStrategy": 0.2,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "motion": 0,
+          "selectedVariants": 0
+        },
+        "sharedBaseVariants": [
+          "Header01",
+          "Hero07",
+          "Services01",
+          "About01",
+          "Contact01",
+          "CTA04",
+          "Footer08"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "juliana-pippi-arquitetura",
+        "method": "Heurística estrutural de nove dimensões; não é nota visual",
+        "structuralSimilarity": 36,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.6666666666666666,
+          "imageStrategy": 0.4,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "motion": 0,
+          "selectedVariants": 0
+        },
+        "sharedBaseVariants": [
+          "Header01",
+          "Hero07",
+          "About01",
+          "Contact01",
+          "CTA04",
+          "Footer08"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "method": "Heurística estrutural de nove dimensões; não é nota visual",
+        "structuralSimilarity": 64,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.7777777777777778,
+          "imageStrategy": 1,
+          "gridStrategy": 0.75,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 1,
+          "motion": 1,
+          "selectedVariants": 0
+        },
+        "sharedBaseVariants": [
+          "Header01",
+          "Hero07",
+          "Services01",
+          "About01",
+          "Showcase01",
+          "Contact01",
+          "Footer08"
+        ],
+        "identicalComponentSources": 0
+      }
+    ]
+  },
+  "evidence": {
+    "build": "leads/dl-cabeleireiros/redesign/build-evidence.json",
+    "render": "leads/dl-cabeleireiros/redesign/render-evidence.json",
+    "visualReview": "leads/dl-cabeleireiros/redesign/visual-review.json"
+  },
+  "renderValidation": {
+    "schemaVersion": 1,
+    "kind": "Render Validation",
+    "slug": "dl-cabeleireiros",
+    "checkedAt": "2026-10-06T18:21:17.002Z",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "inspected": [
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "55083712dd1f797e38a370ae9c5a00e5cc8ec68fa2bb63ab84f003a6f30a1e62"
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "width": 1440,
+        "height": 6228,
+        "sha256": "b85cca91f22318d3d722e42ed6729a7f5beed24d99b077743cb5ee5aec2aac7f"
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "317fad96300483b43fa2b6b1ee2c421d6e1cb6434da89a2272975e069f3f67d5"
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png",
+        "width": 390,
+        "height": 10945,
+        "sha256": "a7f394200341d99003d35fbc859ede8bca5159adceed21e4774ff6a49692466f"
+      }
+    ],
+    "visualAssessment": "requires_image_review",
+    "visualQualityScore": null,
+    "regressions": null,
+    "limitations": [
+      "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+      "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+    ]
+  },
+  "qualitativeReview": "approved",
+  "removedUnsupportedClaims": [],
+  "reviewedAbsentClaims": [],
+  "upstreamCorrections": [
+    "O brief preliminar do 2A detectou apenas 1 serviço por conta de formatação da copy; no plano do Builder recuperamos todos os 7 serviços literais presentes em site-atual.md.",
+    "O endereço da unidade prioritária de Palhoça (Rua Portinari, 170, Pedra Branca) foi destacado para o público da cidade-alvo."
+  ],
+  "productionPending": [
+    "Formulário de contato web opera como demonstração visual; a conversão prioritária é o botão direto de WhatsApp.",
+    "Integração com sistema de agendamento online externo poderá ser configurada futuramente."
+  ],
+  "limitations": [
+    "O gate verifica rastreabilidade e atualidade; o julgamento estético e factual depende da inspeção registrada pelo agente.",
+    "Prontidão da demonstração não comprova desempenho comercial, produção ou envio ao cliente."
+  ]
+}

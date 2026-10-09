@@ -1,0 +1,25 @@
+---
+const propertyAreas=[
+ ['Direito Imobiliário Aplicado – Imobiliárias','direito-imobiliario-aplicado-imobiliarias'],
+ ['Direito Imobiliário Aplicado – Construtoras e Incorporadoras','direito-imobiliario-aplicado-construtoras-e-incorporadoras'],
+ ['Direito Imobiliário Aplicado ao Direito Público','direito-imobiliario-aplicado-ao-direito-publico'],
+ ['Registral e Notarial','registral-notarial']
+];
+const businessAreas=[
+ ['Direito Empresarial','direito-empresarial'],['Planejamento Patrimonial e Sucessões','planejamento-patrimonial-e-sucessoes'],
+ ['Direito do Trabalho','direito-do-trabalho'],['Propriedade Intelectual','propriedade-intelectual'],
+ ['LGPD, Privacidade e Proteção de Dados','lgpd'],['Direito Digital','direito-digital'],
+ ['Agronegócio','agronegocio'],['Assessoria em Leilões','assessoria-em-leiloes']
+];
+---
+<section id="areas" class="bca-section bca-practices">
+ <div class="bca-wrap">
+  <div class="bca-section-heading"><div><p class="bca-eyebrow">Áreas de atuação</p><h2>Direito e negócios,<br/>em perspectiva.</h2></div><p>Explore cada área no site do escritório.</p></div>
+  <div class="bca-property-list">
+   {propertyAreas.map(([name,url])=><a href={'https://brottocampelo.adv.br/'+url+'/'} target="_blank" rel="noopener noreferrer"><span>{name}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>)}
+  </div>
+  <div class="bca-practice-grid">
+   {businessAreas.map(([name,url])=><a href={'https://brottocampelo.adv.br/'+url+'/'} target="_blank" rel="noopener noreferrer"><span>{name}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>)}
+  </div>
+ </div>
+</section>

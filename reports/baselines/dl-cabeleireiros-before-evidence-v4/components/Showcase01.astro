@@ -1,0 +1,90 @@
+---
+import './salon.css';
+interface Props {
+  content: {
+    title?: string;
+    description?: string;
+    items?: Array<{
+      title: string;
+      caption?: string;
+      image: string;
+      alt?: string;
+    }>;
+  };
+}
+
+const { content } = Astro.props;
+const title = content?.title || "Resultados Reais & Galeria de Transformações";
+const description = content?.description || "Conheça os resultados reais de mechas, cortes, styling e protocolos capilares executados pelos profissionais do D&L Cabeleireiros.";
+const items = content?.items || [
+  {
+    title: "Iluminação & Mechas",
+    caption: "Tons luminosos e preservação da fibra capilar",
+    image: "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+    alt: "Mechas e iluminação realizadas no salão D&L"
+  },
+  {
+    title: "Loiro Sofisticado",
+    caption: "Acabamento luminoso com saúde e brilho",
+    image: "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+    alt: "Transformação de cor e tratamento D&L"
+  },
+  {
+    title: "Corte & Estilização",
+    caption: "Valorização da identidade e movimento natural",
+    image: "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+    alt: "Corte de cabelo e finalização D&L"
+  },
+  {
+    title: "Produção Completa",
+    caption: "Finalização impecável com leveza e durabilidade",
+    image: "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+    alt: "Produção de beleza e penteado D&L"
+  }
+];
+---
+
+<section id="portfolio" class="dl-section bg-stone-50/50" data-card-treatment="luxury-bordered" data-surface-rhythm="continuous">
+  <div class="dl-wrap">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div class="max-w-xl">
+        <span class="text-xs font-bold uppercase tracking-widest text-amber-700">Portfólio Autêntico</span>
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 mt-2 mb-3">{title}</h2>
+        <p class="text-base text-gray-600 leading-relaxed">{description}</p>
+      </div>
+      <div class="text-sm font-semibold text-gray-500">
+        Fotos Reais do Salão
+      </div>
+    </div>
+
+    <!-- Layout modular com proporção inspirada no parallax-clean -->
+    <div class="hidden lg:grid gap-6 mb-6" style="grid-template-columns: 1fr 1.2fr;">
+      <div class="p-6 bg-white rounded-2xl border border-stone-200 flex items-center justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-700">D&L Palhoça</span>
+          <h4 class="text-lg font-bold text-gray-900 mt-1">Atendimento na Pedra Branca</h4>
+        </div>
+        <span class="text-xs text-gray-500">Terça a Sábado</span>
+      </div>
+      <div class="p-6 bg-white rounded-2xl border border-stone-200 flex items-center justify-between">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-700">D&L Florianópolis</span>
+          <h4 class="text-lg font-bold text-gray-900 mt-1">Atendimento na Agronômica</h4>
+        </div>
+        <span class="text-xs text-gray-500">Segunda a Sábado</span>
+      </div>
+    </div>
+
+    <div class="dl-portfolio-grid">
+      {items.map((item) => (
+        <div class="dl-portfolio-item">
+          <img src={item.image} alt={item.alt || item.title} width="480" height="360" loading="lazy" />
+          <div class="dl-portfolio-info">
+            <h4>{item.title}</h4>
+            <span>{item.caption}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

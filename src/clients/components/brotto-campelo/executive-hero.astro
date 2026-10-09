@@ -1,0 +1,22 @@
+---
+import './legal.css';
+const { content } = Astro.props;
+---
+<header class="bca-header">
+  <a href="#bca-hero" aria-label="Brotto Campelo Advogados — início"><img id="bca-logo" src="/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png" alt="Logotipo horizontal Brotto Campelo Advogados em laranja, com monograma BCA." width="200" height="40" /></a>
+  <nav aria-label="Navegação principal"><a class="bca-nav-area" href="#areas">Áreas de atuação</a><a class="bca-nav-area" href="#sede">O escritório</a><a href="#contato">Fale conosco <span aria-hidden="true">↗</span></a></nav>
+</header>
+<section id="bca-hero" class="bca-hero" data-surface-rhythm="portrait-compact-awards-open-directory" data-card-treatment="open-ruled-sections">
+  <div class="bca-wrap bca-hero-grid">
+    <div class="bca-hero-heading">
+      <p class="bca-eyebrow">Brotto Campelo Advogados</p>
+      <h1 style="font-family: 'Playfair Display', serif;">{content?.title || 'Soluções jurídicas inovadoras'}</h1>
+    </div>
+    <figure class="bca-hero-photo">
+      <img src="/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg" alt="Fotografia conjunta dos sócios-fundadores Natália Brotto e Ricardo Campelo." width="683" height="1024" loading="eager" fetchpriority="high" />
+      <figcaption>Natália Brotto e Ricardo Campelo — Sócios-fundadores</figcaption>
+    </figure>
+    <p class="bca-hero-message">{content?.subtitle || 'Forte atuação em Direito Empresarial e Imobiliário.'}</p>
+    <div class="bca-hero-actions"><a class="bca-button bca-cta-btn" href="#contato">Falar com a equipe <span aria-hidden="true">↗</span></a><a class="bca-text-link" href="#areas">Conheça nossas áreas <span aria-hidden="true">↓</span></a></div>
+  </div>
+</section>

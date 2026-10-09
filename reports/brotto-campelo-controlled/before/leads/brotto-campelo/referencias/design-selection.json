@@ -1,0 +1,53 @@
+{
+  "slug": "brotto-campelo",
+  "selectedDesignSystems": [
+    {
+      "name": "luxury-real-estate-22.aura.build",
+      "path": "Design System/temas_claros/luxury-real-estate-22.aura.build/luxury-real-estate-22.aura.build/design-system.html",
+      "sourceSha256": "96f618efb572df4e558b8aeb320182ed4409e4ed82bfe902c9365bc2a3f56b86",
+      "selectionReason": "Navegação fluida e transição suave entre a apresentação dos sócios e as especialidades jurídicas.",
+      "observations": [
+        {
+          "excerpt": "scroll-behavior: smooth;",
+          "benefit": "Navegação fluida e transição suave entre a apresentação dos sócios e as especialidades jurídicas.",
+          "factIds": [
+            "service-empresarial",
+            "service-planejamento"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "architecture-studio.aura.build",
+      "path": "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/design-system.html",
+      "sourceSha256": "8eed37ef6f2d3150a46a0d666d99a3a732aa81b18e3a91bdb3d0716b378e642e",
+      "selectionReason": "Linhas arquitetônicas sutis de contenção que organizam os reconhecimentos e as credenciais sem caixas pesadas.",
+      "observations": [
+        {
+          "excerpt": "border-x border-[#C4CFC0]/60",
+          "benefit": "Linhas arquitetônicas sutis de contenção que organizam os reconhecimentos e as credenciais sem caixas pesadas.",
+          "factIds": [
+            "company-name",
+            "tagline-hero"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ai-saas-landing-27.aura.build",
+      "path": "Design System/temas_claros/ai-saas-landing-27.aura.build/ai-saas-landing-27.aura.build/design-system.html",
+      "sourceSha256": "5e62c4967033e3e792f586b5a1021b22060a273ce0d6d27deb27815abb608206",
+      "selectionReason": "Tipografia serifada de alta distinção para conferir nobreza e autoridade jurídica aos títulos principais.",
+      "observations": [
+        {
+          "excerpt": "font-family: 'Playfair Display', serif;",
+          "benefit": "Tipografia serifada de alta distinção para conferir nobreza e autoridade jurídica aos títulos principais.",
+          "factIds": [
+            "company-name",
+            "founder-ricardo"
+          ]
+        }
+      ]
+    }
+  ]
+}

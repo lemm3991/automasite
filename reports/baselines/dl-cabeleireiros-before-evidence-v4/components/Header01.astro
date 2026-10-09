@@ -1,0 +1,44 @@
+---
+import './salon.css';
+interface Props {
+  content: {
+    navLinks?: Array<{ label: string; href: string }>;
+    ctaHref?: string;
+    ctaLabel?: string;
+  };
+  client?: any;
+}
+
+const { content, client } = Astro.props;
+const logo = client?.business?.logo || "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png";
+const navLinks = content?.navLinks || [
+  { label: "Serviços", href: "#servicos" },
+  { label: "Diferenciais", href: "#diferenciais" },
+  { label: "Unidades", href: "#unidades" },
+  { label: "Portfólio", href: "#portfolio" },
+  { label: "Contato", href: "#contato" }
+];
+const ctaHref = content?.ctaHref || "https://wa.me/5548999360284";
+const ctaLabel = content?.ctaLabel || "Agendar no WhatsApp";
+---
+
+<header class="dl-header" data-card-treatment="luxury-bordered" data-surface-rhythm="continuous">
+  <div class="dl-wrap dl-header-inner">
+    <a href="#" class="dl-logo" aria-label="D&L Cabeleireiros - Página Inicial">
+      <img src={logo} alt="D&L Cabeleireiros" width="160" height="48" loading="eager" />
+    </a>
+
+    <nav class="dl-nav-links hidden md:flex" aria-label="Navegação Principal">
+      {navLinks.map((link) => (
+        <a href={link.href}>{link.label}</a>
+      ))}
+    </nav>
+
+    <div class="flex items-center gap-4">
+      <a href={ctaHref} target="_blank" rel="noopener noreferrer" class="dl-button">
+        <span>{ctaLabel}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+      </a>
+    </div>
+  </div>
+</header>

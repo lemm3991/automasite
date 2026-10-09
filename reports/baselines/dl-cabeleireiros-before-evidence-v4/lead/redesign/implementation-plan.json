@@ -1,0 +1,526 @@
+{
+  "schemaVersion": 1,
+  "slug": "dl-cabeleireiros",
+  "concept": "Rigor Especializado & Portfólio de Beleza Premium",
+  "inputs": [
+    {
+      "path": "leads/dl-cabeleireiros/referencias/creative-brief.md"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/art-direction.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/design-selection.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/visual/visual-handoff.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/site-atual.md"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/lead.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/assets-manifest.json"
+    }
+  ],
+  "hero": {
+    "sectionId": "hero",
+    "direction": "Split editorial elegante com fotografia autêntica de resultado capilar, tipografia sofisticada, micro-badges de especialidade e canal prioritário para a unidade Pedra Branca (Palhoça).",
+    "asset": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+    "baseComponent": "Hero07",
+    "action": "adapt",
+    "changes": [
+      "Substituição de cartões genéricos por fotografia vertical de resultado real",
+      "Tipografia editorial com badge de especialidade com tracking expandido",
+      "Métricas e credenciais reais: 2 Unidades em SC e fundadores Douglas & Luciano",
+      "Chamada de ação direta para WhatsApp da unidade Pedra Branca em Palhoça"
+    ]
+  },
+  "references": [
+    {
+      "id": "barbershop-landing-51.aura.build",
+      "sourcePath": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+      "stackPath": "Design System/temas_escuros/barbershop-landing-51.aura.build/STACK.md",
+      "observations": [
+        {
+          "excerpt": "<span class=\"section-tag-line\"></span>",
+          "element": "Linha decorativa de cabeçalho de seção e tags refinadas de categorização de serviços.",
+          "appliedTo": [
+            "hero",
+            "servicos",
+            "unidades"
+          ],
+          "reinterpretation": "Aplicar linha sutil decorativa dourada/cobre em rótulos de seção e títulos de serviços, transmitindo sofisticação sem estética retrô de barbearia."
+        }
+      ]
+    },
+    {
+      "id": "ai-automation-17.aura.build",
+      "sourcePath": "Design System/temas_claros/ai-automation-17.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400",
+          "element": "Micro-badges monocromáticos com tracking expandido para protocolos e especialidades.",
+          "appliedTo": [
+            "hero",
+            "diferenciais"
+          ],
+          "reinterpretation": "Utilizar tipografia de apoio técnica e elegante com tracking amplo para identificar protocolos de tratamento e marcas de produtos premium."
+        }
+      ]
+    },
+    {
+      "id": "parallax-clean",
+      "sourcePath": "Design System/temas_claros/parallax-clean/design-system.html",
+      "observations": [
+        {
+          "excerpt": "grid-template-columns: 1fr 1.2fr;",
+          "element": "Composição em grid assimétrico com bordas sutis e profundidade de sombras.",
+          "appliedTo": [
+            "servicos",
+            "portfolio"
+          ],
+          "reinterpretation": "Aplicar proporção de grid elegante e cartões com bordas de baixa opacidade para enaltecer as fotografias reais de cabelo e unhas."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-baixado/assets/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "role": "logo",
+      "description": "Logotipo oficial da marca D&L Cabeleireiros com fundo transparente.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Logotipo oficial da marca D&L Cabeleireiros com fundo transparente."
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-baixado/assets/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "role": "hero",
+      "description": "Fotografia vertical de resultado de beleza capilar autêntico do salão.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Fotografia vertical de resultado de beleza capilar autêntico do salão."
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-baixado/assets/05-hqdefault.webp",
+      "role": "portfolio",
+      "description": "Registro fotográfico real de transformação capilar e iluminação.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Registro fotográfico real de transformação capilar e iluminação."
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-baixado/assets/06-hqdefault.webp",
+      "role": "portfolio",
+      "description": "Registro fotográfico real de técnica de mechas e acabamento sofisticado.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Registro fotográfico real de técnica de mechas e acabamento sofisticado."
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-baixado/assets/07-hqdefault.webp",
+      "role": "portfolio",
+      "description": "Registro fotográfico real de corte e estilização com movimento.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Registro fotográfico real de corte e estilização com movimento."
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-baixado/assets/08-hqdefault.webp",
+      "role": "portfolio",
+      "description": "Registro fotográfico real de produção de beleza e finalização impecável.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Registro fotográfico real de produção de beleza e finalização impecável."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "founders",
+      "text": "Fundado por Douglas e Luciano com foco em excelência e atendimento personalizado.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "Fundado por Douglas e Luciano",
+      "usedIn": [
+        "hero",
+        "unidades"
+      ]
+    },
+    {
+      "id": "premium-products",
+      "text": "Trabalho exclusivo com produtos premium e protocolos avançados de saúde e bem-estar.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "Trabalhamos exclusivamente com produtos premium e protocolos avançados",
+      "usedIn": [
+        "diferenciais"
+      ]
+    },
+    {
+      "id": "team-qualification",
+      "text": "Equipe de profissionais altamente qualificados e atualizados com tendências nacionais e internacionais.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "profissionais altamente qualificados, constantemente atualizados",
+      "usedIn": [
+        "diferenciais"
+      ]
+    },
+    {
+      "id": "unit-palhoca",
+      "text": "Unidade Pedra Branca em Palhoça: Rua Portinari, 170. Seg a Sáb 09h às 21h.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "Rua Portinari, 170,  Pedra Branca, Palhoça",
+      "usedIn": [
+        "hero",
+        "unidades",
+        "contato"
+      ]
+    },
+    {
+      "id": "unit-florianopolis",
+      "text": "Unidade Agronômica em Florianópolis: Rua Frei Caneca, 17. Seg a Sáb 09h às 21h30.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+      "usedIn": [
+        "unidades",
+        "contato"
+      ]
+    },
+    {
+      "id": "services-cuts",
+      "text": "Cortes personalizados que valorizam a identidade e o movimento de cada cliente.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "Cortes personalizados que valorizam sua identidade e movimento.",
+      "usedIn": [
+        "servicos"
+      ]
+    },
+    {
+      "id": "services-megahair",
+      "text": "Técnicas modernas para volume, comprimento e acabamento perfeito.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "Técnicas modernas para volume, comprimento e acabamento perfeito.",
+      "usedIn": [
+        "servicos"
+      ]
+    },
+    {
+      "id": "services-treatments",
+      "text": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios.",
+      "usedIn": [
+        "servicos"
+      ]
+    },
+    {
+      "id": "phone-palhoca",
+      "text": "WhatsApp Unidade Palhoça / Pedra Branca: (48) 99936-0284.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/site-atual.md",
+      "sourceExcerpt": "(48) 99936-0284",
+      "usedIn": [
+        "header-main",
+        "contato",
+        "cta-final",
+        "business"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "header-main",
+      "type": "header",
+      "variant": "Header01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/header/Header01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Header01.astro",
+      "reason": "Barra de navegação refinada para salão de alto padrão com logo oficial e botão direto para agendamento no WhatsApp.",
+      "changes": [
+        "Aplicação do logotipo oficial transparente em proporção equilibrada",
+        "Links internos orientados ao fluxo: Serviços, Protocolos, Unidades, Portfólio e Contato",
+        "Botão de agendamento rápido com redirecionamento ao WhatsApp de Palhoça"
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "phone-palhoca"
+      ],
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png"
+      ]
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "Hero07",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/hero/Hero07.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+      "reason": "Painel de abertura editorial com fotografia vertical de transformação capilar real e credenciais de fundação.",
+      "changes": [
+        "Apresentação da fotografia real de beleza capilar autêntica",
+        "Badge com tracking estendido inspirado no ai-automation-17",
+        "Régua de credenciais autênticas com destaque para fundadores e as 2 unidades físicas",
+        "Linha decorativa sutil inspirada no barbershop-landing-51"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build",
+        "ai-automation-17.aura.build"
+      ],
+      "claimIds": [
+        "founders",
+        "unit-palhoca"
+      ],
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg"
+      ]
+    },
+    {
+      "id": "servicos",
+      "type": "services",
+      "variant": "Services01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/services/Services01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+      "reason": "Grid refinado de especialidades capilares e estética baseado nos 7 serviços literais do site atual.",
+      "changes": [
+        "Organização em cards com linha decorativa sutil de barbershop-landing-51",
+        "Apresentação de cortes, mechas, mega hair e tratamentos capilares reais",
+        "Grid assimétrico e espaçamento arejado inspirado no parallax-clean"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build",
+        "parallax-clean"
+      ],
+      "claimIds": [
+        "services-cuts",
+        "services-megahair",
+        "services-treatments"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "diferenciais",
+      "type": "benefits",
+      "variant": "SalonExperience",
+      "action": "create",
+      "candidateComponents": [
+        "src/components/benefits/Features02.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/SalonExperience.astro",
+      "reason": "Componente exclusivo para evidenciar a filosofia de atendimento, protocolos avançados e produtos premium.",
+      "changes": [
+        "Criação de layout com 3 colunas de autoridade: Protocolos Avançados, Equipe Atualizada e Produtos Premium",
+        "Micro-badges text-[0.65rem] tracking-[0.25em] herdados do ai-automation-17",
+        "Bordas e acabamento sutil sem sombras pesadas de nicho industrial"
+      ],
+      "referenceIds": [
+        "ai-automation-17.aura.build"
+      ],
+      "claimIds": [
+        "premium-products",
+        "team-qualification"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "unidades",
+      "type": "about",
+      "variant": "About01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/about/About01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/About01.astro",
+      "reason": "Seção institucional destacando a história de fundação por Douglas e Luciano e as duas unidades físicas em SC.",
+      "changes": [
+        "Apresentação estruturada das duas unidades: Palhoça (Pedra Branca) e Florianópolis (Agronômica)",
+        "Destaque para horários e canais de atendimento verificados",
+        "Linha decorativa de cabeçalho inspirada em barbershop-landing-51"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build"
+      ],
+      "claimIds": [
+        "founders",
+        "unit-palhoca",
+        "unit-florianopolis"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "portfolio",
+      "type": "projects",
+      "variant": "Showcase01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/projects/Showcase01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+      "reason": "Galeria fotográfica com os 4 registros reais de trabalhos e transformações capilares do salão.",
+      "changes": [
+        "Grid balanceado com as 4 fotos autênticas baixadas do site oficial",
+        "Legendas descritivas focadas em mechas, cor, corte e finalização",
+        "Proporção visual e moldura sutil inspirada no parallax-clean"
+      ],
+      "referenceIds": [
+        "parallax-clean"
+      ],
+      "claimIds": [],
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+        "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+        "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+        "/assets/clients/dl-cabeleireiros/08-hqdefault.webp"
+      ]
+    },
+    {
+      "id": "contato",
+      "type": "contact",
+      "variant": "Contact01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/contact/Contact01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Contact01.astro",
+      "reason": "Canal de contato e agendamento direto pelo WhatsApp com separação clara das unidades.",
+      "changes": [
+        "Apresentação dos telefones e horários reais de Palhoça e Florianópolis",
+        "Link direto configurado para o WhatsApp da unidade Pedra Branca",
+        "Formulário simplificado para contato sem backend impeditivo"
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "unit-palhoca",
+        "unit-florianopolis",
+        "phone-palhoca"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "cta-final",
+      "type": "cta",
+      "variant": "CTA04",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/cta/CTA04.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/CTA04.astro",
+      "reason": "Faixa de conversão final para agendamento direto antes do encerramento da página.",
+      "changes": [
+        "Chamada para ação acolhedora: 'Estamos prontos para cuidar de você'",
+        "Botão de alta visibilidade direcionando ao WhatsApp da unidade Pedra Branca"
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "phone-palhoca"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "Footer08",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/footer/Footer08.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Footer08.astro",
+      "reason": "Rodapé institucional completo com os endereços das 2 unidades e direitos autorais.",
+      "changes": [
+        "Presença do logotipo oficial transparente",
+        "Endereços e horários completos das duas unidades físicas em SC",
+        "Direitos autorais 2026 D&L Salão de Beleza"
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "unit-palhoca",
+        "unit-florianopolis"
+      ],
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png"
+      ]
+    }
+  ],
+  "upstreamCorrections": [
+    "O brief preliminar do 2A detectou apenas 1 serviço por conta de formatação da copy; no plano do Builder recuperamos todos os 7 serviços literais presentes em site-atual.md.",
+    "O endereço da unidade prioritária de Palhoça (Rua Portinari, 170, Pedra Branca) foi destacado para o público da cidade-alvo."
+  ],
+  "productionPending": [
+    "Formulário de contato web opera como demonstração visual; a conversão prioritária é o botão direto de WhatsApp.",
+    "Integração com sistema de agendamento online externo poderá ser configurada futuramente."
+  ],
+  "similarityJustification": {
+    "delta-pan": "Composição exclusiva para salão de beleza de alto padrão: 7 serviços de estética capilar, componente novo SalonExperience para protocolos e produtos, fotografia vertical de beleza no hero e galeria real de transformações.",
+    "metalurgica-sao-jorge": "Totalmente divergente: paleta clara refinada, foco em atendimento pessoal e cuidados capilares com fundadores e duas unidades físicas."
+  },
+  "implementationEvidence": [
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+      "codeExcerpt": "<span class=\"section-tag-line\"></span>",
+      "explanation": "Aplicação da linha sutil decorativa dourada em Hero07 para introduzir o badge de localização."
+    },
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "servicos",
+      "codePath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+      "codeExcerpt": "<span class=\"section-tag-line\"></span>",
+      "explanation": "Aplicação de linha de cabeçalho refinada para categorização de serviços em Services01."
+    },
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "unidades",
+      "codePath": "src/clients/components/dl-cabeleireiros/About01.astro",
+      "codeExcerpt": "<span class=\"section-tag-line\"></span>",
+      "explanation": "Linha decorativa dourada de cabeçalho na introdução dos espaços físicos em About01."
+    },
+    {
+      "referenceId": "ai-automation-17.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+      "codeExcerpt": "text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400",
+      "explanation": "Micro-badge com tracking expandido para identificar a chancela de salão em Palhoça."
+    },
+    {
+      "referenceId": "ai-automation-17.aura.build",
+      "sectionId": "diferenciais",
+      "codePath": "src/clients/components/dl-cabeleireiros/SalonExperience.astro",
+      "codeExcerpt": "text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400",
+      "explanation": "Tags com tracking amplo sobre cada card de protocolo avançado e exclusividade cosmética."
+    },
+    {
+      "referenceId": "parallax-clean",
+      "sectionId": "servicos",
+      "codePath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+      "codeExcerpt": "grid-template-columns: 1fr 1.2fr;",
+      "explanation": "Grid assimétrico 1fr 1.2fr para bloco de destaque de protocolos de mechas e iluminação."
+    },
+    {
+      "referenceId": "parallax-clean",
+      "sectionId": "portfolio",
+      "codePath": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+      "codeExcerpt": "grid-template-columns: 1fr 1.2fr;",
+      "explanation": "Grid assimétrico 1fr 1.2fr com proporção e acabamento sutil inspirado no parallax-clean."
+    }
+  ]
+}

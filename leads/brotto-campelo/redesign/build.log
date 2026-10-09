@@ -1,0 +1,36 @@
+16:44:03 [types] Generated 324ms
+16:44:06 [build] Waiting for integration "@astrojs/vercel", hook "astro:build:start"...
+16:44:13 [build] output: "static"
+16:44:13 [build] mode: "server"
+16:44:13 [build] directory: D:\projetos antigravity\Site automatico\dist\
+16:44:13 [build] adapter: @astrojs/vercel
+16:44:13 [build] Collecting build info...
+16:44:13 [build] ✓ Completed in 10.87s.
+16:44:13 [build] Building server entrypoints...
+16:44:38 [WARN] [vite] 
+assets/cba83117577964aa_aa933a24-d4de-4c67-83f6-b8676b.webp referenced in assets/cba83117577964aa_aa933a24-d4de-4c67-83f6-b8676b.webp didn't resolve at build time, it will remain unchanged to be resolved at runtime
+16:44:38 [WARN] [vite] 
+assets/a5387a0b-52c6-40c2-b3be-ef8632_5ea829d0de5b.webp referenced in assets/a5387a0b-52c6-40c2-b3be-ef8632_5ea829d0de5b.webp didn't resolve at build time, it will remain unchanged to be resolved at runtime
+16:44:39 [vite] ✓ built in 25.89s
+16:44:45 [vite] ✓ built in 6.28s
+16:44:48 [vite] ✓ built in 2.42s
+
+ prerendering static routes 
+16:44:48   ├─ /brotto-campelo/index.html (+778ms) 
+16:44:49   ├─ /cadas-arquitetura/index.html (+6ms) 
+16:44:49   ├─ /delta-pan/index.html (+5ms) 
+16:44:49   ├─ /dl-cabeleireiros/index.html (+4ms) 
+16:44:49   ├─ /iorc-odontologia/index.html (+5ms) 
+16:44:49   ├─ /juliana-pippi-arquitetura/index.html (+3ms) 
+16:44:49   ├─ /metalurgica-sao-jorge/index.html (+5ms) 
+16:44:49 ✓ Completed in 935ms.
+
+16:44:49 [build] Rearranging server assets...
+16:44:49 [build] ✓ Completed in 35.63s.
+16:44:49 [@astrojs/vercel] Bundling function ..\..\server\entry.mjs
+16:44:52 [build] Waiting for integration "@astrojs/vercel", hook "astro:build:done"...
+16:44:58 [@astrojs/vercel] Copying static files to .vercel/output/static
+16:45:00 [build] Server built in 57.50s
+16:45:00 [build] Complete!
+
+

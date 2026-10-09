@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "slug": "dl-cabeleireiros",
+  "phase": "plan",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "planHash": "ea72b3fb1a8d5975c932fd37b5330577bf55551ebd1274ef0f7d0f9c7c8da6a3",
+  "inputHashes": {
+    "leads/dl-cabeleireiros/referencias/creative-brief.md": "158b6a5932772701a556cd428c9fb2de7f5fa161aa3982942faed224e9da7a4e",
+    "leads/dl-cabeleireiros/referencias/art-direction.json": "3e0c2894ecd3c5fddefddc3445e5de8861ef8059d1c3651c3ad6057443bba47d",
+    "leads/dl-cabeleireiros/referencias/design-selection.json": "f76ac2ca8d3abd34e818f704d45338774cfb31a4c6d853cd5e18dfd4d5c3df67",
+    "leads/dl-cabeleireiros/visual/visual-handoff.json": "8d9972b38028b2614c86267b597d5da34b8a41ede18d58feabb6b0a151996347",
+    "leads/dl-cabeleireiros/referencias/site-atual.md": "de07234deeafaa4b20411ec896b2fe774b22388161892f4077ec392cdfef506a",
+    "leads/dl-cabeleireiros/lead.json": "dbe4ddcfce44da5bae30ab8b88700bda7f0bb459a7a74c1b17082d9326ffb6d9",
+    "leads/dl-cabeleireiros/referencias/assets-manifest.json": "79914e1683b66d3f9e8057399e06375908b62094506080ee2c0f03c35ad751e0",
+    "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html": "f9ea2cc867febcf8cbf885bd2f1d7461166f294383607c6870c017476ccbb005",
+    "Design System/temas_escuros/barbershop-landing-51.aura.build/STACK.md": "a622c88ca1744de65b4cacdd31351ba1f85ec4ce7f3bdf63c33ac91ec4b04686",
+    "Design System/temas_claros/ai-automation-17.aura.build/design-system.html": "3e0660813404f43c34dff651653ab39fa95ace42610f5a55bd113761a924f8b9",
+    "Design System/temas_claros/parallax-clean/design-system.html": "2d2bb18d4a8051ae73716c19e1de86dad0ae12d930067695c20b895bd7198639"
+  },
+  "checkedAt": "2026-10-06T18:04:58.435Z",
+  "fingerprint": null,
+  "comparisons": [],
+  "limitations": [
+    "Trechos existentes não comprovam interpretação factual; revisar sentido e imagens.",
+    "Similaridade estrutural não mede qualidade visual."
+  ]
+}

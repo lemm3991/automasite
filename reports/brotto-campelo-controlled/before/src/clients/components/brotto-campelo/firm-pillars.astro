@@ -1,0 +1,75 @@
+---
+import './legal.css';
+
+interface Props {
+  content?: {
+    title?: string;
+  };
+}
+
+const { content } = Astro.props;
+const title = content?.title || "Pilares de Excelência e Facilitação de Negócios";
+---
+
+<section class="w-full bg-[#111827] py-14 md:py-20 px-4 md:px-8 text-white border-b border-gray-800">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-xs font-semibold uppercase tracking-widest text-[#e06020] mb-2 block">
+        Nossos Diferenciais
+      </span>
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-normal text-white" style="font-family: 'Playfair Display', serif;">
+        {title}
+      </h2>
+      <p class="text-xs md:text-sm text-gray-400 mt-3 font-light">
+        A união entre solidez técnica e visão empresarial contemporânea.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+      <!-- Pilar 1 -->
+      <div class="p-6 md:p-8 rounded-xl bg-gray-900/60 border border-gray-800 flex flex-col justify-between hover:border-gray-700 transition-colors">
+        <div>
+          <div class="w-10 h-10 rounded-lg bg-[#0693e3]/10 border border-[#0693e3]/30 flex items-center justify-center text-[#0693e3] mb-4">
+            <span class="text-lg font-bold">01</span>
+          </div>
+          <h3 class="text-lg md:text-xl font-normal text-white mb-2" style="font-family: 'Playfair Display', serif;">
+            Inovação e visão para além dos riscos
+          </h3>
+          <p class="text-xs md:text-sm text-gray-400 leading-relaxed font-light">
+            Enxergamos oportunidades jurídicas onde outros apenas mapeiam entraves, oferecendo soluções proativas para empresas e empreendedores.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pilar 2 -->
+      <div class="p-6 md:p-8 rounded-xl bg-gray-900/60 border border-gray-800 flex flex-col justify-between hover:border-gray-700 transition-colors">
+        <div>
+          <div class="w-10 h-10 rounded-lg bg-[#e06020]/10 border border-[#e06020]/30 flex items-center justify-center text-[#e06020] mb-4">
+            <span class="text-lg font-bold">02</span>
+          </div>
+          <h3 class="text-lg md:text-xl font-normal text-white mb-2" style="font-family: 'Playfair Display', serif;">
+            Abordagem personalizada
+          </h3>
+          <p class="text-xs md:text-sm text-gray-400 leading-relaxed font-light">
+            Cada cliente conta com atendimento direto e consultoria sob medida, respeitando as singularidades e os objetivos de cada setor econômico.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pilar 3 -->
+      <div class="p-6 md:p-8 rounded-xl bg-gray-900/60 border border-gray-800 flex flex-col justify-between hover:border-gray-700 transition-colors">
+        <div>
+          <div class="w-10 h-10 rounded-lg bg-[#0693e3]/10 border border-[#0693e3]/30 flex items-center justify-center text-[#0693e3] mb-4">
+            <span class="text-lg font-bold">03</span>
+          </div>
+          <h3 class="text-lg md:text-xl font-normal text-white mb-2" style="font-family: 'Playfair Display', serif;">
+            Facilitadores de negócios
+          </h3>
+          <p class="text-xs md:text-sm text-gray-400 leading-relaxed font-light">
+            Atuamos como parceiros estratégicos que destravam negociações e aceleram o crescimento empresarial com estrita conformidade legal.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

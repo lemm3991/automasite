@@ -1,0 +1,1019 @@
+{
+  "slug": "salete-cabeleireira",
+  "client": "Salão de Beleza Salete Cabeleireira",
+  "inventoryTimestamp": "2026-10-09T21:29:04.692Z",
+  "totalDiscovered": 28,
+  "totalDownloaded": 28,
+  "assets": [
+    {
+      "id": "asset-1",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+        "category": "logo",
+        "description": "Logotipo oficial do Salão de Beleza Salete Cabeleireira com tipografia cursiva elegante e assinatura de marca.",
+        "observableDetails": [
+          "Tipografia manuscrita cursiva com o nome Salete em destaque",
+          "Subtítulo Salão de Beleza em caixa alta harmonizada"
+        ],
+        "allowedCaptions": [
+          "Salão de Beleza Salete Cabeleireira",
+          "Logotipo Salete Cabeleireira"
+        ],
+        "provenance": "client-source",
+        "sha256": "cad59aedefb37921aae6bb1b2e2e720b3ff7b79b4229b2574c06a8215d7a534a",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-logo.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "localRefPath": "referencias/site-baixado/assets/01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "dimensions": {
+        "width": 322,
+        "height": 239
+      },
+      "format": "png",
+      "fileSizeBytes": 15119,
+      "altOriginal": "Salão de Beleza Salete Cabeleireira",
+      "downloadStatus": "SUCCESS",
+      "sha256": "cad59aedefb37921aae6bb1b2e2e720b3ff7b79b4229b2574c06a8215d7a534a"
+    },
+    {
+      "id": "asset-2",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+        "category": "environment",
+        "description": "Fachada externa e entrada do Salão de Beleza Salete Cabeleireira.",
+        "observableDetails": [
+          "Fachada comercial envidraçada com identificação visual",
+          "Iluminação exterior e acesso direto ao espaço"
+        ],
+        "allowedCaptions": [
+          "Fachada do Salão Salete Cabeleireira",
+          "Entrada da unidade em Criciúma"
+        ],
+        "provenance": "client-source",
+        "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao/salao-de-beleza-salete-cabeleireira-5.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "localRefPath": "referencias/site-baixado/assets/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "dimensions": {
+        "width": 301,
+        "height": 433
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 49357,
+      "altOriginal": "Fachada do salão",
+      "downloadStatus": "SUCCESS",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49"
+    },
+    {
+      "id": "asset-3",
+      "category": "product",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+        "category": "product",
+        "description": "Expositores e prateleiras com produtos de tratamento capilar Kérastase no salão.",
+        "observableDetails": [
+          "Linha de produtos profissionais Kérastase organizados em nichos iluminados",
+          "Frascos e embalagens de tratamentos capilares de alta performance"
+        ],
+        "allowedCaptions": [
+          "Produtos Kérastase no Salão Salete",
+          "Linha de tratamento Kérastase"
+        ],
+        "provenance": "client-source",
+        "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao/salao-de-beleza-salete-cabeleireira-4.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "localRefPath": "referencias/site-baixado/assets/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "dimensions": {
+        "width": 300,
+        "height": 191
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 27277,
+      "altOriginal": "Produtos Kerastase",
+      "downloadStatus": "SUCCESS",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e"
+    },
+    {
+      "id": "asset-4",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+        "category": "environment",
+        "description": "Interior do salão destacando espelhos individuais e poltronas profissionais.",
+        "observableDetails": [
+          "Bancadas espelhadas amplas e poltronas ergonômicas de atendimento",
+          "Iluminação quente e ambiente decorado com sofisticação"
+        ],
+        "allowedCaptions": [
+          "Espaço interno de atendimento",
+          "Ambiente e bancadas do Salão Salete"
+        ],
+        "provenance": "client-source",
+        "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao/salao-de-beleza-salete-cabeleireira-2.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "localRefPath": "referencias/site-baixado/assets/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "dimensions": {
+        "width": 298,
+        "height": 191
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 28042,
+      "altOriginal": "Interior do Salão",
+      "downloadStatus": "SUCCESS",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e"
+    },
+    {
+      "id": "asset-5",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+        "category": "environment",
+        "description": "Bancadas de atendimento e estações de styling do salão.",
+        "observableDetails": [
+          "Estações de corte e penteado equipadas com espelhos verticais",
+          "Piso claro polido e organização profissional dos postos de trabalho"
+        ],
+        "allowedCaptions": [
+          "Estações de atendimento do Salão Salete",
+          "Bancadas de cabelo e styling"
+        ],
+        "provenance": "client-source",
+        "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao/salao-de-beleza-salete-cabeleireira-1.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "localRefPath": "referencias/site-baixado/assets/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "dimensions": {
+        "width": 299,
+        "height": 433
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 42302,
+      "altOriginal": "Bancadas de atendimento",
+      "downloadStatus": "SUCCESS",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d"
+    },
+    {
+      "id": "asset-6",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+        "category": "environment",
+        "description": "Área de lavatórios profissionais e relaxamento capilar.",
+        "observableDetails": [
+          "Cadeiras reclináveis pretas integradas a cubas de lavatório em cerâmica",
+          "Área dedicada a higienização, hidratação e rituais capilares"
+        ],
+        "allowedCaptions": [
+          "Lavatórios profissionais do Salão Salete",
+          "Espaço de rituais e hidratação capilar"
+        ],
+        "provenance": "client-source",
+        "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao/salao-de-beleza-salete-cabeleireira-3.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "localRefPath": "referencias/site-baixado/assets/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "dimensions": {
+        "width": 301,
+        "height": 433
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 33344,
+      "altOriginal": "Lavarótios",
+      "downloadStatus": "SUCCESS",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059"
+    },
+    {
+      "id": "asset-7",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+        "category": "environment",
+        "description": "Vista aproximada das instalações de lavatório e bem-estar.",
+        "observableDetails": [
+          "Fileira de lavatórios anatômicos com duchas direcionáveis",
+          "Revestimento clean e ambiente silencioso para conforto dos clientes"
+        ],
+        "allowedCaptions": [
+          "Área de lavagem e tratamento",
+          "Instalações confortáveis para relaxamento"
+        ],
+        "provenance": "client-source",
+        "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao/salao-de-beleza-salete-cabeleireira-6.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "localRefPath": "referencias/site-baixado/assets/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "dimensions": {
+        "width": 301,
+        "height": 191
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 30468,
+      "altOriginal": "Lavatórios",
+      "downloadStatus": "SUCCESS",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2"
+    },
+    {
+      "id": "asset-8",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/08-salao-de-beleza-salete-cabeleireira-cabelos.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo de serviços de cabelos e cortes.",
+        "observableDetails": [
+          "Silhueta estilizada de tesoura e mechas de cabelo em moldura circular",
+          "Traçado monocromático marrom escuro com fundo transparente"
+        ],
+        "allowedCaptions": [
+          "Serviços de Cabelo e Corte",
+          "Ícone Cabelos"
+        ],
+        "provenance": "client-source",
+        "sha256": "ddfabccdce769b92a83b922cfa02e48a69c2aa09d69e0f3a28fdcd141958869d",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "08-salao-de-beleza-salete-cabeleireira-cabelos.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-cabelos.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/08-salao-de-beleza-salete-cabeleireira-cabelos.png",
+      "localRefPath": "referencias/site-baixado/assets/08-salao-de-beleza-salete-cabeleireira-cabelos.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 18074,
+      "altOriginal": "Cabelo",
+      "downloadStatus": "SUCCESS",
+      "sha256": "ddfabccdce769b92a83b922cfa02e48a69c2aa09d69e0f3a28fdcd141958869d"
+    },
+    {
+      "id": "asset-9",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/09-salao-de-beleza-salete-cabeleireira-depilacao.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo de procedimentos de depilação.",
+        "observableDetails": [
+          "Símbolo linear representando cuidado corporal e pele lisa",
+          "Design minimalista circular em tonalidade neutra"
+        ],
+        "allowedCaptions": [
+          "Serviços de Depilação",
+          "Ícone Depilação"
+        ],
+        "provenance": "client-source",
+        "sha256": "a950c615f50e3ea376d9348efe9e2a5351de02ee6a90fc97a60c3f900a7f2d32",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "09-salao-de-beleza-salete-cabeleireira-depilacao.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-depilacao.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/09-salao-de-beleza-salete-cabeleireira-depilacao.png",
+      "localRefPath": "referencias/site-baixado/assets/09-salao-de-beleza-salete-cabeleireira-depilacao.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 10935,
+      "altOriginal": "Depilação",
+      "downloadStatus": "SUCCESS",
+      "sha256": "a950c615f50e3ea376d9348efe9e2a5351de02ee6a90fc97a60c3f900a7f2d32"
+    },
+    {
+      "id": "asset-10",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/10-salao-de-beleza-salete-cabeleireira-estetica.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo de estética facial e corporal.",
+        "observableDetails": [
+          "Ilustração com perfil facial e traços delicados de estética",
+          "Formato circular uniforme com linha de contorno refinada"
+        ],
+        "allowedCaptions": [
+          "Serviços de Estética",
+          "Ícone Estética Facial e Corporal"
+        ],
+        "provenance": "client-source",
+        "sha256": "aa8c0e55af2a1797ab0ee708d7ad6eac04e7e085872dd23d4a40abd25fbfd18e",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "10-salao-de-beleza-salete-cabeleireira-estetica.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-estetica.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/10-salao-de-beleza-salete-cabeleireira-estetica.png",
+      "localRefPath": "referencias/site-baixado/assets/10-salao-de-beleza-salete-cabeleireira-estetica.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 12235,
+      "altOriginal": "Estética",
+      "downloadStatus": "SUCCESS",
+      "sha256": "aa8c0e55af2a1797ab0ee708d7ad6eac04e7e085872dd23d4a40abd25fbfd18e"
+    },
+    {
+      "id": "asset-11",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/11-salao-de-beleza-salete-cabeleireira-manicure-e-pedicure.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo de manicure e pedicure.",
+        "observableDetails": [
+          "Representação estilizada de mãos femininas e cuidados com unhas",
+          "Ícone circular vetorial em tom sépia/marrom"
+        ],
+        "allowedCaptions": [
+          "Manicure e Pedicure",
+          "Ícone Pés e Mãos"
+        ],
+        "provenance": "client-source",
+        "sha256": "8eaaa47d0659ab792b59698fbb6f9ab7a2831720d675fd0633d78827d0758a8e",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "11-salao-de-beleza-salete-cabeleireira-manicure-e-pedicure.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-manicure-e-pedicure.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/11-salao-de-beleza-salete-cabeleireira-manicure-e-pedicure.png",
+      "localRefPath": "referencias/site-baixado/assets/11-salao-de-beleza-salete-cabeleireira-manicure-e-pedicure.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 17088,
+      "altOriginal": "Manicure e Pedicure",
+      "downloadStatus": "SUCCESS",
+      "sha256": "8eaaa47d0659ab792b59698fbb6f9ab7a2831720d675fd0633d78827d0758a8e"
+    },
+    {
+      "id": "asset-12",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/12-salao-de-beleza-salete-cabeleireira-tratamento-capilar.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo de tratamentos capilares intensivos.",
+        "observableDetails": [
+          "Ilustração de gota de tratamento e fibra capilar revitalizada",
+          "Estilo clássico em vetor circular consistente"
+        ],
+        "allowedCaptions": [
+          "Tratamento Capilar Intensivo",
+          "Ícone Terapia Capilar"
+        ],
+        "provenance": "client-source",
+        "sha256": "9c5da2726dfc5b6a85309b9d22f4eb27c6a3c7319c77be5489ab9b4d65b8bb86",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "12-salao-de-beleza-salete-cabeleireira-tratamento-capilar.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-tratamento-capilar.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/12-salao-de-beleza-salete-cabeleireira-tratamento-capilar.png",
+      "localRefPath": "referencias/site-baixado/assets/12-salao-de-beleza-salete-cabeleireira-tratamento-capilar.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 14805,
+      "altOriginal": "Tratamento Capilar",
+      "downloadStatus": "SUCCESS",
+      "sha256": "9c5da2726dfc5b6a85309b9d22f4eb27c6a3c7319c77be5489ab9b4d65b8bb86"
+    },
+    {
+      "id": "asset-13",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/13-salao-de-beleza-salete-cabeleireira-maquiagem.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo de serviços de maquiagem profissional.",
+        "observableDetails": [
+          "Desenho linear de pincel de maquiagem e estojo cosmético",
+          "Padronização visual circular idêntica à família de ícones"
+        ],
+        "allowedCaptions": [
+          "Maquiagem Profissional",
+          "Ícone Maquiagem"
+        ],
+        "provenance": "client-source",
+        "sha256": "7f473a94645cc1b852381ca18a9c71dbd68d3a9487d2ec499bb90af61bc32499",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "13-salao-de-beleza-salete-cabeleireira-maquiagem.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-maquiagem.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/13-salao-de-beleza-salete-cabeleireira-maquiagem.png",
+      "localRefPath": "referencias/site-baixado/assets/13-salao-de-beleza-salete-cabeleireira-maquiagem.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 13566,
+      "altOriginal": "Maquiagem",
+      "downloadStatus": "SUCCESS",
+      "sha256": "7f473a94645cc1b852381ca18a9c71dbd68d3a9487d2ec499bb90af61bc32499"
+    },
+    {
+      "id": "asset-14",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/14-salao-de-beleza-salete-cabeleireira-dia-da-noiva.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo do pacote exclusivo Dia da Noiva.",
+        "observableDetails": [
+          "Silhueta refinada de noiva com véu e tiara delicada",
+          "Enquadramento circular em tom de contraste suave"
+        ],
+        "allowedCaptions": [
+          "Dia da Noiva Salete",
+          "Ícone Especial Noivas"
+        ],
+        "provenance": "client-source",
+        "sha256": "cf50f81d532c27274ea83ec8d13755e70769a83a911d94f23799f8ee003a0131",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "14-salao-de-beleza-salete-cabeleireira-dia-da-noiva.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-dia-da-noiva.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/14-salao-de-beleza-salete-cabeleireira-dia-da-noiva.png",
+      "localRefPath": "referencias/site-baixado/assets/14-salao-de-beleza-salete-cabeleireira-dia-da-noiva.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 13346,
+      "altOriginal": "Dia da Noiva",
+      "downloadStatus": "SUCCESS",
+      "sha256": "cf50f81d532c27274ea83ec8d13755e70769a83a911d94f23799f8ee003a0131"
+    },
+    {
+      "id": "asset-15",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/15-salao-de-beleza-salete-cabeleireira-beleza-masculina.png",
+        "category": "icon",
+        "description": "Ícone gráfico representativo de cuidados e beleza masculina.",
+        "observableDetails": [
+          "Símbolo estilizado de bigode e corte clássico masculino",
+          "Linguagem visual coerente com a paleta institucional"
+        ],
+        "allowedCaptions": [
+          "Beleza e Corte Masculino",
+          "Ícone Atendimento Masculino"
+        ],
+        "provenance": "client-source",
+        "sha256": "c34c377440d54e1047e410066bebf8b38cec8daa02c0fb4ffacf44296f66b992",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "15-salao-de-beleza-salete-cabeleireira-beleza-masculina.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/servicos/salao-de-beleza-salete-cabeleireira-beleza-masculina.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/15-salao-de-beleza-salete-cabeleireira-beleza-masculina.png",
+      "localRefPath": "referencias/site-baixado/assets/15-salao-de-beleza-salete-cabeleireira-beleza-masculina.png",
+      "dimensions": {
+        "width": 142,
+        "height": 142
+      },
+      "format": "png",
+      "fileSizeBytes": 14887,
+      "altOriginal": "Beleza Masculina",
+      "downloadStatus": "SUCCESS",
+      "sha256": "c34c377440d54e1047e410066bebf8b38cec8daa02c0fb4ffacf44296f66b992"
+    },
+    {
+      "id": "asset-16",
+      "category": "product",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+        "category": "product",
+        "description": "Fotografia de produto da linha masculina Kérastase Homme.",
+        "observableDetails": [
+          "Embalagem original cinza chumbo com logotipo Kérastase Homme",
+          "Frasco de produto profissional de densidade e fortalecimento capilar"
+        ],
+        "allowedCaptions": [
+          "Linha Kérastase Homme",
+          "Produtos Masculinos Kérastase"
+        ],
+        "provenance": "client-source",
+        "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/produtos/salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "localRefPath": "referencias/site-baixado/assets/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "dimensions": {
+        "width": 299,
+        "height": 433
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 19118,
+      "altOriginal": "Kerastase Homme",
+      "downloadStatus": "SUCCESS",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce"
+    },
+    {
+      "id": "asset-17",
+      "category": "product",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+        "category": "product",
+        "description": "Fotografia de produto da linha reparadora Kérastase Résistance.",
+        "observableDetails": [
+          "Frascos verde esmeralda característicos da linha Résistance",
+          "Tratamento de reconstrução capilar profissional Kérastase"
+        ],
+        "allowedCaptions": [
+          "Kérastase Résistance",
+          "Reconstrução Capilar Kérastase"
+        ],
+        "provenance": "client-source",
+        "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/produtos/salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "localRefPath": "referencias/site-baixado/assets/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "dimensions": {
+        "width": 298,
+        "height": 191
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 12379,
+      "altOriginal": "Kerastase Resistance",
+      "downloadStatus": "SUCCESS",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2"
+    },
+    {
+      "id": "asset-18",
+      "category": "product",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+        "category": "product",
+        "description": "Fotografia de produto da linha de brilho Kérastase Reflection Chroma Captive.",
+        "observableDetails": [
+          "Embalagem rosa fúcsia metálica com a inscrição Reflection Bain Chroma Captive",
+          "Shampoo e máscara protetora de cor para cabelos tingidos"
+        ],
+        "allowedCaptions": [
+          "Kérastase Reflection Chroma Captive",
+          "Proteção da Cor Kérastase"
+        ],
+        "provenance": "client-source",
+        "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/produtos/salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "localRefPath": "referencias/site-baixado/assets/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "dimensions": {
+        "width": 298,
+        "height": 191
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 9961,
+      "altOriginal": "Kerastase Bain Chroma Captive ",
+      "downloadStatus": "SUCCESS",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f"
+    },
+    {
+      "id": "asset-19",
+      "category": "product",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+        "category": "product",
+        "description": "Linha de cosméticos e óleos corporais Natura Ekos.",
+        "observableDetails": [
+          "Frascos transparentes com óleos trifásicos e ativos botânicos",
+          "Rótulo oficial da linha Natura Ekos para cuidados e massoterapia"
+        ],
+        "allowedCaptions": [
+          "Linha Natura Ekos",
+          "Produtos Corporais Natura Ekos"
+        ],
+        "provenance": "client-source",
+        "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/produtos/salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "localRefPath": "referencias/site-baixado/assets/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "dimensions": {
+        "width": 299,
+        "height": 433
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 23055,
+      "altOriginal": "Natura Ekos",
+      "downloadStatus": "SUCCESS",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de"
+    },
+    {
+      "id": "asset-20",
+      "category": "product",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+        "category": "product",
+        "description": "Linha profissional de coloração e tratamento Wella Professionals.",
+        "observableDetails": [
+          "Logotipo e tipografia vermelha distintiva da Wella Professionals",
+          "Frascos e embalagens de produtos para tratamento capilar"
+        ],
+        "allowedCaptions": [
+          "Wella Professionals",
+          "Tratamento e Coloração Wella"
+        ],
+        "provenance": "client-source",
+        "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/produtos/salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "localRefPath": "referencias/site-baixado/assets/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "dimensions": {
+        "width": 299,
+        "height": 433
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 15080,
+      "altOriginal": "Wella Professional",
+      "downloadStatus": "SUCCESS",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032"
+    },
+    {
+      "id": "asset-21",
+      "category": "product",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+        "category": "product",
+        "description": "Linha de cuidados capilares L'Oréal Paris / Elseve.",
+        "observableDetails": [
+          "Frascos dourados e alaranjados com a marca L'Oréal Paris",
+          "Gama de tratamento nutritivo para cabelos secos e danificados"
+        ],
+        "allowedCaptions": [
+          "L'Oréal Paris Cuidados Capilares",
+          "Produtos L'Oréal"
+        ],
+        "provenance": "client-source",
+        "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/produtos/salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "localRefPath": "referencias/site-baixado/assets/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "dimensions": {
+        "width": 299,
+        "height": 191
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 18747,
+      "altOriginal": "L'oreal Elseve",
+      "downloadStatus": "SUCCESS",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e"
+    },
+    {
+      "id": "asset-22",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/22-salao-de-beleza-salete-cabeleireira-ico_pin.png",
+        "category": "icon",
+        "description": "Pequeno ícone de alfinete/pin para mapa de endereço.",
+        "observableDetails": [
+          "Marcador geométrico vermelho no formato pin de localização",
+          "Dimensão compacta para marcação de endereço"
+        ],
+        "allowedCaptions": [
+          "Ícone de Localização",
+          "Marcador de Endereço"
+        ],
+        "provenance": "client-source",
+        "sha256": "008f875500bb0d6037e02a1b635c70ed777ba58e17723310fa5a6dbb336476ee",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "22-salao-de-beleza-salete-cabeleireira-ico_pin.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-ico_pin.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/22-salao-de-beleza-salete-cabeleireira-ico_pin.png",
+      "localRefPath": "referencias/site-baixado/assets/22-salao-de-beleza-salete-cabeleireira-ico_pin.png",
+      "dimensions": {
+        "width": 11,
+        "height": 15
+      },
+      "format": "png",
+      "fileSizeBytes": 418,
+      "altOriginal": "Endereço do salão de beleza em Criciúma - SC",
+      "downloadStatus": "SUCCESS",
+      "sha256": "008f875500bb0d6037e02a1b635c70ed777ba58e17723310fa5a6dbb336476ee"
+    },
+    {
+      "id": "asset-23",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/23-salao-de-beleza-salete-cabeleireira-ico_phone.png",
+        "category": "icon",
+        "description": "Pequeno ícone de fone para contato telefônico.",
+        "observableDetails": [
+          "Silhueta preta de aparelho telefônico tradicional",
+          "Tamanho reduzido para identificação de telefone de contato"
+        ],
+        "allowedCaptions": [
+          "Ícone Telefone",
+          "Contato Telefônico"
+        ],
+        "provenance": "client-source",
+        "sha256": "07bda880138ead16216bde0de6fe8dd1bfd433ed0443e9e27a7b33855e022ec7",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "23-salao-de-beleza-salete-cabeleireira-ico_phone.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-ico_phone.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/23-salao-de-beleza-salete-cabeleireira-ico_phone.png",
+      "localRefPath": "referencias/site-baixado/assets/23-salao-de-beleza-salete-cabeleireira-ico_phone.png",
+      "dimensions": {
+        "width": 15,
+        "height": 15
+      },
+      "format": "png",
+      "fileSizeBytes": 499,
+      "altOriginal": "Telefone do salão de beleza em Criciúma - SC",
+      "downloadStatus": "SUCCESS",
+      "sha256": "07bda880138ead16216bde0de6fe8dd1bfd433ed0443e9e27a7b33855e022ec7"
+    },
+    {
+      "id": "asset-24",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/24-salao-de-beleza-salete-cabeleireira-ico_chat.png",
+        "category": "icon",
+        "description": "Pequeno ícone de balão de mensagem para envio de e-mail.",
+        "observableDetails": [
+          "Balão de fala estilizado para canal de comunicação",
+          "Gráfico monocromático compacto"
+        ],
+        "allowedCaptions": [
+          "Ícone Mensagem",
+          "Canal de Contato"
+        ],
+        "provenance": "client-source",
+        "sha256": "8492c6464d2011344c4f3ae1146498a82805243af8958021f57fcbd48e861de6",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "24-salao-de-beleza-salete-cabeleireira-ico_chat.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-ico_chat.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/24-salao-de-beleza-salete-cabeleireira-ico_chat.png",
+      "localRefPath": "referencias/site-baixado/assets/24-salao-de-beleza-salete-cabeleireira-ico_chat.png",
+      "dimensions": {
+        "width": 15,
+        "height": 15
+      },
+      "format": "png",
+      "fileSizeBytes": 459,
+      "altOriginal": "E-mail de contato",
+      "downloadStatus": "SUCCESS",
+      "sha256": "8492c6464d2011344c4f3ae1146498a82805243af8958021f57fcbd48e861de6"
+    },
+    {
+      "id": "asset-25",
+      "category": "decoration",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/25-salao-de-beleza-salete-cabeleireira-map.jpg",
+        "category": "decoration",
+        "description": "Recorte de mapa estático de localização da unidade de Criciúma/SC.",
+        "observableDetails": [
+          "Representação cartográfica das ruas centrais de Criciúma",
+          "Indicação visual da Rua Coronel Pedro Benedet"
+        ],
+        "allowedCaptions": [
+          "Mapa de Localização Criciúma",
+          "Unidade Centro Criciúma"
+        ],
+        "provenance": "client-source",
+        "sha256": "aa996e505f504bb15992d13ec5d687c369ea5b278338b5808eda0b66b358a2b9",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "25-salao-de-beleza-salete-cabeleireira-map.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-map.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/25-salao-de-beleza-salete-cabeleireira-map.jpg",
+      "localRefPath": "referencias/site-baixado/assets/25-salao-de-beleza-salete-cabeleireira-map.jpg",
+      "dimensions": {
+        "width": 299,
+        "height": 195
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 32906,
+      "altOriginal": "Mapa de Localização da Salete Cabeleireira em  Criciúma, SC",
+      "downloadStatus": "SUCCESS",
+      "sha256": "aa996e505f504bb15992d13ec5d687c369ea5b278338b5808eda0b66b358a2b9"
+    },
+    {
+      "id": "asset-26",
+      "category": "decoration",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/26-salao-de-beleza-salete-cabeleireira-map2.jpg",
+        "category": "decoration",
+        "description": "Recorte de mapa estático de localização da unidade de Balneário Rincão/SC.",
+        "observableDetails": [
+          "Representação cartográfica de Balneário Rincão",
+          "Destaque viário da Rua Antonio Francisco Borgo"
+        ],
+        "allowedCaptions": [
+          "Mapa de Localização Balneário Rincão",
+          "Unidade Balneário Rincão"
+        ],
+        "provenance": "client-source",
+        "sha256": "0050186ee3d687526bf995314368928bb0df06fc95280a108f265b3cf5d29959",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "26-salao-de-beleza-salete-cabeleireira-map2.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-map2.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/26-salao-de-beleza-salete-cabeleireira-map2.jpg",
+      "localRefPath": "referencias/site-baixado/assets/26-salao-de-beleza-salete-cabeleireira-map2.jpg",
+      "dimensions": {
+        "width": 299,
+        "height": 195
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 37619,
+      "altOriginal": "Mapa de Localização da Salete Cabeleireira no Balneário Rincão, SC",
+      "downloadStatus": "SUCCESS",
+      "sha256": "0050186ee3d687526bf995314368928bb0df06fc95280a108f265b3cf5d29959"
+    },
+    {
+      "id": "asset-27",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/27-salao-de-beleza-salete-cabeleireira-logo_footer.png",
+        "category": "logo",
+        "description": "Versão compacta vertical do logotipo para rodapé.",
+        "observableDetails": [
+          "Assinatura Salete com ícone estilizado no cabeçalho",
+          "Fundo transparente otimizado para aplicações escuras e rodapés"
+        ],
+        "allowedCaptions": [
+          "Logo Salete Cabeleireira Rodapé",
+          "Monograma Salete Cabeleireira"
+        ],
+        "provenance": "client-source",
+        "sha256": "14f34d52d3e1838aabfb974178926d0d97dd60945223d8747e5de579af61310e",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "27-salao-de-beleza-salete-cabeleireira-logo_footer.png",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-logo_footer.png",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/27-salao-de-beleza-salete-cabeleireira-logo_footer.png",
+      "localRefPath": "referencias/site-baixado/assets/27-salao-de-beleza-salete-cabeleireira-logo_footer.png",
+      "dimensions": {
+        "width": 90,
+        "height": 113
+      },
+      "format": "png",
+      "fileSizeBytes": 1934,
+      "altOriginal": "Salão de Beleza Salete Cabeleireira",
+      "downloadStatus": "SUCCESS",
+      "sha256": "14f34d52d3e1838aabfb974178926d0d97dd60945223d8747e5de579af61310e"
+    },
+    {
+      "id": "asset-28",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+        "category": "environment",
+        "description": "Imagem panorâmica de alta resolução do salão de beleza e estações de atendimento.",
+        "observableDetails": [
+          "Panorâmica em alta definição das estações de trabalho e iluminação de teto",
+          "Perspectiva ampla do espaço de convivência e recepção dos clientes"
+        ],
+        "allowedCaptions": [
+          "Vista Geral do Salão Salete Cabeleireira",
+          "Ambiente Amplo de Atendimento em Criciúma"
+        ],
+        "provenance": "client-source",
+        "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T21:35:00.000Z",
+        "status": "verified"
+      },
+      "filename": "28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "originalUrl": "https://saletecabeleireira.com.br/img/salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "localPublicPath": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "localRefPath": "referencias/site-baixado/assets/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 231156,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c"
+    }
+  ],
+  "notDownloaded": [],
+  "schemaVersion": 2
+}

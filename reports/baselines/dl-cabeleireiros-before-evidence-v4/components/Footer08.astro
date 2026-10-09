@@ -1,0 +1,52 @@
+---
+import './salon.css';
+interface Props {
+  content?: {
+    privacyHref?: string;
+  };
+  client?: any;
+}
+
+const { client } = Astro.props;
+const logo = client?.business?.logo || "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png";
+---
+
+<footer class="dl-footer" data-card-treatment="luxury-bordered" data-surface-rhythm="continuous">
+  <div class="dl-wrap">
+    <div class="dl-footer-grid">
+      <div>
+        <a href="#" class="dl-logo inline-block mb-4">
+          <img src={logo} alt="D&L Cabeleireiros" width="140" height="42" loading="lazy" />
+        </a>
+        <p class="text-xs text-gray-500 leading-relaxed max-w-sm">
+          Fundado por Douglas e Luciano, o D&L cabeleireiro nasceu com o propósito de elevar o conceito de beleza por meio da excelência, qualidade e atendimento personalizado.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900 mb-3">Unidade Palhoça</h4>
+        <p class="text-xs text-gray-600 leading-relaxed">
+          Rua Portinari, 170, Pedra Branca<br />
+          Palhoça - SC · CEP 88137-076<br />
+          Segunda a Sábado: 09h às 21h<br />
+          <strong class="text-gray-900">(48) 99936-0284</strong>
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-900 mb-3">Unidade Florianópolis</h4>
+        <p class="text-xs text-gray-600 leading-relaxed">
+          Rua Frei Caneca, 17, Agronômica<br />
+          Florianópolis - SC · CEP 88025-000<br />
+          Segunda a Sábado: 09h às 21h30<br />
+          <strong class="text-gray-900">(48) 99936-0365</strong>
+        </p>
+      </div>
+    </div>
+
+    <div class="dl-footer-bottom">
+      <span>© 2026 D&L Salão de Beleza. Todos os direitos reservados.</span>
+      <span>Palhoça & Florianópolis — Santa Catarina</span>
+    </div>
+  </div>
+</footer>

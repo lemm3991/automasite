@@ -1,0 +1,94 @@
+---
+import './editorial.css';
+
+interface Props {
+  content?: {
+    tagline?: string;
+    title?: string;
+    subtitle?: string;
+    description?: string;
+    heroImage?: string;
+    heroImageAlt?: string;
+    ctaCriciuma?: { label: string; href: string };
+    ctaRincao?: { label: string; href: string };
+  };
+}
+
+const { content = {} } = Astro.props;
+const tagline = content.tagline || "Desde 1966 -- Alta Tradição & Beleza";
+const title = content.title || "Salão de Beleza Salete Cabeleireira";
+const subtitle = content.subtitle || "A Arte do Cuidado Capilar e a Tradição que Atravessa Gerações";
+const description = content.description || "Quase seis décadas de pioneirismo, técnica apurada e elegância em Santa Catarina. Formação internacional Vidal Sassoon e TONI&GUY a serviço da sua beleza.";
+const heroImage = content.heroImage || "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg";
+const heroImageAlt = content.heroImageAlt || "Vista Geral do Salão Salete Cabeleireira";
+---
+
+<header class="w-full bg-[#0f0f11]/90 backdrop-blur-md border-b border-white/10 sticky top-0 z-50 py-3 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+    <div class="flex items-center gap-4">
+      <img id="salete-logo" src="/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png" alt="Salão de Beleza Salete Cabeleireira" class="h-10 sm:h-12 w-auto object-contain filter drop-shadow" />
+      <span class="text-xs uppercase tracking-widest text-[#fcfbfb]/70 border-l border-white/20 pl-4 hidden md:inline">Tradição & Elegância</span>
+    </div>
+    <div class="flex items-center gap-3 sm:gap-6 text-xs text-white/80">
+      <a href="tel:4834331789" class="hover:text-white transition-colors hidden sm:inline">
+        <span class="font-semibold text-white">48 3433 1789</span>
+      </a>
+      <a href="tel:4834681297" class="hover:text-white transition-colors hidden sm:inline">
+        <span class="font-semibold text-white">48 3468 1297</span>
+      </a>
+      <a href="https://wa.me/554834331789?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#803050] hover:bg-[#802050] text-white font-medium transition-all text-xs shadow-sm">
+        <span>Agendar Horário</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<section id="salete-hero" class="relative overflow-hidden min-h-[85vh] flex items-center justify-center bg-[#0f0f11] text-white py-16 sm:py-24" data-hero-type="split" data-surface-rhythm="editorial-noir-rhythm" data-card-treatment="minimal-glass-stroke">
+  <!-- Imagem de fundo imersiva com textura e overlay cinematográfico -->
+  <div class="salete-hero-bg absolute inset-0 z-0 opacity-40">
+    <img src={heroImage} alt={heroImageAlt} class="w-full h-full object-cover object-center filter brightness-90" />
+    <div class="absolute inset-0 bg-gradient-to-t from-[#0f0f11] via-[#0f0f11]/60 to-transparent"></div>
+  </div>
+
+  <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
+    
+    <!-- Hero Tag inspirada no barbershop-landing-51 -->
+    <div class="inline-flex items-center justify-center gap-2">
+      <div class="salete-tag inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/15 text-xs font-semibold tracking-wider text-white/90 uppercase backdrop-blur-md">
+        <span class="w-2 h-2 rounded-full bg-[#803050]"></span>
+        <span>Tradição & Alta Beleza em Santa Catarina</span>
+      </div>
+    </div>
+
+    <!-- Título e Subtítulo Editorial -->
+    <div class="space-y-4">
+      <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-normal tracking-tight text-[#fcfbfb] leading-tight">
+        {title}
+      </h1>
+      <p class="font-serif italic text-lg sm:text-2xl text-white/90 max-w-3xl mx-auto font-light">
+        {subtitle}
+      </p>
+    </div>
+
+    <p class="text-sm sm:text-base text-white/75 max-w-2xl mx-auto leading-relaxed">
+      {description}
+    </p>
+
+    <!-- Ações e Duplo CTA para as duas cidades -->
+    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <a href="https://wa.me/554834331789?text=Olá,%20gostaria%20de%20agendar%20em%20Criciúma" class="salete-cta-btn w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-[#803050] hover:bg-[#802050] text-white font-semibold text-sm transition-all duration-300 shadow-lg hover:shadow-xl">
+        <span>Agendar em Criciúma (Matriz)</span>
+      </a>
+      <a href="https://wa.me/554834681297?text=Olá,%20gostaria%20de%20agendar%20em%20Balneário%20Rincão" class="salete-cta-btn w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold text-sm transition-all duration-300 backdrop-blur-sm">
+        <span>Agendar em Balneário Rincão</span>
+      </a>
+    </div>
+
+    <!-- Indicador de Rolagem Minimalista inspirado no luxury-desert-retreat-1 -->
+    <div class="salete-scroll-indicator pt-12 flex flex-col items-center justify-center gap-2 opacity-60">
+      <span class="text-[10px] tracking-widest uppercase text-white/60">Conheça Nossa História</span>
+      <div class="salete-scroll-line"></div>
+    </div>
+
+  </div>
+</section>

@@ -1,0 +1,33 @@
+11:53:34 [types] Generated 107ms
+11:53:34 [build] output: "static"
+11:53:34 [build] mode: "server"
+11:53:34 [build] directory: D:\projetos antigravity\Site automatico\dist\
+11:53:34 [build] adapter: @astrojs/vercel
+11:53:34 [build] Collecting build info...
+11:53:34 [build] ✓ Completed in 444ms.
+11:53:34 [build] Building server entrypoints...
+11:53:43 [WARN] [vite] 
+assets/cba83117577964aa_aa933a24-d4de-4c67-83f6-b8676b.webp referenced in assets/cba83117577964aa_aa933a24-d4de-4c67-83f6-b8676b.webp didn't resolve at build time, it will remain unchanged to be resolved at runtime
+11:53:43 [WARN] [vite] 
+assets/a5387a0b-52c6-40c2-b3be-ef8632_5ea829d0de5b.webp referenced in assets/a5387a0b-52c6-40c2-b3be-ef8632_5ea829d0de5b.webp didn't resolve at build time, it will remain unchanged to be resolved at runtime
+11:53:43 [vite] ✓ built in 8.75s
+11:53:51 [vite] ✓ built in 8.33s
+11:53:52 [vite] ✓ built in 328ms
+
+ prerendering static routes 
+11:53:52   ├─ /cadas-arquitetura/index.html (+121ms) 
+11:53:52   ├─ /delta-pan/index.html (+6ms) 
+11:53:52   ├─ /dl-cabeleireiros/index.html (+5ms) 
+11:53:52   ├─ /juliana-pippi-arquitetura/index.html (+5ms) 
+11:53:52   ├─ /metalurgica-sao-jorge/index.html (+5ms) 
+11:53:52 ✓ Completed in 205ms.
+
+11:53:52 [build] Rearranging server assets...
+11:53:52 [build] ✓ Completed in 17.71s.
+11:53:52 [@astrojs/vercel] Bundling function ..\..\server\entry.mjs
+11:53:55 [build] Waiting for integration "@astrojs/vercel", hook "astro:build:done"...
+11:53:57 [@astrojs/vercel] Copying static files to .vercel/output/static
+11:53:57 [build] Server built in 23.16s
+11:53:57 [build] Complete!
+
+

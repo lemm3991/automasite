@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "slug": "metalurgica-sao-jorge",
+  "concept": "Industrial & Presença Fabril",
+  "inputs": [
+    {
+      "path": "leads/metalurgica-sao-jorge/referencias/creative-brief.md"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/referencias/art-direction.json"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/referencias/design-selection.json"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/visual/visual-handoff.json"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/referencias/site-atual.md"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/lead.json"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/referencias/assets-manifest.json"
+    }
+  ],
+  "hero": {
+    "sectionId": "hero",
+    "direction": "Split editorial com fotografia real de maquinário dominante, hierarquia forte e régua técnica.",
+    "asset": "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+    "baseComponent": "Hero07",
+    "action": "adapt",
+    "changes": [
+      "Foto autêntica ampla sem cartão genérico",
+      "Headline editorial em três linhas",
+      "Especificações verificadas em faixa técnica",
+      "Imagem antes da ação no celular"
+    ]
+  },
+  "references": [
+    {
+      "id": "autonomous-drone-62.aura.build",
+      "sourcePath": "Design System/temas_escuros/autonomous-drone-62.aura.build/design-system.html",
+      "stackPath": "Design System/temas_escuros/autonomous-drone-62.aura.build/STACK.md",
+      "observations": [
+        {
+          "excerpt": "border-r border-b lg:border-b-0 border-zinc-800",
+          "element": "Bordas técnicas contínuas e etiquetas monoespaçadas em módulos.",
+          "appliedTo": [
+            "hero",
+            "portfolio"
+          ],
+          "reinterpretation": "Reinterpretar como moldura fotográfica, marcações de canto e legenda de arquivo, sem gráficos de drones."
+        }
+      ]
+    },
+    {
+      "id": "aex.aura.build",
+      "sourcePath": "Design System/temas_claros/aex.aura.build/aex.aura.build/design-system.html",
+      "stackPath": "Design System/temas_claros/aex.aura.build/aex.aura.build/STACK.md",
+      "observations": [
+        {
+          "excerpt": "font-display uppercase font-semibold tracking-tighter leading-[0.85]",
+          "element": "Título editorial de grande escala, linhas compactas e fotografia assimétrica.",
+          "appliedTo": [
+            "hero",
+            "empresa"
+          ],
+          "reinterpretation": "Aplicar escala/contraste e título empilhado mantendo Inter definido pelo 2A, sem copiar Oswald ou conteúdo alpino."
+        }
+      ]
+    },
+    {
+      "id": "axion-ai.aura.build",
+      "sourcePath": "Design System/temas_escuros/axion-ai.aura.build/design-system.html",
+      "stackPath": "Design System/temas_escuros/axion-ai.aura.build/STACK.md",
+      "observations": [
+        {
+          "excerpt": "text-[10px] font-mono text-zinc-600 border border-zinc-800 px-2 py-1",
+          "element": "Rótulos FIG. 01 e divisores entre blocos de informação técnica.",
+          "appliedTo": [
+            "servicos",
+            "materiais"
+          ],
+          "reinterpretation": "Aplicar numeração de linhas e separação entre medidas/capacidades reais, sem linguagem de software."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-baixado/assets/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "role": "logo",
+      "description": "Logotipo tipográfico vermelho em fundo branco.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Logotipo tipográfico vermelho em fundo branco."
+      }
+    },
+    {
+      "path": "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-baixado/assets/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "role": "hero",
+      "description": "Close de chapa de aço posicionada em máquina de dobra; não é vista externa da sede.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Close de chapa de aço posicionada em máquina de dobra; não é vista externa da sede."
+      }
+    },
+    {
+      "path": "/assets/clients/metalurgica-sao-jorge/05-sjorge_corte_e_dobra_de_chapas96.png",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-baixado/assets/05-sjorge_corte_e_dobra_de_chapas96.png",
+      "role": "portfolio",
+      "description": "Perfis metálicos dobrados fotografados pela extremidade.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Perfis metálicos dobrados fotografados pela extremidade."
+      }
+    },
+    {
+      "path": "/assets/clients/metalurgica-sao-jorge/07-sjorge_corte_e_dobra_de_chapas022.png",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-baixado/assets/07-sjorge_corte_e_dobra_de_chapas022.png",
+      "role": "portfolio",
+      "description": "Peças e perfis dobrados empilhados; não comprova usinagem ou furação.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Peças e perfis dobrados empilhados; não comprova usinagem ou furação."
+      }
+    },
+    {
+      "path": "/assets/clients/metalurgica-sao-jorge/12-sjorge_corte_e_dobra_de_chapas018.png",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-baixado/assets/12-sjorge_corte_e_dobra_de_chapas018.png",
+      "role": "portfolio",
+      "description": "Superfície metálica com frisos paralelos.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Superfície metálica com frisos paralelos."
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "history",
+      "text": "Mais de 50 anos de experiência.",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "A Metalúrgica São Jorge possui mais de 50 anos de experiência em corte e dobra de chapas de aço carbono em Porto Alegre e todo o Rio Grande do Sul.",
+      "usedIn": [
+        "hero",
+        "empresa"
+      ]
+    },
+    {
+      "id": "capacity",
+      "text": "Dobra até 3m e 1/2 polegada; calandragem até 2m e 1/4 polegada.",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "Somos especializados em corte e dobra de chapas, possuindo maquinário com dobra de até 3m de comprimento com 1/2 polegada de espessura, além de calandrarmos até 2m de comprimento e 1/4 de polegada de espessura.",
+      "usedIn": [
+        "hero",
+        "servicos"
+      ]
+    },
+    {
+      "id": "services",
+      "text": "Recorte a plasma e lambri sob medida.",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "Fazemos também recorte a plasma e lambri sob medida. Consulte projetos personalizados e outros serviços.",
+      "usedIn": [
+        "servicos"
+      ]
+    },
+    {
+      "id": "materials",
+      "text": "Vendas apenas de Aço Carbono e Chapa Galvanizada.",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "Vendas apenas de Aço Carbono e Chapa Galvanizada.",
+      "usedIn": [
+        "materiais",
+        "contato"
+      ]
+    },
+    {
+      "id": "address",
+      "text": "Rua Senhor do Bom Fim, 720, Sarandi, Porto Alegre/RS.",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "Bairro: Sarandi – Porto Alegre/RS",
+      "usedIn": [
+        "contato",
+        "business"
+      ]
+    },
+    {
+      "id": "phone",
+      "text": "(51) 99390-1225",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "(51) 99390-1225",
+      "usedIn": [
+        "header-main",
+        "contato",
+        "footer",
+        "business"
+      ]
+    },
+    {
+      "id": "hours",
+      "text": "Segunda a sexta, 8h às 12h e 13h às 17h.",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "8h às 12h – 13h às 17h",
+      "usedIn": [
+        "contato"
+      ]
+    },
+    {
+      "id": "cost",
+      "text": "Melhoria constante com atenção ao custo-benefício.",
+      "sourcePath": "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+      "sourceExcerpt": "Buscamos a melhoria constante de nosso processo de trabalho, porém sem jamais esquecer o custo-benefício que, aqui, já virou tradição.",
+      "usedIn": [
+        "empresa"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "header-main",
+      "type": "header",
+      "variant": "Header01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/header/Header01.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/Header01.astro",
+      "reason": "Navegação compacta com logo original, links reais e menu mobile.",
+      "changes": [
+        "Navegação compacta com logo original, links reais e menu mobile."
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "phone"
+      ],
+      "assetPaths": [
+        "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png"
+      ]
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "Hero07",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/hero/Hero07.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/Hero07.astro",
+      "reason": "Fotografia real de maquinário em painel amplo, título editorial e régua de capacidades.",
+      "changes": [
+        "Fotografia real de maquinário em painel amplo, título editorial e régua de capacidades."
+      ],
+      "referenceIds": [
+        "autonomous-drone-62.aura.build",
+        "aex.aura.build"
+      ],
+      "claimIds": [
+        "history",
+        "capacity"
+      ],
+      "assetPaths": [
+        "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg"
+      ]
+    },
+    {
+      "id": "servicos",
+      "type": "services",
+      "variant": "Services01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/services/Services01.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/Services01.astro",
+      "reason": "Tabela técnica clara com limites reais de dobra e calandragem; duas linhas adicionais para plasma e lambri.",
+      "changes": [
+        "Tabela técnica clara com limites reais de dobra e calandragem; duas linhas adicionais para plasma e lambri."
+      ],
+      "referenceIds": [
+        "axion-ai.aura.build"
+      ],
+      "claimIds": [
+        "capacity",
+        "services"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "empresa",
+      "type": "about",
+      "variant": "About01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/about/About01.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/About01.astro",
+      "reason": "Bloco editorial de tradição com faixa de 50+ anos e texto factual; sem métricas inventadas.",
+      "changes": [
+        "Bloco editorial de tradição com faixa de 50+ anos e texto factual; sem métricas inventadas."
+      ],
+      "referenceIds": [
+        "aex.aura.build"
+      ],
+      "claimIds": [
+        "history",
+        "cost"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "materiais",
+      "type": "benefits",
+      "variant": "MaterialsPanel",
+      "action": "create",
+      "candidateComponents": [
+        "src/components/benefits/Features02.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/MaterialsPanel.astro",
+      "reason": "Duas matérias-primas comprovadas em linhas abertas; sem completar grade com produtos inventados.",
+      "changes": [
+        "Duas matérias-primas comprovadas em linhas abertas; sem completar grade com produtos inventados."
+      ],
+      "referenceIds": [
+        "axion-ai.aura.build"
+      ],
+      "claimIds": [
+        "materials"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "portfolio",
+      "type": "projects",
+      "variant": "Showcase01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/projects/Showcase01.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/Showcase01.astro",
+      "reason": "Galeria assimétrica de três fotos selecionadas com legendas descritivas e sem capacidade inferida.",
+      "changes": [
+        "Galeria assimétrica de três fotos selecionadas com legendas descritivas e sem capacidade inferida."
+      ],
+      "referenceIds": [
+        "autonomous-drone-62.aura.build"
+      ],
+      "claimIds": [],
+      "assetPaths": [
+        "/assets/clients/metalurgica-sao-jorge/05-sjorge_corte_e_dobra_de_chapas96.png",
+        "/assets/clients/metalurgica-sao-jorge/07-sjorge_corte_e_dobra_de_chapas022.png",
+        "/assets/clients/metalurgica-sao-jorge/12-sjorge_corte_e_dobra_de_chapas018.png"
+      ]
+    },
+    {
+      "id": "contato",
+      "type": "contact",
+      "variant": "Contact01",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/contact/Contact01.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/Contact01.astro",
+      "reason": "Cotação com contexto via WhatsApp, endereço e horário legíveis.",
+      "changes": [
+        "Cotação com contexto via WhatsApp, endereço e horário legíveis."
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "materials",
+        "address",
+        "phone",
+        "hours"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "variant": "Footer08",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/footer/Footer08.astro"
+      ],
+      "outputPath": "src/clients/components/metalurgica-sao-jorge/Footer08.astro",
+      "reason": "Fechamento compacto com marca real e links existentes.",
+      "changes": [
+        "Fechamento compacto com marca real e links existentes."
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "phone"
+      ],
+      "assetPaths": [
+        "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png"
+      ]
+    }
+  ],
+  "similarityJustification": {},
+  "upstreamCorrections": [
+    {
+      "field": "heroMain",
+      "reason": "O asset 04 é um fundo geométrico, não maquinário. Usar asset 03 inspecionado para cumprir o conceito."
+    },
+    {
+      "field": "clientFactualSummary/services e hero subheadline",
+      "reason": "Resumo contém telefone como serviço e fragmentos de URL como fatos. Usar texto literal do site-atual.md e lead.json."
+    },
+    {
+      "field": "portfolioItemsCount",
+      "reason": "Selecionar três fotos verificadas; quantidade no manifesto inclui vídeo e materiais, não equivale a peças distintas."
+    }
+  ],
+  "removedUnsupportedClaims": [
+    "100% Próprio",
+    "Usinagem",
+    "Ferramentaria",
+    "Inox",
+    "Bronze",
+    "tolerâncias estreitas",
+    "distribuição e expedição para todas as regiões do RS",
+    "calandragem atribuída a foto de perfis dobrados"
+  ],
+  "productionPending": [
+    "Envio de formulário por backend não contratado; cotação prepara mensagem para WhatsApp.",
+    "Mapa incorporado opcional; disponibilizar link para endereço."
+  ],
+  "implementationEvidence": [
+    {
+      "referenceId": "autonomous-drone-62.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/metalurgica-sao-jorge/Hero07.astro",
+      "codeExcerpt": "class=\"sj-machine-frame\"",
+      "explanation": "Moldura fotográfica com bordas contínuas, marcações de canto e legenda técnica."
+    },
+    {
+      "referenceId": "autonomous-drone-62.aura.build",
+      "sectionId": "portfolio",
+      "codePath": "src/clients/components/metalurgica-sao-jorge/Showcase01.astro",
+      "codeExcerpt": "class=\"sj-photo-id\"",
+      "explanation": "Fotos com etiquetas numéricas e bordas técnicas."
+    },
+    {
+      "referenceId": "aex.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/metalurgica-sao-jorge/Hero07.astro",
+      "codeExcerpt": "class=\"sj-hero-title\"",
+      "explanation": "Título empilhado de grande escala; Inter preservada conforme 2A, fotografia assimétrica adjacente."
+    },
+    {
+      "referenceId": "aex.aura.build",
+      "sectionId": "empresa",
+      "codePath": "src/clients/components/metalurgica-sao-jorge/About01.astro",
+      "codeExcerpt": "class=\"sj-editorial-title\"",
+      "explanation": "Composição editorial com contraste entre texto e numeral de tradição comprovado."
+    },
+    {
+      "referenceId": "axion-ai.aura.build",
+      "sectionId": "servicos",
+      "codePath": "src/clients/components/metalurgica-sao-jorge/Services01.astro",
+      "codeExcerpt": "class=\"sj-capacity-table\"",
+      "explanation": "Painel com rótulos monoespaçados, linhas separadoras e medidas verificadas."
+    },
+    {
+      "referenceId": "axion-ai.aura.build",
+      "sectionId": "materiais",
+      "codePath": "src/clients/components/metalurgica-sao-jorge/MaterialsPanel.astro",
+      "codeExcerpt": "class=\"sj-material-row\"",
+      "explanation": "Dois módulos abertos numerados separados por regras técnicas; apenas os materiais confirmados."
+    }
+  ]
+}

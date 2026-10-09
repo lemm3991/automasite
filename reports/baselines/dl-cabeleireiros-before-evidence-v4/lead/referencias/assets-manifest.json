@@ -1,0 +1,170 @@
+{
+  "slug": "dl-cabeleireiros",
+  "client": "D&L Cabeleireiros",
+  "inventoryTimestamp": "2026-10-06T17:59:13.240Z",
+  "totalDiscovered": 10,
+  "totalDownloaded": 10,
+  "assets": [
+    {
+      "id": "asset-1",
+      "category": "logo",
+      "filename": "01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=250,fit=crop/fGtHu63EZTs5bRGw/d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localRefPath": "referencias/site-baixado/assets/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "dimensions": {
+        "width": 375,
+        "height": 250
+      },
+      "format": "png",
+      "fileSizeBytes": 18414,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-2",
+      "category": "portfolio",
+      "filename": "02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/fGtHu63EZTs5bRGw/d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localRefPath": "referencias/site-baixado/assets/02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "dimensions": {
+        "width": 375,
+        "height": 366
+      },
+      "format": "png",
+      "fileSizeBytes": 19563,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-3",
+      "category": "icones",
+      "filename": "03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/fGtHu63EZTs5bRGw/whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 956
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 101429,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-4",
+      "category": "icones",
+      "filename": "04-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/fGtHu63EZTs5bRGw/whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/04-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/04-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "dimensions": {
+        "width": 375,
+        "height": 467
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 32007,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-5",
+      "category": "portfolio",
+      "filename": "05-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/8zry3BDTKCo/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/05-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 6676,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-6",
+      "category": "portfolio",
+      "filename": "06-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/bA57KCP2mfA/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/06-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 15684,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-7",
+      "category": "portfolio",
+      "filename": "07-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/B2o7i_to0AE/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/07-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 17476,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-8",
+      "category": "portfolio",
+      "filename": "08-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/5zR_QCFg260/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/08-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 14890,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-9",
+      "category": "portfolio",
+      "filename": "09-3996980-uhd_2732_1440_25fps.mp4",
+      "originalUrl": "https://videos.pexels.com/video-files/3996980/3996980-uhd_2732_1440_25fps.mp4",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/09-3996980-uhd_2732_1440_25fps.mp4",
+      "localRefPath": "referencias/site-baixado/assets/09-3996980-uhd_2732_1440_25fps.mp4",
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "format": "mp4",
+      "fileSizeBytes": 37112108,
+      "altOriginal": "Video Institucional",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-10",
+      "category": "portfolio",
+      "filename": "10-10729073-hd_1920_1080_30fps.mp4",
+      "originalUrl": "https://videos.pexels.com/video-files/10729073/10729073-hd_1920_1080_30fps.mp4",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/10-10729073-hd_1920_1080_30fps.mp4",
+      "localRefPath": "referencias/site-baixado/assets/10-10729073-hd_1920_1080_30fps.mp4",
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "format": "mp4",
+      "fileSizeBytes": 6148737,
+      "altOriginal": "Video Institucional",
+      "downloadStatus": "SUCCESS"
+    }
+  ],
+  "notDownloaded": []
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "Render Validation",
+  "slug": "brotto-campelo",
+  "checkedAt": "2026-10-09T19:46:44.027Z",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "inspected": [
+    {
+      "path": "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c"
+    },
+    {
+      "path": "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+      "width": 1440,
+      "height": 3193,
+      "sha256": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42"
+    },
+    {
+      "path": "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a"
+    },
+    {
+      "path": "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png",
+      "width": 390,
+      "height": 3960,
+      "sha256": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a"
+    }
+  ],
+  "visualAssessment": "requires_image_review",
+  "visualQualityScore": null,
+  "regressions": null,
+  "limitations": [
+    "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+    "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+  ]
+}

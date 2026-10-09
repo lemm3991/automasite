@@ -1,0 +1,53 @@
+{
+  "slug": "dl-cabeleireiros",
+  "selectedDesignSystems": [
+    {
+      "name": "architecture-studio.aura.build",
+      "path": "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/design-system.html",
+      "sourceSha256": "8eed37ef6f2d3150a46a0d666d99a3a732aa81b18e3a91bdb3d0716b378e642e",
+      "selectionReason": "A escala serifada e o itálico dão hierarquia ao posicionamento de beleza; evitar a tipografia condensada industrial.",
+      "observations": [
+        {
+          "excerpt": "font-serif-custom text-6xl sm:text-7xl md:text-8xl lg:text-9xl",
+          "benefit": "A escala serifada e o itálico dão hierarquia ao posicionamento de beleza; evitar a tipografia condensada industrial.",
+          "factIds": [
+            "headline",
+            "positioning"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "green-museum",
+      "path": "Design System/temas_claros/green-museum/design-system.html",
+      "sourceSha256": "7ba2a32470b7d2b52027d17d6b896349bd6bfffbaf989ef064667d615924a161",
+      "selectionReason": "Enquadramento vertical da fotografia e legenda junto à imagem dão protagonismo ao ambiente e às imagens do salão.",
+      "observations": [
+        {
+          "excerpt": "group relative rounded-2xl overflow-hidden aspect-[3/4]",
+          "benefit": "Enquadramento vertical da fotografia e legenda junto à imagem dão protagonismo ao ambiente e às imagens do salão.",
+          "factIds": [
+            "headline",
+            "positioning"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "barbershop-landing-51.aura.build",
+      "path": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+      "sourceSha256": "f9ea2cc867febcf8cbf885bd2f1d7461166f294383607c6870c017476ccbb005",
+      "selectionReason": "Nome do serviço destacado e descrição curta tornam o cardápio consultável; reinterpretar as caixas como linhas leves sem importar preços, duração ou serviços da barbearia.",
+      "observations": [
+        {
+          "excerpt": "<h3 class=\"service-name\">CORTE EXCLUSIVO</h3>",
+          "benefit": "Nome do serviço destacado e descrição curta tornam o cardápio consultável; reinterpretar as caixas como linhas leves sem importar preços, duração ou serviços da barbearia.",
+          "factIds": [
+            "service-1",
+            "service-9"
+          ]
+        }
+      ]
+    }
+  ]
+}

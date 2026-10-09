@@ -86,17 +86,23 @@ if (opts.query || opts.section) {
   });
 
   // Consulta do Design System Ideal e Tokens Zod
-  const themePref = opts.theme || 'escuro';
+  const themePref = opts.theme as 'claro' | 'escuro' | undefined;
   const dsRecommendation = recommendDesignSystemAndComponents({
     niche,
     vibe,
     themePreference: themePref
   });
 
-  console.log(`\n🎨 Design System Casado (61 Catálogo): [${dsRecommendation.selectedDesignSystem.id}]`);
+  if (!dsRecommendation) {
+    console.log('Nenhuma referência atingiu a relevância mínima. Reformule a busca a partir do conteúdo e das características visuais desejadas.');
+    process.exit(0);
+  }
+  console.log(`\n🎨 Referência candidata: [${dsRecommendation.selectedDesignSystem.id}]`);
   console.log(`   Título: ${dsRecommendation.selectedDesignSystem.titulo}`);
   console.log(`   Score: ${dsRecommendation.selectedDesignSystem.score} pts (${dsRecommendation.selectedDesignSystem.reasons.join(' | ')})`);
-  console.log(`   Fontes: Heading="${dsRecommendation.tokens.headingFont}" | Body="${dsRecommendation.tokens.bodyFont}"`);
-  console.log(`   Cores Tokens: Primary=${dsRecommendation.tokens.primaryColor} | Accent=${dsRecommendation.tokens.accentColor} | BG=${dsRecommendation.tokens.backgroundColor}`);
-  console.log(`   Injeção Direta em client.theme: Pronto e validado pelo Zod ThemeTokens!\n`);
+  if (dsRecommendation.tokens) {
+    console.log(`   Fontes sugeridas: Heading="${dsRecommendation.tokens.headingFont}" | Body="${dsRecommendation.tokens.bodyFont}"`);
+    console.log(`   Cores sugeridas: Primary=${dsRecommendation.tokens.primaryColor} | Accent=${dsRecommendation.tokens.accentColor} | BG=${dsRecommendation.tokens.backgroundColor}`);
+  } else console.log('   Tokens incompletos: conferir HTML/CSS e definir os valores na direção de arte.');
+  console.log('   Inspecione a referência e adapte a composição à marca, à copy e às imagens reais do cliente.\n');
 }

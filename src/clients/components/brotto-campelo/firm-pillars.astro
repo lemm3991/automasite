@@ -1,0 +1,12 @@
+---
+const pillars=[
+ ['Inovação e visão para além dos riscos','DNA inovador que orienta o escritório a explorar possibilidades além dos riscos convencionais, abrindo caminho para novos negócios e parcerias transformadoras.'],
+ ['Abordagem personalizada','Compromisso com o atendimento personalizado, estreitando a relação cliente-advogado através de uma advocacia baseada na confiança, proximidade e compreensão das necessidades individuais dos clientes.'],
+ ['Facilitadores de negócios','Uma atitude proativa em viabilizar negócios e encontrar soluções jurídicas personalizadas.']
+];
+---
+<section class="bca-pillars bca-section">
+ <div class="bca-wrap"><p class="bca-eyebrow">O escritório</p><h2>O que orienta nossa atuação.</h2><div class="bca-pillars-grid">
+ {pillars.map(([title,text])=><article><h3>{title}</h3><p>{text}</p></article>)}
+ </div></div>
+</section>

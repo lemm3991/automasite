@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 2,
+  "slug": "salete-cabeleireira",
+  "concept": "Alta Tradição & Elegância Editorial",
+  "createdBy": "builder-agent",
+  "inputs": [
+    {
+      "path": "leads/salete-cabeleireira/referencias/creative-brief.md"
+    },
+    {
+      "path": "leads/salete-cabeleireira/referencias/art-direction.json"
+    },
+    {
+      "path": "leads/salete-cabeleireira/referencias/design-selection.json"
+    },
+    {
+      "path": "leads/salete-cabeleireira/visual/visual-handoff.json"
+    },
+    {
+      "path": "leads/salete-cabeleireira/referencias/site-atual.md"
+    },
+    {
+      "path": "leads/salete-cabeleireira/lead.json"
+    },
+    {
+      "path": "leads/salete-cabeleireira/referencias/assets-manifest.json"
+    },
+    {
+      "path": "leads/salete-cabeleireira/referencias/source-evidence.json"
+    },
+    {
+      "path": "leads/salete-cabeleireira/referencias/source-review.json"
+    },
+    {
+      "path": "leads/salete-cabeleireira/referencias/asset-review.json"
+    }
+  ],
+  "hero": {
+    "sectionId": "hero",
+    "direction": "Hero editorial imersivo em tela cheia com foto de fundo de cabelos espelhados em tom escuro nobre, logotipo oficial Salete Cabeleireira, tag 'Desde 1966 -- Alta Tradição & Beleza', chamada para agendamento e duplo CTA para a matriz em Criciúma e filial no Balneário Rincão.",
+    "asset": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+    "baseComponent": "src/components/hero/Hero01.astro",
+    "action": "create",
+    "changes": [
+      "Tag de autoridade temporal inspirada no barbershop-landing-51",
+      "Logotipo oficial Salete em branco puro centralizado com alta nitidez",
+      "Duplo botão de contato e agendamento para Matriz Criciúma e Filial Balneário Rincão"
+    ],
+    "desktop": "No desktop (1440x900): visualização cinematográfica com mechas em alta resolução, logotipo Salete com iluminação suave, badge de quase 60 anos de história e botões horizontais de atendimento.",
+    "mobile": "No mobile (390x844): logotipo visível no centro superior, chamada sucinta de alta costura capilar e duplo botão de toque com telefone e WhatsApp imediato.",
+    "selectors": {
+      "logo": "#salete-logo",
+      "message": "#salete-hero h1",
+      "cta": "#salete-hero .salete-cta-btn",
+      "identity": "#salete-hero .salete-tag",
+      "photo": "#salete-hero .salete-hero-bg img"
+    }
+  },
+  "references": [
+    {
+      "id": "barbershop-landing-51.aura.build",
+      "sourcePath": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "Fundada em 2018 -- Cuidado Premium",
+          "benefit": "Estrutura de tag de autoridade temporal no topo do hero valorizando o pioneirismo desde 1966.",
+          "factIds": [
+            "foundation-year",
+            "founder-name"
+          ],
+          "element": "hero tag de autoridade",
+          "appliedTo": [
+            "hero"
+          ],
+          "reinterpretation": "Tag 'Desde 1966 -- Alta Tradição & Beleza' posicionada acima do título do hero."
+        },
+        {
+          "excerpt": "Entre num mundo onde cada corte conta uma história.",
+          "benefit": "Tom editorial e narrativa biográfica refinada para contextualizar as credenciais da fundadora.",
+          "factIds": [
+            "cert-vidal-sassoon",
+            "cert-toni-guy"
+          ],
+          "element": "narrativa editorial de ofício",
+          "appliedTo": [
+            "history"
+          ],
+          "reinterpretation": "Bloco de biografia detalhando a formação em academias de Londres e a trajetória iniciada aos 14 anos."
+        }
+      ]
+    },
+    {
+      "id": "luxury-desert-retreat-1.aura.build",
+      "sourcePath": "Design System/temas_claros/luxury-desert-retreat-1.aura.build/luxury-desert-retreat-1.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "Refúgio de Luxo no Deserto",
+          "benefit": "Subtítulo com espaçamento aristocrático e elegância minimalista adaptado para Salão de Alta Tradição.",
+          "factIds": [
+            "company-name",
+            "city-criciuma"
+          ],
+          "element": "subtítulo minimalista espaçado",
+          "appliedTo": [
+            "units"
+          ],
+          "reinterpretation": "Subtítulo de prestígio para a matriz em Criciúma e filial em Balneário Rincão."
+        },
+        {
+          "excerpt": "<div class=\"scroll-line\"></div>",
+          "benefit": "Indicador vertical minimalista de navegação conduzindo a narrativa entre o hero e a trajetória biográfica.",
+          "factIds": [
+            "foundation-year",
+            "founder-name"
+          ],
+          "element": "linha de rolagem minimalista",
+          "appliedTo": [
+            "hero"
+          ],
+          "reinterpretation": "Linha sutil vertical para indicar continuidade editorial abaixo do hero."
+        }
+      ]
+    },
+    {
+      "id": "savory-plate.aura.build",
+      "sourcePath": "Design System/temas_claros/savory-plate.aura.build/savory-plate.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "The Savory Plate - Receitas Modernas",
+          "benefit": "Harmonização tipográfica serifada de alto contraste para títulos editoriais com ar de revista de luxo.",
+          "factIds": [
+            "company-name",
+            "founder-name"
+          ],
+          "element": "títulos serifados de alta moda",
+          "appliedTo": [
+            "services"
+          ],
+          "reinterpretation": "Tipografia Playfair Display aplicada no cabeçalho do menu de rituais capilares."
+        },
+        {
+          "excerpt": "font-serif italic font-bold",
+          "benefit": "Aplicação de monograma serifado itálico para elevar a percepção artística dos rituais capilares.",
+          "factIds": [
+            "service-queratina",
+            "service-botox"
+          ],
+          "element": "detalhes itálicos de luxo",
+          "appliedTo": [
+            "brands"
+          ],
+          "reinterpretation": "Destaques tipográficos em itálico para produtos de tratamento Kérastase e Wella."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "description": "Logotipo oficial do Salão de Beleza Salete Cabeleireira com tipografia cursiva elegante e assinatura de marca.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "logo",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "description": "Expositores e prateleiras com produtos de tratamento capilar Kérastase no salão.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "product",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "description": "Bancadas de atendimento e estações de styling do salão.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "environment",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "description": "Área de lavatórios profissionais e relaxamento capilar.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "environment",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "description": "Linha profissional de coloração e tratamento Wella Professionals.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "product",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "description": "Imagem panorâmica de alta resolução do salão de beleza e estações de atendimento.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "environment",
+        "provenance": "client-source"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-company",
+      "factIds": [
+        "company-name"
+      ],
+      "text": "Salão de Beleza Salete Cabeleireira",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "Sal&atilde;o de Beleza",
+      "usedIn": [
+        "hero",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-founder",
+      "factIds": [
+        "founder-name"
+      ],
+      "text": "Salete Cabeleireira",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "Salete, demonstrava interesse",
+      "usedIn": [
+        "hero",
+        "history"
+      ]
+    },
+    {
+      "id": "claim-foundation",
+      "factIds": [
+        "foundation-year"
+      ],
+      "text": "Fundado em novembro de 1966",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "novembro do mesmo ano",
+      "usedIn": [
+        "hero",
+        "history"
+      ]
+    },
+    {
+      "id": "claim-vidal-sassoon",
+      "factIds": [
+        "cert-vidal-sassoon"
+      ],
+      "text": "Formação internacional com Vidal Sassoon",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "Vidal Sassoon",
+      "usedIn": [
+        "history"
+      ]
+    },
+    {
+      "id": "claim-toni-guy",
+      "factIds": [
+        "cert-toni-guy"
+      ],
+      "text": "Especialização na Academia TONI&GUY",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "Academia TONI&GUY",
+      "usedIn": [
+        "history"
+      ]
+    },
+    {
+      "id": "claim-criciuma",
+      "factIds": [
+        "city-criciuma",
+        "state-criciuma",
+        "phone-criciuma"
+      ],
+      "text": "Unidade Centro Criciúma: Rua Coronel Pedro Benedet, 159 — Telefone: 48 3433 1789",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "48 3433 1789",
+      "usedIn": [
+        "units",
+        "contact",
+        "hero"
+      ]
+    },
+    {
+      "id": "claim-rincao",
+      "factIds": [
+        "city-rincao",
+        "state-rincao",
+        "phone-rincao"
+      ],
+      "text": "Unidade Balneário Rincão: Rua Antonio Francisco Borgo, 175 — Telefone: 48 3468 1297",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "48 3468 1297",
+      "usedIn": [
+        "units",
+        "contact",
+        "hero"
+      ]
+    },
+    {
+      "id": "claim-treatments",
+      "factIds": [
+        "service-queratina",
+        "service-botox",
+        "service-lifting",
+        "service-peeling"
+      ],
+      "text": "Tratamentos Capilares de Alta Performance: Queratina, Botox, Lifting e Peeling",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "Queratina Botox Peeling Lifting",
+      "usedIn": [
+        "services",
+        "brands"
+      ]
+    },
+    {
+      "id": "claim-cuts-styling",
+      "factIds": [
+        "service-cortes",
+        "service-penteados",
+        "service-alongamento",
+        "service-mechas"
+      ],
+      "text": "Cortes, Penteados, Alongamento e Mechas",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "Alongamento Pintura Penteados Cortes",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-bride",
+      "factIds": [
+        "service-dia-da-noiva"
+      ],
+      "text": "Dia da Noiva com hidromassagem e espaço reservado",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "Hidromassagem Maquiagem Penteado",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-email",
+      "factIds": [
+        "email-contact"
+      ],
+      "text": "E-mail de contato: contato@saletecabeleireira.com.br",
+      "sourcePath": "leads/salete-cabeleireira/referencias/site-atual.md",
+      "sourceExcerpt": "contato@saletecabeleireira.com.br",
+      "usedIn": [
+        "contact"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Hero Editorial — Alta Tradição & Beleza",
+      "type": "hero",
+      "variant": "salon-hero",
+      "action": "create",
+      "reason": "Abertura imersiva adaptando o hero do Barbershop e Luxury Retreat com mechas de fundo, tag temporal e duplo CTA.",
+      "candidateComponents": [
+        "src/components/hero/Hero01.astro"
+      ],
+      "outputPath": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+      "changes": [
+        "Tag temporal Desde 1966 inspirada no Barbershop",
+        "Assinatura do logotipo oficial Salete com efeito de brilho suave",
+        "Duplo botão de atendimento para Criciúma e Balneário Rincão"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build",
+        "luxury-desert-retreat-1.aura.build"
+      ],
+      "claimIds": [
+        "claim-company",
+        "claim-founder",
+        "claim-foundation",
+        "claim-criciuma",
+        "claim-rincao"
+      ],
+      "assetPaths": [
+        "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+        "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg"
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Trajetória Consagrada na Beleza",
+      "type": "about",
+      "variant": "history-split",
+      "action": "create",
+      "reason": "Narrativa editorial de duas colunas detalhando o pioneirismo desde 1966 e formação internacional.",
+      "candidateComponents": [
+        "src/components/about/About01.astro"
+      ],
+      "outputPath": "src/clients/components/salete-cabeleireira/history-split.astro",
+      "changes": [
+        "Layout split assimétrico com linha do tempo de Nova Veneza a Criciúma",
+        "Badges de excelência para Vidal Sassoon e Academia TONI&GUY",
+        "Fotografia autêntica das bancadas do salão"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build"
+      ],
+      "claimIds": [
+        "claim-founder",
+        "claim-foundation",
+        "claim-vidal-sassoon",
+        "claim-toni-guy"
+      ],
+      "assetPaths": [
+        "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg"
+      ]
+    },
+    {
+      "id": "services",
+      "title": "Menu de Rituais & Especialidades",
+      "type": "services",
+      "variant": "services-menu",
+      "action": "create",
+      "reason": "Menu editorial segmentando rituais de tratamento capilar, cortes, mechas e Dia da Noiva.",
+      "candidateComponents": [
+        "src/components/services/Services01.astro"
+      ],
+      "outputPath": "src/clients/components/salete-cabeleireira/services-menu.astro",
+      "changes": [
+        "Cards de vidro com borda sutil inspirados no Savory Plate",
+        "Tipografia Playfair Display para nomes de rituais",
+        "Fotografia autêntica dos lavatórios de relaxamento"
+      ],
+      "referenceIds": [
+        "savory-plate.aura.build"
+      ],
+      "claimIds": [
+        "claim-treatments",
+        "claim-cuts-styling",
+        "claim-bride"
+      ],
+      "assetPaths": [
+        "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg"
+      ]
+    },
+    {
+      "id": "brands",
+      "title": "Parcerias Globais de Alta Performance",
+      "type": "benefits",
+      "variant": "brands-bar",
+      "action": "create",
+      "reason": "Faixa de prestígio destacando os produtos Kérastase, Wella e L'Oréal.",
+      "candidateComponents": [
+        "src/components/benefits/Benefits01.astro"
+      ],
+      "outputPath": "src/clients/components/salete-cabeleireira/brands-bar.astro",
+      "changes": [
+        "Monogramas itálicos elegantes inspirados no Savory Plate",
+        "Galeria de produtos profissionais autênticos do salão",
+        "Badges de reconstrução e proteção da cor"
+      ],
+      "referenceIds": [
+        "savory-plate.aura.build"
+      ],
+      "claimIds": [
+        "claim-treatments"
+      ],
+      "assetPaths": [
+        "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+        "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg"
+      ]
+    },
+    {
+      "id": "units",
+      "title": "Nossas Unidades em Santa Catarina",
+      "type": "benefits",
+      "variant": "units-cards",
+      "action": "create",
+      "reason": "Dois cartões arquitetônicos destacando a matriz histórica em Criciúma e filial em Balneário Rincão.",
+      "candidateComponents": [
+        "src/components/benefits/Benefits01.astro"
+      ],
+      "outputPath": "src/clients/components/salete-cabeleireira/units-cards.astro",
+      "changes": [
+        "Subtítulo aristocrático inspirado no Luxury Retreat",
+        "Cartões de localização com telefone e botões diretos de rota e contato"
+      ],
+      "referenceIds": [
+        "luxury-desert-retreat-1.aura.build"
+      ],
+      "claimIds": [
+        "claim-criciuma",
+        "claim-rincao"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "contact",
+      "title": "Agendamento & Atendimento Exclusivo",
+      "type": "contact",
+      "variant": "direct-contact",
+      "action": "create",
+      "reason": "Seção de conversão com formulário direto, e-mail institucional e botão de WhatsApp imediato.",
+      "candidateComponents": [
+        "src/components/contact/Contact01.astro"
+      ],
+      "outputPath": "src/clients/components/salete-cabeleireira/direct-contact.astro",
+      "changes": [
+        "Formulário elegante de mensagem",
+        "Acesso direto por WhatsApp e telefone para as duas unidades"
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "claim-email",
+        "claim-criciuma",
+        "claim-rincao"
+      ],
+      "assetPaths": []
+    }
+  ],
+  "implementationEvidence": [
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+      "codeExcerpt": "tagline = content.tagline || \"Desde 1966 -- Alta Tradição & Beleza\";",
+      "explanation": "Aplicação concreta da hero tag de autoridade temporal inspirada no barbershop-landing-51 valorizando a fundação em 1966.",
+      "renderCheck": {
+        "selector": ".salete-tag"
+      },
+      "compositionalEvidence": [
+        {
+          "sourceExcerpt": "Fundada em 2018 -- Cuidado Premium",
+          "reinterpretation": "Tag temporal 'Desde 1966 -- Alta Tradição & Beleza' posicionada acima do título principal."
+        }
+      ]
+    },
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "history",
+      "codePath": "src/clients/components/salete-cabeleireira/history-split.astro",
+      "codeExcerpt": "Entre em um espaço onde cada atendimento expressa arte e precisão clássica.",
+      "explanation": "Abertura narrativa da biografia de Salete inspirada na prosa de ofício clássico do Barbershop.",
+      "renderCheck": {
+        "selector": "#historia"
+      },
+      "compositionalEvidence": [
+        {
+          "sourceExcerpt": "Entre num mundo onde cada corte conta uma história.",
+          "reinterpretation": "Abertura em tom refinado destacando a precisão artística e a trajetória de 58 anos."
+        }
+      ]
+    },
+    {
+      "referenceId": "luxury-desert-retreat-1.aura.build",
+      "sectionId": "units",
+      "codePath": "src/clients/components/salete-cabeleireira/units-cards.astro",
+      "codeExcerpt": "Presença consolidada nas duas cidades de Santa Catarina",
+      "explanation": "Subtítulo com espaçamento aristocrático inspirado no Luxury Retreat para contextualizar as duas unidades.",
+      "renderCheck": {
+        "selector": "#unidades"
+      },
+      "compositionalEvidence": [
+        {
+          "sourceExcerpt": "Refúgio de Luxo no Deserto",
+          "reinterpretation": "Subtítulo aristocrático com alta legibilidade espacial para situar os dois centros de atendimento."
+        }
+      ]
+    },
+    {
+      "referenceId": "luxury-desert-retreat-1.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+      "codeExcerpt": "<div class=\"salete-scroll-line\"></div>",
+      "explanation": "Indicador vertical minimalista de navegação conduzindo a narrativa entre o hero e a trajetória biográfica.",
+      "renderCheck": {
+        "selector": ".salete-scroll-indicator"
+      },
+      "compositionalEvidence": [
+        {
+          "sourceExcerpt": "<div class=\"scroll-line\"></div>",
+          "reinterpretation": "Linha de rolagem elegante minimalista conectando o hero à seção histórica."
+        }
+      ]
+    },
+    {
+      "referenceId": "savory-plate.aura.build",
+      "sectionId": "services",
+      "codePath": "src/clients/components/salete-cabeleireira/services-menu.astro",
+      "codeExcerpt": "font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-[#fcfbfb] tracking-tight",
+      "explanation": "Harmonização tipográfica serifada de alta costura inspirada no Savory Plate para o menu de serviços.",
+      "renderCheck": {
+        "selector": "#servicos h2"
+      },
+      "compositionalEvidence": [
+        {
+          "sourceExcerpt": "The Savory Plate - Receitas Modernas",
+          "reinterpretation": "Tipografia Playfair Display aplicada no cabeçalho do catálogo de rituais capilares."
+        }
+      ]
+    },
+    {
+      "referenceId": "savory-plate.aura.build",
+      "sectionId": "brands",
+      "codePath": "src/clients/components/salete-cabeleireira/brands-bar.astro",
+      "codeExcerpt": "font-serif italic text-xl font-bold text-white",
+      "explanation": "Monogramas e nomes de marcas parceiras em tipografia itálica refinada do Savory Plate.",
+      "renderCheck": {
+        "selector": "#marcas h3"
+      },
+      "compositionalEvidence": [
+        {
+          "sourceExcerpt": "font-serif italic font-bold",
+          "reinterpretation": "Nomes das linhas profissionais de tratamento exibidos com destaque itálico elegante."
+        }
+      ]
+    }
+  ]
+}

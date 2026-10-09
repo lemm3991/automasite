@@ -1,62 +1,42 @@
 ---
 name: site-downloader
-description: Baixa automaticamente o site atual de um lead utilizando o Asimov Site Downloader 2.0 (https://sd.asimov.academy/), descompacta o pacote gerado, organiza as referências brutas (HTML, CSS, JS, imagens, logos e fontes) e valida a integridade do material capturado com fallback técnico.
+description: Baixa dinamicamente o site atual de qualquer lead, cataloga 100% dos assets visuais inspecionando dimensões reais via Sharp, mapeia rotas reais vs âncoras e valida a integridade física do material sem dados fixos.
 ---
 
-# Skill: Site Downloader Automático (Asimov Site Downloader 2.0)
+# Skill: Site Downloader & Prospector Engine
 
-Esta skill automatiza a captura completa e offline do site atual de cada lead fornecido pelo Prospector, servindo como base probatória, repositório de assets reais e material para extração estrutural.
+## Contrato atual obrigatório (v4)
 
-## 1. Ferramenta Principal: Asimov Site Downloader 2.0
+Siga `docs/pipeline-evidence-contract.md`. A coleta gera candidatos; o agente revisa `source-review.json` e abre os assets para `asset-review.json`. Fatos têm estados verified/conflicting/unconfirmed, entidades por unidade e resolução explícita com fontes concorrentes. Sem revisão, retornar NEEDS_FACTUAL_REVIEW ao Prospector; não aprovar nem pedir confirmação humana rotineira.
 
-- **URL do Serviço:** `https://sd.asimov.academy/`
-- **Capacidades:** Renderização headless com Playwright/Chromium, captura de SPAs, hidratação de conteúdo lazy-loaded, download de imagens, estilos, fontes e empacotamento em ZIP offline funcional.
+Critérios operacionais, pesos e notas são escritos pelo agente conforme negócio e evidências. Não há nota estética automática, CNPJ não é serviço e ausência de formulário não é falha por padrão. Todo seletor declarado deve existir no HTML. A classificação de assunto da imagem exige inspeção; Sharp confirma formato/dimensões, não conteúdo.
 
-## 2. Métodos de Execução
+Após a revisão, reprocessar com `--from-snapshot` e executar o validador. O handoff libera apenas fatos verificados ou escolhas explicitamente justificadas; mantém conflitos. A matriz e as regras abaixo são descrição histórica quando divergirem deste contrato.
 
-### Método A: Execução Automática via CLI (Recomendado)
-O script executa o ciclo completo via API + SSE stream:
+Esta skill executa a captura dinâmica, offline e probatória do site atual de qualquer lead sem nenhuma dependência de dados fixos previamente codificados.
+
+## 1. Ferramenta Principal Reutilizável: Prospector Engine
 ```bash
-node .agents/skills/site-downloader/scripts/download_site.js --url "https://cliente.com.br" --slug "cliente-slug"
+node scripts/prospector-engine.cjs --url "https://site.com.br" --slug "lead-slug" [--name "Nome Empresa"] [--niche "Nicho"] [--city "Cidade"] [--state "UF"]
 ```
 
-1. Dispara `POST https://sd.asimov.academy/start-download` com `{ url }`;
-2. Acompanha o progresso em tempo real via SSE `/stream/<session_id>`;
-3. Ao finalizar, baixa o ZIP via `/download-file/<session_id>`;
-4. Descompacta nativamente (`tar` ou `Expand-Archive`);
-5. Organiza os arquivos na pasta do cliente e espelha em `index/[slug]/referencias/site-baixado/`;
-6. Executa a validação de integridade e salva `download-report.json`.
+### Capacidades Dinâmicas:
+1. **Descoberta Dinâmica de Páginas:** Varre `sitemap.xml`, `robots.txt`, links do menu e rodapé. Separa rotas HTTP reais de âncoras (`#`).
+2. **Download Multirrotas:** Baixa Home, Sobre, Serviços, Produtos/Portfólio e Contato, salvando espelhos locais em `leads/[slug]/referencias/site-baixado/`.
+3. **Inventário Completo de Mídias:** Descobre `img`, `srcset`, fundos CSS e vídeos. Inspeciona formato, largura e altura reais via Sharp.
+4. **Extração Semântica e Literal:** Extrai a copy e condições comerciais ipsis litteris direto da árvore DOM com tags de rastreabilidade `[Fonte: site oficial | DOM]`.
+5. **Capturas Comprovatórias via Chrome CDP:** Captura páginas completas (*full-page* desktop e mobile) e recortes de componentes localizados via DOM (`getBoundingClientRect`).
+6. **Memória de Cálculo de Score:** Aplica fórmula algorítmica reproduzível baseada em evidências.
 
-### Método B: Automação pelo Navegador (Browser / CDP)
-Quando solicitado ou necessário via interface:
-1. Verifica se o Chrome CDP está ativo em `http://127.0.0.1:9222/json/version` (seguindo rigorosamente a regra do usuário);
-2. Acessa `https://sd.asimov.academy/`;
-3. Insere a URL alvo no campo `#url`;
-4. Clica no botão `#grab` ("Baixar Site");
-5. Aguarda o log ao vivo e a exibição do botão `#dl-link` ("Baixar ZIP");
-6. Baixa o arquivo `.zip` para a pasta de downloads;
-7. Extrai o pacote e move os conteúdos para `leads/[slug]/referencias/site-baixado/` e `index/[slug]/referencias/site-baixado/`.
-
-## 3. Fallback Técnico (Scraper HTTP Resiliente)
-Se o Asimov Site Downloader estiver inacessível, bloqueado por Cloudflare/WAF ou retornar erro:
-- O script ativa automaticamente o fallback HTTP scraper;
-- Resgata o HTML principal, stylesheets, scripts e até 30 imagens reais;
-- Registra a ocorrência em `download-report.json`.
-- **REGRA ABSOLUTA:** Nunca finja que o download foi concluído sem verificar o conteúdo em disco.
-
-## 4. Estrutura de Pastas Gerada
-```text
-index/[slug]/ (e leads/[slug]/)
-└── referencias/
-    ├── site-baixado/
-    │   ├── index.html
-    │   ├── assets/ (ou imagens/, css/, js/)
-    │   └── ...
-    └── download-report.json
+## 2. Validador Independente (Quality Gate)
+```bash
+node scripts/validate-prospector-handoff.cjs --slug "lead-slug"
 ```
-
-## 5. Checklist de Validação
-Antes de prosseguir para as próximas etapas do Builder, certifique-se de que:
-- [ ] `index.html` existe e possui tamanho superior a 500 bytes;
-- [ ] Imagens e/ou arquivos de estilo foram capturados;
-- [ ] `download-report.json` registrou status positivo.
+Executa auditoria estrita de 10 passos:
+- Existência e peso dos arquivos HTML (> 1 KB);
+- Metadados reais dos assets validados pelo Sharp;
+- Presença obrigatória de logo e fotos prioritárias;
+- Screenshots válidos e legíveis;
+- Rastreabilidade de fontes em `site-atual.md`;
+- Congruência matemática do Score de Oportunidade;
+- Emissão oficial de `READY_FOR_ART_DIRECTION`.

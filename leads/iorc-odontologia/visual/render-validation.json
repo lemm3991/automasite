@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "Render Validation",
+  "slug": "iorc-odontologia",
+  "checkedAt": "2026-10-09T12:19:27.905Z",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "inspected": [
+    {
+      "path": "leads/iorc-odontologia/redesign/screenshots/home-desktop.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "e95a7e0d090b994bb399082827f3dad35dc648fd6ac2a2133deec1142997e0b9"
+    },
+    {
+      "path": "leads/iorc-odontologia/redesign/screenshots/home-desktop-full.png",
+      "width": 1440,
+      "height": 4665,
+      "sha256": "d766afd2383cfbd838aaa468fc43fe7f8661fae55a3115a6084ccff00e3408e2"
+    },
+    {
+      "path": "leads/iorc-odontologia/redesign/screenshots/home-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "9e5333bcb661f930add03fe891de13086471b68e8306a7698af7376986f5f9b2"
+    },
+    {
+      "path": "leads/iorc-odontologia/redesign/screenshots/home-mobile-full.png",
+      "width": 390,
+      "height": 8249,
+      "sha256": "ca7c1b46557c5d98325e1d49b07870e77c4b09cf6d166e068af5d7d202728e2f"
+    }
+  ],
+  "visualAssessment": "requires_image_review",
+  "visualQualityScore": null,
+  "regressions": null,
+  "limitations": [
+    "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+    "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+  ]
+}

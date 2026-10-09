@@ -1,0 +1,44 @@
+:root {
+  --grid-color: rgba(16, 64, 80, 0.08);
+  --iorc-primary: #104050;
+  --iorc-secondary: #205060;
+  --iorc-accent: #104060;
+  --iorc-bg: #ffffff;
+  --iorc-surface: #f8fafc;
+  --iorc-text: #1e293b;
+  --iorc-muted: #64748b;
+  --iorc-border: #e2e8f0;
+}
+
+@keyframes reveal-up {
+  0% { clip-path: inset(100% 0 0 0); transform: translateY(20px); opacity: 0; }
+  100% { clip-path: inset(0 0 0 0); transform: translateY(0); opacity: 1; }
+}
+
+.animate-reveal-up {
+  animation: reveal-up 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.clinical-grid-bg {
+  background: var(--grid-color);
+}
+
+.facility-split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .facility-split-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-architect-transition {
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;
+}
+
+.card-architect-transition:hover {
+  transform: translateY(-4px);
+}

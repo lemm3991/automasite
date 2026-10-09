@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": 1,
+  "slug": "brotto-campelo",
+  "url": "http://127.0.0.1:4321/brotto-campelo/",
+  "capturedAt": "2026-10-09T19:46:27.734Z",
+  "httpStatus": 200,
+  "htmlSha256": "905743eb73ac6322d5f547244821e452301fda2bed19fbe6f70e84c0894df797",
+  "sourceHashes": {
+    "astro.config.mjs": "d030c322cad81888b64808704533cfacaf3fbdf222d237166af85c8a21c77943",
+    "package-lock.json": "d61dc5d4aa1578b09a9612fe0b21ee939152d5fbe06be56236fe44662360d708",
+    "package.json": "47385e7fd0a274b01921fd4be20328cc0ebc1c3570d581ddd6d53cfb8c6a04e1",
+    "public/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+    "public/assets/clients/brotto-campelo/02-logo-bca-vertical-branca.png": "13c7cb37a79c8883765118e200509ca52a90503ae8da86d621a9b71e1e3636c3",
+    "public/assets/clients/brotto-campelo/03-BCA-logos-01-1024x205.png": "bf3526b965ee5a1036f335b89f3b42fe3b14841d79e33c9d979e52fd134f22ba",
+    "public/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115",
+    "public/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a",
+    "public/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5",
+    "public/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a",
+    "public/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6",
+    "public/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a",
+    "public/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d",
+    "public/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f",
+    "public/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f",
+    "public/assets/clients/brotto-campelo/13-icone-home-Natalia-Brotto.png": "8415c79355972f0ec5c9282f0fd70c62116e8dd75759fff417118232d9321a2b",
+    "public/assets/clients/brotto-campelo/14-icone-home-Ricardo-Campelo.png": "246d7e1b0861208491a43eeb72152ce5e68a277efa4693d8a746c1c97947de8f",
+    "public/assets/clients/brotto-campelo/15-icone-home-Nastassia-Iurk.png": "7e307bda56f0bfc7460e29f2ce636ee5323606f5543ba61c499ef8862154563d",
+    "public/assets/clients/brotto-campelo/16-icone-home-socio-1.png": "c977c80c4aaa6155120bffdffaaacccfe3bb985ee763d981509aa79a5c9c2036",
+    "public/assets/clients/brotto-campelo/17-icone-home-socio-2.png": "3701824d271558079005e6caf3ca37031d0ea0838ebf1f8fbb896d54e44c1658",
+    "public/assets/clients/brotto-campelo/18-icone-home-Any-Caroline.png": "5f196d9627ffececaf37f01129ed138db850338a2f1ba717250760c46283dc4b",
+    "public/assets/clients/brotto-campelo/19-icone-home-Everson-Silva.png": "9508fff513425a9f0185f33099e89d3eca4b87b28cbec9167856cfa9e5c7cf66",
+    "public/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg": "83bc1c8fdecf09a50a8de417fafd0e69a764919c8b18aebd6fcb4f6e8378ae01",
+    "public/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51",
+    "public/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666",
+    "public/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91",
+    "public/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde",
+    "public/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9",
+    "public/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9",
+    "public/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg": "cd7c6ff4c59dfed91c4d9fe0208a9ad14aa387f8dd29446410d281e207a3c8db",
+    "src/clients/components/.gitkeep": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "src/clients/components/brotto-campelo/awards-bar.astro": "a1839cd15f4f8b596a6156c152ed9eefb03369bd319b4e35b470f8ac0afb5b78",
+    "src/clients/components/brotto-campelo/executive-contact.astro": "a45f52038e6dc1993f664f2609cbfcccdf9105c62cecb91bb072d021e3813a20",
+    "src/clients/components/brotto-campelo/executive-hero.astro": "1a886e881018be3dcedc1a3be8404e253777dd09a370cce9e8e951c27a91547f",
+    "src/clients/components/brotto-campelo/firm-pillars.astro": "8121623b730a55f2a5a634d09b0d8fdd4343b1dc4b754569d197c1ddf2a425e9",
+    "src/clients/components/brotto-campelo/headquarters-showcase.astro": "e39f4d6711a41cb8e370a7d3d968c8a21ffd4e6cec3b905dfac0c00366182cd7",
+    "src/clients/components/brotto-campelo/legal.css": "dd21186b4467b7fe7706e79472b78d61544da19f246fe732bb73227d8a523a1f",
+    "src/clients/components/brotto-campelo/practice-grid.astro": "1b6368d153eaf26833f55c89c3f86e4b98a28c9006c330e5278fe75c36b79ff2",
+    "src/clients/data/brotto-campelo.ts": "7802abb1746b7f1018b7bd849d76897ea809713dba5eaac3be2d142ad6bd29ea",
+    "src/clients/registry.ts": "06520298596a20dd5a100b87d0c02756967c983285cc3643153203e764fee0f2",
+    "src/clients/repository.ts": "b70d57b0cb5e7add44765b1b0824af34e533655eed41ff25dc0173f2d5e9ac73",
+    "src/clients/schema.ts": "f646aee97f0e3b684a9e49ccbea7cac4758faa5b8aff9dbb2e9d62693427b605",
+    "src/clients/types.ts": "f995f73ac127a0ae29511f53ca76ca47e5c529ac794ba2fd24c0dece37513e59",
+    "src/components/BaseLayout.astro": "bf98c07cc694f49b6855259c8c254b2a3e73bd5c2733bb590fd99908b34bc872",
+    "src/components/SectionRenderer.astro": "f99da0db1e22992c161c7cb5794105db663138314c2a00e3c232847f383894d6",
+    "src/components/about/About01.astro": "0f2279f9f7b72bd5054e13b66059e5228d12334ad240c54dc85122c1caa080d7",
+    "src/components/backgrounds/DotMatrixBackground.astro": "cea58830d58f86163c4e603c8a294e607cc5efd8ed3cdaa86c86f62b6cf55942",
+    "src/components/backgrounds/MeshGradientBackground.astro": "6bd4deb03b30a21e7619386f11a08ac8ce77b61a716259c1925c4d6088deb212",
+    "src/components/backgrounds/PrismBackground.astro": "73ab6f3d30c3e61d427f76d124853218ee7d2c140b9817945e42d3b7ae1bddd2",
+    "src/components/benefits/Benefits01.astro": "f24e461d3dc2d6e8ba485d59da89eb0cb0d7a42627be98446bd8be0d0c6feb60",
+    "src/components/benefits/Features01.astro": "09b0d5305235b011c5784458bb37a514a5d7c238942581bf5f8fad62223e8045",
+    "src/components/benefits/Features02.astro": "45414ed343cf1405449215577d280ccbb2da1f3dc79103e92def95db662ae9e3",
+    "src/components/benefits/Features03.astro": "0db2bc3dc97066d5a9754bbf451912cee86e3b4dbc244ad3169c1a220161feb6",
+    "src/components/benefits/Features04.astro": "15472ee250b8fd7383b7926dd75360b1e63d1f0c644ef04a82633b1135df0e89",
+    "src/components/benefits/Features05.astro": "f28f253f521dd63c763acba040c16dd019a7bdb713c9e7edf8c83120dfb2d716",
+    "src/components/benefits/Features06.astro": "5ce6f355883aedb4a23cad957ec7dda7d9c859484d8370f8ef9e2a6a45e5a081",
+    "src/components/benefits/Features07.astro": "a93ca21bbcd0b31e54e904dac697293ba1a45fb7f56cd1588e4898c05b2d163a",
+    "src/components/benefits/Features08.astro": "c87047da9d66452128cdfead2fd9251a1005397d8a70ea97c80b924921a63f8a",
+    "src/components/bento/Bento01.astro": "851f31996f0408f179227a7ec6f4e9f5d3ebb9b300e38b645c63b9233eddacf4",
+    "src/components/bento/Bento02.astro": "d347fd1af597447cdd860847bb0839654c2c7f5b1797616e27b5d974a1ac393b",
+    "src/components/bento/Bento03.astro": "b14213d9bf7e68b895c65c3c7dcbc63dd449e67151496935b13493d4c6c138e2",
+    "src/components/bento/Bento04.astro": "836a398cfda611a7c424f7a5e8a5ac11d108fc4f59f333ee60fe6b4a8fab519f",
+    "src/components/bento/Bento05.astro": "09875327b5c2d6caa47c7749b5bce75f939a768bfbf5481247d93ab21d702c95",
+    "src/components/bento/Bento06.astro": "3b50d4df0d2c1b230001408332f412e3e0e0eac20bf6e5780d007b897aa1bf2f",
+    "src/components/bento/Bento07.astro": "605f3a5a83a229147e678453eb304f88660f9be63685ecc3079b161651adc433",
+    "src/components/bento/Bento08.astro": "547a0bddff51369f6eb3d60d8421c1b4f00a8ad2504b2cf601fbaa889b401aff",
+    "src/components/bento/Bento09.astro": "a93304cdbe44d85a86cf0836f5aade41cfb26d408bb48275cacdf6435f93f275",
+    "src/components/bento/Bento10.astro": "f1fc684554d5dc516d034f093dc67f194f77ae789f1b2e670d59dbc396dd0139",
+    "src/components/bento/Bento11.astro": "db446b95e0770676b2c1ab3f354806ad9aaaa126ec16d9c5ccf6dec12f2fdc66",
+    "src/components/bento/Bento12.astro": "7d04cc9ed0fc2e9f075552ba8036434309a92a740f1fae867c0d95f04835211b",
+    "src/components/component-registry.json": "285227cb12e40092132e11d1fa2e8a0c76cc1d0ce85f129497ecf84abb41e579",
+    "src/components/components-meta.ts": "d02969e61677fd96ab0232cb567afebbfa259d37a307d91ffee0f65255f54183",
+    "src/components/contact/Contact01.astro": "f71a6d8e4ee25f8b5c89532c25dcee85bc7a5231b642056a96ea3724f70a01d2",
+    "src/components/contact/Contact02.astro": "ccf9f3cdcfa93a0d3ce604148cde5945adb95cfce438cf3694b185020c14d5ff",
+    "src/components/contact/Contact03.astro": "03a9f7a7b42fd8418fe84adb69a5a2a170e9ca7c4ec97cc8c579e848565d9fa9",
+    "src/components/contact/Contact04.astro": "cab39800fdb684c282b9eed5ad034e3aad71c0b3bd50adfc9d5377010e7ce51b",
+    "src/components/credentials/Credentials01.astro": "3f69e7a0e8b3466f98fceb848fbe5e7415a18567bb6a69498cff68e63a8b9a19",
+    "src/components/cta/CTA01.astro": "47c181ba702c78239e41c585c2800965f1d40e0b82f2c9d71bf3841e9621dfb5",
+    "src/components/cta/CTA02.astro": "053323f4d05892e696e66c742ee69fd6576a6e610de7ce774d88a1e9efe7d5c0",
+    "src/components/cta/CTA03.astro": "07f1a68d75b4518bf5f94bfe92b08d1063123068a618ace90bd9ba9df2ef27d7",
+    "src/components/cta/CTA04.astro": "f3139fbae8b3b2319e377e7158f1001ed2c855d935f1a074577ab391eefa9862",
+    "src/components/cta/CTA05.astro": "948acf646995af9f9cc32465ace4a65a66c8c939ab6dded658418aad26e68351",
+    "src/components/cta/CTA06.astro": "49fd08337550b64b8b3c3631342e6e7ddf28acaee87cbc4807a0fc2d0d7803bc",
+    "src/components/cta/CTA07.astro": "db7b8be8da2a5674083188eac323d786b0a6f70f96ca5bbcede4b965d71a11d9",
+    "src/components/effects/BendingMarquee.astro": "9c20504e9e78e80ed2f40ceb07db3a5a897474ee76ebd7cb46a23ef6d0cdb5ab",
+    "src/components/effects/DepthCard.astro": "fe1ccef784f06fbe591e6a68dccdd62048049cead679ceb966a02fc807317aad",
+    "src/components/effects/FrameBorder.astro": "300e715dcda106facf01afea497e9753042eec1280f5ad6e87c64853cb104f26",
+    "src/components/effects/ParallaxPills.astro": "96353b416ff6da8c1f639bbd0daf98e87781d233dad5fa8932f10d66979e743b",
+    "src/components/effects/ParallaxScroll.astro": "67fa4cdc665565c7554f1bbc7e16b7de8b20a4b40e0a6dafd16264cf4d1a74f3",
+    "src/components/faq/FAQ01.astro": "a4c505436c93073db678579f72e8c542447264ffbf13be7170493e7ce7d3dfaa",
+    "src/components/footer/Footer01.astro": "a46001f1734bd76553e676caa890e7572c9e6c6779e2e724fe44ced644e3fafa",
+    "src/components/footer/Footer02.astro": "5853e42c8f8439daad68b4a4281be87187a290f62617c5636e0d6072b274e669",
+    "src/components/footer/Footer03.astro": "306d05bde92651132cccb1b3448b45a2d1226f7c72f305a0e2498037774a64f3",
+    "src/components/footer/Footer04.astro": "a10ef75b864c4e5b59c882932c80ce6cd9464925864a0a15db5cd72b9b22fa62",
+    "src/components/footer/Footer05.astro": "e6cab99c7895428db8c5c2989283bcefa9e1a9ddef86aae2647dc80fda32c346",
+    "src/components/footer/Footer06.astro": "70f51e422c8a06874b667bc986db5c233ec569503d3f780e217115b940b15beb",
+    "src/components/footer/Footer07.astro": "27a6d7315056f2980e8b8b9b6a39859b020ae15b28b3bda262e1309d3a0b20b3",
+    "src/components/footer/Footer08.astro": "eb5444ed7b52372456d2fb879ed9f41a00421c092bc83db555197b4deed48a8a",
+    "src/components/gallery/Gallery01.astro": "c34312198dfd4e81a6f273197671d1c9c6267ca16b032e46b9c35c4566208231",
+    "src/components/header/Header01.astro": "89a3c5af207dab461a87bb11ec99f0fadbe49f36e36766387497e136f3cc4ff4",
+    "src/components/header/Header02.astro": "29e39b84dea3a1c685660526fc2eac858321f672bc7bf76aa1398725986c8215",
+    "src/components/header/Header03.astro": "74a17ab11abfe575fbb7f88dc42b7b7905003ce6da500fa61cf4968f54747c06",
+    "src/components/header/Header04.astro": "f5f20d324232c7bb2b60e109e55a637b8cd42a2f15718350238ec8699bde8389",
+    "src/components/header/Header05.astro": "8bd81ca35a023b6b5cbd460a1686aa45b0686e72e40dc9fe7644c794f4e432e1",
+    "src/components/header/Header06.astro": "17bec2f8155d61ed12695663aae6ade235349051de5d176866774a091e228f0d",
+    "src/components/header/Header07.astro": "29c7e10bd7850f5fd7e0f66326ef757a546e6214585c0063b1bfd7bf7ccf7108",
+    "src/components/header/Header08.astro": "3acf7ccd6cca95367fddb63283e0d056477a6e473755a5d77d52c732a39823ae",
+    "src/components/header/Header09.astro": "e46d90f2511add9bb94038e542e1a72a0a6aef8d889284dd44749fb0d1c87904",
+    "src/components/header/Header10.astro": "dd7fe59c3b076d34f90cc7e2fa372ee4357a6b299ff5b0be473fdbd35679dcc0",
+    "src/components/header/Header11.astro": "2dda7e930f47caa80653397c4e5b0d07a1384311c143f0b92e22bfb3a40d5d70",
+    "src/components/header/Header12.astro": "c924eb55a823836d8c701f8f4060a949c3334f067e2e91a5997f3daf8102d110",
+    "src/components/header/Header13.astro": "77ed97bc59c84cec6a1b1e9fd773a695dfae92b136210444dd0e893b1dda0d7e",
+    "src/components/header/Header14.astro": "0a2d3c5700c6aeee679507eeb4b372d6e581128cb8fe3db28ee480ae8a617617",
+    "src/components/hero/Hero01.astro": "ef994c13cd4622bb5924e50210b037019329f1c8587f37ef97823057ddf4731a",
+    "src/components/hero/Hero02.astro": "bd97e4634256cf431c7b7ead7ee311240a349a2d6a532939b6adb7f5bba8312e",
+    "src/components/hero/Hero03.astro": "1b7194557130513f36a108d168448ebc1363a634be9a93614da3eb57e0672685",
+    "src/components/hero/Hero04.astro": "fb397c646e615fddcaa99f50e9adc91b60863f50fbcc35ebcf0ed53f170745e4",
+    "src/components/hero/Hero05.astro": "8ef78cfafb2a84e173fa0be76271c680aac6b7bdb93133124ba431cd6250172b",
+    "src/components/hero/Hero06.astro": "d38b04c05fa1f1e493efcb5a72d401ea901376b1123e6233f4364cd5183a71e0",
+    "src/components/hero/Hero07.astro": "7559fe3ff883c6dd253d43a8b4a365233acabafdf51da10786c5c04d2df66a6f",
+    "src/components/hero/Hero08.astro": "3215476097b1608382f382b280023e52fd7f91a8ea56002dbb09b2ae0ca4e58b",
+    "src/components/hero/Hero09.astro": "f8f1933545233b4ce78d4a4a7a2ecde0efbeb22319cefc70ec2466502b040ec3",
+    "src/components/hero/Hero10.astro": "0c4f3847e69dc8c03aaea6e7d2aaa6ba63434906344c943efaacd26d369e8c46",
+    "src/components/hero/Hero11.astro": "dd382ce3abd0b7621cefec78b69c6e5890e65da4de1726b2cd94a159b1fa4a54",
+    "src/components/map/Map01.astro": "8eb902726bde212e8e0b8774505d0b1dd5e182d372420d8c1eb0bad7dc700d27",
+    "src/components/process/Process01.astro": "7a690fa1f6f4f45d8d92ffd614c34b8ce82a852b1045c8b79a2ae440ff6cf189",
+    "src/components/products/Products01.astro": "598577eb687a6ec67c764c2e5347079611432c7785243f3f2286f91c819f977a",
+    "src/components/projects/Projects01.astro": "eee25df77f0d8ec922cd8cab8ce1ca2e18034a87af78fafcb840b233743cc3ef",
+    "src/components/projects/Showcase01.astro": "b58aa3bdeaf3c6110e9a8dbfd8b8796e99e94211a010c19b398ee82bffb5fe56",
+    "src/components/projects/Showcase02.astro": "667e0439127120782fea1f239ff360082505cb3b0e80c8d12bc022363fa8772d",
+    "src/components/projects/Showcase03.astro": "c0aa7b39ec0343bfb3bfbcaec5689fa86a9c891432761d97f7480548684b0b4e",
+    "src/components/projects/Showcase04.astro": "0efdec3e3181087ed78d5ed05da8960c258720192e0daca8f164a184164a28bd",
+    "src/components/projects/Showcase05.astro": "8540a0f7b20bc013ae9347f4b53233c99907be045ce2613535af660fcca7320a",
+    "src/components/projects/Showcase06.astro": "7f8d64a293295165166ef8d0111e474d42596f5713886148ad732cddac21a5db",
+    "src/components/registry.ts": "08e61ac47dc9ee24fbc42d5166d58055c7eab400795c2b8b3d5ed6bb812452e5",
+    "src/components/selector.ts": "c0416d1b105f0c8bde1e46967b74ce1b346d44ba4524495a4e498eb73fe22b4a",
+    "src/components/services/Services01.astro": "10b4f5e278a6d39747b74c35479dfebb75b40cb056864a187d997ce00074da01",
+    "src/components/services/Services02.astro": "30f7b210c2b93bf529c00e0be3be4d824aa59938b6e3601fb1e6385925d955e8",
+    "src/components/services/Services03.astro": "38210843f7fce7e153608d0ca759eb170212e71273599932d4cef51ba13a7103",
+    "src/components/stats/Stats01.astro": "f04f71b848827d0ba768ace25c0f4308279738044b4c3d4e565ba55ba67b7ccb",
+    "src/components/team/Team01.astro": "7b5779b2e8e3f34693127fd07f344c8b225c6aa1512754a5eea2837f72fca945",
+    "src/components/testimonials/SocialProof01.astro": "4aa489303a2e0c02329d4f382d617ab0904a98967b35fb3a1b48ff78d0fcfb57",
+    "src/components/testimonials/SocialProof02.astro": "2e494dc0aa8c66ebf69ccd3da29c81989305b4bf54d3f9333d4ab74faa85fae9",
+    "src/components/testimonials/SocialProof03.astro": "26597e4d8d8f0162f7def45c6c0dcb0d28411b88c7035f437f500097b5380d16",
+    "src/components/testimonials/SocialProof04.astro": "6dcd5cf37799b9885757ee88933bb30533d02a052cc4659b19434e0098b923f5",
+    "src/components/testimonials/SocialProof05.astro": "6d8b11b0e5223cc0d355ac631a495696a3ff9d9ae8bc342c09b30073550f6972",
+    "src/components/testimonials/Testimonials01.astro": "7e2ec3bbf2af8f15ab520b4441e11ebdbb7a483241cea8d5be67d4efcf9dce9e",
+    "src/components/ui/FloatingWhatsApp.astro": "903f07fcd90a389c11736d91ff27f706d93aa0d0ea3b81b314f3017f445b63eb",
+    "src/lib/crypto.ts": "6c511b7f4fe3593f3c0e29a0341b34bc871db522d98b63b98958cf9a87401726",
+    "src/lib/design-systems.ts": "d3b1dde96fe56cd61bd7e697176064015ab1003ba07d0c8bd3c5882e8f5cce2d",
+    "src/lib/dossier.ts": "c6e4a26bd3ee2d4943fa661573bba3398dd2710702e8bfc3177f6229dd0b271b",
+    "src/lib/rate-limiter.ts": "2fa818d48b4d4063131fe200f87d9a5f3c1fc1d24af4e818a23df5a16875582f",
+    "src/lib/supabase.ts": "c7811499ab52e49b2ffb3b7b3fa597dff646d9c5bdad8a9bf7ba7db9a947d19c",
+    "src/middleware.ts": "82a9339b1db0d022abfaee0857499a882e0409dd9ef61749b47ccec90040a2b2",
+    "src/pages/[slug]/[...page].astro": "85465066917eb507504976212da4879a2fd599575a3ff1bc9c0996d4cde92b6d",
+    "src/pages/[slug]/index.astro": "0f89a3c5d210147daa57dc8653c3f170fe3affe046b2ccfe35dac108d8b5e545",
+    "src/pages/api/ai/generate.ts": "8f3ad7fc64764c0a026caec5d1585ed4807b21b0e693165c794f33a95e294dd6",
+    "src/pages/api/auth/login.ts": "ed3fde2fd3659669e643a57957c35c2e6bf65d5e7ecbcc24b91882ef10b65a79",
+    "src/pages/api/auth/logout.ts": "70fa32fc45723e10376056d52d5099338c939540666e220ca9c58c14e718b823",
+    "src/pages/api/auth/register.ts": "af79d19588012769db1cde22bb82f03b13c2c2e350d7ba904dd8a29268f22663",
+    "src/pages/api/auth/reset-password.ts": "5ce63fee98ac19825a820730bd6aa3cfff2e213253c59f5eba4252161b1ae088",
+    "src/pages/api/lead-asset/[slug]/[...path].ts": "c8284a6108131d3936037b90fa17a527480910895311ed792bc1269304c115b1",
+    "src/pages/api/lead-status.ts": "58b89fa8440e53d6861ff512a7d7528d6040e527bc6fc66fe4bce8bd38a1723d",
+    "src/pages/index.astro": "29c6ce76cf5b99a2d3f6156e636fb5ce9a690784a75806c6a36e3b437163f939",
+    "src/pages/login.astro": "c44ff2728af11011a131586472646734c13f2b3e1167ddd1d728dde1b5856005",
+    "src/pages/preview/[slug]/[...page].astro": "a4a97b2f4e784c2585d0cf32a8d80ea01880a7ae1b372749827e46fcaf96bf35",
+    "src/pages/preview/[slug]/index.astro": "08fecd4e9e29c5a5aac255a8b9b37f4968182a71b431e3e2c2b0c26952bfe6d8",
+    "src/pages/site/[slug].astro": "c56676f18c5afdcad0c871f840de4832ba76c440fd4d2b7b663f87bb6902238c",
+    "src/styles/global.css": "3826a789031e0508064fc6b5914ac07a49ca1997256dae5f4f56a5eb5e5c44ca",
+    "src/styles/theme.css": "8775a882c3b304a1ddb7522592a48191a668515de180d8e6adf90042f0d9b9fa",
+    "tsconfig.json": "d7f3de421fe150c04fafb4e018926a6622daf66f8f1c90346a1b4e4be084868a"
+  },
+  "clientConfigSha256": "7802abb1746b7f1018b7bd849d76897ea809713dba5eaac3be2d142ad6bd29ea",
+  "captures": [
+    {
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900,
+        "mobile": false
+      },
+      "checks": {
+        "title": "Brotto Campelo Advogados | Advocacia Empresarial em Curitiba",
+        "readyState": "complete",
+        "width": 1440,
+        "scrollWidth": 1425,
+        "height": 3193,
+        "brokenImages": [],
+        "missingAnchors": [],
+        "h1Count": 1,
+        "fontsStatus": "loaded"
+      },
+      "observations": {
+        "firstFold": {
+          "logo": {
+            "selector": "#bca-logo",
+            "exists": true,
+            "text": "",
+            "rect": {
+              "x": 80,
+              "y": 20,
+              "width": 200,
+              "height": 40.03125
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          },
+          "message": {
+            "selector": "#bca-hero h1",
+            "exists": true,
+            "text": "Soluções jurídicas inovadoras",
+            "rect": {
+              "x": 120,
+              "y": 223.6875,
+              "width": 591.890625,
+              "height": 139.90625
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": null,
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Playfair Display\", serif",
+              "letterSpacing": "-2.64px"
+            }
+          },
+          "cta": {
+            "selector": "#bca-hero .bca-cta-btn",
+            "exists": true,
+            "text": "Falar com a equipe ↗",
+            "rect": {
+              "x": 120,
+              "y": 474.96875,
+              "width": 197.09375,
+              "height": 56.5
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "flex",
+            "gridTemplateColumns": "none",
+            "children": 1,
+            "src": null,
+            "styles": {
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgb(41, 41, 41)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          },
+          "identity": {
+            "selector": "#bca-hero .bca-eyebrow",
+            "exists": true,
+            "text": "Brotto Campelo Advogados",
+            "rect": {
+              "x": 120,
+              "y": 187.1875,
+              "width": 591.890625,
+              "height": 16.5
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "flex",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": null,
+            "styles": {
+              "color": "rgb(168, 61, 25)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "1.54px"
+            }
+          },
+          "photo": {
+            "selector": "#bca-hero .bca-hero-photo img",
+            "exists": true,
+            "text": "",
+            "rect": {
+              "x": 799.890625,
+              "y": 135.03125,
+              "width": 520.109375,
+              "height": 540
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          }
+        },
+        "referenceChecks": [
+          {
+            "referenceId": "ai-saas-landing-27.aura.build",
+            "sectionId": "hero",
+            "selector": "#bca-hero h1",
+            "exists": true,
+            "text": "Soluções jurídicas inovadoras",
+            "rect": {
+              "x": 120,
+              "y": 223.6875,
+              "width": 591.890625,
+              "height": 139.90625
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": null,
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Playfair Display\", serif",
+              "letterSpacing": "-2.64px"
+            }
+          },
+          {
+            "referenceId": "architecture-studio.aura.build",
+            "sectionId": "awards",
+            "selector": ".bca-awards-rail",
+            "exists": true,
+            "text": "Análise Advocacia 2026Análise Advocacia 2025Análise Regional 2024",
+            "rect": {
+              "x": 698.171875,
+              "y": 823.21875,
+              "width": 621.828125,
+              "height": 152.5
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 0.503483606557377,
+            "display": "grid",
+            "gridTemplateColumns": "182.266px 182.281px 182.281px",
+            "children": 3,
+            "src": null,
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          }
+        ],
+        "texts": [
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "Áreas de atuação"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+            "text": "O escritório"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+            "text": "Fale conosco"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Brotto Campelo Advogados"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+            "text": "Soluções jurídicas inovadoras"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+            "text": "Natália Brotto e Ricardo Campelo — Sócios-fundadores"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Forte atuação em Direito Empresarial e Imobiliário."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+            "text": "Falar com a equipe"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+            "text": "Conheça nossas áreas"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "↓"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "O escritório"
+          },
+          {
+            "selector": "#bca-awards-heading",
+            "text": "Reconhecimentos e menções"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Escritórios mais admirados do Brasil"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "2021, 2022, 2023/2024, 2025 e 2026."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "text": "Escritórios mais admirados da Região Sul"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > small:nth-of-type(2)",
+            "text": "2022, 2023, 2024, 2025 e 2026."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+            "text": "Análise Advocacia 2026"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption:nth-of-type(1)",
+            "text": "Análise Advocacia 2025"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption:nth-of-type(1)",
+            "text": "Análise Regional 2024"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Áreas de atuação"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "Direito e negócios,"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "em perspectiva."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Explore cada área no site do escritório."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Direito Imobiliário Aplicado – Imobiliárias"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Direito Imobiliário Aplicado – Construtoras e Incorporadoras"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "Direito Imobiliário Aplicado ao Direito Público"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4) > span:nth-of-type(1)",
+            "text": "Registral e Notarial"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Direito Empresarial"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Planejamento Patrimonial e Sucessões"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "Direito do Trabalho"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(4) > span:nth-of-type(1)",
+            "text": "Propriedade Intelectual"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(5) > span:nth-of-type(1)",
+            "text": "LGPD, Privacidade e Proteção de Dados"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(6) > span:nth-of-type(1)",
+            "text": "Direito Digital"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(7) > span:nth-of-type(1)",
+            "text": "Agronegócio"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(8) > span:nth-of-type(1)",
+            "text": "Assessoria em Leilões"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "O escritório"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "O que orienta nossa atuação."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > h3:nth-of-type(1)",
+            "text": "Inovação e visão para além dos riscos"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "DNA inovador que orienta o escritório a explorar possibilidades além dos riscos convencionais, abrindo caminho para novos negócios e parcerias transformadoras."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > h3:nth-of-type(1)",
+            "text": "Abordagem personalizada"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "Compromisso com o atendimento personalizado, estreitando a relação cliente-advogado através de uma advocacia baseada na confiança, proximidade e compreensão das necessidades individuais dos clientes."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > h3:nth-of-type(1)",
+            "text": "Facilitadores de negócios"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "Uma atitude proativa em viabilizar negócios e encontrar soluções jurídicas personalizadas."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+            "text": "Sede do Brotto Campelo Advogados — Bigorrilho, Curitiba/PR"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Nossa sede"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "Curitiba"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > address:nth-of-type(1)",
+            "text": "Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "Ver localização"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Contato"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "Vamos conversar?"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "contato@brottocampelo.adv.br"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+            "text": "Falar pelo WhatsApp"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+            "text": "41 3026-8001"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Brotto Campelo Advogados"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "Voltar ao início"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↑"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Falar no WhatsApp"
+          }
+        ],
+        "images": [
+          {
+            "selector": "#bca-logo",
+            "src": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+            "alt": "Logotipo horizontal Brotto Campelo Advogados em laranja, com monograma BCA.",
+            "caption": null
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+            "alt": "Fotografia conjunta dos sócios-fundadores Natália Brotto e Ricardo Campelo.",
+            "caption": "Natália Brotto e Ricardo Campelo — Sócios-fundadores"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(1) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+            "alt": "Selo oficial Análise Advocacia 2026 concedido ao escritório Brotto Campelo Advogados.",
+            "caption": "Análise Advocacia 2026"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(2) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+            "alt": "Selo Análise Advocacia 2025 Escritório Mais Admirado.",
+            "caption": "Análise Advocacia 2025"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(3) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+            "alt": "Selo Escritório Mais Admirado Regional 2024 Análise Advocacia.",
+            "caption": "Análise Regional 2024"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg",
+            "alt": "Fotografia arquitetônica em preto e branco da sede do Brotto Campelo Advogados no Bigorrilho.",
+            "caption": "Sede do Brotto Campelo Advogados — Bigorrilho, Curitiba/PR"
+          }
+        ]
+      },
+      "screenshots": [
+        {
+          "path": "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+          "sha256": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+          "fullPage": false,
+          "width": 1440,
+          "height": 900
+        },
+        {
+          "path": "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+          "sha256": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+          "fullPage": true,
+          "width": 1440,
+          "height": 3193
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844,
+        "mobile": true
+      },
+      "checks": {
+        "title": "Brotto Campelo Advogados | Advocacia Empresarial em Curitiba",
+        "readyState": "complete",
+        "width": 390,
+        "scrollWidth": 390,
+        "height": 3960,
+        "brokenImages": [],
+        "missingAnchors": [],
+        "h1Count": 1,
+        "fontsStatus": "loaded"
+      },
+      "observations": {
+        "firstFold": {
+          "logo": {
+            "selector": "#bca-logo",
+            "exists": true,
+            "text": "",
+            "rect": {
+              "x": 20,
+              "y": 16,
+              "width": 172,
+              "height": 34.421875
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          },
+          "message": {
+            "selector": "#bca-hero h1",
+            "exists": true,
+            "text": "Soluções jurídicas inovadoras",
+            "rect": {
+              "x": 20,
+              "y": 121.421875,
+              "width": 350,
+              "height": 89.4375
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": null,
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Playfair Display\", serif",
+              "letterSpacing": "-1.72px"
+            }
+          },
+          "cta": {
+            "selector": "#bca-hero .bca-cta-btn",
+            "exists": true,
+            "text": "Falar com a equipe ↗",
+            "rect": {
+              "x": 20,
+              "y": 618.859375,
+              "width": 350,
+              "height": 50.5
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "flex",
+            "gridTemplateColumns": "none",
+            "children": 1,
+            "src": null,
+            "styles": {
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgb(41, 41, 41)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          },
+          "identity": {
+            "selector": "#bca-hero .bca-eyebrow",
+            "exists": true,
+            "text": "Brotto Campelo Advogados",
+            "rect": {
+              "x": 20,
+              "y": 92.421875,
+              "width": 350,
+              "height": 15
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "flex",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": null,
+            "styles": {
+              "color": "rgb(168, 61, 25)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "1px"
+            }
+          },
+          "photo": {
+            "selector": "#bca-hero .bca-hero-photo img",
+            "exists": true,
+            "text": "",
+            "rect": {
+              "x": 32,
+              "y": 233.859375,
+              "width": 338,
+              "height": 278
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          }
+        },
+        "referenceChecks": [
+          {
+            "referenceId": "ai-saas-landing-27.aura.build",
+            "sectionId": "hero",
+            "selector": "#bca-hero h1",
+            "exists": true,
+            "text": "Soluções jurídicas inovadoras",
+            "rect": {
+              "x": 20,
+              "y": 121.421875,
+              "width": 350,
+              "height": 89.4375
+            },
+            "rendered": true,
+            "inFirstFold": true,
+            "visibleRatio": 1,
+            "display": "block",
+            "gridTemplateColumns": "none",
+            "children": 0,
+            "src": null,
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Playfair Display\", serif",
+              "letterSpacing": "-1.72px"
+            }
+          },
+          {
+            "referenceId": "architecture-studio.aura.build",
+            "sectionId": "awards",
+            "selector": ".bca-awards-rail",
+            "exists": true,
+            "text": "Análise Advocacia 2026Análise Advocacia 2025Análise Regional 2024",
+            "rect": {
+              "x": 20,
+              "y": 1018.796875,
+              "width": 350,
+              "height": 159
+            },
+            "rendered": true,
+            "inFirstFold": false,
+            "visibleRatio": 0,
+            "display": "grid",
+            "gridTemplateColumns": "107.328px 107.328px 107.344px",
+            "children": 3,
+            "src": null,
+            "styles": {
+              "color": "rgb(41, 41, 41)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, sans-serif",
+              "letterSpacing": "normal"
+            }
+          }
+        ],
+        "texts": [
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "Áreas de atuação"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+            "text": "O escritório"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+            "text": "Fale conosco"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Brotto Campelo Advogados"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+            "text": "Soluções jurídicas inovadoras"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+            "text": "Natália Brotto e Ricardo Campelo — Sócios-fundadores"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Forte atuação em Direito Empresarial e Imobiliário."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+            "text": "Falar com a equipe"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+            "text": "Conheça nossas áreas"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "↓"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "O escritório"
+          },
+          {
+            "selector": "#bca-awards-heading",
+            "text": "Reconhecimentos e menções"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "text": "Escritórios mais admirados do Brasil"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > small:nth-of-type(1)",
+            "text": "2021, 2022, 2023/2024, 2025 e 2026."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "text": "Escritórios mais admirados da Região Sul"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > small:nth-of-type(2)",
+            "text": "2022, 2023, 2024, 2025 e 2026."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+            "text": "Análise Advocacia 2026"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption:nth-of-type(1)",
+            "text": "Análise Advocacia 2025"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption:nth-of-type(1)",
+            "text": "Análise Regional 2024"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Áreas de atuação"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "Direito e negócios,"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "em perspectiva."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Explore cada área no site do escritório."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Direito Imobiliário Aplicado – Imobiliárias"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Direito Imobiliário Aplicado – Construtoras e Incorporadoras"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "Direito Imobiliário Aplicado ao Direito Público"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4) > span:nth-of-type(1)",
+            "text": "Registral e Notarial"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Direito Empresarial"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(2) > span:nth-of-type(1)",
+            "text": "Planejamento Patrimonial e Sucessões"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(3) > span:nth-of-type(1)",
+            "text": "Direito do Trabalho"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(4) > span:nth-of-type(1)",
+            "text": "Propriedade Intelectual"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(5) > span:nth-of-type(1)",
+            "text": "LGPD, Privacidade e Proteção de Dados"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(6) > span:nth-of-type(1)",
+            "text": "Direito Digital"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(7) > span:nth-of-type(1)",
+            "text": "Agronegócio"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(8) > span:nth-of-type(1)",
+            "text": "Assessoria em Leilões"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "O escritório"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "O que orienta nossa atuação."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > h3:nth-of-type(1)",
+            "text": "Inovação e visão para além dos riscos"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "DNA inovador que orienta o escritório a explorar possibilidades além dos riscos convencionais, abrindo caminho para novos negócios e parcerias transformadoras."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > h3:nth-of-type(1)",
+            "text": "Abordagem personalizada"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > p:nth-of-type(1)",
+            "text": "Compromisso com o atendimento personalizado, estreitando a relação cliente-advogado através de uma advocacia baseada na confiança, proximidade e compreensão das necessidades individuais dos clientes."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > h3:nth-of-type(1)",
+            "text": "Facilitadores de negócios"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > p:nth-of-type(1)",
+            "text": "Uma atitude proativa em viabilizar negócios e encontrar soluções jurídicas personalizadas."
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+            "text": "Sede do Brotto Campelo Advogados — Bigorrilho, Curitiba/PR"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Nossa sede"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "Curitiba"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > address:nth-of-type(1)",
+            "text": "Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "Ver localização"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Contato"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "text": "Vamos conversar?"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "contato@brottocampelo.adv.br"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+            "text": "Falar pelo WhatsApp"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↗"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+            "text": "41 3026-8001"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Brotto Campelo Advogados"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+            "text": "Voltar ao início"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "↑"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "Falar no WhatsApp"
+          }
+        ],
+        "images": [
+          {
+            "selector": "#bca-logo",
+            "src": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+            "alt": "Logotipo horizontal Brotto Campelo Advogados em laranja, com monograma BCA.",
+            "caption": null
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+            "alt": "Fotografia conjunta dos sócios-fundadores Natália Brotto e Ricardo Campelo.",
+            "caption": "Natália Brotto e Ricardo Campelo — Sócios-fundadores"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(1) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+            "alt": "Selo oficial Análise Advocacia 2026 concedido ao escritório Brotto Campelo Advogados.",
+            "caption": "Análise Advocacia 2026"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(2) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+            "alt": "Selo Análise Advocacia 2025 Escritório Mais Admirado.",
+            "caption": "Análise Advocacia 2025"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(3) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+            "alt": "Selo Escritório Mais Admirado Regional 2024 Análise Advocacia.",
+            "caption": "Análise Regional 2024"
+          },
+          {
+            "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+            "src": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg",
+            "alt": "Fotografia arquitetônica em preto e branco da sede do Brotto Campelo Advogados no Bigorrilho.",
+            "caption": "Sede do Brotto Campelo Advogados — Bigorrilho, Curitiba/PR"
+          }
+        ]
+      },
+      "screenshots": [
+        {
+          "path": "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+          "sha256": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+          "fullPage": false,
+          "width": 390,
+          "height": 844
+        },
+        {
+          "path": "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png",
+          "sha256": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+          "fullPage": true,
+          "width": 390,
+          "height": 3960
+        }
+      ]
+    }
+  ],
+  "runtimeErrors": []
+}

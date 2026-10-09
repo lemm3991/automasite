@@ -1,0 +1,4730 @@
+{
+  "priority": [
+    "logo",
+    "css",
+    "asset",
+    "explicit-visual-inference"
+  ],
+  "colors": [
+    {
+      "value": "#e06020",
+      "source": "logo",
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+      "pixels": 128,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#f06030",
+      "source": "logo",
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+      "pixels": 61,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e06030",
+      "source": "logo",
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+      "pixels": 8,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6030",
+      "source": "logo",
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+      "pixels": 5,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e05020",
+      "source": "logo",
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+      "pixels": 5,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#500010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "sha256": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115",
+      "pixels": 1795,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#801010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "sha256": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115",
+      "pixels": 236,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#501010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "sha256": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115",
+      "pixels": 231,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#901020",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "sha256": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115",
+      "pixels": 229,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a01020",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "sha256": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115",
+      "pixels": 162,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#003030",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png",
+      "sha256": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a",
+      "pixels": 3133,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#103030",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png",
+      "sha256": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a",
+      "pixels": 283,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#104030",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png",
+      "sha256": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a",
+      "pixels": 207,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#305050",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png",
+      "sha256": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a",
+      "pixels": 115,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#003020",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png",
+      "sha256": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a",
+      "pixels": 93,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#006090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png",
+      "sha256": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5",
+      "pixels": 1179,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#50a0d0",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png",
+      "sha256": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5",
+      "pixels": 1063,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#d00000",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png",
+      "sha256": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5",
+      "pixels": 772,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c00000",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png",
+      "sha256": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5",
+      "pixels": 486,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#40a0d0",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png",
+      "sha256": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5",
+      "pixels": 191,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#704070",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png",
+      "sha256": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a",
+      "pixels": 1020,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#007060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png",
+      "sha256": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a",
+      "pixels": 947,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#007070",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png",
+      "sha256": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a",
+      "pixels": 551,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#006060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png",
+      "sha256": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a",
+      "pixels": 380,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#008090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png",
+      "sha256": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a",
+      "pixels": 290,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#206090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+      "sha256": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6",
+      "pixels": 692,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#206080",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+      "sha256": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6",
+      "pixels": 462,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#106080",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+      "sha256": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6",
+      "pixels": 349,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#105080",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+      "sha256": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6",
+      "pixels": 317,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#307090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+      "sha256": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6",
+      "pixels": 282,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#502000",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png",
+      "sha256": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a",
+      "pixels": 3146,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#401000",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png",
+      "sha256": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a",
+      "pixels": 740,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#603000",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png",
+      "sha256": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a",
+      "pixels": 186,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b07010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png",
+      "sha256": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a",
+      "pixels": 126,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e0a010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png",
+      "sha256": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a",
+      "pixels": 125,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#402010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png",
+      "sha256": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d",
+      "pixels": 2457,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#502010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png",
+      "sha256": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d",
+      "pixels": 952,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#401000",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png",
+      "sha256": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d",
+      "pixels": 342,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#401010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png",
+      "sha256": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d",
+      "pixels": 227,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#503010",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png",
+      "sha256": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d",
+      "pixels": 134,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#004040",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "sha256": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f",
+      "pixels": 3396,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#007060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "sha256": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f",
+      "pixels": 947,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c0a080",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "sha256": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f",
+      "pixels": 716,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#007070",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "sha256": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f",
+      "pixels": 314,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#006060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "sha256": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f",
+      "pixels": 276,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#004060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "sha256": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f",
+      "pixels": 2171,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c0b090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "sha256": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f",
+      "pixels": 334,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#003060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "sha256": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f",
+      "pixels": 258,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a09050",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "sha256": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f",
+      "pixels": 193,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#306060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "sha256": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f",
+      "pixels": 168,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c0b0a0",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg",
+      "sha256": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51",
+      "pixels": 105,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b0a090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg",
+      "sha256": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51",
+      "pixels": 101,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#d0a080",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg",
+      "sha256": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51",
+      "pixels": 73,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#d0b090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg",
+      "sha256": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51",
+      "pixels": 53,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#503030",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg",
+      "sha256": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51",
+      "pixels": 48,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b08060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg",
+      "sha256": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666",
+      "pixels": 108,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a07050",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg",
+      "sha256": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666",
+      "pixels": 47,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b07060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg",
+      "sha256": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666",
+      "pixels": 42,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#805040",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg",
+      "sha256": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666",
+      "pixels": 41,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#301000",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg",
+      "sha256": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666",
+      "pixels": 39,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#d0e0f0",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg",
+      "sha256": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91",
+      "pixels": 194,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#504030",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg",
+      "sha256": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91",
+      "pixels": 50,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#403020",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg",
+      "sha256": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91",
+      "pixels": 43,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b08060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg",
+      "sha256": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91",
+      "pixels": 31,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a08060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg",
+      "sha256": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91",
+      "pixels": 29,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#202040",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg",
+      "sha256": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde",
+      "pixels": 73,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#203040",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg",
+      "sha256": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde",
+      "pixels": 48,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#102030",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg",
+      "sha256": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde",
+      "pixels": 28,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#304060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg",
+      "sha256": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde",
+      "pixels": 12,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#405070",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg",
+      "sha256": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde",
+      "pixels": 10,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#708090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg",
+      "sha256": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9",
+      "pixels": 34,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b0a090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg",
+      "sha256": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9",
+      "pixels": 25,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#908070",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg",
+      "sha256": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9",
+      "pixels": 23,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#405060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg",
+      "sha256": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9",
+      "pixels": 22,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#807060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg",
+      "sha256": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9",
+      "pixels": 21,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b08070",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg",
+      "sha256": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9",
+      "pixels": 29,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a07060",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg",
+      "sha256": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9",
+      "pixels": 25,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#908070",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg",
+      "sha256": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9",
+      "pixels": 22,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#906050",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg",
+      "sha256": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9",
+      "pixels": 16,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b0a090",
+      "source": "asset",
+      "path": "/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg",
+      "sha256": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9",
+      "pixels": 14,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/index.html",
+      "sha256": "e8f475332fb0fdaa070a619edc0ea95dbf2de1135848b285d92391e3e73739b9",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "sha256": "29575cfa5c184d534e5532bb9691b855af004520316d39fc1bd7d60a84190a75",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-do-trabalho/index.html",
+      "sha256": "297dd4defb17f4e587b0585b0f3ecf86c63b6a791bffd66ed8798f9f49fb1b5c",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-empresarial/index.html",
+      "sha256": "0f85afc14e505e693014625b1e0c5b7faf2bf9c7a241827b68218ef40320400b",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "sha256": "b98e64e4799f10432eb712da9c4d5d67df1c35965890149c19352d478bb58c17",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/propriedade-intelectual/index.html",
+      "sha256": "5f3232f1b6e48a884b6edfb9ece8f3850cf64698e454820acae22d154d561807",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/lgpd/index.html",
+      "sha256": "7310779028ad081b82e71a08448954dc4703734a4babf78537064338d95cdb47",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-digital/index.html",
+      "sha256": "3f00733f42915423a17c8b6509e8776ebd5083fde3a4ce005d1596e7432515b4",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/agronegocio/index.html",
+      "sha256": "d10e51dff2af1718b3ce995cb5dac1ad209018e23665b12b6f2b71a9aaafd9e5",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "sha256": "ec4ec1df7eefca739848b9a44ad915cfad14b0ef54c1a009aaf3592c47a004fd",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "sha256": "ec638f0884b5bcfcd09344399083e8972b198b5011659bfb708d6b3c0a975baa",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "sha256": "d24ab282e44e01e8b5696e1543140ea9f51b304d93eb36c4a20959c16f41a341",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/registral-notarial/index.html",
+      "sha256": "758764a24f6a47b9078e3728e9b4a9c7d8c0d14399291dc3ca3b75ca24de8c46",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/profissionais/index.html",
+      "sha256": "504a090ec9217856498b5eecd0ec1d348e430f8dd948d6b3ad4be8cad7819821",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/blog/index.html",
+      "sha256": "10e100201c39606b3cecb6221282cb9663d38a7f2fcc2e840e80f1f49c830972",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/materiais/index.html",
+      "sha256": "613623f6fb9815edbcbffff39871728988b042a8ce44ed99a9354098b7e15d7b",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contato/index.html",
+      "sha256": "e41e7996c1e70d240cd8cb0f0d03758fa9485a68304a0777f702f2d27e1f15e8",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "sha256": "434989b0208de45289ccd280800b3039cedea3149faccc5963311df9ebbc74ea",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "sha256": "c94582581136b1f78bc85d2c792849da67d419cf25a4627c8b67a99732d21027",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "sha256": "ea5e81982b709bea244c9f3a7046a9d7653772cb367e31b7c857b2b74f6ce887",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "sha256": "1d7553eb2f508e6298363083ccf2a21e2c0400a5a4b97a8e2df9da079e3c8c6f",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/nova-nr1/index.html",
+      "sha256": "7b3261eea4d8030aa7e7b0bc2680870816f636bd65f51015abe5651b47ca30a2",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "sha256": "a80b59193b3055cc2cd95ab1748ffba98ba9df3017908cc75dd05c7defa0f5d6",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#222",
+      "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > style:nth-of-type(1)",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#ccc",
+      "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > style:nth-of-type(1)",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#e9e9e9",
+      "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > style:nth-of-type(1)",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#e15927",
+      "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > style:nth-of-type(1)",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#f2f2f2",
+      "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > style:nth-of-type(1)",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#666",
+      "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > style:nth-of-type(1)",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/simulador-bca/index.html",
+      "sha256": "25d46e3489f07d505a0d3f50dedb2e4bb56f928d084f5beef78cbe8c880fcc0d",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/diagnostico-nr1/index.html",
+      "sha256": "9a4613e76d53ec9f907d7a94ccd16c69c1268ace1054fc8e40d3670884f01b11",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#abb8c3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#f78da7",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#cf2e2e",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#ff6900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcb900",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#7bdcb5",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#00d084",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#8ed1fc",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#0693e3",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#9b51e0",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#32373c",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff",
+      "selector": "[id=\"global-styles-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#000",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#5636d1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#e2498a",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#f1f1f1",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    },
+    {
+      "value": "#f8f8f8",
+      "selector": "[id=\"elementor-frontend-inline-css\"]",
+      "source": "css",
+      "path": "leads/brotto-campelo/referencias/site-baixado/rascunho-home-2/index.html",
+      "sha256": "e1e7501ce7742093c6787de845e178a48af2d8072f7c1a518f9d3ec093f6f9e3",
+      "status": "candidate"
+    }
+  ]
+}

@@ -1,0 +1,983 @@
+{
+  "slug": "brotto-campelo",
+  "client": "Brotto Campelo Advogados",
+  "inventoryTimestamp": "2026-10-09T12:56:59.352Z",
+  "totalDiscovered": 27,
+  "totalDownloaded": 27,
+  "assets": [
+    {
+      "id": "asset-1",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+        "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+        "category": "logo",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.984Z",
+        "description": "Logotipo horizontal oficial Brotto Campelo Advogados em tipografia sóbria azul petróleo.",
+        "observableDetails": [
+          "Monograma BCA estilizado em geometria corporativa",
+          "Inscrição Brotto Campelo Advogados em caixa alta com kerning refinado"
+        ],
+        "allowedCaptions": [
+          "Logotipo horizontal Brotto Campelo Advogados",
+          "Brotto Campelo Advogados"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "01-BCA-logos-03-1024x205.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/BCA-logos-03-1024x205.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "localRefPath": "referencias/site-baixado/assets/01-BCA-logos-03-1024x205.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 205
+      },
+      "format": "png",
+      "fileSizeBytes": 30031,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3"
+    },
+    {
+      "id": "asset-2",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/02-logo-bca-vertical-branca.png",
+        "sha256": "13c7cb37a79c8883765118e200509ca52a90503ae8da86d621a9b71e1e3636c3",
+        "category": "logo",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.986Z",
+        "description": "Versão vertical branca monocromática da marca Brotto Campelo Advogados.",
+        "observableDetails": [
+          "Monograma BCA verticalizado com alto contraste para fundos escuros",
+          "Tipografia institucional alinhada ao centro"
+        ],
+        "allowedCaptions": [
+          "Marca Brotto Campelo Advogados monocromática",
+          "BCA Advogados"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "02-logo-bca-vertical-branca.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/logo-bca-vertical-branca.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/02-logo-bca-vertical-branca.png",
+      "localRefPath": "referencias/site-baixado/assets/02-logo-bca-vertical-branca.png",
+      "dimensions": {
+        "width": 843,
+        "height": 454
+      },
+      "format": "png",
+      "fileSizeBytes": 18438,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "13c7cb37a79c8883765118e200509ca52a90503ae8da86d621a9b71e1e3636c3"
+    },
+    {
+      "id": "asset-3",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/03-BCA-logos-01-1024x205.png",
+        "sha256": "bf3526b965ee5a1036f335b89f3b42fe3b14841d79e33c9d979e52fd134f22ba",
+        "category": "logo",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.987Z",
+        "description": "Variante de aplicação do logotipo horizontal Brotto Campelo Advogados.",
+        "observableDetails": [
+          "Diagramação horizontal com proporção equilibrada para cabeçalhos",
+          "Cores institucionais em azul corporativo"
+        ],
+        "allowedCaptions": [
+          "Brotto Campelo Advogados cabeçalho",
+          "Identidade corporativa BCA"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "03-BCA-logos-01-1024x205.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/BCA-logos-01-1024x205.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/03-BCA-logos-01-1024x205.png",
+      "localRefPath": "referencias/site-baixado/assets/03-BCA-logos-01-1024x205.png",
+      "dimensions": {
+        "width": 1024,
+        "height": 205
+      },
+      "format": "png",
+      "fileSizeBytes": 23117,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "bf3526b965ee5a1036f335b89f3b42fe3b14841d79e33c9d979e52fd134f22ba"
+    },
+    {
+      "id": "asset-4",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+        "sha256": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.988Z",
+        "description": "Selo oficial Análise Advocacia 2026 concedido ao escritório Brotto Campelo Advogados.",
+        "observableDetails": [
+          "Chancela Análise Advocacia Escritório Mais Admirado 2026",
+          "Emblema dourado de prestígio editorial jurídico"
+        ],
+        "allowedCaptions": [
+          "Escritório Mais Admirado Análise Advocacia 2026",
+          "Reconhecimento Análise Advocacia"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "localRefPath": "referencias/site-baixado/assets/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "dimensions": {
+        "width": 300,
+        "height": 400
+      },
+      "format": "png",
+      "fileSizeBytes": 184070,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "58438b0bb302a0f4a3eaec91a6baf1f5dcf644668a74e16bdef421386a306115"
+    },
+    {
+      "id": "asset-5",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png",
+        "sha256": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.988Z",
+        "description": "Selo histórico Análise Advocacia 2021 de escritório mais admirado.",
+        "observableDetails": [
+          "Selo vertical com indicação do ano 2021",
+          "Chancela de excelência técnica regional"
+        ],
+        "allowedCaptions": [
+          "Selo Análise Advocacia 2021",
+          "Premiação Análise Advocacia 2021"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "05-SELO_ESC_vertical_2021.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/SELO_ESC_vertical_2021.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/05-SELO_ESC_vertical_2021.png",
+      "localRefPath": "referencias/site-baixado/assets/05-SELO_ESC_vertical_2021.png",
+      "dimensions": {
+        "width": 635,
+        "height": 796
+      },
+      "format": "png",
+      "fileSizeBytes": 81362,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "5a41b9ef3866e96a9da25884ba0cb576e88d6fb14756049da582faed7b05083a"
+    },
+    {
+      "id": "asset-6",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png",
+        "sha256": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.989Z",
+        "description": "Selo Análise Advocacia 2022 de escritório mais admirado.",
+        "observableDetails": [
+          "Selo oficial Análise Advocacia edição 2022",
+          "Design verticalizado de reconhecimento profissional"
+        ],
+        "allowedCaptions": [
+          "Selo Análise Advocacia 2022",
+          "Premiação Análise Advocacia 2022"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "06-SELO_ESCRITORIO_VER_2022.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/SELO_ESCRITORIO_VER_2022.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/06-SELO_ESCRITORIO_VER_2022.png",
+      "localRefPath": "referencias/site-baixado/assets/06-SELO_ESCRITORIO_VER_2022.png",
+      "dimensions": {
+        "width": 635,
+        "height": 796
+      },
+      "format": "png",
+      "fileSizeBytes": 205501,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "4cd9f703498cf55c0321516b4af9dca6bfd411ef9745e6aafb1346039e3464c5"
+    },
+    {
+      "id": "asset-7",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png",
+        "sha256": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.990Z",
+        "description": "Selo Análise Advocacia biênio 2023-2024.",
+        "observableDetails": [
+          "Chancela Análise Advocacia 2023-2024",
+          "Identificação de destaque nacional"
+        ],
+        "allowedCaptions": [
+          "Selo Análise Advocacia 2023/2024",
+          "Reconhecimento Análise 2023-2024"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "07-SELO_ESCRITORIO_2023-20244.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/SELO_ESCRITORIO_2023-20244.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/07-SELO_ESCRITORIO_2023-20244.png",
+      "localRefPath": "referencias/site-baixado/assets/07-SELO_ESCRITORIO_2023-20244.png",
+      "dimensions": {
+        "width": 635,
+        "height": 796
+      },
+      "format": "png",
+      "fileSizeBytes": 41689,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "d07c91b46016f96b9abc3611e2fb949803f182f34ecffff98afaa8addb8a6a7a"
+    },
+    {
+      "id": "asset-8",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+        "sha256": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.991Z",
+        "description": "Selo Análise Advocacia 2025 Escritório Mais Admirado.",
+        "observableDetails": [
+          "Chancela editorial Análise Advocacia 2025",
+          "Reconhecimento concedido a Brotto Campelo Advogados"
+        ],
+        "allowedCaptions": [
+          "Escritório Mais Admirado Análise 2025",
+          "Selo Análise Advocacia 2025"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "08-SELO-2025_escritorio_mais_admirado.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/SELO-2025_escritorio_mais_admirado.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+      "localRefPath": "referencias/site-baixado/assets/08-SELO-2025_escritorio_mais_admirado.png",
+      "dimensions": {
+        "width": 791,
+        "height": 1024
+      },
+      "format": "png",
+      "fileSizeBytes": 88501,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "81f762bc311b6497f8b9fe42d690baad483ebbd08b2d63e9de8d7cb45d7f7bd6"
+    },
+    {
+      "id": "asset-9",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png",
+        "sha256": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.991Z",
+        "description": "Selo Análise Advocacia Regional 2022.",
+        "observableDetails": [
+          "Chancela de liderança regional Paraná e Sul",
+          "Design circular com louros da premiação"
+        ],
+        "allowedCaptions": [
+          "Destaque Regional Análise Advocacia 2022",
+          "Selo Regional 2022"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "09-Selo_ADV-REGIONAL_2022.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/Selo_ADV-REGIONAL_2022.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/09-Selo_ADV-REGIONAL_2022.png",
+      "localRefPath": "referencias/site-baixado/assets/09-Selo_ADV-REGIONAL_2022.png",
+      "dimensions": {
+        "width": 510,
+        "height": 520
+      },
+      "format": "png",
+      "fileSizeBytes": 24090,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "b14ba2f73de1ee4456654857ce63f418416ebdd30d70094e6eb81ffec221aa9a"
+    },
+    {
+      "id": "asset-10",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png",
+        "sha256": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.991Z",
+        "description": "Selo Análise Advocacia Regional 2023.",
+        "observableDetails": [
+          "Chancela de liderança regional do escritório em 2023",
+          "Emblema com tipografia dourada"
+        ],
+        "allowedCaptions": [
+          "Destaque Regional Análise Advocacia 2023",
+          "Selo Regional 2023"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "10-Selo_ADV-REGIONAL_2023.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/Selo_ADV-REGIONAL_2023.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/10-Selo_ADV-REGIONAL_2023.png",
+      "localRefPath": "referencias/site-baixado/assets/10-Selo_ADV-REGIONAL_2023.png",
+      "dimensions": {
+        "width": 510,
+        "height": 520
+      },
+      "format": "png",
+      "fileSizeBytes": 25231,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "e1381a21cfefdddcfedd13a07b306e76bca74ce87b0db4d20dfde922297a848d"
+    },
+    {
+      "id": "asset-11",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+        "sha256": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.992Z",
+        "description": "Selo Escritório Mais Admirado Regional 2024 Análise Advocacia.",
+        "observableDetails": [
+          "Chancela oficial Análise Advocacia Regional 2024",
+          "Distintivo circular dourado"
+        ],
+        "allowedCaptions": [
+          "Escritório Mais Admirado Regional 2024",
+          "Selo Regional Análise 2024"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "localRefPath": "referencias/site-baixado/assets/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "dimensions": {
+        "width": 510,
+        "height": 520
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 46802,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "b186dbec624ce50bd532603a6fc2968ae2d663c6d53400d1ec7a24eb55be493f"
+    },
+    {
+      "id": "asset-12",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+        "sha256": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.992Z",
+        "description": "Selo em alta resolução Análise Advocacia Regional.",
+        "observableDetails": [
+          "Versão em alta definição com louros de distinção jurídica",
+          "Tipografia editorial Análise"
+        ],
+        "allowedCaptions": [
+          "Chancela Regional Análise Advocacia",
+          "Reconhecimento Sul do Brasil"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "localRefPath": "referencias/site-baixado/assets/12-SELO_REG_ESCRITORIO-1-scaled-1-1008x1024.png",
+      "dimensions": {
+        "width": 1008,
+        "height": 1024
+      },
+      "format": "png",
+      "fileSizeBytes": 59267,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "f27b33725d1a37f9caa802463ee6c5692498866ec3f49d0430a4d0679c1a992f"
+    },
+    {
+      "id": "asset-13",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/13-icone-home-Natalia-Brotto.png",
+        "sha256": "8415c79355972f0ec5c9282f0fd70c62116e8dd75759fff417118232d9321a2b",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.994Z",
+        "description": "Retrato institucional circular da Dra. Natália Brotto, sócia-fundadora.",
+        "observableDetails": [
+          "Enquadramento profissional da advogada Natália Brotto",
+          "Formato circular com fundo neutro para card institucional"
+        ],
+        "allowedCaptions": [
+          "Dra. Natália Brotto — Sócia-fundadora",
+          "Natália Brotto"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "13-icone-home-Natalia-Brotto.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/icone-home-Natalia-Brotto.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/13-icone-home-Natalia-Brotto.png",
+      "localRefPath": "referencias/site-baixado/assets/13-icone-home-Natalia-Brotto.png",
+      "dimensions": {
+        "width": 220,
+        "height": 220
+      },
+      "format": "png",
+      "fileSizeBytes": 52038,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "8415c79355972f0ec5c9282f0fd70c62116e8dd75759fff417118232d9321a2b"
+    },
+    {
+      "id": "asset-14",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/14-icone-home-Ricardo-Campelo.png",
+        "sha256": "246d7e1b0861208491a43eeb72152ce5e68a277efa4693d8a746c1c97947de8f",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.995Z",
+        "description": "Retrato institucional circular do Dr. Ricardo Campelo, sócio-fundador.",
+        "observableDetails": [
+          "Enquadramento profissional do advogado Ricardo Campelo",
+          "Formato circular para apresentação da equipe jurídica"
+        ],
+        "allowedCaptions": [
+          "Dr. Ricardo Campelo — Sócio-fundador",
+          "Ricardo Campelo"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "14-icone-home-Ricardo-Campelo.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/icone-home-Ricardo-Campelo.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/14-icone-home-Ricardo-Campelo.png",
+      "localRefPath": "referencias/site-baixado/assets/14-icone-home-Ricardo-Campelo.png",
+      "dimensions": {
+        "width": 220,
+        "height": 220
+      },
+      "format": "png",
+      "fileSizeBytes": 49698,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "246d7e1b0861208491a43eeb72152ce5e68a277efa4693d8a746c1c97947de8f"
+    },
+    {
+      "id": "asset-15",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/15-icone-home-Nastassia-Iurk.png",
+        "sha256": "7e307bda56f0bfc7460e29f2ce636ee5323606f5543ba61c499ef8862154563d",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.996Z",
+        "description": "Retrato institucional da advogada sócia Nastássia Lyra Iurk.",
+        "observableDetails": [
+          "Fotografia corporativa circular da sócia Nastássia Iurk",
+          "Padrão visual uniforme da equipe BCA"
+        ],
+        "allowedCaptions": [
+          "Dra. Nastássia Lyra Iurk — Sócia",
+          "Nastássia Iurk"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "15-icone-home-Nastassia-Iurk.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/icone-home-Nastassia-Iurk.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/15-icone-home-Nastassia-Iurk.png",
+      "localRefPath": "referencias/site-baixado/assets/15-icone-home-Nastassia-Iurk.png",
+      "dimensions": {
+        "width": 220,
+        "height": 220
+      },
+      "format": "png",
+      "fileSizeBytes": 43683,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "7e307bda56f0bfc7460e29f2ce636ee5323606f5543ba61c499ef8862154563d"
+    },
+    {
+      "id": "asset-16",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/16-icone-home-socio-1.png",
+        "sha256": "c977c80c4aaa6155120bffdffaaacccfe3bb985ee763d981509aa79a5c9c2036",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.996Z",
+        "description": "Retrato institucional de membro sócio da equipe jurídica BCA.",
+        "observableDetails": [
+          "Retrato circular com iluminação de estúdio corporativo",
+          "Composição padrão do corpo de advogados"
+        ],
+        "allowedCaptions": [
+          "Sócio do escritório Brotto Campelo Advogados",
+          "Equipe jurídica BCA"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "16-icone-home-socio-1.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/icone-home-socio-1.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/16-icone-home-socio-1.png",
+      "localRefPath": "referencias/site-baixado/assets/16-icone-home-socio-1.png",
+      "dimensions": {
+        "width": 220,
+        "height": 220
+      },
+      "format": "png",
+      "fileSizeBytes": 40561,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "c977c80c4aaa6155120bffdffaaacccfe3bb985ee763d981509aa79a5c9c2036"
+    },
+    {
+      "id": "asset-17",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/17-icone-home-socio-2.png",
+        "sha256": "3701824d271558079005e6caf3ca37031d0ea0838ebf1f8fbb896d54e44c1658",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.997Z",
+        "description": "Retrato institucional de sócio do escritório Brotto Campelo Advogados.",
+        "observableDetails": [
+          "Retrato profissional em moldura circular",
+          "Integração na galeria de especialistas jurídicos"
+        ],
+        "allowedCaptions": [
+          "Sócio Brotto Campelo Advogados",
+          "Advogado BCA"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "17-icone-home-socio-2.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/icone-home-socio-2.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/17-icone-home-socio-2.png",
+      "localRefPath": "referencias/site-baixado/assets/17-icone-home-socio-2.png",
+      "dimensions": {
+        "width": 220,
+        "height": 220
+      },
+      "format": "png",
+      "fileSizeBytes": 41646,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "3701824d271558079005e6caf3ca37031d0ea0838ebf1f8fbb896d54e44c1658"
+    },
+    {
+      "id": "asset-18",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/18-icone-home-Any-Caroline.png",
+        "sha256": "5f196d9627ffececaf37f01129ed138db850338a2f1ba717250760c46283dc4b",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.997Z",
+        "description": "Retrato institucional da advogada sócia Any Caroline da Silva.",
+        "observableDetails": [
+          "Fotografia circular profissional da advogada Any Caroline",
+          "Identidade visual uniforme da equipe societária"
+        ],
+        "allowedCaptions": [
+          "Dra. Any Caroline da Silva — Sócia",
+          "Any Caroline"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "18-icone-home-Any-Caroline.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/icone-home-Any-Caroline.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/18-icone-home-Any-Caroline.png",
+      "localRefPath": "referencias/site-baixado/assets/18-icone-home-Any-Caroline.png",
+      "dimensions": {
+        "width": 220,
+        "height": 220
+      },
+      "format": "png",
+      "fileSizeBytes": 52723,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "5f196d9627ffececaf37f01129ed138db850338a2f1ba717250760c46283dc4b"
+    },
+    {
+      "id": "asset-19",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/19-icone-home-Everson-Silva.png",
+        "sha256": "9508fff513425a9f0185f33099e89d3eca4b87b28cbec9167856cfa9e5c7cf66",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.998Z",
+        "description": "Retrato institucional do advogado sócio Everson Lucas da Silva.",
+        "observableDetails": [
+          "Fotografia circular corporativa do advogado Everson Silva",
+          "Especialista em direito notarial e registral"
+        ],
+        "allowedCaptions": [
+          "Dr. Everson Lucas da Silva — Sócio",
+          "Everson Silva"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "19-icone-home-Everson-Silva.png",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/icone-home-Everson-Silva.png",
+      "localPublicPath": "/assets/clients/brotto-campelo/19-icone-home-Everson-Silva.png",
+      "localRefPath": "referencias/site-baixado/assets/19-icone-home-Everson-Silva.png",
+      "dimensions": {
+        "width": 220,
+        "height": 220
+      },
+      "format": "png",
+      "fileSizeBytes": 37518,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "9508fff513425a9f0185f33099e89d3eca4b87b28cbec9167856cfa9e5c7cf66"
+    },
+    {
+      "id": "asset-20",
+      "category": "team",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+        "sha256": "83bc1c8fdecf09a50a8de417fafd0e69a764919c8b18aebd6fcb4f6e8378ae01",
+        "category": "team",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.999Z",
+        "description": "Fotografia conjunta dos sócios-fundadores Natália Brotto e Ricardo Campelo.",
+        "observableDetails": [
+          "Sócios-fundadores em postura corporativa na sede do escritório",
+          "Iluminação suave em ambiente executivo de alto padrão"
+        ],
+        "allowedCaptions": [
+          "Natália Brotto e Ricardo Campelo — Sócios-fundadores",
+          "Liderança executiva Brotto Campelo Advogados"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "20-Natalia-e-Ricardo-home-683x1024.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/05/Natalia-e-Ricardo-home-683x1024.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+      "localRefPath": "referencias/site-baixado/assets/20-Natalia-e-Ricardo-home-683x1024.jpg",
+      "dimensions": {
+        "width": 683,
+        "height": 1024
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 134097,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "83bc1c8fdecf09a50a8de417fafd0e69a764919c8b18aebd6fcb4f6e8378ae01"
+    },
+    {
+      "id": "asset-21",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg",
+        "sha256": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:52.999Z",
+        "description": "Imagem editorial temática sobre reforma tributária e contratos públicos.",
+        "observableDetails": [
+          "Composição visual temática com elementos jurídicos e tributários",
+          "Destaque para publicações editoriais e análise jurídica"
+        ],
+        "allowedCaptions": [
+          "Artigo: Reforma tributária e contratos públicos",
+          "Análise jurídica tributária"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "21-reforma-tributaria-contrato-poder-publico.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/07/reforma-tributaria-contrato-poder-publico.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg",
+      "localRefPath": "referencias/site-baixado/assets/21-reforma-tributaria-contrato-poder-publico.jpg",
+      "dimensions": {
+        "width": 1200,
+        "height": 600
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 56577,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "6ca16ba0d084dd39f440a097e886e824905284b46f68bc91fa80da82c6730a51"
+    },
+    {
+      "id": "asset-22",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg",
+        "sha256": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:53.000Z",
+        "description": "Imagem editorial abordando honorários advocatícios e jurisprudência.",
+        "observableDetails": [
+          "Tema de artigo jurídico publicado pelo escritório",
+          "Gráficos conceituais sobre direito processual"
+        ],
+        "allowedCaptions": [
+          "Artigo: Honorários advocatícios e jurisprudência",
+          "Publicação técnica BCA"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "22-honorarios-advocaticios-blogBCA.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/07/honorarios-advocaticios-blogBCA.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/22-honorarios-advocaticios-blogBCA.jpg",
+      "localRefPath": "referencias/site-baixado/assets/22-honorarios-advocaticios-blogBCA.jpg",
+      "dimensions": {
+        "width": 1200,
+        "height": 600
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 53682,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "c9f7783bb1fab3d0d1621aff5be013a3d9cf786049850e55b245a945ce2b0666"
+    },
+    {
+      "id": "asset-23",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg",
+        "sha256": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:53.001Z",
+        "description": "Imagem editorial sobre contratos de construção e posicionamento do CARF.",
+        "observableDetails": [
+          "Visual voltado à construção civil e direito tributário empresarial",
+          "Ilustração de artigo técnico"
+        ],
+        "allowedCaptions": [
+          "Artigo: Contratos de construção e jurisprudência do CARF",
+          "Direito imobiliário e tributário"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "23-contratos-construcao-carf-blog-BCA.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/contratos-construcao-carf-blog-BCA.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/23-contratos-construcao-carf-blog-BCA.jpg",
+      "localRefPath": "referencias/site-baixado/assets/23-contratos-construcao-carf-blog-BCA.jpg",
+      "dimensions": {
+        "width": 1200,
+        "height": 600
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 133776,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "338d00fbac0b19936afc21bec4e9946f5da40f131e6c6e3c2737002505078a91"
+    },
+    {
+      "id": "asset-24",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg",
+        "sha256": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:53.002Z",
+        "description": "Fotografia de artigo anunciando novo sócio de registral e notarial.",
+        "observableDetails": [
+          "Anúncio institucional de expansão societária",
+          "Dr. Everson Silva em ambiente de escritório"
+        ],
+        "allowedCaptions": [
+          "Brotto Campelo anuncia novo sócio em Registral e Notarial",
+          "Expansão da equipe BCA"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "24-Blog-Everson-socio.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/Blog-Everson-socio.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/24-Blog-Everson-socio.jpg",
+      "localRefPath": "referencias/site-baixado/assets/24-Blog-Everson-socio.jpg",
+      "dimensions": {
+        "width": 1200,
+        "height": 600
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 208618,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "81846a55ddf365f6a9ebef5abca697e9d02bdfea870d9b0297edf82a167afdde"
+    },
+    {
+      "id": "asset-25",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg",
+        "sha256": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:53.003Z",
+        "description": "Imagem temática do artigo sobre alterações na Norma Regulamentadora NR-1.",
+        "observableDetails": [
+          "Visual alusivo a direito trabalhista e conformidade ocupacional",
+          "Ilustração editorial de conformidade regulatória"
+        ],
+        "allowedCaptions": [
+          "Artigo: Nova NR-1 e impactos nas empresas",
+          "Direito do Trabalho e Conformidade"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "25-artigo-NR1-blogBCA.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/artigo-NR1-blogBCA.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/25-artigo-NR1-blogBCA.jpg",
+      "localRefPath": "referencias/site-baixado/assets/25-artigo-NR1-blogBCA.jpg",
+      "dimensions": {
+        "width": 1200,
+        "height": 600
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 152421,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "ac45c0a48d70124811585912da7d7030cd6bb1bbaab1eb6fb301cc8815049cb9"
+    },
+    {
+      "id": "asset-26",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg",
+        "sha256": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9",
+        "category": "service",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:53.004Z",
+        "description": "Fotografia de artigo anunciando nova sócia para a área societária.",
+        "observableDetails": [
+          "Dra. Any Caroline em destaque institucional",
+          "Comunicação de reforço na área de direito societário"
+        ],
+        "allowedCaptions": [
+          "Nova sócia para a área societária",
+          "Fortalecimento da área societária"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "26-Blog-Any-socia.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/03/Blog-Any-socia.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/26-Blog-Any-socia.jpg",
+      "localRefPath": "referencias/site-baixado/assets/26-Blog-Any-socia.jpg",
+      "dimensions": {
+        "width": 1200,
+        "height": 600
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 57597,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "c43444f626dd3ae16d640775ce059650eb67278689fcc6ae34d1117f6142daf9"
+    },
+    {
+      "id": "asset-27",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg",
+        "sha256": "cd7c6ff4c59dfed91c4d9fe0208a9ad14aa387f8dd29446410d281e207a3c8db",
+        "category": "environment",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T13:00:53.005Z",
+        "description": "Fotografia arquitetônica em preto e branco da sede do Brotto Campelo Advogados no Bigorrilho.",
+        "observableDetails": [
+          "Edifício corporativo imponente com fachada envidraçada contemporânea",
+          "Tratamento visual em preto e branco que confere elegância arquitetônica"
+        ],
+        "allowedCaptions": [
+          "Sede do Brotto Campelo Advogados — Bigorrilho, Curitiba/PR",
+          "Edifício corporativo Brotto Campelo Advogados"
+        ],
+        "provenance": "client-source",
+        "status": "verified"
+      },
+      "filename": "27-predio-brotto-campelo-advogados-pb-02.jpg",
+      "originalUrl": "https://brottocampelo.adv.br/wp-content/uploads/2026/06/predio-brotto-campelo-advogados-pb-02.jpg",
+      "localPublicPath": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg",
+      "localRefPath": "referencias/site-baixado/assets/27-predio-brotto-campelo-advogados-pb-02.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1013
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 266344,
+      "altOriginal": "Background CSS",
+      "downloadStatus": "SUCCESS",
+      "sha256": "cd7c6ff4c59dfed91c4d9fe0208a9ad14aa387f8dd29446410d281e207a3c8db"
+    }
+  ],
+  "notDownloaded": [],
+  "schemaVersion": 2
+}

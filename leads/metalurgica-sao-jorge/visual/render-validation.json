@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "Render Validation",
+  "slug": "metalurgica-sao-jorge",
+  "checkedAt": "2026-10-06T17:17:23.070Z",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "inspected": [
+    {
+      "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "4947f520c1cb373666cfe9ffab3016468401de99d8ade16aa09679e66088cc18"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png",
+      "width": 1440,
+      "height": 4496,
+      "sha256": "12894338af2f52af358cb15c269a4eae987b5a6c07e0a1d788a63cf7587bb663"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "a2ef4e5f6c85e9046f6327671c943d6e2b55728a6fde861010ad6d338612e570"
+    },
+    {
+      "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png",
+      "width": 390,
+      "height": 5969,
+      "sha256": "087cb9aa5fcd7cdd595c070c265075e3ec4cda16216a42863f0ad84ebad7f453"
+    }
+  ],
+  "visualAssessment": "requires_image_review",
+  "visualQualityScore": null,
+  "regressions": null,
+  "limitations": [
+    "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+    "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+  ]
+}

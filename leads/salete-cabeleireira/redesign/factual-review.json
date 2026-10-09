@@ -1,0 +1,1276 @@
+{
+  "schemaVersion": 1,
+  "auditContractVersion": 2,
+  "slug": "salete-cabeleireira",
+  "status": "approved",
+  "method": "independent-semantic-review",
+  "reviewedBy": "codex-independent-salete-review",
+  "reviewedAt": "2026-10-09T22:26:22.395Z",
+  "renderSha256": "0b654e013ecce1d6014a2855288775f974ef98987fa5738383664e4560e5e7a2",
+  "sourceReviewSha256": "3ce03819104ffdeb781db7525ec59f2008cea9af744e6f2304a88e02d4ccacfe",
+  "assetReviewSha256": "cb388325ddf2c793e6133b1393785731fca313bc81fc248b7719cb9f31339b2a",
+  "inventory": {
+    "method": "sha256(selector + newline + text), deduplicated across desktop/mobile",
+    "count": 101
+  },
+  "textReviews": [
+    {
+      "id": "a39e07b79e82b73b4fb886124c191955cbffa5c236992f2fe617c8793e990019",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Tradição & Elegância",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "f511fafcf5a9a0eaa6113950c715b2b95df140f53353123537f077c6261e2e8f",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "48 3433 1789",
+      "kind": "factual",
+      "factIds": [
+        "phone-criciuma"
+      ],
+      "reason": "Telefone oficial da matriz de Criciúma verificado no source-review (phone-criciuma).",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Canal de atendimento telefônico verificado da unidade de Criciúma."
+      }
+    },
+    {
+      "id": "3b531538992de2af33a4d226bffae04bd5b0ad9c3eec717af670372c70ff1d7a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "48 3468 1297",
+      "kind": "factual",
+      "factIds": [
+        "phone-rincao"
+      ],
+      "reason": "Telefone oficial da filial de Balneário Rincão verificado no source-review (phone-rincao).",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Canal de atendimento telefônico verificado da unidade de Balneário Rincão."
+      }
+    },
+    {
+      "id": "859182e015768cb84e190e562b4261792821a786918621f0217ea6cdde3c38fe",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+      "text": "Agendar Horário",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "61fe6a41f22f6cc4f9e60392b9a81d683daae2e7016fb44f4262c5eda176e244",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "Tradição & Alta Beleza em Santa Catarina",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "223c8672afb485828542e45c13aa2add816ca03180b17c949af32043541f0607",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > h1:nth-of-type(1)",
+      "text": "Salão de Beleza Salete Cabeleireira",
+      "kind": "editorial",
+      "reason": "Nome comercial e assinatura institucional no título principal da página.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Título institucional de identificação da marca e cabeçalho principal."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "bb69e007572e84fa06da2082957fdca1ce8ee4da31d1f3d6436752c4f8e87706",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "A Arte do Cuidado Capilar e a Tradição que Atravessa Gerações",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "16e3dc27f8950b3299274967c91977fa974bfdd4b3c66dc1073e4a0c3093aed4",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Quase seis décadas de pioneirismo, técnica apurada e elegância em Santa Catarina. Formação internacional Vidal Sassoon e TONI&GUY a serviço da sua beleza.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "2ded94eb1c238b1213f1928b77c4693947fed0ce70381f67bdfe3cb8ec5fb144",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Agendar em Criciúma (Matriz)",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "5eb61785b6dfc0fd02f007422119676d387adbfb543e50fa0d6566c8370bef7f",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Agendar em Balneário Rincão",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "4a5432a7095e5600d8b93c0e37cfb0ed648952c5094389d038fe82d55dbcd675",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > span:nth-of-type(1)",
+      "text": "Conheça Nossa História",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "59e6363fe3c40e6228b289348fbc4c2d233b2934ea0d7c4fb021eb80a4eabc4a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Estações de atendimento do Salão Salete",
+      "kind": "visual",
+      "assetPath": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "reason": "Legenda visual aprovada em asset-review para a fotografia do ambiente de styling do salão.",
+      "claimAssessment": {
+        "type": "infrastructure",
+        "reason": "Legenda descritiva da fotografia inspecionada das estações de atendimento."
+      }
+    },
+    {
+      "id": "bfb81acb937dc1d5b9401c264d4a2c05b1a49a5dcc4bc40126c3b5047d0ccc70",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Legado & Maestria Técnica",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "13c31c22fadd2b9091f40b764c8ef7ba98d20db03f214a2ed7e28d236dd31647",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)",
+      "text": "Uma Trajetória Consagrada na Beleza",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "02600922a35b8f887e300d95bc71300905e291ae5cb37bc885d158420f226195",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Entre em um espaço onde cada atendimento expressa arte e precisão clássica. Desde a infância em São Bento Baixo (Nova Veneza/SC), Salete demonstrava vocação singular pela arte dos cabelos, aprimorando seu talento nos mais conceituados salões de Florianópolis.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "a5268bac582e4e64e24aa6d16e6663eaa7c4a62ce31c1272bc843e037e8854ac",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)",
+      "text": "Retornando ao sul catarinense para inaugurar seu salão em Criciúma, construiu uma trajetória consagrada tornando-se referência em todo o Estado de Santa Catarina por sua dedicação e excelência.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "e06de0a54191a56c718bb5a6a7d2354b2693e5a8125b4b6afdbe16016bdff252",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Formação Internacional",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "1c9eb3a45e66b1a4b55d668041491b60598c3f8f1ffb697b0fdccc2a3061e3db",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Vidal Sassoon",
+      "kind": "factual",
+      "factIds": [
+        "cert-vidal-sassoon"
+      ],
+      "reason": "Certificação internacional em academia britânica Vidal Sassoon verificada no source-review.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Formação profissional em academia internacional de corte e geometria capilar."
+      }
+    },
+    {
+      "id": "ac7eb0da8e7329af79f373a13264611f26387815880362cd355b55ba34818e13",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Aperfeiçoamento na mais prestigiosa academia britânica de visagismo e geometria capilar.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "86682956bbd45ae443ffeb2f8dd1a1d7aab2438a8a725bbc4c04783676e4321a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Academia em Londres",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "23ea4d57a2fc241009ffd45df0b8ac7f1051508210ac004ce36173711fadd793",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+      "text": "Academia TONI&GUY",
+      "kind": "factual",
+      "factIds": [
+        "cert-toni-guy"
+      ],
+      "reason": "Especialização internacional em Londres na Academia TONI&GUY verificada no source-review.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Credencial profissional de vanguarda e colorimetria avançada em Londres."
+      }
+    },
+    {
+      "id": "9fe009a72bb79181c6b853327a17b9a2c4bfa2be5e8e9713c17ec7570e169497",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Técnicas de styling contemporâneo, vanguarda europeia e colorimetria de alto padrão.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "2ad4512607723d326958070e345074d0a8d038c67061a51521993e6125ab4202",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Portfólio de Cuidados",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "8c13e1a5189a07523e1adf6f87c0a4c004946fd152293f4902ba96cdae9e3282",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Menu de Rituais & Especialidades",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "e76ecfef195e111e9293b71c9e8a6de2ddad205d2b23388e292613b613cacae0",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Cada ritual é personalizado com protocolos rigorosos e produtos de marcas consagradas mundialmente, garantindo saúde capilar e acabamento impecável.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "3601d5c5d5abe2d9510e7e9527e26bbaa30e7dcdad3a1958db9636afb3b4d270",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Terapia & Saúde",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "ccc963809aba91d82b2282df88013db5ae864fd45f74b788cef7c8bdb54f4074",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Rituais Capilares",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "9e8ccad37703dabff8e71a79a9455dcfe89e9937654029286fa08a6f78cbfc1d",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "text": "Queratina",
+      "kind": "factual",
+      "factIds": [
+        "service-queratina"
+      ],
+      "reason": "Serviço especializado Queratina expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "68b9684252d73efa395041e029e85d28ba97809803a41abe4874ee1118a29fcd",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+      "text": "Botox",
+      "kind": "factual",
+      "factIds": [
+        "service-botox"
+      ],
+      "reason": "Serviço especializado Botox expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "2a6e82a7a9a6e12e386a68cea8f6776500da4c7905fef0d3a0f906c2dc3dbf72",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+      "text": "Lifting",
+      "kind": "factual",
+      "factIds": [
+        "service-lifting"
+      ],
+      "reason": "Serviço especializado Lifting expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "bedceff02e0c7868a33a4e897cd81bf1d953c9e2a3a0464ff37e94913e81453b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4)",
+      "text": "Peeling",
+      "kind": "factual",
+      "factIds": [
+        "service-peeling"
+      ],
+      "reason": "Serviço especializado Peeling expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "2f7ff7254685e5f4f26db2f38ee223fd03e16f64d3fc051bdd7d0c9e88a5fd73",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Consultar Ritual",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "da357fc2f1251085d8572714b5e405202ceb271cbb725cd313ad8662f2adbcef",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Design & Cor",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "b0a743f18687de64f56386a0eb1a773b814cd2e6604b0d70e0456c08b0f6364e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Design & Estilo",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "f695c203a6f9478fbe9f0d9722ebb56b49546ba2bc12c8c689712f7a146befaf",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "text": "Cortes",
+      "kind": "factual",
+      "factIds": [
+        "service-cortes"
+      ],
+      "reason": "Serviço especializado Cortes expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "57e847b1d7c6cc54ad4af5b2efcff1edd709a8b1432ba4feb9c81c98e7d29f42",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+      "text": "Penteados",
+      "kind": "factual",
+      "factIds": [
+        "service-penteados"
+      ],
+      "reason": "Serviço especializado Penteados expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "a16b7d8d5ac2ef470570acba7ccb11d15be5bc7e952b732859eca1d1df31fa17",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+      "text": "Alongamento",
+      "kind": "factual",
+      "factIds": [
+        "service-alongamento"
+      ],
+      "reason": "Serviço especializado Alongamento expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "621e5364062c3e664d9df2ebc9b6395754074d3742a075a9d4c3c5ddb4c8ba92",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4)",
+      "text": "Pintura",
+      "kind": "factual",
+      "factIds": [
+        "service-pintura"
+      ],
+      "reason": "Serviço especializado Pintura expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "57cdb327ff003e7e3a66c0f682679cf4bf559e8fee7c434b7d00033098da4dbd",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5)",
+      "text": "Mechas",
+      "kind": "factual",
+      "factIds": [
+        "service-mechas"
+      ],
+      "reason": "Serviço especializado Mechas expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "1bc0df81669b8b0354bc4834a2cf7428751045c57a467d08f0c0f131dfa02199",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Agendar Corte",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "aed7f7eeef3b5e9bfe7c68f83ab01419a7623d48d3ce9342ad61eaa256a6b2dc",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Harmonia Corporal",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "474d4f48c157c0ad68f9b1eafc8d267e95404d68a20f9b867d7d3953d3f3c63e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Estética & Mãos",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "b30041bf07c588cceb00b916ef702c9bf1348364ed613810ab34cfdb62e26277",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "text": "Manicure",
+      "kind": "factual",
+      "factIds": [
+        "service-manicure"
+      ],
+      "reason": "Serviço especializado Manicure expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "46929a45f30bb8a2a2c77779ccde916c00f7b0d93dd8acac70b65ada6a8b4eaf",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+      "text": "Pedicure",
+      "kind": "factual",
+      "factIds": [
+        "service-pedicure"
+      ],
+      "reason": "Serviço especializado Pedicure expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "31f8fa0f266a479fec61f0dee3a1b1012cc2d6c0aea3da0ffc0abc5396a72555",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Ver Cuidados",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "04d522af4474977b978fcbe4f16f5f317d3a2a8012c86988afbcaa42d7c2a6ef",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Celebração & Luxo",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "c959d7bcb4950fa399969a8dbb2a6b1766ece8917d63d47291e4ba64ddfd3285",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Dia da Noiva",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "bd9e8524889a2acb8aacaebf42b6b2c458d2afe7b116f701e55ddc395d0e85f2",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+      "text": "Hidromassagem",
+      "kind": "factual",
+      "factIds": [
+        "service-dia-da-noiva"
+      ],
+      "reason": "Serviço especializado Hidromassagem expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "25b95600ee05e2639673fcb09326655d3e1704f8135796b7df1c54fa778d0086",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+      "text": "Penteados",
+      "kind": "factual",
+      "factIds": [
+        "service-penteados"
+      ],
+      "reason": "Serviço especializado Penteados expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "fe59a2468d0f6a47ffb4c887284b9450d21a429cd12adad02fb586cc8761e901",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+      "text": "Cortes",
+      "kind": "factual",
+      "factIds": [
+        "service-cortes"
+      ],
+      "reason": "Serviço especializado Cortes expressamente documentado no rol de serviços do source-review.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Item do catálogo oficial de cuidados e rituais do salão conferido em fonte primária."
+      }
+    },
+    {
+      "id": "ceb708ce3943dae2c2e1376123f481d5097c9cffc255484248dbd407e1a5fd2c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Pacote Noiva",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "a9f447d27d1b82056cf15f86f6598ec5ee914d7095ba04949d6ceb8a167c1a18",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Ambiente & Conforto",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "93b53fe6f5bf1cf88c795d191f76416b3a265a9b63492aec2741ae986a5c96ab",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > h4:nth-of-type(1)",
+      "text": "Espaço de Rituais e Lavagem Anatômica",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "64ff3f775a78351aed524e47068f7804ad6ab31c1b3f86cc596e9ec3613d6e8d",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Lavatórios ergonômicos com duchas direcionáveis e cadeiras reclináveis para massagens capilares, hidratações profundas e rituais Kérastase com máximo conforto.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "dd21131108f7297e200c78ab14679ba87733e5c18259f596b8172b35c30679e6",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Excelência em Produtos",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "9298d75e58a83ce347ce901ca472dd2d0ce4c2122343ac7aaf806d3157d9a3ee",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Parcerias Globais de Alta Performance",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "2185410578a2eff5729cedfdd602317bcb6f023ae646f7c6bf72fe4d836a9ff4",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Tecnologia cosmética de ponta para nutrição, brilho e reconstrução capilar duradoura.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "3b61f19207d1a1e7e29d764d41c3edf33e4fd2c8418ac94a988500620f69709a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Kérastase Paris",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "d303212ba06f1f9ddb6610de9265fb877c125e7bc300fabf53c2acd65575fe40",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Rituais exclusivos de nutrição, regeneração capilar Chronologiste e proteção da cor Chroma Captive.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "bd9e6dde83f5ac56216a9a32f9a4084476d76c4162e4ede6308fbf414f04d55d",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+      "text": "Wella Professionals",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "e6616072b428b75983f3dc48280deef7890485b292811c99fb16e931d292717a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Alta fidelidade em colorações Koleston Perfect, descolorações suaves Blondor e tratamentos de restauração.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "e457a6cd3071559953bc94c9ca3c0c83df59ff2b927008b4b9524367557a9d22",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > h3:nth-of-type(1)",
+      "text": "L'Oréal & Tratamentos",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "d28e545cf3abdd5fe1d66a9261ca503a04870870eebaac0773473475bf80f42e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > p:nth-of-type(1)",
+      "text": "Gamas de cuidado intensivo e fórmulas desenvolvidas para manter fios alinhados, sedosos e resistentes.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "9ae6d939d6720761798f58dbb23384f14cd7ee885ef1b0e4e90d04fd67ca723b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Localização & Atendimento",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "ec6c5f81433c58194a279b908708a32dc5b4b08d1c6943e37c595539edfa2368",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Nossas Unidades em Santa Catarina",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "f619756594287a76adf6bac2c39f2544a291c8944dc341df2cbbdb52111580bf",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Presença consolidada nas duas cidades de Santa Catarina para atender você no coração financeiro de Criciúma e durante seus momentos de descanso em Balneário Rincão.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "560f3ef901c54b4db0fac99322ae889e23086c57bc386594dfa4ba22e9b9a576",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "Matriz Histórica",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "43acb33e990eedb7f1a0d76b87af13def315bdee8627dc053300b1f3ccfb2660",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Unidade Centro Criciúma",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "e4dd3ac6bd42f446ac2e4eb5847a2d8b5c36d218570119a96e04675151fafa2c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Centro, Criciúma — SC",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "dc0e0d6b27ecacbffc22a419968f059cb157a4a37713826812068adbb7150933",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)",
+      "text": "Atendimento Presencial na Matriz",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "4ab60c30abc39c29049b3dceff8a330b2db371fa61782fb10b02acf6146617cb",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)",
+      "text": "Telefone de Contato:",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "7a1fa2355c267f16dbcac26818d4ca810bb7690faeb4b8350af6a1ca590223f7",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+      "text": "48 3433 1789",
+      "kind": "factual",
+      "factIds": [
+        "phone-criciuma"
+      ],
+      "reason": "Telefone oficial da matriz de Criciúma verificado no source-review (phone-criciuma).",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Canal de atendimento telefônico verificado da unidade de Criciúma."
+      }
+    },
+    {
+      "id": "ee88d97798dfcb613a18a24da9129fc7e14acff3821dc4e6194f7e4894a3a001",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "WhatsApp Criciúma",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "cf8ba226c2da333f9fc82eab258cdefadb661c018d8565a0e02878acfaf2d5f8",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Ligar para Matriz",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "31f8291e5a06c8e297f3aa1941d495153419897b73011fdcdc2ea465cd012188",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "Filial Litoral",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "7e7a336ff9c3e28feea9a5b60daa4899bfc14972bea3ae013e4eefc5e14d979d",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Unidade Balneário Rincão",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "55d44e301a4ff5bc865721fb68412912889d1a7fffa852d7e9a188af42edcac2",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Centro, Balneário Rincão — SC",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "91e9e6e30123ee3fb0bd28c6a9c584dbcb4ab27c0ff53d1ca7bad8b78e8916bd",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(2)",
+      "text": "Atendimento Presencial no Litoral",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "28d75b4252433ae0258b30c7099ae72a11df9b13abd4f3eec7648dfe9cf680ce",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)",
+      "text": "Telefone de Contato:",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "cbb20ae2337f4f55042c7b442476e77f3e0644af8dd53c2a35ba785286666084",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1)",
+      "text": "48 3468 1297",
+      "kind": "factual",
+      "factIds": [
+        "phone-rincao"
+      ],
+      "reason": "Telefone oficial da filial de Balneário Rincão verificado no source-review (phone-rincao).",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Canal de atendimento telefônico verificado da unidade de Balneário Rincão."
+      }
+    },
+    {
+      "id": "aadb66ac576d0f78ada6ed489cfbb2a6c164ceb968014e6cfefd0345a970c5bf",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "WhatsApp Rincão",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "f64ff20d78f336f08d7c1b9f48ca857fc43e885406442b7b5602e57eb1a6c62b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Ligar para Filial",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "e57fd7c263644f066d4826ff1c8efa8a39a1aaa1e062ba1709aed0eabe29bb69",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Fale Conosco",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "92837be0d26a9ad51d6111fc66cbbdeb913fc76d5fc338f5d92436e2478cd124",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Agendamento & Atendimento Exclusivo",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "60ad53a6f1fdd74a5a5bb17ab6476608eeb1d8ab30e2c019927807e9bf50b771",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Reserve seu atendimento com nossa equipe de especialistas. Estamos à sua disposição em Criciúma e Balneário Rincão.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "c6392f5f70745a78842c58f0e5a4ee5a71c0dbf37f939bd3d4d6d50dd4b7e62e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "E-mail Oficial",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "50dece43d65b0f40e8792724b7cab44b8f6dbbd20bd9f1483f8189976035d2a4",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "contato@saletecabeleireira.com.br",
+      "kind": "factual",
+      "factIds": [
+        "email-contact"
+      ],
+      "reason": "E-mail corporativo de contato verificado no source-review (email-contact).",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Endereço eletrônico oficial para recebimento de mensagens e agendamentos."
+      }
+    },
+    {
+      "id": "8fa0fa097ac41c5eb73e7ed254dc3e1948b821bc8cf3f3ae32419485e9cb0977",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Atendimento Telefônico",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "71240fd9964820ebc67f1532af3fe938c9fa0d24f868fd5bc169ea928119d13e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Matriz Criciúma",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "cb7921b417b6a56a6affd5f7d8b92cb1d29689b10ecdf6fd63577a965473b4ba",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "48 3433 1789",
+      "kind": "factual",
+      "factIds": [
+        "phone-criciuma"
+      ],
+      "reason": "Telefone oficial da matriz de Criciúma verificado no source-review (phone-criciuma).",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Canal de atendimento telefônico verificado da unidade de Criciúma."
+      }
+    },
+    {
+      "id": "c38d5f51c92bc76f45a7e588af78f2fb3d76feae164feaa6f1654218258739ee",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Filial Rincão",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "44f6573921104dc22007f5768b38b6eed060c98141975204da15b9d2ccb924dd",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "text": "48 3468 1297",
+      "kind": "factual",
+      "factIds": [
+        "phone-rincao"
+      ],
+      "reason": "Telefone oficial da filial de Balneário Rincão verificado no source-review (phone-rincao).",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Canal de atendimento telefônico verificado da unidade de Balneário Rincão."
+      }
+    },
+    {
+      "id": "4ec0e85f2132dab36793386fda5ee784e403a645865fdab3370b27dc1bea0c88",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Iniciar Agendamento por WhatsApp",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "78136cab7bba24297ce4c6b8ba55a94348c8c113ce2451b9355861baefac0920",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Deixe sua Mensagem",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "7c01b1127b19c73fa8e121a47fc8e50337b5312d0d3c2b1edf2ce4c2af3b36c8",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Preencha os campos abaixo e entraremos em contato com você o mais breve possível.",
+      "kind": "editorial",
+      "reason": "Texto narrativo editorial de apresentação e síntese da trajetória da marca sem alegações numéricas novas.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Conteúdo editorial fluido sobre tradição, acolhimento e excelência estética."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "d033583afdcc3d901d76b55ece1879c45e1844151b2092747ca2b62cdd980680",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(1) > label:nth-of-type(1)",
+      "text": "Nome Completo",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "0571921dfa7061357e21365f662934909b5aadeec85f3a5814578bd15135dfdb",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > label:nth-of-type(1)",
+      "text": "Telefone / WhatsApp",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "9f9958eea3c15bbd40953f374e07cc0e3397917499bd47b21b95582eef180066",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > label:nth-of-type(1)",
+      "text": "E-mail",
+      "kind": "interface",
+      "reason": "Rótulo de seção ou componente estrutural da interface.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "e2d3a3e0d60663606f5bf7a2a67d8b86235662339b208348f4f8638a5efd79e6",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > div:nth-of-type(3) > label:nth-of-type(1)",
+      "text": "Mensagem",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "6c63b935c9843bf2c50f72467b02463c3924590da1f0de2000ce7c1f4fc360a3",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > form:nth-of-type(1) > button:nth-of-type(1)",
+      "text": "Enviar Mensagem",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "1db03bfcde1f96cdeae1fe689824cf6206f4e9555fb101fcd38763a893ad17f9",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Falar no WhatsApp",
+      "kind": "interface",
+      "reason": "Botão de ação ou link de navegação para agendamento e contato direto.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Elemento puramente funcional de interface, direcionamento ou formulário."
+      },
+      "editorialScope": "navigation"
+    }
+  ]
+}

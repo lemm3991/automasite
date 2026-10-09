@@ -1,0 +1,804 @@
+{
+  "handoffVersion": "4.0-evidence",
+  "leadSlug": "dl-cabeleireiros",
+  "companyName": "D&L Cabeleireiros",
+  "officialUrl": "https://dlcabeleireiro.com",
+  "niche": "Salão de Beleza",
+  "status": "READY_FOR_ART_DIRECTION",
+  "errors": [],
+  "facts": [
+    {
+      "id": "name",
+      "kind": "name",
+      "entityId": "company",
+      "value": "D&L Cabeleireiros",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "No D&L Cabeleireiros, oferecemos uma experiência completa de beleza e cuidado, com serviços pensados para valorizar sua autoestima e realçar sua melhor versão. Trabalhamos com técnicas modernas, produtos de alta qualidade e um atendimento personalizado para garantir resultados incríveis."
+        }
+      ]
+    },
+    {
+      "id": "headline",
+      "kind": "identity",
+      "entityId": "company",
+      "value": "Beleza e excelência em cada detalhe",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "quote": "Beleza e excelência em cada detalhe"
+        }
+      ]
+    },
+    {
+      "id": "positioning",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(3)",
+          "quote": "No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram."
+        }
+      ]
+    },
+    {
+      "id": "founders",
+      "kind": "founders",
+      "entityId": "company",
+      "value": "Fundado por Douglas e Luciano",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Fundado por Douglas e Luciano , o D&L cabeleireiro nasceu com o propósito de elevar o conceito de beleza por meio da excelência, qualidade e atendimento personalizado. Com anos de experiência no mercado , o salão se consolidou como referência em sofisticação, técnica e inovação, oferecendo serviços de alto padrão para clientes que valorizam resultados impecáveis."
+        }
+      ]
+    },
+    {
+      "id": "audience",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "clientes que valorizam resultados impecáveis",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Fundado por Douglas e Luciano , o D&L cabeleireiro nasceu com o propósito de elevar o conceito de beleza por meio da excelência, qualidade e atendimento personalizado. Com anos de experiência no mercado , o salão se consolidou como referência em sofisticação, técnica e inovação, oferecendo serviços de alto padrão para clientes que valorizam resultados impecáveis."
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "kind": "architecture",
+      "entityId": "company",
+      "value": "Nossas Unidades",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "quote": "Nossas Unidades"
+        }
+      ]
+    },
+    {
+      "id": "service-1",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Corte Feminino",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Corte Feminino"
+        }
+      ]
+    },
+    {
+      "id": "description-1",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cortes personalizados que valorizam sua identidade e movimento.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cortes personalizados que valorizam sua identidade e movimento."
+        }
+      ]
+    },
+    {
+      "id": "service-2",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Escovas",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Escovas"
+        }
+      ]
+    },
+    {
+      "id": "description-2",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Finalização impecável com leveza, brilho e durabilidade.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Finalização impecável com leveza, brilho e durabilidade."
+        }
+      ]
+    },
+    {
+      "id": "service-3",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Mechas",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Mechas"
+        }
+      ]
+    },
+    {
+      "id": "description-3",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Ilumine seu cabelo com tons naturais e sofisticados.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Ilumine seu cabelo com tons naturais e sofisticados."
+        }
+      ]
+    },
+    {
+      "id": "service-4",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Mega Hair",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Mega Hair"
+        }
+      ]
+    },
+    {
+      "id": "description-4",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Técnicas modernas para volume, comprimento e acabamento perfeito.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Técnicas modernas para volume, comprimento e acabamento perfeito."
+        }
+      ]
+    },
+    {
+      "id": "service-5",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Kérastase",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Kérastase"
+        }
+      ]
+    },
+    {
+      "id": "description-5",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(21) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios."
+        }
+      ]
+    },
+    {
+      "id": "service-6",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Tratamentos Davines",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(24) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Tratamentos Davines"
+        }
+      ]
+    },
+    {
+      "id": "description-6",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Tratamentos premium com performance, sustentabilidade e resultados visíveis.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(25) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Tratamentos premium com performance, sustentabilidade e resultados visíveis."
+        }
+      ]
+    },
+    {
+      "id": "service-7",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Colorações",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(33) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Colorações"
+        }
+      ]
+    },
+    {
+      "id": "description-7",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cores personalizadas que realçam sua beleza e estilo.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(34) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cores personalizadas que realçam sua beleza e estilo."
+        }
+      ]
+    },
+    {
+      "id": "service-8",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Dia da Noiva",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(35) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Dia da Noiva"
+        }
+      ]
+    },
+    {
+      "id": "description-8",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Uma experiência completa para tornar seu dia inesquecível.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(36) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Uma experiência completa para tornar seu dia inesquecível."
+        }
+      ]
+    },
+    {
+      "id": "service-9",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Corte Masculino",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(37) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Corte Masculino"
+        }
+      ]
+    },
+    {
+      "id": "description-9",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Estilo, precisão e acabamento alinhado às tendências atuais.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(38) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Estilo, precisão e acabamento alinhado às tendências atuais."
+        }
+      ]
+    },
+    {
+      "id": "service-10",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Alongamento de Unhas",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(41) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Alongamento de Unhas"
+        }
+      ]
+    },
+    {
+      "id": "description-10",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Unhas sofisticadas, resistentes e com acabamento perfeito.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(42) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Unhas sofisticadas, resistentes e com acabamento perfeito."
+        }
+      ]
+    },
+    {
+      "id": "service-11",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Manicure e Pedicure",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(44) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Manicure e Pedicure"
+        }
+      ]
+    },
+    {
+      "id": "description-11",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cuidado, higiene e beleza para mãos e pés impecáveis.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(46) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cuidado, higiene e beleza para mãos e pés impecáveis."
+        }
+      ]
+    },
+    {
+      "id": "service-12",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Maquiagens",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(45) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Maquiagens"
+        }
+      ]
+    },
+    {
+      "id": "description-12",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Produções elegantes que destacam sua beleza em cada ocasião.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(47) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Produções elegantes que destacam sua beleza em cada ocasião."
+        }
+      ]
+    },
+    {
+      "id": "palhoca-name",
+      "kind": "name",
+      "entityId": "palhoca",
+      "value": "D&L – Pedra Branca",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "D&L – Pedra Branca"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-city",
+      "kind": "city",
+      "entityId": "palhoca",
+      "value": "Palhoça",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-phone",
+      "kind": "phone",
+      "entityId": "palhoca",
+      "value": "(48) 99936-0284",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(5)",
+          "quote": "Contatos (48) 99936-0284"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-address",
+      "kind": "address",
+      "entityId": "palhoca",
+      "value": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Av. Paulista, 1234, São Paulo",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Av. Paulista, 1234, São Paulo"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "palhoca-hours",
+      "kind": "hours",
+      "entityId": "palhoca",
+      "value": "Segunda a Sábado: 09h às 21h",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(4)",
+          "quote": "Segunda a Sábado: 09h às 21h"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Seg a Sáb, 9h-20h",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Seg a Sáb, 9h-20h"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Segunda a Sábado: 09h às 21h",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "florianopolis-name",
+      "kind": "name",
+      "entityId": "florianopolis",
+      "value": "Salão D&L – Agronômica",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Salão D&L – Agronômica"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-city",
+      "kind": "city",
+      "entityId": "florianopolis",
+      "value": "Florianópolis",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-phone",
+      "kind": "phone",
+      "entityId": "florianopolis",
+      "value": "(48) 99936-0365",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(5)",
+          "quote": "Contatos (48) 99936-0365"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-address",
+      "kind": "address",
+      "entityId": "florianopolis",
+      "value": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-hours",
+      "kind": "hours",
+      "entityId": "florianopolis",
+      "value": "Segunda a Sábado: 09h às 21h30",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(4)",
+          "quote": "Segunda a Sábado: 09h às 21h30"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-state",
+      "kind": "state",
+      "entityId": "palhoca",
+      "value": "SC",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-state",
+      "kind": "state",
+      "entityId": "florianopolis",
+      "value": "SC",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ]
+    },
+    {
+      "id": "contact-link-2",
+      "kind": "contactLink",
+      "entityId": "company",
+      "value": "https://api.whatsapp.com/send/?phone=5548999360365&amp;text=Quero+agendar+um+hor%C3%A1rio!&amp;type=phone_number&amp;app_absent=0",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(3)",
+          "quote": "https://api.whatsapp.com/send/?phone=5548999360365&amp;text=Quero+agendar+um+hor%C3%A1rio!&amp;type=phone_number&amp;app_absent=0",
+          "attribute": "href"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "palhoca-address",
+      "kind": "address",
+      "entityId": "palhoca",
+      "value": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Av. Paulista, 1234, São Paulo",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Av. Paulista, 1234, São Paulo"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "palhoca-hours",
+      "kind": "hours",
+      "entityId": "palhoca",
+      "value": "Segunda a Sábado: 09h às 21h",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(4)",
+          "quote": "Segunda a Sábado: 09h às 21h"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Seg a Sáb, 9h-20h",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Seg a Sáb, 9h-20h"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Segunda a Sábado: 09h às 21h",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "contact-link-0",
+      "kind": "contactLink",
+      "entityId": "company",
+      "value": "https://wa.me/554899360365?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20Cabeleireiros%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.",
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "[id=\"ai--ac2aR\"]",
+          "quote": "https://wa.me/554899360365?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20Cabeleireiros%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "id": "contact-link-1",
+      "kind": "contactLink",
+      "entityId": "company",
+      "value": "https://wa.me/554899936036?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.",
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "[id=\"zsBSuE\"]",
+          "quote": "https://wa.me/554899936036?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.",
+          "attribute": "href"
+        }
+      ]
+    }
+  ],
+  "ambiguities": [
+    {
+      "kind": "phone",
+      "values": [
+        "(48) 99936-0365",
+        "(48) 99936-0284"
+      ]
+    },
+    {
+      "kind": "address",
+      "values": [
+        "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+        "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+        "Av. Paulista, 1234, São Paulo"
+      ]
+    },
+    {
+      "kind": "hours",
+      "values": [
+        "Segunda a Sábado: 09h às 21h30",
+        "Segunda a Sábado: 09h às 21h",
+        "Seg a Sáb, 9h-20h"
+      ]
+    },
+    {
+      "kind": "contactLink",
+      "values": [
+        "https://wa.me/554899360365?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20Cabeleireiros%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.",
+        "https://wa.me/554899936036?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.",
+        "https://api.whatsapp.com/send/?phone=5548999360365&amp;text=Quero+agendar+um+hor%C3%A1rio!&amp;type=phone_number&amp;app_absent=0"
+      ]
+    }
+  ],
+  "primaryEntityId": "palhoca",
+  "primaryEntityReason": "A prospecção ocorreu em Palhoça; a unidade Pedra Branca é priorizada sem esconder a unidade Agronômica.",
+  "primaryLogoLocal": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+  "primaryHeroImageLocal": null,
+  "primaryFacilityPhotoLocal": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+  "filesMap": {
+    "leadJson": "leads/dl-cabeleireiros/lead.json",
+    "siteAtualMd": "leads/dl-cabeleireiros/referencias/site-atual.md",
+    "pagesManifest": "leads/dl-cabeleireiros/referencias/pages-manifest.json",
+    "assetsManifest": "leads/dl-cabeleireiros/referencias/assets-manifest.json",
+    "sources": "leads/dl-cabeleireiros/referencias/source-evidence.json",
+    "factsReview": "leads/dl-cabeleireiros/referencias/source-review.json",
+    "assetReview": "leads/dl-cabeleireiros/referencias/asset-review.json",
+    "screenshots": {
+      "desktopFull": "leads/dl-cabeleireiros/screenshots/site-desktop-full.png",
+      "desktopFold": "leads/dl-cabeleireiros/screenshots/site-desktop.png",
+      "mobileFull": "leads/dl-cabeleireiros/screenshots/site-mobile-full.png",
+      "mobileFold": "leads/dl-cabeleireiros/screenshots/site-mobile.png"
+    }
+  },
+  "metricsSummary": {
+    "opportunityScore": 5.6,
+    "pagesDownloaded": 7,
+    "assetsDownloaded": 10
+  },
+  "limitations": [
+    "A coleta não atribui notas estéticas. Critérios operacionais exigem avaliação do agente com fontes.",
+    "Classificação dimensional não identifica assunto; assets sem inspeção permanecem indisponíveis para descrições factuais."
+  ],
+  "auditReport": {
+    "passed": true,
+    "errors": []
+  }
+}

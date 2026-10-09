@@ -1,0 +1,84 @@
+{
+  "status": "approved",
+  "method": "image-inspection",
+  "reviewedBy": "Builder & Visual Auditor Agent",
+  "reviewedAt": "2026-10-06T18:20:00.000Z",
+  "screenshotHashes": {
+    "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png": "55083712dd1f797e38a370ae9c5a00e5cc8ec68fa2bb63ab84f003a6f30a1e62",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png": "b85cca91f22318d3d722e42ed6729a7f5beed24d99b077743cb5ee5aec2aac7f",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png": "317fad96300483b43fa2b6b1ee2c421d6e1cb6434da89a2272975e069f3f67d5",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png": "a7f394200341d99003d35fbc859ede8bca5159adceed21e4774ff6a49692466f",
+    "leads/dl-cabeleireiros/screenshots/site-desktop.png": "9e493acc55b8d93af3554262821896ab03a4dda1794c97aeabcc69224c6e74b3",
+    "leads/dl-cabeleireiros/screenshots/site-mobile.png": "b9ea36e63b019979499e9290b750745e6515185652a14e16c12325cb06b64f3f"
+  },
+  "observations": [
+    {
+      "criterion": "hero",
+      "finding": "Primeira dobra desktop e mobile apresenta contraste superior, fotografia real do espaço físico e hierarquia clara com CTAs direcionados para Palhoça.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png"
+      ]
+    },
+    {
+      "criterion": "identity",
+      "finding": "O monograma dourado oficial da marca foi posicionado com precisão na barra de navegação e no rodapé, acompanhado por acentos em dourado champanhe refinado.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "composition",
+      "finding": "Grid assimétrico com proporção 1fr 1.2fr e cards com bordas suaves garantem respiração visual, separando serviços, diferenciais e unidades sem sobrecarga.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "imagery",
+      "finding": "Uso exclusivo de imagens legítimas coletadas do cliente: fotografia do salão no hero e 4 amostras autênticas de mechas e cortes no portfólio.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "legibility",
+      "finding": "Tipografia Inter em escala proporcional garante leitura impecável em desktop e mobile, corrigindo os problemas de contraste sobre o vídeo do site original.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png"
+      ]
+    },
+    {
+      "criterion": "personalization",
+      "finding": "Estrutura personalizada para o salão: destaque para a unidade Pedra Branca em Palhoça e Agronômica em Florianópolis, além da menção expressa aos fundadores.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png"
+      ]
+    },
+    {
+      "criterion": "artDirection",
+      "finding": "Aplicação tangível dos 3 Design Systems: linha decorativa de barbershop-landing-51, micro-badges de ai-automation-17 e grid modular do parallax-clean.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "factualContent",
+      "finding": "Todas as afirmações de serviços, unidades, horários e telefones são 100% fiéis às transcrições literais colhidas em site-atual.md sem invenção de dados.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png"
+      ]
+    }
+  ],
+  "regressions": [],
+  "limitations": [
+    "Formulário na seção de contato redireciona diretamente ao WhatsApp; banco de dados de agendamento pode ser integrado posteriormente.",
+    "Vídeos do site original foram omitidos para garantir velocidade de carregamento instantânea na demonstração comercial."
+  ]
+}

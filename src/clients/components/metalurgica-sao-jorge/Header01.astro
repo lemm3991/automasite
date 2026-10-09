@@ -1,0 +1,13 @@
+---
+import './industrial.css';
+const {content, client} = Astro.props;
+---
+<header class="sj-header" id="inicio">
+  <div class="sj-wrap sj-header-inner">
+    <a class="sj-logo" href="#inicio" aria-label={`${client.business.name} — início`}><img src={client.business.logo} alt={client.business.name} width="200" height="88" /></a>
+    <nav class="sj-desktop-nav" aria-label="Navegação principal">{content.navLinks.map((l:any)=><a href={l.href}>{l.label}</a>)}</nav>
+    <a class="sj-header-cta" href={content.ctaHref} target="_blank" rel="noopener noreferrer">Solicitar orçamento <span aria-hidden="true">↗</span></a>
+    <details class="sj-mobile-nav"><summary aria-label="Abrir navegação">Menu <span aria-hidden="true">+</span></summary><nav aria-label="Navegação celular">{content.navLinks.map((l:any)=><a href={l.href}>{l.label}</a>)}<a href={content.ctaHref}>Solicitar orçamento ↗</a></nav></details>
+  </div>
+</header>
+<script>document.querySelectorAll('.sj-mobile-nav a').forEach(a=>a.addEventListener('click',()=>a.closest('details')?.removeAttribute('open')));</script>

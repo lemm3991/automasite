@@ -1,0 +1,973 @@
+{
+  "schemaVersion": 2,
+  "slug": "dl-cabeleireiros",
+  "concept": "Um espaço para o seu estilo",
+  "createdBy": "codex-dl-builder",
+  "inputs": [
+    {
+      "path": "leads/dl-cabeleireiros/referencias/creative-brief.md"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/art-direction.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/design-selection.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/visual/visual-handoff.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/site-atual.md"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/lead.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/assets-manifest.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/source-evidence.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/source-review.json"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/referencias/asset-review.json"
+    }
+  ],
+  "hero": {
+    "sectionId": "hero",
+    "direction": "Foto do ambiente à esquerda (~45%), título e CTA à direita, logo no cabeçalho. Sem métricas ou selos fictícios.",
+    "asset": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+    "baseComponent": "src/components/hero/Hero07.astro",
+    "action": "create",
+    "changes": [
+      "Foto à esquerda no desktop",
+      "Headline editorial com ordem mobile texto/foto/CTA",
+      "Moldura vertical e recorte sem ocultar todo o ambiente"
+    ],
+    "desktop": "Foto do ambiente à esquerda (~45%), título e CTA à direita, logo no cabeçalho. Sem métricas ou selos fictícios.",
+    "mobile": "390×844: cabeçalho compacto, headline, fotografia de cerca de 240px, descrição breve e CTA para as unidades na primeira dobra.",
+    "selectors": {
+      "logo": "#dl-logo",
+      "message": "#dl-hero h1",
+      "cta": "#dl-hero .dl-button",
+      "identity": "#dl-hero .dl-photo",
+      "photo": "#dl-hero .dl-photo img"
+    }
+  },
+  "references": [
+    {
+      "id": "architecture-studio.aura.build",
+      "sourcePath": "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/design-system.html",
+      "stackPath": "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/STACK.md",
+      "observations": [
+        {
+          "excerpt": "font-serif-custom text-6xl sm:text-7xl md:text-8xl lg:text-9xl",
+          "benefit": "A escala serifada e o itálico dão hierarquia ao posicionamento de beleza; evitar a tipografia condensada industrial.",
+          "factIds": [
+            "headline",
+            "positioning"
+          ],
+          "element": "hierarquia serifada",
+          "appliedTo": [
+            "hero"
+          ],
+          "reinterpretation": "A escala serifada e o itálico dão hierarquia ao posicionamento de beleza; evitar a tipografia condensada industrial."
+        }
+      ]
+    },
+    {
+      "id": "green-museum",
+      "sourcePath": "Design System/temas_claros/green-museum/design-system.html",
+      "observations": [
+        {
+          "excerpt": "group relative rounded-2xl overflow-hidden aspect-[3/4]",
+          "benefit": "Enquadramento vertical da fotografia e legenda junto à imagem dão protagonismo ao ambiente e às imagens do salão.",
+          "factIds": [
+            "headline",
+            "positioning"
+          ],
+          "element": "enquadramento vertical e legenda",
+          "appliedTo": [
+            "galeria"
+          ],
+          "reinterpretation": "Enquadramento vertical da fotografia e legenda junto à imagem dão protagonismo ao ambiente e às imagens do salão."
+        }
+      ]
+    },
+    {
+      "id": "barbershop-landing-51.aura.build",
+      "sourcePath": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+      "stackPath": "Design System/temas_escuros/barbershop-landing-51.aura.build/STACK.md",
+      "observations": [
+        {
+          "excerpt": "<h3 class=\"service-name\">CORTE EXCLUSIVO</h3>",
+          "benefit": "Nome do serviço destacado e descrição curta tornam o cardápio consultável; reinterpretar as caixas como linhas leves sem importar preços, duração ou serviços da barbearia.",
+          "factIds": [
+            "service-1",
+            "service-9"
+          ],
+          "element": "nome e descrição no cardápio",
+          "appliedTo": [
+            "servicos"
+          ],
+          "reinterpretation": "Nome do serviço destacado e descrição curta tornam o cardápio consultável; reinterpretar as caixas como linhas leves sem importar preços, duração ou serviços da barbearia."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/assets-manifest.json",
+      "role": "logo",
+      "description": "Monograma dourado D&L sobre fundo transparente.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Letras entrelaçadas em dourado; Fundo transparente"
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/assets-manifest.json",
+      "role": "hero",
+      "description": "Ambiente com cadeiras verdes, espelhos circulares iluminados e bancadas de madeira.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Cadeiras verdes junto às bancadas; Espelhos redondos com iluminação"
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/assets-manifest.json",
+      "role": "showcase",
+      "description": "Miniatura de vídeo com cliente de cabelo loiro e profissional ao fundo.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Cabelo loiro longo e ondulado; Cliente sentada e profissional atrás"
+      }
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/assets-manifest.json",
+      "role": "showcase",
+      "description": "Miniatura de vídeo com mulher de cabelo longo e claro vista em três quartos.",
+      "inspection": {
+        "method": "image-view",
+        "observed": "Cabelo longo com tons claros; Mulher em pose de três quartos"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "name",
+      "text": "D&L Cabeleireiros",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"D&L Cabeleireiros\"",
+      "factIds": [
+        "name"
+      ],
+      "usedIn": [
+        "business",
+        "hero"
+      ]
+    },
+    {
+      "id": "headline",
+      "text": "Beleza e excelência em cada detalhe",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Beleza e excelência em cada detalhe\"",
+      "factIds": [
+        "headline"
+      ],
+      "usedIn": [
+        "business",
+        "hero"
+      ]
+    },
+    {
+      "id": "positioning",
+      "text": "No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram.\"",
+      "factIds": [
+        "positioning"
+      ],
+      "usedIn": [
+        "business",
+        "hero"
+      ]
+    },
+    {
+      "id": "founders",
+      "text": "Fundado por Douglas e Luciano",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Fundado por Douglas e Luciano\"",
+      "factIds": [
+        "founders"
+      ],
+      "usedIn": [
+        "business",
+        "hero"
+      ]
+    },
+    {
+      "id": "audience",
+      "text": "clientes que valorizam resultados impecáveis",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"clientes que valorizam resultados impecáveis\"",
+      "factIds": [
+        "audience"
+      ],
+      "usedIn": [
+        "business",
+        "hero"
+      ]
+    },
+    {
+      "id": "architecture",
+      "text": "Nossas Unidades",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Nossas Unidades\"",
+      "factIds": [
+        "architecture"
+      ],
+      "usedIn": [
+        "business",
+        "hero"
+      ]
+    },
+    {
+      "id": "service-1",
+      "text": "Corte Feminino",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Corte Feminino\"",
+      "factIds": [
+        "service-1"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-1",
+      "text": "Cortes personalizados que valorizam sua identidade e movimento.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Cortes personalizados que valorizam sua identidade e movimento.\"",
+      "factIds": [
+        "description-1"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-2",
+      "text": "Escovas",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Escovas\"",
+      "factIds": [
+        "service-2"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-2",
+      "text": "Finalização impecável com leveza, brilho e durabilidade.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Finalização impecável com leveza, brilho e durabilidade.\"",
+      "factIds": [
+        "description-2"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-3",
+      "text": "Mechas",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Mechas\"",
+      "factIds": [
+        "service-3"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-3",
+      "text": "Ilumine seu cabelo com tons naturais e sofisticados.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Ilumine seu cabelo com tons naturais e sofisticados.\"",
+      "factIds": [
+        "description-3"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-4",
+      "text": "Mega Hair",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Mega Hair\"",
+      "factIds": [
+        "service-4"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-4",
+      "text": "Técnicas modernas para volume, comprimento e acabamento perfeito.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Técnicas modernas para volume, comprimento e acabamento perfeito.\"",
+      "factIds": [
+        "description-4"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-5",
+      "text": "Kérastase",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Kérastase\"",
+      "factIds": [
+        "service-5"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-5",
+      "text": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Cuidados exclusivos para restaurar a saúde e o brilho dos fios.\"",
+      "factIds": [
+        "description-5"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-6",
+      "text": "Tratamentos Davines",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Tratamentos Davines\"",
+      "factIds": [
+        "service-6"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-6",
+      "text": "Tratamentos premium com performance, sustentabilidade e resultados visíveis.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Tratamentos premium com performance, sustentabilidade e resultados visíveis.\"",
+      "factIds": [
+        "description-6"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-7",
+      "text": "Colorações",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Colorações\"",
+      "factIds": [
+        "service-7"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-7",
+      "text": "Cores personalizadas que realçam sua beleza e estilo.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Cores personalizadas que realçam sua beleza e estilo.\"",
+      "factIds": [
+        "description-7"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-8",
+      "text": "Dia da Noiva",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Dia da Noiva\"",
+      "factIds": [
+        "service-8"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-8",
+      "text": "Uma experiência completa para tornar seu dia inesquecível.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Uma experiência completa para tornar seu dia inesquecível.\"",
+      "factIds": [
+        "description-8"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-9",
+      "text": "Corte Masculino",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Corte Masculino\"",
+      "factIds": [
+        "service-9"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-9",
+      "text": "Estilo, precisão e acabamento alinhado às tendências atuais.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Estilo, precisão e acabamento alinhado às tendências atuais.\"",
+      "factIds": [
+        "description-9"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-10",
+      "text": "Alongamento de Unhas",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Alongamento de Unhas\"",
+      "factIds": [
+        "service-10"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-10",
+      "text": "Unhas sofisticadas, resistentes e com acabamento perfeito.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Unhas sofisticadas, resistentes e com acabamento perfeito.\"",
+      "factIds": [
+        "description-10"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-11",
+      "text": "Manicure e Pedicure",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Manicure e Pedicure\"",
+      "factIds": [
+        "service-11"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-11",
+      "text": "Cuidado, higiene e beleza para mãos e pés impecáveis.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Cuidado, higiene e beleza para mãos e pés impecáveis.\"",
+      "factIds": [
+        "description-11"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "service-12",
+      "text": "Maquiagens",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Maquiagens\"",
+      "factIds": [
+        "service-12"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "description-12",
+      "text": "Produções elegantes que destacam sua beleza em cada ocasião.",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Produções elegantes que destacam sua beleza em cada ocasião.\"",
+      "factIds": [
+        "description-12"
+      ],
+      "usedIn": [
+        "business",
+        "servicos"
+      ]
+    },
+    {
+      "id": "palhoca-name",
+      "text": "D&L – Pedra Branca",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"D&L – Pedra Branca\"",
+      "factIds": [
+        "palhoca-name"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "palhoca-city",
+      "text": "Palhoça",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Palhoça\"",
+      "factIds": [
+        "palhoca-city"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "palhoca-phone",
+      "text": "(48) 99936-0284",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"(48) 99936-0284\"",
+      "factIds": [
+        "palhoca-phone"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "palhoca-address",
+      "text": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076\"",
+      "factIds": [
+        "palhoca-address"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "palhoca-hours",
+      "text": "Segunda a Sábado: 09h às 21h",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Segunda a Sábado: 09h às 21h\"",
+      "factIds": [
+        "palhoca-hours"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "florianopolis-name",
+      "text": "Salão D&L – Agronômica",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Salão D&L – Agronômica\"",
+      "factIds": [
+        "florianopolis-name"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "florianopolis-city",
+      "text": "Florianópolis",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Florianópolis\"",
+      "factIds": [
+        "florianopolis-city"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "florianopolis-phone",
+      "text": "(48) 99936-0365",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"(48) 99936-0365\"",
+      "factIds": [
+        "florianopolis-phone"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "florianopolis-address",
+      "text": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000\"",
+      "factIds": [
+        "florianopolis-address"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "florianopolis-hours",
+      "text": "Segunda a Sábado: 09h às 21h30",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"Segunda a Sábado: 09h às 21h30\"",
+      "factIds": [
+        "florianopolis-hours"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "palhoca-state",
+      "text": "SC",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"SC\"",
+      "factIds": [
+        "palhoca-state"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "florianopolis-state",
+      "text": "SC",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"SC\"",
+      "factIds": [
+        "florianopolis-state"
+      ],
+      "usedIn": [
+        "business",
+        "unidades"
+      ]
+    },
+    {
+      "id": "contact-link-2",
+      "text": "https://api.whatsapp.com/send/?phone=5548999360365&amp;text=Quero+agendar+um+hor%C3%A1rio!&amp;type=phone_number&amp;app_absent=0",
+      "sourcePath": "leads/dl-cabeleireiros/referencias/source-review.json",
+      "sourceExcerpt": "\"value\": \"https://api.whatsapp.com/send/?phone=5548999360365&amp;text=Quero+agendar+um+hor%C3%A1rio!&amp;type=phone_number&amp;app_absent=0\"",
+      "factIds": [
+        "contact-link-2"
+      ],
+      "usedIn": [
+        "business",
+        "hero"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "title": "D&L Cabeleireiros",
+      "variant": "Header01",
+      "factIds": [
+        "name"
+      ],
+      "compositionRationale": "Marca legível, links curtos e escolha de unidade no CTA.",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/header/Header01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Header01.astro",
+      "reason": "Marca legível, links curtos e escolha de unidade no CTA.",
+      "changes": [
+        "CTA leva à escolha da unidade",
+        "Marca em fundo verde para dourado legível",
+        "Navegação mobile por âncoras úteis"
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "name"
+      ],
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png"
+      ]
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Um espaço para o seu estilo.",
+      "variant": "SalonHero",
+      "factIds": [
+        "headline",
+        "positioning"
+      ],
+      "compositionRationale": "Foto vertical do ambiente à esquerda, serifas à direita. Mobile com foto e CTA antes de 844px.",
+      "action": "create",
+      "candidateComponents": [
+        "src/components/hero/Hero07.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/SalonHero.astro",
+      "reason": "Foto vertical do ambiente à esquerda, serifas à direita. Mobile com foto e CTA antes de 844px.",
+      "changes": [
+        "Foto à esquerda no desktop",
+        "Headline editorial com ordem mobile texto/foto/CTA",
+        "Moldura vertical e recorte sem ocultar todo o ambiente"
+      ],
+      "referenceIds": [
+        "architecture-studio.aura.build"
+      ],
+      "claimIds": [
+        "headline",
+        "positioning"
+      ],
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg"
+      ]
+    },
+    {
+      "id": "servicos",
+      "type": "services",
+      "title": "Seu cuidado, do seu jeito.",
+      "variant": "Services01",
+      "factIds": [
+        "service-1",
+        "service-2",
+        "service-3",
+        "service-4",
+        "service-5",
+        "service-6",
+        "service-7",
+        "service-8",
+        "service-9",
+        "service-10",
+        "service-11",
+        "service-12"
+      ],
+      "compositionRationale": "Menu com 12 nomes documentados e descrições curtas literais, organizado em linhas.",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/services/Services01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+      "reason": "Menu com 12 nomes documentados e descrições curtas literais, organizado em linhas.",
+      "changes": [
+        "Cards substituídos por menu em linhas",
+        "Descrições literais opcionais em details",
+        "Sem ícones decorativos por serviço ou procedimentos sugeridos"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build"
+      ],
+      "claimIds": [
+        "service-1",
+        "service-2",
+        "service-3",
+        "service-4",
+        "service-5",
+        "service-6",
+        "service-7",
+        "service-8",
+        "service-9",
+        "service-10",
+        "service-11",
+        "service-12"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "galeria",
+      "type": "showcase",
+      "title": "Beleza nos detalhes.",
+      "variant": "Showcase01",
+      "factIds": [
+        "founders",
+        "positioning"
+      ],
+      "compositionRationale": "Duas imagens do acervo em molduras verticais; apresentação breve e sem atribuir procedimentos às imagens.",
+      "action": "adapt",
+      "candidateComponents": [
+        "src/components/projects/Showcase01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+      "reason": "Duas imagens do acervo em molduras verticais; apresentação breve e sem atribuir procedimentos às imagens.",
+      "changes": [
+        "Dois retratos recortados do centro das miniaturas",
+        "Moldura e legenda conferida",
+        "Breve apresentação factual junto ao acervo"
+      ],
+      "referenceIds": [
+        "green-museum"
+      ],
+      "claimIds": [
+        "founders",
+        "positioning"
+      ],
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+        "/assets/clients/dl-cabeleireiros/08-hqdefault.webp"
+      ]
+    },
+    {
+      "id": "unidades",
+      "type": "contact",
+      "title": "Escolha onde viver o seu momento.",
+      "variant": "SalonUnits",
+      "factIds": [
+        "palhoca-name",
+        "florianopolis-name",
+        "palhoca-address",
+        "florianopolis-address"
+      ],
+      "compositionRationale": "Dois painéis com contato, endereço e horário separados; verde em contraste para encerramento.",
+      "action": "create",
+      "candidateComponents": [
+        "src/components/contact/Contact01.astro"
+      ],
+      "outputPath": "src/clients/components/dl-cabeleireiros/SalonUnits.astro",
+      "reason": "Dois painéis com contato, endereço e horário separados; verde em contraste para encerramento.",
+      "changes": [
+        "Duas unidades com dados separados",
+        "Sem formulário genérico",
+        "Botões de WhatsApp derivados dos dois números verificados"
+      ],
+      "referenceIds": [],
+      "claimIds": [
+        "palhoca-name",
+        "florianopolis-name",
+        "palhoca-address",
+        "florianopolis-address"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "title": "D&L Cabeleireiros",
+      "variant": "Footer01",
+      "factIds": [
+        "name"
+      ],
+      "compositionRationale": "Rodapé simples reutilizado, sem informação comercial adicional.",
+      "action": "keep",
+      "candidateComponents": [
+        "src/components/footer/Footer01.astro"
+      ],
+      "outputPath": "src/components/footer/Footer01.astro",
+      "reason": "Rodapé simples reutilizado, sem informação comercial adicional.",
+      "changes": [],
+      "referenceIds": [],
+      "claimIds": [
+        "name"
+      ],
+      "assetPaths": []
+    }
+  ],
+  "similarityJustification": {},
+  "upstreamCorrections": [],
+  "removedUnsupportedClaims": [
+    "Horários começando na terça-feira",
+    "Mechas atribuídas à imagem de corte masculino",
+    "Foto do ambiente apresentada como resultado de cabelo",
+    "Formulário wpforms inexistente",
+    "Serviços e números comerciais não documentados"
+  ],
+  "productionPending": [
+    "Confirmar operacionalmente com a empresa a escolha das fontes para endereço e horários conflitantes antes de publicação",
+    "Agendamento abre conversa; não confirma disponibilidade ou reserva",
+    "Sem envio comercial, publicação ou rastreamento de conversão"
+  ],
+  "implementationEvidence": [
+    {
+      "referenceId": "architecture-studio.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/dl-cabeleireiros/SalonHero.astro",
+      "codeExcerpt": "<h1>Um espaço para o seu <em>estilo.</em></h1>",
+      "explanation": "Serifa de grande escala e itálico no foco da mensagem, com respiro editorial; fonte conferida no DOM.",
+      "renderCheck": {
+        "selector": "#dl-hero h1",
+        "styles": {
+          "fontFamily": "\"Playfair Display\", serif"
+        }
+      }
+    },
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "servicos",
+      "codePath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+      "codeExcerpt": "<h3>{service.title}</h3>",
+      "explanation": "Hierarquia nome/descrição de serviço reinterpretada como menu expansível, com separadores e consulta por unidade; sem copiar serviços, preços ou duração.",
+      "renderCheck": {
+        "selector": ".dl-service-menu",
+        "minColumns": 2
+      }
+    },
+    {
+      "referenceId": "green-museum",
+      "sectionId": "galeria",
+      "codePath": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+      "codeExcerpt": "<div class=\"dl-portrait\"><img src={item.image} alt={item.alt}",
+      "explanation": "Fotografias em molduras verticais, legenda junto da imagem, duas colunas; proporções revistas para miniaturas do acervo.",
+      "renderCheck": {
+        "selector": ".dl-gallery-grid",
+        "minColumns": 2
+      }
+    }
+  ]
+}

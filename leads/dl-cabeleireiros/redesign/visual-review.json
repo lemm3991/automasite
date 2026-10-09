@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 3,
+  "slug": "dl-cabeleireiros",
+  "status": "approved",
+  "method": "image-inspection",
+  "reviewedBy": "/root/independent_dl_review",
+  "reviewedAt": "2026-10-07T19:33:31.362Z",
+  "independentFrom": "codex-dl-builder",
+  "technicalEvidence": {
+    "renderSha256": "d7f3ef9ed9936e2d08eb5186fa9646c0a7a8013c670e70e197ad013804720845",
+    "buildSha256": "93e989f679ca2c0b18d16c765544c196abc876064117b8fbc5922a072ae7bc80"
+  },
+  "factualEvidence": {
+    "sha256": "03e010b5e0c1b83644767b7b862362d183a0f18d4f023268fe7e736eacfc23f1"
+  },
+  "screenshotHashes": {
+    "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png": "22bf3a4fc45411c371a57665e27095ad32399b23076fc659c8020eca593a9a1e",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png": "76712beec7a30044da79fe812d9ca8062e30ddb3725ab1528425a686a749dfec",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png": "cfb79369889f008ed46852a79a5f7f97f17ba72f15ba2747ef5723e65ce123cd",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png": "b5d8c7b23abb2065273bd76e1379cc0ffcf1a196c31e58743417939b0a27ecc6",
+    "leads/dl-cabeleireiros/screenshots/site-desktop.png": "cb37990d5b9040b9fe455ef3729b8cd475a010a39a977694b87091c34998fa7b",
+    "leads/dl-cabeleireiros/screenshots/site-desktop-full.png": "5079572203b199988460a80cd622793bcde4c744fdd5b221feb2ad12d9ce99c7",
+    "leads/dl-cabeleireiros/screenshots/site-mobile.png": "a46eb492718d374d7e69c88857c099cfdbe27090aa59219f22163889a3205feb",
+    "leads/dl-cabeleireiros/screenshots/site-mobile-full.png": "d7a5cb5b48a7deebe4e9b7563527e6d22f3aea37496c0b6b7fb3b78d42a8e1e7",
+    "reports/baselines/dl-cabeleireiros-before-evidence-v4/lead/redesign/screenshots/home-desktop.png": "55083712dd1f797e38a370ae9c5a00e5cc8ec68fa2bb63ab84f003a6f30a1e62",
+    "reports/baselines/dl-cabeleireiros-before-evidence-v4/lead/redesign/screenshots/home-desktop-full.png": "b85cca91f22318d3d722e42ed6729a7f5beed24d99b077743cb5ee5aec2aac7f",
+    "reports/baselines/dl-cabeleireiros-before-evidence-v4/lead/redesign/screenshots/home-mobile.png": "317fad96300483b43fa2b6b1ee2c421d6e1cb6434da89a2272975e069f3f67d5",
+    "reports/baselines/dl-cabeleireiros-before-evidence-v4/lead/redesign/screenshots/home-mobile-full.png": "a7f394200341d99003d35fbc859ede8bca5159adceed21e4774ff6a49692466f",
+    "reports/dl-reexecution/original-desktop-full-slow.png": "36ae32200b3677bf2d63f989354e72c78154de6241810da99103262a22046bd5",
+    "reports/dl-reexecution/original-mobile-full-slow.png": "bc9b62bcbc2d229df23e35737a26e595ee1e64140a129d1cd401439801159b8b",
+    "leads/delta-pan/redesign/screenshots/home-desktop.png": "7a1bc6b79ca2a72dab38033312daad5b8f42d2d98076d76fe833ac48ef7f8eed",
+    "leads/delta-pan/redesign/screenshots/home-mobile.png": "e7c378cea690fd24bda5c3b4f71e5034c473d05f69b84c37895284e48b396077",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png": "12894338af2f52af358cb15c269a4eae987b5a6c07e0a1d788a63cf7587bb663",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png": "087cb9aa5fcd7cdd595c070c265075e3ec4cda16216a42863f0ad84ebad7f453",
+    "reports/dl-reexecution/reference-architecture.png": "452d771a513c241dc51777af8bbd1db88155788656da516745c877d241d454bf",
+    "reports/dl-reexecution/reference-museum.png": "75f07421904959e99277e248ea185a65ab7b4507e321c8c503baa4c2d53bd075",
+    "reports/dl-reexecution/reference-barber.png": "ad77a1a13858389175af94a8ee43648cea6a602e1db9c4c0ea3b05fc4180da10"
+  },
+  "observations": [
+    {
+      "criterion": "hero",
+      "finding": "Foto específica do salão, CTA e marca presentes nos dois tamanhos. Original já tinha logo, mensagem e CTA; melhora é especificidade, leitura estável e remoção do resíduo de embed.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png",
+        "leads/dl-cabeleireiros/screenshots/site-desktop.png",
+        "leads/dl-cabeleireiros/screenshots/site-mobile.png"
+      ]
+    },
+    {
+      "criterion": "identity",
+      "finding": "Monograma autêntico e verde inferido explicitamente das cadeiras mantêm relação com ambiente. Verde não é declarado cor oficial; não há credencial inventada.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png"
+      ]
+    },
+    {
+      "criterion": "composition",
+      "finding": "Menu compacto, retratos desencontrados e fechamento verde variam a composição. Mobile tem 3540px contra 10945px da versão anterior, mantendo os 12 serviços; altura isolada não prova qualidade.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png",
+        "reports/baselines/dl-cabeleireiros-before-evidence-v4/lead/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "imagery",
+      "finding": "Interior preservado na dobra mobile. Miniaturas recortadas ao centro retiram barras laterais, com legendas neutras; resolução limita nitidez. Nenhuma foto prova nome, unidade ou procedimento.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png",
+        "reports/baselines/dl-cabeleireiros-before-evidence-v4/lead/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "legibility",
+      "finding": "Headline, serviços e contatos legíveis, sem corte lateral. WhatsApp fixo toca parte do título de serviços no fim da dobra mobile; problema leve sem bloquear hero ou contatos.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "personalization",
+      "finding": "Duas unidades, 12 serviços próprios, monograma e ambiente determinam conteúdo e arquitetura. Não conserva formulário B2B ou métricas industriais dos comparadores; cabeçalho e rodapé seguem reutilizáveis.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "leads/delta-pan/redesign/screenshots/home-desktop.png",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "artDirection",
+      "finding": "Conceito materializa conforto com foto e serifa; alternativas consideraram assets e unidades. Architecture e Museum têm benefício visível; barber51 é influência parcial da hierarquia comum.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "reports/dl-reexecution/reference-architecture.png",
+        "reports/dl-reexecution/reference-museum.png",
+        "reports/dl-reexecution/reference-barber.png"
+      ]
+    },
+    {
+      "criterion": "factualContent",
+      "finding": "Todo inventário foi confrontado com fatos e assets liberados: 12 serviços, fundadores documentados, contatos e horários distintos. Nenhuma nota Google, novo serviço ou procedimento foi inferido de fotos.",
+      "evidencePaths": [
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png",
+        "reports/dl-reexecution/original-desktop-full-slow.png"
+      ]
+    }
+  ],
+  "regressions": [],
+  "limitations": [
+    "Auditor real /root/independent_dl_review, Codex, distinto de codex-dl-builder. Exceção autorizada neste teste; configuração central Gemini preservada.",
+    "21 capturas efetivamente abertas: quatro originais, quatro novas, quatro anteriores, quatro comparadores, duas recapturas lentas e três referências. Quatro assets utilizados também abertos.",
+    "Vazios dos originais rápidos decorrem de animações; recapturas lentas mostram serviços e Quem Somos. Galeria de vídeos/mapas externos limitada, sem penalização estética por esses vazios.",
+    "Vídeo original varia entre frames. Comparação não demonstra conversão ou receita.",
+    "Delta tem apenas captura da primeira dobra; ordem/grids inferiores analisados pela configuração, com inferência sinalizada.",
+    "Miniaturas 480×360 com faixa central estreita ficam suaves quando ampliadas; não equivalem a fotografias de alta resolução.",
+    "Flutuante encobre levemente trecho do título de serviços no mobile; navegação superior é ocultada, mas Agendar e Serviços permanecem acessíveis.",
+    "Conflitos operacionais resolvidos documentalmente, sem confirmar por telefone. Agendar abre conversa, não reserva. Sem publicação, Comercial ou envio.",
+    "Um lead real e fixtures de cinco nichos não comprovam qualidade estética universal: fixtures exercitam contratos, não direção de arte em empresas reais.",
+    "Percentuais percebidos são subjetivos. Os 39% automáticos são heurística incompleta, não verdade objetiva."
+  ],
+  "visualAnalysis": {
+    "inspections": [
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "sha256": "22bf3a4fc45411c371a57665e27095ad32399b23076fc659c8020eca593a9a1e",
+        "regions": [
+          {
+            "x": 73,
+            "y": 16,
+            "width": 1280,
+            "height": 85,
+            "description": "Monograma dourado sobre verde, nome, três âncoras e Agendar."
+          },
+          {
+            "x": 133,
+            "y": 154,
+            "width": 510,
+            "height": 554,
+            "description": "Foto real em arco: cadeiras verdes, espelhos redondos e madeira legíveis."
+          },
+          {
+            "x": 730,
+            "y": 215,
+            "width": 570,
+            "height": 440,
+            "description": "Headline serifada com itálico, descrição e CTA verde em campo aberto, dentro da dobra."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "sha256": "76712beec7a30044da79fe812d9ca8062e30ddb3725ab1528425a686a749dfec",
+        "regions": [
+          {
+            "x": 133,
+            "y": 154,
+            "width": 1160,
+            "height": 555,
+            "description": "Entrada com foto à esquerda e mensagem à direita."
+          },
+          {
+            "x": 130,
+            "y": 850,
+            "width": 1170,
+            "height": 610,
+            "description": "Cardápio de 12 linhas em duas colunas reduz repetição de cartões."
+          },
+          {
+            "x": 130,
+            "y": 1590,
+            "width": 1170,
+            "height": 565,
+            "description": "Apresentação breve e retratos verticais desencontrados com legendas neutras."
+          },
+          {
+            "x": 0,
+            "y": 2230,
+            "width": 1425,
+            "height": 690,
+            "description": "Fechamento verde: duas unidades equivalentes com endereço, horário, telefone e WhatsApp."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png",
+        "sha256": "cfb79369889f008ed46852a79a5f7f97f17ba72f15ba2747ef5723e65ce123cd",
+        "regions": [
+          {
+            "x": 20,
+            "y": 15,
+            "width": 350,
+            "height": 205,
+            "description": "Marca e Agendar no topo; headline em duas linhas sem corte lateral."
+          },
+          {
+            "x": 20,
+            "y": 241,
+            "width": 350,
+            "height": 235,
+            "description": "Interior preserva espelhos, cadeiras e legenda."
+          },
+          {
+            "x": 20,
+            "y": 494,
+            "width": 350,
+            "height": 157,
+            "description": "Descrição, CTA de largura útil e Serviços visíveis antes da dobra."
+          },
+          {
+            "x": 20,
+            "y": 735,
+            "width": 350,
+            "height": 109,
+            "description": "Início dos serviços; flutuante toca um trecho do título à direita, ocorrência leve."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png",
+        "sha256": "b5d8c7b23abb2065273bd76e1379cc0ffcf1a196c31e58743417939b0a27ecc6",
+        "regions": [
+          {
+            "x": 20,
+            "y": 15,
+            "width": 350,
+            "height": 680,
+            "description": "Marca, título, foto e CTA integralmente visíveis."
+          },
+          {
+            "x": 20,
+            "y": 738,
+            "width": 350,
+            "height": 1005,
+            "description": "Doze serviços em coluna com expansão nativa."
+          },
+          {
+            "x": 20,
+            "y": 1840,
+            "width": 350,
+            "height": 590,
+            "description": "Institucional e par de fotos; thumbnails limitam nitidez."
+          },
+          {
+            "x": 20,
+            "y": 2530,
+            "width": 350,
+            "height": 900,
+            "description": "Unidades empilhadas com cidades e contatos separados, bom contraste."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-desktop.png",
+        "sha256": "cb37990d5b9040b9fe455ef3729b8cd475a010a39a977694b87091c34998fa7b",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 1265,
+            "height": 640,
+            "description": "Original: logo central e headline branca sobre frame de lavagem de cabelo; CTA contornado e resíduo de embed."
+          },
+          {
+            "x": 0,
+            "y": 680,
+            "width": 1265,
+            "height": 200,
+            "description": "Serviços com título grande e descrição; original já tinha hierarquia reconhecível."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-desktop-full.png",
+        "sha256": "5079572203b199988460a80cd622793bcde4c744fdd5b221feb2ad12d9ce99c7",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 1265,
+            "height": 640,
+            "description": "Original: logo central e headline branca sobre frame de lavagem de cabelo; CTA contornado e resíduo de embed."
+          },
+          {
+            "x": 0,
+            "y": 680,
+            "width": 1265,
+            "height": 200,
+            "description": "Serviços com título grande e descrição; original já tinha hierarquia reconhecível."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-mobile.png",
+        "sha256": "a46eb492718d374d7e69c88857c099cfdbe27090aa59219f22163889a3205feb",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 600,
+            "description": "Original mobile: marca, chamada e CTA sobre vídeo. Texto técnico de embed aparente; entrada não está quebrada."
+          },
+          {
+            "x": 0,
+            "y": 625,
+            "width": 390,
+            "height": 210,
+            "description": "Título de serviços e flutuante. Nas capturas longas rápidas, animações não reveladas limitam análise."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-mobile-full.png",
+        "sha256": "d7a5cb5b48a7deebe4e9b7563527e6d22f3aea37496c0b6b7fb3b78d42a8e1e7",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 600,
+            "description": "Original mobile: marca, chamada e CTA sobre vídeo. Texto técnico de embed aparente; entrada não está quebrada."
+          },
+          {
+            "x": 0,
+            "y": 625,
+            "width": 390,
+            "height": 210,
+            "description": "Título de serviços e flutuante. Nas capturas longas rápidas, animações não reveladas limitam análise."
+          }
+        ]
+      }
+    ],
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "finding": "Foto do ambiente e serifa compõem abertura equilibrada; os cinco papéis integralmente em 1440×900.",
+        "firstFold": {
+          "logo": {
+            "inFirstFold": true,
+            "finding": "Monograma legível sobre verde com nome ao lado. Geometria: {\"x\":80,\"y\":22.5,\"width\":72,\"height\":54}; fração visível 1."
+          },
+          "message": {
+            "inFirstFold": true,
+            "finding": "Chamada serifada curta com estilo em itálico, sem corte. Geometria: {\"x\":739.515625,\"y\":251.453125,\"width\":560.484375,\"height\":177.09375}; fração visível 1."
+          },
+          "cta": {
+            "inFirstFold": true,
+            "finding": "Escolher unidade e agendar conduz a contatos separados. Geometria: {\"x\":739.515625,\"y\":538.546875,\"width\":340,\"height\":60}; fração visível 1."
+          },
+          "identity": {
+            "inFirstFold": true,
+            "finding": "Interior documentado pelo próprio site, sem afirmar unidade. Geometria: {\"x\":140,\"y\":154,\"width\":509.515625,\"height\":554}; fração visível 1."
+          },
+          "photo": {
+            "inFirstFold": true,
+            "finding": "Cadeiras, espelhos e madeira preservados no recorte. Geometria: {\"x\":140,\"y\":154,\"width\":509.515625,\"height\":554}; fração visível 1."
+          }
+        }
+      },
+      {
+        "viewport": "mobile",
+        "finding": "Em 390×844, título/foto/CTA mantém o ambiente concreto. Foto começa em y=241,5; CTA termina em y=610,4.",
+        "firstFold": {
+          "logo": {
+            "inFirstFold": true,
+            "finding": "Monograma legível sobre verde com nome ao lado. Geometria: {\"x\":20,\"y\":15.5,\"width\":60,\"height\":44}; fração visível 1."
+          },
+          "message": {
+            "inFirstFold": true,
+            "finding": "Chamada serifada curta com estilo em itálico, sem corte. Geometria: {\"x\":20,\"y\":128.5,\"width\":340,\"height\":92}; fração visível 1."
+          },
+          "cta": {
+            "inFirstFold": true,
+            "finding": "Escolher unidade e agendar conduz a contatos separados. Geometria: {\"x\":20,\"y\":554.375,\"width\":350,\"height\":56}; fração visível 1."
+          },
+          "identity": {
+            "inFirstFold": true,
+            "finding": "Interior documentado pelo próprio site, sem afirmar unidade. Geometria: {\"x\":20,\"y\":241.5,\"width\":350,\"height\":234}; fração visível 1."
+          },
+          "photo": {
+            "inFirstFold": true,
+            "finding": "Cadeiras, espelhos e madeira preservados no recorte. Geometria: {\"x\":20,\"y\":241.5,\"width\":350,\"height\":234}; fração visível 1."
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "architecture-studio.aura.build",
+        "sectionId": "hero",
+        "status": "applied",
+        "benefit": "Escala serifada, itálico e respiro observados na referência aparecem com Playfair Display no título renderizado. Hierarquia útil ao acolhimento e estilo do salão, sem importar conteúdo arquitetônico."
+      },
+      {
+        "referenceId": "green-museum",
+        "sectionId": "galeria",
+        "status": "applied",
+        "benefit": "Molduras verticais 3:4 e legendas aparecem no par de retratos. Duas colunas ativas em desktop/mobile e desnível entre figuras geram pausa útil entre menu e contatos. Arcos ecoam a referência; thumbnails permanecem pouco nítidos."
+      },
+      {
+        "referenceId": "barbershop-landing-51.aura.build",
+        "sectionId": "servicos",
+        "status": "partial",
+        "benefit": "Nome destacado e descrição curta ajudam a consulta, mas são hierarquia genérica. A referência usa cards com preço/duração; D&L usa linhas expansíveis. Acordeão é solução do Builder e não prova influência visual distintiva integral."
+      }
+    ],
+    "antiClone": [
+      {
+        "slug": "delta-pan",
+        "conclusion": "Não aparenta clone. Split hero e CTA são padrões comuns; conteúdo, material e percurso diferem. Semelhança percebida 20–30%, subjetiva; heurística de 39% em sete dimensões não mede originalidade.",
+        "observations": {
+          "hero": "Delta: texto técnico pesado à esquerda, arte industrial à direita e prova. D&L: ambiente em arco à esquerda e serifa à direita; foto também na dobra mobile.",
+          "order": "D&L: hero, cardápio, apresentação/galeria e unidades. Delta configurada: produtos, sobre, diferenciais, métricas, formulário, CTA; abaixo da primeira dobra, comparação é de código.",
+          "grids": "D&L: menu de duas colunas e dois retratos. Delta: hero e grids de produtos/diferenciais configurados; grids inferiores sem captura nesta revisão.",
+          "rhythm": "D&L alterna foto, menu compacto, pausa e contato. Delta é densa na abertura com título longo e prova; sequência inferior inferida do código.",
+          "images": "Interior e cabelos documentados em D&L; desenho de chapas/equipamento em Delta. Imagens não intercambiáveis.",
+          "backgrounds": "Creme/verde/dourado em D&L; preto azulado pontilhado e laranja em Delta.",
+          "cards": "D&L usa linhas e figuras abertas. Delta envolve arte e prova em caixas escuras arredondadas.",
+          "typography": "D&L: Playfair Display/Inter, normal e itálico. Delta: Plus Jakarta Sans/Inter pesada e detalhe técnico.",
+          "cta": "D&L orienta escolher unidade e agendar em verde. Delta conduz à cotação industrial em laranja."
+        }
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "conclusion": "Não aparenta clone, embora use separadores finos e hierarquia de seções em comum. Semelhança percebida 25–35%, subjetiva; heurística de 39% em oito dimensões não decide estética.",
+        "observations": {
+          "hero": "São Jorge: foto técnica retangular à direita e sans à esquerda. D&L: arco de ambiente à esquerda e serifa à direita; foto antes do CTA no mobile.",
+          "order": "São Jorge: capacidades, história, matérias-primas, portfólio e formulário. D&L: cardápio, apresentação/galeria e duas unidades.",
+          "grids": "São Jorge: tabela técnica, lista de materiais e três fotografias. D&L: acordeões em duas colunas e dois retratos.",
+          "rhythm": "São Jorge alterna superfícies escuras com grande tabela clara. D&L mantém creme até o fechamento verde, menos seções e percurso pessoal.",
+          "images": "Aço, perfis e maquinário em São Jorge; espelhos, cadeiras e cabelos em D&L.",
+          "backgrounds": "Preto/azul/vermelho em São Jorge; creme/verde/dourado em D&L.",
+          "cards": "Ambos moderam caixas, mas São Jorge usa tabela e formulário delimitado; D&L linhas expansíveis e unidades abertas.",
+          "typography": "Sans pesada e rótulos técnicos em São Jorge; serifa normal e itálico com Inter em D&L.",
+          "cta": "São Jorge pede orçamento e medidas; D&L pede escolha da unidade e conversa para agendar."
+        }
+      }
+    ]
+  },
+  "componentClassification": [
+    {
+      "component": "Header01",
+      "action": "adapt",
+      "path": "src/clients/components/dl-cabeleireiros/Header01.astro"
+    },
+    {
+      "component": "SalonHero",
+      "action": "create",
+      "path": "src/clients/components/dl-cabeleireiros/SalonHero.astro"
+    },
+    {
+      "component": "Services01",
+      "action": "adapt",
+      "path": "src/clients/components/dl-cabeleireiros/Services01.astro"
+    },
+    {
+      "component": "Showcase01",
+      "action": "adapt",
+      "path": "src/clients/components/dl-cabeleireiros/Showcase01.astro"
+    },
+    {
+      "component": "SalonUnits",
+      "action": "create",
+      "path": "src/clients/components/dl-cabeleireiros/SalonUnits.astro"
+    },
+    {
+      "component": "Footer01",
+      "action": "keep",
+      "path": "src/components/footer/Footer01.astro"
+    }
+  ],
+  "componentCountPercentages": {
+    "denominator": 6,
+    "keep": 16.67,
+    "adapt": 50,
+    "create": 33.33,
+    "reason": "Contagem de componentes, não linhas de código ou esforço."
+  },
+  "subjectiveEstimates": {
+    "personalizationPercentRange": [
+      75,
+      85
+    ],
+    "deltaPanSimilarityPercentRange": [
+      20,
+      30
+    ],
+    "saoJorgeSimilarityPercentRange": [
+      25,
+      35
+    ],
+    "method": "Estimativas qualitativas, sem fórmula objetiva; limites nas nove dimensões."
+  },
+  "qualitativeScores": {
+    "prospector": {
+      "score": 8.7,
+      "reason": "Unidades, conflitos e contatos separados; 12 serviços preservados. Captura original longa exigiu complemento; validação documental."
+    },
+    "artDirector": {
+      "score": 8.3,
+      "reason": "Alternativas contextuais e escolha pela melhor foto; duas referências úteis, barber51 parcial."
+    },
+    "builder": {
+      "score": 8.5,
+      "reason": "Hero dedicado com foto na dobra mobile, menu e unidades corretos, build/render limpos. Flutuante e thumbnails limitam acabamento."
+    },
+    "personalization": {
+      "score": 8.5,
+      "reason": "Marca, interior, paleta das cadeiras, cardápio e duas unidades determinam solução. Cabeçalho/rodapé e chamada têm partes reutilizáveis."
+    },
+    "visual": {
+      "score": 8.4,
+      "reason": "Boa hierarquia, espaço e ritmo; dobra forte nos dois tamanhos. Material fotográfico, rótulos pequenos e repetição de arcos limitam excelência."
+    },
+    "factuality": {
+      "score": 9.5,
+      "reason": "Todos os textos inventariados ligados a fontes, assets ou função legítima; operação atual não confirmada externamente."
+    },
+    "superiorityToOriginal": {
+      "score": 8.5,
+      "reason": "Foto específica, leitura estável, menu compacto e escolha de unidade melhoram o original; vazios de animação/embeds não foram penalizados."
+    },
+    "superiorityToPrevious": {
+      "score": 8.7,
+      "reason": "Foto passa a caber no mobile, 12 serviços mantidos e legendas sem atribuições indevidas. Composição perde repetição genérica."
+    }
+  },
+  "copyAudit": {
+    "renderedTextRecords": 107,
+    "uniqueStrings": 81,
+    "removedFromPrevious": [
+      "Horários iniciando na terça-feira",
+      "Atribuições de procedimento a miniaturas sem prova",
+      "Agrupamentos que apagavam serviços do cardápio"
+    ],
+    "unsupportedCurrentClaims": []
+  }
+}

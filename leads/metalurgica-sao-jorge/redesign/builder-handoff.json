@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 2,
+  "slug": "metalurgica-sao-jorge",
+  "status": "READY_FOR_DEMO",
+  "generatedAt": "2026-10-06T17:21:24.067Z",
+  "passed": true,
+  "errors": [],
+  "priorities": [
+    "Personalização e adequação ao cliente/ramo",
+    "Primeira dobra e qualidade visual",
+    "Identidade, conteúdo e assets reais",
+    "Fidelidade ao 2A",
+    "Responsividade/build",
+    "Integrações posteriores"
+  ],
+  "implementation": {
+    "planPath": "leads/metalurgica-sao-jorge/redesign/implementation-plan.json",
+    "components": [
+      {
+        "id": "header-main",
+        "action": "adapt",
+        "path": "src/clients/components/metalurgica-sao-jorge/Header01.astro",
+        "reason": "Navegação compacta com logo original, links reais e menu mobile."
+      },
+      {
+        "id": "hero",
+        "action": "adapt",
+        "path": "src/clients/components/metalurgica-sao-jorge/Hero07.astro",
+        "reason": "Fotografia real de maquinário em painel amplo, título editorial e régua de capacidades."
+      },
+      {
+        "id": "servicos",
+        "action": "adapt",
+        "path": "src/clients/components/metalurgica-sao-jorge/Services01.astro",
+        "reason": "Tabela técnica clara com limites reais de dobra e calandragem; duas linhas adicionais para plasma e lambri."
+      },
+      {
+        "id": "empresa",
+        "action": "adapt",
+        "path": "src/clients/components/metalurgica-sao-jorge/About01.astro",
+        "reason": "Bloco editorial de tradição com faixa de 50+ anos e texto factual; sem métricas inventadas."
+      },
+      {
+        "id": "materiais",
+        "action": "create",
+        "path": "src/clients/components/metalurgica-sao-jorge/MaterialsPanel.astro",
+        "reason": "Duas matérias-primas comprovadas em linhas abertas; sem completar grade com produtos inventados."
+      },
+      {
+        "id": "portfolio",
+        "action": "adapt",
+        "path": "src/clients/components/metalurgica-sao-jorge/Showcase01.astro",
+        "reason": "Galeria assimétrica de três fotos selecionadas com legendas descritivas e sem capacidade inferida."
+      },
+      {
+        "id": "contato",
+        "action": "adapt",
+        "path": "src/clients/components/metalurgica-sao-jorge/Contact01.astro",
+        "reason": "Cotação com contexto via WhatsApp, endereço e horário legíveis."
+      },
+      {
+        "id": "footer",
+        "action": "adapt",
+        "path": "src/clients/components/metalurgica-sao-jorge/Footer08.astro",
+        "reason": "Fechamento compacto com marca real e links existentes."
+      }
+    ],
+    "referenceApplications": [
+      {
+        "referenceId": "autonomous-drone-62.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/metalurgica-sao-jorge/Hero07.astro",
+        "codeExcerpt": "class=\"sj-machine-frame\"",
+        "explanation": "Moldura fotográfica com bordas contínuas, marcações de canto e legenda técnica."
+      },
+      {
+        "referenceId": "autonomous-drone-62.aura.build",
+        "sectionId": "portfolio",
+        "codePath": "src/clients/components/metalurgica-sao-jorge/Showcase01.astro",
+        "codeExcerpt": "class=\"sj-photo-id\"",
+        "explanation": "Fotos com etiquetas numéricas e bordas técnicas."
+      },
+      {
+        "referenceId": "aex.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/metalurgica-sao-jorge/Hero07.astro",
+        "codeExcerpt": "class=\"sj-hero-title\"",
+        "explanation": "Título empilhado de grande escala; Inter preservada conforme 2A, fotografia assimétrica adjacente."
+      },
+      {
+        "referenceId": "aex.aura.build",
+        "sectionId": "empresa",
+        "codePath": "src/clients/components/metalurgica-sao-jorge/About01.astro",
+        "codeExcerpt": "class=\"sj-editorial-title\"",
+        "explanation": "Composição editorial com contraste entre texto e numeral de tradição comprovado."
+      },
+      {
+        "referenceId": "axion-ai.aura.build",
+        "sectionId": "servicos",
+        "codePath": "src/clients/components/metalurgica-sao-jorge/Services01.astro",
+        "codeExcerpt": "class=\"sj-capacity-table\"",
+        "explanation": "Painel com rótulos monoespaçados, linhas separadoras e medidas verificadas."
+      },
+      {
+        "referenceId": "axion-ai.aura.build",
+        "sectionId": "materiais",
+        "codePath": "src/clients/components/metalurgica-sao-jorge/MaterialsPanel.astro",
+        "codeExcerpt": "class=\"sj-material-row\"",
+        "explanation": "Dois módulos abertos numerados separados por regras técnicas; apenas os materiais confirmados."
+      }
+    ],
+    "previousFingerprint": {
+      "heroType": "split-grid",
+      "sectionOrder": [
+        "header",
+        "hero",
+        "about",
+        "services",
+        "benefits",
+        "projects",
+        "contact",
+        "cta",
+        "footer"
+      ],
+      "imageStrategy": "section-image",
+      "gridStrategy": [
+        "grid-cols-1",
+        "lg:grid-cols-12",
+        "md:grid-cols-2",
+        "md:grid-cols-3"
+      ],
+      "backgroundTreatment": [
+        "dark",
+        "dots",
+        "continuous"
+      ],
+      "cardTreatment": "rounded-panels",
+      "typography": [
+        "Barlow",
+        "Inter"
+      ],
+      "motion": "shared-parallax",
+      "selectedVariants": [
+        {
+          "variant": "Header01",
+          "file": "src/components/header/Header01.astro",
+          "sha256": "89a3c5af207dab461a87bb11ec99f0fadbe49f36e36766387497e136f3cc4ff4"
+        },
+        {
+          "variant": "Hero07",
+          "file": "src/components/hero/Hero07.astro",
+          "sha256": "7559fe3ff883c6dd253d43a8b4a365233acabafdf51da10786c5c04d2df66a6f"
+        },
+        {
+          "variant": "About01",
+          "file": "src/components/about/About01.astro",
+          "sha256": "0f2279f9f7b72bd5054e13b66059e5228d12334ad240c54dc85122c1caa080d7"
+        },
+        {
+          "variant": "Services01",
+          "file": "src/components/services/Services01.astro",
+          "sha256": "10b4f5e278a6d39747b74c35479dfebb75b40cb056864a187d997ce00074da01"
+        },
+        {
+          "variant": "Features02",
+          "file": "src/components/benefits/Features02.astro",
+          "sha256": "45414ed343cf1405449215577d280ccbb2da1f3dc79103e92def95db662ae9e3"
+        },
+        {
+          "variant": "Showcase01",
+          "file": "src/components/projects/Showcase01.astro",
+          "sha256": "b58aa3bdeaf3c6110e9a8dbfd8b8796e99e94211a010c19b398ee82bffb5fe56"
+        },
+        {
+          "variant": "Contact01",
+          "file": "src/components/contact/Contact01.astro",
+          "sha256": "f71a6d8e4ee25f8b5c89532c25dcee85bc7a5231b642056a96ea3724f70a01d2"
+        },
+        {
+          "variant": "CTA04",
+          "file": "src/components/cta/CTA04.astro",
+          "sha256": "f3139fbae8b3b2319e377e7158f1001ed2c855d935f1a074577ab391eefa9862"
+        },
+        {
+          "variant": "Footer08",
+          "file": "src/components/footer/Footer08.astro",
+          "sha256": "eb5444ed7b52372456d2fb879ed9f41a00421c092bc83db555197b4deed48a8a"
+        }
+      ]
+    },
+    "fingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "header",
+        "hero",
+        "services",
+        "about",
+        "benefits",
+        "projects",
+        "contact",
+        "footer"
+      ],
+      "imageStrategy": [
+        "hero",
+        "projects"
+      ],
+      "gridStrategy": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "backgroundTreatment": [
+        "dark",
+        "none",
+        "dark-light-dark-open-sections"
+      ],
+      "cardTreatment": "technical-rules-open-panels",
+      "typography": [
+        "Inter",
+        "Inter"
+      ],
+      "motion": "local-reduced-motion",
+      "selectedVariants": [
+        {
+          "variant": "Header01",
+          "file": "src/clients/components/metalurgica-sao-jorge/Header01.astro",
+          "sha256": "11558dbb0e3b0de9cb22d35b56067921c9411613563da4bd30342eaedcbbe8a0"
+        },
+        {
+          "variant": "Hero07",
+          "file": "src/clients/components/metalurgica-sao-jorge/Hero07.astro",
+          "sha256": "a2f58033756be509ebe16cd33e5d517b4c6d648c89641e3d3d8be38f929a604f"
+        },
+        {
+          "variant": "Services01",
+          "file": "src/clients/components/metalurgica-sao-jorge/Services01.astro",
+          "sha256": "9cb47cce8da333454bff678d55e03abfc917c5563884cf143ddc18ae4240ee98"
+        },
+        {
+          "variant": "About01",
+          "file": "src/clients/components/metalurgica-sao-jorge/About01.astro",
+          "sha256": "1ba1b2a1ab388191f9a96a5770d8220c38be81127a04abac119319b59bb3a702"
+        },
+        {
+          "variant": "MaterialsPanel",
+          "file": "src/clients/components/metalurgica-sao-jorge/MaterialsPanel.astro",
+          "sha256": "6a5d53fc6ec592f71dadb6ac09e35cc7a29b8b1f01c6d9de3a8e9c5c4ef25d32"
+        },
+        {
+          "variant": "Showcase01",
+          "file": "src/clients/components/metalurgica-sao-jorge/Showcase01.astro",
+          "sha256": "1928be38c1cbb93cb50f93149a6856b8fd49a3d39986741c637f7b00d4fff88b"
+        },
+        {
+          "variant": "Contact01",
+          "file": "src/clients/components/metalurgica-sao-jorge/Contact01.astro",
+          "sha256": "bf07781c137433d07dec8d61846c850159afa9620867beea17c91593c268530a"
+        },
+        {
+          "variant": "Footer08",
+          "file": "src/clients/components/metalurgica-sao-jorge/Footer08.astro",
+          "sha256": "c062dc4cdee7ccd76438feb41f7fd2c77e6d3501349123f19f9ccb5752e92bce"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "slug": "cadas-arquitetura",
+        "method": "Heurística estrutural de nove dimensões; não é nota visual",
+        "structuralSimilarity": 35,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.6666666666666666,
+          "imageStrategy": 0.6666666666666666,
+          "gridStrategy": 0.6,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0,
+          "motion": 0,
+          "selectedVariants": 0
+        },
+        "sharedBaseVariants": [
+          "About01",
+          "Showcase01"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "delta-pan",
+        "method": "Heurística estrutural de nove dimensões; não é nota visual",
+        "structuralSimilarity": 34,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.7777777777777778,
+          "imageStrategy": 0.2,
+          "gridStrategy": 0.4,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "motion": 0,
+          "selectedVariants": 0
+        },
+        "sharedBaseVariants": [
+          "Header01",
+          "Hero07",
+          "Services01",
+          "About01",
+          "Contact01",
+          "Footer08"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "juliana-pippi-arquitetura",
+        "method": "Heurística estrutural de nove dimensões; não é nota visual",
+        "structuralSimilarity": 35,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.6666666666666666,
+          "imageStrategy": 0.4,
+          "gridStrategy": 0.4,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "motion": 0,
+          "selectedVariants": 0
+        },
+        "sharedBaseVariants": [
+          "Header01",
+          "Hero07",
+          "About01",
+          "Contact01",
+          "Footer08"
+        ],
+        "identicalComponentSources": 0
+      }
+    ]
+  },
+  "evidence": {
+    "build": "leads/metalurgica-sao-jorge/redesign/build-evidence.json",
+    "render": "leads/metalurgica-sao-jorge/redesign/render-evidence.json",
+    "visualReview": "leads/metalurgica-sao-jorge/redesign/visual-review.json"
+  },
+  "renderValidation": {
+    "schemaVersion": 1,
+    "kind": "Render Validation",
+    "slug": "metalurgica-sao-jorge",
+    "checkedAt": "2026-10-06T17:21:23.786Z",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "inspected": [
+      {
+        "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "4947f520c1cb373666cfe9ffab3016468401de99d8ade16aa09679e66088cc18"
+      },
+      {
+        "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png",
+        "width": 1440,
+        "height": 4496,
+        "sha256": "12894338af2f52af358cb15c269a4eae987b5a6c07e0a1d788a63cf7587bb663"
+      },
+      {
+        "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "a2ef4e5f6c85e9046f6327671c943d6e2b55728a6fde861010ad6d338612e570"
+      },
+      {
+        "path": "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png",
+        "width": 390,
+        "height": 5969,
+        "sha256": "087cb9aa5fcd7cdd595c070c265075e3ec4cda16216a42863f0ad84ebad7f453"
+      }
+    ],
+    "visualAssessment": "requires_image_review",
+    "visualQualityScore": null,
+    "regressions": null,
+    "limitations": [
+      "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+      "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+    ]
+  },
+  "qualitativeReview": "approved",
+  "removedUnsupportedClaims": [
+    "tolerâncias estreitas / ângulos rigorosos como promessa",
+    "distribuição e expedição para todas as regiões do RS",
+    "furação inferida a partir de foto de peças dobradas",
+    "calandragem/curvatura inferida a partir de foto de perfis",
+    "chapas xadrez/pisos como oferta adicional sem confirmação suficiente nas fontes usadas"
+  ],
+  "reviewedAbsentClaims": [
+    "Usinagem",
+    "Ferramentaria",
+    "Inox",
+    "Bronze",
+    "100% próprio"
+  ],
+  "upstreamCorrections": [
+    {
+      "field": "heroMain",
+      "reason": "O asset 04 é um fundo geométrico, não maquinário. Usar asset 03 inspecionado para cumprir o conceito."
+    },
+    {
+      "field": "clientFactualSummary/services e hero subheadline",
+      "reason": "Resumo contém telefone como serviço e fragmentos de URL como fatos. Usar texto literal do site-atual.md e lead.json."
+    },
+    {
+      "field": "portfolioItemsCount",
+      "reason": "Selecionar três fotos verificadas; quantidade no manifesto inclui vídeo e materiais, não equivale a peças distintas."
+    }
+  ],
+  "productionPending": [
+    "Envio de formulário por backend não contratado; cotação prepara mensagem para WhatsApp.",
+    "Mapa incorporado opcional; disponibilizar link para endereço."
+  ],
+  "limitations": [
+    "O gate verifica rastreabilidade e atualidade; o julgamento estético e factual depende da inspeção registrada pelo agente.",
+    "Prontidão da demonstração não comprova desempenho comercial, produção ou envio ao cliente."
+  ]
+}

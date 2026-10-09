@@ -1,0 +1,106 @@
+---
+import './medical.css';
+interface Props {
+  content?: {
+    title?: string;
+    subtitle?: string;
+  };
+}
+
+const { content = {} } = Astro.props;
+const title = content.title || "Unidades de Atendimento em Curitiba";
+const subtitle = content.subtitle || "Três clínicas estrategicamente localizadas para acolher você com pontualidade e excelência.";
+
+const units = [
+  {
+    name: "Unidade Boqueirão (Matriz)",
+    isPrimary: true,
+    address: "Rua Francisco Derosso, 4567 - Alto Boqueirão",
+    city: "Curitiba - PR",
+    phone: "(41) 3026-1234",
+    highlights: ["Sede principal com 1.800 m²", "Estacionamento próprio", "Responsável: Dr. Fabio Takachi Hase (CRO/PR-9169)"]
+  },
+  {
+    name: "Unidade Sítio Cercado",
+    isPrimary: false,
+    address: "Região Comercial do Sítio Cercado",
+    city: "Curitiba - PR",
+    phone: "(41) 3026-1234",
+    highlights: ["Fundada em 2007", "Estacionamento próprio", "Estrutura completa para ortodontia e implantes"]
+  },
+  {
+    name: "Unidade Centro",
+    isPrimary: false,
+    address: "Região Central de Curitiba",
+    city: "Curitiba - PR",
+    phone: "(41) 3026-1234",
+    highlights: ["Inaugurada em 2008", "Fácil acesso por transporte e vias rápidas", "Consultórios climatizados e modernos"]
+  }
+];
+---
+
+<section id="unidades" class="py-16 sm:py-20 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mb-12">
+      <span class="text-xs font-bold uppercase tracking-widest text-[#104050]">Rede de Clínicas</span>
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#104050] mt-1 tracking-tight">{title}</h2>
+      <p class="text-sm sm:text-base text-slate-600 mt-2">{subtitle}</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {units.map((u) => (
+        <div class={`rounded-2xl border p-6 sm:p-8 bg-white flex flex-col justify-between shadow-sm card-architect-transition ${u.isPrimary ? 'border-[#104050] ring-1 ring-[#104050]/20' : 'border-slate-200'}`}>
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class={`text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded ${u.isPrimary ? 'bg-[#104050] text-white' : 'bg-slate-100 text-slate-700'}`}>
+                {u.isPrimary ? 'Matriz' : 'Unidade'}
+              </span>
+              <span class="text-xs text-slate-500 font-medium">{u.city}</span>
+            </div>
+
+            <h3 class="text-xl font-bold text-[#104050] mb-2">{u.name}</h3>
+            <p class="text-xs sm:text-sm font-medium text-slate-800 mb-4">{u.address}</p>
+
+            <ul class="space-y-2 mb-6 text-xs text-slate-600">
+              {u.highlights.map((h) => (
+                <li class="flex items-start gap-2">
+                  <span class="text-[#104050] font-bold">✓</span>
+                  <span>{h}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span class="text-xs font-bold text-slate-800">{u.phone}</span>
+            <a href="https://api.whatsapp.com/send?phone=5541999076236" class="text-xs font-semibold text-[#104050] hover:text-[#205060]">
+              Agendar nesta unidade →
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Fotografia de Unidade e Acesso -->
+    <div class="mt-10 rounded-2xl overflow-hidden border border-slate-200 bg-white p-4 sm:p-6 grid grid-cols-1 md:grid-cols-12 gap-6 items-center shadow-sm">
+      <div class="md:col-span-4">
+        <figure class="rounded-xl overflow-hidden border border-slate-100 shadow-sm">
+          <img src="/assets/clients/iorc-odontologia/17-Celso-Pilati-0300-768x432.jpg" alt="Unidade IORC" class="w-full h-36 object-cover" width="768" height="432" />
+          <figcaption class="text-[11px] text-slate-500 bg-white p-1.5 text-center">Unidade IORC</figcaption>
+        </figure>
+      </div>
+      <div class="md:col-span-8">
+        <h4 class="text-base font-bold text-[#104050]">Atendimento Centralizado e Suporte ao Paciente</h4>
+        <p class="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
+          Tire dúvidas sobre planos de tratamento, documentação ortodôntica, agendamentos e horários de funcionamento diretamente com nossa equipe de atendimento em Curitiba.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .card-architect-transition-custom {
+    transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;
+  }
+</style>

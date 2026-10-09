@@ -1,0 +1,42 @@
+{
+  "handoffVersion": "3.0-dynamic",
+  "leadSlug": "dl-cabeleireiros",
+  "companyName": "D&L Cabeleireiros",
+  "officialUrl": "https://dlcabeleireiro.com",
+  "niche": "Salão de Beleza",
+  "city": "Palhoça",
+  "state": "SC",
+  "whatsapp": "(48) 9936-0365",
+  "primaryLogoLocal": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+  "primaryHeroImageLocal": null,
+  "primaryFacilityPhotoLocal": null,
+  "filesMap": {
+    "leadJson": "leads/dl-cabeleireiros/lead.json",
+    "siteAtualMd": "leads/dl-cabeleireiros/referencias/site-atual.md",
+    "pagesManifest": "leads/dl-cabeleireiros/referencias/pages-manifest.json",
+    "assetsManifest": "leads/dl-cabeleireiros/referencias/assets-manifest.json",
+    "downloadedSiteHome": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+    "screenshots": {
+      "desktopFull": "leads/dl-cabeleireiros/screenshots/site-desktop-full.png",
+      "mobileFull": "leads/dl-cabeleireiros/screenshots/site-mobile-full.png",
+      "desktopFold": "leads/dl-cabeleireiros/screenshots/site-desktop.png",
+      "mobileFold": "leads/dl-cabeleireiros/screenshots/site-mobile.png",
+      "evidenceForm": null
+    }
+  },
+  "metricsSummary": {
+    "opportunityScore": 9.1,
+    "pagesDiscovered": 8,
+    "pagesDownloaded": 8,
+    "assetsDiscovered": 10,
+    "assetsDownloaded": 10,
+    "sectionsDiscovered": 3
+  },
+  "status": "READY_FOR_ART_DIRECTION",
+  "auditReport": {
+    "passed": true,
+    "timestamp": "2026-10-06T17:59:29.557Z",
+    "checksPassed": 17,
+    "warningsCount": 3
+  }
+}

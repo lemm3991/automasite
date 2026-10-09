@@ -1,0 +1,845 @@
+{
+  "schemaVersion": 1,
+  "auditContractVersion": 2,
+  "slug": "brotto-campelo",
+  "status": "approved",
+  "method": "independent-semantic-review",
+  "reviewedBy": "codex-independent-brotto-review",
+  "reviewedAt": "2026-10-09T19:55:02.485Z",
+  "renderSha256": "f0802e08ba40cbfeeb939cb14ee4b05103fbafb31e63769d80cd2fd85f33b8d9",
+  "sourceReviewSha256": "45a751c0f644b66c19142c0fff902b674126f5e7e0aefa7c05affa4671fa70f3",
+  "assetReviewSha256": "55c8c01f8ef8e1c46fdc8252a2edd04b8ad019c093c1237a7a18807d33e90650",
+  "inventory": {
+    "method": "sha256(selector + newline + text), deduplicated across desktop/mobile",
+    "count": 61
+  },
+  "textReviews": [
+    {
+      "id": "a7aa592216b32adce6e74118fb6d5bae2efbc0c336b9fb15b672715d5753ebe8",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "Áreas de atuação",
+      "kind": "interface",
+      "reason": "Rótulo de navegação/seção; as áreas concretas listadas abaixo foram avaliadas individualmente como serviços factuais.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo de navegação/seção; as áreas concretas listadas abaixo foram avaliadas individualmente como serviços factuais."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "fbed2774da9e0dc53f90896310545667dc200b5f897a2304659e328b1e698cd9",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+      "text": "O escritório",
+      "kind": "interface",
+      "reason": "Rótulo institucional que identifica a seção e o destino da navegação, sem uma promessa de capacidade adicional.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo institucional que identifica a seção e o destino da navegação, sem uma promessa de capacidade adicional."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "5e7d04c6b6f998469b0e3aa97cc6ca552e710c0d11871e9316f2f5cce43006b3",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+      "text": "Fale conosco",
+      "kind": "interface",
+      "reason": "Convite de contato e navegação para a seção de contato; não afirma especialização ou resultados.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Convite de contato e navegação para a seção de contato; não afirma especialização ou resultados."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "54cb57357643fd11834d6f5aa37340d005c7db53afbc3bc047cabeaf4125c894",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "a7b70571d3430ec02af53675542bf5f56d7da42e328f0dc16269196b315031b9",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Brotto Campelo Advogados",
+      "kind": "factual",
+      "reason": "Nome institucional literal presente na fonte revisada company-name e reconhecível no logotipo renderizado.",
+      "claimAssessment": {
+        "type": "identity",
+        "reason": "Nome institucional literal presente na fonte revisada company-name e reconhecível no logotipo renderizado."
+      },
+      "factIds": [
+        "company-name"
+      ]
+    },
+    {
+      "id": "f2f02221ae929267c2253cfc0f231bda6dc6414ed22f5ccbf17ab8a408d6b521",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+      "text": "Soluções jurídicas inovadoras",
+      "kind": "factual",
+      "reason": "Mensagem de identidade reproduzida literalmente do hero original, liberada em tagline-hero; não foi criada uma nova promessa técnica.",
+      "claimAssessment": {
+        "type": "identity",
+        "reason": "Mensagem de identidade reproduzida literalmente do hero original, liberada em tagline-hero; não foi criada uma nova promessa técnica."
+      },
+      "factIds": [
+        "tagline-hero"
+      ]
+    },
+    {
+      "id": "bcd59de21c0d7ad627979c7debbd035f060cad0611f403c16ccee325dfdb1b5e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+      "text": "Natália Brotto e Ricardo Campelo — Sócios-fundadores",
+      "kind": "visual",
+      "reason": "Legenda exata aprovada para o retrato conjunto. Além da correspondência visual, page-18 identifica Natália como sócia-fundadora e page-20 identifica Ricardo como sócio-fundador.",
+      "claimAssessment": {
+        "type": "identity",
+        "reason": "Legenda exata aprovada para o retrato conjunto. Além da correspondência visual, page-18 identifica Natália como sócia-fundadora e page-20 identifica Ricardo como sócio-fundador."
+      },
+      "assetPath": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg"
+    },
+    {
+      "id": "7647bb119ee88efefa5d4df07e62f358acaba969a07d33e40923535bf14a8557",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Forte atuação em Direito Empresarial e Imobiliário.",
+      "kind": "factual",
+      "reason": "Alegação de especialização conferida no parágrafo institucional; corresponde ao trecho normalizado do fato com forte atuação em Direito Empresarial e Imobiliário.",
+      "claimAssessment": {
+        "type": "specialization",
+        "reason": "Alegação de especialização conferida no parágrafo institucional; corresponde ao trecho normalizado do fato com forte atuação em Direito Empresarial e Imobiliário."
+      },
+      "factIds": [
+        "positioning-empresarial-imobiliario"
+      ]
+    },
+    {
+      "id": "d805746bdebb1daa924cfd0af9a813dad40c7fc5f0eadaf8bdaaa5c412ad6bed",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "text": "Falar com a equipe",
+      "kind": "interface",
+      "reason": "Ação de contato com a equipe, sem acrescentar qualificação profissional ou promessa de atendimento que precisasse de nova fonte.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Ação de contato com a equipe, sem acrescentar qualificação profissional ou promessa de atendimento que precisasse de nova fonte."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "fed3feb1a1f2a316c081c12a05a5f20766e66cd17021cca5c9979692623440a7",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "d96e7ffb437fe801e725f824a3bd83cc6ee98ce23949ab541ee5eab151a105d5",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "text": "Conheça nossas áreas",
+      "kind": "interface",
+      "reason": "Convite que leva ao diretório de áreas já documentadas; as alegações de serviço estão nos itens avaliados separadamente.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Convite que leva ao diretório de áreas já documentadas; as alegações de serviço estão nos itens avaliados separadamente."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "1a31c27382197e2687dd61ca2c154801fcfb4bbc0a0102e274400c7823c3d746",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "↓",
+      "kind": "interface",
+      "reason": "Indicador gráfico de deslocamento para conteúdo abaixo; não representa uma alegação verificável.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Indicador gráfico de deslocamento para conteúdo abaixo; não representa uma alegação verificável."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "a1472c5c7daa458101ab5f6ce062a3dfe62dbd2454e6299a6ee952557702ccca",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "O escritório",
+      "kind": "interface",
+      "reason": "Rótulo institucional que identifica a seção e o destino da navegação, sem uma promessa de capacidade adicional.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo institucional que identifica a seção e o destino da navegação, sem uma promessa de capacidade adicional."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "5e40a3d5b9208f36f9451aa082c55a4f8ee878ec9785e1d9bd99da1101f22d14",
+      "selector": "#bca-awards-heading",
+      "text": "Reconhecimentos e menções",
+      "kind": "interface",
+      "reason": "Título da seção de credenciais; os reconhecimentos e respectivos anos são avaliados separadamente contra fontes e selos.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Título da seção de credenciais; os reconhecimentos e respectivos anos são avaliados separadamente contra fontes e selos."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "e257c4675fe81d511ad05f755545a27239ac3f4f24ef80e516f4530484abbf35",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "text": "Escritórios mais admirados do Brasil",
+      "kind": "factual",
+      "reason": "Categoria de reconhecimento reproduzida do texto original, com diferença apenas de capitalização, ligada aos anos logo abaixo.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Categoria de reconhecimento reproduzida do texto original, com diferença apenas de capitalização, ligada aos anos logo abaixo."
+      },
+      "factIds": [
+        "award-national-label"
+      ]
+    },
+    {
+      "id": "4712dcb0192353814aba2e57c0e3e92732dd58eef3e7640ee718fafa4de8374c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > small:nth-of-type(1)",
+      "text": "2021, 2022, 2023/2024, 2025 e 2026.",
+      "kind": "factual",
+      "reason": "Sequência literal dos anos de reconhecimento nacional, conferida na fonte e apresentada junto da categoria correta.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Sequência literal dos anos de reconhecimento nacional, conferida na fonte e apresentada junto da categoria correta."
+      },
+      "factIds": [
+        "award-national-years"
+      ]
+    },
+    {
+      "id": "b913fe3111a0197a52c88e7b6369cda389c4815b6e2c1d56a4ba919057844478",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+      "text": "Escritórios mais admirados da Região Sul",
+      "kind": "factual",
+      "reason": "Categoria regional literal do site original; não foi confundida com o reconhecimento nacional ao lado.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Categoria regional literal do site original; não foi confundida com o reconhecimento nacional ao lado."
+      },
+      "factIds": [
+        "award-regional-label"
+      ]
+    },
+    {
+      "id": "44fc518e51b2a2c04bf84b9f1c292422f0630aa9977b815bd9fbfd2786ea31cf",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > small:nth-of-type(2)",
+      "text": "2022, 2023, 2024, 2025 e 2026.",
+      "kind": "factual",
+      "reason": "Anos literais de reconhecimento regional no source-review e na seção correspondente da fonte original.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Anos literais de reconhecimento regional no source-review e na seção correspondente da fonte original."
+      },
+      "factIds": [
+        "award-regional-years"
+      ]
+    },
+    {
+      "id": "e06d4960037a6a24f4121ba7a63e97a752fadfc2c7888f56d883ef55786a3430",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+      "text": "Análise Advocacia 2026",
+      "kind": "visual",
+      "reason": "Legenda permitida do selo vermelho 2026, observado junto ao nome do escritório; o ano e o selo correspondem.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Legenda permitida do selo vermelho 2026, observado junto ao nome do escritório; o ano e o selo correspondem."
+      },
+      "assetPath": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png"
+    },
+    {
+      "id": "60ed857abd88f544940caad8d825538afd48ee9eb74b2fa40e54b1c50fe2be85",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption:nth-of-type(1)",
+      "text": "Análise Advocacia 2025",
+      "kind": "visual",
+      "reason": "Legenda permitida do selo azul 2025; imagem, ano e contexto de reconhecimento são coerentes.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Legenda permitida do selo azul 2025; imagem, ano e contexto de reconhecimento são coerentes."
+      },
+      "assetPath": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png"
+    },
+    {
+      "id": "c04bda22255ca7bc29f71affe11cfd6a030662a6780125d994766e185e3ca03f",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption:nth-of-type(1)",
+      "text": "Análise Regional 2024",
+      "kind": "visual",
+      "reason": "Legenda permitida do selo verde regional 2024; preserva a distinção de categoria em relação aos selos nacionais.",
+      "claimAssessment": {
+        "type": "credential",
+        "reason": "Legenda permitida do selo verde regional 2024; preserva a distinção de categoria em relação aos selos nacionais."
+      },
+      "assetPath": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg"
+    },
+    {
+      "id": "e1277d545727ec59dc337421cb062887d733cd6c4f7e666786a413e82350d366",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Áreas de atuação",
+      "kind": "interface",
+      "reason": "Rótulo de navegação/seção; as áreas concretas listadas abaixo foram avaliadas individualmente como serviços factuais.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo de navegação/seção; as áreas concretas listadas abaixo foram avaliadas individualmente como serviços factuais."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "b1f4e25cd8e82b4f8576d769f202ab05f58c5062b2c49fe17c6f9cc77562a228",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Direito e negócios,",
+      "kind": "editorial",
+      "reason": "Fragmento de título editorial completado por em perspectiva; não promete um serviço ou capacidade além da lista factual que apresenta.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Fragmento de título editorial completado por em perspectiva; não promete um serviço ou capacidade além da lista factual que apresenta."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "33a20a44ae97feed2eca1870afd07e7e7439e95524e87cc6cb73384cd75e0f81",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "em perspectiva.",
+      "kind": "editorial",
+      "reason": "Continuação metafórica do título Direito e negócios; não contém resultado, credencial ou capacidade verificável.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Continuação metafórica do título Direito e negócios; não contém resultado, credencial ou capacidade verificável."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "86e76960c6c266d53949c96a2f6d3ae621e50d5af32b4dd0639251605a41254e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Explore cada área no site do escritório.",
+      "kind": "interface",
+      "reason": "Orientação para os links das áreas de atuação, cujos destinos pertencem ao site original e foram encontrados nas fontes locais.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Orientação para os links das áreas de atuação, cujos destinos pertencem ao site original e foram encontrados nas fontes locais."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "da86a1c815c15b66d9b3c03e8011638aba6458013b6f7f61c2b69a53054e4bea",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Direito Imobiliário Aplicado – Imobiliárias",
+      "kind": "factual",
+      "reason": "Serviço literal recuperado do diretório original; o segmento imobiliárias está explicitamente documentado.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Serviço literal recuperado do diretório original; o segmento imobiliárias está explicitamente documentado."
+      },
+      "factIds": [
+        "service-imobiliarias"
+      ]
+    },
+    {
+      "id": "a805a523be2443302cdd3329c74ccd94856b0a4d5ebd27d5415e800e1465fc0a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Direito Imobiliário Aplicado – Construtoras e Incorporadoras",
+      "kind": "factual",
+      "reason": "Serviço e segmentos construtoras e incorporadoras reproduzidos da fonte, sem inferir capacidade adicional.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Serviço e segmentos construtoras e incorporadoras reproduzidos da fonte, sem inferir capacidade adicional."
+      },
+      "factIds": [
+        "service-construtoras"
+      ]
+    },
+    {
+      "id": "df481029393e3b7e40510fa4acb63247402667e6771d45cd3f08bd8b24706ae3",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(3) > span:nth-of-type(1)",
+      "text": "Direito Imobiliário Aplicado ao Direito Público",
+      "kind": "factual",
+      "reason": "Área literal documentada no menu original, com página de destino correspondente no inventário da fonte.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Área literal documentada no menu original, com página de destino correspondente no inventário da fonte."
+      },
+      "factIds": [
+        "service-imobiliario-publico"
+      ]
+    },
+    {
+      "id": "2257b62a7311d1312777addc44cb80e94bedd35f1e743931265082d5a4e206cf",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(4) > span:nth-of-type(1)",
+      "text": "Registral e Notarial",
+      "kind": "factual",
+      "reason": "Nome literal da área na lista principal original; a variante Notorial no menu não foi propagada à página nova.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Nome literal da área na lista principal original; a variante Notorial no menu não foi propagada à página nova."
+      },
+      "factIds": [
+        "service-registral"
+      ]
+    },
+    {
+      "id": "8787f0c71911b6cbee796a27ceb601c6f182129da3d8bf9009dc9656e62c346f",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Direito Empresarial",
+      "kind": "factual",
+      "reason": "Área de atuação literal e verificável na navegação e na lista de serviços originais.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Área de atuação literal e verificável na navegação e na lista de serviços originais."
+      },
+      "factIds": [
+        "service-empresarial"
+      ]
+    },
+    {
+      "id": "4b37012ebfb68eb8e437f0b87f5ac07dc9536c9c96af7ebb429cc1f952ca4431",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "Planejamento Patrimonial e Sucessões",
+      "kind": "factual",
+      "reason": "Nome literal da área documentada; não acrescenta subserviços ou públicos presumidos.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Nome literal da área documentada; não acrescenta subserviços ou públicos presumidos."
+      },
+      "factIds": [
+        "service-planejamento"
+      ]
+    },
+    {
+      "id": "427b87dc9526e509be6b53360f74c181ecdd634ea4c072a91f6d5cf548a1fcac",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(3) > span:nth-of-type(1)",
+      "text": "Direito do Trabalho",
+      "kind": "factual",
+      "reason": "Nome literal da área documentada no menu original e na respectiva página coletada.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Nome literal da área documentada no menu original e na respectiva página coletada."
+      },
+      "factIds": [
+        "service-trabalho"
+      ]
+    },
+    {
+      "id": "1f27eb6a2e60e16e5d088bdbaa3d69cf2349b20712871bebb79e33083723a79e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(4) > span:nth-of-type(1)",
+      "text": "Propriedade Intelectual",
+      "kind": "factual",
+      "reason": "Nome literal do serviço em source-review, compatível com o link coletado no site original.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Nome literal do serviço em source-review, compatível com o link coletado no site original."
+      },
+      "factIds": [
+        "service-propriedade-intelectual"
+      ]
+    },
+    {
+      "id": "40aef3e83d3c4d60ff7e7cd50dc6b9fde863d39b42832a2bf1ceacb605b61120",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(5) > span:nth-of-type(1)",
+      "text": "LGPD, Privacidade e Proteção de Dados",
+      "kind": "factual",
+      "reason": "Área literal do escritório, conferida como serviço factual; não tratada como simples copy editorial.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Área literal do escritório, conferida como serviço factual; não tratada como simples copy editorial."
+      },
+      "factIds": [
+        "service-lgpd"
+      ]
+    },
+    {
+      "id": "a931d242c31f875da14616f125234c251d5f78a29e3dbc5e0704d94c500710a2",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(6) > span:nth-of-type(1)",
+      "text": "Direito Digital",
+      "kind": "factual",
+      "reason": "Área literal existente nas fontes; o texto atual não menciona contratos de SaaS ou inteligência artificial.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Área literal existente nas fontes; o texto atual não menciona contratos de SaaS ou inteligência artificial."
+      },
+      "factIds": [
+        "service-direito-digital"
+      ]
+    },
+    {
+      "id": "d6e004b24385b121db32f616b80518d9775b608d26f4f0c9aac3bf4f4833e506",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(7) > span:nth-of-type(1)",
+      "text": "Agronegócio",
+      "kind": "factual",
+      "reason": "Área literal presente na navegação original; a página nova não acrescenta operações de crédito rural ou CPR.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Área literal presente na navegação original; a página nova não acrescenta operações de crédito rural ou CPR."
+      },
+      "factIds": [
+        "service-agronegocio"
+      ]
+    },
+    {
+      "id": "9add228477f13ee2b73d6f897daab30b4054404c589ef8c95946f576c3d893b1",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > a:nth-of-type(8) > span:nth-of-type(1)",
+      "text": "Assessoria em Leilões",
+      "kind": "factual",
+      "reason": "Serviço literal documentado no site original e vinculado ao caminho de página correspondente.",
+      "claimAssessment": {
+        "type": "service",
+        "reason": "Serviço literal documentado no site original e vinculado ao caminho de página correspondente."
+      },
+      "factIds": [
+        "service-leiloes"
+      ]
+    },
+    {
+      "id": "fb60771658418e577862b47cdb08a35c574dd2cdc0b7ca7871231209e18f0e7b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "O escritório",
+      "kind": "interface",
+      "reason": "Rótulo institucional que identifica a seção e o destino da navegação, sem uma promessa de capacidade adicional.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo institucional que identifica a seção e o destino da navegação, sem uma promessa de capacidade adicional."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "656807a013ac73b799a4f5ffa02dd902eed1f0bdf3ad0f19570c9887a21b40fd",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "O que orienta nossa atuação.",
+      "kind": "interface",
+      "reason": "Título que introduz os princípios institucionais abaixo; cada princípio e sua descrição recebe avaliação factual própria.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Título que introduz os princípios institucionais abaixo; cada princípio e sua descrição recebe avaliação factual própria."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "7096930b0ff79fa3135130c5a33b742f83879ef0de1ddac1efaa46e86cc85406",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Inovação e visão para além dos riscos",
+      "kind": "factual",
+      "reason": "Pilar institucional literal da fonte original, mantido como posicionamento do escritório.",
+      "claimAssessment": {
+        "type": "identity",
+        "reason": "Pilar institucional literal da fonte original, mantido como posicionamento do escritório."
+      },
+      "factIds": [
+        "pillar-inovacao"
+      ]
+    },
+    {
+      "id": "ce7c20bb3174f62bfcac99fa5e98a57505d302a6d34a6190c01d401d403a5a4e",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "DNA inovador que orienta o escritório a explorar possibilidades além dos riscos convencionais, abrindo caminho para novos negócios e parcerias transformadoras.",
+      "kind": "factual",
+      "reason": "Alegação de postura e capacidade institucional conservada literalmente da fonte; não aprovada por ser linguagem promocional.",
+      "claimAssessment": {
+        "type": "capability",
+        "reason": "Alegação de postura e capacidade institucional conservada literalmente da fonte; não aprovada por ser linguagem promocional."
+      },
+      "factIds": [
+        "pillar-inovacao-copy"
+      ]
+    },
+    {
+      "id": "f10d8be549c66fdf3853692a2b7568b740327e9e60df36432c478479f20e5a1a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > h3:nth-of-type(1)",
+      "text": "Abordagem personalizada",
+      "kind": "factual",
+      "reason": "Afirmação de abordagem de atendimento explicitamente presente no título do pilar original.",
+      "claimAssessment": {
+        "type": "capability",
+        "reason": "Afirmação de abordagem de atendimento explicitamente presente no título do pilar original."
+      },
+      "factIds": [
+        "pillar-abordagem"
+      ]
+    },
+    {
+      "id": "3a2c0c745235d71c46b87d892dda7ab78a7be8f660802d46c0769f81d401b613",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Compromisso com o atendimento personalizado, estreitando a relação cliente-advogado através de uma advocacia baseada na confiança, proximidade e compreensão das necessidades individuais dos clientes.",
+      "kind": "factual",
+      "reason": "Descrição de atendimento literal no texto de origem; foi revisada como alegação de capacidade, com fonte, e não como copy livre.",
+      "claimAssessment": {
+        "type": "capability",
+        "reason": "Descrição de atendimento literal no texto de origem; foi revisada como alegação de capacidade, com fonte, e não como copy livre."
+      },
+      "factIds": [
+        "pillar-abordagem-copy"
+      ]
+    },
+    {
+      "id": "7bdcc83680a808c12f525b365234aba0520245d86eb5e3ef110f9c6a76cbdecc",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > h3:nth-of-type(1)",
+      "text": "Facilitadores de negócios",
+      "kind": "factual",
+      "reason": "Pilar literal do escritório que comunica atuação na facilitação de negócios; possui fonte explícita.",
+      "claimAssessment": {
+        "type": "capability",
+        "reason": "Pilar literal do escritório que comunica atuação na facilitação de negócios; possui fonte explícita."
+      },
+      "factIds": [
+        "pillar-facilitadores"
+      ]
+    },
+    {
+      "id": "829b9349c3d6df0ce0d3c0b00816c6d506ddb41e3f6a504dc334e64a8f69fe91",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(3) > p:nth-of-type(1)",
+      "text": "Uma atitude proativa em viabilizar negócios e encontrar soluções jurídicas personalizadas.",
+      "kind": "factual",
+      "reason": "Trecho normalizado literal da declaração original, encerrado com pontuação; preserva o sentido sem adicionar tipo de contrato ou resultado.",
+      "claimAssessment": {
+        "type": "capability",
+        "reason": "Trecho normalizado literal da declaração original, encerrado com pontuação; preserva o sentido sem adicionar tipo de contrato ou resultado."
+      },
+      "factIds": [
+        "pillar-facilitadores-copy"
+      ]
+    },
+    {
+      "id": "85887fc4fe18bf47db64f7ae33adaa712cf94cbd5131cfcc6b750f1d8c0e8201",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+      "text": "Sede do Brotto Campelo Advogados — Bigorrilho, Curitiba/PR",
+      "kind": "visual",
+      "reason": "Legenda exata aprovada para a fotografia da sede; o endereço ao lado corresponde ao fato address-sede e não acrescenta usos de instalações.",
+      "claimAssessment": {
+        "type": "infrastructure",
+        "reason": "Legenda exata aprovada para a fotografia da sede; o endereço ao lado corresponde ao fato address-sede e não acrescenta usos de instalações."
+      },
+      "assetPath": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg"
+    },
+    {
+      "id": "357439fc512f2be2b5044c9618988cedaad2c978fa327e31e7cd82b411916fa8",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Nossa sede",
+      "kind": "interface",
+      "reason": "Rótulo da seção de localização; a foto tem legenda inspecionada e o endereço recebe validação factual separada.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo da seção de localização; a foto tem legenda inspecionada e o endereço recebe validação factual separada."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "d3f54f1bbf1a0c223ee2931311ab863480d7883c0f980b915793f4d92e2ab93a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Curitiba",
+      "kind": "factual",
+      "reason": "Localidade contida literalmente no endereço verificado da sede; não representa uma nova unidade.",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Localidade contida literalmente no endereço verificado da sede; não representa uma nova unidade."
+      },
+      "factIds": [
+        "address-sede"
+      ]
+    },
+    {
+      "id": "36d8dc05a638b65cc1f730bc114ede51e489b6c395d2b133a2ab0c541dc4a916",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > address:nth-of-type(1)",
+      "text": "Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR",
+      "kind": "factual",
+      "reason": "Endereço literal da sede conferido com o rodapé da página original e com source-review.",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Endereço literal da sede conferido com o rodapé da página original e com source-review."
+      },
+      "factIds": [
+        "address-sede"
+      ]
+    },
+    {
+      "id": "b9be95813dfefec9b7023acee13ec459ec6892ab72fbd1d008143049f177b447",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "Ver localização",
+      "kind": "interface",
+      "reason": "Ação para abrir a localização do endereço documentado, sem afirmar estrutura física adicional.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Ação para abrir a localização do endereço documentado, sem afirmar estrutura física adicional."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "626581b32a1a2bdc0faa6c38fed964b7486ac044f9c0fc34c25f74106e52a27c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "2dc07ce87884fbeaa7d49af0108b3464014ccc6d44af48df7cb54d4192486594",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Contato",
+      "kind": "interface",
+      "reason": "Rótulo para canais de comunicação; email e telefone são revisados como dados factuais próprios.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo para canais de comunicação; email e telefone são revisados como dados factuais próprios."
+      },
+      "editorialScope": "section-label"
+    },
+    {
+      "id": "3f50af2b4aa0911af5eb3a944f7ad97ae4bad830b8ebdcdefb58656f0a451d58",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Vamos conversar?",
+      "kind": "editorial",
+      "reason": "Convite à conversa sem promessa de prazo, resultado, especialização ou qualidade garantida.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Convite à conversa sem promessa de prazo, resultado, especialização ou qualidade garantida."
+      },
+      "editorialScope": "aspirational"
+    },
+    {
+      "id": "a9e2ac518349624955d808ab2e84f529d6a8e4700d0d6261df58f7d2ae53335c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "contato@brottocampelo.adv.br",
+      "kind": "factual",
+      "reason": "Email institucional literal do rodapé original, igual ao dado liberado em email-sede.",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Email institucional literal do rodapé original, igual ao dado liberado em email-sede."
+      },
+      "factIds": [
+        "email-sede"
+      ]
+    },
+    {
+      "id": "d54471d2004dd67f9f14ed8dcd8caa9dc93063adf83706aea23c7d03aa07d0cb",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "text": "Falar pelo WhatsApp",
+      "kind": "interface",
+      "reason": "Rótulo de ação para WhatsApp; o destino 554130268001 foi conferido no link Whatsapp do rodapé original.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Rótulo de ação para WhatsApp; o destino 554130268001 foi conferido no link Whatsapp do rodapé original."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "b71c06d80668f4e2550542a9d11c6f670c41878698133f9b139868f7ffbd4475",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Seta gráfica indica ação ou navegação; não carrega alegação sobre o escritório."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "48a024c78678d99a7b92b307e771ac807b36b239ff10e77ad03ef226c84afb99",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "text": "41 3026-8001",
+      "kind": "factual",
+      "reason": "Número telefônico literal documentado no rodapé original e preservado no link de contato.",
+      "claimAssessment": {
+        "type": "contact",
+        "reason": "Número telefônico literal documentado no rodapé original e preservado no link de contato."
+      },
+      "factIds": [
+        "phone-sede"
+      ]
+    },
+    {
+      "id": "ca2a760f119940c1f6395a08bd88ee33703126044c7bf637e6d94bfff31d09eb",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Brotto Campelo Advogados",
+      "kind": "factual",
+      "reason": "Nome institucional literal presente na fonte revisada company-name e reconhecível no logotipo renderizado.",
+      "claimAssessment": {
+        "type": "identity",
+        "reason": "Nome institucional literal presente na fonte revisada company-name e reconhecível no logotipo renderizado."
+      },
+      "factIds": [
+        "company-name"
+      ]
+    },
+    {
+      "id": "332e42f49115f0c3cd720fbec55fc1be68e080d327e780d19934c4999e6527ad",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "Voltar ao início",
+      "kind": "interface",
+      "reason": "Ação de navegação para o hero da própria página, sem uma alegação sobre a empresa.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Ação de navegação para o hero da própria página, sem uma alegação sobre a empresa."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "28e204dccdd335812e5627dd605866d93f5f2797fc580b48c6e32b4cb526577b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "↑",
+      "kind": "interface",
+      "reason": "Indicador de retorno ao início; elemento gráfico de interface sem conteúdo factual.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Indicador de retorno ao início; elemento gráfico de interface sem conteúdo factual."
+      },
+      "editorialScope": "navigation"
+    },
+    {
+      "id": "1db03bfcde1f96cdeae1fe689824cf6206f4e9555fb101fcd38763a893ad17f9",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Falar no WhatsApp",
+      "kind": "interface",
+      "reason": "Texto auxiliar do contato flutuante; o canal usa o mesmo endereço WhatsApp presente no site original.",
+      "claimAssessment": {
+        "type": "none",
+        "reason": "Texto auxiliar do contato flutuante; o canal usa o mesmo endereço WhatsApp presente no site original."
+      },
+      "editorialScope": "navigation"
+    }
+  ],
+  "additionalSourceChecks": {
+    "foundersEvidence": [
+      {
+        "pageId": "page-18",
+        "url": "https://brottocampelo.adv.br/reforma-tributaria-contrato-poder-publico",
+        "evidence": [
+          {
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Sócia-fundadora do Brotto Campelo Advogados"
+          }
+        ]
+      },
+      {
+        "pageId": "page-20",
+        "url": "https://brottocampelo.adv.br/contratos-de-construcao-faturamento-direto-alerta-carf",
+        "evidence": [
+          {
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "text": "Sócio-fundador do Brotto Campelo Advogados"
+          }
+        ]
+      }
+    ],
+    "whatsapp": [
+      {
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > span:nth-of-type(1) > a:nth-of-type(1)",
+        "text": "Whatsapp",
+        "href": "https://wa.me/554130268001"
+      }
+    ]
+  },
+  "limitations": [
+    "Revisão baseada nas fontes locais coletadas e no inventário renderizado; não é nova verificação pública das premiações nem validação de atendimento no canal externo."
+  ],
+  "unresolved": []
+}

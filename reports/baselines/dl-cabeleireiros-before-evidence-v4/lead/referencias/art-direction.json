@@ -1,0 +1,487 @@
+{
+  "schema_version": 2,
+  "client": "D&L Cabeleireiros",
+  "slug": "dl-cabeleireiros",
+  "status": "READY_FOR_BUILDER",
+  "clientFactualSummary": {
+    "name": "D&L Cabeleireiros",
+    "niche": "Salão de Beleza",
+    "city": "Palhoça",
+    "state": "SC",
+    "address": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+    "phone": "(48) 9936-0365",
+    "whatsapp": "(48) 9936-0365",
+    "email": "",
+    "services": [
+      "CNPJ Identificado: Não divulgado no rodapé [Fonte: site oficial | Rodapé]"
+    ],
+    "commercialRestrictions": [
+      "- \"Cuidados exclusivos para restaurar a saúde e o brilho dos fios.",
+      "Trabalhamos exclusivamente com produtos premium e protocolos avançados, garantindo saúde, beleza e bem-estar em cada atendimento."
+    ],
+    "provenClaims": [],
+    "assetsCount": 10,
+    "assetsByCategory": {
+      "logoCount": 2,
+      "heroCount": 0,
+      "facilityCount": 0,
+      "portfolioCount": 7,
+      "teamCount": 0
+    },
+    "primaryLogoAsset": {
+      "id": "asset-1",
+      "category": "logo",
+      "filename": "01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=250,fit=crop/fGtHu63EZTs5bRGw/d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localRefPath": "referencias/site-baixado/assets/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "dimensions": {
+        "width": 375,
+        "height": 250
+      },
+      "format": "png",
+      "fileSizeBytes": 18414,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    "primaryHeroAsset": null,
+    "primaryFacilityAsset": null,
+    "portfolioAssets": [
+      {
+        "id": "asset-2",
+        "category": "portfolio",
+        "filename": "02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/fGtHu63EZTs5bRGw/d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "localPublicPath": "/assets/clients/dl-cabeleireiros/02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "localRefPath": "referencias/site-baixado/assets/02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "dimensions": {
+          "width": 375,
+          "height": 366
+        },
+        "format": "png",
+        "fileSizeBytes": 19563,
+        "altOriginal": "",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-5",
+        "category": "portfolio",
+        "filename": "05-hqdefault.webp",
+        "originalUrl": "https://i.ytimg.com/vi_webp/8zry3BDTKCo/hqdefault.webp",
+        "localPublicPath": "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+        "localRefPath": "referencias/site-baixado/assets/05-hqdefault.webp",
+        "dimensions": {
+          "width": 480,
+          "height": 360
+        },
+        "format": "webp",
+        "fileSizeBytes": 6676,
+        "altOriginal": "",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-6",
+        "category": "portfolio",
+        "filename": "06-hqdefault.webp",
+        "originalUrl": "https://i.ytimg.com/vi_webp/bA57KCP2mfA/hqdefault.webp",
+        "localPublicPath": "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+        "localRefPath": "referencias/site-baixado/assets/06-hqdefault.webp",
+        "dimensions": {
+          "width": 480,
+          "height": 360
+        },
+        "format": "webp",
+        "fileSizeBytes": 15684,
+        "altOriginal": "",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-7",
+        "category": "portfolio",
+        "filename": "07-hqdefault.webp",
+        "originalUrl": "https://i.ytimg.com/vi_webp/B2o7i_to0AE/hqdefault.webp",
+        "localPublicPath": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+        "localRefPath": "referencias/site-baixado/assets/07-hqdefault.webp",
+        "dimensions": {
+          "width": 480,
+          "height": 360
+        },
+        "format": "webp",
+        "fileSizeBytes": 17476,
+        "altOriginal": "",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-8",
+        "category": "portfolio",
+        "filename": "08-hqdefault.webp",
+        "originalUrl": "https://i.ytimg.com/vi_webp/5zR_QCFg260/hqdefault.webp",
+        "localPublicPath": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+        "localRefPath": "referencias/site-baixado/assets/08-hqdefault.webp",
+        "dimensions": {
+          "width": 480,
+          "height": 360
+        },
+        "format": "webp",
+        "fileSizeBytes": 14890,
+        "altOriginal": "",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-9",
+        "category": "portfolio",
+        "filename": "09-3996980-uhd_2732_1440_25fps.mp4",
+        "originalUrl": "https://videos.pexels.com/video-files/3996980/3996980-uhd_2732_1440_25fps.mp4",
+        "localPublicPath": "/assets/clients/dl-cabeleireiros/09-3996980-uhd_2732_1440_25fps.mp4",
+        "localRefPath": "referencias/site-baixado/assets/09-3996980-uhd_2732_1440_25fps.mp4",
+        "dimensions": {
+          "width": null,
+          "height": null
+        },
+        "format": "mp4",
+        "fileSizeBytes": 37112108,
+        "altOriginal": "Video Institucional",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-10",
+        "category": "portfolio",
+        "filename": "10-10729073-hd_1920_1080_30fps.mp4",
+        "originalUrl": "https://videos.pexels.com/video-files/10729073/10729073-hd_1920_1080_30fps.mp4",
+        "localPublicPath": "/assets/clients/dl-cabeleireiros/10-10729073-hd_1920_1080_30fps.mp4",
+        "localRefPath": "referencias/site-baixado/assets/10-10729073-hd_1920_1080_30fps.mp4",
+        "dimensions": {
+          "width": null,
+          "height": null
+        },
+        "format": "mp4",
+        "fileSizeBytes": 6148737,
+        "altOriginal": "Video Institucional",
+        "downloadStatus": "SUCCESS"
+      }
+    ],
+    "brandColors": {
+      "primary": "#0f172a",
+      "accent": "#dc2626"
+    }
+  },
+  "aesthetic_concept": "D&L Cabeleireiros: Salão de Beleza: Rigor Especializado & Portfólio",
+  "concept_rationale": "Comprova competência técnica através de trabalhos realizados.",
+  "adequacyScore": 84,
+  "rankedAlternatives": [
+    {
+      "id": "dir-especializacao-portfolio",
+      "name": "D&L Cabeleireiros: Salão de Beleza: Rigor Especializado & Portfólio",
+      "angle": "Especializado & Portfólio",
+      "scores": {
+        "identityFit": 90,
+        "assetsFit": 94,
+        "commercialFit": 88,
+        "dsFit": 45,
+        "adequacyScore": 84
+      },
+      "atmosphere": "Técnica, detalhada e focada em resultados demonstrados no portfólio.",
+      "typography": {
+        "heading": "Inter",
+        "body": "Inter",
+        "rationale": "Harmonização entre Inter para títulos de impacto e Inter para legibilidade."
+      },
+      "palette": {
+        "background": "#f8fafc",
+        "primary": "#0f172a",
+        "secondary": "#e2e8f0",
+        "accent": "#dc2626",
+        "text": "#0f172a",
+        "muted": "#64748b"
+      }
+    },
+    {
+      "id": "dir-conversao-agil",
+      "name": "D&L Cabeleireiros: Salão de Beleza: Atendimento Ágil & Conversão Direta",
+      "angle": "Ágil & Conversão",
+      "scores": {
+        "identityFit": 82,
+        "assetsFit": 84,
+        "commercialFit": 92,
+        "dsFit": 45,
+        "adequacyScore": 80
+      },
+      "atmosphere": "Direta, fluida e voltada para atendimento rápido e conveniência do cliente.",
+      "typography": {
+        "heading": "Syncopate",
+        "body": "Manrope",
+        "rationale": "Harmonização entre Syncopate para títulos de impacto e Manrope para legibilidade."
+      },
+      "palette": {
+        "background": "#f8fafc",
+        "primary": "#0f172a",
+        "secondary": "#e2e8f0",
+        "accent": "#dc2626",
+        "text": "#0f172a",
+        "muted": "#64748b"
+      }
+    },
+    {
+      "id": "dir-identidade-autoral",
+      "name": "D&L Cabeleireiros: Salão de Beleza: Autoral & Tradição Sólida",
+      "angle": "Autoral & Institucional",
+      "scores": {
+        "identityFit": 86,
+        "assetsFit": 78,
+        "commercialFit": 86,
+        "dsFit": 53,
+        "adequacyScore": 79
+      },
+      "atmosphere": "Sólida, elegante e acolhedora. Valoriza a trajetória da D&L Cabeleireiros e seu posicionamento diferenciado.",
+      "typography": {
+        "heading": "Bebas Neue",
+        "body": "Inter",
+        "rationale": "Harmonização entre Bebas Neue para títulos de impacto e Inter para legibilidade."
+      },
+      "palette": {
+        "background": "#090d16",
+        "primary": "#0f172a",
+        "secondary": "#1e293b",
+        "accent": "#dc2626",
+        "text": "#f8fafc",
+        "muted": "#94a3b8"
+      }
+    }
+  ],
+  "fingerprint": {
+    "heroType": "Hero Bento Grid com Mostruário de Serviços e Diferenciais",
+    "selectedVariants": [
+      "Header01",
+      "Hero07",
+      "Services01",
+      "Features02",
+      "Showcase01",
+      "Contact01",
+      "CTA04",
+      "Footer08"
+    ],
+    "sectionOrder": [
+      "hero",
+      "servicos",
+      "condicoes-comerciais",
+      "portfolio",
+      "contato",
+      "cta-final",
+      "footer"
+    ],
+    "imageStrategy": "Galeria técnica com itens de portfólio.",
+    "gridStrategy": "Bento grid modular com destaque para diferenciais.",
+    "backgroundTreatment": "light (clean / subtle noise / white space)",
+    "cardTreatment": "Cards informativos com micro-badges.",
+    "typography": "Inter (Headings) / Inter (Body)",
+    "ctaStyle": "whatsapp-direto"
+  },
+  "fingerprintComparisons": [
+    {
+      "lead": "cadas-arquitetura",
+      "overallSimilarity": 4,
+      "sharedVariantsCount": 1,
+      "totalPreviousVariants": 9,
+      "sharedVariantsList": [
+        "Showcase01"
+      ]
+    },
+    {
+      "lead": "delta-pan",
+      "overallSimilarity": 42,
+      "sharedVariantsCount": 7,
+      "totalPreviousVariants": 9,
+      "sharedVariantsList": [
+        "Header01",
+        "Hero07",
+        "Services01",
+        "Features02",
+        "Contact01",
+        "CTA04",
+        "Footer08"
+      ]
+    },
+    {
+      "lead": "juliana-pippi-arquitetura",
+      "overallSimilarity": 33,
+      "sharedVariantsCount": 6,
+      "totalPreviousVariants": 9,
+      "sharedVariantsList": [
+        "Header01",
+        "Hero07",
+        "Features02",
+        "Contact01",
+        "CTA04",
+        "Footer08"
+      ]
+    },
+    {
+      "lead": "metalurgica-sao-jorge",
+      "overallSimilarity": 13,
+      "sharedVariantsCount": 0,
+      "totalPreviousVariants": 0,
+      "sharedVariantsList": []
+    }
+  ],
+  "similarityJustification": "Composição visual inédita e diferenciada (maior similaridade de apenas 42% com o portfólio anterior).",
+  "consulted_design_systems": [
+    "ai-automation-17.aura.build",
+    "parallax-clean"
+  ],
+  "design_system_evaluations": [
+    {
+      "id": "barbershop-landing-51.aura.build",
+      "path": "temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+      "adequacyScore": 53,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Salão de Beleza.",
+      "elementsToUse": [
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "id": "ai-automation-17.aura.build",
+      "path": "temas_claros/ai-automation-17.aura.build/design-system.html",
+      "adequacyScore": 45,
+      "selectionReason": "Padrões visuais (grid multicoluna, colunas responsivas) transferíveis com rigor ao nicho de Salão de Beleza.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "id": "parallax-clean",
+      "path": "temas_claros/parallax-clean/design-system.html",
+      "adequacyScore": 45,
+      "selectionReason": "Padrões visuais (grid multicoluna, colunas responsivas) transferíveis com rigor ao nicho de Salão de Beleza.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    }
+  ],
+  "themeMode": "light",
+  "primaryColor": "#0f172a",
+  "secondaryColor": "#e2e8f0",
+  "accentColor": "#dc2626",
+  "backgroundColor": "#f8fafc",
+  "textColor": "#0f172a",
+  "mutedColor": "#64748b",
+  "headingFont": "Inter",
+  "bodyFont": "Inter",
+  "keyAssetsMapping": {
+    "logo": {
+      "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "evidence": "Logo oficial do cliente (2 arquivos disponíveis)"
+    },
+    "heroMain": {
+      "path": null,
+      "evidence": "Imagem autêntica de cabeçalho identificada nos assets"
+    },
+    "facilityPhoto": {
+      "path": null,
+      "evidence": "Fotografia autêntica das instalações (0 disponíveis)"
+    },
+    "portfolioItemsCount": 7
+  },
+  "heroSpecification": {
+    "desktopLayout": {
+      "structure": "Hero Bento Grid com Mostruário de Serviços e Diferenciais",
+      "leftColumn": {
+        "badge": "Salão de Beleza em Palhoça",
+        "headline": "Excelência e Precisão em Salão de Beleza",
+        "subheadline": "Soluções completas com atendimento direto em Palhoça.",
+        "ctaPrimary": {
+          "text": "Falar no WhatsApp",
+          "action": "https://wa.me/554899360365"
+        }
+      }
+    },
+    "mobileLayout": {
+      "structure": "Pilha vertical otimizada para conversão",
+      "order": [
+        "Badge de Localização",
+        "Headline",
+        "Foto autêntica",
+        "Botão de Ação Direta"
+      ]
+    }
+  },
+  "sectionsBlueprint": [
+    {
+      "order": 1,
+      "id": "hero",
+      "variant": "Hero07",
+      "title": "Hero — Posicionamento de D&L Cabeleireiros",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Salão de Beleza | Assets: sem imagem direta, uso de composição gráfica | Identidade: #dc2626 | Segmento: Salão de Beleza | DS: ai-automation-17.aura.build.",
+      "goal": "Apresentar a proposta de valor e canal de contato em menos de 5 segundos."
+    },
+    {
+      "order": 2,
+      "id": "servicos",
+      "variant": "Services01",
+      "title": "Serviços e Capacidades Oficiais",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: CNPJ Identificado: Não divulgado no rodapé [Fonte: site oficial | Rodapé] | Assets: especificações técnicas | Identidade: clareza analítica | DS: parallax-clean.",
+      "goal": "Expor o escopo exato do que a empresa executa sem prometer serviços não prestados."
+    },
+    {
+      "order": 3,
+      "id": "condicoes-comerciais",
+      "variant": "Features02",
+      "title": "Condições Comerciais & Matérias-Primas",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: - \"Cuidados exclusivos para restaurar a saúde e o brilho dos fios. Trabalhamos exclusivamente com produtos premium e protocolos avançados, garantindo saúde, beleza e bem-estar em cada atendimento. | Assets: cartões de transparência comercial | Identidade: rigor ético | DS: ai-automation-17.aura.build.",
+      "goal": "Evitar leads desqualificados preservando restrições literais do cliente."
+    },
+    {
+      "order": 4,
+      "id": "portfolio",
+      "variant": "Showcase01",
+      "title": "Galeria Real de Peças e Trabalhos",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Amostras executadas pela empresa | Assets: 7 fotos reais de catálogo | Identidade: acabamento técnico | DS: ai-automation-17.aura.build.",
+      "goal": "Exibir a qualidade real das peças executadas pela empresa."
+    },
+    {
+      "order": 5,
+      "id": "contato",
+      "variant": "Contact01",
+      "title": "Canal de Cotação e Atendimento",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Telefone (48) 9936-0365, endereço em Palhoça | Assets: canais verificados | Identidade: prontidão de resposta.",
+      "goal": "Possibilitar envio de solicitação técnica sem atrito."
+    },
+    {
+      "order": 6,
+      "id": "cta-final",
+      "variant": "CTA04",
+      "title": "Chamada para Ação Imediata",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Atendimento direto via WhatsApp (48) 9936-0365 | Identidade: destaque da cor de ação #dc2626.",
+      "goal": "Conversão final com link direto antes do encerramento da página."
+    },
+    {
+      "order": 7,
+      "id": "footer",
+      "variant": "Footer08",
+      "title": "Rodapé Institucional e Legal",
+      "assetPath": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "compositionRationale": "Conteúdo: Endereço completo, horários e dados de identificação | Assets: logotipo oficial | Identidade: encerramento sóbrio.",
+      "goal": "Fixar endereço, dados de contato e canais oficiais."
+    }
+  ]
+}

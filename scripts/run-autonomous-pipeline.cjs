@@ -75,13 +75,13 @@ if (customLeadsFile && fs.existsSync(customLeadsFile)) {
           phone: data.phone || '',
           whatsapp: data.whatsapp || '',
           segment: data.segment || data.niche || targetNicho,
-          business_score: data.scores?.business || 8.5,
-          pagespeed_mobile: data.pagespeed?.mobile_performance || 35,
-          pagespeed_desktop: data.pagespeed?.desktop_performance || 70,
-          original_design: 4.0,
-          original_mobile: 3.5,
-          google_rating: data.business?.googleRating || 4.9,
-          years_active: 10
+          business_score: data.scores?.business ?? null,
+          pagespeed_mobile: data.pagespeed?.mobile_performance ?? null,
+          pagespeed_desktop: data.pagespeed?.desktop_performance ?? null,
+          original_design: data.scores?.design ?? null,
+          original_mobile: data.scores?.mobile ?? null,
+          google_rating: data.business?.googleRating ?? null,
+          years_active: data.business?.yearsActive ?? null
         });
       }
     } catch {}
@@ -124,23 +124,25 @@ for (const cand of candidates) {
   }
 
   if (fs.existsSync(auditScript)) {
-    spawnSync('node', [auditScript, cand.slug], { stdio: 'ignore' });
+    const audit=spawnSync(process.execPath, [auditScript, cand.slug], { stdio: 'inherit' });
+    if (audit.status!==0) { console.log(`[NEEDS_ORIGINAL_IMAGE_REVIEW] ${cand.slug}`); continue; }
   }
 
-  const handoffPath = path.join(leadsDir, cand.slug, 'visual', 'visual-handoff.json');
-  let visualOpp = 65;
+  const handoffPath = path.join(leadsDir, cand.slug, 'visual', 'original-review.json');
+  let visualOpp = null;
   if (fs.existsSync(handoffPath)) {
     try {
       const h = JSON.parse(fs.readFileSync(handoffPath, 'utf8'));
-      if (h.redesignOpportunityScore) visualOpp = h.redesignOpportunityScore;
+      if (Number.isFinite(h.redesignOpportunityScore)) visualOpp = h.redesignOpportunityScore;
     } catch {}
   }
 
   // Sinais do Company Intelligence
-  const bStrength = leadData.intelligence?.businessStrengthScore || Math.round((leadData.scores?.business || cand.business_score || 8.0) * 10);
-  const contactability = leadData.intelligence?.contactabilityScore || 70;
-  const dataConf = leadData.intelligence?.dataConfidenceScore || 80;
-  const prospectorOpp = leadData.scores?.opportunity || 70;
+  const bStrength = leadData.intelligence?.businessStrengthScore ?? (Number.isFinite(leadData.scores?.business) ? leadData.scores.business * 10 : null);
+  const contactability = leadData.intelligence?.contactabilityScore ?? null;
+  const dataConf = leadData.intelligence?.dataConfidenceScore ?? null;
+  const prospectorOpp = Number.isFinite(leadData.scores?.opportunity) ? leadData.scores.opportunity * 10 : null;
+  if (![bStrength, contactability, dataConf, prospectorOpp, visualOpp].every(Number.isFinite)) { console.log(`[NEEDS_EVIDENCE] ${cand.slug}: completar avaliações antes de ranquear`); continue; }
 
   // Fórmula Multidimensional:
   // Negócio forte + Site abaixo do potencial + Fácil de contactar = Alta prioridade comercial
@@ -200,6 +202,10 @@ console.log(`[OK] Dossiês aprofundados salvos em leads/[slug]/research/\n`);
 // 3. Execução dos 5 leads (Geração de Dossiês e Validação)
 console.log(`[ETAPA 3] Processando Dossiês e Validando Requisitos de Handoff...\n`);
 const topSlugs = top5.map(t => t.slug);
+if (!topSlugs.length) {
+  console.log('[NEEDS_AGENT_ACTION] Nenhum candidato tem todas as avaliações verificadas. Completar a etapa pendente antes do handoff.');
+  process.exit(1);
+}
 
 // Executar validador de Handoff
 const validateScript = path.join(rootDir, 'scripts/validate-handoff.ts');
@@ -218,6 +224,7 @@ const valProc = spawnSync(process.execPath, argsValidate, { stdio: 'inherit' });
 
 if (valProc.status !== 0) {
   console.log('\n⚠️ Alguns requisitos de handoff necessitam de atenção nos leads selecionados.');
+  process.exitCode = 1;
 } else {
   console.log('\n🎉 Pipeline executado com sucesso e todos os critérios cumpridos!');
 }

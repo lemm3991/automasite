@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 3,
+  "slug": "brotto-campelo",
+  "createdBy": "codex-brotto-controlled-builder",
+  "createdAt": "2026-10-09T15:43:59.365Z",
+  "contextSha256": "3f7af4f67878bd8c01ca3ee6d422f63e040876812ce8e8b3a11fb60007be91ec",
+  "typography": {
+    "heading": "Playfair Display",
+    "body": "Inter"
+  },
+  "themeMode": "light",
+  "references": [
+    {
+      "id": "luxury-real-estate-22.aura.build",
+      "sourceSha256": "96f618efb572df4e558b8aeb320182ed4409e4ed82bfe902c9365bc2a3f56b86",
+      "observations": [
+        {
+          "excerpt": "scroll-behavior: smooth;",
+          "benefit": "Navegação fluida e transição suave entre a apresentação dos sócios e as especialidades jurídicas.",
+          "factIds": [
+            "service-empresarial",
+            "service-planejamento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architecture-studio.aura.build",
+      "sourceSha256": "8eed37ef6f2d3150a46a0d666d99a3a732aa81b18e3a91bdb3d0716b378e642e",
+      "observations": [
+        {
+          "excerpt": "border-x border-[#C4CFC0]/60",
+          "benefit": "Linhas arquitetônicas sutis de contenção que organizam os reconhecimentos e as credenciais sem caixas pesadas.",
+          "factIds": [
+            "company-name",
+            "tagline-hero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-saas-landing-27.aura.build",
+      "sourceSha256": "5e62c4967033e3e792f586b5a1021b22060a273ce0d6d27deb27815abb608206",
+      "observations": [
+        {
+          "excerpt": "font-family: 'Playfair Display', serif;",
+          "benefit": "Tipografia serifada de alta distinção para conferir nobreza e autoridade jurídica aos títulos principais.",
+          "factIds": [
+            "company-name",
+            "founder-ricardo"
+          ]
+        }
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "boutique-juridica-prestigio",
+      "concept": "Boutique Jurídica de Prestígio & Autoridade Empresarial",
+      "tradeoff": "Privilegia sobriedade institucional e prestígio editorial em detrimento de apelos comerciais agressivos.",
+      "rationale": "Melhor direcionamento para escritório premiado pelo Análise Advocacia com atuação em Direito Empresarial de alto nível.",
+      "clientTriggers": [
+        {
+          "decision": "Destaque para reconhecimentos Análise Advocacia e liderança dos sócios fundadores",
+          "factIds": [
+            "company-name",
+            "founder-ricardo"
+          ]
+        },
+        {
+          "decision": "Estruturação elegante das especialidades em Direito Empresarial, Imobiliário e Sucessório",
+          "factIds": [
+            "service-empresarial",
+            "service-planejamento"
+          ]
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "company-name"
+          ],
+          "reason": "Posicionamento como escritório de referência no Sul do país"
+        },
+        "audience": {
+          "factIds": [
+            "service-empresarial"
+          ],
+          "reason": "Empresas, acionistas e investidores de médio e grande porte"
+        },
+        "services": {
+          "factIds": [
+            "service-empresarial",
+            "service-trabalho"
+          ],
+          "reason": "Atuação jurídica integrada e preventiva"
+        },
+        "identity": {
+          "factIds": [
+            "tagline-hero"
+          ],
+          "reason": "Soluções jurídicas inovadoras com visão estratégica de negócios"
+        },
+        "architecture": {
+          "factIds": [
+            "address-sede"
+          ],
+          "reason": "Sede corporativa própria no Bigorrilho em Curitiba"
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+        "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+        "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg"
+      ],
+      "referenceIds": [
+        "luxury-real-estate-22.aura.build",
+        "architecture-studio.aura.build",
+        "ai-saas-landing-27.aura.build"
+      ],
+      "composition": {
+        "heroType": "split-portrait-editorial",
+        "sectionOrder": "hero-awards-services-leadership-headquarters-cta",
+        "imageStrategy": "founder-portrait-first-mobile",
+        "gridStrategy": "open-practice-directory",
+        "backgroundTreatment": "warm-white-graphite-orange",
+        "cardTreatment": "open-ruled-sections",
+        "typography": "serif-display-sans-body",
+        "motion": "subtle-reveal-reduced-motion",
+        "ctaStyle": "rectangular",
+        "rhythm": "portrait-compact-awards-open-directory"
+      },
+      "assessment": {
+        "identity": {
+          "score": 9.5,
+          "reason": "Perfeita sintonia com o prestígio editorial da advocacia corporativa"
+        },
+        "assets": {
+          "score": 9.3,
+          "reason": "Excelente aproveitamento dos selos Análise e fotos dos fundadores"
+        },
+        "audience": {
+          "score": 9.4,
+          "reason": "Comunica maturidade para tomadores de decisão empresariais"
+        },
+        "references": {
+          "score": 9.3,
+          "reason": "Aplicação harmônica dos 3 sistemas recuperados"
+        }
+      }
+    },
+    {
+      "id": "inovacao-digital-tributaria",
+      "concept": "Hub Jurídico Contemporâneo & Inteligência Estratégica",
+      "tradeoff": "Foca fortemente em inovação, LGPD e direito digital, podendo suavizar a imagem de tradição contenciosa.",
+      "rationale": "Alternativa voltada para empresas de tecnologia e startups com foco em inovação contratual e proteção de dados.",
+      "clientTriggers": [
+        {
+          "decision": "Enfatizar LGPD, Direito Digital e Propriedade Intelectual",
+          "factIds": [
+            "service-lgpd",
+            "service-direito-digital"
+          ]
+        },
+        {
+          "decision": "Apresentar pilares de facilitação de negócios",
+          "factIds": [
+            "pillar-inovacao",
+            "pillar-facilitadores"
+          ]
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "pillar-inovacao"
+          ],
+          "reason": "Visão além dos riscos e apoio à inovação"
+        },
+        "audience": {
+          "factIds": [
+            "service-direito-digital"
+          ],
+          "reason": "Empresas digitais e ecossistema de tecnologia"
+        },
+        "services": {
+          "factIds": [
+            "service-lgpd",
+            "service-propriedade-intelectual"
+          ],
+          "reason": "Conformidade e ativos intangíveis"
+        },
+        "identity": {
+          "factIds": [
+            "tagline-hero"
+          ],
+          "reason": "Foco no aspecto inovador da advocacia"
+        },
+        "architecture": {
+          "factIds": [
+            "address-sede"
+          ],
+          "reason": "Presença física estruturada"
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+        "/assets/clients/brotto-campelo/21-reforma-tributaria-contrato-poder-publico.jpg"
+      ],
+      "referenceIds": [
+        "ai-saas-landing-27.aura.build"
+      ],
+      "composition": {
+        "heroType": "centered-statement",
+        "sectionOrder": "hero-services-pillars-awards-team-cta",
+        "imageStrategy": "thematic-editorial",
+        "gridStrategy": "modern-bento-grid",
+        "backgroundTreatment": "light-slate-tech",
+        "cardTreatment": "bordered-tiles",
+        "typography": "sans-display-bold",
+        "motion": "interactive-fade",
+        "ctaStyle": "pill-accent",
+        "rhythm": "dynamic-compact"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8.4,
+          "reason": "Moderno porém menos focado na tradição dos prêmios"
+        },
+        "assets": {
+          "score": 8.2,
+          "reason": "Depende de imagens temáticas de artigos"
+        },
+        "audience": {
+          "score": 8.5,
+          "reason": "Atrai empresas inovadoras mas menos focado em famílias e sucessões"
+        },
+        "references": {
+          "score": 8.6,
+          "reason": "Utiliza bem os módulos de SaaS"
+        }
+      }
+    },
+    {
+      "id": "agronegocio-patrimonio-sul",
+      "concept": "Consultoria Patrimonial & Agronegócio Regional",
+      "tradeoff": "Centraliza a narrativa em agronegócio e sucessão patrimonial familiar, reduzindo visibilidade de outras áreas.",
+      "rationale": "Alternativa focada em grandes produtores rurais e famílias empresárias do Paraná e Santa Catarina.",
+      "clientTriggers": [
+        {
+          "decision": "Destacar Agronegócio e Planejamento Patrimonial",
+          "factIds": [
+            "service-agronegocio",
+            "service-planejamento"
+          ]
+        },
+        {
+          "decision": "Enfatizar a abordagem personalizada no atendimento aos clientes",
+          "factIds": [
+            "pillar-abordagem",
+            "company-name"
+          ]
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "company-name"
+          ],
+          "reason": "Parceria de longo prazo com famílias empresárias"
+        },
+        "audience": {
+          "factIds": [
+            "service-agronegocio"
+          ],
+          "reason": "Produtores rurais e holdings familiares"
+        },
+        "services": {
+          "factIds": [
+            "service-agronegocio",
+            "service-planejamento"
+          ],
+          "reason": "Proteção patrimonial e sucessória"
+        },
+        "identity": {
+          "factIds": [
+            "pillar-abordagem"
+          ],
+          "reason": "Atendimento consultivo personalizado"
+        },
+        "architecture": {
+          "factIds": [
+            "address-sede"
+          ],
+          "reason": "Sede sólida para reuniões estratégicas"
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg",
+        "/assets/clients/brotto-campelo/14-icone-home-Ricardo-Campelo.png"
+      ],
+      "referenceIds": [
+        "luxury-real-estate-22.aura.build"
+      ],
+      "composition": {
+        "heroType": "editorial-asymmetric",
+        "sectionOrder": "hero-legacy-services-cases-contact",
+        "imageStrategy": "architectural-monochrome",
+        "gridStrategy": "editorial-two-column",
+        "backgroundTreatment": "warm-neutral-cream",
+        "cardTreatment": "soft-framed-cards",
+        "typography": "traditional-serif",
+        "motion": "gentle-scroll",
+        "ctaStyle": "discrete-link",
+        "rhythm": "unhurried-classical"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8.6,
+          "reason": "Sólida para o segmento de agronegócio e patrimônio"
+        },
+        "assets": {
+          "score": 8.1,
+          "reason": "Menor aproveitamento dos selos editoriais de inovação"
+        },
+        "audience": {
+          "score": 8.3,
+          "reason": "Excelente para produtores mas nichada demais"
+        },
+        "references": {
+          "score": 8.4,
+          "reason": "Aproveita a sobriedade imobiliária"
+        }
+      }
+    }
+  ],
+  "chosenId": "boutique-juridica-prestigio",
+  "selectionReason": "Correção controlada da direção já escolhida. Preserva boutique jurídica e seis seções; reforça sócios, laranja/grafite, atuação imobiliária e reconhecimentos reais. AI SaaS contribui parcialmente pela tipografia; Architecture inspira linhas e enquadramento; Luxury foi consultada mas não será apresentada como materializada.",
+  "hero": {
+    "desktop": "Abertura em duas colunas com retrato ampliado, chamada curta e linhas de enquadramento laranja/grafite; navegação textual e CTA sem formato de pílula.",
+    "mobile": "Título, retrato largo dos sócios, mensagem curta e contato prioritário. Legenda fora da foto. Retirar o parágrafo institucional extenso.",
+    "assetPath": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "title": "Abertura Institucional & Liderança Jurídica",
+      "compositionRationale": "Split executivo em duas colunas com contraste nítido, tipografia Playfair Display e retrato dos sócios-fundadores.",
+      "factIds": [
+        "company-name",
+        "tagline-hero",
+        "founder-ricardo"
+      ]
+    },
+    {
+      "id": "awards",
+      "title": "Reconhecimentos & Premiações Análise Advocacia",
+      "compositionRationale": "Faixa compacta com três selos autênticos, histórico nacional/regional e linhas de alinhamento, sem cartões aninhados.",
+      "factIds": [
+        "company-name"
+      ]
+    },
+    {
+      "id": "services",
+      "title": "Áreas de Atuação Estratégica Empresarial",
+      "compositionRationale": "Diretório aberto das 12 áreas documentadas, com atuação imobiliária e registral em destaque e links reais para as páginas originais.",
+      "factIds": [
+        "service-empresarial",
+        "service-trabalho",
+        "service-planejamento",
+        "service-propriedade-intelectual",
+        "service-lgpd",
+        "service-direito-digital",
+        "service-agronegocio",
+        "service-leiloes",
+        "service-imobiliarias",
+        "service-imobiliario-publico",
+        "service-construtoras",
+        "service-registral"
+      ]
+    },
+    {
+      "id": "pillars",
+      "title": "Pilares de Excelência e Facilitação de Negócios",
+      "compositionRationale": "Três princípios originais em colunas abertas sobre grafite, sem cartões fechados.",
+      "factIds": [
+        "pillar-inovacao",
+        "pillar-abordagem",
+        "pillar-facilitadores"
+      ]
+    },
+    {
+      "id": "headquarters",
+      "title": "Sede Corporativa no Bigorrilho",
+      "compositionRationale": "Composição assimétrica destacando a fotografia arquitetônica da sede em Curitiba com informações de localização.",
+      "factIds": [
+        "address-sede",
+        "phone-sede",
+        "email-sede"
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Atendimento & Consulta Jurídica Especializada",
+      "compositionRationale": "Bloco de contato executivo com canais diretos (telefone fixo, e-mail institucional e WhatsApp).",
+      "factIds": [
+        "address-sede",
+        "phone-sede",
+        "email-sede"
+      ]
+    }
+  ],
+  "palette": {
+    "background": {
+      "value": "#f7f4f0",
+      "status": "neutral",
+      "source": "editorial-neutral",
+      "reason": "Neutro quente editorial para acolher o retrato e o laranja; não é cor oficial."
+    },
+    "primary": {
+      "value": "#e15927",
+      "status": "official",
+      "source": "logo",
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+      "reason": "Cor dominante exata medida no logotipo real (36.033 pixels opacos na imagem original)."
+    },
+    "secondary": {
+      "value": "#292929",
+      "status": "neutral",
+      "source": "editorial-neutral",
+      "reason": "Grafite editorial coerente com o original; não declarado oficial."
+    },
+    "accent": {
+      "value": "#a83d19",
+      "status": "inferred",
+      "source": "explicit-visual-inference",
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "sha256": "a6cf2e836242faaf46e90aea72a2a5c963aaf58ed9f68f28a7487218868994c3",
+      "reason": "Variação escurecida do laranja para texto e controles legíveis sobre fundo claro; inferência explícita, não cor oficial."
+    },
+    "text": {
+      "value": "#292929",
+      "status": "neutral",
+      "source": "editorial-neutral",
+      "reason": "Grafite neutro para leitura."
+    },
+    "surface": {
+      "value": "#ffffff",
+      "status": "neutral",
+      "source": "editorial-neutral",
+      "reason": "Branco neutro nas seções de conteúdo."
+    }
+  }
+}

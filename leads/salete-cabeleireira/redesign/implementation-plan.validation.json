@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "slug": "salete-cabeleireira",
+  "phase": "plan",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "planHash": "d8c0f18a191ef5e6fc5f0642d01d2ac2326e8feacc38bb28404337283dcb0fb2",
+  "inputHashes": {
+    "leads/salete-cabeleireira/referencias/creative-brief.md": "0a0b7acbef5b10a2360427a90b9fbf96dc29c52c854de947c6773f986aed9859",
+    "leads/salete-cabeleireira/referencias/art-direction.json": "7dfe9d115f11ff03d5b6ecdc390010ea268d4072354a00b876c6ed062dfa02ed",
+    "leads/salete-cabeleireira/referencias/design-selection.json": "d223a83ef55bc32ace4c8f3a42be124e952d1bbd439578d07a716deca4661743",
+    "leads/salete-cabeleireira/visual/visual-handoff.json": "02f1c787d91365ea7413a0b4bd2749db97779a5abeb36a21cda53b07ba0d63f3",
+    "leads/salete-cabeleireira/referencias/site-atual.md": "580c9ce71775052941098000ecb08d60ecf06251b2fbb40d6a83e043da12851d",
+    "leads/salete-cabeleireira/lead.json": "3e7c5714a0f3ef91ff3ffab4938dd67b5bc0a53ead33f4572b83eedb526f3745",
+    "leads/salete-cabeleireira/referencias/assets-manifest.json": "78d359cb9989535192fc6ba6471a3bd08b40579e406c2eff3c3f024307e99af8",
+    "leads/salete-cabeleireira/referencias/source-evidence.json": "627f7c6e967a0452ba566851ad98b6fc017f52a994de98768927f993a9bcee00",
+    "leads/salete-cabeleireira/referencias/source-review.json": "3ce03819104ffdeb781db7525ec59f2008cea9af744e6f2304a88e02d4ccacfe",
+    "leads/salete-cabeleireira/referencias/asset-review.json": "cb388325ddf2c793e6133b1393785731fca313bc81fc248b7719cb9f31339b2a",
+    "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html": "f9ea2cc867febcf8cbf885bd2f1d7461166f294383607c6870c017476ccbb005",
+    "Design System/temas_claros/luxury-desert-retreat-1.aura.build/luxury-desert-retreat-1.aura.build/design-system.html": "dc108cd47fab1e28a87417fc850b60cd7fdfe999201cefecfc23a8745f78ffdf",
+    "Design System/temas_claros/savory-plate.aura.build/savory-plate.aura.build/design-system.html": "dacd2bce52ff94f783b7a04508bef45ccae4b1999fbdb1b6c6483d38f756ff6f"
+  },
+  "checkedAt": "2026-10-09T21:57:59.578Z",
+  "fingerprint": null,
+  "comparisons": [],
+  "limitations": [
+    "Trechos existentes não comprovam interpretação factual; revisar sentido e imagens.",
+    "Similaridade estrutural não mede qualidade visual."
+  ],
+  "previousFingerprint": {
+    "heroType": "split",
+    "sectionOrder": [
+      "hero",
+      "about",
+      "services",
+      "benefits",
+      "benefits",
+      "contact"
+    ],
+    "imageStrategy": [
+      "hero"
+    ],
+    "gridStrategy": [
+      "1",
+      "12",
+      "2",
+      "3",
+      "4"
+    ],
+    "backgroundTreatment": [
+      "dark",
+      "none",
+      "editorial-noir-rhythm"
+    ],
+    "cardTreatment": "minimal-glass-stroke",
+    "typography": [
+      "Playfair Display",
+      "Plus Jakarta Sans"
+    ],
+    "motion": "none",
+    "rhythm": "editorial-noir-rhythm",
+    "ctaStyle": "pill",
+    "selectedVariants": [
+      {
+        "variant": "salon-hero",
+        "file": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+        "sha256": "2078b5668d9afb74f44b078974f5bbd54f0e3935e848c20c29b8dad5ef734135"
+      },
+      {
+        "variant": "history-split",
+        "file": "src/clients/components/salete-cabeleireira/history-split.astro",
+        "sha256": "dd13df464ab4e02995c06905d329302eee178d32e44255c9f3974a880b6c55c6"
+      },
+      {
+        "variant": "services-menu",
+        "file": "src/clients/components/salete-cabeleireira/services-menu.astro",
+        "sha256": "c40e0d364a13f96b96a0336229b838650888eea17cd157c28e0e86b711d4736b"
+      },
+      {
+        "variant": "brands-bar",
+        "file": "src/clients/components/salete-cabeleireira/brands-bar.astro",
+        "sha256": "7574f5eeec24ca7c5019bc93904e5562b5540eb8c2406236576a042d12224057"
+      },
+      {
+        "variant": "units-cards",
+        "file": "src/clients/components/salete-cabeleireira/units-cards.astro",
+        "sha256": "a7bb5e8b80b41d55baf9ea0ca113ac859dde1026b207f11fe6e1a377f59f8235"
+      },
+      {
+        "variant": "direct-contact",
+        "file": "src/clients/components/salete-cabeleireira/direct-contact.astro",
+        "sha256": "c8dd9dddc303ecdf74f0cb9e76d1fba8b3678cc15c36a6a20a6583ea6199ed6c"
+      }
+    ]
+  }
+}

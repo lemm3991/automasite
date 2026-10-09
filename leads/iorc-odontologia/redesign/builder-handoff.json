@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 2,
+  "slug": "iorc-odontologia",
+  "status": "READY_FOR_DEMO",
+  "generatedAt": "2026-10-09T12:27:07.137Z",
+  "passed": true,
+  "errors": [],
+  "priorities": [
+    "Personalização e adequação ao cliente/ramo",
+    "Primeira dobra e qualidade visual",
+    "Identidade, conteúdo e assets reais",
+    "Fidelidade ao 2A",
+    "Responsividade/build",
+    "Integrações posteriores"
+  ],
+  "implementation": {
+    "planPath": "leads/iorc-odontologia/redesign/implementation-plan.json",
+    "components": [
+      {
+        "id": "hero",
+        "action": "adapt",
+        "path": "src/clients/components/iorc-odontologia/split-showcase.astro",
+        "reason": "Adaptação dedicada em duas colunas com logotipo oficial, selo de 30 anos e fotografia do consultório clínico."
+      },
+      {
+        "id": "stats",
+        "action": "adapt",
+        "path": "src/clients/components/iorc-odontologia/metric-bar.astro",
+        "reason": "Faixa institucional destacando métricas reais comprovadas nas fontes oficiais."
+      },
+      {
+        "id": "services",
+        "action": "adapt",
+        "path": "src/clients/components/iorc-odontologia/clinical-grid.astro",
+        "reason": "Grid de tratamentos odontológicos com linhas de grid sutis médicas inspiradas no white-medical."
+      },
+      {
+        "id": "technology",
+        "action": "adapt",
+        "path": "src/clients/components/iorc-odontologia/partner-badges.astro",
+        "reason": "Destaque visual das chancelas tecnológicas de alta precisão (Invisalign, ClearCorrect, Neodent)."
+      },
+      {
+        "id": "infrastructure",
+        "action": "adapt",
+        "path": "src/clients/components/iorc-odontologia/facility-split.astro",
+        "reason": "Composição em proporção 1fr 1.2fr inspirada no parallax-clean para valorizar os 1.800 m² da matriz."
+      },
+      {
+        "id": "units",
+        "action": "adapt",
+        "path": "src/clients/components/iorc-odontologia/location-cards.astro",
+        "reason": "Cartões estruturados das 3 unidades em Curitiba com transições suaves do digital-architect."
+      },
+      {
+        "id": "cta",
+        "action": "adapt",
+        "path": "src/clients/components/iorc-odontologia/direct-contact.astro",
+        "reason": "Chamada para agendamento direto com clareza dos canais oficiais (WhatsApp e telefone fixo)."
+      }
+    ],
+    "referenceApplications": [
+      {
+        "referenceId": "white-medical",
+        "sectionId": "services",
+        "codePath": "src/clients/components/iorc-odontologia/clinical-grid.astro",
+        "codeExcerpt": "background: var(--grid-color);",
+        "explanation": "Linhas de grid milimétricas aplicadas como divisores para estruturar procedimentos ortodônticos e clínicos.",
+        "renderCheck": {
+          "selector": ".iorc-services-grid",
+          "minColumns": 2
+        }
+      },
+      {
+        "referenceId": "white-medical",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/iorc-odontologia/split-showcase.astro",
+        "codeExcerpt": "animation: reveal-up 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;",
+        "explanation": "Entrada suave do hero com desaceleração cúbica inspirada no tema médico white-medical.",
+        "renderCheck": {
+          "selector": "#iorc-hero"
+        }
+      },
+      {
+        "referenceId": "parallax-clean",
+        "sectionId": "infrastructure",
+        "codePath": "src/clients/components/iorc-odontologia/facility-split.astro",
+        "codeExcerpt": "grid-template-columns: 1fr 1.2fr;",
+        "explanation": "Grid assimétrico em proporção 1fr 1.2fr para valorizar a fotografia da infraestrutura da matriz.",
+        "renderCheck": {
+          "selector": ".facility-split-grid",
+          "minColumns": 2
+        }
+      },
+      {
+        "referenceId": "digital-architect.aura.build",
+        "sectionId": "units",
+        "codePath": "src/clients/components/iorc-odontologia/location-cards.astro",
+        "codeExcerpt": "transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;",
+        "explanation": "Transição estruturada e fluida nos cartões das unidades físicas de Curitiba.",
+        "renderCheck": {
+          "selector": "#unidades"
+        }
+      }
+    ],
+    "previousFingerprint": null,
+    "fingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "hero",
+        "stats",
+        "services",
+        "benefits",
+        "about",
+        "contact",
+        "cta"
+      ],
+      "imageStrategy": [
+        "hero"
+      ],
+      "gridStrategy": [
+        "1",
+        "2"
+      ],
+      "backgroundTreatment": [
+        "light",
+        "none",
+        "clinical-sterile-white"
+      ],
+      "cardTreatment": "crisp-bordered-slate-panels",
+      "typography": [
+        "Inter",
+        "Inter"
+      ],
+      "motion": "none",
+      "rhythm": "clinical-sterile-white",
+      "ctaStyle": "pill",
+      "selectedVariants": [
+        {
+          "variant": "split-showcase",
+          "file": "src/clients/components/iorc-odontologia/split-showcase.astro",
+          "sha256": "bde85bea6e239a80d1b330e3e8bc4449b823e6c7570883824f7a4561dbec0fd4"
+        },
+        {
+          "variant": "metric-bar",
+          "file": "src/clients/components/iorc-odontologia/metric-bar.astro",
+          "sha256": "a6a92532a8282b36df7c6f888f5f0ab82112b636f7cc3b9f794856683657e0dc"
+        },
+        {
+          "variant": "clinical-grid",
+          "file": "src/clients/components/iorc-odontologia/clinical-grid.astro",
+          "sha256": "494f0a565f5ab3e00b6c6e066314309a37f897908f560918ff288953de432f71"
+        },
+        {
+          "variant": "partner-badges",
+          "file": "src/clients/components/iorc-odontologia/partner-badges.astro",
+          "sha256": "f9dff95cc3e8b68e378abe1cc154893298f0ef740abd86232e4ef900c83bc49d"
+        },
+        {
+          "variant": "facility-split",
+          "file": "src/clients/components/iorc-odontologia/facility-split.astro",
+          "sha256": "24c431719d1129699765c210832ac3ee758c17aa0db7b4eb85fc6e7226d6a5e8"
+        },
+        {
+          "variant": "location-cards",
+          "file": "src/clients/components/iorc-odontologia/location-cards.astro",
+          "sha256": "f3627439ebd2b40f925facf1e22c2bc17db96f28568ea7f09509cf98184ee292"
+        },
+        {
+          "variant": "direct-contact",
+          "file": "src/clients/components/iorc-odontologia/direct-contact.astro",
+          "sha256": "0cbba0044173bd73bb0cf09a825fbf2edb035d45ddbb82545b643885f87c4161"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "slug": "cadas-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 41,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": 0.3333333333333333,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "delta-pan",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 50,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5555555555555556,
+          "imageStrategy": 0.25,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "dl-cabeleireiros",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 49,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.42857142857142855,
+          "imageStrategy": 0.5,
+          "gridStrategy": 1,
+          "backgroundTreatment": 0.5,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "juliana-pippi-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 48,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": 0.2,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 46,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5,
+          "imageStrategy": 0.5,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 1,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      }
+    ]
+  },
+  "evidence": {
+    "build": "leads/iorc-odontologia/redesign/build-evidence.json",
+    "render": "leads/iorc-odontologia/redesign/render-evidence.json",
+    "visualReview": "leads/iorc-odontologia/redesign/visual-review.json"
+  },
+  "renderValidation": {
+    "schemaVersion": 1,
+    "kind": "Render Validation",
+    "slug": "iorc-odontologia",
+    "checkedAt": "2026-10-09T12:27:06.898Z",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "inspected": [
+      {
+        "path": "leads/iorc-odontologia/redesign/screenshots/home-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "9f4551f1d6926eb301ef5ac366aee69fb64279ff19a21a5d054dfcdb5be4cc64"
+      },
+      {
+        "path": "leads/iorc-odontologia/redesign/screenshots/home-desktop-full.png",
+        "width": 1440,
+        "height": 4665,
+        "sha256": "f294a5a45e40cf2557a2afb89db71df1764fb6ae02d591fd14dd410a9dbd3ce0"
+      },
+      {
+        "path": "leads/iorc-odontologia/redesign/screenshots/home-mobile.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "9e5333bcb661f930add03fe891de13086471b68e8306a7698af7376986f5f9b2"
+      },
+      {
+        "path": "leads/iorc-odontologia/redesign/screenshots/home-mobile-full.png",
+        "width": 390,
+        "height": 8249,
+        "sha256": "3a22eaab1efde710df4294c258e80cfc9eb8a028d546276401e280473456d4a8"
+      }
+    ],
+    "visualAssessment": "requires_image_review",
+    "visualQualityScore": null,
+    "regressions": null,
+    "limitations": [
+      "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+      "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+    ]
+  },
+  "qualitativeReview": "approved",
+  "removedUnsupportedClaims": [],
+  "reviewedAbsentClaims": [],
+  "upstreamCorrections": [],
+  "productionPending": [],
+  "limitations": [
+    "O gate verifica rastreabilidade e atualidade; o julgamento estético e factual depende da inspeção registrada pelo agente.",
+    "Prontidão da demonstração não comprova desempenho comercial, produção ou envio ao cliente."
+  ]
+}

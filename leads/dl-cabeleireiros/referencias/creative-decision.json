@@ -1,0 +1,523 @@
+{
+  "schemaVersion": 3,
+  "slug": "dl-cabeleireiros",
+  "createdBy": "codex-dl-art-director",
+  "createdAt": "2026-10-07T14:44:24.221Z",
+  "modelExecutionNote": "Codex neste teste, conforme continue do usuário após consulta; modelos centrais Gemini preservados.",
+  "contextSha256": "3f738cdb1c4f54443e6bbff9b8e111e043646807e6dfe9fcd4323d7f25404dbf",
+  "typography": {
+    "heading": "Playfair Display",
+    "body": "Inter"
+  },
+  "themeMode": "light",
+  "references": [
+    {
+      "id": "architecture-studio.aura.build",
+      "sourceSha256": "8eed37ef6f2d3150a46a0d666d99a3a732aa81b18e3a91bdb3d0716b378e642e",
+      "observations": [
+        {
+          "excerpt": "font-serif-custom text-6xl sm:text-7xl md:text-8xl lg:text-9xl",
+          "benefit": "A escala serifada e o itálico dão hierarquia ao posicionamento de beleza; evitar a tipografia condensada industrial.",
+          "factIds": [
+            "headline",
+            "positioning"
+          ]
+        }
+      ],
+      "inspection": {
+        "preview": "reports/dl-reexecution/reference-architecture.png",
+        "mainPage": "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/design-system.html"
+      }
+    },
+    {
+      "id": "green-museum",
+      "sourceSha256": "7ba2a32470b7d2b52027d17d6b896349bd6bfffbaf989ef064667d615924a161",
+      "observations": [
+        {
+          "excerpt": "group relative rounded-2xl overflow-hidden aspect-[3/4]",
+          "benefit": "Enquadramento vertical da fotografia e legenda junto à imagem dão protagonismo ao ambiente e às imagens do salão.",
+          "factIds": [
+            "headline",
+            "positioning"
+          ]
+        }
+      ],
+      "inspection": {
+        "preview": "reports/dl-reexecution/reference-museum.png",
+        "mainPage": "Design System/temas_claros/green-museum/index.html"
+      }
+    },
+    {
+      "id": "barbershop-landing-51.aura.build",
+      "sourceSha256": "f9ea2cc867febcf8cbf885bd2f1d7461166f294383607c6870c017476ccbb005",
+      "observations": [
+        {
+          "excerpt": "<h3 class=\"service-name\">CORTE EXCLUSIVO</h3>",
+          "benefit": "Nome do serviço destacado e descrição curta tornam o cardápio consultável; reinterpretar as caixas como linhas leves sem importar preços, duração ou serviços da barbearia.",
+          "factIds": [
+            "service-1",
+            "service-9"
+          ]
+        }
+      ],
+      "inspection": {
+        "preview": "reports/dl-reexecution/reference-barber.png",
+        "mainPage": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html"
+      }
+    }
+  ],
+  "alternatives": [
+    {
+      "id": "B",
+      "concept": "O seu próximo visual",
+      "rationale": "Abrir com dois registros de cabelos do acervo, acompanhados dos nomes Mechas e Colorações no cardápio; a foto não será atribuída a procedimento específico.",
+      "tradeoff": "Miniaturas 480px têm barras laterais e pouca resolução; uma hero muito grande ampliaria defeitos e reduziria qualidade.",
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "positioning"
+          ],
+          "reason": "Abrir com dois registros de cabelos do acervo, acompanhados dos nomes Mechas e Colorações no cardápio; a foto não será atribuída a procedimento específico.; sofisticação e conforto declarados pelo salão."
+        },
+        "audience": {
+          "factIds": [
+            "audience",
+            "service-9",
+            "service-8"
+          ],
+          "reason": "Público de cuidado pessoal inferido do cardápio que inclui corte masculino e dia da noiva, sem limitar o salão a um único perfil."
+        },
+        "services": {
+          "factIds": [
+            "service-1",
+            "service-3",
+            "service-11"
+          ],
+          "reason": "Cabelo e unhas precisam ser consultáveis sem procedimentos inventados."
+        },
+        "identity": {
+          "factIds": [
+            "headline",
+            "name"
+          ],
+          "reason": "Preservar monograma dourado e proposta de beleza e cuidado."
+        },
+        "architecture": {
+          "factIds": [
+            "architecture",
+            "palhoca-name",
+            "florianopolis-name"
+          ],
+          "reason": "Duas unidades exigem escolha explícita no agendamento."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+        "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+        "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg"
+      ],
+      "referenceIds": [
+        "architecture-studio.aura.build",
+        "green-museum",
+        "barbershop-landing-51.aura.build"
+      ],
+      "clientTriggers": [
+        {
+          "factIds": [
+            "service-3",
+            "service-7"
+          ],
+          "decision": "Cardápio de Mechas e Colorações acompanha interesse pelo visual dos cabelos."
+        },
+        {
+          "factIds": [
+            "architecture",
+            "positioning"
+          ],
+          "decision": "Manter unidades acessíveis e introduzir o ambiente depois da galeria."
+        }
+      ],
+      "composition": {
+        "typography": [
+          "Playfair Display",
+          "Inter"
+        ],
+        "motion": "entrada suave com reduced-motion; sem parallax",
+        "ctaStyle": "retangular contornado ou sólido, escolha de unidade",
+        "heroType": "mosaico horizontal de cabelos sob título central",
+        "sectionOrder": [
+          "header",
+          "hero",
+          "showcase",
+          "services",
+          "contact",
+          "footer"
+        ],
+        "imageStrategy": "dois retratos do acervo no hero; ambiente na apresentação",
+        "gridStrategy": "mosaico 2fr 1fr; menu de serviços em coluna",
+        "backgroundTreatment": "creme contínuo com dourado de acento",
+        "cardTreatment": "imagens sem caixa",
+        "rhythm": "imagem dominante; texto breve; listagem vertical"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8,
+          "reason": "Cabelo é pertinente ao cardápio, mas reduz a evidência de ambiente."
+        },
+        "assets": {
+          "score": 5,
+          "reason": "As miniaturas não sustentam hero de grande escala."
+        },
+        "audience": {
+          "score": 8,
+          "reason": "Resultados visuais podem atrair quem busca mudança de cabelo."
+        },
+        "references": {
+          "score": 7,
+          "reason": "Composição editorial é aplicável, com limites nas imagens."
+        }
+      }
+    },
+    {
+      "id": "C",
+      "concept": "Duas casas, o mesmo cuidado",
+      "rationale": "Começar pela escolha Pedra Branca ou Agronômica para visitantes que já decidiram agendar; uma faixa de ambiente dá identidade comum.",
+      "tradeoff": "Pode parecer um diretório de unidades e adiar a demonstração estética desejada para prospecção.",
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "positioning"
+          ],
+          "reason": "Começar pela escolha Pedra Branca ou Agronômica para visitantes que já decidiram agendar; uma faixa de ambiente dá identidade comum.; sofisticação e conforto declarados pelo salão."
+        },
+        "audience": {
+          "factIds": [
+            "audience",
+            "service-9",
+            "service-8"
+          ],
+          "reason": "Público de cuidado pessoal inferido do cardápio que inclui corte masculino e dia da noiva, sem limitar o salão a um único perfil."
+        },
+        "services": {
+          "factIds": [
+            "service-1",
+            "service-3",
+            "service-11"
+          ],
+          "reason": "Cabelo e unhas precisam ser consultáveis sem procedimentos inventados."
+        },
+        "identity": {
+          "factIds": [
+            "headline",
+            "name"
+          ],
+          "reason": "Preservar monograma dourado e proposta de beleza e cuidado."
+        },
+        "architecture": {
+          "factIds": [
+            "architecture",
+            "palhoca-name",
+            "florianopolis-name"
+          ],
+          "reason": "Duas unidades exigem escolha explícita no agendamento."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg"
+      ],
+      "referenceIds": [
+        "architecture-studio.aura.build",
+        "green-museum",
+        "barbershop-landing-51.aura.build"
+      ],
+      "clientTriggers": [
+        {
+          "factIds": [
+            "palhoca-name",
+            "florianopolis-name"
+          ],
+          "decision": "Separar os contatos desde a abertura."
+        },
+        {
+          "factIds": [
+            "service-8",
+            "service-11"
+          ],
+          "decision": "Expor cardápio depois da localização para público com necessidades variadas."
+        }
+      ],
+      "composition": {
+        "typography": [
+          "Playfair Display",
+          "Inter"
+        ],
+        "motion": "entrada suave com reduced-motion; sem parallax",
+        "ctaStyle": "retangular contornado ou sólido, escolha de unidade",
+        "heroType": "headline central e duas opções de unidade com fotografia em faixa",
+        "sectionOrder": [
+          "header",
+          "hero",
+          "contact",
+          "services",
+          "showcase",
+          "footer"
+        ],
+        "imageStrategy": "ambiente em faixa horizontal e miniaturas abaixo",
+        "gridStrategy": "duas colunas equivalentes com contatos",
+        "backgroundTreatment": "verde predominante e menu claro",
+        "cardTreatment": "painéis de endereço",
+        "rhythm": "entrada utilitária curta; contatos extensos; respiro de imagens"
+      },
+      "assessment": {
+        "identity": {
+          "score": 7,
+          "reason": "Duas unidades e dourado presentes, mas experiência visual é secundária."
+        },
+        "assets": {
+          "score": 7,
+          "reason": "Foto do ambiente perde parte do conteúdo no recorte horizontal."
+        },
+        "audience": {
+          "score": 9,
+          "reason": "Muito adequado para quem já quer reservar por localização."
+        },
+        "references": {
+          "score": 6,
+          "reason": "Referências editoriais aproveitadas menos intensamente."
+        }
+      }
+    },
+    {
+      "id": "A",
+      "concept": "Um espaço para o seu estilo",
+      "rationale": "A foto de cadeiras verdes e espelhos circulares oferece um lugar concreto para a promessa de conforto do D&L. A leitura editorial destaca a marca sem transformar o salão em SaaS.",
+      "tradeoff": "A foto representa o ambiente publicado pelo salão; não comprova qual unidade. A abertura prioriza acolhimento e não prova resultados de um procedimento.",
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "positioning"
+          ],
+          "reason": "A foto de cadeiras verdes e espelhos circulares oferece um lugar concreto para a promessa de conforto do D&L. A leitura editorial destaca a marca sem transformar o salão em SaaS.; sofisticação e conforto declarados pelo salão."
+        },
+        "audience": {
+          "factIds": [
+            "audience",
+            "service-9",
+            "service-8"
+          ],
+          "reason": "Público de cuidado pessoal inferido do cardápio que inclui corte masculino e dia da noiva, sem limitar o salão a um único perfil."
+        },
+        "services": {
+          "factIds": [
+            "service-1",
+            "service-3",
+            "service-11"
+          ],
+          "reason": "Cabelo e unhas precisam ser consultáveis sem procedimentos inventados."
+        },
+        "identity": {
+          "factIds": [
+            "headline",
+            "name"
+          ],
+          "reason": "Preservar monograma dourado e proposta de beleza e cuidado."
+        },
+        "architecture": {
+          "factIds": [
+            "architecture",
+            "palhoca-name",
+            "florianopolis-name"
+          ],
+          "reason": "Duas unidades exigem escolha explícita no agendamento."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+        "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+        "/assets/clients/dl-cabeleireiros/08-hqdefault.webp"
+      ],
+      "referenceIds": [
+        "architecture-studio.aura.build",
+        "green-museum",
+        "barbershop-landing-51.aura.build"
+      ],
+      "clientTriggers": [
+        {
+          "factIds": [
+            "positioning",
+            "headline"
+          ],
+          "decision": "Materializar conforto com foto do ambiente, que foi aberta e descrita."
+        },
+        {
+          "factIds": [
+            "palhoca-name",
+            "florianopolis-name"
+          ],
+          "decision": "CTA inicial leva à escolha entre as duas unidades."
+        }
+      ],
+      "composition": {
+        "typography": [
+          "Playfair Display",
+          "Inter"
+        ],
+        "motion": "entrada suave com reduced-motion; sem parallax",
+        "ctaStyle": "retangular contornado ou sólido, escolha de unidade",
+        "heroType": "foto vertical à esquerda e título serifado à direita; mobile texto, foto, CTA",
+        "sectionOrder": [
+          "header",
+          "hero",
+          "services",
+          "showcase",
+          "contact",
+          "footer"
+        ],
+        "imageStrategy": "ambiente principal e dois registros de cabelo do acervo",
+        "gridStrategy": "hero 1fr 1.1fr; serviços em duas colunas de linhas; galeria duas fotos verticais",
+        "backgroundTreatment": "creme quente com uma seção verde",
+        "cardTreatment": "linhas abertas e painéis somente nas unidades",
+        "rhythm": "abertura ampla; menu compacto; pausa fotográfica; contato contrastante"
+      },
+      "assessment": {
+        "identity": {
+          "score": 9,
+          "reason": "Monograma e interior originam cores e enquadramento."
+        },
+        "assets": {
+          "score": 9,
+          "reason": "Foto do ambiente tem resolução superior às miniaturas e tolera recorte mobile."
+        },
+        "audience": {
+          "score": 8,
+          "reason": "Convida à visita e expõe escolha de unidade."
+        },
+        "references": {
+          "score": 8,
+          "reason": "Serifa editorial e moldura fotográfica são úteis sem importar o conteúdo das referências."
+        }
+      }
+    }
+  ],
+  "chosenId": "A",
+  "selectionReason": "A é a opção mais consistente com conforto, marca e a melhor foto disponível. B depende demais de miniaturas e C prioriza localização em detrimento da primeira impressão. A não foi escolhida pela posição no array.",
+  "hero": {
+    "desktop": "Foto do ambiente à esquerda (~45%), título e CTA à direita, logo no cabeçalho. Sem métricas ou selos fictícios.",
+    "mobile": "390×844: cabeçalho compacto, headline, fotografia de cerca de 240px, descrição breve e CTA para as unidades na primeira dobra.",
+    "assetPath": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg"
+  },
+  "sections": [
+    {
+      "id": "header",
+      "type": "header",
+      "title": "D&L Cabeleireiros",
+      "variant": "Header01",
+      "factIds": [
+        "name"
+      ],
+      "compositionRationale": "Marca legível, links curtos e escolha de unidade no CTA."
+    },
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Um espaço para o seu estilo.",
+      "variant": "SalonHero",
+      "factIds": [
+        "headline",
+        "positioning"
+      ],
+      "compositionRationale": "Foto vertical do ambiente à esquerda, serifas à direita. Mobile com foto e CTA antes de 844px."
+    },
+    {
+      "id": "servicos",
+      "type": "services",
+      "title": "Seu cuidado, do seu jeito.",
+      "variant": "Services01",
+      "factIds": [
+        "service-1",
+        "service-2",
+        "service-3",
+        "service-4",
+        "service-5",
+        "service-6",
+        "service-7",
+        "service-8",
+        "service-9",
+        "service-10",
+        "service-11",
+        "service-12"
+      ],
+      "compositionRationale": "Menu com 12 nomes documentados e descrições curtas literais, organizado em linhas."
+    },
+    {
+      "id": "galeria",
+      "type": "showcase",
+      "title": "Beleza nos detalhes.",
+      "variant": "Showcase01",
+      "factIds": [
+        "founders",
+        "positioning"
+      ],
+      "compositionRationale": "Duas imagens do acervo em molduras verticais; apresentação breve e sem atribuir procedimentos às imagens."
+    },
+    {
+      "id": "unidades",
+      "type": "contact",
+      "title": "Escolha onde viver o seu momento.",
+      "variant": "SalonUnits",
+      "factIds": [
+        "palhoca-name",
+        "florianopolis-name",
+        "palhoca-address",
+        "florianopolis-address"
+      ],
+      "compositionRationale": "Dois painéis com contato, endereço e horário separados; verde em contraste para encerramento."
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "title": "D&L Cabeleireiros",
+      "variant": "Footer01",
+      "factIds": [
+        "name"
+      ],
+      "compositionRationale": "Rodapé simples reutilizado, sem informação comercial adicional."
+    }
+  ],
+  "palette": {
+    "background": {
+      "value": "#f5f1e9",
+      "source": "editorial-neutral",
+      "reason": "Neutro quente para leitura e contraste com foto, mantendo dourado da marca como acento."
+    },
+    "primary": {
+      "value": "#213e35",
+      "source": "explicit-visual-inference",
+      "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+      "reason": "Tom escurecido inspirado nas cadeiras verdes observadas; inferência explícita, não amostra dominante nem cor oficial."
+    },
+    "secondary": {
+      "value": "#e8e3d8",
+      "source": "editorial-neutral",
+      "reason": "Neutro de apoio para áreas de leitura; o dourado do logo permanece no acento."
+    },
+    "accent": {
+      "value": "#f0d0a0",
+      "source": "logo",
+      "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+      "pixels": 70,
+      "method": "quantized-pixel-sample",
+      "status": "candidate",
+      "reason": "Dourado medido no monograma; usado como detalhe sobre verde, evitando texto claro sobre creme."
+    },
+    "text": {
+      "value": "#222b27",
+      "source": "editorial-neutral",
+      "reason": "Texto escuro para contraste em creme."
+    }
+  }
+}

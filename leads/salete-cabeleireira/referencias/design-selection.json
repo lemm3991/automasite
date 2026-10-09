@@ -1,0 +1,77 @@
+{
+  "slug": "salete-cabeleireira",
+  "selectedDesignSystems": [
+    {
+      "name": "barbershop-landing-51.aura.build",
+      "path": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+      "sourceSha256": "f9ea2cc867febcf8cbf885bd2f1d7461166f294383607c6870c017476ccbb005",
+      "selectionReason": "Estrutura de tag de autoridade temporal no topo do hero valorizando o pioneirismo desde 1966. Tom editorial e narrativa biográfica refinada para contextualizar as credenciais da fundadora.",
+      "observations": [
+        {
+          "excerpt": "Fundada em 2018 -- Cuidado Premium",
+          "benefit": "Estrutura de tag de autoridade temporal no topo do hero valorizando o pioneirismo desde 1966.",
+          "factIds": [
+            "foundation-year",
+            "founder-name"
+          ]
+        },
+        {
+          "excerpt": "Entre num mundo onde cada corte conta uma história.",
+          "benefit": "Tom editorial e narrativa biográfica refinada para contextualizar as credenciais da fundadora.",
+          "factIds": [
+            "cert-vidal-sassoon",
+            "cert-toni-guy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "luxury-desert-retreat-1.aura.build",
+      "path": "Design System/temas_claros/luxury-desert-retreat-1.aura.build/luxury-desert-retreat-1.aura.build/design-system.html",
+      "sourceSha256": "dc108cd47fab1e28a87417fc850b60cd7fdfe999201cefecfc23a8745f78ffdf",
+      "selectionReason": "Subtítulo com espaçamento aristocrático e elegância minimalista adaptado para Salão de Alta Tradição. Indicador vertical minimalista de navegação conduzindo a narrativa entre o hero e a trajetória biográfica.",
+      "observations": [
+        {
+          "excerpt": "Refúgio de Luxo no Deserto",
+          "benefit": "Subtítulo com espaçamento aristocrático e elegância minimalista adaptado para Salão de Alta Tradição.",
+          "factIds": [
+            "company-name",
+            "city-criciuma"
+          ]
+        },
+        {
+          "excerpt": "<div class=\"scroll-line\"></div>",
+          "benefit": "Indicador vertical minimalista de navegação conduzindo a narrativa entre o hero e a trajetória biográfica.",
+          "factIds": [
+            "foundation-year",
+            "founder-name"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "savory-plate.aura.build",
+      "path": "Design System/temas_claros/savory-plate.aura.build/savory-plate.aura.build/design-system.html",
+      "sourceSha256": "dacd2bce52ff94f783b7a04508bef45ccae4b1999fbdb1b6c6483d38f756ff6f",
+      "selectionReason": "Harmonização tipográfica serifada de alto contraste para títulos editoriais com ar de revista de luxo. Aplicação de monograma serifado itálico para elevar a percepção artística dos rituais capilares.",
+      "observations": [
+        {
+          "excerpt": "The Savory Plate - Receitas Modernas",
+          "benefit": "Harmonização tipográfica serifada de alto contraste para títulos editoriais com ar de revista de luxo.",
+          "factIds": [
+            "company-name",
+            "founder-name"
+          ]
+        },
+        {
+          "excerpt": "font-serif italic font-bold",
+          "benefit": "Aplicação de monograma serifado itálico para elevar a percepção artística dos rituais capilares.",
+          "factIds": [
+            "service-queratina",
+            "service-botox"
+          ]
+        }
+      ]
+    }
+  ]
+}

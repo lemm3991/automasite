@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "slug": "iorc-odontologia",
+  "phase": "plan",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "planHash": "165827169e1b6e2631b4b9ba58abb3a4349319c53f2f9fd61c24ed99f6b5084f",
+  "inputHashes": {
+    "leads/iorc-odontologia/referencias/creative-brief.md": "b0eab62b0f8de7e11b893d67e6f3dfb1508e8dc8e5418ebeb4db525f355d3c13",
+    "leads/iorc-odontologia/referencias/art-direction.json": "c80059888a8d6bfb7123a120bdb1cc073f10a76c9352a1cc8f0df7b73ae2e7a1",
+    "leads/iorc-odontologia/referencias/design-selection.json": "1184301490eb35a80b8a8800917ee7c062950f35711bdace0b584aff8e879139",
+    "leads/iorc-odontologia/visual/visual-handoff.json": "f13005aae07122d5475127cbb1e0740d0b3e1399716293a1151c6d8433f83de1",
+    "leads/iorc-odontologia/referencias/site-atual.md": "f0eaa74484a8213c823be81945bc7adce1969c7f3b2a9f5cf0522cb0c4343844",
+    "leads/iorc-odontologia/lead.json": "f304469b705ba3ef65efed24483a095bf9de625f3e76cd4470aa2ca6e368c3dc",
+    "leads/iorc-odontologia/referencias/assets-manifest.json": "ecea0752c74c001e2abd407bdc74db1be660b2a5c7d09c7bd583e2cb2fdc69eb",
+    "leads/iorc-odontologia/referencias/source-evidence.json": "d7e22f98476642271b44940ef73c6df72029714a0c89117f2b0be2432a8f0b13",
+    "leads/iorc-odontologia/referencias/source-review.json": "557eb5688e725bcfb8c3066695f499f22f08a09e3b242cf30fbe6405b31f991e",
+    "leads/iorc-odontologia/referencias/asset-review.json": "27b15f1eb2af5594b8f761d9f90b7ee43b17655b03ad63d756e9915c2bbd2945",
+    "Design System/temas_claros/white-medical/design-system.html": "f83824152d703145d65c722c76e73f21b5651266a2b73ebafefa94402da0d19a",
+    "Design System/temas_claros/parallax-clean/design-system.html": "2d2bb18d4a8051ae73716c19e1de86dad0ae12d930067695c20b895bd7198639",
+    "Design System/temas_claros/digital-architect.aura.build/design-system.html": "4088d7592cdb2b47becd5a3d8b7a772582c80500aceafcbc6fd290ac56ec3a7b"
+  },
+  "checkedAt": "2026-10-09T02:23:06.564Z",
+  "fingerprint": null,
+  "comparisons": [],
+  "limitations": [
+    "Trechos existentes não comprovam interpretação factual; revisar sentido e imagens.",
+    "Similaridade estrutural não mede qualidade visual."
+  ]
+}

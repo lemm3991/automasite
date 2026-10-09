@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "slug": "dl-cabeleireiros",
+  "status": "REVIEWED_ASSETS_AVAILABLE",
+  "total_assets_found": 10,
+  "assets": [
+    {
+      "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+      "category": "logo",
+      "description": "Monograma dourado D&L sobre fundo transparente.",
+      "observableDetails": [
+        "Letras entrelaçadas em dourado",
+        "Fundo transparente"
+      ],
+      "allowedCaptions": [
+        "D&L Cabeleireiros"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.968Z",
+      "status": "verified"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "category": "logo",
+      "status": "unconfirmed",
+      "basis": "filename-or-alt",
+      "description": null
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+      "category": "environment",
+      "description": "Ambiente com cadeiras verdes, espelhos circulares iluminados e bancadas de madeira.",
+      "observableDetails": [
+        "Cadeiras verdes junto às bancadas",
+        "Espelhos redondos com iluminação"
+      ],
+      "allowedCaptions": [
+        "Um olhar para o ambiente D&L"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.968Z",
+      "status": "verified"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/04-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "category": "unconfirmed",
+      "status": "unconfirmed",
+      "basis": "requires-image-inspection",
+      "description": null
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+      "sha256": "a5dedd75506de0566872d67abfd0f50736b9b3d4b3ce43d12c69a0a8f461b82d",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo mostrando um corte de cabelo masculino em atendimento.",
+      "observableDetails": [
+        "Homem sentado com cabelo curto",
+        "Profissional trabalhando atrás da cadeira"
+      ],
+      "allowedCaptions": [
+        "Corte em atendimento"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.969Z",
+      "status": "verified"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+      "sha256": "0ec6e9fb6f177eb3821ade6d266d0b9bb362b9b5d75493842c5c65890527dc07",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo com um profissional segurando uma mecha de cabelo castanho.",
+      "observableDetails": [
+        "Mecha de cabelo castanho em primeiro plano",
+        "Espelhos circulares ao fundo"
+      ],
+      "allowedCaptions": [
+        "Um momento de cuidado"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.969Z",
+      "status": "verified"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "sha256": "161e2631f079134069f1002c8586f276501d2e6211ad6c02e7550d140aae2d29",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo com cliente de cabelo loiro e profissional ao fundo.",
+      "observableDetails": [
+        "Cabelo loiro longo e ondulado",
+        "Cliente sentada e profissional atrás"
+      ],
+      "allowedCaptions": [
+        "Cabelos em movimento"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.969Z",
+      "status": "verified"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "sha256": "55053c395d1a450fdd1b1fa04d8c8421ab8cf66cfbf60de164583d0f960e2c1e",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo com mulher de cabelo longo e claro vista em três quartos.",
+      "observableDetails": [
+        "Cabelo longo com tons claros",
+        "Mulher em pose de três quartos"
+      ],
+      "allowedCaptions": [
+        "Detalhes que fazem o visual"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.970Z",
+      "status": "verified"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/09-3996980-uhd_2732_1440_25fps.mp4",
+      "category": "video",
+      "status": "unconfirmed",
+      "basis": "media-format",
+      "description": null
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/10-10729073-hd_1920_1080_30fps.mp4",
+      "category": "video",
+      "status": "unconfirmed",
+      "basis": "media-format",
+      "description": null
+    }
+  ],
+  "classified_assets": {
+    "logo_principal": [
+      "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png"
+    ],
+    "favicon": [],
+    "fotos_empresa": [
+      "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg"
+    ],
+    "equipe": [],
+    "servicos": [],
+    "produtos": [],
+    "videos": [],
+    "thumbnails": [
+      "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+      "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+      "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "/assets/clients/dl-cabeleireiros/08-hqdefault.webp"
+    ],
+    "icones": [],
+    "elementos_graficos": []
+  },
+  "reusable_recommendations": {
+    "brand_logo": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+    "hero_image": null,
+    "team_photos": [],
+    "service_photos": []
+  },
+  "limitations": [
+    "Formato e nome de arquivo são candidatos, não identificação visual.",
+    "O Diretor escolhe o hero entre assets inspecionados; nenhuma imagem é escolhida pelo tamanho ou pela primeira posição."
+  ]
+}

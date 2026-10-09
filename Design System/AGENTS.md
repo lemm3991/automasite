@@ -1,111 +1,44 @@
-# Guia de Seleção de Design System para Agentes de IA
+# Consulta do acervo de referências
 
-Este diretório contém **61 Design Systems prontos para produção** com assets locais, Tailwind CSS, ícones Lucide/Iconify e layouts responsivos completos.
+Use o acervo antes de criar a direção de arte. Primeiro leia a copy, os serviços, a marca e as imagens reais do cliente; depois procure referências por contexto e por características visuais.
 
-Como agente encarregado de criar ou prototipar sites (**Diretor de Arte 2A** e **Platform Builder 2B**), **você deve consultar este catálogo antes de começar a codificar**.
+## Busca
 
----
-
-## 🛠️ Como o Agente Deve Operar (Opções Disponíveis)
-
-### Opção 1 (Recomendada no Pipeline Astro / Node): Consulta Programática TypeScript
-
-Utilize a biblioteca unificada que já extrai os `ThemeTokens` validados por Zod e sugere os componentes Astro ideais:
-
-```typescript
-import { 
-  queryDesignSystems, 
-  getDesignSystemTokens, 
-  recommendDesignSystemAndComponents 
-} from '@/lib/design-systems.ts';
-
-// 1. Busca semântica
-const matches = queryDesignSystems({
-  niche: 'arquitetura',
-  vibe: 'luxo contemporâneo',
-  theme: 'escuro',
-  limit: 3
-});
-
-// 2. Recomendação completa unificada
-const layout = recommendDesignSystemAndComponents({
-  niche: 'odontologia',
-  vibe: 'clean acolhedor',
-  themePreference: 'claro'
-});
-
-// layout.tokens -> ThemeTokens prontos para o client.theme
-// layout.recommendedComponents -> Hero, Services, Projects, CTA e Footer correspondentes
+```bash
+node "Design System/search.cjs" --query "saúde atendimento clínica" --top 5
+node "Design System/search.cjs" --query "tipografia condensada fotografia composição assimétrica" --top 5 --json
+node "Design System/search.cjs" --nicho "arquitetura" --estilo "fotografia grid" --tema claro
 ```
 
----
+O motor compartilhado em search-core.cjs faz recuperação lexical com sinônimos, pontuação por campo, cobertura mínima e diversidade entre famílias. search.py é uma interface de compatibilidade que chama o mesmo motor Node. Não há embeddings nem avaliação visual automática.
 
-### Opção 2: Busca via CLI (Python ou NPM)
+Cada resultado informa score, match_reasons, match_kind, pagina_principal e design_system_page. Tema é um filtro, nunca prova de relevância. Uma busca sem correspondência retorna uma lista vazia: formule uma nova consulta por composição, tipo de imagem e tipografia a partir do cliente. Não use os primeiros itens do catálogo como substitutos.
 
-#### Via NPM (Integrado ao projeto Astro):
+O JSON da CLI traz evidências resumidas para economizar contexto. Use --full somente quando precisar do inventário completo de fontes e hashes; os mesmos dados estão em catalog.json.
+
+Abra a página principal e o design system dos candidatos e confira o preview. Escolha uma referência principal; referências de apoio devem ter uma função clara. Um modelo de outro setor pode fornecer uma composição útil, mas não fornece serviços, avaliações, números ou imagens para o cliente.
+
+## Fontes e manutenção
+
+- catalog-profiles.json contém o contexto e os setores revistos no conteúdo salvo. Padrões manuais devem corresponder ao HTML.
+- catalog.json reúne os perfis, sinais do HTML/CSS e source_evidence com caminhos e hashes. A inspeção é estática; render_verified=false explicita que o preview não foi validado pelo indexador.
+- pagina_principal é a landing page original; design_system_page pode ser uma página separada de componentes. Confira ambas.
+- Fontes carregadas por @font-face não significam fontes utilizadas. O índice procura regras efetivamente aplicadas ao body e ao título.
+- tokens são sugestões editáveis; null significa identificação incompleta. Consulte a fonte e defina os valores para o projeto. Primária, acento, bordas e efeitos exigem decisão do Diretor de Arte.
+- recommended_components fica vazio: a escolha dos componentes depende da composição do projeto.
+- IDs de variantes são únicos. O ID legado echelon.aura.build é ambíguo: use a variante --claro ou --escuro conforme seu caminho. O tema observado pode diferir do nome da pasta.
+- Famílias como Concrete Dreams e Langfuse evitam que versões semelhantes ocupem todas as posições na busca.
+
+Depois de editar os perfis ou o material fonte:
+
 ```bash
 npm run design-systems:index
+npm run design-systems:check
+npm run test:design-systems
 ```
 
-#### Via Python:
-```bash
-python "search.py" --query "clinica de fisioterapia acolhedora e moderna" --json
-python "search.py" --query "saas b2b logistica dashboard escuro" --top 3
-python "search.py" --nicho "gastronomia" --tema claro
-```
+O indexador valida IDs e arquivos antes de gravar o catálogo. Não altera as páginas do acervo. Não edite metadados gerados esperando que sobrevivam à reindexação.
 
----
+## TypeScript
 
-### Opção 3: Consulta Direta a `catalog.json` ou `CATALOG.md`
-Consulte o arquivo [`catalog.json`](file:///D:/projetos%20antigravity/Site%20automatico/Design%20System/catalog.json) enriquecido com o campo `tokens` (compatível com `src/clients/schema.ts`) ou a tabela em [`CATALOG.md`](file:///D:/projetos%20antigravity/Site%20automatico/Design%20System/CATALOG.md).
-
----
-
-## 🧭 Matriz de Decisão Rápida por Nicho
-
-| Se o usuário pedir... | Tema Recomendado | IDs de Referência Imediata |
-| :--- | :--- | :--- |
-| **Saúde, Medicina, Odonto, Estética, Farmácia** | Claro | `white-medical`, `cogni.aura.build` |
-| **Arquitetura, Imóveis de Luxo, Interiores, Construção** | Claro ou Escuro | `luxury-real-estate-22.aura.build`, `elicyon.com`, `monolith-architecture.aura.build`, `architecture-studio.aura.build` |
-| **Gastronomia, Restaurantes, Cafés, Culinária** | Claro | `savory-plate.aura.build` |
-| **Barbearia, Estética Masculina, Tatuagem** | Escuro | `barbershop-landing-51.aura.build` |
-| **Hotéis de Luxo, Spas, Retiros, Turismo** | Claro | `luxury-desert-retreat-1.aura.build`, `echelon.aura.build` |
-| **Eventos Sociais Nobres, Galas, Casamentos** | Claro / Escuro | `echelon.aura.build` (claro para casamentos diurnos, escuro para galas noturnas) |
-| **Cripto, Web3, DeFi, Trading, Blockchain** | Escuro | `aetheris-web3-72.aura.build`, `novachain-crypto-trading-protocol-1.aura.build` |
-| **Cibersegurança, Redes, VPN, Defesa** | Escuro | `cybersecurity-saas-landing-page-template.aura.build`, `finex-internet.aura.build` |
-| **SaaS B2B, ERP, CRM, Gestão Corporativa** | Claro / Escuro | `ai-saas-landing-27.aura.build`, `cadence-landing-19.aura.build`, `pulsedesk-saas.aura.build`, `axion-ai.aura.build` |
-| **Inteligência Artificial, LLMs, Ferramentas Dev** | Escuro | `langfuse`, `open-source-llm-10.aura.build`, `ai-intelligence-saas.aura.build`, `saas-developer.aura.build` |
-| **Portfólio Criativo, UX/UI Designer, Desenvolvedor** | Claro / Escuro | `digital-architect.aura.build`, `ai-automation-17.aura.build`, `creative-agency-template.aura.build` |
-| **Fotografia, Arte Visual, Museus** | Claro | `aris-photograph.aura.build`, `green-museum`, `imagenation.art` |
-| **Games, eSports, Jogos Mobile** | Escuro / Claro | `esports-tournament-96.aura.build`, `playverse.aura.build` |
-| **Efeitos de Vidro / Glassmorphism Puro** | Escuro / Claro | `glass-effect2`, `glass-green-effect` |
-| **Automotivo, Drones, Engenharia Mecânica** | Escuro / Claro | `volta-ev.aura.build`, `autonomous-drone-62.aura.build`, `aex.aura.build` |
-| **Educação, Cursos, Autoescola, Treinamentos** | Claro | `condor-landingpage.aura.build`, `agent.humanacademy`, `genlabs.aura.build` |
-
----
-
-## 🎨 Como Reutilizar os Tokens no Client Config
-
-Os tokens gerados pelo `design-system-selector.ts` já satisfazem diretamente o schema de `theme` em `src/clients/data/[slug].ts`:
-
-```typescript
-export default {
-  slug: "exemplo-cliente",
-  status: "draft",
-  business: { ... },
-  theme: {
-    primaryColor: "#262626",
-    secondaryColor: "#141414",
-    accentColor: "#e5e5e5",
-    backgroundColor: "#0a0a0a",
-    textColor: "#f8fafc",
-    headingFont: "Plus Jakarta Sans",
-    bodyFont: "Inter",
-    borderRadius: "none",
-    mode: "dark",
-    backgroundEffect: "prism",
-    enableParallax: true
-  },
-  pages: [ ... ]
-};
-```
+src/lib/design-systems.ts expõe queryDesignSystems e getDesignSystemTokens usando o mesmo motor da CLI. A consulta pode retornar []; a recomendação pode retornar null; os tokens também podem estar incompletos. O Builder deve consumir art-direction.json validado, adaptar o código dos componentes e customizar o hero quando necessário. A biblioteca não escolhe automaticamente uma página pronta para cada setor.

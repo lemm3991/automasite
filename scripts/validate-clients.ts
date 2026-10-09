@@ -1,7 +1,7 @@
 ﻿import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { ClientConfigSchema } from '../src/clients/schema';
+import { ClientConfigSchema } from '../src/clients/schema.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(__dirname, '../src/clients/data');

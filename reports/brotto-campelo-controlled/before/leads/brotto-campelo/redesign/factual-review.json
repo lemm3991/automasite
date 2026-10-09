@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "slug": "brotto-campelo",
+  "status": "approved",
+  "reviewedBy": "builder-agent",
+  "reviewedAt": "2026-10-09T13:18:02.862Z",
+  "textReviews": [
+    {
+      "id": "2870e87d69ba39603fffc0cc8235de680f7644113079a9b863df63aeb71d5f62",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: address-sede",
+      "factIds": [
+        "address-sede"
+      ]
+    },
+    {
+      "id": "5fa93334e3097b8afae125f835d7cce720a99a4f0a64c95c9ad34bd202ce2d31",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "a0f25aa8ba5007b4d367863492cb0f2f255d49a6e6ee1f1177cf323b66145a4b",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "f2f02221ae929267c2253cfc0f231bda6dc6414ed22f5ccbf17ab8a408d6b521",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: tagline-hero",
+      "factIds": [
+        "tagline-hero"
+      ]
+    },
+    {
+      "id": "383a6ff9c11a5707e394a4c45be1c4867d731648f8565b86901594fb6535b9fc",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "6777c08f40327b8031b766ae4302dffdf1892c9107cfe25e611f277c44306c9f",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "8458f8a05e324e4052373f5081379313938dbacb393dcdd258bfe80cff256ac5",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "0df13430f246450a11915dce93b5e472948323999f7ce8cbc71a0fccbb4776f0",
+      "kind": "visual",
+      "reason": "Legenda descritiva da fotografia dos sócios fundadores validada em asset-review.",
+      "assetPath": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg"
+    },
+    {
+      "id": "a86f80a0601ce8708efa342cf83a22605bdcc748903098f398e7e1d2ceac19ff",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "9c7abb0083d75ff5f9046ce05b98e8e949ca079a3386e44200fcb3d6445ae3e7",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "ba2e295641a448e2c36434a0cbdd69ded3d2540099d53a5e57f10fa83a2d0bf5",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "3bfb99f304d9d2327b04e58f56c304965868589dd7e939042b9317ae5193404a",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "dd17e3b1a4d2d4b655b6a9756c9cc51e484ba75ffc8ba2780f2e2a2a108ba837",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "9943c253948d93d941f5208acc8db573dd83744ec4153bec7fb3de5e49ba295e",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "19ef4e1aac84d28ff3cbb9b29bbe8252a0af62fce675177d68beaaf2d2890cb4",
+      "kind": "visual",
+      "reason": "Legenda descritiva de chancela/selo oficial Análise Advocacia 2025 validada em asset-review.",
+      "assetPath": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png"
+    },
+    {
+      "id": "414a2e49091da248c280c18381fe3a52ade4a4e248ea2040b47823f006daef14",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "9badb6fa740bae00df622c0b8f945d8dbc8c540b57f765327d571f7075b22baf",
+      "kind": "visual",
+      "reason": "Legenda descritiva de chancela/selo oficial Análise Advocacia Regional 2024 validada em asset-review.",
+      "assetPath": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg"
+    },
+    {
+      "id": "556de8c18a2fe30cdfde23ffc4da40b47492593277464f648897329556d1f2f8",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "9458b6f5af7526c5381ae2e0195cfbaae4700187c435e686490b965bec5da64a",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "323de82e41a88a67a4350bd0b79f797b16c5b55ac4a317a59e0cb3d5a16fc3d8",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "04ce8ee7eabed4bcc3f668adaec7500e8c59e7e1b6aa7e351132f981510f8893",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: phone-sede",
+      "factIds": [
+        "phone-sede"
+      ]
+    },
+    {
+      "id": "58098db6fa944a072f54f14c22dafd1971b9ee7f0a1d4a02eba3f9bcc319a4f8",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-empresarial",
+      "factIds": [
+        "service-empresarial"
+      ]
+    },
+    {
+      "id": "7bc27276ea2b06b3424ae0f425c286307310ab8ab32eb521157a989a93ac2eec",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "3d0554ab0e93babc2f85f783aaa01be3ab62dae5387df35310b9e875f98a4572",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "2e7c1b5030bbc35e48b7e3a089cc3aa84a32168e65f9ab64b90d67bd6e05e58f",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "9a710fb06eba02d9cd27a96e7ec9de6a3957ef617f1b70f29638809c374a903c",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: phone-sede",
+      "factIds": [
+        "phone-sede"
+      ]
+    },
+    {
+      "id": "1767e9cfbde27c5651c979f8b8b3de4f75127d94e98900b069b946e795cb3167",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-trabalho",
+      "factIds": [
+        "service-trabalho"
+      ]
+    },
+    {
+      "id": "54c75bf941405fdd3728f888b9da1cc61670aaeb8bf393175e0c0edd02c6d741",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "2f569be57f2c8eaffbbce64fbf3e1971767164cb6ae0ae16863cffe647275eb8",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "4d5f4b3924d486ce7a73dfdf67f9040b4264d68260a3c7a10612dc95279e1e01",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "003431539b7920f968f9d96e00ab43ea82686a577295a7f420b1cf3f0c4d991e",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "8e7ddc3e3e5a11a9a1fb519871a3ca0047fe17d3eec9d5ac43baab6b18bb4fd8",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-planejamento",
+      "factIds": [
+        "service-planejamento"
+      ]
+    },
+    {
+      "id": "2945cff89c53b7830be67cede3f99f6c9a19aab9f6a73133799c5431ec44136c",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "88de5edd35d3c6ec4bcf62c124d904f317a0792b2cb5a6042959c58b777db7af",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "87bc81bea2a7f56960427f26a563aa9ad3531ad747d15de837f873a9a9ffeae6",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "497758cc53ee64bfbb81f1f2fabe5ddc74dcbe4bd0405a79b842fce0aa7fcbff",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "d9f1e0b9cec4f1429adf86555880c04114c4d9f6305f06c132450297aa60fd90",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-propriedade-intelectual",
+      "factIds": [
+        "service-propriedade-intelectual"
+      ]
+    },
+    {
+      "id": "8658507cbf1b3601567e90704b9fbdc4479b377d381ffb564c10744605cf2c0e",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "4c70ccfea0f5d1d134080440553f38e9f738a847a6b84404d1ca5bcd93935e5d",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "fed7d6717e11547fe01b25a972b203d98d647581d84042f181267a125eb25b51",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "620b1b12a58144d0837a39a17f2da651d723d379c60cf3c37b15a24e28bc706f",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "a46ea36fa65a4a3daf157ea801e8c512a940dc35f6f589a7ee386200f2f9e59d",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-lgpd",
+      "factIds": [
+        "service-lgpd"
+      ]
+    },
+    {
+      "id": "a76a7833147e9f18b44dc55981e3fb57671fe9f12fed22db667ae53df1e15295",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "87f0075c16b85811aa6e41ef2549eb841f5eab820855bf02c8b7d2819845a14c",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "76d5f7158adaa0c930f6d89e9fec8ea4202ac9fd427618dea60d92d1921b4bf6",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "7c665ea1b8cfd07ad9ad425735cd17c882470519dfa4748ac84e0602f4153304",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "f76a8b20b719c8655e13e9ebddd82772f866ef92bce7f82bd97284aeb6138093",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-direito-digital",
+      "factIds": [
+        "service-direito-digital"
+      ]
+    },
+    {
+      "id": "2580b987d449d7f8e33bc06df437f09b2e25ce0bce3e43bd8af170a828b9f890",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "d31b0b55c1f2b388d5fb15b2ebbcd9cfce7f46a966a6f7ada3cc88da74141c4a",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "eb54f22a551ee2096fdde4fbad3418405616dc44686e1fe0d29c6fd72b884341",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "4afde76e32715e41b3bc80e22dc31175d83a034a47e8402835f7f7dfbd43983c",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "ad227ec4fc69e7d9d76e22d3f27d76d29049655bfecea2ba8922e34491e52d09",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-agronegocio",
+      "factIds": [
+        "service-agronegocio"
+      ]
+    },
+    {
+      "id": "ce4d326886d74dddf33b6f912fb1b294b6f503405170b3d712c100a1e304fac0",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "80561c0a3b1ccfd4319fb64f9d135cf529bd2d2b3ca0d8ea55133f10bd4c4796",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "aa23e4fcd52fd9d9cd77308e9b26a5ed49aa6e889226026e332e153d77ae4e6f",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "7c9d9741b1fc16695a860b4a213c886f8a1d48c0864dbca551375f23dc2bbf10",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "0bc50229a4af080fb7f2363ff2d01c3af9afb77148bb9d1f63f7ec8437c78a67",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: service-leiloes",
+      "factIds": [
+        "service-leiloes"
+      ]
+    },
+    {
+      "id": "5d288b9ab0694a5aada7219bb5d5cd02ffa090b155c7e92b47017bfa0fe2c36b",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "aefe209e3c5c9722b3124aa24d8e4b4cb6064127e221ae17992d78e8594559a5",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "954b9876af564c9f8af27aeae1d151dbf6bcd706701747b0efd77f8ad4cb746c",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "919aa9e56adf8fd4032d5a9c6ec61ccea36fd03f555a6fddd35985586c13b38f",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "7cd1ae26cbf574a1a58d31056e19d14490fe270f91bd12d5ea9c406eef73d4d3",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "2f5d365012084eb13511d00c6b0a24c4bf04f237e27c29f62b29fd6f2e6c2d7b",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "98ed71382d1c4fea1341e0ad6cd5c2b27998b15425795255c100c62c2e989d21",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: phone-sede",
+      "factIds": [
+        "phone-sede"
+      ]
+    },
+    {
+      "id": "4a8efb530ec8c0ab9ba605332013fe4ef60d0b1496907ae06ba44a17bf879ca8",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: pillar-inovacao",
+      "factIds": [
+        "pillar-inovacao"
+      ]
+    },
+    {
+      "id": "a319444007d054aadb98a8dd0e0d63f74cce50ea79a9ab9b48af60bb99938706",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "0664b9eac898e6bbbba5f9432d7863354b3c88d5e3ebbb490a54c9e3044824db",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: phone-sede",
+      "factIds": [
+        "phone-sede"
+      ]
+    },
+    {
+      "id": "bad1b7add32378252fec61c1d199d1d8d64cbc39d3fcb5dde546c86b26fd56c2",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: pillar-abordagem",
+      "factIds": [
+        "pillar-abordagem"
+      ]
+    },
+    {
+      "id": "5f1ba73c8432aa8c65ab69f0e8cb8dc91381df552d98785987d3613be27aa455",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "734bc494d651eff0462e26e318e276f58ffcf84eda40a28dfd069acebe6c56ef",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "de9cf2c60fc37d4c814f1862a69509bf7e026605c462c49a53f9b67837cd8743",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: pillar-facilitadores",
+      "factIds": [
+        "pillar-facilitadores"
+      ]
+    },
+    {
+      "id": "cffe851de20bdd04372dcbd1f6bffd31ea9b05103c53eb281e832ca01fbd2cb7",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "c491c8459ab86a6ca2515046a15f639680a7b2f563490f2f01a641cb68b58141",
+      "kind": "visual",
+      "reason": "Legenda descritiva da fotografia da sede do escritório validada em asset-review.",
+      "assetPath": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg"
+    },
+    {
+      "id": "5348881dae6f96991cb115cbc733f0faace437365abea7fbe0d5ee2108991480",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "3f751c267dc6494c165b1ee238e47d2b3ed8ba872f29bcabda01482ce16cee6b",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "fe9b461af42a78db12dbf6b99e3f4c03f5e38ca24350863cb750ee36867ac218",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "6a1787f9abc0cd9aa723e0a6144f8b5e1b48118d89fb9d385cd06d06bc65f494",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "c81056a59387ee21103d8c3d3c4afc41bc0e5ce709996a146cc4df10ec0f8430",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "8df7a2300e00161533c06abf4d3d8cffd1bfe9cd1911fb93a326f4636083fb58",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: address-sede",
+      "factIds": [
+        "address-sede"
+      ]
+    },
+    {
+      "id": "2a63b926fda2ab3d63eebf13aaba9064bf39947f48796f58866c63a11be364d3",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "49fdd8af7f8935cc7bc1f0f58ef0889c51dcf3e7ed7b54d54e49d7c45a8db8d8",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "92f5f1136918a22ed73e4b5f80404cd3150794e3cfd6e9cbadafe2bf103f1a39",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: phone-sede",
+      "factIds": [
+        "phone-sede"
+      ]
+    },
+    {
+      "id": "87730548d101d3aeefdf86712e0b42cbb5818eb014f741ba0b462078985e2693",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "65cdbb2c44836bbfd3303cb073afd4c03b3f7a00cf841eecd9251fc7db92672f",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "e096cb4660a0bb37a734e2515deebd47cc6ca73a8eb13e76f0dc9123310d93f2",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: email-sede",
+      "factIds": [
+        "email-sede"
+      ]
+    },
+    {
+      "id": "1f7461e200d2e4209fa85f0c6faee9a6f47c276bd5afee6e7066052afa839b6e",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "892823b3ec39d5be4b74c1197bfb0d8d631d13ee0ad06c4da356b5e76fe6cf9d",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "d15895e5c41ca6508fd1459302603e194dedfb2f03d6c70280653efd4cc8f302",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "69b4c7148ee526096ea070ad5aaed988d5a2582e99b250e446444a060c847314",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "54901e7dd57e70c57b8d17bea80dde8cfc9295e4589432908008a722d987d404",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: phone-sede",
+      "factIds": [
+        "phone-sede"
+      ]
+    },
+    {
+      "id": "7fd6ee67049e0596147505918361e2e05223bdd5c7f1e0dff153232bc954b735",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "c1de8d27c7e981a647fb511e9b8c7785e85d00445e0ee21802e432bc31f5ea16",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: email-sede",
+      "factIds": [
+        "email-sede"
+      ]
+    },
+    {
+      "id": "8db8684c525494a7d480dd9cff1d9eb9b55866d3d6c536cb395a5bb1bfe2ccc0",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "9b5ccbadd4dae1b686cd0b313565e1e080dd5e42018cb0624be8a1e7ced37102",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: address-sede",
+      "factIds": [
+        "address-sede"
+      ]
+    },
+    {
+      "id": "e0164f4ec816648141fd49537d4472775375c316a0c6107b3f62c5be16ceb2e8",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "760bdacb26622b8c2c044e13cae3356b9839ceb0eff7338c5ffad15b0a967ba6",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    },
+    {
+      "id": "483b9c9974a9128f70a08bbd5f66ed2da332d6215c95d7a623554448dad752e8",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: company-name",
+      "factIds": [
+        "company-name"
+      ]
+    },
+    {
+      "id": "bdfe35d83f1920e50d0b69a4b979933cf5863ab372950f1b525cc5c46103ae53",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "8bca8445d2a0797787e5caa8449aff62471b2f6d54d2bd83e84b0aa00f024e0e",
+      "kind": "editorial",
+      "reason": "Texto descritivo editorial contextualmente alinhado à apresentação jurídica."
+    },
+    {
+      "id": "aacb66353b1c33305d162bd71dcdbd27758855370de943437fe38787197951d1",
+      "kind": "factual",
+      "reason": "Texto literal correspondente ao fato verificado: address-sede",
+      "factIds": [
+        "address-sede"
+      ]
+    },
+    {
+      "id": "1db03bfcde1f96cdeae1fe689824cf6206f4e9555fb101fcd38763a893ad17f9",
+      "kind": "interface",
+      "reason": "Botão ou ação de navegação e atendimento institucional."
+    }
+  ]
+}

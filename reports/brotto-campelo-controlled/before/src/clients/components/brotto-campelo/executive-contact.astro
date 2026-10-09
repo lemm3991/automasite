@@ -1,0 +1,77 @@
+---
+import './legal.css';
+
+interface Props {
+  content?: {
+    title?: string;
+  };
+}
+
+const { content } = Astro.props;
+const title = content?.title || "Atendimento & Consulta Jurídica Especializada";
+---
+
+<section id="contato" class="w-full bg-[#f8fafc] py-14 md:py-20 px-4 md:px-8 border-b border-gray-100">
+  <div class="max-w-4xl mx-auto text-center flex flex-col items-center">
+    <span class="text-xs font-semibold uppercase tracking-widest text-[#e06020] mb-2 block">
+      Agendamento Executivo
+    </span>
+    <h2 class="text-2xl sm:text-3xl md:text-4xl font-normal text-[#111827] mb-4" style="font-family: 'Playfair Display', serif;">
+      {title}
+    </h2>
+    <p class="text-xs md:text-sm text-gray-600 max-w-xl mx-auto mb-8 font-light leading-relaxed">
+      Nossos especialistas estão prontos para avaliar o contexto jurídico da sua empresa e propor soluções estratégicas seguras.
+    </p>
+
+    <!-- Cartao de canais oficiais -->
+    <div class="w-full max-w-2xl bg-white p-6 md:p-8 rounded-2xl border border-gray-200 shadow-xs mb-8 text-left">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Telefone da Sede</p>
+          <p class="text-sm font-semibold text-gray-900">
+            <span>41 3026-8001</span>
+          </p>
+        </div>
+        <div>
+          <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">E-mail Corporativo</p>
+          <p class="text-sm font-semibold text-gray-900">contato@brottocampelo.adv.br</p>
+        </div>
+        <div class="md:col-span-2 pt-4 border-t border-gray-100">
+          <p class="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Localização</p>
+          <p class="text-xs md:text-sm font-semibold text-gray-900">Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botoes de Acao Direta -->
+    <div class="flex flex-wrap items-center justify-center gap-4 w-full">
+      <a
+        href="https://wa.me/554130268001"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center justify-center px-8 py-4 text-xs md:text-sm font-semibold uppercase tracking-wider text-white bg-[#0693e3] rounded-full shadow-sm hover:bg-blue-600 transition-all"
+      >
+        <span>Falar com Advogado via WhatsApp</span>
+      </a>
+      <a
+        href="tel:+554130268001"
+        class="inline-flex items-center justify-center px-6 py-4 text-xs md:text-sm font-medium uppercase tracking-wider text-[#32373c] border border-gray-300 rounded-full hover:bg-white transition-all"
+      >
+        <span>Ligar para a Sede</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="w-full bg-[#111827] text-white py-8 px-4 md:px-8 border-t border-gray-800 text-center text-xs font-light text-gray-400">
+  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <span class="font-medium text-white">Brotto Campelo Advogados</span>
+      <span>•</span>
+      <span>Curitiba/PR</span>
+    </div>
+    <div>
+      <span>Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR</span>
+    </div>
+  </div>
+</footer>

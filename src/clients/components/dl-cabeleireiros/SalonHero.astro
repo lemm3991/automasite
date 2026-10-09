@@ -1,0 +1,8 @@
+---
+const { content } = Astro.props;
+---
+<section id="dl-hero" class="dl-hero dl-wrap" data-hero-type="photo-left-editorial-split" data-surface-rhythm="cream-menu-photo-green" data-card-treatment="open-lines">
+  <div class="dl-hero-copy"><p class="dl-eyebrow">{content.eyebrow}</p><h1>Um espaço para o seu <em>estilo.</em></h1></div>
+  <figure class="dl-photo"><img src={content.image} alt={content.imageAlt} width="768" height="956" fetchpriority="high" /><figcaption>{content.caption}</figcaption><span class="dl-photo-frame" aria-hidden="true"></span></figure>
+  <div class="dl-hero-action"><p class="dl-intro">{content.description}</p><a href="#unidades" class="dl-button">Escolher unidade e agendar <span aria-hidden="true">↗</span></a><a class="dl-text-link" href="#servicos">Conheça nossos serviços <span aria-hidden="true">↓</span></a></div>
+</section>

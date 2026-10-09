@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 2,
+  "slug": "brotto-campelo",
+  "status": "READY_FOR_DEMO",
+  "generatedAt": "2026-10-09T19:56:15.874Z",
+  "passed": true,
+  "errors": [],
+  "priorities": [
+    "Personalização e adequação ao cliente/ramo",
+    "Primeira dobra e qualidade visual",
+    "Identidade, conteúdo e assets reais",
+    "Fidelidade ao 2A",
+    "Responsividade/build",
+    "Integrações posteriores"
+  ],
+  "implementation": {
+    "planPath": "leads/brotto-campelo/redesign/implementation-plan.json",
+    "components": [
+      {
+        "id": "hero",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/executive-hero.astro",
+        "reason": "Split executivo em duas colunas com contraste nítido, tipografia Playfair Display e retrato dos sócios-fundadores."
+      },
+      {
+        "id": "awards",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/awards-bar.astro",
+        "reason": "Faixa compacta com três selos autênticos, histórico nacional/regional e linhas de alinhamento, sem cartões aninhados."
+      },
+      {
+        "id": "services",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/practice-grid.astro",
+        "reason": "Diretório aberto das 12 áreas documentadas, com atuação imobiliária e registral em destaque e links reais para as páginas originais."
+      },
+      {
+        "id": "pillars",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/firm-pillars.astro",
+        "reason": "Três princípios originais em colunas abertas sobre grafite, sem cartões fechados."
+      },
+      {
+        "id": "headquarters",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/headquarters-showcase.astro",
+        "reason": "Composição assimétrica destacando a fotografia arquitetônica da sede em Curitiba com informações de localização."
+      },
+      {
+        "id": "cta",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/executive-contact.astro",
+        "reason": "Bloco de contato executivo com canais diretos (telefone fixo, e-mail institucional e WhatsApp)."
+      }
+    ],
+    "referenceApplications": [
+      {
+        "referenceId": "ai-saas-landing-27.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/brotto-campelo/executive-hero.astro",
+        "codeExcerpt": "font-family: 'Playfair Display', serif;",
+        "explanation": "Contribuição tipográfica parcial; não comprova composição forte.",
+        "renderCheck": {
+          "selector": "#bca-hero h1"
+        }
+      },
+      {
+        "referenceId": "architecture-studio.aura.build",
+        "sectionId": "awards",
+        "codePath": "src/clients/components/brotto-campelo/awards-bar.astro",
+        "codeExcerpt": "class=\"bca-awards-rail\"",
+        "explanation": "Faixa aberta de selos alinhados por linhas discretas, sem recipientes sobrepostos.",
+        "renderCheck": {
+          "selector": ".bca-awards-rail",
+          "minColumns": 3
+        }
+      }
+    ],
+    "previousFingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "hero",
+        "credentials",
+        "services",
+        "benefits",
+        "showcase",
+        "cta"
+      ],
+      "imageStrategy": [],
+      "gridStrategy": [
+        "1",
+        "2",
+        "3"
+      ],
+      "backgroundTreatment": [
+        "light",
+        "none",
+        "generous-executive"
+      ],
+      "cardTreatment": "minimal-editorial",
+      "typography": [
+        "Playfair Display",
+        "Inter"
+      ],
+      "motion": "none",
+      "rhythm": "generous-executive",
+      "ctaStyle": "pill",
+      "selectedVariants": [
+        {
+          "variant": "executive-hero",
+          "file": "src/clients/components/brotto-campelo/executive-hero.astro",
+          "sha256": "98cd4c001ad7189e0b861f7e0f89e4969db33bb516a5b4005660a4122331eea7"
+        },
+        {
+          "variant": "awards-bar",
+          "file": "src/clients/components/brotto-campelo/awards-bar.astro",
+          "sha256": "9363d85e7243d34f068567808497fcd90cd2c4ce86d00af9966675c13b9ac77d"
+        },
+        {
+          "variant": "practice-grid",
+          "file": "src/clients/components/brotto-campelo/practice-grid.astro",
+          "sha256": "66f2e8b49dbee90702c3ad9a46041cf625a9fcc42cb9141b27222491d366fa25"
+        },
+        {
+          "variant": "firm-pillars",
+          "file": "src/clients/components/brotto-campelo/firm-pillars.astro",
+          "sha256": "d722d09d8c34e3e71d34e0ea07002de0f6fdd410847c1e421eb1b73505903c58"
+        },
+        {
+          "variant": "headquarters-showcase",
+          "file": "src/clients/components/brotto-campelo/headquarters-showcase.astro",
+          "sha256": "fcc6396ec33474b7ba7d5c1d6591124531a3d857988935aa171c46da0cfd5528"
+        },
+        {
+          "variant": "executive-contact",
+          "file": "src/clients/components/brotto-campelo/executive-contact.astro",
+          "sha256": "c0aa9acb82f2a37634f03e945934be2a200e0f6cd0a1db43703576038626ffdc"
+        }
+      ]
+    },
+    "fingerprint": {
+      "heroType": "unknown",
+      "sectionOrder": [
+        "hero",
+        "credentials",
+        "services",
+        "benefits",
+        "showcase",
+        "cta"
+      ],
+      "imageStrategy": [],
+      "gridStrategy": [
+        "1",
+        "2"
+      ],
+      "backgroundTreatment": [
+        "light",
+        "none",
+        "portrait-compact-awards-open-directory"
+      ],
+      "cardTreatment": "open-ruled-sections",
+      "typography": [
+        "Playfair Display",
+        "Inter"
+      ],
+      "motion": "local-reduced-motion",
+      "rhythm": "portrait-compact-awards-open-directory",
+      "ctaStyle": "unknown",
+      "selectedVariants": [
+        {
+          "variant": "executive-hero",
+          "file": "src/clients/components/brotto-campelo/executive-hero.astro",
+          "sha256": "1a886e881018be3dcedc1a3be8404e253777dd09a370cce9e8e951c27a91547f"
+        },
+        {
+          "variant": "awards-bar",
+          "file": "src/clients/components/brotto-campelo/awards-bar.astro",
+          "sha256": "a1839cd15f4f8b596a6156c152ed9eefb03369bd319b4e35b470f8ac0afb5b78"
+        },
+        {
+          "variant": "practice-grid",
+          "file": "src/clients/components/brotto-campelo/practice-grid.astro",
+          "sha256": "1b6368d153eaf26833f55c89c3f86e4b98a28c9006c330e5278fe75c36b79ff2"
+        },
+        {
+          "variant": "firm-pillars",
+          "file": "src/clients/components/brotto-campelo/firm-pillars.astro",
+          "sha256": "8121623b730a55f2a5a634d09b0d8fdd4343b1dc4b754569d197c1ddf2a425e9"
+        },
+        {
+          "variant": "headquarters-showcase",
+          "file": "src/clients/components/brotto-campelo/headquarters-showcase.astro",
+          "sha256": "e39f4d6711a41cb8e370a7d3d968c8a21ffd4e6cec3b905dfac0c00366182cd7"
+        },
+        {
+          "variant": "executive-contact",
+          "file": "src/clients/components/brotto-campelo/executive-contact.astro",
+          "sha256": "a45f52038e6dc1993f664f2609cbfcccdf9105c62cecb91bb072d021e3813a20"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "slug": "cadas-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 23,
+        "knownDimensions": 5,
+        "dimensions": {
+          "heroType": null,
+          "sectionOrder": 0.3333333333333333,
+          "imageStrategy": null,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "delta-pan",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 29,
+        "knownDimensions": 5,
+        "dimensions": {
+          "heroType": null,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": null,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "dl-cabeleireiros",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 50,
+        "knownDimensions": 6,
+        "dimensions": {
+          "heroType": null,
+          "sectionOrder": 0.5,
+          "imageStrategy": null,
+          "gridStrategy": 1,
+          "backgroundTreatment": 0.5,
+          "cardTreatment": 0,
+          "typography": 1,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "iorc-odontologia",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 43,
+        "knownDimensions": 6,
+        "dimensions": {
+          "heroType": null,
+          "sectionOrder": 0.5714285714285714,
+          "imageStrategy": null,
+          "gridStrategy": 1,
+          "backgroundTreatment": 0.5,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "juliana-pippi-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 27,
+        "knownDimensions": 5,
+        "dimensions": {
+          "heroType": null,
+          "sectionOrder": 0.3333333333333333,
+          "imageStrategy": null,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 26,
+        "knownDimensions": 6,
+        "dimensions": {
+          "heroType": null,
+          "sectionOrder": 0.375,
+          "imageStrategy": null,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      }
+    ]
+  },
+  "evidence": {
+    "build": "leads/brotto-campelo/redesign/build-evidence.json",
+    "render": "leads/brotto-campelo/redesign/render-evidence.json",
+    "visualReview": "leads/brotto-campelo/redesign/visual-review.json"
+  },
+  "renderValidation": {
+    "schemaVersion": 1,
+    "kind": "Render Validation",
+    "slug": "brotto-campelo",
+    "checkedAt": "2026-10-09T19:56:15.552Z",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "inspected": [
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c"
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "width": 1440,
+        "height": 3193,
+        "sha256": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42"
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a"
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png",
+        "width": 390,
+        "height": 3960,
+        "sha256": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a"
+      }
+    ],
+    "visualAssessment": "requires_image_review",
+    "visualQualityScore": null,
+    "regressions": null,
+    "limitations": [
+      "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+      "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+    ]
+  },
+  "qualitativeReview": "approved",
+  "referenceClassifications": [
+    {
+      "referenceId": "luxury-real-estate-22.aura.build",
+      "classification": "NOT_MATERIALIZED",
+      "benefit": "Não há benefício visual que possa ser atribuído de forma defensável a esta referência na composição final.",
+      "limitations": "O HTML consultado usa hero fotográfico de tela inteira com busca em vidro, navegação centralizada e rail de imóveis. Esses padrões não aparecem. Scroll suave é comportamento genérico e não sustenta materialização."
+    },
+    {
+      "referenceId": "architecture-studio.aura.build",
+      "sectionId": "awards",
+      "classification": "PARTIAL",
+      "benefit": "A faixa de selos usa contenção linear para organizar credenciais sem caixas pesadas; a divisória separa texto e imagens no desktop e vira linha horizontal no mobile. Há correspondência parcial com os alinhamentos e faixas de marcas do HTML de referência.",
+      "limitations": "A adaptação é restrita à faixa: não reproduz o sistema de linhas verticais do canvas, as escalas editoriais extremas ou os enquadramentos de projetos. Borda e grid são recursos comuns; não constituem uma influência forte nem provam originalidade.",
+      "patterns": [
+        {
+          "kind": "framing",
+          "finding": "Divisória e alinhamento horizontal transformam os três selos reais em uma faixa compacta de credibilidade.",
+          "evidencePaths": [
+            "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+            "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "ai-saas-landing-27.aura.build",
+      "sectionId": "hero",
+      "classification": "SUPERFICIAL",
+      "benefit": "Playfair Display materializada no hero e nos títulos dá um tom editorial legível e apropriado à apresentação jurídica.",
+      "limitations": "A fonte é a contribuição comprovável. O hero centralizado, gradientes, palavra animada, bento e camadas em vidro da referência não foram materializados. Tipografia isolada é uma influência cosmética, não uma tradução composicional forte."
+    }
+  ],
+  "perceivedComparisons": [
+    {
+      "slug": "iorc-odontologia",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 30,
+      "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+      "conclusion": "Existe parentesco de estrutura comercial ampla, mas a impressão visual é distinta. O retrato editorial, os títulos serifados, os frisos laranja e o diretório aberto de Brotto não repetem a composição clínica do IORC.",
+      "observations": {
+        "hero": "Ambos dividem texto à esquerda e foto à direita no desktop. IORC tem subtítulo longo, prova em três itens e fotografia horizontal; Brotto tem título curto e retrato vertical dominante.",
+        "placement": "No mobile IORC coloca texto, dois CTAs e provas antes da foto, que só começa perto do fim da dobra. Brotto apresenta a foto logo após o título, com CTA ainda na primeira dobra.",
+        "badges": "IORC usa cápsula de CRO, números de estrutura e pequenos blocos. Brotto usa assinatura aberta e três selos autênticos na seção seguinte, sem badge flutuante no retrato.",
+        "order": "IORC segue hero, métricas, tratamentos, tecnologia, infraestrutura, unidades e CTA. Brotto segue hero, reconhecimentos, áreas, pilares, sede e contato.",
+        "grids": "IORC trabalha cards de quatro métricas e três colunas de tratamentos/unidades. Brotto usa diretório aberto de duas colunas e três colunas de princípios.",
+        "rhythm": "IORC tem módulos repetidos de cards claros e maior extensão; Brotto intercala faixa curta, lista ampla e uma interrupção grafite.",
+        "images": "IORC mostra atendimento clínico, retratos temáticos e unidade; Brotto concentra sócios e fachada arquitetônica com legenda externa.",
+        "backgrounds": "IORC alterna branco e azul muito claro com encerramento azul petróleo; Brotto usa papel quente, branco e bloco grafite.",
+        "cards": "IORC usa bordas arredondadas, sombras e cards internos. Brotto organiza a maior parte do conteúdo com linhas abertas e sem caixas.",
+        "typography": "IORC usa títulos sans pesados em azul; Brotto usa serif regular grafite e textos auxiliares sans.",
+        "cta": "IORC usa pílulas e destaque do contato da matriz. Brotto usa retângulos grafite com friso laranja e links sublinhados. Ambos possuem WhatsApp flutuante verde."
+      },
+      "similarities": [
+        "Hero desktop em duas colunas e CTA principal mais secundário.",
+        "Contato flutuante verde e encerramento voltado à conversa."
+      ],
+      "differences": [
+        "Ordem mobile antecipa foto e reduz copy.",
+        "Tipografia, forma dos botões, tratamento de cards e ritmo de seções distintos.",
+        "Conteúdo visual específico dos sócios e dos reconhecimentos jurídicos."
+      ],
+      "limitations": [],
+      "screenshotHashes": {
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+        "leads/iorc-odontologia/redesign/screenshots/home-desktop.png": "9f4551f1d6926eb301ef5ac366aee69fb64279ff19a21a5d054dfcdb5be4cc64",
+        "leads/iorc-odontologia/redesign/screenshots/home-mobile.png": "9e5333bcb661f930add03fe891de13086471b68e8306a7698af7376986f5f9b2",
+        "leads/iorc-odontologia/redesign/screenshots/home-desktop-full.png": "f294a5a45e40cf2557a2afb89db71df1764fb6ae02d591fd14dd410a9dbd3ce0",
+        "leads/iorc-odontologia/redesign/screenshots/home-mobile-full.png": "3a22eaab1efde710df4294c258e80cfc9eb8a028d546276401e280473456d4a8"
+      }
+    },
+    {
+      "slug": "dl-cabeleireiros",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 60,
+      "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+      "conclusion": "É o comparador visual mais próximo. Há uma linguagem editorial compartilhada perceptível, sobretudo no mobile e no diretório. A identidade e a hierarquia de conteúdo de Brotto ainda são reconhecíveis, mas não se deve alegar composição inteiramente inédita.",
+      "observations": {
+        "hero": "D&L tem arco fotográfico à esquerda e título à direita; Brotto inverte a posição com retrato retangular à direita e título à esquerda.",
+        "placement": "No mobile ambos usam cabeçalho com contato, assinatura, título serifado, foto, apoio curto, botão largo e link secundário. Essa sequência cria semelhança significativa.",
+        "badges": "Nenhum usa badge flutuante como centro do hero. D&L incorpora legenda na foto; Brotto a coloca abaixo e acrescenta uma faixa de premiações após o hero.",
+        "order": "D&L segue hero, serviços, ambiente e unidades. Brotto insere reconhecimentos antes das áreas, depois pilares, sede e contato. A extensão e o papel das seções diferem.",
+        "grids": "Os dois usam serviços em duas colunas de linhas abertas no desktop e lista única no mobile. Brotto diferencia quatro áreas imobiliárias/registral e oito áreas sans; D&L mantém numeração e sinal de expansão.",
+        "rhythm": "Ambos dão respiro aos títulos e usam divisórias finas. Brotto acrescenta faixa branca compacta e bloco de princípios grafite; D&L tem fotos em arcos e unidades em bloco verde.",
+        "images": "D&L usa ambiente e dupla de fotos de cabelo com recortes arredondados. Brotto usa retrato retangular dos sócios e uma sede monocromática.",
+        "backgrounds": "Ambos têm fundo quente claro; D&L privilegia verde escuro e dourado, Brotto grafite e laranja do logo.",
+        "cards": "Ambos evitam caixas fechadas nas listas. Brotto também evita molduras em arco e separa princípios por linhas superiores.",
+        "typography": "Títulos serifados regulares e corpo sans próximos em sensação. D&L usa palavra em itálico no hero e maior escala desktop; Brotto tem título factual reto e mais contido.",
+        "cta": "Botões retangulares com seta e link secundário sublinhado são próximos. Brotto adiciona friso inferior laranja e um destino de contato único; D&L pede escolha de unidade."
+      },
+      "similarities": [
+        "Sequência do hero mobile quase equivalente.",
+        "Fundo quente, títulos serifados, corpo sans e diretório com linhas.",
+        "Botão retangular com seta e link secundário sublinhado."
+      ],
+      "differences": [
+        "Foto desktop no lado oposto e recorte retangular versus arco.",
+        "Premiações, bloco grafite de princípios e hierarquia das áreas jurídicas.",
+        "Logo, laranja institucional, retratos reais e fachada própria distinguem o cliente."
+      ],
+      "limitations": [],
+      "screenshotHashes": {
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png": "22bf3a4fc45411c371a57665e27095ad32399b23076fc659c8020eca593a9a1e",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png": "cfb79369889f008ed46852a79a5f7f97f17ba72f15ba2747ef5723e65ce123cd",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png": "76712beec7a30044da79fe812d9ca8062e30ddb3725ab1528425a686a749dfec",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png": "b5d8c7b23abb2065273bd76e1379cc0ffcf1a196c31e58743417939b0a27ecc6"
+      }
+    },
+    {
+      "slug": "delta-pan",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 20,
+      "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+      "conclusion": "As primeiras dobras têm o padrão amplo texto/foto no desktop, porém comunicam universos visuais distintos. Não há base para afirmar semelhança da sequência completa, pois esse comparador só dispõe de capturas da dobra.",
+      "observations": {
+        "hero": "Delta Pan tem headline sans longa sobre fundo preto pontilhado e painel técnico de produto; Brotto usa mensagem serifada curta em fundo quente e retrato humano.",
+        "placement": "Texto à esquerda/imagem à direita coincide no desktop. No mobile Delta Pan mostra texto, CTAs e prova técnica antes da imagem; Brotto antecipa a foto.",
+        "badges": "Delta Pan tem cápsula industrial laranja e cartão de prova 100% Grau Alimentício; Brotto usa assinatura textual aberta e nenhum badge no retrato.",
+        "order": "Observável apenas na dobra: Delta Pan encadeia mensagem, apoio, dois CTAs e prova de material. A ordem das seções restantes não foi estimada sem capturas completas.",
+        "grids": "Split de duas colunas aparece no desktop dos dois; os grids de conteúdo posteriores da Delta Pan não puderam ser comparados visualmente.",
+        "rhythm": "Delta Pan concentra headline e copy longa em uma dobra densa; Brotto tem retrato mais alto, copy curta e início da faixa de selos.",
+        "images": "Painel técnico de forma/assadeira em Delta Pan versus fotografia real dos sócios em Brotto.",
+        "backgrounds": "Preto pontilhado e brilho laranja industrial em Delta Pan; papel claro liso e frisos discretos em Brotto.",
+        "cards": "Painel arredondado duplo e caixa de prova técnica em Delta Pan; foto sem cartão e ações abertas em Brotto. Nada afirmado sobre cards abaixo da dobra.",
+        "typography": "Sans pesada de grande escala e termos técnicos em Delta Pan; serif regular e tom institucional em Brotto.",
+        "cta": "Delta Pan usa botão laranja arredondado em maiúsculas e secundário contornado; Brotto botão grafite retangular e link sublinhado. WhatsApp verde é elemento comum."
+      },
+      "similarities": [
+        "Divisão desktop em texto à esquerda e imagem à direita.",
+        "Duas ações principais e contato flutuante verde."
+      ],
+      "differences": [
+        "Tema escuro industrial versus claro jurídico.",
+        "Retrato humano e título serifado versus painel técnico e headline sans.",
+        "Foto antecipada no mobile de Brotto."
+      ],
+      "limitations": [
+        "Somente home-desktop.png e home-mobile.png existem para Delta Pan; comparação perceptiva restrita à primeira dobra. Nenhum outro lead foi recapturado ou alterado."
+      ],
+      "screenshotHashes": {
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+        "leads/delta-pan/redesign/screenshots/home-desktop.png": "7a1bc6b79ca2a72dab38033312daad5b8f42d2d98076d76fe833ac48ef7f8eed",
+        "leads/delta-pan/redesign/screenshots/home-mobile.png": "e7c378cea690fd24bda5c3b4f71e5034c473d05f69b84c37895284e48b396077"
+      }
+    },
+    {
+      "slug": "metalurgica-sao-jorge",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 35,
+      "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+      "conclusion": "Há parentesco no uso de enquadramento linear, botão retangular e foto à direita no desktop. O tema técnico escuro, a sans pesada e a organização tabular da São Jorge produzem impressão bastante diferente.",
+      "observations": {
+        "hero": "Ambos usam split desktop, foto real e linhas de enquadramento. São Jorge tem painel técnico com rótulos e cantos vermelhos; Brotto usa retrato editorial sem painel.",
+        "placement": "São Jorge põe apoio antes da foto no mobile, depois CTA. Brotto coloca foto imediatamente após o título e apoio depois, mantendo contato na dobra.",
+        "badges": "São Jorge usa marcador quadrado, rótulos técnicos e métricas 3m/2m/50+. Brotto usa traço laranja, assinatura e selos após o hero.",
+        "order": "São Jorge apresenta capacidades, história, materiais, portfólio e formulário. Brotto apresenta reconhecimentos, áreas, pilares, sede e contatos diretos.",
+        "grids": "São Jorge usa tabela de capacidades e portfólio em três imagens; Brotto usa lista jurídica em duas colunas, três princípios e sede em split.",
+        "rhythm": "São Jorge alterna grande bloco claro de tabela com várias faixas escuras e portfólio. Brotto permanece predominantemente claro com um único bloco grafite intermediário.",
+        "images": "Ação industrial e detalhes metálicos em São Jorge versus sócios, selos e edifício em Brotto.",
+        "backgrounds": "Azul quase preto com acento vermelho domina São Jorge; branco quente e laranja dominam Brotto.",
+        "cards": "Ambos usam linhas e pouca sombra. São Jorge mantém painel técnico e formulário encaixado; Brotto prefere fotografia aberta e contato sem formulário.",
+        "typography": "São Jorge tem sans pesada com rótulos monoespaçados; Brotto tem serif regular e assinatura sans pequena.",
+        "cta": "Retângulo e seta são comuns. São Jorge destaca vermelho com solicitação de orçamento e formulário; Brotto usa grafite/friso laranja para conversa."
+      },
+      "similarities": [
+        "Hero desktop em duas colunas e fotografia real.",
+        "Linhas de enquadramento, retângulo com seta e WhatsApp flutuante."
+      ],
+      "differences": [
+        "Tipografia e campos de cor muito diferentes.",
+        "Diretório jurídico e selos em vez de tabela técnica e métricas.",
+        "Contato direto em vez de formulário de orçamento."
+      ],
+      "limitations": [],
+      "screenshotHashes": {
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png": "4947f520c1cb373666cfe9ffab3016468401de99d8ade16aa09679e66088cc18",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png": "a2ef4e5f6c85e9046f6327671c943d6e2b55728a6fde861010ad6d338612e570",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png": "12894338af2f52af358cb15c269a4eae987b5a6c07e0a1d788a63cf7587bb663",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png": "087cb9aa5fcd7cdd595c070c265075e3ec4cda16216a42863f0ad84ebad7f453"
+      }
+    }
+  ],
+  "removedUnsupportedClaims": [
+    "assembleias societárias e conferências internacionais",
+    "contratos de software e SaaS, inteligência artificial",
+    "operações de crédito rural (CPR)"
+  ],
+  "reviewedAbsentClaims": [],
+  "upstreamCorrections": [
+    "Logo descrito corretamente como laranja",
+    "Preset WordPress não é identidade institucional",
+    "12 áreas documentadas recuperadas",
+    "Referências terão classificação graduada sem exigir 3/3 artificiais"
+  ],
+  "productionPending": [],
+  "limitations": [
+    "O gate verifica rastreabilidade e atualidade; o julgamento estético e factual depende da inspeção registrada pelo agente.",
+    "Prontidão da demonstração não comprova desempenho comercial, produção ou envio ao cliente."
+  ]
+}

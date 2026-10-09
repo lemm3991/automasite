@@ -2,13 +2,18 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { spawnSync } from 'child_process';
-import { ClientConfigSchema } from '../src/clients/schema';
+import { ClientConfigSchema } from '../src/clients/schema.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 const leadsDir = path.join(rootDir, 'leads');
 const clientDataDir = path.join(rootDir, 'src/clients/data');
+const stopAfterBuilder = process.argv.includes('--stop-after-builder');
+function runStep(script: string, args: string[]) {
+  const result = spawnSync(process.execPath, [script, ...args], {cwd:rootDir, stdio:'inherit'});
+  if (result.error || result.status !== 0) throw new Error(`${path.basename(script)} falhou (código ${result.status}): ${result.error?.message || 'corrigir a etapa antes de avançar'}`);
+}
 
 interface LeadEntry {
   slug: string;
@@ -41,12 +46,16 @@ async function runTop5Pipeline() {
   // Executar auditoria visual em todas as empresas candidatas (até 15)
   for (const folder of leadFolders) {
     if (fs.existsSync(visualAuditorScript)) {
-      spawnSync('node', [visualAuditorScript, folder], { stdio: 'ignore' });
+      // Preserve an existing baseline/2A handoff instead of overwriting it on resume.
+      if (!fs.existsSync(path.join(leadsDir,folder,'visual/visual-handoff.json'))) {
+        try { runStep(visualAuditorScript,[folder]); } catch(error) { console.warn(String(error)); }
+      }
     }
   }
 
   // 2. CONSOLIDAÇÃO DE SCORES & CÁLCULO DA CHANCE DE CONVERSÃO
   const candidates: LeadEntry[] = [];
+  const pending: {slug:string;status:string;reason:string}[] = [];
 
   for (const folder of leadFolders) {
     const jsonPath = path.join(leadsDir, folder, 'lead.json');
@@ -59,17 +68,24 @@ async function runTop5Pipeline() {
           handoff = JSON.parse(fs.readFileSync(handoffPath, 'utf8'));
         }
 
-        const prospectorScore = data.scores?.opportunity || 0;
-        const visualOppScore = data.scores?.redesign_opportunity || prospectorScore;
-        const businessScore = data.scores?.business || 8.0;
-        const gateApproved = handoff?.gateCheck?.status === 'APROVADO_PARA_BUILDER';
+        const prospectorScore = Number.isFinite(data.scores?.opportunity) ? data.scores.opportunity * 10 : null;
+        if (prospectorScore === null) continue;
+        const originalReviewPath = path.join(leadsDir,folder,'visual/original-review.json');
+        const originalReview = fs.existsSync(originalReviewPath) ? JSON.parse(fs.readFileSync(originalReviewPath,'utf8')) : null;
+        const visualOppScore = originalReview?.redesignOpportunityScore;
+        const businessScore = data.scores?.business;
+        const gateApproved = handoff?.schemaVersion === 3 && handoff?.status === 'READY_FOR_BUILDER';
+        if (!gateApproved || !Number.isFinite(businessScore) || !Number.isFinite(visualOppScore)) {
+          pending.push({slug:folder,status:'NEEDS_AGENT_ACTION',reason:'Concluir direção de arte e avaliações reais de negócio/original antes de ranquear; não substituir nota visual por oportunidade operacional.'});
+          continue;
+        }
+        try { runStep(visualAuditorScript,[folder]); } catch(error) { pending.push({slug:folder,status:'NEEDS_ORIGINAL_IMAGE_REVIEW',reason:String(error)}); continue; }
 
         // Fórmula de Chance de Conversão: 40% Prospector + 40% Oportunidade Visual + 20% Negócio
         let conversionChance = Math.round((prospectorScore * 0.4) + (visualOppScore * 0.4) + (businessScore * 2.0));
         if (!gateApproved) conversionChance -= 25; // Penaliza se não passou no gate
 
-        data.scores.conversion_chance = conversionChance;
-        fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2), 'utf8');
+        // Ranking is orchestration metadata. Do not mutate the factual input hashed by 2A/2B.
 
         candidates.push({
           slug: folder,
@@ -112,13 +128,12 @@ async function runTop5Pipeline() {
     const lead = top5[i];
     const pos = i + 1;
     console.log(`>>> PROCESSANDO LEAD #${pos}: ${lead.data.name} (${lead.slug})`);
+    try {
 
     // --- ETAPA 1.5: PROSPECTOR / AUDITOR VISUAL ---
     console.log(`  [AUDITOR VISUAL] Analisando site original, copy, fotos reais e baseline...`);
     const visualAuditorScript = path.join(rootDir, '.agents/skills/visual-auditor/scripts/audit_visual.cjs');
-    if (fs.existsSync(visualAuditorScript)) {
-      spawnSync('node', [visualAuditorScript, lead.slug], { stdio: 'inherit' });
-    }
+    // The qualified baseline was checked above; Builder must consume it unchanged.
 
     // --- ETAPA AGENTE 2 (BUILDER) ---
     console.log(`  [BUILDER] Verificando personalização do site...`);
@@ -127,7 +142,7 @@ async function runTop5Pipeline() {
     if (!fs.existsSync(clientConfigFile)) {
       console.log(`  [BUILDER] Gerando configuração inicial do cliente em src/clients/data/${lead.slug}.ts...`);
       const scaffoldScript = path.join(rootDir, '.agents/skills/astro-platform-builder/scripts/scaffold_client_config.js');
-      spawnSync('node', [scaffoldScript, lead.slug], { stdio: 'inherit' });
+      runStep(scaffoldScript,[lead.slug]);
     } else {
       console.log(`  [BUILDER] Configuração já existente em src/clients/data/${lead.slug}.ts.`);
     }
@@ -140,41 +155,44 @@ async function runTop5Pipeline() {
       if (parsed.success) {
         console.log(`  [BUILDER] Schema Zod validado com sucesso para ${lead.slug}!`);
       } else {
-        console.error(`  [BUILDER] Erro de validação Zod em ${lead.slug}:`, parsed.error.issues);
+        throw new Error(`Configuração inválida: ${JSON.stringify(parsed.error.issues)}`);
       }
     } catch (err: any) {
-      console.warn(`  [BUILDER] Aviso ao validar módulo: ${err.message}`);
+      throw new Error(`Falha de configuração: ${err.message}`);
     }
 
     // Gerar handoff do redesign
     const handoffScript = path.join(rootDir, '.agents/skills/builder-handoff/scripts/generate_handoff.js');
-    if (fs.existsSync(handoffScript)) {
-      spawnSync('node', [handoffScript, lead.slug], { stdio: 'inherit' });
-    }
+    runStep(handoffScript,[lead.slug]);
     builderCount++;
 
     // --- ETAPA 2.5: PROSPECTOR / AUDITOR VISUAL (VALIDAÇÃO PÓS-REDESIGN) ---
     console.log(`  [AUDITOR VISUAL] Validando Original x Redesign (Não-Regressão e Baseline)...`);
     const compareScript = path.join(rootDir, '.agents/skills/visual-auditor/scripts/compare_redesign.cjs');
     if (fs.existsSync(compareScript)) {
-      spawnSync('node', [compareScript, lead.slug], { stdio: 'inherit' });
+      runStep(compareScript,[lead.slug]);
     }
+    if (stopAfterBuilder) { console.log('Demonstração validada; execução limitada ao Builder.'); continue; }
 
     // --- ETAPA AGENTE 3 (COMERCIAL) ---
     console.log(`  [COMERCIAL] Gerando dossiê comercial (resumo, email, whatsapp, objeções)...`);
     const commercialScript = path.join(rootDir, '.agents/skills/commercial-strategist/scripts/generate_commercial_dossier.js');
     if (fs.existsSync(commercialScript)) {
-      spawnSync('node', [commercialScript, lead.slug], { stdio: 'inherit' });
+      runStep(commercialScript,[lead.slug]);
       commercialCount++;
     }
 
     // Tentar gerar card Antes x Depois
     const visualScript = path.join(rootDir, '.agents/skills/visual-comparer/scripts/generate_before_after.js');
     if (fs.existsSync(visualScript)) {
-      spawnSync('node', [visualScript, lead.slug], { stdio: 'inherit' });
+      runStep(visualScript,[lead.slug]);
     }
 
     console.log(`  [OK] Lead #${pos} finalizado com sucesso.\n`);
+    } catch(error) {
+      pending.push({slug:lead.slug,status:'NEEDS_AGENT_ACTION',reason:String(error)});
+      console.warn(`  [PENDENTE] ${lead.slug}: ${String(error)}`);
+    }
   }
 
   console.log('================================================================================');
@@ -183,7 +201,9 @@ async function runTop5Pipeline() {
   console.log(`Total de Leads no Top 5 Processados : ${top5.length}`);
   console.log(`Sites Personalizados pelo Builder   : ${builderCount}`);
   console.log(`Kits Comerciais Gerados             : ${commercialCount}`);
-  console.log('\nTodos os 5 primeiros colocados do ranking estão prontos e aguardam aprovação humana.');
+  fs.writeFileSync(path.join(leadsDir,'pipeline-pending.json'),JSON.stringify({generatedAt:new Date().toISOString(),owner:'orquestrador',instruction:'Retomar o agente da etapa pendente, corrigir e reexecutar; não exige aprovação humana por gate.',items:pending},null,2));
+  console.log(`\nPendências para o orquestrador: ${pending.length}. Somente etapas validadas contam como concluídas.`);
+  if (pending.length) process.exitCode = 1;
   console.log('================================================================================\n');
 }
 

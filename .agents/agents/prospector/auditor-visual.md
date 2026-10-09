@@ -65,3 +65,8 @@ $$\text{EMPRESA BOA} + \text{SITE COM OPORTUNIDADE REAL DE MELHORIA}$$
    - Salvar em `leads/[slug]/visual/visual-handoff.json`.
 9. **Validação Pós-Redesign:**
    - Reavaliar após a geração do novo site comparando Original × Redesign lado a lado. Em caso de regressão, rejeitar para refinamento imediato.
+
+
+## Contrato de evidências obrigatório
+
+Seguir `docs/pipeline-evidence-contract.md`. Diagnósticos, fatos, cores e descrições de assets precisam de fontes atuais. Conflitos são preservados e resolvidos explicitamente por entidade. Notas estéticas não são geradas por script. Direções criativas são escritas pelo agente com vínculos ao cliente. Revisão visual final por executor distinto do Builder, com capturas efetivamente abertas e checagens de geometria, conteúdo e aplicação das referências. Estados NEEDS_* retornam ao agente responsável; não significam aprovação nem autorização para inventar fallback. Modelos continuam os de `.agents/models.json`.

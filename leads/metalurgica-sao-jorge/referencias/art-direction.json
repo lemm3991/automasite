@@ -1,0 +1,749 @@
+{
+  "schema_version": 2,
+  "client": "Metalúrgica São Jorge",
+  "slug": "metalurgica-sao-jorge",
+  "status": "READY_FOR_BUILDER",
+  "clientFactualSummary": {
+    "name": "Metalúrgica São Jorge",
+    "niche": "Metalúrgica e Corte e Dobra de Chapas",
+    "city": "Porto Alegre",
+    "state": "RS",
+    "address": "Rua Senhor do Bom Fim, 720",
+    "phone": "(51) 99390-1225",
+    "whatsapp": "(51) 99390-1225",
+    "email": "",
+    "services": [
+      "Telefones / WhatsApp Identificados: (51) 99390-1225 [Fonte: site oficial | DOM]",
+      "Endereço / Localização: Rua Senhor do Bom Fim, 720 [Fonte: site oficial | DOM]",
+      "CNPJ Identificado: Não divulgado no rodapé [Fonte: site oficial | Rodapé]",
+      "Redes Sociais: Instagram: @metsaojorge | Facebook: metalsaojorge [Fonte: site oficial | Links DOM]"
+    ],
+    "commercialRestrictions": [
+      "- \"Vendas apenas de Aço Carbono e Chapa Galvanizada.",
+      "- \"Horário de Atendimento:\" [Fonte: site oficial | Texto Literal]",
+      "- \"(de segunda a sexta)\" [Fonte: site oficial | Texto Literal]",
+      "Vendas apenas de Aço Carbono e Chapa Galvanizada.",
+      "Horário de Atendimento:"
+    ],
+    "provenClaims": [
+      "- \"A Metalúrgica São Jorge possui mais de 50 anos de experiência em corte e dobra de chapas de aço carbono em Porto Alegre e todo o Rio Grande do Sul.",
+      "fit=200%2C88&ssl=1` (Local: `/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.",
+      "resize=1200%2C326&ssl=1` (Local: `/assets/clients/metalurgica-sao-jorge/06-sjorge_corte_e_dobra_de_chapas025.",
+      "resize=38%2C38&ssl=1` (Local: `/assets/clients/metalurgica-sao-jorge/25-sjorge_corte_e_dobra_de_chapas024.",
+      "resize=40%2C40&ssl=1` (Local: `/assets/clients/metalurgica-sao-jorge/27-sjorge_corte_e_dobra_de_chapas023.",
+      "- `<h2>`: \"há mais de 50 anos\""
+    ],
+    "assetsCount": 31,
+    "assetsByCategory": {
+      "logoCount": 1,
+      "heroCount": 3,
+      "facilityCount": 1,
+      "portfolioCount": 20,
+      "teamCount": 0
+    },
+    "primaryLogoAsset": {
+      "id": "asset-1",
+      "category": "logo",
+      "filename": "01-sjorge_corte_e_dobra_de_chapas48.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2020/07/sjorge_corte_e_dobra_de_chapas48.png?fit=200%2C88&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "localRefPath": "referencias/site-baixado/assets/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "dimensions": {
+        "width": 200,
+        "height": 88
+      },
+      "format": "png",
+      "fileSizeBytes": 9976,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    "primaryHeroAsset": {
+      "id": "asset-4",
+      "category": "hero",
+      "filename": "04-sjorge_corte_e_dobra_de_chapas44.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/08/sjorge_corte_e_dobra_de_chapas44.png?resize=1536%2C461&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/04-sjorge_corte_e_dobra_de_chapas44.png",
+      "localRefPath": "referencias/site-baixado/assets/04-sjorge_corte_e_dobra_de_chapas44.png",
+      "dimensions": {
+        "width": 1535,
+        "height": 461
+      },
+      "format": "png",
+      "fileSizeBytes": 140895,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    "primaryFacilityAsset": {
+      "id": "asset-3",
+      "category": "instalacoes",
+      "filename": "03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas93.jpg?w=1024&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "localRefPath": "referencias/site-baixado/assets/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "dimensions": {
+        "width": 1024,
+        "height": 683
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 58799,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    "portfolioAssets": [
+      {
+        "id": "asset-5",
+        "category": "produtos",
+        "filename": "05-sjorge_corte_e_dobra_de_chapas96.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas96.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/05-sjorge_corte_e_dobra_de_chapas96.png",
+        "localRefPath": "referencias/site-baixado/assets/05-sjorge_corte_e_dobra_de_chapas96.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 89837,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas0095",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-7",
+        "category": "produtos",
+        "filename": "07-sjorge_corte_e_dobra_de_chapas022.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas022.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/07-sjorge_corte_e_dobra_de_chapas022.png",
+        "localRefPath": "referencias/site-baixado/assets/07-sjorge_corte_e_dobra_de_chapas022.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 112552,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas022",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-8",
+        "category": "produtos",
+        "filename": "08-sjorge_corte_e_dobra_de_chapas021.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas021.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/08-sjorge_corte_e_dobra_de_chapas021.png",
+        "localRefPath": "referencias/site-baixado/assets/08-sjorge_corte_e_dobra_de_chapas021.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 120188,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas021",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-9",
+        "category": "produtos",
+        "filename": "09-sjorge_corte_e_dobra_de_chapas019.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2025/01/sjorge_corte_e_dobra_de_chapas019.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/09-sjorge_corte_e_dobra_de_chapas019.png",
+        "localRefPath": "referencias/site-baixado/assets/09-sjorge_corte_e_dobra_de_chapas019.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 88113,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas019",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-10",
+        "category": "produtos",
+        "filename": "10-sjorge_corte_e_dobra_de_chapas020.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas020.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/10-sjorge_corte_e_dobra_de_chapas020.png",
+        "localRefPath": "referencias/site-baixado/assets/10-sjorge_corte_e_dobra_de_chapas020.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 99649,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas020",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-11",
+        "category": "produtos",
+        "filename": "11-sjorge_corte_e_dobra_de_chapas019.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas019.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/11-sjorge_corte_e_dobra_de_chapas019.png",
+        "localRefPath": "referencias/site-baixado/assets/11-sjorge_corte_e_dobra_de_chapas019.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 87877,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas019",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-12",
+        "category": "produtos",
+        "filename": "12-sjorge_corte_e_dobra_de_chapas018.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas018.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/12-sjorge_corte_e_dobra_de_chapas018.png",
+        "localRefPath": "referencias/site-baixado/assets/12-sjorge_corte_e_dobra_de_chapas018.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 137628,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas018",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-13",
+        "category": "produtos",
+        "filename": "13-sjorge_corte_e_dobra_de_chapas017.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas017.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/13-sjorge_corte_e_dobra_de_chapas017.png",
+        "localRefPath": "referencias/site-baixado/assets/13-sjorge_corte_e_dobra_de_chapas017.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 125531,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas017",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-14",
+        "category": "produtos",
+        "filename": "14-sjorge_corte_e_dobra_de_chapas016.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas016.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/14-sjorge_corte_e_dobra_de_chapas016.png",
+        "localRefPath": "referencias/site-baixado/assets/14-sjorge_corte_e_dobra_de_chapas016.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 99419,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas016",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-15",
+        "category": "produtos",
+        "filename": "15-sjorge_corte_e_dobra_de_chapas16.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas16.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/15-sjorge_corte_e_dobra_de_chapas16.png",
+        "localRefPath": "referencias/site-baixado/assets/15-sjorge_corte_e_dobra_de_chapas16.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 104333,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas015",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-16",
+        "category": "produtos",
+        "filename": "16-sjorge_corte_e_dobra_de_chapas15.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas15.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/16-sjorge_corte_e_dobra_de_chapas15.png",
+        "localRefPath": "referencias/site-baixado/assets/16-sjorge_corte_e_dobra_de_chapas15.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 120743,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas014",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-17",
+        "category": "produtos",
+        "filename": "17-sjorge_corte_e_dobra_de_chapas14.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas14.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/17-sjorge_corte_e_dobra_de_chapas14.png",
+        "localRefPath": "referencias/site-baixado/assets/17-sjorge_corte_e_dobra_de_chapas14.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 129526,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas013",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-18",
+        "category": "produtos",
+        "filename": "18-sjorge_corte_e_dobra_de_chapas13.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas13.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/18-sjorge_corte_e_dobra_de_chapas13.png",
+        "localRefPath": "referencias/site-baixado/assets/18-sjorge_corte_e_dobra_de_chapas13.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 128363,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas012",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-19",
+        "category": "produtos",
+        "filename": "19-sjorge_corte_e_dobra_de_chapas12.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas12.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/19-sjorge_corte_e_dobra_de_chapas12.png",
+        "localRefPath": "referencias/site-baixado/assets/19-sjorge_corte_e_dobra_de_chapas12.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 127376,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas011",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-20",
+        "category": "produtos",
+        "filename": "20-sjorge_corte_e_dobra_de_chapas11.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas11.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/20-sjorge_corte_e_dobra_de_chapas11.png",
+        "localRefPath": "referencias/site-baixado/assets/20-sjorge_corte_e_dobra_de_chapas11.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 112532,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas010",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-21",
+        "category": "produtos",
+        "filename": "21-sjorge_corte_e_dobra_de_chapas97.png",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas97.png?resize=554%2C312&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/21-sjorge_corte_e_dobra_de_chapas97.png",
+        "localRefPath": "referencias/site-baixado/assets/21-sjorge_corte_e_dobra_de_chapas97.png",
+        "dimensions": {
+          "width": 554,
+          "height": 312
+        },
+        "format": "png",
+        "fileSizeBytes": 89798,
+        "altOriginal": "sjorge_corte_e_dobra_de_chapas0096",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-22",
+        "category": "produtos",
+        "filename": "22-sjorge_corte_e_dobra_de_chapas88.jpg",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2013/07/sjorge_corte_e_dobra_de_chapas88.jpg?resize=260%2C110&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/22-sjorge_corte_e_dobra_de_chapas88.jpg",
+        "localRefPath": "referencias/site-baixado/assets/22-sjorge_corte_e_dobra_de_chapas88.jpg",
+        "dimensions": {
+          "width": 260,
+          "height": 110
+        },
+        "format": "jpeg",
+        "fileSizeBytes": 15857,
+        "altOriginal": "chapa-de-aco-carbono-porto-alegre-rs",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-23",
+        "category": "produtos",
+        "filename": "23-sjorge_corte_e_dobra_de_chapas83.jpg",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2013/07/sjorge_corte_e_dobra_de_chapas83.jpg?resize=260%2C110&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/23-sjorge_corte_e_dobra_de_chapas83.jpg",
+        "localRefPath": "referencias/site-baixado/assets/23-sjorge_corte_e_dobra_de_chapas83.jpg",
+        "dimensions": {
+          "width": 260,
+          "height": 110
+        },
+        "format": "jpeg",
+        "fileSizeBytes": 43663,
+        "altOriginal": "",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-24",
+        "category": "produtos",
+        "filename": "24-sjorge_corte_e_dobra_de_chapas85.jpg",
+        "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2013/07/sjorge_corte_e_dobra_de_chapas85.jpg?resize=260%2C110&ssl=1",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/24-sjorge_corte_e_dobra_de_chapas85.jpg",
+        "localRefPath": "referencias/site-baixado/assets/24-sjorge_corte_e_dobra_de_chapas85.jpg",
+        "dimensions": {
+          "width": 260,
+          "height": 110
+        },
+        "format": "jpeg",
+        "fileSizeBytes": 26606,
+        "altOriginal": "",
+        "downloadStatus": "SUCCESS"
+      },
+      {
+        "id": "asset-31",
+        "category": "produtos",
+        "filename": "31-sjorge_corte_e_dobra_de_chapas92.mp4",
+        "originalUrl": "https://metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas92.mp4",
+        "localPublicPath": "/assets/clients/metalurgica-sao-jorge/31-sjorge_corte_e_dobra_de_chapas92.mp4",
+        "localRefPath": "referencias/site-baixado/assets/31-sjorge_corte_e_dobra_de_chapas92.mp4",
+        "dimensions": {
+          "width": null,
+          "height": null
+        },
+        "format": "mp4",
+        "fileSizeBytes": 2912925,
+        "altOriginal": "Video Institucional",
+        "downloadStatus": "SUCCESS"
+      }
+    ],
+    "brandColors": {
+      "primary": "#0f172a",
+      "accent": "#dc2626"
+    }
+  },
+  "aesthetic_concept": "Metalúrgica São Jorge: Industrial & Presença Fabril",
+  "concept_rationale": "Gera confiança instantânea ancorando a reputação da empresa em sua capacidade física e histórico comprovado.",
+  "adequacyScore": 91,
+  "rankedAlternatives": [
+    {
+      "id": "dir-industrial-presenca",
+      "name": "Metalúrgica São Jorge: Industrial & Presença Fabril",
+      "angle": "Industrial & Presença Fabril",
+      "scores": {
+        "identityFit": 92,
+        "assetsFit": 92,
+        "commercialFit": 86,
+        "dsFit": 95,
+        "adequacyScore": 91
+      },
+      "atmosphere": "Sólida, institucional e imponente. Valoriza o maquinário pesado, a sede física autêntica e a tradição comprovada da Metalúrgica São Jorge.",
+      "typography": {
+        "heading": "Inter",
+        "body": "Inter",
+        "rationale": "Harmonização entre Inter para títulos de impacto e Inter para legibilidade."
+      },
+      "palette": {
+        "background": "#090d16",
+        "primary": "#0f172a",
+        "secondary": "#1e293b",
+        "accent": "#dc2626",
+        "text": "#f8fafc",
+        "muted": "#94a3b8"
+      }
+    },
+    {
+      "id": "dir-engenharia-precisao",
+      "name": "Metalúrgica São Jorge: Rigor de Engenharia & Precisão Técnica",
+      "angle": "Rigor de Engenharia & Precisão",
+      "scores": {
+        "identityFit": 90,
+        "assetsFit": 94,
+        "commercialFit": 88,
+        "dsFit": 78,
+        "adequacyScore": 89
+      },
+      "atmosphere": "Técnica, minuciosa e de alta precisão. Destaca tolerâncias milimétricas, limites de espessura (3m x 1/2\", 2m x 1/4\") e calandragem sob medida.",
+      "typography": {
+        "heading": "Oswald",
+        "body": "Inter",
+        "rationale": "Harmonização entre Oswald para títulos de impacto e Inter para legibilidade."
+      },
+      "palette": {
+        "background": "#090d16",
+        "primary": "#0f172a",
+        "secondary": "#1e293b",
+        "accent": "#dc2626",
+        "text": "#f8fafc",
+        "muted": "#94a3b8"
+      }
+    },
+    {
+      "id": "dir-fornecimento-b2b",
+      "name": "Metalúrgica São Jorge: Estrutural & Fornecimento B2B",
+      "angle": "Estrutural & Fornecimento B2B",
+      "scores": {
+        "identityFit": 82,
+        "assetsFit": 84,
+        "commercialFit": 92,
+        "dsFit": 71,
+        "adequacyScore": 83
+      },
+      "atmosphere": "Direta, funcional e orientada ao abastecimento industrial. Focada em venda de chapas, estoque de aço carbono e galvanizado e cotação ágil em Sarandi.",
+      "typography": {
+        "heading": "Inter",
+        "body": "Inter",
+        "rationale": "Harmonização entre Inter para títulos de impacto e Inter para legibilidade."
+      },
+      "palette": {
+        "background": "#090d16",
+        "primary": "#0f172a",
+        "secondary": "#1e293b",
+        "accent": "#dc2626",
+        "text": "#f8fafc",
+        "muted": "#94a3b8"
+      }
+    }
+  ],
+  "fingerprint": {
+    "heroType": "Split Hero com Evidência da Fábrica e Badges de Tradição",
+    "selectedVariants": [
+      "Header01",
+      "Hero07",
+      "About01",
+      "Services01",
+      "Features02",
+      "Showcase01",
+      "Contact01",
+      "CTA04",
+      "Footer08"
+    ],
+    "sectionOrder": [
+      "hero",
+      "empresa",
+      "servicos",
+      "condicoes-comerciais",
+      "portfolio",
+      "contato",
+      "cta-final",
+      "footer"
+    ],
+    "imageStrategy": "Destaque prioritário para a foto autêntica da fábrica (1024x683) acompanhada de badges de tradição.",
+    "gridStrategy": "Split assimétrico 60/40 no desktop com blocos robustos e tipografia condensada.",
+    "backgroundTreatment": "dark (mesh / dots / dark slate)",
+    "cardTreatment": "Bordas técnicas sutis com micro-badges de diferenciais e limites de máquina.",
+    "typography": "Inter (Headings) / Inter (Body)",
+    "ctaStyle": "cotacao-tecnica-especificacoes"
+  },
+  "fingerprintComparisons": [
+    {
+      "lead": "cadas-arquitetura",
+      "overallSimilarity": 8,
+      "sharedVariantsCount": 2,
+      "totalPreviousVariants": 9,
+      "sharedVariantsList": [
+        "About01",
+        "Showcase01"
+      ]
+    },
+    {
+      "lead": "delta-pan",
+      "overallSimilarity": 48,
+      "sharedVariantsCount": 8,
+      "totalPreviousVariants": 9,
+      "sharedVariantsList": [
+        "Header01",
+        "Hero07",
+        "About01",
+        "Services01",
+        "Features02",
+        "Contact01",
+        "CTA04",
+        "Footer08"
+      ]
+    },
+    {
+      "lead": "juliana-pippi-arquitetura",
+      "overallSimilarity": 38,
+      "sharedVariantsCount": 7,
+      "totalPreviousVariants": 9,
+      "sharedVariantsList": [
+        "Header01",
+        "Hero07",
+        "About01",
+        "Features02",
+        "Contact01",
+        "CTA04",
+        "Footer08"
+      ]
+    }
+  ],
+  "similarityJustification": "Composição visual inédita e diferenciada (maior similaridade de apenas 48% com o portfólio anterior).",
+  "consulted_design_systems": [
+    "autonomous-drone-62.aura.build",
+    "aex.aura.build"
+  ],
+  "design_system_evaluations": [
+    {
+      "id": "autonomous-drone-62.aura.build",
+      "path": "temas_escuros/autonomous-drone-62.aura.build/design-system.html",
+      "adequacyScore": 95,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Metalúrgica e Corte e Dobra de Chapas.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "id": "aex.aura.build",
+      "path": "temas_claros/aex.aura.build/aex.aura.build/design-system.html",
+      "adequacyScore": 78,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Metalúrgica e Corte e Dobra de Chapas.",
+      "elementsToUse": [
+        "Split layout equilibrado para apresentar headline e evidência",
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "id": "axion-ai.aura.build",
+      "path": "temas_escuros/axion-ai.aura.build/design-system.html",
+      "adequacyScore": 71,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Metalúrgica e Corte e Dobra de Chapas.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    }
+  ],
+  "themeMode": "dark",
+  "primaryColor": "#0f172a",
+  "secondaryColor": "#1e293b",
+  "accentColor": "#dc2626",
+  "backgroundColor": "#090d16",
+  "textColor": "#f8fafc",
+  "mutedColor": "#94a3b8",
+  "headingFont": "Inter",
+  "bodyFont": "Inter",
+  "keyAssetsMapping": {
+    "logo": {
+      "path": "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "evidence": "Logo oficial do cliente (1 arquivos disponíveis)"
+    },
+    "heroMain": {
+      "path": "/assets/clients/metalurgica-sao-jorge/04-sjorge_corte_e_dobra_de_chapas44.png",
+      "evidence": "Imagem autêntica de cabeçalho identificada nos assets"
+    },
+    "facilityPhoto": {
+      "path": "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "evidence": "Fotografia autêntica das instalações (1 disponíveis)"
+    },
+    "portfolioItemsCount": 20
+  },
+  "heroSpecification": {
+    "desktopLayout": {
+      "structure": "Split Hero com Evidência da Fábrica e Badges de Tradição",
+      "leftColumn": {
+        "badge": "- \"A Metalúrgica São Jorge possui mais de 50 anos de experiência em corte e dobra de chapas de aço carbono em Porto Alegre e todo o Rio Grande do Sul.",
+        "headline": "Excelência e Precisão em Metalúrgica e Corte e Dobra de Chapas",
+        "subheadline": "fit=200%2C88&ssl=1` (Local: `/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.",
+        "ctaPrimary": {
+          "text": "Falar no WhatsApp",
+          "action": "https://wa.me/5551993901225"
+        }
+      }
+    },
+    "mobileLayout": {
+      "structure": "Pilha vertical otimizada para conversão",
+      "order": [
+        "Badge de Localização",
+        "Headline",
+        "Foto autêntica",
+        "Botão de Ação Direta"
+      ]
+    }
+  },
+  "sectionsBlueprint": [
+    {
+      "order": 1,
+      "id": "hero",
+      "variant": "Hero07",
+      "title": "Hero — Posicionamento de Metalúrgica São Jorge",
+      "assetPath": "/assets/clients/metalurgica-sao-jorge/04-sjorge_corte_e_dobra_de_chapas44.png",
+      "compositionRationale": "Conteúdo: - \"A Metalúrgica São Jorge possui mais de 50 anos de experiência em corte e dobra de chapas de aço carbono em Porto Alegre e todo o Rio Grande do Sul. | Assets: foto real identificada | Identidade: #dc2626 | Segmento: Metalúrgica e Corte e Dobra de Chapas | DS: autonomous-drone-62.aura.build.",
+      "goal": "Apresentar a proposta de valor e canal de contato em menos de 5 segundos."
+    },
+    {
+      "order": 2,
+      "id": "empresa",
+      "variant": "About01",
+      "title": "Sobre a Empresa & Estrutura",
+      "assetPath": "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "compositionRationale": "Conteúdo: Presença em Porto Alegre e trajetória | Assets: fotografia autêntica da sede | Identidade: solidez | DS: autonomous-drone-62.aura.build.",
+      "goal": "Comprovar capacidade e localização física para transmitir credibilidade."
+    },
+    {
+      "order": 3,
+      "id": "servicos",
+      "variant": "Services01",
+      "title": "Serviços e Capacidades Oficiais",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Telefones / WhatsApp Identificados: (51) 99390-1225 [Fonte: site oficial | DOM], Endereço / Localização: Rua Senhor do Bom Fim, 720 [Fonte: site oficial | DOM], CNPJ Identificado: Não divulgado no rodapé [Fonte: site oficial | Rodapé], Redes Sociais: Instagram: @metsaojorge | Facebook: metalsaojorge [Fonte: site oficial | Links DOM] | Assets: especificações técnicas | Identidade: clareza analítica | DS: aex.aura.build.",
+      "goal": "Expor o escopo exato do que a empresa executa sem prometer serviços não prestados."
+    },
+    {
+      "order": 4,
+      "id": "condicoes-comerciais",
+      "variant": "Features02",
+      "title": "Condições Comerciais & Matérias-Primas",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: - \"Vendas apenas de Aço Carbono e Chapa Galvanizada. - \"Horário de Atendimento:\" [Fonte: site oficial | Texto Literal] - \"(de segunda a sexta)\" [Fonte: site oficial | Texto Literal] Vendas apenas de Aço Carbono e Chapa Galvanizada. Horário de Atendimento: | Assets: cartões de transparência comercial | Identidade: rigor ético | DS: autonomous-drone-62.aura.build.",
+      "goal": "Evitar leads desqualificados preservando restrições literais do cliente."
+    },
+    {
+      "order": 5,
+      "id": "portfolio",
+      "variant": "Showcase01",
+      "title": "Galeria Real de Peças e Trabalhos",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Amostras executadas pela empresa | Assets: 20 fotos reais de catálogo | Identidade: acabamento técnico | DS: autonomous-drone-62.aura.build.",
+      "goal": "Exibir a qualidade real das peças executadas pela empresa."
+    },
+    {
+      "order": 6,
+      "id": "contato",
+      "variant": "Contact01",
+      "title": "Canal de Cotação e Atendimento",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Telefone (51) 99390-1225, endereço em Porto Alegre | Assets: canais verificados | Identidade: prontidão de resposta.",
+      "goal": "Possibilitar envio de solicitação técnica sem atrito."
+    },
+    {
+      "order": 7,
+      "id": "cta-final",
+      "variant": "CTA04",
+      "title": "Chamada para Ação Imediata",
+      "assetPath": null,
+      "compositionRationale": "Conteúdo: Atendimento direto via WhatsApp (51) 99390-1225 | Identidade: destaque da cor de ação #dc2626.",
+      "goal": "Conversão final com link direto antes do encerramento da página."
+    },
+    {
+      "order": 8,
+      "id": "footer",
+      "variant": "Footer08",
+      "title": "Rodapé Institucional e Legal",
+      "assetPath": "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "compositionRationale": "Conteúdo: Endereço completo, horários e dados de identificação | Assets: logotipo oficial | Identidade: encerramento sóbrio.",
+      "goal": "Fixar endereço, dados de contato e canais oficiais."
+    }
+  ]
+}

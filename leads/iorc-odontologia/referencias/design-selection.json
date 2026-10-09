@@ -1,0 +1,61 @@
+{
+  "slug": "iorc-odontologia",
+  "selectedDesignSystems": [
+    {
+      "name": "white-medical",
+      "path": "Design System/temas_claros/white-medical/design-system.html",
+      "sourceSha256": "f83824152d703145d65c722c76e73f21b5651266a2b73ebafefa94402da0d19a",
+      "selectionReason": "Estrutura de linhas de grid sutis médicas que transmitem precisão cirúrgica e assepsia clínica. Animação suave de subida conferindo elegância e sobriedade institucional à apresentação dos tratamentos.",
+      "observations": [
+        {
+          "excerpt": "background: var(--grid-color);",
+          "benefit": "Estrutura de linhas de grid sutis médicas que transmitem precisão cirúrgica e assepsia clínica.",
+          "factIds": [
+            "service-implantes",
+            "service-ortodontia"
+          ]
+        },
+        {
+          "excerpt": "animation: reveal-up 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;",
+          "benefit": "Animação suave de subida conferindo elegância e sobriedade institucional à apresentação dos tratamentos.",
+          "factIds": [
+            "positioning-history",
+            "mission-statement"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "parallax-clean",
+      "path": "Design System/temas_claros/parallax-clean/design-system.html",
+      "sourceSha256": "2d2bb18d4a8051ae73716c19e1de86dad0ae12d930067695c20b895bd7198639",
+      "selectionReason": "Composição de cartão em duas colunas assimétricas equilibrando imagem do consultório e texto explicativo.",
+      "observations": [
+        {
+          "excerpt": "grid-template-columns: 1fr 1.2fr;",
+          "benefit": "Composição de cartão em duas colunas assimétricas equilibrando imagem do consultório e texto explicativo.",
+          "factIds": [
+            "infrastructure-matriz",
+            "boqueirao-address"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "digital-architect.aura.build",
+      "path": "Design System/temas_claros/digital-architect.aura.build/design-system.html",
+      "sourceSha256": "4088d7592cdb2b47becd5a3d8b7a772582c80500aceafcbc6fd290ac56ec3a7b",
+      "selectionReason": "Transição estruturada e fluida em revelações de blocos para visualização de especificações clínicas.",
+      "observations": [
+        {
+          "excerpt": "transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;",
+          "benefit": "Transição estruturada e fluida em revelações de blocos para visualização de especificações clínicas.",
+          "factIds": [
+            "infrastructure-total",
+            "founder-director"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: https://ogp.me/ns#">
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Otimização para mecanismos de pesquisa pelo Rank Math - https://rankmath.com/ -->
+<title>Blog | IORC Odontologia</title><link rel="preload" data-rocket-preload as="image" href="https://iorcpr.com.br/wp-content/uploads/2020/09/8.jpg" fetchpriority="high">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://iorcpr.com.br/blog/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Blog | IORC Odontologia" />
+<meta property="og:url" content="https://iorcpr.com.br/blog/" />
+<meta property="og:site_name" content="IORC Odontologia" />
+<meta property="og:updated_time" content="2022-09-29T16:59:40-03:00" />
+<meta property="article:published_time" content="2020-09-30T13:57:20-03:00" />
+<meta property="article:modified_time" content="2022-09-29T16:59:40-03:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Blog | IORC Odontologia" />
+<meta name="twitter:label1" content="Tempo para leitura" />
+<meta name="twitter:data1" content="Menos de um minuto" />
+<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":"Place","@id":"https://iorcpr.com.br/#place","address":{"@type":"PostalAddress","streetAddress":"Rua Francisco Derosso, 4567","addressLocality":"Curitiba","addressRegion":"Paran\u00e1","postalCode":"81770-000","addressCountry":"Brasil"}},{"@type":["Dentist","Organization"],"@id":"https://iorcpr.com.br/#organization","name":"IORC Odontologia","url":"https://iorcpr.com.br","email":"iorc@iorc.com.br","address":{"@type":"PostalAddress","streetAddress":"Rua Francisco Derosso, 4567","addressLocality":"Curitiba","addressRegion":"Paran\u00e1","postalCode":"81770-000","addressCountry":"Brasil"},"logo":{"@type":"ImageObject","@id":"https://iorcpr.com.br/#logo","url":"https://iorcpr.com.br/wp-content/uploads/2020/09/iorc-odontologia-logo-1.svg","contentUrl":"https://iorcpr.com.br/wp-content/uploads/2020/09/iorc-odontologia-logo-1.svg","caption":"IORC Odontologia","inLanguage":"pt-BR"},"openingHours":["Monday,Tuesday,Wednesday,Thursday,Friday 09:00-17:00"],"location":{"@id":"https://iorcpr.com.br/#place"},"image":{"@id":"https://iorcpr.com.br/#logo"},"telephone":"+55 41 9 9623-4625"},{"@type":"WebSite","@id":"https://iorcpr.com.br/#website","url":"https://iorcpr.com.br","name":"IORC Odontologia","publisher":{"@id":"https://iorcpr.com.br/#organization"},"inLanguage":"pt-BR"},{"@type":"WebPage","@id":"https://iorcpr.com.br/blog/#webpage","url":"https://iorcpr.com.br/blog/","name":"Blog | IORC Odontologia","datePublished":"2020-09-30T13:57:20-03:00","dateModified":"2022-09-29T16:59:40-03:00","isPartOf":{"@id":"https://iorcpr.com.br/#website"},"inLanguage":"pt-BR"},{"@type":"Person","@id":"https://iorcpr.com.br/author/admin/","name":"Equipe IORC Odontologia","url":"https://iorcpr.com.br/author/admin/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/ddd95d78f3318a28ef06f7a495b2b45ea772d1290303a2446c1ffece683c4936?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/ddd95d78f3318a28ef06f7a495b2b45ea772d1290303a2446c1ffece683c4936?s=96&amp;d=mm&amp;r=g","caption":"Equipe IORC Odontologia","inLanguage":"pt-BR"},"sameAs":["https://iorcpr.com.br"],"worksFor":{"@id":"https://iorcpr.com.br/#organization"}},{"@type":"Article","headline":"Blog | IORC Odontologia","keywords":"blog","datePublished":"2020-09-30T13:57:20-03:00","dateModified":"2022-09-29T16:59:40-03:00","author":{"@id":"https://iorcpr.com.br/author/admin/","name":"Equipe IORC Odontologia"},"publisher":{"@id":"https://iorcpr.com.br/#organization"},"name":"Blog | IORC Odontologia","@id":"https://iorcpr.com.br/blog/#richSnippet","isPartOf":{"@id":"https://iorcpr.com.br/blog/#webpage"},"inLanguage":"pt-BR","mainEntityOfPage":{"@id":"https://iorcpr.com.br/blog/#webpage"}}]}</script>
+<!-- /Plugin de SEO Rank Math para WordPress -->
+
+<link rel="alternate" type="application/rss+xml" title="Feed para IORC Odontologia &raquo;" href="https://iorcpr.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para IORC Odontologia &raquo;" href="https://iorcpr.com.br/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://iorcpr.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fiorcpr.com.br%2Fblog%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://iorcpr.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fiorcpr.com.br%2Fblog%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='joinchat-button-style-inline-css'>
+.wp-block-joinchat-button{align-items:center;display:flex;flex-flow:row nowrap}.wp-block-joinchat-button.is-vertical{flex-direction:column}.wp-block-joinchat-button.is-vertical.is-content-justification-left{align-items:flex-start}.wp-block-joinchat-button.is-vertical.is-content-justification-center{align-items:center}.wp-block-joinchat-button.is-vertical.is-content-justification-right{align-items:flex-end}.wp-block-joinchat-button:not(.is-vertical).is-content-justification-left{justify-content:flex-start}.wp-block-joinchat-button:not(.is-vertical).is-content-justification-center{justify-content:center}.wp-block-joinchat-button:not(.is-vertical).is-content-justification-right{justify-content:flex-end}.wp-block-joinchat-button:not(.is-vertical).is-content-justification-space-between{justify-content:space-between}.wp-block-joinchat-button figure{align-items:center;display:flex;flex-direction:column;flex-shrink:0;margin:0;padding:0}.wp-block-joinchat-button figcaption{font:normal normal 400 .6em/2em var(--wp--preset--font-family--system-font,sans-serif);margin:0;padding:0}.wp-block-joinchat-button .joinchat-button__qr{background-color:#fff;box-sizing:content-box;display:block;height:200px;overflow:hidden;padding:10px;width:200px}.wp-block-joinchat-button .joinchat-button__qr canvas,.wp-block-joinchat-button .joinchat-button__qr img{display:block;margin:auto}.wp-block-joinchat-button .wp-block-buttons{flex:1 1 auto;margin:0;max-width:100%;min-width:0;width:100%}.wp-block-joinchat-button .wp-block-button.wp-block-button__width-25{min-width:25%;width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-joinchat-button .wp-block-button.wp-block-button__width-50{min-width:50%;width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-joinchat-button .wp-block-button.wp-block-button__width-75{min-width:75%;width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-joinchat-button .wp-block-button.wp-block-button__width-100{min-width:100%;width:100%}.wp-block-joinchat-button .joinchat-button__link,.wp-block-joinchat-button .wp-block-button__link{align-items:center;display:inline-flex;flex-flow:row nowrap;justify-content:center;width:100%}.wp-block-joinchat-button .joinchat-button__link:before,.wp-block-joinchat-button .wp-block-button__link:before{background:transparent var(--joinchat-ico) no-repeat center;background-size:100%;content:"";display:block;height:1.5em;margin:-.75em .75em -.75em 0;width:1.5em}.wp-block-joinchat-button .joinchat-button__link{width:auto}.wp-block-joinchat-button:has(.joinchat-button__link){border:none!important;display:flex;flex-direction:column}@media (orientation:landscape)and (height >= 481px),(orientation:portrait)and (width >= 481px){.wp-block-joinchat-button.joinchat-button--qr-only .wp-block-buttons{display:none}}@media (orientation:landscape)and (height <= 480px),(width <= 480px){.wp-block-joinchat-button figure{display:none}}
+
+/*# sourceURL=https://iorcpr.com.br/wp-content/plugins/creame-whatsapp-me/gutenberg/build/style-index.css */
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--contrast: var(--contrast);--wp--preset--color--contrast-2: var(--contrast-2);--wp--preset--color--contrast-3: var(--contrast-3);--wp--preset--color--base: var(--base);--wp--preset--color--base-2: var(--base-2);--wp--preset--color--base-3: var(--base-3);--wp--preset--color--accent: var(--accent);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+:where(.wp-block-joinchat-button.is-layout-flex){gap: 10px;}:where(.wp-block-joinchat-button.is-layout-grid){gap: 10px;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='generate-style-css' href='https://iorcpr.com.br/wp-content/themes/generatepress/assets/css/all.min.css?ver=3.6.1' media='all' />
+<style id='generate-style-inline-css'>
+body{background-color:#efefef;color:#3a3a3a;}a{color:#126782;}a:hover, a:focus, a:active{color:#000000;}body .grid-container{max-width:1100px;}.wp-block-group__inner-container{max-width:1100px;margin-left:auto;margin-right:auto;}.site-header .header-image{width:20px;}:root{--contrast:#222222;--contrast-2:#575760;--contrast-3:#b2b2be;--base:#f0f0f0;--base-2:#f7f8f9;--base-3:#ffffff;--accent:#1e73be;}:root .has-contrast-color{color:var(--contrast);}:root .has-contrast-background-color{background-color:var(--contrast);}:root .has-contrast-2-color{color:var(--contrast-2);}:root .has-contrast-2-background-color{background-color:var(--contrast-2);}:root .has-contrast-3-color{color:var(--contrast-3);}:root .has-contrast-3-background-color{background-color:var(--contrast-3);}:root .has-base-color{color:var(--base);}:root .has-base-background-color{background-color:var(--base);}:root .has-base-2-color{color:var(--base-2);}:root .has-base-2-background-color{background-color:var(--base-2);}:root .has-base-3-color{color:var(--base-3);}:root .has-base-3-background-color{background-color:var(--base-3);}:root .has-accent-color{color:var(--accent);}:root .has-accent-background-color{background-color:var(--accent);}body{line-height:1.5;}.entry-content > [class*="wp-block-"]:not(:last-child):not(.wp-block-heading){margin-bottom:1.5em;}.main-title{font-size:45px;}.main-navigation .main-nav ul ul li a{font-size:14px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}h1{font-weight:300;font-size:40px;}h2{font-weight:300;font-size:30px;}h3{font-size:20px;}h4{font-size:inherit;}h5{font-size:inherit;}@media (max-width:768px){.main-title{font-size:30px;}h1{font-size:30px;}h2{font-size:25px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;color:#3a3a3a;}.site-header a{color:#3a3a3a;}.main-title a,.main-title a:hover{color:#222222;}.site-description{color:#757575;}.main-navigation,.main-navigation ul ul{background-color:#222222;}.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items{color:#ffffff;}.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover > a, .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"]) > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#ffffff;background-color:#3f3f3f;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#3f3f3f;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#ffffff;background-color:#3f3f3f;}.main-navigation ul ul{background-color:#3f3f3f;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover > a,.main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus > a, .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"]) > a{color:#ffffff;background-color:#4f4f4f;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#4f4f4f;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.entry-meta{color:#595959;}.entry-meta a{color:#595959;}.entry-meta a:hover{color:#1e73be;}.sidebar .widget{background-color:#ffffff;}.sidebar .widget .widget-title{color:#000000;}.footer-widgets{background-color:#ffffff;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#222222;}.site-info a{color:#ffffff;}.site-info a:hover{color:#606060;}.footer-bar .widget_nav_menu .current-menu-item a{color:#606060;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#666666;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f3f3f;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}:root{--gp-search-modal-bg-color:var(--base-3);--gp-search-modal-text-color:var(--contrast);--gp-search-modal-overlay-bg-color:rgba(0,0,0,0.2);}@media (max-width:768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#ffffff;}}.inside-top-bar{padding:10px;}.inside-header{padding:40px;}.site-main .wp-block-group__inner-container{padding:40px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}.site-info{padding:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header{padding:30px;}.site-main .wp-block-group__inner-container{padding:30px;}.site-info{padding-right:10px;padding-left:10px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}/* End cached CSS */@media (max-width:768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+/*# sourceURL=generate-style-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='elementor-icons-css' href='https://iorcpr.com.br/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=1791488386' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://iorcpr.com.br/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='elementor-post-118-css' href='https://iorcpr.com.br/wp-content/uploads/elementor/css/post-118.css?ver=1791488386' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://iorcpr.com.br/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.23.3' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInRight-css' href='https://iorcpr.com.br/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://iorcpr.com.br/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='elementor-post-297-css' href='https://iorcpr.com.br/wp-content/uploads/elementor/css/post-297.css?ver=1791489020' media='all' />
+<link rel='stylesheet' id='elementor-post-10-css' href='https://iorcpr.com.br/wp-content/uploads/elementor/css/post-10.css?ver=1791488386' media='all' />
+<link rel='stylesheet' id='elementor-post-48-css' href='https://iorcpr.com.br/wp-content/uploads/elementor/css/post-48.css?ver=1791488386' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-gf-local-montserrat-css' href='https://iorcpr.com.br/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1791488386' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-gf-local-opensans-css' href='https://iorcpr.com.br/wp-content/cache/min/1/wp-content/uploads/elementor/google-fonts/css/opensans.css?ver=1791488386' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://iorcpr.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://iorcpr.com.br/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=1791488386' media='all' />
+<link data-minify="1" rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://iorcpr.com.br/wp-content/cache/min/1/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=1791488386' media='all' />
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" data-rocket-defer defer></script>
+<link rel="https://api.w.org/" href="https://iorcpr.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://iorcpr.com.br/wp-json/wp/v2/pages/297" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://iorcpr.com.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.10" />
+<link rel='shortlink' href='https://iorcpr.com.br/?p=297' />
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N44DPX5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><meta name="generator" content="Elementor 4.2.1; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<!-- Google Tag Manager -->
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N44DPX5');</script>
+<!-- End Google Tag Manager --><link rel="icon" href="https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-icone-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-icone-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-icone-180x180.png" />
+<meta name="msapplication-TileImage" content="https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-icone-270x270.png" />
+		<style id="wp-custom-css">
+			
+
+/** Start Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+.envato-block__preview{overflow: visible;}
+
+/* Envato Kit 141 Custom Styles - Applied to the element under Advanced */
+
+.elementor-headline-animation-type-drop-in .elementor-headline-dynamic-wrapper{
+	text-align: center;
+}
+.envato-kit-141-top-0 h1,
+.envato-kit-141-top-0 h2,
+.envato-kit-141-top-0 h3,
+.envato-kit-141-top-0 h4,
+.envato-kit-141-top-0 h5,
+.envato-kit-141-top-0 h6,
+.envato-kit-141-top-0 p {
+	margin-top: 0;
+}
+
+.envato-kit-141-newsletter-inline .elementor-field-textual.elementor-size-md {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.envato-kit-141-bottom-0 p {
+	margin-bottom: 0;
+}
+
+.envato-kit-141-bottom-8 .elementor-price-list .elementor-price-list-item .elementor-price-list-header {
+	margin-bottom: .5rem;
+}
+
+.envato-kit-141.elementor-widget-testimonial-carousel.elementor-pagination-type-bullets .swiper-container {
+	padding-bottom: 52px;
+}
+
+.envato-kit-141-display-inline {
+	display: inline-block;
+}
+
+.envato-kit-141 .elementor-slick-slider ul.slick-dots {
+	bottom: -40px;
+}
+
+/** End Block Kit CSS: 144-3-3a7d335f39a8579c20cdf02f8d462582 **/
+
+		</style>
+		<meta name="generator" content="WP Rocket 3.17.3.1" data-wpr-features="wpr_delay_js wpr_defer_js wpr_minify_js wpr_oci wpr_minify_css wpr_desktop wpr_preload_links" /></head>
+
+<body class="wp-singular page-template page-template-elementor_header_footer page page-id-297 wp-custom-logo wp-embed-responsive wp-theme-generatepress post-image-aligned-center right-sidebar nav-below-header separate-containers fluid-header active-footer-widgets-3 nav-aligned-left header-aligned-left dropdown-hover elementor-default elementor-template-full-width elementor-kit-118 elementor-page elementor-page-297 full-width-content" itemtype="https://schema.org/WebPage" itemscope>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N44DPX5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><a class="screen-reader-text skip-link" href="#content" title="Pular para o conteúdo">Pular para o conteúdo</a>		<div  data-elementor-type="header" data-elementor-id="10" class="elementor elementor-10 elementor-location-header" data-elementor-post-type="elementor_library">
+					<section  class="elementor-section elementor-top-section elementor-element elementor-element-60ae6866 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="60ae6866" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-21100415" data-id="21100415" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-46c55d61 elementor-reverse-mobile elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="46c55d61" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-33bcc8ff elementor-hidden-phone" data-id="33bcc8ff" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-491072da elementor-icon-list--layout-inline elementor-align-start elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="491072da" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="tel:+554130261234" target="_blank">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone"></i>						</span>
+										<span class="elementor-icon-list-text">(41) 3026-1234</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="http://iorc@iorcpr.com.br">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-envelope"></i>						</span>
+										<span class="elementor-icon-list-text">iorc@iorcpr.com.br</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://goo.gl/maps/A2R7ohAaXwGUycR27">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+										<span class="elementor-icon-list-text">Rua Francisco Derosso, 4567</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-64e68d0b" data-id="64e68d0b" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4bac9de4 elementor-icon-list--layout-inline elementor-align-end elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4bac9de4" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.facebook.com/Iorcpr/">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-facebook-f"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.instagram.com/iorcodontologia">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fab fa-instagram"></i>						</span>
+										<span class="elementor-icon-list-text"></span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<div class="elementor-element elementor-element-373dc40 elementor-align-center elementor-mobile-align-center elementor-fixed elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-button" data-id="373dc40" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;fixed&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://api.whatsapp.com/send?phone=5541999076236">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+									<span class="elementor-button-text">Fale conosco via WhatsApp!</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				<div class="elementor-element elementor-element-c381708 elementor-align-center elementor-mobile-align-center elementor-fixed elementor-hidden-desktop elementor-widget elementor-widget-button" data-id="c381708" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;fixed&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://api.whatsapp.com/send?phone=5541999076236" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+									<span class="elementor-button-text">Fale conosco via WhatsApp!</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section  class="elementor-section elementor-top-section elementor-element elementor-element-2d9dc19 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2d9dc19" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ac89c58" data-id="ac89c58" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a342059 elementor-widget-mobile__width-initial elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="a342059" data-element_type="widget" data-e-type="widget" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="https://iorcpr.com.br">
+			<img width="300" height="136" src="https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-logo-horizontal-300x136.png" class="attachment-medium size-medium wp-image-1801" alt="" srcset="https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-logo-horizontal-300x136.png 300w, https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-logo-horizontal-768x347.png 768w, https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-logo-horizontal.png 821w" sizes="(max-width: 300px) 100vw, 300px" />				</a>
+											</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section  class="elementor-section elementor-top-section elementor-element elementor-element-dd5091b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dd5091b" data-element_type="section" data-e-type="section">
+						<div  class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d616f7a" data-id="d616f7a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7f1e706 elementor-nav-menu__align-center elementor-widget-mobile__width-initial elementor-widget__width-initial elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="7f1e706" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menu" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-7f1e706" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-169"><a href="https://iorcpr.com.br/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://iorcpr.com.br/sobre/" class="elementor-item">Sobre</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-166"><a href="https://iorcpr.com.br/tratamentos/" class="elementor-item">Tratamentos</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-388"><a href="https://iorcpr.com.br/tratamentos/ortodontia/" class="elementor-sub-item">Ortodontia</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="https://iorcpr.com.br/tratamentos/ortodontia/aparelho-invisivel/" class="elementor-sub-item">Aparelho Invisível</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-448"><a href="https://iorcpr.com.br/tratamentos/ortodontia/aparelho-estetico-safira/" class="elementor-sub-item">Aparelho Estético (Safira)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="https://iorcpr.com.br/tratamentos/ortodontia/aparelho-tradicional-metal/" class="elementor-sub-item">Aparelho Tradicional (Metal)</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-403"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/" class="elementor-sub-item">Odontologia e Implantes</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/implantes/" class="elementor-sub-item">Implantes</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/clareamento-dental-com-moldeira/" class="elementor-sub-item">Clareamento Dental c/ Moldeira</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/clareamento-dental-de-consultorio/" class="elementor-sub-item">Clareamento Dental de Consultório</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/endodontia/" class="elementor-sub-item">Endodontia</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/limpeza/" class="elementor-sub-item">Limpeza</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/extracao/" class="elementor-sub-item">Extração</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/restauracao/" class="elementor-sub-item">Restauração</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/protese/" class="elementor-sub-item">Prótese</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-478"><a href="https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/" class="elementor-sub-item">Facetas e Lente de Contato</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/facetas-dentarias/" class="elementor-sub-item">Facetas Dentárias</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/lente-de-contato-dental/" class="elementor-sub-item">Lente de Contato Dental</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-676"><a href="https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/" class="elementor-sub-item">Harmonização Orofacial</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489"><a href="https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/toxina-botulinica/" class="elementor-sub-item">Toxina Botulínica</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490"><a href="https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/preenchimento-facial/" class="elementor-sub-item">Preenchimento Facial</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://iorcpr.com.br/contato/" class="elementor-item">Contato</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672"><a href="https://iorcpr.com.br/contato#unidades" class="elementor-item elementor-item-anchor">Unidades</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Alternar menu" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>			<span class="elementor-screen-only">Menu</span>
+		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-7f1e706" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-169"><a href="https://iorcpr.com.br/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-167"><a href="https://iorcpr.com.br/sobre/" class="elementor-item" tabindex="-1">Sobre</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-166"><a href="https://iorcpr.com.br/tratamentos/" class="elementor-item" tabindex="-1">Tratamentos</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-388"><a href="https://iorcpr.com.br/tratamentos/ortodontia/" class="elementor-sub-item" tabindex="-1">Ortodontia</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-442"><a href="https://iorcpr.com.br/tratamentos/ortodontia/aparelho-invisivel/" class="elementor-sub-item" tabindex="-1">Aparelho Invisível</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-448"><a href="https://iorcpr.com.br/tratamentos/ortodontia/aparelho-estetico-safira/" class="elementor-sub-item" tabindex="-1">Aparelho Estético (Safira)</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-447"><a href="https://iorcpr.com.br/tratamentos/ortodontia/aparelho-tradicional-metal/" class="elementor-sub-item" tabindex="-1">Aparelho Tradicional (Metal)</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-403"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/" class="elementor-sub-item" tabindex="-1">Odontologia e Implantes</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/implantes/" class="elementor-sub-item" tabindex="-1">Implantes</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/clareamento-dental-com-moldeira/" class="elementor-sub-item" tabindex="-1">Clareamento Dental c/ Moldeira</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-482"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/clareamento-dental-de-consultorio/" class="elementor-sub-item" tabindex="-1">Clareamento Dental de Consultório</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-483"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/endodontia/" class="elementor-sub-item" tabindex="-1">Endodontia</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-486"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/limpeza/" class="elementor-sub-item" tabindex="-1">Limpeza</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/extracao/" class="elementor-sub-item" tabindex="-1">Extração</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-488"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/restauracao/" class="elementor-sub-item" tabindex="-1">Restauração</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-487"><a href="https://iorcpr.com.br/tratamentos/odontologia-e-implantes/protese/" class="elementor-sub-item" tabindex="-1">Prótese</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-478"><a href="https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/" class="elementor-sub-item" tabindex="-1">Facetas e Lente de Contato</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/facetas-dentarias/" class="elementor-sub-item" tabindex="-1">Facetas Dentárias</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/lente-de-contato-dental/" class="elementor-sub-item" tabindex="-1">Lente de Contato Dental</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-676"><a href="https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/" class="elementor-sub-item" tabindex="-1">Harmonização Orofacial</a>
+	<ul class="sub-menu elementor-nav-menu--dropdown">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489"><a href="https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/toxina-botulinica/" class="elementor-sub-item" tabindex="-1">Toxina Botulínica</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490"><a href="https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/preenchimento-facial/" class="elementor-sub-item" tabindex="-1">Preenchimento Facial</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="https://iorcpr.com.br/contato/" class="elementor-item" tabindex="-1">Contato</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-672"><a href="https://iorcpr.com.br/contato#unidades" class="elementor-item elementor-item-anchor" tabindex="-1">Unidades</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+	<div  class="site grid-container container hfeed grid-parent" id="page">
+				<div  class="site-content" id="content">
+					<div  data-elementor-type="wp-page" data-elementor-id="297" class="elementor elementor-297" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-35d92642 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="35d92642" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6289624b" data-id="6289624b" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-12cc1e29 elementor-invisible elementor-widget elementor-widget-heading" data-id="12cc1e29" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">Blog</h1>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2b927e6e" data-id="2b927e6e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap">
+							</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4f7af106 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4f7af106" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-262e732a" data-id="262e732a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-60a6fc24 elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="60a6fc24" data-element_type="widget" data-e-type="widget" data-settings="{&quot;pagination_type&quot;:&quot;numbers&quot;,&quot;classic_columns&quot;:&quot;3&quot;,&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.classic">
+				<div class="elementor-widget-container">
+							<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid">
+				<article class="elementor-post elementor-grid-item post-2252 post type-post status-publish format-standard hentry category-blog">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://iorcpr.com.br/blog/implante-dentario-saude-gengival-periodonto/" >
+				Implante dentário e saúde gengival: por que o periodonto é decisivo para o sucesso			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-date">
+			25/09/2026		</span>
+				<span class="elementor-post-avatar">
+			Nenhum comentário		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Quem pensa em implante dentário foca muito no osso — e com razão, já que a osseointegração é a base do procedimento. Mas há outro tecido igualmente decisivo para o sucesso do implante: a gengiva. Mais especificamente, a saúde periodontal como um todo. Entender essa relação pode fazer diferença entre um implante que dura décadas</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://iorcpr.com.br/blog/implante-dentario-saude-gengival-periodonto/" aria-label="Leia mais sobre Implante dentário e saúde gengival: por que o periodonto é decisivo para o sucesso" tabindex="-1" >
+			Saiba Mais		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-2251 post type-post status-publish format-standard hentry category-blog">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://iorcpr.com.br/blog/implante-imediato-ou-convencional-qual-protocolo/" >
+				Implante imediato ou convencional: qual protocolo é indicado para você?			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-date">
+			18/09/2026		</span>
+				<span class="elementor-post-avatar">
+			Nenhum comentário		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Quando o assunto é implante dentário, uma das primeiras dúvidas é sobre o tempo: dá para sair da cirurgia já com o dente? Isso depende do protocolo escolhido — e a escolha não é livre, ela segue critérios clínicos bem definidos. Entender a diferença entre implante imediato e convencional ajuda a ter expectativas realistas e</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://iorcpr.com.br/blog/implante-imediato-ou-convencional-qual-protocolo/" aria-label="Leia mais sobre Implante imediato ou convencional: qual protocolo é indicado para você?" tabindex="-1" >
+			Saiba Mais		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-2250 post type-post status-publish format-standard hentry category-blog">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://iorcpr.com.br/blog/quanto-tempo-dura-implante-dentario-longevidade/" >
+				Quanto tempo dura um implante dentário? O que garante a longevidade do resultado			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-date">
+			11/09/2026		</span>
+				<span class="elementor-post-avatar">
+			Nenhum comentário		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Uma das perguntas mais frequentes de quem considera fazer um implante dentário é: quanto tempo dura? A resposta mais honesta é: um implante bem indicado, bem executado e bem cuidado pode durar a vida toda. Mas essa longevidade depende de alguns fatores que vale entender. O implante em si versus a prótese É importante separar</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://iorcpr.com.br/blog/quanto-tempo-dura-implante-dentario-longevidade/" aria-label="Leia mais sobre Quanto tempo dura um implante dentário? O que garante a longevidade do resultado" tabindex="-1" >
+			Saiba Mais		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-2249 post type-post status-publish format-standard hentry category-blog">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://iorcpr.com.br/blog/implante-dentario-contraindicacoes-o-que-avaliar/" >
+				Implante dentário tem contraindicações? O que avaliar antes do procedimento			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-date">
+			04/09/2026		</span>
+				<span class="elementor-post-avatar">
+			Nenhum comentário		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Antes de marcar um implante dentário, uma dúvida comum é: será que tenho alguma contraindicação? A resposta curta é: pode haver fatores que pedem atenção especial, mas raramente alguém é definitivamente impedido de fazer o procedimento. O que existe são condições que precisam ser avaliadas e, muitas vezes, controladas antes da cirurgia. O que pode</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://iorcpr.com.br/blog/implante-dentario-contraindicacoes-o-que-avaliar/" aria-label="Leia mais sobre Implante dentário tem contraindicações? O que avaliar antes do procedimento" tabindex="-1" >
+			Saiba Mais		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-2239 post type-post status-publish format-standard hentry category-blog">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://iorcpr.com.br/blog/implante-dentario-em-curitiba-duvidas-mais-comuns/" >
+				Implante dentário em Curitiba: as dúvidas mais comuns respondidas antes da consulta			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-date">
+			28/08/2026		</span>
+				<span class="elementor-post-avatar">
+			Nenhum comentário		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>A busca por implante dentário em Curitiba cresce a cada ano — e junto com ela, crescem as dúvidas de quem ainda não sabe bem o que esperar do procedimento. Dói? Quanto tempo leva? Qualquer pessoa pode fazer? Quanto custa? Reunimos abaixo as perguntas que mais recebemos de pacientes antes da primeira consulta. Se você</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://iorcpr.com.br/blog/implante-dentario-em-curitiba-duvidas-mais-comuns/" aria-label="Leia mais sobre Implante dentário em Curitiba: as dúvidas mais comuns respondidas antes da consulta" tabindex="-1" >
+			Saiba Mais		</a>
+
+				</div>
+				</article>
+				<article class="elementor-post elementor-grid-item post-2238 post type-post status-publish format-standard hentry category-blog">
+				<div class="elementor-post__text">
+				<h3 class="elementor-post__title">
+			<a href="https://iorcpr.com.br/blog/por-que-experiencia-da-clinica-importa-no-implante-dentario-curitiba/" >
+				Por que a experiência da clínica importa na hora de fazer um implante dentário			</a>
+		</h3>
+				<div class="elementor-post__meta-data">
+					<span class="elementor-post-date">
+			21/08/2026		</span>
+				<span class="elementor-post-avatar">
+			Nenhum comentário		</span>
+				</div>
+				<div class="elementor-post__excerpt">
+			<p>Quando se pesquisa sobre implante dentário em Curitiba, uma das primeiras dúvidas é: qual clínica escolher? Preço, localização e indicações de amigos entram na conta — mas existe um fator que muita gente subestima e que talvez seja o mais importante: a experiência clínica da equipe. Neste artigo, explicamos por que os anos de prática</p>
+		</div>
+		
+		<a class="elementor-post__read-more" href="https://iorcpr.com.br/blog/por-que-experiencia-da-clinica-importa-no-implante-dentario-curitiba/" aria-label="Leia mais sobre Por que a experiência da clínica importa na hora de fazer um implante dentário" tabindex="-1" >
+			Saiba Mais		</a>
+
+				</div>
+				</article>
+				</div>
+		
+				<div class="e-load-more-anchor" data-page="1" data-max-page="13" data-next-page="https://iorcpr.com.br/blog/2/"></div>
+				<nav class="elementor-pagination" aria-label="Paginação">
+			<span aria-current="page" class="page-numbers current"><span class="elementor-screen-only">Página</span>1</span>
+<a class="page-numbers" href="https://iorcpr.com.br/blog/2/"><span class="elementor-screen-only">Página</span>2</a>
+<a class="page-numbers" href="https://iorcpr.com.br/blog/3/"><span class="elementor-screen-only">Página</span>3</a>
+<a class="page-numbers" href="https://iorcpr.com.br/blog/4/"><span class="elementor-screen-only">Página</span>4</a>
+<a class="page-numbers" href="https://iorcpr.com.br/blog/5/"><span class="elementor-screen-only">Página</span>5</a>		</nav>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+	</div>
+</div>
+
+
+<div  class="site-footer">
+			<div data-elementor-type="footer" data-elementor-id="48" class="elementor elementor-48 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-109020c3 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="109020c3" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ac6b704" data-id="3ac6b704" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-5f0ecdf0 elementor-reverse-mobile elementor-section-full_width elementor-reverse-tablet elementor-section-height-default elementor-section-height-default" data-id="5f0ecdf0" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6b16256c" data-id="6b16256c" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e620360 elementor-widget elementor-widget-image" data-id="e620360" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1" height="1" src="https://iorcpr.com.br/wp-content/uploads/2020/09/iorc-odontologia-logo-1-1.svg" class="attachment-medium size-medium wp-image-203" alt="IORC Odontologia - Logo Branco" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-44bb343f elementor-widget elementor-widget-text-editor" data-id="44bb343f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>INSTITUTO DE ORTODONTIA DE CURITIBA S/S LTDA</p><p>CNPJ: 07.330.074/0001-35 </p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2ad36fa7" data-id="2ad36fa7" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7cc31992 elementor-widget elementor-widget-heading" data-id="7cc31992" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">IORC - INSTITUTO DE ODONTOLOGIA DE CURITIBA - CLM/PR-1061</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-85eab73 elementor-icon-list--layout-inline elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="85eab73" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://iorcpr.com.br/">
+
+											<span class="elementor-icon-list-text">Responsável Técnico:</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+										<span class="elementor-icon-list-text">Dr. Fabio Takachi Hase CRO/PR-9169</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+										<span class="elementor-icon-list-text">Cirurgião Dentista</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8df86f6" data-id="8df86f6" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-11d154b elementor-widget elementor-widget-heading" data-id="11d154b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Links</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-bf7ada4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="bf7ada4" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="https://iorcpr.com.br/">
+
+											<span class="elementor-icon-list-text">Home</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://iorcpr.com.br/tratamentos">
+
+											<span class="elementor-icon-list-text">Tratamentos</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://iorcpr.com.br/sobre">
+
+											<span class="elementor-icon-list-text">Sobre</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://iorcpr.com.br/politica-de-privacidade/">
+
+											<span class="elementor-icon-list-text">Política de Privacidade e Termos de Uso</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="https://iorcpr.com.br/contato">
+
+											<span class="elementor-icon-list-text">Contato</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-29a53454" data-id="29a53454" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-14f26c4b elementor-widget elementor-widget-heading" data-id="14f26c4b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Newsletter</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-6c5cf71 elementor-widget elementor-widget-text-editor" data-id="6c5cf71" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Cadastre-se na nossa lista de e-mails para receber atualizações de notícias e ofertas exclusivas.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-715b6f35 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="715b6f35" data-element_type="widget" data-e-type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
+				<div class="elementor-widget-container">
+							<form class="elementor-form" method="post" name="New Form">
+			<input type="hidden" name="post_id" value="48"/>
+			<input type="hidden" name="form_id" value="715b6f35"/>
+			<input type="hidden" name="referer_title" value="Sobre | IORC Odontologia" />
+
+							<input type="hidden" name="queried_id" value="72"/>
+			
+			<div class="elementor-form-fields-wrapper elementor-labels-above">
+								<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required elementor-mark-required">
+													<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Email" required="required" aria-required="true">
+											</div>
+								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+					<button class="elementor-button elementor-size-sm" type="submit">
+						<span class="elementor-button-content-wrapper">
+																						<span class="elementor-button-text">Enviar</span>
+													</span>
+					</button>
+				</div>
+			</div>
+		</form>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		</div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/generatepress/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=AW-908896392"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-908896392');
+
+  // Evento para rastrear cliques no telefone
+  document.addEventListener("DOMContentLoaded", function() {
+    let telefone = document.querySelector("a[href^='tel']");
+    if (telefone) {
+      telefone.addEventListener("click", function() {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-908896392/Q1zRCMTHhfsYEJeS9bMo'
+        });
+      });
+    }
+  });
+</script><script type="rocketlazyloadscript" id="generate-a11y">
+!function(){"use strict";if("querySelector"in document&&"addEventListener"in window){var e=document.body;e.addEventListener("pointerdown",(function(){e.classList.add("using-mouse")}),{passive:!0}),e.addEventListener("keydown",(function(){e.classList.remove("using-mouse")}),{passive:!0})}}();
+</script>
+
+<div  class="joinchat joinchat--right" data-settings='{"telephone":"5541999076236","mobile_only":false,"button_delay":3,"whatsapp_web":false,"qr":false,"message_views":2,"message_delay":10,"message_badge":false,"message_send":"Olá! Cliquei no botão do WhatsApp no site.","tracking_url":"https://iorcpr.com.br/wp-json/joinchat/v1/track-click","message_hash":"9932cf42"}' hidden aria-hidden="false">
+	<div  class="joinchat__button" role="button" tabindex="0" aria-label="Abrir bate-papo">
+							</div>
+					<div  class="joinchat__chatbox" role="dialog" aria-labelledby="joinchat__label" aria-modal="true">
+			<div  class="joinchat__header">
+				<div id="joinchat__label">
+											<svg class="joinchat__wa" width="120" height="28" viewBox="0 0 120 28"><title>WhatsApp</title><path d="M117.2 17c0 .4-.2.7-.4 1-.1.3-.4.5-.7.7l-1 .2c-.5 0-.9 0-1.2-.2l-.7-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1l.7-.7a2 2 0 0 1 1.1-.3 2 2 0 0 1 1.8 1l.4 1a5.3 5.3 0 0 1 0 2.3m2.5-3c-.1-.7-.4-1.3-.8-1.7a4 4 0 0 0-1.3-1.2c-.6-.3-1.3-.4-2-.4-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11H110v13h2.7v-4.5c.4.4.8.8 1.3 1 .5.3 1 .4 1.6.4a4 4 0 0 0 3.2-1.5c.4-.5.7-1 .8-1.6.2-.6.3-1.2.3-1.9s0-1.3-.3-2zm-13.1 3c0 .4-.2.7-.4 1l-.7.7-1.1.2c-.4 0-.8 0-1-.2-.4-.2-.6-.4-.8-.7a3 3 0 0 1-.4-1 5.4 5.4 0 0 1 0-2.3c0-.4.2-.7.4-1 .1-.3.4-.5.7-.7a2 2 0 0 1 1-.3 2 2 0 0 1 1.9 1l.4 1a5.4 5.4 0 0 1 0 2.3m1.7-4.7a4 4 0 0 0-3.3-1.6c-.6 0-1.2.1-1.7.4a3 3 0 0 0-1.2 1.1V11h-2.6v13h2.7v-4.5c.3.4.7.8 1.2 1 .6.3 1.1.4 1.7.4a4 4 0 0 0 3.2-1.5c.4-.5.6-1 .8-1.6s.3-1.2.3-1.9-.1-1.3-.3-2c-.2-.6-.4-1.2-.8-1.6m-17.5 3.2 1.7-5 1.7 5zm.2-8.2-5 13.4h3l1-3h5l1 3h3L94 7.3zm-5.3 9.1-.6-.8-1-.5a11.6 11.6 0 0 0-2.3-.5l-1-.3a2 2 0 0 1-.6-.3.7.7 0 0 1-.3-.6c0-.2 0-.4.2-.5l.3-.3h.5l.5-.1c.5 0 .9 0 1.2.3.4.1.6.5.6 1h2.5c0-.6-.2-1.1-.4-1.5a3 3 0 0 0-1-1 4 4 0 0 0-1.3-.5 7.7 7.7 0 0 0-3 0c-.6.1-1 .3-1.4.5l-1 1a3 3 0 0 0-.4 1.5 2 2 0 0 0 1 1.8l1 .5 1.1.3 2.2.6c.6.2.8.5.8 1l-.1.5-.4.4a2 2 0 0 1-.6.2 2.8 2.8 0 0 1-1.4 0 2 2 0 0 1-.6-.3l-.5-.5-.2-.8H77c0 .7.2 1.2.5 1.6.2.5.6.8 1 1 .4.3.9.5 1.4.6a8 8 0 0 0 3.3 0c.5 0 1-.2 1.4-.5a3 3 0 0 0 1-1c.3-.5.4-1 .4-1.6 0-.5 0-.9-.3-1.2M74.7 8h-2.6v3h-1.7v1.7h1.7v5.8c0 .5 0 .9.2 1.2l.7.7 1 .3a7.8 7.8 0 0 0 2 0h.7v-2.1a3.4 3.4 0 0 1-.8 0l-1-.1-.2-1v-4.8h2V11h-2zm-7.6 9v.5l-.3.8-.7.6c-.2.2-.7.2-1.2.2h-.6l-.5-.2a1 1 0 0 1-.4-.4l-.1-.6.1-.6.4-.4.5-.3a4.8 4.8 0 0 1 1.2-.2 8 8 0 0 0 1.2-.2l.4-.3v1zm2.6 1.5v-5c0-.6 0-1.1-.3-1.5l-1-.8-1.4-.4a10.9 10.9 0 0 0-3.1 0l-1.5.6c-.4.2-.7.6-1 1a3 3 0 0 0-.5 1.5h2.7c0-.5.2-.9.5-1a2 2 0 0 1 1.3-.4h.6l.6.2.3.4.2.7c0 .3 0 .5-.3.6-.1.2-.4.3-.7.4l-1 .1a22 22 0 0 0-2.4.4l-1 .5c-.3.2-.6.5-.8.9-.2.3-.3.8-.3 1.3s.1 1 .3 1.3c.1.4.4.7.7 1l1 .4c.4.2.9.2 1.3.2a6 6 0 0 0 1.8-.2c.6-.2 1-.5 1.5-1a4 4 0 0 0 .2 1H70l-.3-1zm-11-6.7c-.2-.4-.6-.6-1-.8-.5-.2-1-.3-1.8-.3-.5 0-1 .1-1.5.4a3 3 0 0 0-1.3 1.2v-5h-2.7v13.4H53v-5.1c0-1 .2-1.7.5-2.2.3-.4.9-.6 1.6-.6.6 0 1 .2 1.3.6s.4 1 .4 1.8v5.5h2.7v-6c0-.6 0-1.2-.2-1.6 0-.5-.3-1-.5-1.3zm-14 4.7-2.3-9.2h-2.8l-2.3 9-2.2-9h-3l3.6 13.4h3l2.2-9.2 2.3 9.2h3l3.6-13.4h-3zm-24.5.2L18 15.6c-.3-.1-.6-.2-.8.2A20 20 0 0 1 16 17c-.2.2-.4.3-.7.1-.4-.2-1.5-.5-2.8-1.7-1-1-1.7-2-2-2.4-.1-.4 0-.5.2-.7l.5-.6.4-.6v-.6L10.4 8c-.3-.6-.6-.5-.8-.6H9c-.2 0-.6.1-.9.5C7.8 8.2 7 9 7 10.7s1.3 3.4 1.4 3.6c.2.3 2.5 3.7 6 5.2l1.9.8c.8.2 1.6.2 2.2.1s2-.8 2.3-1.6c.3-.9.3-1.5.2-1.7l-.7-.4zM14 25.3c-2 0-4-.5-5.8-1.6l-.4-.2-4.4 1.1 1.2-4.2-.3-.5A11.5 11.5 0 0 1 22.1 5.7 11.5 11.5 0 0 1 14 25.3M14 0A13.8 13.8 0 0 0 2 20.7L0 28l7.3-2A13.8 13.8 0 1 0 14 0"/></svg>
+									</div>
+				<div class="joinchat__close" role="button" tabindex="0" aria-label="Fechar"></div>
+			</div>
+			<div  class="joinchat__scroll">
+				<div class="joinchat__content">
+					<div class="joinchat__chat"><div class="joinchat__bubble">Olá<br>Podemos ajudá-lo?</div></div>
+					<div class="joinchat__open" role="button" tabindex="0">
+													<div class="joinchat__open__text">Abrir bate-papo</div>
+												<svg class="joinchat__open__icon" width="60" height="60" viewbox="0 0 400 400">
+							<path class="joinchat__pa" d="M168.83 200.504H79.218L33.04 44.284a1 1 0 0 1 1.386-1.188L365.083 199.04a1 1 0 0 1 .003 1.808L34.432 357.903a1 1 0 0 1-1.388-1.187l29.42-99.427"/>
+							<path class="joinchat__pb" d="M318.087 318.087c-52.982 52.982-132.708 62.922-195.725 29.82l-80.449 10.18 10.358-80.112C18.956 214.905 28.836 134.99 81.913 81.913c65.218-65.217 170.956-65.217 236.174 0 42.661 42.661 57.416 102.661 44.265 157.316"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+					<a class="joinchat__powered" href="https://join.chat/en/powered/?utm_medium=widget&#038;utm_source=iorcpr.com.br" target="_blank" rel="nofollow noopener">Powered by <span>Joinchat</span></a>
+			</div>
+			<script type="rocketlazyloadscript">
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<script type="rocketlazyloadscript">
+window.addEventListener('load', function() {
+    console.log('Script de conversão carregado!');
+    
+    // Observa mudanças no DOM para detectar mensagem de sucesso
+    var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            mutation.addedNodes.forEach(function(node) {
+                // Verifica se é a mensagem de sucesso do WPForms
+                if (node.nodeType === 1) {
+                    var successMsg = node.querySelector('.wpforms-confirmation-container-full');
+                    if (!successMsg) {
+                        successMsg = node.classList && node.classList.contains('wpforms-confirmation-container-full') ? node : null;
+                    }
+                    
+                    if (successMsg) {
+                        console.log('&#x2705; Mensagem de sucesso detectada!');
+                        if (typeof gtag !== 'undefined') {
+                            gtag('event', 'conversion', {
+                                'send_to': 'AW-908896392/eNLpCJHJvOgZEIjRsrED'
+                            });
+                            console.log('&#x2705; Conversão Google Ads disparada!');
+                        } else {
+                            console.log('&#x274c; gtag não encontrado');
+                        }
+                    }
+                }
+            });
+        });
+    });
+    
+    // Começa a observar mudanças no body
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+    
+    console.log('Observer iniciado - aguardando envio do formulário...');
+});
+</script><link rel='stylesheet' id='widget-icon-list-css' href='https://iorcpr.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.1' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://iorcpr.com.br/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.1' media='all' />
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://iorcpr.com.br","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script type="rocketlazyloadscript" id="generate-menu-js-before">
+var generatepressMenu = {"toggleOpenedSubMenus":true,"openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+//# sourceURL=generate-menu-js-before
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/themes/generatepress/assets/js/menu.min.js?ver=3.6.1" id="generate-menu-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.2.1" id="elementor-webpack-runtime-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.2.1" id="elementor-frontend-modules-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnX":"Compartilhar no X","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselPrevSlideMessage":"Slide anterior","a11yCarouselNextSlideMessage":"Pr\u00f3ximo slide","a11yCarouselFirstSlideMessage":"Este \u00e9 o primeiro slide","a11yCarouselLastSlideMessage":"Este \u00e9 o \u00faltimo slide","a11yCarouselPaginationBulletMessage":"Ir para o slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Dispositivos m\u00f3veis no modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Dispositivos m\u00f3veis no modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet no modo retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet no modo paisagem","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Notebook","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Tela ampla (widescreen)","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.2.1","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"e_panel_promotions":true,"theme_builder_v2":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"display-conditions":true,"form-submissions":true,"taxonomy-filter":true},"urls":{"assets":"https:\/\/iorcpr.com.br\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/iorcpr.com.br\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/iorcpr.com.br\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"0cda65cd5a","atomicFormsSendForm":"3f5d46a266"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":297,"title":"Blog%20%7C%20IORC%20Odontologia","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.2.1" id="elementor-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=6.3.2" id="joinchat-js" defer data-wp-strategy="defer" fetchpriority="low"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/wp-rocket/assets/js/heartbeat.js?ver=3.17.3.1" id="heartbeat-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.23.3" id="elementor-pro-webpack-runtime-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script type="rocketlazyloadscript" id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/iorcpr.com.br\/wp-admin\/admin-ajax.php","nonce":"63ccfa990e","urls":{"assets":"https:\/\/iorcpr.com.br\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/iorcpr.com.br\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/iorcpr.com.br\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.23.3" id="elementor-pro-frontend-js" data-rocket-defer defer></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://iorcpr.com.br/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.23.3" id="pro-elements-handlers-js" data-rocket-defer defer></script>
+<link rel='stylesheet' id='joinchat-css' href='https://iorcpr.com.br/wp-content/plugins/creame-whatsapp-me/public/css/joinchat.min.css?ver=6.3.2' media='all' />
+<style id='joinchat-inline-css'>
+.joinchat{--ch:142;--cs:70%;--cl:49%;--bw:1}
+/*# sourceURL=joinchat-inline-css */
+</style>
+
+<script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode-wpr",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1791489020 -->

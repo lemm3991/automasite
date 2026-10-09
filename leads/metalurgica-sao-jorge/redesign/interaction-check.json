@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-06T17:18:56.945Z",
+  "passed": true,
+  "menuOpens": true,
+  "menuCloses": true,
+  "whatsappHost": "wa.me",
+  "number": "5551993901225",
+  "messageIncludesDetails": true,
+  "navigationPrevented": true,
+  "method": "CDP; window.open intercepted before form submit; no message or external tab sent"
+}

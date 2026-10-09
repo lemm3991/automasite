@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "slug": "metalurgica-sao-jorge",
+  "phase": "plan",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "planHash": "ae42a31bf88c63812547dcd8a6959f31c93b371551879d4496aea34a1f70797c",
+  "inputHashes": {
+    "leads/metalurgica-sao-jorge/referencias/creative-brief.md": "5adb9d2d2c3b2cfc6471b89225e4667246415ea08ee8abcf23abe1524f0760a6",
+    "leads/metalurgica-sao-jorge/referencias/art-direction.json": "12b98130daded3dff2092afc5e655047313eb7d437cf4bbc5bbcaf24dbb16cca",
+    "leads/metalurgica-sao-jorge/referencias/design-selection.json": "3921937960b923655d93ae54a7898e0cd2a1c7a0e11a6cfde8bd0512f7e97eec",
+    "leads/metalurgica-sao-jorge/visual/visual-handoff.json": "4177545202a0c23d74c55bf3c2eb9b4b9c650c2c526cd0ff7cced8ee11d377a0",
+    "leads/metalurgica-sao-jorge/referencias/site-atual.md": "b15d42b866e4455dc0753fe2594929e539c14bd2922c55ff13bf96fa6450be0e",
+    "leads/metalurgica-sao-jorge/lead.json": "2ce14df07e7eb47762d23290206dcd0a6675de8327bda15cf496a06cabbf031f",
+    "leads/metalurgica-sao-jorge/referencias/assets-manifest.json": "bda39b80482399deaf767819a96bcd274a07cde1e677af7638e4455f658111cf",
+    "Design System/temas_escuros/autonomous-drone-62.aura.build/design-system.html": "d4fcee61b706d6352706da89e4c9e7baaf94c477e22936746ee0056de0515d72",
+    "Design System/temas_escuros/autonomous-drone-62.aura.build/STACK.md": "8365010f17666aaaa5326d299da7f2982a17312b4c77552934274a4151520c8d",
+    "Design System/temas_claros/aex.aura.build/aex.aura.build/design-system.html": "6d6b312aca5a3f9d22973e0b8467abb5ee333664c82cfe25d666201f61a21e3b",
+    "Design System/temas_claros/aex.aura.build/aex.aura.build/STACK.md": "7ec43cec700b8aed7dfb507bc8126a08e375ac0c2abb9ce16cffb761ba9e5015",
+    "Design System/temas_escuros/axion-ai.aura.build/design-system.html": "bf6a8264eb1fd1e2ff4743d97904051ccf92d819dbd13cd9010271da129ca5ae",
+    "Design System/temas_escuros/axion-ai.aura.build/STACK.md": "c03ecdcb12314725315e463a09bb2ee654c2c17fc69f81a53532648812445b98"
+  },
+  "checkedAt": "2026-10-06T16:45:39.898Z",
+  "fingerprint": null,
+  "comparisons": [],
+  "limitations": [
+    "Trechos existentes não comprovam interpretação factual; revisar sentido e imagens.",
+    "Similaridade estrutural não mede qualidade visual."
+  ],
+  "previousFingerprint": {
+    "heroType": "split-grid",
+    "sectionOrder": [
+      "header",
+      "hero",
+      "about",
+      "services",
+      "benefits",
+      "projects",
+      "contact",
+      "cta",
+      "footer"
+    ],
+    "imageStrategy": "section-image",
+    "gridStrategy": [
+      "grid-cols-1",
+      "lg:grid-cols-12",
+      "md:grid-cols-2",
+      "md:grid-cols-3"
+    ],
+    "backgroundTreatment": [
+      "dark",
+      "dots",
+      "continuous"
+    ],
+    "cardTreatment": "rounded-panels",
+    "typography": [
+      "Barlow",
+      "Inter"
+    ],
+    "motion": "shared-parallax",
+    "selectedVariants": [
+      {
+        "variant": "Header01",
+        "file": "src/components/header/Header01.astro",
+        "sha256": "89a3c5af207dab461a87bb11ec99f0fadbe49f36e36766387497e136f3cc4ff4"
+      },
+      {
+        "variant": "Hero07",
+        "file": "src/components/hero/Hero07.astro",
+        "sha256": "7559fe3ff883c6dd253d43a8b4a365233acabafdf51da10786c5c04d2df66a6f"
+      },
+      {
+        "variant": "About01",
+        "file": "src/components/about/About01.astro",
+        "sha256": "0f2279f9f7b72bd5054e13b66059e5228d12334ad240c54dc85122c1caa080d7"
+      },
+      {
+        "variant": "Services01",
+        "file": "src/components/services/Services01.astro",
+        "sha256": "10b4f5e278a6d39747b74c35479dfebb75b40cb056864a187d997ce00074da01"
+      },
+      {
+        "variant": "Features02",
+        "file": "src/components/benefits/Features02.astro",
+        "sha256": "45414ed343cf1405449215577d280ccbb2da1f3dc79103e92def95db662ae9e3"
+      },
+      {
+        "variant": "Showcase01",
+        "file": "src/components/projects/Showcase01.astro",
+        "sha256": "b58aa3bdeaf3c6110e9a8dbfd8b8796e99e94211a010c19b398ee82bffb5fe56"
+      },
+      {
+        "variant": "Contact01",
+        "file": "src/components/contact/Contact01.astro",
+        "sha256": "f71a6d8e4ee25f8b5c89532c25dcee85bc7a5231b642056a96ea3724f70a01d2"
+      },
+      {
+        "variant": "CTA04",
+        "file": "src/components/cta/CTA04.astro",
+        "sha256": "f3139fbae8b3b2319e377e7158f1001ed2c855d935f1a074577ab391eefa9862"
+      },
+      {
+        "variant": "Footer08",
+        "file": "src/components/footer/Footer08.astro",
+        "sha256": "eb5444ed7b52372456d2fb879ed9f41a00421c092bc83db555197b4deed48a8a"
+      }
+    ]
+  }
+}

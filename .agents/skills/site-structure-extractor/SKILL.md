@@ -1,55 +1,16 @@
 ---
 name: site-structure-extractor
-description: Analisa a página principal do site baixado e gera o documento intermediário referencias/site-atual.md documentando o site dobra por dobra, com inventário completo de copy original (títulos, subtítulos, CTAs, diferenciais, serviços) e representações de layout em ASCII para guiar o redesign.
+description: Confere a estrutura e a copy extraídas do HTML do cliente, com fontes e seletores verificáveis e sem textos de preenchimento.
 ---
 
-# Skill: Site Structure Extractor
+# Site Structure Extractor
 
-Esta skill analisa o HTML da página principal contida em `referencias/site-baixado/` e gera o documento consolidado `referencias/site-atual.md`.
+A coleta e extração são centralizadas em scripts/prospector-engine.cjs. Leia docs/pipeline-evidence-contract.md: source-evidence.json contém as páginas, títulos, textos, links e formulários realmente encontrados; source-review.json separa fatos liberados e conflitos; site-atual.md consolida o material.
 
-## 1. Papel do Markdown Intermediário
+Não preencher uma extração incompleta com serviços, diferenciais, CTAs, formulários ou desenhos de layout fictícios. Ausência de evidência permanece ausência. A ordem das dobras e os elementos visíveis devem ser conferidos nas capturas; a ordem de tags HTML não comprova o layout.
 
-O `site-atual.md` é a **fonte primária de COPY + ESTRUTURA ORIGINAL**.
-Ele existe para que o Builder não precise reler arquivos HTML/CSS pesados repetidamente a cada iteração, economizando tokens e garantindo total fidelidade às informações reais da empresa.
+O comando de compatibilidade valida o material atual sem substituir o Markdown revisado. Se faltar evidência, o agente volta à coleta/revisão e reprocessa o Prospector com --from-snapshot; isso não exige aprovação humana.
 
-## 2. Execução Automática
+    node .agents/skills/site-structure-extractor/scripts/extract_structure.js --slug SLUG
 
-```bash
-node .agents/skills/site-structure-extractor/scripts/extract_structure.js --slug "nome-do-cliente"
-```
-
-## 3. Estrutura Padrão Gerada em `site-atual.md`
-
-O arquivo é salvo em `leads/[slug]/referencias/site-atual.md` e espelhado em `index/[slug]/referencias/site-atual.md`:
-
-```markdown
-# HERO (PRIMEIRA DOBRA)
-### Copy Original
-- Headline: "..."
-- Subheadline: "..."
-- CTA: "..."
-### Elementos Visuais e Mídia
-...
-### Layout Atual (Representação ASCII)
-+--------------------------------------------------+
-| LOGO               NAV                 WHATSAPP  |
-+--------------------------------------------------+
-| TEXTO PRINCIPAL          |                       |
-| Subheadline              |      IMAGEM HERO      |
-| [ CTA PRINCIPAL ]        |                       |
-+--------------------------------------------------+
-----------------------------------------------------
-# DOBRA 2 — SERVIÇOS E ATUAÇÃO
-...
-# DOBRA 3 — SOBRE A EMPRESA E DIFERENCIAIS
-...
-# DOBRA 4 — PROVA SOCIAL / CREDIBILIDADE
-...
-# DOBRA 5 — CONTATO E RODAPÉ
-...
-```
-
-## 4. Diretrizes para o Redesign
-
-1. **Preservação de Conteúdo Real:** Use os textos, especialidades e contatos extraídos. Não invente conteúdo factual.
-2. **Reorganização Livre de UX:** O Markdown documenta o site antigo, mas **não obriga** a manter erros de usabilidade ou proporções ruins. Se a auditoria do Prospector apontou falhas, aperfeiçoe a hierarquia, a clareza e a conversão mantendo os dados legítimos.
+O Builder pode reorganizar UX e escrever copy editorial. Afirmações sobre o negócio continuam vinculadas aos factIds liberados, não a frases genéricas de um template.

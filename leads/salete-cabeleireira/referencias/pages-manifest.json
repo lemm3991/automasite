@@ -1,0 +1,58 @@
+{
+  "slug": "salete-cabeleireira",
+  "client": "Salão de Beleza Salete Cabeleireira",
+  "domain": "saletecabeleireira.com.br",
+  "auditTimestamp": "2026-10-09T21:29:00.858Z",
+  "sitemapsInspected": [
+    "/sitemap.xml",
+    "/wp-sitemap.xml",
+    "/page-sitemap.xml",
+    "/sitemap_index.xml",
+    "/robots.txt"
+  ],
+  "realPages": [
+    {
+      "url": "https://saletecabeleireira.com.br/",
+      "type": "ROTA_REAL_PRINCIPAL",
+      "category": "home",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 19037
+    },
+    {
+      "url": "http://saletecabeleireira.com.br/",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 19037
+    }
+  ],
+  "homeAnchors": [
+    {
+      "anchor": "#topo",
+      "label": "Home",
+      "targetUrl": "https://saletecabeleireira.com.br/#topo"
+    },
+    {
+      "anchor": "#salao",
+      "label": "Salão",
+      "targetUrl": "https://saletecabeleireira.com.br/#salao"
+    },
+    {
+      "anchor": "#servicos",
+      "label": "Serviços",
+      "targetUrl": "https://saletecabeleireira.com.br/#servicos"
+    },
+    {
+      "anchor": "#produtos",
+      "label": "Produtos",
+      "targetUrl": "https://saletecabeleireira.com.br/#produtos"
+    },
+    {
+      "anchor": "#contato",
+      "label": "Fale Conosco",
+      "targetUrl": "https://saletecabeleireira.com.br/#contato"
+    }
+  ]
+}

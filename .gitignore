@@ -17,6 +17,9 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Sistema
+# Sistema e temporários
 .DS_Store
 Thumbs.db
+__pycache__/
+*.pyc
+scratch/

@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 2,
+  "slug": "brotto-campelo",
+  "concept": "Boutique Jurídica de Prestígio & Autoridade Empresarial",
+  "createdBy": "builder-agent",
+  "inputs": [
+    {
+      "path": "leads/brotto-campelo/referencias/creative-brief.md"
+    },
+    {
+      "path": "leads/brotto-campelo/referencias/art-direction.json"
+    },
+    {
+      "path": "leads/brotto-campelo/referencias/design-selection.json"
+    },
+    {
+      "path": "leads/brotto-campelo/visual/visual-handoff.json"
+    },
+    {
+      "path": "leads/brotto-campelo/referencias/site-atual.md"
+    },
+    {
+      "path": "leads/brotto-campelo/lead.json"
+    },
+    {
+      "path": "leads/brotto-campelo/referencias/assets-manifest.json"
+    },
+    {
+      "path": "leads/brotto-campelo/referencias/source-evidence.json"
+    },
+    {
+      "path": "leads/brotto-campelo/referencias/source-review.json"
+    },
+    {
+      "path": "leads/brotto-campelo/referencias/asset-review.json"
+    }
+  ],
+  "hero": {
+    "sectionId": "hero",
+    "direction": "Layout split executivo com logo oficial BCA, credencial Análise Advocacia, chamada principal \"Soluções jurídicas inovadoras\", botão de contato com especialistas e fotografia de estúdio dos sócios-fundadores Natália Brotto e Ricardo Campelo.",
+    "asset": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+    "baseComponent": "src/components/hero/Hero01.astro",
+    "action": "adapt",
+    "changes": [
+      "Composição de duas colunas com contraste nítido e fundo alvo corporativo",
+      "Logotipo oficial BCA no topo e credencial dos sócios fundadores",
+      "Tipografia Playfair Display aplicada nos títulos conforme ai-saas-landing-27"
+    ],
+    "desktop": "No desktop (1440x900): cabeçalho sóbrio com logo e contatos, coluna esquerda com headline, selo de distinção jurídica e CTA executivo; coluna direita com fotografia editorial dos sócios.",
+    "mobile": "No mobile (390x844): logotipo visível, chamada direta, foto dos sócios e botão de atendimento imediato na primeira dobra sem cortes ou rolagem excessiva.",
+    "selectors": {
+      "logo": "#bca-logo",
+      "message": "#bca-hero h1",
+      "cta": "#bca-hero .bca-cta-btn",
+      "identity": "#bca-hero .bca-badge",
+      "photo": "#bca-hero .bca-hero-photo img"
+    }
+  },
+  "references": [
+    {
+      "id": "luxury-real-estate-22.aura.build",
+      "sourcePath": "Design System/temas_claros/luxury-real-estate-22.aura.build/luxury-real-estate-22.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "scroll-behavior: smooth;",
+          "benefit": "Navegação fluida e transição suave entre a apresentação dos sócios e as especialidades jurídicas.",
+          "factIds": [
+            "service-empresarial",
+            "service-planejamento"
+          ],
+          "element": "scroll suave e transição de cards",
+          "appliedTo": [
+            "services"
+          ],
+          "reinterpretation": "Adoção de rolagem suave e transições elegantes na apresentação dos serviços corporativos."
+        }
+      ]
+    },
+    {
+      "id": "architecture-studio.aura.build",
+      "sourcePath": "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "border-x border-[#C4CFC0]/60",
+          "benefit": "Linhas arquitetônicas sutis de contenção que organizam os reconhecimentos e as credenciais sem caixas pesadas.",
+          "factIds": [
+            "company-name",
+            "tagline-hero"
+          ],
+          "element": "linhas de contenção arquitetônica",
+          "appliedTo": [
+            "awards"
+          ],
+          "reinterpretation": "Linhas finas e discretas para emoldurar os selos Análise Advocacia com nobreza e contenção."
+        }
+      ]
+    },
+    {
+      "id": "ai-saas-landing-27.aura.build",
+      "sourcePath": "Design System/temas_claros/ai-saas-landing-27.aura.build/ai-saas-landing-27.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "font-family: 'Playfair Display', serif;",
+          "benefit": "Tipografia serifada de alta distinção para conferir nobreza e autoridade jurídica aos títulos principais.",
+          "factIds": [
+            "company-name",
+            "founder-ricardo"
+          ],
+          "element": "tipografia serifada Playfair Display",
+          "appliedTo": [
+            "hero"
+          ],
+          "reinterpretation": "Aplicação da tipografia serifada Playfair Display no título principal e nas aberturas de seções executivas."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+      "description": "Logotipo horizontal oficial Brotto Campelo Advogados em tipografia sóbria azul petróleo.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "logo",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+      "description": "Selo oficial Análise Advocacia 2026 concedido ao escritório Brotto Campelo Advogados.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+      "description": "Selo Análise Advocacia 2025 Escritório Mais Admirado.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg",
+      "description": "Selo Escritório Mais Admirado Regional 2024 Análise Advocacia.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg",
+      "description": "Fotografia conjunta dos sócios-fundadores Natália Brotto e Ricardo Campelo.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "team",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg",
+      "description": "Fotografia arquitetônica em preto e branco da sede do Brotto Campelo Advogados no Bigorrilho.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "environment",
+        "provenance": "client-source"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-name",
+      "factIds": [
+        "company-name"
+      ],
+      "text": "Brotto Campelo Advogados",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Brotto Campelo Advogados",
+      "usedIn": [
+        "hero",
+        "awards",
+        "services",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-tagline",
+      "factIds": [
+        "tagline-hero"
+      ],
+      "text": "Soluções jurídicas inovadoras",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Soluções jurídicas inovadoras",
+      "usedIn": [
+        "hero"
+      ]
+    },
+    {
+      "id": "claim-address",
+      "factIds": [
+        "address-sede"
+      ],
+      "text": "Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR",
+      "usedIn": [
+        "headquarters",
+        "cta",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-phone",
+      "factIds": [
+        "phone-sede"
+      ],
+      "text": "41 3026-8001",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "41 3026-8001",
+      "usedIn": [
+        "headquarters",
+        "cta",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-email",
+      "factIds": [
+        "email-sede"
+      ],
+      "text": "contato@brottocampelo.adv.br",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "contato@brottocampelo.adv.br",
+      "usedIn": [
+        "headquarters",
+        "cta",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-founder-ricardo",
+      "factIds": [
+        "founder-ricardo"
+      ],
+      "text": "Ricardo Campelo",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Ricardo Campelo",
+      "usedIn": [
+        "hero"
+      ]
+    },
+    {
+      "id": "claim-service-empresarial",
+      "factIds": [
+        "service-empresarial"
+      ],
+      "text": "Direito Empresarial",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Direito Empresarial",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-service-trabalho",
+      "factIds": [
+        "service-trabalho"
+      ],
+      "text": "Direito do Trabalho",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Direito do Trabalho",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-service-planejamento",
+      "factIds": [
+        "service-planejamento"
+      ],
+      "text": "Planejamento Patrimonial e Sucessões",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Planejamento Patrimonial e Sucessões",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-service-propriedade",
+      "factIds": [
+        "service-propriedade-intelectual"
+      ],
+      "text": "Propriedade Intelectual",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Propriedade Intelectual",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-service-lgpd",
+      "factIds": [
+        "service-lgpd"
+      ],
+      "text": "LGPD, Privacidade e Proteção de Dados",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "LGPD, Privacidade e Proteção de Dados",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-service-digital",
+      "factIds": [
+        "service-direito-digital"
+      ],
+      "text": "Direito Digital",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Direito Digital",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-service-agronegocio",
+      "factIds": [
+        "service-agronegocio"
+      ],
+      "text": "Agronegócio",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Agronegócio",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-service-leiloes",
+      "factIds": [
+        "service-leiloes"
+      ],
+      "text": "Assessoria em Leilões",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Assessoria em Leilões",
+      "usedIn": [
+        "services"
+      ]
+    },
+    {
+      "id": "claim-pillar-inovacao",
+      "factIds": [
+        "pillar-inovacao"
+      ],
+      "text": "Inovação e visão para além dos riscos",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Inovação e visão para além dos riscos",
+      "usedIn": [
+        "pillars"
+      ]
+    },
+    {
+      "id": "claim-pillar-abordagem",
+      "factIds": [
+        "pillar-abordagem"
+      ],
+      "text": "Abordagem personalizada",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Abordagem personalizada",
+      "usedIn": [
+        "pillars"
+      ]
+    },
+    {
+      "id": "claim-pillar-facilitadores",
+      "factIds": [
+        "pillar-facilitadores"
+      ],
+      "text": "Facilitadores de negócios",
+      "sourcePath": "leads/brotto-campelo/referencias/site-atual.md",
+      "sourceExcerpt": "Facilitadores de negócios",
+      "usedIn": [
+        "pillars"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "executive-hero",
+      "title": "Abertura Institucional & Liderança Jurídica",
+      "action": "adapt",
+      "outputPath": "src/clients/components/brotto-campelo/executive-hero.astro",
+      "candidateComponents": [
+        "src/components/hero/Hero01.astro"
+      ],
+      "reason": "Adaptação dedicada em duas colunas com logo oficial, retrato dos fundadores e tipografia Playfair Display.",
+      "changes": [
+        "Diagramação em split com Playfair Display",
+        "Exibição dos sócios-fundadores Natália Brotto e Ricardo Campelo",
+        "Botão de contato executivo direto"
+      ],
+      "referenceIds": [
+        "ai-saas-landing-27.aura.build"
+      ],
+      "claimIds": [
+        "claim-name",
+        "claim-tagline",
+        "claim-founder-ricardo"
+      ],
+      "assetPaths": [
+        "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+        "/assets/clients/brotto-campelo/20-Natalia-e-Ricardo-home-683x1024.jpg"
+      ]
+    },
+    {
+      "id": "awards",
+      "type": "credentials",
+      "variant": "awards-bar",
+      "title": "Reconhecimentos & Premiações Análise Advocacia",
+      "action": "adapt",
+      "outputPath": "src/clients/components/brotto-campelo/awards-bar.astro",
+      "candidateComponents": [
+        "src/components/credentials/Credentials01.astro"
+      ],
+      "reason": "Faixa institucional destacando selos oficiais Análise Advocacia com linhas arquitetônicas do architecture-studio.",
+      "changes": [
+        "Linhas de contenção finas inspiradas no architecture-studio",
+        "Apresentação dos selos 2026, 2025 e 2024",
+        "Legendas de prestígio editorial"
+      ],
+      "referenceIds": [
+        "architecture-studio.aura.build"
+      ],
+      "claimIds": [
+        "claim-name"
+      ],
+      "assetPaths": [
+        "/assets/clients/brotto-campelo/04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png",
+        "/assets/clients/brotto-campelo/08-SELO-2025_escritorio_mais_admirado.png",
+        "/assets/clients/brotto-campelo/11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg"
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "variant": "practice-grid",
+      "title": "Áreas de Atuação Estratégica Empresarial",
+      "action": "adapt",
+      "outputPath": "src/clients/components/brotto-campelo/practice-grid.astro",
+      "candidateComponents": [
+        "src/components/services/Services01.astro"
+      ],
+      "reason": "Grid de especialidades com transições suaves do luxury-real-estate e cartões minimalistas.",
+      "changes": [
+        "Grid estruturado com divisores milimétricos",
+        "Apresentação de 8 áreas confirmadas",
+        "Transições sutis de hover e rolagem suave"
+      ],
+      "referenceIds": [
+        "luxury-real-estate-22.aura.build"
+      ],
+      "claimIds": [
+        "claim-service-empresarial",
+        "claim-service-trabalho",
+        "claim-service-planejamento",
+        "claim-service-propriedade",
+        "claim-service-lgpd",
+        "claim-service-digital",
+        "claim-service-agronegocio",
+        "claim-service-leiloes"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "pillars",
+      "type": "benefits",
+      "variant": "firm-pillars",
+      "title": "Pilares de Excelência e Facilitação de Negócios",
+      "action": "adapt",
+      "outputPath": "src/clients/components/brotto-campelo/firm-pillars.astro",
+      "candidateComponents": [
+        "src/components/benefits/Benefits01.astro"
+      ],
+      "reason": "Três pilares de diferenciação institucional em cartões abertos com tipografia refinada.",
+      "changes": [
+        "Disposição em 3 colunas de prestígio",
+        "Texto autêntico dos pilares do escritório",
+        "Ícones de segurança jurídica"
+      ],
+      "referenceIds": [
+        "ai-saas-landing-27.aura.build"
+      ],
+      "claimIds": [
+        "claim-pillar-inovacao",
+        "claim-pillar-abordagem",
+        "claim-pillar-facilitadores"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "headquarters",
+      "type": "showcase",
+      "variant": "headquarters-showcase",
+      "title": "Sede Corporativa no Bigorrilho",
+      "action": "adapt",
+      "outputPath": "src/clients/components/brotto-campelo/headquarters-showcase.astro",
+      "candidateComponents": [
+        "src/components/projects/Showcase01.astro"
+      ],
+      "reason": "Composição arquitetônica destacando a fotografia da sede em Curitiba com informações de contato.",
+      "changes": [
+        "Proporção equilibrada entre foto do prédio e dados de localização",
+        "Endereço na Rua Padre Agostinho, 1926 com telefone e e-mail",
+        "Tratamento visual monocromático sóbrio"
+      ],
+      "referenceIds": [
+        "luxury-real-estate-22.aura.build"
+      ],
+      "claimIds": [
+        "claim-address",
+        "claim-phone",
+        "claim-email"
+      ],
+      "assetPaths": [
+        "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg"
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "executive-contact",
+      "title": "Atendimento & Consulta Jurídica Especializada",
+      "action": "adapt",
+      "outputPath": "src/clients/components/brotto-campelo/executive-contact.astro",
+      "candidateComponents": [
+        "src/components/cta/CTA01.astro"
+      ],
+      "reason": "Chamada para agendamento e contato direto com clareza dos canais oficiais (WhatsApp, e-mail e telefone fixo).",
+      "changes": [
+        "Botão de conversão com estilo executivo azul corporativo",
+        "Exibição do telefone fixo da sede 41 3026-8001 e e-mail",
+        "Microcopy institucional sóbria"
+      ],
+      "referenceIds": [
+        "ai-saas-landing-27.aura.build"
+      ],
+      "claimIds": [
+        "claim-address",
+        "claim-phone",
+        "claim-email"
+      ],
+      "assetPaths": []
+    }
+  ],
+  "implementationEvidence": [
+    {
+      "referenceId": "luxury-real-estate-22.aura.build",
+      "sectionId": "services",
+      "codePath": "src/clients/components/brotto-campelo/practice-grid.astro",
+      "codeExcerpt": "scroll-behavior: smooth;",
+      "explanation": "Rolagem suave e transição fluida na navegação das especialidades corporativas.",
+      "renderCheck": {
+        "selector": ".bca-practice-grid",
+        "minColumns": 2
+      }
+    },
+    {
+      "referenceId": "architecture-studio.aura.build",
+      "sectionId": "awards",
+      "codePath": "src/clients/components/brotto-campelo/awards-bar.astro",
+      "codeExcerpt": "border-x border-[#C4CFC0]/60",
+      "explanation": "Linhas arquitetônicas sutis de contenção que estruturam a apresentação dos selos Análise Advocacia.",
+      "renderCheck": {
+        "selector": ".bca-awards-bar",
+        "minColumns": 3
+      }
+    },
+    {
+      "referenceId": "ai-saas-landing-27.aura.build",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/brotto-campelo/executive-hero.astro",
+      "codeExcerpt": "font-family: 'Playfair Display', serif;",
+      "explanation": "Tipografia serifada nobre Playfair Display aplicada no título institucional do hero.",
+      "renderCheck": {
+        "selector": "#bca-hero"
+      }
+    }
+  ]
+}

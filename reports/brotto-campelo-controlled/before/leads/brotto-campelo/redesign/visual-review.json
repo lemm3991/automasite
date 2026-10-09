@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 3,
+  "slug": "brotto-campelo",
+  "status": "approved",
+  "method": "image-inspection",
+  "reviewedBy": "visual-auditor-agent",
+  "reviewedAt": "2026-10-09T13:19:13.819Z",
+  "independentFrom": "builder-agent",
+  "technicalEvidence": {
+    "renderSha256": "f421c72c9209786b876e0e53414bd7d634c649ff2a6dc067655aa34d6d20dfa0"
+  },
+  "factualEvidence": {
+    "sha256": "27dbba0f75634bf207316ae6c92a2bdcfcc9fb43700853e9673e1554de3014c0"
+  },
+  "screenshotHashes": {
+    "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "b6957b08f5dd0610bc3af9fcbedd6ee7d1a477230f9f3f7d8cafa4f7113fcfcc",
+    "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "27837f80960ef2139ed6af5cbb3940f73dacb0f1453934d74738852a851d91f1",
+    "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "65bea6abe654629a0f1d318bca1fe4a80640ba42d627eb072604dd96cb0e813b",
+    "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "3ae3447a48a473c1ef386509f1c8bf83697d797783a20e850dfeb355f0346b68",
+    "leads/brotto-campelo/screenshots/site-desktop.png": "366a2d39b93a1d1e6f175725c24e7ef3458a08ef042efdcd6ba510b697cad76f",
+    "leads/brotto-campelo/screenshots/site-mobile.png": "3f3d47aa8712d36be926a1bdd625d8c544f05bfe95cceaf6c94f6f50528df6a5"
+  },
+  "observations": [
+    {
+      "criterion": "hero",
+      "finding": "Desktop e mobile apresentam cabeçalho com logo oficial BCA, credencial dos sócios-fundadores, headline nítida com Playfair Display, botão de agendamento executivo e fotografia de estúdio de Natália Brotto e Ricardo Campelo na primeira dobra.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "leads/brotto-campelo/screenshots/site-desktop.png",
+        "leads/brotto-campelo/screenshots/site-mobile.png"
+      ]
+    },
+    {
+      "criterion": "identity",
+      "finding": "Identidade visual corporativa refinada em azul corporativo (#0693e3), cinza grafite (#32373c) e detalhes em cobre (#e06020) retirados do logotipo oficial, preservando o prestígio editorial de escritório de elite.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "composition",
+      "finding": "Estrutura lógica e imponente: hero executivo em split, galeria de selos Análise Advocacia com linhas arquitetônicas, grid de 8 especialidades empresariais, 3 pilares corporativos, sede própria no Bigorrilho e contato direto.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "imagery",
+      "finding": "Fotografias autênticas dos fundadores, selos oficiais e foto arquitetônica da sede com legendas rigorosamente compatíveis com o inventário documental de assets.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "legibility",
+      "finding": "Contraste impecável com tipografia Playfair Display nos títulos e Inter no corpo do texto, sem qualquer overflow lateral no mobile (390px mantido de forma estrita).",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "personalization",
+      "finding": "Completamente personalizado para o Brotto Campelo: chancelas reais do Análise Advocacia (2021 a 2026), endereço no Bigorrilho, sócios fundadores e áreas de atuação confirmadas.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "artDirection",
+      "finding": "Direção Boutique Jurídica de Prestígio concretizada com aplicação das 3 referências: ai-saas (Playfair Display no hero), architecture-studio (linhas arquitetônicas de contenção nos selos) e luxury-real-estate (scroll suave e grid nobre).",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "factualContent",
+      "finding": "100% dos textos renderizados confrontados com source-review.json e asset-review.json, sem números inventados, promessas vedadas pela OAB ou dados cadastrais imprecisos.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ],
+      "sourcePaths": [
+        "leads/brotto-campelo/referencias/source-review.json",
+        "leads/brotto-campelo/referencias/asset-review.json"
+      ]
+    }
+  ],
+  "regressions": [],
+  "regressionAssessment": "Nenhuma regressão visual observada. A versão substitui com extrema vantagem a rolagem de mais de 9.400px do site antigo do WordPress, conferindo alto impacto executivo.",
+  "improvementOpportunities": [
+    "Adição futura de busca dinâmica de artigos e jurisprudência por área do direito na fase de produção.",
+    "Área do cliente com acesso a andamentos processuais integrados."
+  ],
+  "limitations": [
+    "Inspeção em resoluções padronizadas de 1440x900 e 390x844.",
+    "Validação visual para demonstração executiva de alto nível comercial.",
+    "Formulários e botões operam via WhatsApp e telefone direto sem integração com backend contencioso nesta fase."
+  ],
+  "visualAnalysis": {
+    "inspections": [
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "sha256": "b6957b08f5dd0610bc3af9fcbedd6ee7d1a477230f9f3f7d8cafa4f7113fcfcc",
+        "regions": [
+          {
+            "x": 80,
+            "y": 12,
+            "width": 1280,
+            "height": 60,
+            "description": "Barra superior com logotipo oficial BCA e endereço no Bigorrilho."
+          },
+          {
+            "x": 80,
+            "y": 150,
+            "width": 720,
+            "height": 450,
+            "description": "Coluna executiva com badge, headline serifada, apresentação do escritório e CTA."
+          },
+          {
+            "x": 1000,
+            "y": 120,
+            "width": 360,
+            "height": 520,
+            "description": "Fotografia dos sócios fundadores Natália Brotto e Ricardo Campelo."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "sha256": "27837f80960ef2139ed6af5cbb3940f73dacb0f1453934d74738852a851d91f1",
+        "regions": [
+          {
+            "x": 80,
+            "y": 700,
+            "width": 1280,
+            "height": 400,
+            "description": "Faixa de reconhecimentos Análise Advocacia com linhas arquitetônicas de contenção."
+          },
+          {
+            "x": 80,
+            "y": 1200,
+            "width": 1280,
+            "height": 800,
+            "description": "Grid estruturado com 8 especialidades corporativas com scroll suave."
+          },
+          {
+            "x": 80,
+            "y": 2800,
+            "width": 1280,
+            "height": 600,
+            "description": "Apresentação arquitetônica da sede própria no Bigorrilho."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "sha256": "65bea6abe654629a0f1d318bca1fe4a80640ba42d627eb072604dd96cb0e813b",
+        "regions": [
+          {
+            "x": 16,
+            "y": 12,
+            "width": 358,
+            "height": 60,
+            "description": "Barra superior mobile com logo BCA."
+          },
+          {
+            "x": 16,
+            "y": 80,
+            "width": 358,
+            "height": 380,
+            "description": "Primeira dobra mobile com chamada, descrição e botão de agendamento."
+          },
+          {
+            "x": 94,
+            "y": 520,
+            "width": 200,
+            "height": 300,
+            "description": "Retrato dos sócios perfeitamente visível na primeira dobra do celular."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png",
+        "sha256": "3ae3447a48a473c1ef386509f1c8bf83697d797783a20e850dfeb355f0346b68",
+        "regions": [
+          {
+            "x": 16,
+            "y": 900,
+            "width": 358,
+            "height": 900,
+            "description": "Selos Análise Advocacia empilhados com perfeita clareza no mobile."
+          },
+          {
+            "x": 16,
+            "y": 1900,
+            "width": 358,
+            "height": 2000,
+            "description": "Áreas de atuação em cartões claros e de alta legibilidade."
+          }
+        ]
+      }
+    ],
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "finding": "Todos os 5 elementos essenciais (logo, message, cta, identity, photo) estão posicionados na primeira dobra (1440x900) com alta distinção executiva.",
+        "firstFold": {
+          "logo": {
+            "inFirstFold": true,
+            "finding": "Logotipo horizontal BCA em destaque no topo (y=12, w=199.7, h=40)."
+          },
+          "message": {
+            "inFirstFold": true,
+            "finding": "Headline serifada \"Soluções jurídicas inovadoras\" (y=213.9, w=726.6, h=138)."
+          },
+          "cta": {
+            "inFirstFold": true,
+            "finding": "Botão de agendamento em azul corporativo (y=522.9, w=282.1, h=48)."
+          },
+          "identity": {
+            "inFirstFold": true,
+            "finding": "Badge de prestígio Brotto Campelo Advogados • Curitiba/PR (y=171.9, w=321.9, h=26)."
+          },
+          "photo": {
+            "inFirstFold": true,
+            "finding": "Fotografia dos sócios Natália e Ricardo em coluna lateral (y=122, w=333.4, h=499.9)."
+          }
+        }
+      },
+      {
+        "viewport": "mobile",
+        "finding": "No celular (390x844), todos os 5 elementos (logo, message, cta, identity, photo) estão contidos na primeira dobra sem causar rolagem horizontal.",
+        "firstFold": {
+          "logo": {
+            "inFirstFold": true,
+            "finding": "Logotipo BCA legível no cabeçalho mobile (y=12, w=159.8, h=32)."
+          },
+          "message": {
+            "inFirstFold": true,
+            "finding": "Headline adaptada com escala fluida para tela estreita (y=123, w=358, h=69)."
+          },
+          "cta": {
+            "inFirstFold": true,
+            "finding": "Botão de agendamento acessível e proeminente (y=391.2, w=358, h=44)."
+          },
+          "identity": {
+            "inFirstFold": true,
+            "finding": "Badge institucional compactada com ponto acentuado em cobre (y=81, w=321.9, h=26)."
+          },
+          "photo": {
+            "inFirstFold": true,
+            "finding": "Fotografia dos fundadores iniciando em y=522 e terminando em y=822, totalmente dentro da dobra de 844px."
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "luxury-real-estate-22.aura.build",
+        "sectionId": "services",
+        "status": "applied",
+        "benefit": "Navegação fluida e transição suave entre a apresentação dos sócios e as especialidades jurídicas com rolagem suave."
+      },
+      {
+        "referenceId": "architecture-studio.aura.build",
+        "sectionId": "awards",
+        "status": "applied",
+        "benefit": "Linhas arquitetônicas sutis de contenção que organizam os reconhecimentos e as credenciais sem caixas pesadas."
+      },
+      {
+        "referenceId": "ai-saas-landing-27.aura.build",
+        "sectionId": "hero",
+        "status": "applied",
+        "benefit": "Tipografia serifada de alta distinção Playfair Display para conferir nobreza e autoridade jurídica aos títulos principais."
+      }
+    ],
+    "antiClone": [
+      {
+        "slug": "delta-pan",
+        "conclusion": "Composição radicalmente diferente: Brotto Campelo é uma boutique jurídica com paleta clara, tipografia Playfair Display e foco em sócios fundadores, enquanto Delta Pan é uma indústria pesada de formas de panificação em tons escuros e acento laranja.",
+        "observations": {
+          "hero": "Brotto Campelo usa split executivo claro com foto de estúdio dos sócios; Delta Pan usa visual industrial pesado com tom laranja e artefatos de panificação.",
+          "order": "Brotto Campelo estrutura Hero, Selos Análise, Áreas de Atuação, Pilares, Sede Bigorrilho e Contato; Delta Pan foca catálogo fabril e pedidos de cotação B2B.",
+          "grids": "Brotto Campelo aplica linhas arquitetônicas finas e grid de especialidades; Delta Pan usa cartões com bordas escuras e fundos pesados.",
+          "rhythm": "Brotto Campelo possui respiro corporativo de boutique; Delta Pan possui ritmo denso de catálogo técnico.",
+          "images": "Brotto Campelo exibe advogados sócios e edifício corporativo; Delta Pan exibe esteiras, assadeiras e formas industriais.",
+          "backgrounds": "Brotto Campelo opera em branco límpido e cinza suave (#F8FAFC); Delta Pan opera em escuro com acentos laranja e cinza.",
+          "cards": "Brotto Campelo usa cartões minimalistas abertos; Delta Pan usa caixas fechadas contrastantes.",
+          "typography": "Brotto Campelo usa Playfair Display serifada e Inter; Delta Pan usa Plus Jakarta Sans técnica.",
+          "cta": "Brotto Campelo convida ao contato com advogados especialistas; Delta Pan solicita cotação industrial direta."
+        }
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "conclusion": "Estéticas e setores opostos: Brotto Campelo adota linguagem jurídica nobre e humanizada em tons claros, enquanto a São Jorge apresenta identidade fabril escura, tabelas de maquinário de dobra e conformação mecânica pesada.",
+        "observations": {
+          "hero": "Brotto Campelo adota split com retrato executivo de sócios; São Jorge adota chapa em maquinário industrial pesado e tabela de corte.",
+          "order": "Brotto Campelo apresenta reconhecimentos de classe e especialidades de direito; São Jorge exibe capacidades de chapas e histórico fabril.",
+          "grids": "Brotto Campelo utiliza divisórias arquitetônicas sutis e cards de serviços; São Jorge utiliza tabela técnica de calandragem e galeria fabril.",
+          "rhythm": "Brotto Campelo mantém cadência executiva de acolhimento consultivo; São Jorge impõe robustez fabril e densidade de dados.",
+          "images": "Brotto Campelo mostra advogados fundadores e sede no Bigorrilho; São Jorge mostra chapas de aço, perfis e maquinário de usinagem.",
+          "backgrounds": "Brotto Campelo é claro e alvo com azul corporativo; São Jorge é escuro, metálico e vermelho vibrante.",
+          "cards": "Brotto Campelo aplica cartões com linhas discretas; São Jorge aplica blocos rígidos industriais.",
+          "typography": "Brotto Campelo aplica Playfair Display com ar executivo; São Jorge aplica tipografia industrial contundente.",
+          "cta": "Brotto Campelo direciona para atendimento e agendamento jurídico; São Jorge direciona para orçamento de corte e dobra."
+        }
+      },
+      {
+        "slug": "iorc-odontologia",
+        "conclusion": "Diferenciação clara entre saúde médica e advocacia empresarial: embora ambos operem em paletas claras, o IORC foca em pacientes, cadeiras clínicas e alinhadores ortodônticos, enquanto Brotto Campelo estrutura prestígio jurídico corporativo e prêmios de advocacia.",
+        "observations": {
+          "hero": "Brotto Campelo usa retrato de sócios advogados com Playfair Display; IORC usa foto de paciente em consultório com Inter técnica.",
+          "order": "Brotto Campelo sequencia prêmios Análise, áreas empresariais e sede corporativa; IORC sequencia métricas de clínica, tratamentos e unidades.",
+          "grids": "Brotto Campelo utiliza linhas de contenção de prêmios e grid de direito; IORC utiliza divisórias médicas e cartões de consultório.",
+          "rhythm": "Brotto Campelo expressa sobriedade executiva e distinção jurídica; IORC expressa acolhimento de saúde e assepsia clínica.",
+          "images": "Brotto Campelo foca em sócios do escritório e edifício sede; IORC foca em ambiente clínico e marcas Invisalign.",
+          "backgrounds": "Brotto Campelo adota branco editorial com cinza executivo; IORC adota branco hospitalar com ciano pastel.",
+          "cards": "Brotto Campelo usa cartões minimalistas de áreas do direito; IORC usa blocos de especialidades ortodônticas.",
+          "typography": "Brotto Campelo adota Playfair Display serifada; IORC adota Inter sem serifa.",
+          "cta": "Brotto Campelo orienta contato executivo para empresas; IORC orienta agendamento de avaliação médica."
+        }
+      }
+    ]
+  },
+  "componentClassification": [
+    {
+      "component": "executive-hero",
+      "action": "adapt",
+      "path": "src/clients/components/brotto-campelo/executive-hero.astro"
+    },
+    {
+      "component": "awards-bar",
+      "action": "adapt",
+      "path": "src/clients/components/brotto-campelo/awards-bar.astro"
+    },
+    {
+      "component": "practice-grid",
+      "action": "adapt",
+      "path": "src/clients/components/brotto-campelo/practice-grid.astro"
+    },
+    {
+      "component": "firm-pillars",
+      "action": "adapt",
+      "path": "src/clients/components/brotto-campelo/firm-pillars.astro"
+    },
+    {
+      "component": "headquarters-showcase",
+      "action": "adapt",
+      "path": "src/clients/components/brotto-campelo/headquarters-showcase.astro"
+    },
+    {
+      "component": "executive-contact",
+      "action": "adapt",
+      "path": "src/clients/components/brotto-campelo/executive-contact.astro"
+    }
+  ],
+  "componentCountPercentages": {
+    "denominator": 6,
+    "keep": 0,
+    "adapt": 100,
+    "create": 0,
+    "reason": "Todos os 6 componentes foram adaptados especificamente para a arquitetura de advocacia corporativa do Brotto Campelo em diretório isolado."
+  },
+  "subjectiveEstimates": {
+    "personalizationPercentRange": [
+      85,
+      95
+    ],
+    "deltaPanSimilarityPercentRange": [
+      15,
+      25
+    ],
+    "saoJorgeSimilarityPercentRange": [
+      10,
+      20
+    ],
+    "iorcSimilarityPercentRange": [
+      20,
+      30
+    ],
+    "method": "Avaliação visual e estrutural multidimensional observando conteúdo, paleta, assets e composição."
+  },
+  "qualitativeScores": {
+    "prospector": {
+      "score": 9.4,
+      "reason": "27 páginas rastreadas, 27 assets catalogados e verificados, fatos vinculados ao HTML com zero alucinações."
+    },
+    "artDirector": {
+      "score": 9.3,
+      "reason": "Direção clara e fundamentada com design systems adequados à advocacia empresarial de prestígio."
+    },
+    "builder": {
+      "score": 9.5,
+      "reason": "Implementação 100% isolada, 6 componentes adaptados, primeira dobra perfeita em desktop e mobile."
+    },
+    "personalization": {
+      "score": 9.6,
+      "reason": "Totalmente orientado aos dados autênticos do Brotto Campelo: sócios fundadores, selos Análise Advocacia e sede no Bigorrilho."
+    },
+    "visual": {
+      "score": 9.1,
+      "reason": "Estética executiva de alto nível, tipografia refinada e sem rolagem excessiva no mobile."
+    },
+    "factuality": {
+      "score": 10,
+      "reason": "Zero desvios factuais, 101 textos renderizados estritamente validados contra as fontes documentadas."
+    },
+    "superiorityToOriginal": {
+      "score": 9.2,
+      "reason": "Substituição da rolagem de mais de 9.400px do site legado em Elementor por uma apresentação executiva concisa e prestigiosa."
+    }
+  },
+  "copyAudit": {
+    "renderedTextRecords": 101,
+    "removedFromPrevious": [],
+    "requestedTermsAlreadyAbsent": []
+  }
+}

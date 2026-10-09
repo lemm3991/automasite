@@ -1,0 +1,57 @@
+---
+import './salon.css';
+interface Props {
+  content: {
+    title?: string;
+    description?: string;
+    items?: Array<{
+      title: string;
+      description: string;
+      badge?: string;
+    }>;
+  };
+}
+
+const { content } = Astro.props;
+const title = content?.title || "A Experiência D&L: Filosofia e Rigor";
+const description = content?.description || "Trabalhamos exclusivamente com produtos premium e protocolos avançados, garantindo saúde, beleza e bem-estar em cada atendimento.";
+const items = content?.items || [
+  {
+    badge: "EXCLUSIVIDADE",
+    title: "Produtos Premium & Protocolos Avançados",
+    description: "Trabalhamos exclusivamente com linhas cosméticas profissionais de alta performance internacional, assegurando a saúde capilar em cada procedimento."
+  },
+  {
+    badge: "QUALIFICAÇÃO",
+    title: "Equipe em Constante Atualização",
+    description: "Nossa equipe é formada por profissionais altamente qualificados, constantemente atualizados com as principais tendências e técnicas mundiais."
+  },
+  {
+    badge: "HISTÓRIA",
+    title: "Fundado por Douglas & Luciano",
+    description: "Criado com o propósito de elevar o conceito de beleza por meio da excelência, qualidade e atendimento acolhedor nas unidades de Palhoça e Florianópolis."
+  }
+];
+---
+
+<section id="diferenciais" class="dl-section bg-stone-50/70" data-card-treatment="luxury-bordered" data-surface-rhythm="continuous">
+  <div class="dl-wrap">
+    <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="dl-badge inline-flex mx-auto">
+        <span class="text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400">Padrão de Excelência</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 mb-4">{title}</h2>
+      <p class="text-base text-gray-600 leading-relaxed">{description}</p>
+    </div>
+
+    <div class="dl-experience-grid">
+      {items.map((item) => (
+        <div class="dl-exp-card">
+          <span class="text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gray-400 block mb-2">{item.badge}</span>
+          <h3 class="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">{item.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

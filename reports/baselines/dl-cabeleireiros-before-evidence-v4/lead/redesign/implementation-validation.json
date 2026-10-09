@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "slug": "dl-cabeleireiros",
+  "phase": "implemented",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "planHash": "ea72b3fb1a8d5975c932fd37b5330577bf55551ebd1274ef0f7d0f9c7c8da6a3",
+  "inputHashes": {
+    "leads/dl-cabeleireiros/referencias/creative-brief.md": "158b6a5932772701a556cd428c9fb2de7f5fa161aa3982942faed224e9da7a4e",
+    "leads/dl-cabeleireiros/referencias/art-direction.json": "3e0c2894ecd3c5fddefddc3445e5de8861ef8059d1c3651c3ad6057443bba47d",
+    "leads/dl-cabeleireiros/referencias/design-selection.json": "f76ac2ca8d3abd34e818f704d45338774cfb31a4c6d853cd5e18dfd4d5c3df67",
+    "leads/dl-cabeleireiros/visual/visual-handoff.json": "8d9972b38028b2614c86267b597d5da34b8a41ede18d58feabb6b0a151996347",
+    "leads/dl-cabeleireiros/referencias/site-atual.md": "de07234deeafaa4b20411ec896b2fe774b22388161892f4077ec392cdfef506a",
+    "leads/dl-cabeleireiros/lead.json": "dbe4ddcfce44da5bae30ab8b88700bda7f0bb459a7a74c1b17082d9326ffb6d9",
+    "leads/dl-cabeleireiros/referencias/assets-manifest.json": "79914e1683b66d3f9e8057399e06375908b62094506080ee2c0f03c35ad751e0",
+    "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html": "f9ea2cc867febcf8cbf885bd2f1d7461166f294383607c6870c017476ccbb005",
+    "Design System/temas_escuros/barbershop-landing-51.aura.build/STACK.md": "a622c88ca1744de65b4cacdd31351ba1f85ec4ce7f3bdf63c33ac91ec4b04686",
+    "Design System/temas_claros/ai-automation-17.aura.build/design-system.html": "3e0660813404f43c34dff651653ab39fa95ace42610f5a55bd113761a924f8b9",
+    "Design System/temas_claros/parallax-clean/design-system.html": "2d2bb18d4a8051ae73716c19e1de86dad0ae12d930067695c20b895bd7198639"
+  },
+  "checkedAt": "2026-10-06T18:21:16.586Z",
+  "fingerprint": {
+    "heroType": "split",
+    "sectionOrder": [
+      "header",
+      "hero",
+      "services",
+      "benefits",
+      "about",
+      "projects",
+      "contact",
+      "cta",
+      "footer"
+    ],
+    "imageStrategy": [
+      "hero",
+      "projects"
+    ],
+    "gridStrategy": [
+      "1",
+      "2",
+      "3"
+    ],
+    "backgroundTreatment": [
+      "light",
+      "none",
+      "continuous"
+    ],
+    "cardTreatment": "luxury-bordered",
+    "typography": [
+      "Inter",
+      "Inter"
+    ],
+    "motion": "local-reduced-motion",
+    "selectedVariants": [
+      {
+        "variant": "Header01",
+        "file": "src/clients/components/dl-cabeleireiros/Header01.astro",
+        "sha256": "513b118fcdc9639474b8d20ebb33f1ed37c42888890cbab5a36780a6c39e6967"
+      },
+      {
+        "variant": "Hero07",
+        "file": "src/clients/components/dl-cabeleireiros/Hero07.astro",
+        "sha256": "4d598839f93ab2e5aab6ca7cd4eec12eb3aec0502bf4132b257b68234124c968"
+      },
+      {
+        "variant": "Services01",
+        "file": "src/clients/components/dl-cabeleireiros/Services01.astro",
+        "sha256": "6e30f754af2572e6289d30ce5f19b3362220842a315415c22b3c36b309eb56d2"
+      },
+      {
+        "variant": "SalonExperience",
+        "file": "src/clients/components/dl-cabeleireiros/SalonExperience.astro",
+        "sha256": "21d4678848531cb99a4705c0d8ef8e0b1a69b1466df0192b9146efcfe8fed618"
+      },
+      {
+        "variant": "About01",
+        "file": "src/clients/components/dl-cabeleireiros/About01.astro",
+        "sha256": "4cb9a50e2676e9dbdf15385f988e9455eff651be76a1dcde0d050d27bcea20eb"
+      },
+      {
+        "variant": "Showcase01",
+        "file": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+        "sha256": "4f920a259fd66d8a4b54ee80e6560afae1c23f81f9af8d5c892a38fdb9eb4deb"
+      },
+      {
+        "variant": "Contact01",
+        "file": "src/clients/components/dl-cabeleireiros/Contact01.astro",
+        "sha256": "b0e8a72478cf03dbea9bc1c0bc36dd30776ebda624a4c1af6f475e96f70d96ba"
+      },
+      {
+        "variant": "CTA04",
+        "file": "src/clients/components/dl-cabeleireiros/CTA04.astro",
+        "sha256": "39cb88e3f4d5c39691b4e31868064663a472146ca0e9f2bde41c80d7c1f0cc53"
+      },
+      {
+        "variant": "Footer08",
+        "file": "src/clients/components/dl-cabeleireiros/Footer08.astro",
+        "sha256": "b9b210e423408483fb1b216862a4f9f79b12839c7ba507222b41531ea747661a"
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "slug": "cadas-arquitetura",
+      "method": "Heurística estrutural de nove dimensões; não é nota visual",
+      "structuralSimilarity": 36,
+      "knownDimensions": 9,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.6666666666666666,
+        "imageStrategy": 0.6666666666666666,
+        "gridStrategy": 0.75,
+        "backgroundTreatment": 0.2,
+        "cardTreatment": 0,
+        "typography": 0,
+        "motion": 0,
+        "selectedVariants": 0
+      },
+      "sharedBaseVariants": [
+        "About01",
+        "Showcase01"
+      ],
+      "identicalComponentSources": 0
+    },
+    {
+      "slug": "delta-pan",
+      "method": "Heurística estrutural de nove dimensões; não é nota visual",
+      "structuralSimilarity": 35,
+      "knownDimensions": 9,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.7777777777777778,
+        "imageStrategy": 0.2,
+        "gridStrategy": 0.5,
+        "backgroundTreatment": 0.2,
+        "cardTreatment": 0,
+        "typography": 0.5,
+        "motion": 0,
+        "selectedVariants": 0
+      },
+      "sharedBaseVariants": [
+        "Header01",
+        "Hero07",
+        "Services01",
+        "About01",
+        "Contact01",
+        "CTA04",
+        "Footer08"
+      ],
+      "identicalComponentSources": 0
+    },
+    {
+      "slug": "juliana-pippi-arquitetura",
+      "method": "Heurística estrutural de nove dimensões; não é nota visual",
+      "structuralSimilarity": 36,
+      "knownDimensions": 9,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.6666666666666666,
+        "imageStrategy": 0.4,
+        "gridStrategy": 0.5,
+        "backgroundTreatment": 0.2,
+        "cardTreatment": 0,
+        "typography": 0.5,
+        "motion": 0,
+        "selectedVariants": 0
+      },
+      "sharedBaseVariants": [
+        "Header01",
+        "Hero07",
+        "About01",
+        "Contact01",
+        "CTA04",
+        "Footer08"
+      ],
+      "identicalComponentSources": 0
+    },
+    {
+      "slug": "metalurgica-sao-jorge",
+      "method": "Heurística estrutural de nove dimensões; não é nota visual",
+      "structuralSimilarity": 64,
+      "knownDimensions": 9,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.7777777777777778,
+        "imageStrategy": 1,
+        "gridStrategy": 0.75,
+        "backgroundTreatment": 0.2,
+        "cardTreatment": 0,
+        "typography": 1,
+        "motion": 1,
+        "selectedVariants": 0
+      },
+      "sharedBaseVariants": [
+        "Header01",
+        "Hero07",
+        "Services01",
+        "About01",
+        "Showcase01",
+        "Contact01",
+        "Footer08"
+      ],
+      "identicalComponentSources": 0
+    }
+  ],
+  "limitations": [
+    "Trechos existentes não comprovam interpretação factual; revisar sentido e imagens.",
+    "Similaridade estrutural não mede qualidade visual."
+  ]
+}

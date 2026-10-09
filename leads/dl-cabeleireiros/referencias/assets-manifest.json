@@ -1,0 +1,312 @@
+{
+  "slug": "dl-cabeleireiros",
+  "client": "D&L Cabeleireiros",
+  "inventoryTimestamp": "2026-10-07T14:26:33.297Z",
+  "totalDiscovered": 10,
+  "totalDownloaded": 10,
+  "assets": [
+    {
+      "id": "asset-1",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+        "category": "logo",
+        "description": "Monograma dourado D&L sobre fundo transparente.",
+        "observableDetails": [
+          "Letras entrelaçadas em dourado",
+          "Fundo transparente"
+        ],
+        "allowedCaptions": [
+          "D&L Cabeleireiros"
+        ],
+        "provenance": "client-source",
+        "method": "image-view",
+        "reviewedBy": "codex-dl-prospector",
+        "reviewedAt": "2026-10-07T14:39:22.968Z",
+        "status": "verified"
+      },
+      "filename": "01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=250,fit=crop/fGtHu63EZTs5bRGw/d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localRefPath": "referencias/site-baixado/assets/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "dimensions": {
+        "width": 375,
+        "height": 250
+      },
+      "format": "png",
+      "fileSizeBytes": 18414,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc"
+    },
+    {
+      "id": "asset-2",
+      "category": "logo",
+      "classification": {
+        "category": "logo",
+        "status": "unconfirmed",
+        "basis": "filename-or-alt"
+      },
+      "filename": "02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/fGtHu63EZTs5bRGw/d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "localRefPath": "referencias/site-baixado/assets/02-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "dimensions": {
+        "width": 375,
+        "height": 366
+      },
+      "format": "png",
+      "fileSizeBytes": 19563,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "cf1dc672c59f2f23debd41cd61927014a49ad0be529c3ee390b1fcdd7ee43cec"
+    },
+    {
+      "id": "asset-3",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+        "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+        "category": "environment",
+        "description": "Ambiente com cadeiras verdes, espelhos circulares iluminados e bancadas de madeira.",
+        "observableDetails": [
+          "Cadeiras verdes junto às bancadas",
+          "Espelhos redondos com iluminação"
+        ],
+        "allowedCaptions": [
+          "Um olhar para o ambiente D&L"
+        ],
+        "provenance": "client-source",
+        "method": "image-view",
+        "reviewedBy": "codex-dl-prospector",
+        "reviewedAt": "2026-10-07T14:39:22.968Z",
+        "status": "verified"
+      },
+      "filename": "03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop/fGtHu63EZTs5bRGw/whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 956
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 101429,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128"
+    },
+    {
+      "id": "asset-4",
+      "category": "unconfirmed",
+      "classification": {
+        "category": "unconfirmed",
+        "status": "unconfirmed",
+        "basis": "requires-image-inspection",
+        "description": null
+      },
+      "filename": "04-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "originalUrl": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,fit=crop/fGtHu63EZTs5bRGw/whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/04-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/04-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "dimensions": {
+        "width": 375,
+        "height": 467
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 32007,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "cd92100380e005b3172417a1e4f6b9b6f1e55454daccd2f7569a86082c62e14c"
+    },
+    {
+      "id": "asset-5",
+      "category": "thumbnail",
+      "classification": {
+        "path": "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+        "sha256": "a5dedd75506de0566872d67abfd0f50736b9b3d4b3ce43d12c69a0a8f461b82d",
+        "category": "thumbnail",
+        "description": "Miniatura de vídeo mostrando um corte de cabelo masculino em atendimento.",
+        "observableDetails": [
+          "Homem sentado com cabelo curto",
+          "Profissional trabalhando atrás da cadeira"
+        ],
+        "allowedCaptions": [
+          "Corte em atendimento"
+        ],
+        "provenance": "client-source",
+        "method": "image-view",
+        "reviewedBy": "codex-dl-prospector",
+        "reviewedAt": "2026-10-07T14:39:22.969Z",
+        "status": "verified"
+      },
+      "filename": "05-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/8zry3BDTKCo/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/05-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 6676,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "a5dedd75506de0566872d67abfd0f50736b9b3d4b3ce43d12c69a0a8f461b82d"
+    },
+    {
+      "id": "asset-6",
+      "category": "thumbnail",
+      "classification": {
+        "path": "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+        "sha256": "0ec6e9fb6f177eb3821ade6d266d0b9bb362b9b5d75493842c5c65890527dc07",
+        "category": "thumbnail",
+        "description": "Miniatura de vídeo com um profissional segurando uma mecha de cabelo castanho.",
+        "observableDetails": [
+          "Mecha de cabelo castanho em primeiro plano",
+          "Espelhos circulares ao fundo"
+        ],
+        "allowedCaptions": [
+          "Um momento de cuidado"
+        ],
+        "provenance": "client-source",
+        "method": "image-view",
+        "reviewedBy": "codex-dl-prospector",
+        "reviewedAt": "2026-10-07T14:39:22.969Z",
+        "status": "verified"
+      },
+      "filename": "06-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/bA57KCP2mfA/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/06-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 15684,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "0ec6e9fb6f177eb3821ade6d266d0b9bb362b9b5d75493842c5c65890527dc07"
+    },
+    {
+      "id": "asset-7",
+      "category": "thumbnail",
+      "classification": {
+        "path": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+        "sha256": "161e2631f079134069f1002c8586f276501d2e6211ad6c02e7550d140aae2d29",
+        "category": "thumbnail",
+        "description": "Miniatura de vídeo com cliente de cabelo loiro e profissional ao fundo.",
+        "observableDetails": [
+          "Cabelo loiro longo e ondulado",
+          "Cliente sentada e profissional atrás"
+        ],
+        "allowedCaptions": [
+          "Cabelos em movimento"
+        ],
+        "provenance": "client-source",
+        "method": "image-view",
+        "reviewedBy": "codex-dl-prospector",
+        "reviewedAt": "2026-10-07T14:39:22.969Z",
+        "status": "verified"
+      },
+      "filename": "07-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/B2o7i_to0AE/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/07-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 17476,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "161e2631f079134069f1002c8586f276501d2e6211ad6c02e7550d140aae2d29"
+    },
+    {
+      "id": "asset-8",
+      "category": "thumbnail",
+      "classification": {
+        "path": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+        "sha256": "55053c395d1a450fdd1b1fa04d8c8421ab8cf66cfbf60de164583d0f960e2c1e",
+        "category": "thumbnail",
+        "description": "Miniatura de vídeo com mulher de cabelo longo e claro vista em três quartos.",
+        "observableDetails": [
+          "Cabelo longo com tons claros",
+          "Mulher em pose de três quartos"
+        ],
+        "allowedCaptions": [
+          "Detalhes que fazem o visual"
+        ],
+        "provenance": "client-source",
+        "method": "image-view",
+        "reviewedBy": "codex-dl-prospector",
+        "reviewedAt": "2026-10-07T14:39:22.970Z",
+        "status": "verified"
+      },
+      "filename": "08-hqdefault.webp",
+      "originalUrl": "https://i.ytimg.com/vi_webp/5zR_QCFg260/hqdefault.webp",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "localRefPath": "referencias/site-baixado/assets/08-hqdefault.webp",
+      "dimensions": {
+        "width": 480,
+        "height": 360
+      },
+      "format": "webp",
+      "fileSizeBytes": 14890,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "55053c395d1a450fdd1b1fa04d8c8421ab8cf66cfbf60de164583d0f960e2c1e"
+    },
+    {
+      "id": "asset-9",
+      "category": "video",
+      "classification": {
+        "category": "video",
+        "status": "verified",
+        "basis": "media-format",
+        "description": null
+      },
+      "filename": "09-3996980-uhd_2732_1440_25fps.mp4",
+      "originalUrl": "https://videos.pexels.com/video-files/3996980/3996980-uhd_2732_1440_25fps.mp4",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/09-3996980-uhd_2732_1440_25fps.mp4",
+      "localRefPath": "referencias/site-baixado/assets/09-3996980-uhd_2732_1440_25fps.mp4",
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "format": "mp4",
+      "fileSizeBytes": 37112108,
+      "altOriginal": "Video Institucional",
+      "downloadStatus": "SUCCESS",
+      "sha256": "dd303e2304973df81cbe90c8f7bd78f49f6b2a2b34815ffb1599dee94f74a778"
+    },
+    {
+      "id": "asset-10",
+      "category": "video",
+      "classification": {
+        "category": "video",
+        "status": "verified",
+        "basis": "media-format",
+        "description": null
+      },
+      "filename": "10-10729073-hd_1920_1080_30fps.mp4",
+      "originalUrl": "https://videos.pexels.com/video-files/10729073/10729073-hd_1920_1080_30fps.mp4",
+      "localPublicPath": "/assets/clients/dl-cabeleireiros/10-10729073-hd_1920_1080_30fps.mp4",
+      "localRefPath": "referencias/site-baixado/assets/10-10729073-hd_1920_1080_30fps.mp4",
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "format": "mp4",
+      "fileSizeBytes": 6148737,
+      "altOriginal": "Video Institucional",
+      "downloadStatus": "SUCCESS",
+      "sha256": "ba9e770d41486f0e5b4e791a6f92a2c86a36bf036fbbfb5e0a88e6e862c63d32"
+    }
+  ],
+  "notDownloaded": [],
+  "schemaVersion": 2
+}

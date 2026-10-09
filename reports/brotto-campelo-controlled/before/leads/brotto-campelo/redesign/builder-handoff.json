@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 2,
+  "slug": "brotto-campelo",
+  "status": "READY_FOR_DEMO",
+  "generatedAt": "2026-10-09T13:19:32.686Z",
+  "passed": true,
+  "errors": [],
+  "priorities": [
+    "Personalização e adequação ao cliente/ramo",
+    "Primeira dobra e qualidade visual",
+    "Identidade, conteúdo e assets reais",
+    "Fidelidade ao 2A",
+    "Responsividade/build",
+    "Integrações posteriores"
+  ],
+  "implementation": {
+    "planPath": "leads/brotto-campelo/redesign/implementation-plan.json",
+    "components": [
+      {
+        "id": "hero",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/executive-hero.astro",
+        "reason": "Adaptação dedicada em duas colunas com logo oficial, retrato dos fundadores e tipografia Playfair Display."
+      },
+      {
+        "id": "awards",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/awards-bar.astro",
+        "reason": "Faixa institucional destacando selos oficiais Análise Advocacia com linhas arquitetônicas do architecture-studio."
+      },
+      {
+        "id": "services",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/practice-grid.astro",
+        "reason": "Grid de especialidades com transições suaves do luxury-real-estate e cartões minimalistas."
+      },
+      {
+        "id": "pillars",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/firm-pillars.astro",
+        "reason": "Três pilares de diferenciação institucional em cartões abertos com tipografia refinada."
+      },
+      {
+        "id": "headquarters",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/headquarters-showcase.astro",
+        "reason": "Composição arquitetônica destacando a fotografia da sede em Curitiba com informações de contato."
+      },
+      {
+        "id": "cta",
+        "action": "adapt",
+        "path": "src/clients/components/brotto-campelo/executive-contact.astro",
+        "reason": "Chamada para agendamento e contato direto com clareza dos canais oficiais (WhatsApp, e-mail e telefone fixo)."
+      }
+    ],
+    "referenceApplications": [
+      {
+        "referenceId": "luxury-real-estate-22.aura.build",
+        "sectionId": "services",
+        "codePath": "src/clients/components/brotto-campelo/practice-grid.astro",
+        "codeExcerpt": "scroll-behavior: smooth;",
+        "explanation": "Rolagem suave e transição fluida na navegação das especialidades corporativas.",
+        "renderCheck": {
+          "selector": ".bca-practice-grid",
+          "minColumns": 2
+        }
+      },
+      {
+        "referenceId": "architecture-studio.aura.build",
+        "sectionId": "awards",
+        "codePath": "src/clients/components/brotto-campelo/awards-bar.astro",
+        "codeExcerpt": "border-x border-[#C4CFC0]/60",
+        "explanation": "Linhas arquitetônicas sutis de contenção que estruturam a apresentação dos selos Análise Advocacia.",
+        "renderCheck": {
+          "selector": ".bca-awards-bar",
+          "minColumns": 3
+        }
+      },
+      {
+        "referenceId": "ai-saas-landing-27.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/brotto-campelo/executive-hero.astro",
+        "codeExcerpt": "font-family: 'Playfair Display', serif;",
+        "explanation": "Tipografia serifada nobre Playfair Display aplicada no título institucional do hero.",
+        "renderCheck": {
+          "selector": "#bca-hero"
+        }
+      }
+    ],
+    "previousFingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "hero",
+        "credentials",
+        "services",
+        "benefits",
+        "showcase",
+        "cta"
+      ],
+      "imageStrategy": [],
+      "gridStrategy": [
+        "1",
+        "2",
+        "3"
+      ],
+      "backgroundTreatment": [
+        "light",
+        "none",
+        "generous-executive"
+      ],
+      "cardTreatment": "minimal-editorial",
+      "typography": [
+        "Playfair Display",
+        "Inter"
+      ],
+      "motion": "none",
+      "rhythm": "generous-executive",
+      "ctaStyle": "pill",
+      "selectedVariants": [
+        {
+          "variant": "executive-hero",
+          "file": "src/clients/components/brotto-campelo/executive-hero.astro",
+          "sha256": "98cd4c001ad7189e0b861f7e0f89e4969db33bb516a5b4005660a4122331eea7"
+        },
+        {
+          "variant": "awards-bar",
+          "file": "src/clients/components/brotto-campelo/awards-bar.astro",
+          "sha256": "9363d85e7243d34f068567808497fcd90cd2c4ce86d00af9966675c13b9ac77d"
+        },
+        {
+          "variant": "practice-grid",
+          "file": "src/clients/components/brotto-campelo/practice-grid.astro",
+          "sha256": "66f2e8b49dbee90702c3ad9a46041cf625a9fcc42cb9141b27222491d366fa25"
+        },
+        {
+          "variant": "firm-pillars",
+          "file": "src/clients/components/brotto-campelo/firm-pillars.astro",
+          "sha256": "d722d09d8c34e3e71d34e0ea07002de0f6fdd410847c1e421eb1b73505903c58"
+        },
+        {
+          "variant": "headquarters-showcase",
+          "file": "src/clients/components/brotto-campelo/headquarters-showcase.astro",
+          "sha256": "fcc6396ec33474b7ba7d5c1d6591124531a3d857988935aa171c46da0cfd5528"
+        },
+        {
+          "variant": "executive-contact",
+          "file": "src/clients/components/brotto-campelo/executive-contact.astro",
+          "sha256": "c0aa9acb82f2a37634f03e945934be2a200e0f6cd0a1db43703576038626ffdc"
+        }
+      ]
+    },
+    "fingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "hero",
+        "credentials",
+        "services",
+        "benefits",
+        "showcase",
+        "cta"
+      ],
+      "imageStrategy": [],
+      "gridStrategy": [
+        "1",
+        "2",
+        "3"
+      ],
+      "backgroundTreatment": [
+        "light",
+        "none",
+        "generous-executive"
+      ],
+      "cardTreatment": "minimal-editorial",
+      "typography": [
+        "Playfair Display",
+        "Inter"
+      ],
+      "motion": "none",
+      "rhythm": "generous-executive",
+      "ctaStyle": "pill",
+      "selectedVariants": [
+        {
+          "variant": "executive-hero",
+          "file": "src/clients/components/brotto-campelo/executive-hero.astro",
+          "sha256": "98cd4c001ad7189e0b861f7e0f89e4969db33bb516a5b4005660a4122331eea7"
+        },
+        {
+          "variant": "awards-bar",
+          "file": "src/clients/components/brotto-campelo/awards-bar.astro",
+          "sha256": "9363d85e7243d34f068567808497fcd90cd2c4ce86d00af9966675c13b9ac77d"
+        },
+        {
+          "variant": "practice-grid",
+          "file": "src/clients/components/brotto-campelo/practice-grid.astro",
+          "sha256": "66f2e8b49dbee90702c3ad9a46041cf625a9fcc42cb9141b27222491d366fa25"
+        },
+        {
+          "variant": "firm-pillars",
+          "file": "src/clients/components/brotto-campelo/firm-pillars.astro",
+          "sha256": "d722d09d8c34e3e71d34e0ea07002de0f6fdd410847c1e421eb1b73505903c58"
+        },
+        {
+          "variant": "headquarters-showcase",
+          "file": "src/clients/components/brotto-campelo/headquarters-showcase.astro",
+          "sha256": "fcc6396ec33474b7ba7d5c1d6591124531a3d857988935aa171c46da0cfd5528"
+        },
+        {
+          "variant": "executive-contact",
+          "file": "src/clients/components/brotto-campelo/executive-contact.astro",
+          "sha256": "c0aa9acb82f2a37634f03e945934be2a200e0f6cd0a1db43703576038626ffdc"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "slug": "cadas-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 49,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.3333333333333333,
+          "imageStrategy": null,
+          "gridStrategy": 0.75,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "delta-pan",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 47,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": null,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "dl-cabeleireiros",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 52,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5,
+          "imageStrategy": null,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0.5,
+          "cardTreatment": 0,
+          "typography": 1,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "iorc-odontologia",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 53,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5714285714285714,
+          "imageStrategy": null,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0.5,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": 0,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "juliana-pippi-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 45,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.3333333333333333,
+          "imageStrategy": null,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 40,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.375,
+          "imageStrategy": null,
+          "gridStrategy": 0.75,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      }
+    ]
+  },
+  "evidence": {
+    "build": "leads/brotto-campelo/redesign/build-evidence.json",
+    "render": "leads/brotto-campelo/redesign/render-evidence.json",
+    "visualReview": "leads/brotto-campelo/redesign/visual-review.json"
+  },
+  "renderValidation": {
+    "schemaVersion": 1,
+    "kind": "Render Validation",
+    "slug": "brotto-campelo",
+    "checkedAt": "2026-10-09T13:19:32.421Z",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "inspected": [
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "b6957b08f5dd0610bc3af9fcbedd6ee7d1a477230f9f3f7d8cafa4f7113fcfcc"
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "width": 1440,
+        "height": 4397,
+        "sha256": "27837f80960ef2139ed6af5cbb3940f73dacb0f1453934d74738852a851d91f1"
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "65bea6abe654629a0f1d318bca1fe4a80640ba42d627eb072604dd96cb0e813b"
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png",
+        "width": 390,
+        "height": 6457,
+        "sha256": "3ae3447a48a473c1ef386509f1c8bf83697d797783a20e850dfeb355f0346b68"
+      }
+    ],
+    "visualAssessment": "requires_image_review",
+    "visualQualityScore": null,
+    "regressions": null,
+    "limitations": [
+      "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+      "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+    ]
+  },
+  "qualitativeReview": "approved",
+  "removedUnsupportedClaims": [],
+  "reviewedAbsentClaims": [],
+  "upstreamCorrections": [],
+  "productionPending": [],
+  "limitations": [
+    "O gate verifica rastreabilidade e atualidade; o julgamento estético e factual depende da inspeção registrada pelo agente.",
+    "Prontidão da demonstração não comprova desempenho comercial, produção ou envio ao cliente."
+  ]
+}

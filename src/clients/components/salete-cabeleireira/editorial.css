@@ -1,0 +1,32 @@
+/* DESIGN SYSTEM TOKENS & ESTÉTICA EDITORIAL — SALÃO DE BELEZA SALETE CABELEIREIRA */
+:root {
+  --salete-bg: #0f0f11;
+  --salete-text: #fafafa;
+  --salete-primary: #fcfbfb;
+  --salete-secondary: #803050;
+  --salete-accent: #802050;
+  --salete-border: rgba(255, 255, 255, 0.1);
+  --salete-glass: rgba(20, 20, 24, 0.7);
+}
+
+.salete-editorial-bg {
+  background-color: #0f0f11;
+  color: #fafafa;
+}
+
+.salete-gold-glow {
+  box-shadow: 0 0 30px rgba(128, 48, 80, 0.25);
+}
+
+.salete-glass-card {
+  background: rgba(20, 20, 24, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.salete-scroll-line {
+  width: 1px;
+  height: 48px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), transparent);
+  margin: 0 auto;
+}

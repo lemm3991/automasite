@@ -1,0 +1,117 @@
+{
+  "method": "image-inspection",
+  "reviewedBy": "prospector-agent",
+  "reviewedAt": "2026-10-09T21:37:00.000Z",
+  "inspections": [
+    {
+      "path": "leads/salete-cabeleireira/screenshots/site-desktop.png",
+      "sha256": "656f9f8d518ba1523feb78f8c5aa609274f91c45e4ea89feccfaac75df896a1e",
+      "finding": "Hero fold fotográfico com imagem de modelo e cabelos escuros espelhados em alta definição, logotipo Salete Cabeleireira em branco e barra horizontal de navegação escura translúcida.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 900,
+          "description": "Primeira dobra desktop completa com foto dramática de cabelos em fundo preto, logotipo centralizado e menu de ancoragem."
+        }
+      ]
+    },
+    {
+      "path": "leads/salete-cabeleireira/screenshots/site-desktop-full.png",
+      "sha256": "dbb2414864f1daa64dfb2363e8c436e8aef8cdbcf6da945620cc9ac68f2a7299",
+      "finding": "Página única vertical com blocos de texto sobre a fundadora Salete (desde 1966), grade de ícones de serviços com listas simples, fotos de produtos em prateleira e rodapé com contatos das duas unidades.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1265,
+          "height": 1200,
+          "description": "Cabeçalho, hero e seção institucional contando a trajetória de Salete em Criciúma."
+        },
+        {
+          "x": 0,
+          "y": 1200,
+          "width": 1265,
+          "height": 2200,
+          "description": "Seções de serviços (Cabelo, Estética, Depilação, Noivas) com ícones circulares e listas de itens."
+        },
+        {
+          "x": 0,
+          "y": 3400,
+          "width": 1265,
+          "height": 1635,
+          "description": "Vitrine de produtos cosméticos (Kérastase, Wella), formulário de contato e endereços das unidades Criciúma e Balneário Rincão."
+        }
+      ]
+    },
+    {
+      "path": "leads/salete-cabeleireira/screenshots/site-mobile.png",
+      "sha256": "71bec674d883ede7911adfbf0efaeb0c0d019b2ff8bf949c1715084bc28ae68b",
+      "finding": "Primeira dobra mobile com fundo de mechas castanhas, logotipo Salete Cabeleireira central e menu hambúrguer no topo; ausência de proposta de valor imediata ou botão de ação direto.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "description": "Visualização viewport mobile inicial com logotipo e foto de fundo sem CTAs diretos."
+        }
+      ]
+    },
+    {
+      "path": "leads/salete-cabeleireira/screenshots/site-mobile-full.png",
+      "sha256": "7cb9313c70bf707a59c7018de46aa14e959d96c6f4ba7027c045c3538e993d7e",
+      "finding": "Página mobile completa vertical longa com disposição em coluna única, exigindo rolagem extensa para localizar contatos, serviços e telefones.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1800,
+          "description": "Hero mobile e bloco textual institucional da trajetória profissional de Salete."
+        },
+        {
+          "x": 0,
+          "y": 1800,
+          "width": 390,
+          "height": 4500,
+          "description": "Listagem vertical sequencial de serviços com espaçamento repetitivo."
+        },
+        {
+          "x": 0,
+          "y": 6300,
+          "width": 390,
+          "height": 2714,
+          "description": "Produtos, formulário móvel e dados de localização das duas cidades."
+        }
+      ]
+    }
+  ],
+  "firstFold": {
+    "desktop": "Fotografia imersiva de modelo com cabelos tratados e sedosos, logotipo branco clássico no centro e barra translúcida de navegação horizontal com seta para rolagem.",
+    "mobile": "Fotografia vertical de textura de cabelo com logotipo central, ícone de menu superior e seta inferior sem CTA de conversão ou telefone visível."
+  },
+  "preserve": [
+    "Logotipo oficial cursivo Salete Cabeleireira com estética refinada",
+    "Acervo fotográfico real das instalações (lavatórios, bancadas e fachada)",
+    "Autoridade histórica inestimável: Salete na beleza desde 1966 com formação Vidal Sassoon e TONI&GUY",
+    "Presença consolidada nas duas cidades: matriz Criciúma e filial Balneário Rincão",
+    "Associação com marcas globais de prestígio: Kérastase, Wella Professionals e L'Oréal"
+  ],
+  "improve": [
+    "Criar uma primeira dobra mobile com ação imediata de agendamento por WhatsApp e telefone",
+    "Transformar o bloco corrido de texto biográfico em uma narrativa editorial rica com selos de autoridade e cronologia",
+    "Organizar os serviços em menu contemporâneo de rituais de beleza, estética e Dia da Noiva",
+    "Destacar claramente as duas unidades físicas com cards modernos de localização e contatos dedicados",
+    "Eliminar o aspecto de site institucional legado dos anos 2010 substituindo por tipografia de luxo e layout editorial de revista de alta moda"
+  ],
+  "limitations": [
+    "Inspeção visual direta executada sobre capturas CDP reais em 1280px e 390px.",
+    "Formulário estático php e links para Google Maps estáticos preservados do layout original."
+  ],
+  "visualQualityScore": 4.8,
+  "scoreReason": "O site possui imagens e fotografia de fundo com boa resolução, mas sua diagramação é presa a padrões web dos anos 2010, sem CTAs interativos, com primeira dobra mobile desprovida de conversão e tipografia desatualizada.",
+  "redesignOpportunityScore": 86,
+  "opportunityReason": "A história de quase 60 anos da fundadora Salete e suas credenciais de Vidal Sassoon e TONI&GUY oferecem matéria-prima de nível mundial para um redesign de alto luxo com sofisticação editorial e apelo irresistível para clientes de Criciúma e Balneário Rincão."
+}

@@ -1,0 +1,1006 @@
+{
+  "schema_version": 3,
+  "slug": "iorc-odontologia",
+  "client": "INSTITUTO DE ORTODONTIA DE CURITIBA S/S LTDA",
+  "status": "READY_FOR_BUILDER",
+  "createdBy": "art-director-agent",
+  "createdAt": "2026-10-09T02:19:51.385Z",
+  "contextSha256": "a2a8eabe8c82f79a382109ae49309aa21ad370651b4ca993c1d424e6452fed99",
+  "decisionSha256": "0574c681e826a8899109a6a21e8180acc4a58cfc65a8a9c0a2720b017760ad38",
+  "sourceHashes": {
+    "leads/iorc-odontologia/referencias/source-evidence.json": "d7e22f98476642271b44940ef73c6df72029714a0c89117f2b0be2432a8f0b13",
+    "leads/iorc-odontologia/referencias/source-review.json": "557eb5688e725bcfb8c3066695f499f22f08a09e3b242cf30fbe6405b31f991e",
+    "leads/iorc-odontologia/referencias/asset-review.json": "27b15f1eb2af5594b8f761d9f90b7ee43b17655b03ad63d756e9915c2bbd2945",
+    "leads/iorc-odontologia/referencias/palette-candidates.json": "9c42e7004dd67424cea136699928369c4e2477e834b67e15971465153420f6c0",
+    "leads/iorc-odontologia/visual/original-review.json": "6e75d9760211b8f98ae41eba3aa8820bfbf460e1cdec44e218de04f9887035f2"
+  },
+  "clientFactualSummary": {
+    "name": "INSTITUTO DE ORTODONTIA DE CURITIBA S/S LTDA",
+    "niche": "Odontologia e Implantes",
+    "audience": "Pacientes em Curitiba buscando tratamentos ortodônticos (alinhadores invisíveis e aparelhos fixos), implantes dentários, próteses e estética dental.",
+    "services": [
+      "Ortodontia",
+      "Aparelho Invisível",
+      "Aparelho Estético (Safira)",
+      "Aparelho Tradicional (Metal)",
+      "Implantes",
+      "Prótese",
+      "Clareamento Dental c/ Moldeira",
+      "Clareamento Dental de Consultório",
+      "Endodontia",
+      "Limpeza",
+      "Extração",
+      "Restauração",
+      "Facetas Dentárias",
+      "Lente de Contato Dental",
+      "Toxina Botulínica",
+      "Preenchimento Facial"
+    ],
+    "facts": [
+      {
+        "id": "company-name",
+        "kind": "name",
+        "entityId": "company",
+        "value": "INSTITUTO DE ORTODONTIA DE CURITIBA S/S LTDA",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-23",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "quote": "INSTITUTO DE ORTODONTIA DE CURITIBA S/S LTDA"
+          }
+        ]
+      },
+      {
+        "id": "trade-name",
+        "kind": "identity",
+        "entityId": "company",
+        "value": "IORC - INSTITUTO DE ODONTOLOGIA DE CURITIBA",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-23",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "quote": "IORC - INSTITUTO DE ODONTOLOGIA DE CURITIBA - CLM/PR-1061"
+          }
+        ]
+      },
+      {
+        "id": "founder-director",
+        "kind": "founders",
+        "entityId": "company",
+        "value": "Dr. Fabio Takachi Hase",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-23",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+            "quote": "Dr. Fabio Takachi Hase CRO/PR-9169"
+          }
+        ]
+      },
+      {
+        "id": "cro-registry",
+        "kind": "identity",
+        "entityId": "company",
+        "value": "CRO/PR-9169",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-23",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+            "quote": "Dr. Fabio Takachi Hase CRO/PR-9169"
+          }
+        ]
+      },
+      {
+        "id": "clm-registry",
+        "kind": "identity",
+        "entityId": "company",
+        "value": "CLM/PR-1061",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-23",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+            "quote": "IORC - INSTITUTO DE ODONTOLOGIA DE CURITIBA - CLM/PR-1061"
+          }
+        ]
+      },
+      {
+        "id": "positioning-history",
+        "kind": "positioning",
+        "entityId": "company",
+        "value": "O Instituto de Ortodontia de Curitiba (IORC) foi idealizado e fundado no ano de 1995 pelo Dr. Fabio Takachi Hase",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-2",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "quote": "O Instituto de Ortodontia de Curitiba (IORC) foi idealizado e fundado no ano de 1995 pelo Dr. Fabio Takachi Hase que, como Ortodontista e Clínico Geral com vasta experiência, observou que muitas pessoas necessitavam de um bom tratamento ortodôntico e geral. Então, ele criou uma empresa que proporciona tratamentos de qualidade, praticidade, confiança e profissionalismo de forma viável para todos."
+          }
+        ]
+      },
+      {
+        "id": "mission-statement",
+        "kind": "positioning",
+        "entityId": "company",
+        "value": "Oferecer serviços de qualidade e profissionalismo para cuidar da saúde bucal do paciente , proporcionando um sorriso saudável.",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-2",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "quote": "• Missão: Oferecer serviços de qualidade e profissionalismo para cuidar da saúde bucal do paciente , proporcionando um sorriso saudável."
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-total",
+        "kind": "architecture",
+        "entityId": "company",
+        "value": "Atualmente as 3 clínicas possuem juntas uma área interna total de 4.000 m².",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-2",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "quote": "Assim, a unidade do Sitio Cercado foi fundada em 2007 e, um ano depois, a unidade do Centro foi inaugurada em 2008. Ambas com otimas estruturas e equipe de profissionais especialistas. Atualmente as 3 clínicas possuem juntas uma área interna total de 4.000 m²."
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-matriz",
+        "kind": "architecture",
+        "entityId": "boqueirao",
+        "value": "A matriz está situada em uma excelente localização: no Alto Boqueirão. E possui 1800 m² de infraestrutura total construídos seguindo as mais rígidas normas de qualidade.",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-2",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "quote": "A matriz está situada em uma excelente localização: no Alto Boqueirão. E possui 1800 m² de infraestrutura total construídos seguindo as mais rígidas normas de qualidade. Além disso, as unidades do Boqueirão e do Sítio Cercado possuem estacionamentos próprios."
+          }
+        ]
+      },
+      {
+        "id": "boqueirao-address",
+        "kind": "address",
+        "entityId": "boqueirao",
+        "value": "Rua Francisco Derosso, 4567",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-23",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Rua Francisco Derosso, 4567"
+          }
+        ]
+      },
+      {
+        "id": "boqueirao-city",
+        "kind": "city",
+        "entityId": "boqueirao",
+        "value": "Curitiba",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-2",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "quote": "O Instituto de Ortodontia de Curitiba (IORC) foi idealizado e fundado no ano de 1995 pelo Dr. Fabio Takachi Hase que, como Ortodontista e Clínico Geral com vasta experiência, observou que muitas pessoas necessitavam de um bom tratamento ortodôntico e geral. Então, ele criou uma empresa que proporciona tratamentos de qualidade, praticidade, confiança e profissionalismo de forma viável para todos."
+          }
+        ]
+      },
+      {
+        "id": "boqueirao-state",
+        "kind": "state",
+        "entityId": "boqueirao",
+        "value": "PR",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-23",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+            "quote": "Dr. Fabio Takachi Hase CRO/PR-9169"
+          }
+        ]
+      },
+      {
+        "id": "boqueirao-phone",
+        "kind": "phone",
+        "entityId": "boqueirao",
+        "value": "(41) 3026-1234",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+            "quote": "(41) 3026-1234"
+          }
+        ]
+      },
+      {
+        "id": "contact-whatsapp-boqueirao",
+        "kind": "identity",
+        "entityId": "boqueirao",
+        "value": "https://api.whatsapp.com/send?phone=5541999076236",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > a:nth-of-type(1)",
+            "quote": "https://api.whatsapp.com/send?phone=5541999076236",
+            "attribute": "href"
+          }
+        ]
+      },
+      {
+        "id": "service-ortodontia",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Ortodontia",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-aparelho-invisivel",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Aparelho Invisível",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-aparelho-safira",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Aparelho Estético (Safira)",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-aparelho-metal",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Aparelho Tradicional (Metal)",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-implantes",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Implantes",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-protese",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Prótese",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-clareamento-moldeira",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Clareamento Dental c/ Moldeira",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-clareamento-consultorio",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Clareamento Dental de Consultório",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-endodontia",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Endodontia",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-limpeza",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Limpeza",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-extracao",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Extração",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-restauracao",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Restauração",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-facetas",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Facetas Dentárias",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-lentes",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Lente de Contato Dental",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-botox",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Toxina Botulínica",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "service-preenchimento",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Preenchimento Facial",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > nav:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Tratamentos Ortodontia Aparelho Invisível Aparelho Estético (Safira) Aparelho Tradicional (Metal) Odontologia e Implantes Implantes Clareamento Dental c/ Moldeira Clareamento Dental de Consultório Endodontia Limpeza Extração Restauração Prótese Facetas e Lente de Contato Facetas Dentárias Lente de Contato Dental Harmonização Orofacial Toxina Botulínica Preenchimento Facial"
+          }
+        ]
+      },
+      {
+        "id": "unit-sitio-cercado",
+        "kind": "architecture",
+        "entityId": "company",
+        "value": "Assim, a unidade do Sitio Cercado foi fundada em 2007 e, um ano depois, a unidade do Centro foi inaugurada em 2008.",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-2",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "quote": "Assim, a unidade do Sitio Cercado foi fundada em 2007 e, um ano depois, a unidade do Centro foi inaugurada em 2008. Ambas com otimas estruturas e equipe de profissionais especialistas. Atualmente as 3 clínicas possuem juntas uma área interna total de 4.000 m²."
+          }
+        ]
+      },
+      {
+        "id": "parking-info",
+        "kind": "architecture",
+        "entityId": "company",
+        "value": "Além disso, as unidades do Boqueirão e do Sítio Cercado possuem estacionamentos próprios.",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-2",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+            "quote": "A matriz está situada em uma excelente localização: no Alto Boqueirão. E possui 1800 m² de infraestrutura total construídos seguindo as mais rígidas normas de qualidade. Além disso, as unidades do Boqueirão e do Sítio Cercado possuem estacionamentos próprios."
+          }
+        ]
+      }
+    ]
+  },
+  "aesthetic_concept": "Centro Clínico de Excelência & Tradição Médica",
+  "concept_rationale": "A direção Autoridade Clínica & Tradição Médica obteve a maior pontuação combinada (9.27/10) por integrar a autoridade histórica de 30 anos do Dr. Fabio Takachi Hase, a escala física de 4.000 m² e a precisão técnica das especialidades ortodônticas e de implantes sob um tratamento visual contemporâneo e cirúrgico.",
+  "rankedAlternatives": [
+    {
+      "id": "autoridade-clinica",
+      "concept": "Centro Clínico de Excelência & Tradição Médica",
+      "rationale": "Prioriza a credibilidade e tradição do Dr. Fabio Takachi Hase (fundado em 1995), a infraestrutura de 4.000 m² e a precisão técnica das especialidades integradas.",
+      "tradeoff": "Privilegia sobriedade e segurança clínica em vez de foco puramente promocional rápido.",
+      "clientTriggers": [
+        {
+          "factIds": [
+            "founder-director",
+            "positioning-history"
+          ],
+          "decision": "Destaque para os 30 anos de atuação sob liderança de Ortodontista e Clínico Geral com vasta experiência."
+        },
+        {
+          "factIds": [
+            "infrastructure-matriz",
+            "infrastructure-total"
+          ],
+          "decision": "Evidência concreta da matriz no Alto Boqueirão com 1.800 m² e das 3 unidades somando 4.000 m²."
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "positioning-history",
+            "mission-statement"
+          ],
+          "reason": "A história desde 1995 e a missão de cuidado embasam a posição de liderança e referência em Curitiba."
+        },
+        "audience": {
+          "factIds": [
+            "service-ortodontia",
+            "service-implantes"
+          ],
+          "reason": "Pacientes de Curitiba buscam tanto reabilitação e alinhamento quanto tratamentos odontológicos seguros e duradouros."
+        },
+        "services": {
+          "factIds": [
+            "service-ortodontia",
+            "service-aparelho-invisivel",
+            "service-implantes",
+            "service-protese"
+          ],
+          "reason": "Equilíbrio entre ortodontia avançada (invisível, safira, metal) e reabilitação oral com implantes."
+        },
+        "identity": {
+          "factIds": [
+            "company-name",
+            "trade-name",
+            "cro-registry"
+          ],
+          "reason": "Uso formal do nome institucional, registro CRO/PR-9169 e paleta azul petróleo."
+        },
+        "architecture": {
+          "factIds": [
+            "infrastructure-matriz",
+            "boqueirao-address"
+          ],
+          "reason": "Identificação detalhada da matriz no Alto Boqueirão com facilidade de acesso e estacionamento."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg",
+        "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg"
+      ],
+      "referenceIds": [
+        "white-medical",
+        "parallax-clean",
+        "digital-architect.aura.build"
+      ],
+      "composition": {
+        "heroType": "split-clinical-showcase",
+        "sectionOrder": [
+          "hero",
+          "stats",
+          "services",
+          "technology",
+          "infrastructure",
+          "units",
+          "cta"
+        ],
+        "imageStrategy": "high-contrast-framed-photos",
+        "gridStrategy": "editorial-asymmetric-columns",
+        "backgroundTreatment": "sterile-white-with-fine-grid",
+        "cardTreatment": "crisp-bordered-slate-panels",
+        "typography": "sans-clinical-precision",
+        "motion": "subtle-reveal-up",
+        "ctaStyle": "solid-petroleum-blue-button",
+        "rhythm": "spacious-medical-breathing"
+      },
+      "assessment": {
+        "identity": {
+          "score": 9.5,
+          "reason": "Reflete plenamente o porte médico, credibilidade do responsável técnico e história de 30 anos."
+        },
+        "assets": {
+          "score": 9,
+          "reason": "Utiliza o logotipo oficial e as fotos reais dos consultórios e atendimento."
+        },
+        "audience": {
+          "score": 9.2,
+          "reason": "Gera confiança sólida em pacientes que buscam tratamentos complexos e ortodontia duradoura."
+        },
+        "references": {
+          "score": 9.4,
+          "reason": "Combina a precisão do white-medical com o layout estruturado do digital-architect."
+        }
+      },
+      "score": 9.275
+    },
+    {
+      "id": "alinhadores-estetica",
+      "concept": "Odontologia Digital & Alinhadores Invisíveis",
+      "rationale": "Foca na conveniência, inovação e estética do sorriso moderno (Invisalign, ClearCorrect e facetas), com apelo dinâmico.",
+      "tradeoff": "Menor ênfase na amplitude dos 4.000 m² de infraestrutura e reabilitação protética complexa.",
+      "clientTriggers": [
+        {
+          "factIds": [
+            "service-aparelho-invisivel",
+            "service-facetas"
+          ],
+          "decision": "Ênfase em alinhamento discreto e procedimentos estéticos contemporâneos."
+        },
+        {
+          "factIds": [
+            "service-clareamento-consultorio",
+            "service-lentes"
+          ],
+          "decision": "Destaque visual para estética de sorriso e clareamento."
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "mission-statement",
+            "positioning-history"
+          ],
+          "reason": "Comunicação orientada à transformação do sorriso e autoestima."
+        },
+        "audience": {
+          "factIds": [
+            "service-aparelho-invisivel",
+            "service-aparelho-safira"
+          ],
+          "reason": "Público jovem e executivo que busca alinhamento rápido e imperceptível."
+        },
+        "services": {
+          "factIds": [
+            "service-aparelho-invisivel",
+            "service-facetas",
+            "service-clareamento-consultorio"
+          ],
+          "reason": "Foco no trio ortodontia invisível, facetas e clareamento."
+        },
+        "identity": {
+          "factIds": [
+            "trade-name",
+            "company-name"
+          ],
+          "reason": "Assinatura IORC Odontologia com apelo leve e tecnológico."
+        },
+        "architecture": {
+          "factIds": [
+            "unit-sitio-cercado",
+            "infrastructure-total"
+          ],
+          "reason": "Menção à cobertura das unidades em Curitiba de forma compacta."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "/assets/clients/iorc-odontologia/02-invisalign.png",
+        "/assets/clients/iorc-odontologia/12-facetas2-768x512.jpeg"
+      ],
+      "referenceIds": [
+        "white-medical"
+      ],
+      "composition": {
+        "heroType": "lifestyle-aesthetic-banner",
+        "sectionOrder": [
+          "hero",
+          "services",
+          "technology",
+          "cta"
+        ],
+        "imageStrategy": "full-bleed-aesthetic-focus",
+        "gridStrategy": "centered-single-column-flow",
+        "backgroundTreatment": "ultra-light-gray-wash",
+        "cardTreatment": "soft-shadow-floating-cards",
+        "typography": "modern-humanist-clean",
+        "motion": "smooth-fade-in",
+        "ctaStyle": "gradient-accent-pill-button",
+        "rhythm": "compact-commercial-pacing"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8,
+          "reason": "Excelente para pacientes de estética, mas atenua o histórico institucional e cirúrgico."
+        },
+        "assets": {
+          "score": 8.5,
+          "reason": "Boas fotos de produtos e parceiros, porém subutiliza a infraestrutura das clínicas."
+        },
+        "audience": {
+          "score": 8.6,
+          "reason": "Altamente atraente para alinhadores, menor apelo para próteses e implantes."
+        },
+        "references": {
+          "score": 8.2,
+          "reason": "Boa aderência ao white-medical, mas composição simplificada."
+        }
+      },
+      "score": 8.325
+    },
+    {
+      "id": "infraestrutura-multidisciplinar",
+      "concept": "Rede Odontológica Completa & Atendimento Integrado",
+      "rationale": "Foca na capilaridade das 3 unidades (Boqueirão, Sítio Cercado e Centro) e na gama completa de procedimentos para toda a família.",
+      "tradeoff": "Abordagem mais generalista que dilui o posicionamento premium de ortodontia especializada.",
+      "clientTriggers": [
+        {
+          "factIds": [
+            "infrastructure-total",
+            "unit-sitio-cercado"
+          ],
+          "decision": "Apresentação simultânea das unidades com mapas e endereços."
+        },
+        {
+          "factIds": [
+            "parking-info",
+            "boqueirao-address"
+          ],
+          "decision": "Destaque para conveniência de estacionamento próprio e facilidade de acesso."
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "mission-statement",
+            "infrastructure-matriz"
+          ],
+          "reason": "Posicionamento como centro completo de referência odontológica."
+        },
+        "audience": {
+          "factIds": [
+            "service-ortodontia",
+            "service-limpeza",
+            "service-restauracao"
+          ],
+          "reason": "Famílias que buscam desde prevenção rotineira até reabilitação complexa."
+        },
+        "services": {
+          "factIds": [
+            "service-implantes",
+            "service-protese",
+            "service-endodontia",
+            "service-limpeza"
+          ],
+          "reason": "Catálogo horizontal de todas as especialidades clínicas."
+        },
+        "identity": {
+          "factIds": [
+            "company-name",
+            "boqueirao-phone"
+          ],
+          "reason": "Comunicação corporativa de rede médica."
+        },
+        "architecture": {
+          "factIds": [
+            "infrastructure-total",
+            "parking-info"
+          ],
+          "reason": "Ênfase em metragem, salas climatizadas e acessibilidade."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "/assets/clients/iorc-odontologia/17-Celso-Pilati-0300-768x432.jpg",
+        "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg"
+      ],
+      "referenceIds": [
+        "digital-architect.aura.build",
+        "parallax-clean"
+      ],
+      "composition": {
+        "heroType": "campus-facility-overview",
+        "sectionOrder": [
+          "hero",
+          "units",
+          "services",
+          "infrastructure",
+          "cta"
+        ],
+        "imageStrategy": "architectural-facility-grid",
+        "gridStrategy": "three-column-equal-cards",
+        "backgroundTreatment": "alternating-light-neutral-bands",
+        "cardTreatment": "neutral-boxed-units",
+        "typography": "standard-sans-system",
+        "motion": "none-static-clarity",
+        "ctaStyle": "outlined-border-button",
+        "rhythm": "dense-directory-spacing"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8.2,
+          "reason": "Valoriza as instalações físicas, mas reduz a diferenciação artística do redesign."
+        },
+        "assets": {
+          "score": 8,
+          "reason": "Utiliza fotos de fachada e salas, mas perde o refinamento do sorriso."
+        },
+        "audience": {
+          "score": 8.4,
+          "reason": "Prático para escolha de bairros, menos impactante para conversão de alto valor."
+        },
+        "references": {
+          "score": 8.5,
+          "reason": "Aplica a estrutura do digital-architect de forma funcional."
+        }
+      },
+      "score": 8.275
+    }
+  ],
+  "chosenId": "autoridade-clinica",
+  "fingerprint": {
+    "heroType": "split-clinical-showcase",
+    "sectionOrder": [
+      "hero",
+      "stats",
+      "services",
+      "technology",
+      "infrastructure",
+      "units",
+      "cta"
+    ],
+    "imageStrategy": "high-contrast-framed-photos",
+    "gridStrategy": "editorial-asymmetric-columns",
+    "backgroundTreatment": "sterile-white-with-fine-grid",
+    "cardTreatment": "crisp-bordered-slate-panels",
+    "typography": "sans-clinical-precision",
+    "motion": "subtle-reveal-up",
+    "ctaStyle": "solid-petroleum-blue-button",
+    "rhythm": "spacious-medical-breathing",
+    "selectedVariants": [
+      "split-showcase",
+      "metric-bar",
+      "clinical-grid",
+      "partner-badges",
+      "facility-split",
+      "location-cards",
+      "direct-contact"
+    ]
+  },
+  "consulted_design_systems": [
+    "white-medical",
+    "parallax-clean",
+    "digital-architect.aura.build"
+  ],
+  "sectionsBlueprint": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "title": "Excelência em Ortodontia e Implantes",
+      "variant": "split-showcase",
+      "factIds": [
+        "company-name",
+        "trade-name",
+        "founder-director",
+        "cro-registry"
+      ],
+      "compositionRationale": "Apresentação imediata da identidade médica e autoridade clínica na primeira dobra com foco em conversão e confiança."
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "title": "Estrutura e Tradição em Números",
+      "variant": "metric-bar",
+      "factIds": [
+        "positioning-history",
+        "infrastructure-total",
+        "infrastructure-matriz"
+      ],
+      "compositionRationale": "Barra de autoridade rápida comprovando 30 anos de fundação (1995), 4.000 m² de área total e 1.800 m² na matriz Boqueirão."
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "title": "Especialidades e Tratamentos Integrados",
+      "variant": "clinical-grid",
+      "factIds": [
+        "service-ortodontia",
+        "service-aparelho-invisivel",
+        "service-aparelho-safira",
+        "service-implantes",
+        "service-protese",
+        "service-clareamento-consultorio",
+        "service-facetas"
+      ],
+      "compositionRationale": "Grid modular em colunas com linhas sutis de precisão cirúrgica separando ortodontia digital, implantes e estética."
+    },
+    {
+      "id": "technology",
+      "type": "technology",
+      "title": "Parcerias e Tecnologia de Ponta",
+      "variant": "partner-badges",
+      "factIds": [
+        "service-aparelho-invisivel",
+        "service-implantes"
+      ],
+      "compositionRationale": "Chancela tecnológica destacando Invisalign, ClearCorrect e Neodent como garantias de precisão biomecânica."
+    },
+    {
+      "id": "infrastructure",
+      "type": "about",
+      "title": "Espaço Planejado para o Seu Cuidado",
+      "variant": "facility-split",
+      "factIds": [
+        "infrastructure-matriz",
+        "mission-statement",
+        "founder-director"
+      ],
+      "compositionRationale": "Apresentação detalhada da matriz no Alto Boqueirão com 1.800 m², salas climatizadas e consultórios modernos."
+    },
+    {
+      "id": "units",
+      "type": "locations",
+      "title": "Unidades de Atendimento em Curitiba",
+      "variant": "location-cards",
+      "factIds": [
+        "boqueirao-address",
+        "unit-sitio-cercado",
+        "parking-info",
+        "boqueirao-phone"
+      ],
+      "compositionRationale": "Cartões estruturados das unidades físicas orientando o paciente quanto à localização da matriz, estacionamento próprio e contato."
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "title": "Agende sua Avaliação Odontológica",
+      "variant": "direct-contact",
+      "factIds": [
+        "boqueirao-phone",
+        "contact-whatsapp-boqueirao",
+        "boqueirao-address"
+      ],
+      "compositionRationale": "Chamada final para agendamento direto via WhatsApp ou telefone com endereço e orientações da clínica."
+    }
+  ],
+  "heroSpecification": {
+    "desktop": "Layout split contemporâneo com logo oficial IORC, badge de 30 anos de tradição (fundado em 1995), chamada para alinhadores e reabilitação, botão de agendamento e fotografia clínica humanizada em consultório.",
+    "mobile": "Cabeçalho responsivo com logotipo nítido, selo de autoridade do Dr. Fabio Takachi Hase CRO/PR-9169, chamada principal legível, CTA de agendamento para WhatsApp e foto da estrutura da clínica.",
+    "assetPath": "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg"
+  },
+  "paletteEvidence": {
+    "background": {
+      "value": "#ffffff",
+      "source": "css",
+      "path": "leads/iorc-odontologia/referencias/site-baixado/index.html",
+      "sha256": "e555f8f1f9c4e9828f36a59000b96e1c01985f1a4b63d4e8d7aacab89ca8d56c",
+      "reason": "Fundo branco clínico medido no CSS original proporcionando contraste asséptico e leitura fluida."
+    },
+    "primary": {
+      "value": "#104050",
+      "source": "logo",
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825",
+      "reason": "Tom azul petróleo dominante medido diretamente nos pixels do logotipo institucional da clínica."
+    },
+    "secondary": {
+      "value": "#205060",
+      "source": "logo",
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825",
+      "reason": "Tom petróleo intermediário medido no logotipo para cabeçalhos de cartões e divisores."
+    },
+    "accent": {
+      "value": "#104060",
+      "source": "logo",
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825",
+      "reason": "Tom azul medido na marca para destaques visuais e botões principais de agendamento."
+    },
+    "text": {
+      "value": "#1e293b",
+      "source": "editorial-neutral",
+      "reason": "Slate 800 neutro de alto contraste para máxima legibilidade e clareza tipográfica técnica."
+    }
+  },
+  "backgroundColor": "#ffffff",
+  "primaryColor": "#104050",
+  "secondaryColor": "#205060",
+  "accentColor": "#104060",
+  "textColor": "#1e293b",
+  "headingFont": "Inter",
+  "bodyFont": "Inter",
+  "themeMode": "light",
+  "keyAssetsMapping": {
+    "heroMain": {
+      "path": "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg",
+      "description": "Paciente jovem sorrindo em consulta odontológica de avaliação."
+    },
+    "logo": {
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png"
+    }
+  },
+  "antiClone": {
+    "method": "planned-composition-requires-render-review",
+    "reviewRequired": true,
+    "limitations": "Percentuais de código não comprovam semelhança percebida."
+  }
+}

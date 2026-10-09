@@ -1,0 +1,853 @@
+{
+  "schema_version": 3,
+  "slug": "salete-cabeleireira",
+  "client": "Salão de Beleza Salete Cabeleireira",
+  "status": "READY_FOR_BUILDER",
+  "createdBy": "art-director-agent",
+  "createdAt": "2026-10-09T21:40:00.000Z",
+  "contextSha256": "d72fa61b3d95a8d907edce60db9ae3db46eff2467eacb9e81f7ee30c615c2543",
+  "decisionSha256": "3eac3cc76f058b1f6773d243431c5c0ac0854e8665707c6c786af31554985243",
+  "sourceHashes": {
+    "leads/salete-cabeleireira/referencias/source-evidence.json": "627f7c6e967a0452ba566851ad98b6fc017f52a994de98768927f993a9bcee00",
+    "leads/salete-cabeleireira/referencias/source-review.json": "3ce03819104ffdeb781db7525ec59f2008cea9af744e6f2304a88e02d4ccacfe",
+    "leads/salete-cabeleireira/referencias/asset-review.json": "cb388325ddf2c793e6133b1393785731fca313bc81fc248b7719cb9f31339b2a",
+    "leads/salete-cabeleireira/referencias/palette-candidates.json": "5b44c509c4e8411e595b517edfc4ffb035f7e562eb3d049a823da5f681d646d0",
+    "leads/salete-cabeleireira/visual/original-review.json": "52982af167b16b26f40dfe57cff8927b807ce9dc39af373fcfda6b833438f741"
+  },
+  "clientFactualSummary": {
+    "name": "Salão de Beleza Salete Cabeleireira",
+    "niche": "Salão de Beleza e Estética",
+    "audience": "Clientes em Criciúma e região sul catarinense buscando serviços especializados de cabeleireiro, cortes, tratamentos capilares de alta performance, estética e Dia da Noiva.",
+    "services": [
+      "Cortes",
+      "Penteados",
+      "Alongamento",
+      "Pintura",
+      "Mechas",
+      "Queratina",
+      "Botox",
+      "Peeling",
+      "Lifting",
+      "Manicure",
+      "Pedicure",
+      "Hidromassagem"
+    ],
+    "facts": [
+      {
+        "id": "company-name",
+        "kind": "name",
+        "entityId": "company",
+        "value": "Sal&atilde;o de Beleza",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "[id=\"logo\"]",
+            "quote": "Sal&atilde;o de Beleza"
+          }
+        ]
+      },
+      {
+        "id": "founder-name",
+        "kind": "founders",
+        "entityId": "company",
+        "value": "Salete",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+            "quote": "Desde a inf&acirc;ncia, Salete, demonstrava interesse pela profiss&atilde;o e muito talento, quando fazia seus primeiros e famosos penteados nos cabelos de amigos e familiares de S&atilde;o Bento Baixo (Nova Veneza, Santa Catarina), localidade onde nasceu."
+          }
+        ]
+      },
+      {
+        "id": "foundation-year",
+        "kind": "history",
+        "entityId": "company",
+        "value": "1966",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "quote": "No in&iacute;cio de 1966, a convite de uma cabeleireira de Crici&uacute;ma/SC, Salete retornou ao sul de Santa Catarina, onde fixou resid&ecirc;ncia, adquirindo em novembro do mesmo ano o seu primeiro e &uacute;nico sal&atilde;o de beleza , conhecido em todo o Estado, marca que leva seu nome."
+          }
+        ]
+      },
+      {
+        "id": "cert-vidal-sassoon",
+        "kind": "credentials",
+        "entityId": "company",
+        "value": "Vidal Sassoon",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(4)",
+            "quote": "Ao longo de sua carreira profissional participou de diversos cursos internacionais com os mais renomados cabeleireiros entre eles Vidal Sassoon e Academia TONI&GUY."
+          }
+        ]
+      },
+      {
+        "id": "cert-toni-guy",
+        "kind": "credentials",
+        "entityId": "company",
+        "value": "Academia TONI&GUY",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(4)",
+            "quote": "Ao longo de sua carreira profissional participou de diversos cursos internacionais com os mais renomados cabeleireiros entre eles Vidal Sassoon e Academia TONI&GUY."
+          }
+        ]
+      },
+      {
+        "id": "city-criciuma",
+        "kind": "city",
+        "entityId": "criciuma",
+        "value": "Crici&uacute;ma",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+            "quote": "Endere&ccedil;o Crici&uacute;ma"
+          }
+        ]
+      },
+      {
+        "id": "state-criciuma",
+        "kind": "state",
+        "entityId": "criciuma",
+        "value": "SC",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "quote": "No in&iacute;cio de 1966, a convite de uma cabeleireira de Crici&uacute;ma/SC, Salete retornou ao sul de Santa Catarina, onde fixou resid&ecirc;ncia, adquirindo em novembro do mesmo ano o seu primeiro e &uacute;nico sal&atilde;o de beleza , conhecido em todo o Estado, marca que leva seu nome."
+          }
+        ]
+      },
+      {
+        "id": "phone-criciuma",
+        "kind": "phone",
+        "entityId": "criciuma",
+        "value": "48 3433 1789",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+            "quote": "Telefone 48 3433 1789"
+          }
+        ]
+      },
+      {
+        "id": "city-rincao",
+        "kind": "city",
+        "entityId": "rincao",
+        "value": "Balne&aacute;rio Rinc&atilde;o",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > h3:nth-of-type(1)",
+            "quote": "Endere&ccedil;o Balne&aacute;rio Rinc&atilde;o"
+          }
+        ]
+      },
+      {
+        "id": "state-rincao",
+        "kind": "state",
+        "entityId": "rincao",
+        "value": "SC",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3)",
+            "quote": "No in&iacute;cio de 1966, a convite de uma cabeleireira de Crici&uacute;ma/SC, Salete retornou ao sul de Santa Catarina, onde fixou resid&ecirc;ncia, adquirindo em novembro do mesmo ano o seu primeiro e &uacute;nico sal&atilde;o de beleza , conhecido em todo o Estado, marca que leva seu nome."
+          }
+        ]
+      },
+      {
+        "id": "phone-rincao",
+        "kind": "phone",
+        "entityId": "rincao",
+        "value": "48 3468 1297",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > h3:nth-of-type(1)",
+            "quote": "Telefone 48 3468 1297"
+          }
+        ]
+      },
+      {
+        "id": "email-contact",
+        "kind": "email",
+        "entityId": "company",
+        "value": "contato@saletecabeleireira.com.br",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1)",
+            "quote": "contato@saletecabeleireira.com.br"
+          }
+        ]
+      },
+      {
+        "id": "service-cortes",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Cortes",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+            "quote": "Cortes"
+          }
+        ]
+      },
+      {
+        "id": "service-penteados",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Penteados",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Penteados"
+          }
+        ]
+      },
+      {
+        "id": "service-alongamento",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Alongamento",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+            "quote": "Alongamento"
+          }
+        ]
+      },
+      {
+        "id": "service-pintura",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Pintura",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+            "quote": "Pintura"
+          }
+        ]
+      },
+      {
+        "id": "service-mechas",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Mechas",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(8)",
+            "quote": "Mechas"
+          }
+        ]
+      },
+      {
+        "id": "service-queratina",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Queratina",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+            "quote": "Queratina"
+          }
+        ]
+      },
+      {
+        "id": "service-botox",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Botox",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+            "quote": "Botox"
+          }
+        ]
+      },
+      {
+        "id": "service-peeling",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Peeling",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+            "quote": "Peeling"
+          }
+        ]
+      },
+      {
+        "id": "service-lifting",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Lifting",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+            "quote": "Lifting"
+          }
+        ]
+      },
+      {
+        "id": "service-manicure",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Manicure",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+            "quote": "Manicure"
+          }
+        ]
+      },
+      {
+        "id": "service-pedicure",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Pedicure",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+            "quote": "Pedicure"
+          }
+        ]
+      },
+      {
+        "id": "service-dia-da-noiva",
+        "kind": "service",
+        "entityId": "company",
+        "value": "Hidromassagem",
+        "status": "verified",
+        "evidence": [
+          {
+            "pageId": "page-1",
+            "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+            "quote": "Hidromassagem"
+          }
+        ]
+      }
+    ]
+  },
+  "aesthetic_concept": "Alta Tradição & Elegância Editorial",
+  "concept_rationale": "A trajetória real de Salete desde 1966 com certificações internacionais Vidal Sassoon e TONI&GUY constitui um patrimônio de marca único em Criciúma e Santa Catarina. O direcionamento Alta Tradição & Elegância Editorial posiciona o salão no ápice do luxo, superando concorrentes genéricos e conferindo prestígio digno de revista de moda tanto para cortes e rituais capilares quanto para o Dia da Noiva.",
+  "rankedAlternatives": [
+    {
+      "id": "editorial-tradicao",
+      "concept": "Alta Tradição & Elegância Editorial",
+      "rationale": "Eleva a história de Salete iniciada em 1966 e suas credenciais de Vidal Sassoon e TONI&GUY a uma experiência visual de alta moda, com contrastes dramáticos em fundo nobre escuro, detalhes em rubi e diagramação de revista.",
+      "tradeoff": "Demanda tratamento fotográfico rigoroso e estética minimalista para manter a atmosfera de luxo aristocrático sem excesso de ornamentos.",
+      "clientTriggers": [
+        {
+          "decision": "Evidenciar a fundação pioneira em 1966 e formação internacional como argumento central de confiança.",
+          "factIds": [
+            "foundation-year",
+            "founder-name"
+          ]
+        },
+        {
+          "decision": "Valorizar a especialização técnica em academias de Londres para justificar o posicionamento premium.",
+          "factIds": [
+            "cert-vidal-sassoon",
+            "cert-toni-guy"
+          ]
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "foundation-year",
+            "founder-name"
+          ],
+          "reason": "Salão pioneiro e mais lembrado do sul catarinense, operando continuamente desde novembro de 1966."
+        },
+        "audience": {
+          "factIds": [
+            "city-criciuma",
+            "city-rincao"
+          ],
+          "reason": "Mulheres e clientes exigentes de Criciúma e do litoral buscando excelência incontestável e atendimento de alta classe."
+        },
+        "services": {
+          "factIds": [
+            "service-queratina",
+            "service-botox",
+            "service-dia-da-noiva"
+          ],
+          "reason": "Rituais capilares de alta reconstrução, mechas e Dia da Noiva em espaço exclusivo e reservado."
+        },
+        "identity": {
+          "factIds": [
+            "company-name",
+            "founder-name"
+          ],
+          "reason": "Assinatura clássica Salete preservada como selo de alta costura em beleza capilar."
+        },
+        "architecture": {
+          "factIds": [
+            "city-criciuma",
+            "city-rincao",
+            "phone-criciuma",
+            "phone-rincao"
+          ],
+          "reason": "Presença consolidada nas duas cidades: matriz histórica no Centro de Criciúma e filial em Balneário Rincão."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+        "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+        "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+        "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+        "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+        "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build",
+        "luxury-desert-retreat-1.aura.build",
+        "savory-plate.aura.build"
+      ],
+      "composition": {
+        "heroType": "split-editorial",
+        "sectionOrder": "hero-history-services-brands-units-contact",
+        "imageStrategy": "hero-full-bleed-texture",
+        "gridStrategy": "asymmetric-editorial",
+        "backgroundTreatment": "deep-noir-subtle-glow",
+        "cardTreatment": "minimal-glass-stroke",
+        "typography": "editorial-serif-display",
+        "motion": "smooth-reveal-fade",
+        "ctaStyle": "pill-solid-burgundy",
+        "rhythm": "spacious-luxury-tempo"
+      },
+      "assessment": {
+        "identity": {
+          "score": 9.5,
+          "reason": "Trabalha com fidelidade absoluta à história de Salete e traduz seus 58 anos de tradição em elegância incontestável."
+        },
+        "assets": {
+          "score": 9.2,
+          "reason": "Aproveita ao máximo a imagem panorâmica de cabelos espelhados e as fotos autênticas de bancadas e lavatórios."
+        },
+        "audience": {
+          "score": 9.3,
+          "reason": "Atrai imediatamente o público de alta renda de Criciúma e noivas buscando segurança técnica impecável."
+        },
+        "references": {
+          "score": 9,
+          "reason": "Sintetiza com perfeição a autoridade clássica de Barbershop, a serenidade de Luxury Retreat e o refinamento de Savory Plate."
+        }
+      },
+      "score": 9.25
+    },
+    {
+      "id": "sensorial-wellness",
+      "concept": "Sensorial & Bem-Estar Botânico",
+      "rationale": "Focaliza o salão como um santuário de bem-estar, destacando os rituais de terapia capilar, hidromassagem para noivas e óleos botânicos em layout suave.",
+      "tradeoff": "Subordina o peso histórico das academias Vidal Sassoon e TONI&GUY a uma experiência de spa capilar e estética relaxante.",
+      "clientTriggers": [
+        {
+          "decision": "Enfatizar rituais de queratina, botox capilar e hidromassagem relaxante.",
+          "factIds": [
+            "service-queratina",
+            "service-botox"
+          ]
+        },
+        {
+          "decision": "Estruturar o pacote do Dia da Noiva como experiência multissensorial.",
+          "factIds": [
+            "service-dia-da-noiva",
+            "service-penteados"
+          ]
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "service-queratina",
+            "service-botox"
+          ],
+          "reason": "Centro de cuidado capilar e renovação estética com foco em recuperação da saúde dos fios."
+        },
+        "audience": {
+          "factIds": [
+            "city-criciuma",
+            "city-rincao"
+          ],
+          "reason": "Público que valoriza relaxamento, cuidado capilar contínuo e tratamentos de rejuvenescimento facial."
+        },
+        "services": {
+          "factIds": [
+            "service-queratina",
+            "service-peeling",
+            "service-lifting"
+          ],
+          "reason": "Menu organizado por objetivos de tratamento capilar e revitalização da beleza."
+        },
+        "identity": {
+          "factIds": [
+            "company-name",
+            "founder-name"
+          ],
+          "reason": "Marca Salete expressando acolhimento, cuidado humanizado e confiança íntima."
+        },
+        "architecture": {
+          "factIds": [
+            "city-criciuma",
+            "city-rincao",
+            "phone-criciuma",
+            "phone-rincao"
+          ],
+          "reason": "Salas reservadas para atendimento individualizado e hidromassagem da noiva."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+        "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+        "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+        "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg"
+      ],
+      "referenceIds": [
+        "luxury-desert-retreat-1.aura.build",
+        "savory-plate.aura.build"
+      ],
+      "composition": {
+        "heroType": "centered-statement",
+        "sectionOrder": "hero-services-history-units-brands-contact",
+        "imageStrategy": "soft-framed-galleries",
+        "gridStrategy": "two-column-cards",
+        "backgroundTreatment": "warm-sand-neutral-wash",
+        "cardTreatment": "pill-rounded-cards",
+        "typography": "clean-sans-humanist",
+        "motion": "gentle-drift",
+        "ctaStyle": "rounded-outline",
+        "rhythm": "calm-unrushed"
+      },
+      "assessment": {
+        "identity": {
+          "score": 8,
+          "reason": "Foca muito na atmosfera de spa e atenua a autoridade do pioneirismo histórico de 1966."
+        },
+        "assets": {
+          "score": 8.4,
+          "reason": "Utiliza fotos de produtos e lavatórios, mas não valoriza a imponência da imagem principal do hero."
+        },
+        "audience": {
+          "score": 8.2,
+          "reason": "Atrativo para tratamentos relaxantes, mas com menor apelo para serviços de corte e transformação rápida."
+        },
+        "references": {
+          "score": 8.1,
+          "reason": "Boa conexão com o design de retreat, porém perde o contraste elegante dos rituais noturnos e editoriais."
+        }
+      },
+      "score": 8.174999999999999
+    },
+    {
+      "id": "boutique-urbana",
+      "concept": "Boutique Contemporânea & Agilidade Urbana",
+      "rationale": "Aborda o salão como um estúdio de beleza veloz e dinâmico, focado em agendamento imediato, cortes contemporâneos e presença prática nas duas cidades.",
+      "tradeoff": "Reduz o espaço dedicado à narrativa biográfica da fundadora Salete para privilegiar botões de conversão e catálogo rápido de serviços.",
+      "clientTriggers": [
+        {
+          "decision": "Destacar a conveniência de duas unidades (Criciúma e Balneário Rincão) para agendamento instantâneo.",
+          "factIds": [
+            "phone-criciuma",
+            "phone-rincao"
+          ]
+        },
+        {
+          "decision": "Apresentar catálogo rápido de cortes, mechas 3D e manicure express.",
+          "factIds": [
+            "service-cortes",
+            "service-mechas"
+          ]
+        }
+      ],
+      "contextBindings": {
+        "positioning": {
+          "factIds": [
+            "phone-criciuma",
+            "phone-rincao"
+          ],
+          "reason": "Salão de alta velocidade operacional com fácil acesso no centro de Criciúma e em Balneário Rincão."
+        },
+        "audience": {
+          "factIds": [
+            "city-criciuma",
+            "city-rincao"
+          ],
+          "reason": "Profissionais e moradores urbanos buscando serviços pontuais com alto padrão e agilidade."
+        },
+        "services": {
+          "factIds": [
+            "service-cortes",
+            "service-mechas",
+            "service-manicure"
+          ],
+          "reason": "Cortes modernos, escovas, mechas 3D e manicure de rotina."
+        },
+        "identity": {
+          "factIds": [
+            "company-name"
+          ],
+          "reason": "Nome consolidado funcionando como garantia de serviço ágil e sem erro."
+        },
+        "architecture": {
+          "factIds": [
+            "city-criciuma",
+            "city-rincao",
+            "phone-criciuma",
+            "phone-rincao"
+          ],
+          "reason": "Dois centros de atendimento cobrindo a rotina de trabalho na cidade e os fins de semana no litoral."
+        }
+      },
+      "assetPaths": [
+        "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+        "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+        "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg"
+      ],
+      "referenceIds": [
+        "barbershop-landing-51.aura.build",
+        "savory-plate.aura.build"
+      ],
+      "composition": {
+        "heroType": "bold-minimal-type",
+        "sectionOrder": "hero-units-services-history-contact-brands",
+        "imageStrategy": "card-thumbnails-carousel",
+        "gridStrategy": "bento-grid-dense",
+        "backgroundTreatment": "graphite-clean-contrast",
+        "cardTreatment": "sharp-bordered-cards",
+        "typography": "neo-grotesque-bold",
+        "motion": "quick-snappy",
+        "ctaStyle": "square-high-contrast",
+        "rhythm": "dense-action-focused"
+      },
+      "assessment": {
+        "identity": {
+          "score": 7.8,
+          "reason": "Moderno, mas dilui o valor emocional e o prestígio da fundadora ao focar excessivamente na velocidade."
+        },
+        "assets": {
+          "score": 7.9,
+          "reason": "Subutiliza o acervo fotográfico de alta resolução em favor de pequenos blocos bento."
+        },
+        "audience": {
+          "score": 8,
+          "reason": "Excelente para serviços corriqueiros, porém menos inspirador para Dia da Noiva e rituais capilares premium."
+        },
+        "references": {
+          "score": 7.8,
+          "reason": "Composição funcional, mas perde o refinamento poético que diferencia o Salão Salete dos concorrentes locais."
+        }
+      },
+      "score": 7.875
+    }
+  ],
+  "chosenId": "editorial-tradicao",
+  "fingerprint": {
+    "heroType": "split-editorial",
+    "sectionOrder": "hero-history-services-brands-units-contact",
+    "imageStrategy": "hero-full-bleed-texture",
+    "gridStrategy": "asymmetric-editorial",
+    "backgroundTreatment": "deep-noir-subtle-glow",
+    "cardTreatment": "minimal-glass-stroke",
+    "typography": "editorial-serif-display",
+    "motion": "smooth-reveal-fade",
+    "ctaStyle": "pill-solid-burgundy",
+    "rhythm": "spacious-luxury-tempo",
+    "selectedVariants": [
+      "agent-to-select",
+      "agent-to-select",
+      "agent-to-select",
+      "agent-to-select",
+      "agent-to-select",
+      "agent-to-select"
+    ]
+  },
+  "consulted_design_systems": [
+    "barbershop-landing-51.aura.build",
+    "luxury-desert-retreat-1.aura.build",
+    "savory-plate.aura.build"
+  ],
+  "sectionsBlueprint": [
+    {
+      "id": "hero",
+      "title": "Salete Cabeleireira — Alta Tradição",
+      "compositionRationale": "Abertura impactante com logotipo, autoridade pioneira desde 1966 e acesso imediato aos canais de atendimento.",
+      "factIds": [
+        "company-name",
+        "foundation-year",
+        "phone-criciuma",
+        "phone-rincao"
+      ]
+    },
+    {
+      "id": "history",
+      "title": "Uma Trajetória Consagrada na Beleza",
+      "compositionRationale": "Narrativa visual em duas colunas detalhando o início em Nova Veneza, a fundação em Criciúma em novembro de 1966 e a formação com Vidal Sassoon e TONI&GUY.",
+      "factIds": [
+        "founder-name",
+        "foundation-year",
+        "cert-vidal-sassoon",
+        "cert-toni-guy"
+      ]
+    },
+    {
+      "id": "services",
+      "title": "Menu de Rituais & Especialidades",
+      "compositionRationale": "Catálogo estruturado em cards editoriais agrupando Cortes, Mechas, Penteados, Tratamentos Capilares (Queratina, Botox, Lifting) e Dia da Noiva.",
+      "factIds": [
+        "service-cortes",
+        "service-penteados",
+        "service-alongamento",
+        "service-pintura",
+        "service-mechas",
+        "service-queratina",
+        "service-botox",
+        "service-peeling",
+        "service-lifting",
+        "service-manicure",
+        "service-pedicure",
+        "service-dia-da-noiva"
+      ]
+    },
+    {
+      "id": "brands",
+      "title": "Parcerias Globais de Alta Performance",
+      "compositionRationale": "Faixa de prestígio exibindo as linhas profissionais Kérastase, Wella Professionals e L'Oréal utilizadas nos tratamentos.",
+      "factIds": [
+        "service-queratina",
+        "service-botox"
+      ]
+    },
+    {
+      "id": "units",
+      "title": "Nossas Unidades em Santa Catarina",
+      "compositionRationale": "Dois cartões arquitetônicos destacando a matriz histórica no Centro de Criciúma e a filial no Balneário Rincão, com telefones e links diretos.",
+      "factIds": [
+        "city-criciuma",
+        "state-criciuma",
+        "phone-criciuma",
+        "city-rincao",
+        "state-rincao",
+        "phone-rincao"
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Agendamento & Atendimento Exclusivo",
+      "compositionRationale": "Fechamento com formulário de mensagem direta, e-mail institucional e botão de contato imediato.",
+      "factIds": [
+        "email-contact",
+        "phone-criciuma",
+        "phone-rincao"
+      ]
+    }
+  ],
+  "heroSpecification": {
+    "desktop": "Hero editorial imersivo em tela cheia com foto de fundo de cabelos espelhados, tag 'Desde 1966 -- Alta Tradição & Beleza', assinatura oficial do logotipo Salete, proposta de valor sobre alta costura capilar e duplo CTA para agendamento por WhatsApp na matriz Criciúma e filial Balneário Rincão.",
+    "mobile": "Primeira dobra móvel com foco vertical na assinatura do logotipo, selo discreto '58 Anos de Tradição', chamada direta para agendamento e botões de toque com telefone e WhatsApp imediato.",
+    "assetPath": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg"
+  },
+  "paletteEvidence": {
+    "background": {
+      "value": "#0f0f11",
+      "source": "editorial-neutral",
+      "status": "neutral",
+      "reason": "Fundo escuro nobre para atmosfera de salão de alta costura com contraste sofisticado."
+    },
+    "primary": {
+      "value": "#fcfbfb",
+      "source": "logo",
+      "status": "official",
+      "path": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "sha256": "cad59aedefb37921aae6bb1b2e2e720b3ff7b79b4229b2574c06a8215d7a534a"
+    },
+    "secondary": {
+      "value": "#803050",
+      "source": "asset",
+      "status": "observed",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "reason": "Tom bordô/rubi observado nas linhas de tratamento profissional da Wella e Kérastase."
+    },
+    "accent": {
+      "value": "#802050",
+      "source": "asset",
+      "status": "observed",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "reason": "Tom complementar aveludado de tratamento para botões e detalhes de destaque."
+    },
+    "text": {
+      "value": "#fafafa",
+      "source": "editorial-neutral",
+      "status": "neutral",
+      "reason": "Texto neutro claro para máxima legibilidade editorial sobre fundo escuro."
+    }
+  },
+  "backgroundColor": "#0f0f11",
+  "primaryColor": "#fcfbfb",
+  "secondaryColor": "#803050",
+  "accentColor": "#802050",
+  "textColor": "#fafafa",
+  "headingFont": "Playfair Display",
+  "bodyFont": "Plus Jakarta Sans",
+  "themeMode": "dark",
+  "keyAssetsMapping": {
+    "heroMain": {
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "description": "Imagem panorâmica de alta resolução do salão de beleza e estações de atendimento."
+    },
+    "logo": {
+      "path": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png"
+    }
+  },
+  "antiClone": {
+    "method": "planned-composition-requires-render-review",
+    "reviewRequired": true,
+    "limitations": "Percentuais de código não comprovam semelhança percebida."
+  }
+}

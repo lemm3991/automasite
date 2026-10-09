@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "kind": "Render Validation",
+  "slug": "dl-cabeleireiros",
+  "checkedAt": "2026-10-06T18:19:05.834Z",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "inspected": [
+    {
+      "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "55083712dd1f797e38a370ae9c5a00e5cc8ec68fa2bb63ab84f003a6f30a1e62"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+      "width": 1440,
+      "height": 6228,
+      "sha256": "b85cca91f22318d3d722e42ed6729a7f5beed24d99b077743cb5ee5aec2aac7f"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "317fad96300483b43fa2b6b1ee2c421d6e1cb6434da89a2272975e069f3f67d5"
+    },
+    {
+      "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png",
+      "width": 390,
+      "height": 10945,
+      "sha256": "a7f394200341d99003d35fbc859ede8bca5159adceed21e4774ff6a49692466f"
+    }
+  ],
+  "visualAssessment": "requires_image_review",
+  "visualQualityScore": null,
+  "regressions": null,
+  "limitations": [
+    "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+    "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+  ]
+}

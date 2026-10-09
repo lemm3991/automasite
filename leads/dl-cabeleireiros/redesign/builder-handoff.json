@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "slug": "dl-cabeleireiros",
+  "status": "READY_FOR_DEMO",
+  "generatedAt": "2026-10-07T19:35:22.445Z",
+  "passed": true,
+  "errors": [],
+  "priorities": [
+    "Personalização e adequação ao cliente/ramo",
+    "Primeira dobra e qualidade visual",
+    "Identidade, conteúdo e assets reais",
+    "Fidelidade ao 2A",
+    "Responsividade/build",
+    "Integrações posteriores"
+  ],
+  "implementation": {
+    "planPath": "leads/dl-cabeleireiros/redesign/implementation-plan.json",
+    "components": [
+      {
+        "id": "header",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Header01.astro",
+        "reason": "Marca legível, links curtos e escolha de unidade no CTA."
+      },
+      {
+        "id": "hero",
+        "action": "create",
+        "path": "src/clients/components/dl-cabeleireiros/SalonHero.astro",
+        "reason": "Foto vertical do ambiente à esquerda, serifas à direita. Mobile com foto e CTA antes de 844px."
+      },
+      {
+        "id": "servicos",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Services01.astro",
+        "reason": "Menu com 12 nomes documentados e descrições curtas literais, organizado em linhas."
+      },
+      {
+        "id": "galeria",
+        "action": "adapt",
+        "path": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+        "reason": "Duas imagens do acervo em molduras verticais; apresentação breve e sem atribuir procedimentos às imagens."
+      },
+      {
+        "id": "unidades",
+        "action": "create",
+        "path": "src/clients/components/dl-cabeleireiros/SalonUnits.astro",
+        "reason": "Dois painéis com contato, endereço e horário separados; verde em contraste para encerramento."
+      },
+      {
+        "id": "footer",
+        "action": "keep",
+        "path": "src/components/footer/Footer01.astro",
+        "reason": "Rodapé simples reutilizado, sem informação comercial adicional."
+      }
+    ],
+    "referenceApplications": [
+      {
+        "referenceId": "architecture-studio.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/dl-cabeleireiros/SalonHero.astro",
+        "codeExcerpt": "<h1>Um espaço para o seu <em>estilo.</em></h1>",
+        "explanation": "Serifa de grande escala e itálico no foco da mensagem, com respiro editorial; fonte conferida no DOM.",
+        "renderCheck": {
+          "selector": "#dl-hero h1",
+          "styles": {
+            "fontFamily": "\"Playfair Display\", serif"
+          }
+        }
+      },
+      {
+        "referenceId": "barbershop-landing-51.aura.build",
+        "sectionId": "servicos",
+        "codePath": "src/clients/components/dl-cabeleireiros/Services01.astro",
+        "codeExcerpt": "<h3>{service.title}</h3>",
+        "explanation": "Hierarquia nome/descrição de serviço reinterpretada como menu expansível, com separadores e consulta por unidade; sem copiar serviços, preços ou duração.",
+        "renderCheck": {
+          "selector": ".dl-service-menu",
+          "minColumns": 2
+        }
+      },
+      {
+        "referenceId": "green-museum",
+        "sectionId": "galeria",
+        "codePath": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+        "codeExcerpt": "<div class=\"dl-portrait\"><img src={item.image} alt={item.alt}",
+        "explanation": "Fotografias em molduras verticais, legenda junto da imagem, duas colunas; proporções revistas para miniaturas do acervo.",
+        "renderCheck": {
+          "selector": ".dl-gallery-grid",
+          "minColumns": 2
+        }
+      }
+    ],
+    "previousFingerprint": null,
+    "fingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "header",
+        "hero",
+        "services",
+        "showcase",
+        "contact",
+        "footer"
+      ],
+      "imageStrategy": [
+        "hero",
+        "showcase"
+      ],
+      "gridStrategy": [
+        "1",
+        "2"
+      ],
+      "backgroundTreatment": [
+        "light",
+        "none",
+        "cream-menu-photo-green"
+      ],
+      "cardTreatment": "open-lines",
+      "typography": [
+        "Playfair Display",
+        "Inter"
+      ],
+      "motion": "local-reduced-motion",
+      "rhythm": "cream-menu-photo-green",
+      "ctaStyle": "unknown",
+      "selectedVariants": [
+        {
+          "variant": "Header01",
+          "file": "src/clients/components/dl-cabeleireiros/Header01.astro",
+          "sha256": "79c714ab287c3940e68213a6e6fbfde3b03959a7dc823784de80788f8020932c"
+        },
+        {
+          "variant": "SalonHero",
+          "file": "src/clients/components/dl-cabeleireiros/SalonHero.astro",
+          "sha256": "30ff0f7225388af91c276ecad369b725d13008d0189eebaa23457fb48c964d08"
+        },
+        {
+          "variant": "Services01",
+          "file": "src/clients/components/dl-cabeleireiros/Services01.astro",
+          "sha256": "dc4c36b85e24e7167be05cc22f7a2694566ce1eedc538f85db7e2ff5c41161c2"
+        },
+        {
+          "variant": "Showcase01",
+          "file": "src/clients/components/dl-cabeleireiros/Showcase01.astro",
+          "sha256": "8e8797c14cb69d4e4a8a7d321dc1f15fb35c82951fa06070f964496891a58e9f"
+        },
+        {
+          "variant": "SalonUnits",
+          "file": "src/clients/components/dl-cabeleireiros/SalonUnits.astro",
+          "sha256": "122a3c01dd874d8781094b909d520addf4b0a9b75f32d5afe6f2082d21de3aed"
+        },
+        {
+          "variant": "Footer01",
+          "file": "src/components/footer/Footer01.astro",
+          "sha256": "a46001f1734bd76553e676caa890e7572c9e6c6779e2e724fe44ced644e3fafa"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "slug": "cadas-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 36,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": 0.25,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [
+          "Showcase01"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "delta-pan",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 39,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5555555555555556,
+          "imageStrategy": 0.2,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [
+          "Header01",
+          "Services01"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "juliana-pippi-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 37,
+        "knownDimensions": 7,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": 0.16666666666666666,
+          "gridStrategy": 0.6666666666666666,
+          "backgroundTreatment": 0,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [
+          "Header01"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 39,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.625,
+          "imageStrategy": 0.3333333333333333,
+          "gridStrategy": 0.5,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.5,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [
+          "Header01",
+          "Services01",
+          "Showcase01"
+        ],
+        "identicalComponentSources": 0
+      }
+    ]
+  },
+  "evidence": {
+    "build": "leads/dl-cabeleireiros/redesign/build-evidence.json",
+    "render": "leads/dl-cabeleireiros/redesign/render-evidence.json",
+    "visualReview": "leads/dl-cabeleireiros/redesign/visual-review.json"
+  },
+  "renderValidation": {
+    "schemaVersion": 1,
+    "kind": "Render Validation",
+    "slug": "dl-cabeleireiros",
+    "checkedAt": "2026-10-07T19:35:21.970Z",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "inspected": [
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "22bf3a4fc45411c371a57665e27095ad32399b23076fc659c8020eca593a9a1e"
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png",
+        "width": 1440,
+        "height": 3001,
+        "sha256": "76712beec7a30044da79fe812d9ca8062e30ddb3725ab1528425a686a749dfec"
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "cfb79369889f008ed46852a79a5f7f97f17ba72f15ba2747ef5723e65ce123cd"
+      },
+      {
+        "path": "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png",
+        "width": 390,
+        "height": 3540,
+        "sha256": "b5d8c7b23abb2065273bd76e1379cc0ffcf1a196c31e58743417939b0a27ecc6"
+      }
+    ],
+    "visualAssessment": "requires_image_review",
+    "visualQualityScore": null,
+    "regressions": null,
+    "limitations": [
+      "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+      "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+    ]
+  },
+  "qualitativeReview": "approved",
+  "removedUnsupportedClaims": [
+    "Horários iniciando na terça-feira",
+    "Atribuições de procedimento a miniaturas sem prova",
+    "Agrupamentos que apagavam serviços do cardápio"
+  ],
+  "reviewedAbsentClaims": [],
+  "upstreamCorrections": [],
+  "productionPending": [
+    "Confirmar operacionalmente com a empresa a escolha das fontes para endereço e horários conflitantes antes de publicação",
+    "Agendamento abre conversa; não confirma disponibilidade ou reserva",
+    "Sem envio comercial, publicação ou rastreamento de conversão"
+  ],
+  "limitations": [
+    "O gate verifica rastreabilidade e atualidade; o julgamento estético e factual depende da inspeção registrada pelo agente.",
+    "Prontidão da demonstração não comprova desempenho comercial, produção ou envio ao cliente."
+  ]
+}

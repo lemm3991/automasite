@@ -44,7 +44,7 @@ export const ThemeTokensSchema = z.object({
   borderRadius: z.enum(['none', 'sm', 'md', 'lg', 'full']).default('md'),
   mode: z.enum(['dark', 'light']).default('dark'),
   backgroundEffect: z.enum(['none', 'mesh', 'dots', 'prism']).optional().default('none'),
-  enableParallax: z.boolean().optional().default(true)
+  enableParallax: z.boolean().optional().default(false)
 });
 
 export const SECTION_TYPES = [

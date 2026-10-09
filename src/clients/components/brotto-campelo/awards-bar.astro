@@ -1,0 +1,15 @@
+---
+const awards=[
+ ['04-SELO-2026-esc-mais-admirado-analise-advocacia-BCA.png','Selo oficial Análise Advocacia 2026 concedido ao escritório Brotto Campelo Advogados.','Análise Advocacia 2026'],
+ ['08-SELO-2025_escritorio_mais_admirado.png','Selo Análise Advocacia 2025 Escritório Mais Admirado.','Análise Advocacia 2025'],
+ ['11-SELO-REGIONAL-ESCRITORIO-MAIS-ADMIRADO-2024.jpg','Selo Escritório Mais Admirado Regional 2024 Análise Advocacia.','Análise Regional 2024']
+];
+---
+<section class="bca-awards" aria-labelledby="bca-awards-heading">
+ <div class="bca-wrap bca-awards-layout">
+  <div class="bca-awards-copy"><p class="bca-eyebrow">O escritório</p><h2 id="bca-awards-heading">Reconhecimentos e menções</h2><p>Escritórios mais admirados do Brasil</p><small>2021, 2022, 2023/2024, 2025 e 2026.</small><p>Escritórios mais admirados da Região Sul</p><small>2022, 2023, 2024, 2025 e 2026.</small></div>
+  <div class="bca-awards-rail">
+   {awards.map(([src,alt,caption])=><figure><img src={'/assets/clients/brotto-campelo/'+src} alt={alt} width="110" height="140" loading="lazy"/><figcaption>{caption}</figcaption></figure>)}
+  </div>
+ </div>
+</section>

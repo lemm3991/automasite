@@ -1,0 +1,406 @@
+{
+  "slug": "iorc-odontologia",
+  "client": "IORC Odontologia",
+  "domain": "iorcpr.com.br",
+  "auditTimestamp": "2026-10-09T02:05:47.154Z",
+  "sitemapsInspected": [
+    "/sitemap.xml",
+    "/wp-sitemap.xml",
+    "/page-sitemap.xml",
+    "/sitemap_index.xml",
+    "/robots.txt"
+  ],
+  "realPages": [
+    {
+      "url": "https://iorcpr.com.br",
+      "type": "ROTA_REAL_PRINCIPAL",
+      "category": "home",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 164768
+    },
+    {
+      "url": "http://iorcpr.com.br/",
+      "type": "ROTA_REAL_PRINCIPAL",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 164768
+    },
+    {
+      "url": "https://iorcpr.com.br/",
+      "type": "ROTA_REAL_PRINCIPAL",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 164768
+    },
+    {
+      "url": "https://iorcpr.com.br/sobre",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "sobre",
+      "localPath": "referencias/site-baixado/sobre/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 121212
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113226
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/ortodontia",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/ortodontia/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 125720
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/ortodontia/aparelho-invisivel",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/ortodontia/aparelho-invisivel/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 119122
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/ortodontia/aparelho-estetico-safira",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/ortodontia/aparelho-estetico-safira/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113937
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/ortodontia/aparelho-tradicional-metal",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/ortodontia/aparelho-tradicional-metal/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114235
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 139354
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/implantes",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/implantes/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113933
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/clareamento-dental-com-moldeira",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/clareamento-dental-com-moldeira/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114029
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/clareamento-dental-de-consultorio",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/clareamento-dental-de-consultorio/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 115630
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/endodontia",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/endodontia/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113742
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/limpeza",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/limpeza/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114322
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/extracao",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/extracao/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114014
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/restauracao",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/restauracao/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114291
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/odontologia-e-implantes/protese",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/odontologia-e-implantes/protese/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114598
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "contato",
+      "localPath": "referencias/site-baixado/tratamentos/facetas-e-lente-de-contato/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 121534
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/facetas-dentarias",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "contato",
+      "localPath": "referencias/site-baixado/tratamentos/facetas-e-lente-de-contato/facetas-dentarias/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 115809
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/facetas-e-lente-de-contato/lente-de-contato-dental",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "contato",
+      "localPath": "referencias/site-baixado/tratamentos/facetas-e-lente-de-contato/lente-de-contato-dental/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 115234
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/harmonizacao-orofacial",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/harmonizacao-orofacial/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 121198
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/toxina-botulinica",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/harmonizacao-orofacial/toxina-botulinica/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114194
+    },
+    {
+      "url": "https://iorcpr.com.br/tratamentos/harmonizacao-orofacial/preenchimento-facial",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/tratamentos/harmonizacao-orofacial/preenchimento-facial/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114168
+    },
+    {
+      "url": "https://iorcpr.com.br/contato",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "contato",
+      "localPath": "referencias/site-baixado/contato/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 127352
+    },
+    {
+      "url": "https://iorcpr.com.br/fotos",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/fotos/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 108810
+    },
+    {
+      "url": "https://iorcpr.com.br/blog/implante-dentario-saude-gengival-periodonto",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/blog/implante-dentario-saude-gengival-periodonto/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 119788
+    },
+    {
+      "url": "https://iorcpr.com.br/blog/implante-imediato-ou-convencional-qual-protocolo",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/blog/implante-imediato-ou-convencional-qual-protocolo/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 120261
+    },
+    {
+      "url": "https://iorcpr.com.br/blog/quanto-tempo-dura-implante-dentario-longevidade",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/blog/quanto-tempo-dura-implante-dentario-longevidade/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 120282
+    },
+    {
+      "url": "https://iorcpr.com.br/politica-de-privacidade",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "legal",
+      "localPath": "referencias/site-baixado/politica-de-privacidade/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 111995
+    },
+    {
+      "url": "https://iorcpr.com.br/profissionais",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/profissionais/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 108248
+    },
+    {
+      "url": "https://iorcpr.com.br/implante-dentario-curitiba",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/implante-dentario-curitiba/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 122877
+    },
+    {
+      "url": "https://iorcpr.com.br/aparelhos-dentarios-whatsapp",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/aparelhos-dentarios-whatsapp/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 114965
+    },
+    {
+      "url": "https://iorcpr.com.br/proteses-whatsapp",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/proteses-whatsapp/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113578
+    },
+    {
+      "url": "https://iorcpr.com.br/implantes-whatsapp",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/implantes-whatsapp/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113358
+    },
+    {
+      "url": "https://iorcpr.com.br/facetas-whatsapp",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/facetas-whatsapp/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 111763
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/agendamento-geral-sitio-cercado",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/agendamento-geral-sitio-cercado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 94473
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/aparelhos-invisiveis-centro",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/aparelhos-invisiveis-centro/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 96740
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/aparelhos-ortodonticos-boqueirao",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/aparelhos-ortodonticos-boqueirao/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 96750
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/agendamento-geral-centro",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/agendamento-geral-centro/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 95431
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/agendamento-geral-boqueirao",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/agendamento-geral-boqueirao/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 95517
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/implantes-e-proteses-sitio-cercado",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/implantes-e-proteses-sitio-cercado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 95604
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/implantes-e-proteses-centro",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/implantes-e-proteses-centro/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 95436
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/implantes-e-proteses-boqueirao",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/implantes-e-proteses-boqueirao/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 95522
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 104829
+    },
+    {
+      "url": "https://iorcpr.com.br/blog",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/blog/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113140
+    },
+    {
+      "url": "https://iorcpr.com.br/obrigado",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/obrigado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 106337
+    },
+    {
+      "url": "https://iorcpr.com.br/formulario/aparelhos-ortodonticos-sitio-cercado",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/formulario/aparelhos-ortodonticos-sitio-cercado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 95701
+    }
+  ],
+  "homeAnchors": [
+    {
+      "anchor": "#content",
+      "label": "Pular para o conteúdo",
+      "targetUrl": "https://iorcpr.com.br#content"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "client": "Metalúrgica São Jorge",
+  "slug": "metalurgica-sao-jorge",
+  "selectedDesignSystems": [
+    {
+      "name": "autonomous-drone-62.aura.build",
+      "path": "D:\\projetos antigravity\\Site automatico\\Design System\\temas_escuros\\autonomous-drone-62.aura.build\\design-system.html",
+      "adequacyScore": 95,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Metalúrgica e Corte e Dobra de Chapas.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "name": "aex.aura.build",
+      "path": "D:\\projetos antigravity\\Site automatico\\Design System\\temas_claros\\aex.aura.build\\aex.aura.build\\design-system.html",
+      "adequacyScore": 78,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Metalúrgica e Corte e Dobra de Chapas.",
+      "elementsToUse": [
+        "Split layout equilibrado para apresentar headline e evidência",
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "name": "axion-ai.aura.build",
+      "path": "D:\\projetos antigravity\\Site automatico\\Design System\\temas_escuros\\axion-ai.aura.build\\design-system.html",
+      "adequacyScore": 71,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Metalúrgica e Corte e Dobra de Chapas.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    }
+  ]
+}

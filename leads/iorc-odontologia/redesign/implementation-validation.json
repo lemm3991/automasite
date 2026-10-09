@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "slug": "iorc-odontologia",
+  "phase": "implemented",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "planHash": "165827169e1b6e2631b4b9ba58abb3a4349319c53f2f9fd61c24ed99f6b5084f",
+  "inputHashes": {
+    "leads/iorc-odontologia/referencias/creative-brief.md": "b0eab62b0f8de7e11b893d67e6f3dfb1508e8dc8e5418ebeb4db525f355d3c13",
+    "leads/iorc-odontologia/referencias/art-direction.json": "c80059888a8d6bfb7123a120bdb1cc073f10a76c9352a1cc8f0df7b73ae2e7a1",
+    "leads/iorc-odontologia/referencias/design-selection.json": "1184301490eb35a80b8a8800917ee7c062950f35711bdace0b584aff8e879139",
+    "leads/iorc-odontologia/visual/visual-handoff.json": "f13005aae07122d5475127cbb1e0740d0b3e1399716293a1151c6d8433f83de1",
+    "leads/iorc-odontologia/referencias/site-atual.md": "f0eaa74484a8213c823be81945bc7adce1969c7f3b2a9f5cf0522cb0c4343844",
+    "leads/iorc-odontologia/lead.json": "f304469b705ba3ef65efed24483a095bf9de625f3e76cd4470aa2ca6e368c3dc",
+    "leads/iorc-odontologia/referencias/assets-manifest.json": "ecea0752c74c001e2abd407bdc74db1be660b2a5c7d09c7bd583e2cb2fdc69eb",
+    "leads/iorc-odontologia/referencias/source-evidence.json": "d7e22f98476642271b44940ef73c6df72029714a0c89117f2b0be2432a8f0b13",
+    "leads/iorc-odontologia/referencias/source-review.json": "557eb5688e725bcfb8c3066695f499f22f08a09e3b242cf30fbe6405b31f991e",
+    "leads/iorc-odontologia/referencias/asset-review.json": "27b15f1eb2af5594b8f761d9f90b7ee43b17655b03ad63d756e9915c2bbd2945",
+    "Design System/temas_claros/white-medical/design-system.html": "f83824152d703145d65c722c76e73f21b5651266a2b73ebafefa94402da0d19a",
+    "Design System/temas_claros/parallax-clean/design-system.html": "2d2bb18d4a8051ae73716c19e1de86dad0ae12d930067695c20b895bd7198639",
+    "Design System/temas_claros/digital-architect.aura.build/design-system.html": "4088d7592cdb2b47becd5a3d8b7a772582c80500aceafcbc6fd290ac56ec3a7b"
+  },
+  "checkedAt": "2026-10-09T12:27:06.695Z",
+  "fingerprint": {
+    "heroType": "split",
+    "sectionOrder": [
+      "hero",
+      "stats",
+      "services",
+      "benefits",
+      "about",
+      "contact",
+      "cta"
+    ],
+    "imageStrategy": [
+      "hero"
+    ],
+    "gridStrategy": [
+      "1",
+      "2"
+    ],
+    "backgroundTreatment": [
+      "light",
+      "none",
+      "clinical-sterile-white"
+    ],
+    "cardTreatment": "crisp-bordered-slate-panels",
+    "typography": [
+      "Inter",
+      "Inter"
+    ],
+    "motion": "none",
+    "rhythm": "clinical-sterile-white",
+    "ctaStyle": "pill",
+    "selectedVariants": [
+      {
+        "variant": "split-showcase",
+        "file": "src/clients/components/iorc-odontologia/split-showcase.astro",
+        "sha256": "bde85bea6e239a80d1b330e3e8bc4449b823e6c7570883824f7a4561dbec0fd4"
+      },
+      {
+        "variant": "metric-bar",
+        "file": "src/clients/components/iorc-odontologia/metric-bar.astro",
+        "sha256": "a6a92532a8282b36df7c6f888f5f0ab82112b636f7cc3b9f794856683657e0dc"
+      },
+      {
+        "variant": "clinical-grid",
+        "file": "src/clients/components/iorc-odontologia/clinical-grid.astro",
+        "sha256": "494f0a565f5ab3e00b6c6e066314309a37f897908f560918ff288953de432f71"
+      },
+      {
+        "variant": "partner-badges",
+        "file": "src/clients/components/iorc-odontologia/partner-badges.astro",
+        "sha256": "f9dff95cc3e8b68e378abe1cc154893298f0ef740abd86232e4ef900c83bc49d"
+      },
+      {
+        "variant": "facility-split",
+        "file": "src/clients/components/iorc-odontologia/facility-split.astro",
+        "sha256": "24c431719d1129699765c210832ac3ee758c17aa0db7b4eb85fc6e7226d6a5e8"
+      },
+      {
+        "variant": "location-cards",
+        "file": "src/clients/components/iorc-odontologia/location-cards.astro",
+        "sha256": "f3627439ebd2b40f925facf1e22c2bc17db96f28568ea7f09509cf98184ee292"
+      },
+      {
+        "variant": "direct-contact",
+        "file": "src/clients/components/iorc-odontologia/direct-contact.astro",
+        "sha256": "0cbba0044173bd73bb0cf09a825fbf2edb035d45ddbb82545b643885f87c4161"
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "slug": "cadas-arquitetura",
+      "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+      "structuralSimilarity": 41,
+      "knownDimensions": 8,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.4444444444444444,
+        "imageStrategy": 0.3333333333333333,
+        "gridStrategy": 0.5,
+        "backgroundTreatment": 0,
+        "cardTreatment": 0,
+        "typography": 0,
+        "rhythm": null,
+        "ctaStyle": 1
+      },
+      "sharedBaseVariants": [],
+      "identicalComponentSources": 0
+    },
+    {
+      "slug": "delta-pan",
+      "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+      "structuralSimilarity": 50,
+      "knownDimensions": 8,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.5555555555555556,
+        "imageStrategy": 0.25,
+        "gridStrategy": 0.6666666666666666,
+        "backgroundTreatment": 0,
+        "cardTreatment": 0,
+        "typography": 0.5,
+        "rhythm": null,
+        "ctaStyle": 1
+      },
+      "sharedBaseVariants": [],
+      "identicalComponentSources": 0
+    },
+    {
+      "slug": "dl-cabeleireiros",
+      "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+      "structuralSimilarity": 49,
+      "knownDimensions": 8,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.42857142857142855,
+        "imageStrategy": 0.5,
+        "gridStrategy": 1,
+        "backgroundTreatment": 0.5,
+        "cardTreatment": 0,
+        "typography": 0.5,
+        "rhythm": 0,
+        "ctaStyle": null
+      },
+      "sharedBaseVariants": [],
+      "identicalComponentSources": 0
+    },
+    {
+      "slug": "juliana-pippi-arquitetura",
+      "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+      "structuralSimilarity": 48,
+      "knownDimensions": 8,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.4444444444444444,
+        "imageStrategy": 0.2,
+        "gridStrategy": 0.6666666666666666,
+        "backgroundTreatment": 0,
+        "cardTreatment": 0,
+        "typography": 0.5,
+        "rhythm": null,
+        "ctaStyle": 1
+      },
+      "sharedBaseVariants": [],
+      "identicalComponentSources": 0
+    },
+    {
+      "slug": "metalurgica-sao-jorge",
+      "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+      "structuralSimilarity": 46,
+      "knownDimensions": 8,
+      "dimensions": {
+        "heroType": 1,
+        "sectionOrder": 0.5,
+        "imageStrategy": 0.5,
+        "gridStrategy": 0.5,
+        "backgroundTreatment": 0.2,
+        "cardTreatment": 0,
+        "typography": 1,
+        "rhythm": 0,
+        "ctaStyle": null
+      },
+      "sharedBaseVariants": [],
+      "identicalComponentSources": 0
+    }
+  ],
+  "limitations": [
+    "Trechos existentes não comprovam interpretação factual; revisar sentido e imagens.",
+    "Similaridade estrutural não mede qualidade visual."
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "slug": "metalurgica-sao-jorge",
+  "client": "Metalúrgica São Jorge",
+  "inventoryTimestamp": "2026-10-05T21:20:49.849Z",
+  "totalDiscovered": 31,
+  "totalDownloaded": 31,
+  "assets": [
+    {
+      "id": "asset-1",
+      "category": "logo",
+      "filename": "01-sjorge_corte_e_dobra_de_chapas48.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2020/07/sjorge_corte_e_dobra_de_chapas48.png?fit=200%2C88&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "localRefPath": "referencias/site-baixado/assets/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "dimensions": {
+        "width": 200,
+        "height": 88
+      },
+      "format": "png",
+      "fileSizeBytes": 9976,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-2",
+      "category": "icones",
+      "filename": "02-submit-spin.svg",
+      "originalUrl": "https://metalurgicasaojorge.com.br/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/02-submit-spin.svg",
+      "localRefPath": "referencias/site-baixado/assets/02-submit-spin.svg",
+      "dimensions": {
+        "width": 30,
+        "height": 30
+      },
+      "format": "svg",
+      "fileSizeBytes": 509,
+      "altOriginal": "Carregando",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-3",
+      "category": "instalacoes",
+      "filename": "03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas93.jpg?w=1024&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "localRefPath": "referencias/site-baixado/assets/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "dimensions": {
+        "width": 1024,
+        "height": 683
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 58799,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-4",
+      "category": "hero",
+      "filename": "04-sjorge_corte_e_dobra_de_chapas44.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/08/sjorge_corte_e_dobra_de_chapas44.png?resize=1536%2C461&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/04-sjorge_corte_e_dobra_de_chapas44.png",
+      "localRefPath": "referencias/site-baixado/assets/04-sjorge_corte_e_dobra_de_chapas44.png",
+      "dimensions": {
+        "width": 1535,
+        "height": 461
+      },
+      "format": "png",
+      "fileSizeBytes": 140895,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-5",
+      "category": "produtos",
+      "filename": "05-sjorge_corte_e_dobra_de_chapas96.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas96.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/05-sjorge_corte_e_dobra_de_chapas96.png",
+      "localRefPath": "referencias/site-baixado/assets/05-sjorge_corte_e_dobra_de_chapas96.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 89837,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas0095",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-6",
+      "category": "hero",
+      "filename": "06-sjorge_corte_e_dobra_de_chapas025.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas025.png?resize=1200%2C326&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/06-sjorge_corte_e_dobra_de_chapas025.png",
+      "localRefPath": "referencias/site-baixado/assets/06-sjorge_corte_e_dobra_de_chapas025.png",
+      "dimensions": {
+        "width": 1200,
+        "height": 326
+      },
+      "format": "png",
+      "fileSizeBytes": 193030,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas025",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-7",
+      "category": "produtos",
+      "filename": "07-sjorge_corte_e_dobra_de_chapas022.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas022.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/07-sjorge_corte_e_dobra_de_chapas022.png",
+      "localRefPath": "referencias/site-baixado/assets/07-sjorge_corte_e_dobra_de_chapas022.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 112552,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas022",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-8",
+      "category": "produtos",
+      "filename": "08-sjorge_corte_e_dobra_de_chapas021.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas021.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/08-sjorge_corte_e_dobra_de_chapas021.png",
+      "localRefPath": "referencias/site-baixado/assets/08-sjorge_corte_e_dobra_de_chapas021.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 120188,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas021",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-9",
+      "category": "produtos",
+      "filename": "09-sjorge_corte_e_dobra_de_chapas019.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2025/01/sjorge_corte_e_dobra_de_chapas019.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/09-sjorge_corte_e_dobra_de_chapas019.png",
+      "localRefPath": "referencias/site-baixado/assets/09-sjorge_corte_e_dobra_de_chapas019.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 88113,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas019",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-10",
+      "category": "produtos",
+      "filename": "10-sjorge_corte_e_dobra_de_chapas020.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas020.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/10-sjorge_corte_e_dobra_de_chapas020.png",
+      "localRefPath": "referencias/site-baixado/assets/10-sjorge_corte_e_dobra_de_chapas020.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 99649,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas020",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-11",
+      "category": "produtos",
+      "filename": "11-sjorge_corte_e_dobra_de_chapas019.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas019.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/11-sjorge_corte_e_dobra_de_chapas019.png",
+      "localRefPath": "referencias/site-baixado/assets/11-sjorge_corte_e_dobra_de_chapas019.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 87877,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas019",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-12",
+      "category": "produtos",
+      "filename": "12-sjorge_corte_e_dobra_de_chapas018.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas018.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/12-sjorge_corte_e_dobra_de_chapas018.png",
+      "localRefPath": "referencias/site-baixado/assets/12-sjorge_corte_e_dobra_de_chapas018.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 137628,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas018",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-13",
+      "category": "produtos",
+      "filename": "13-sjorge_corte_e_dobra_de_chapas017.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas017.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/13-sjorge_corte_e_dobra_de_chapas017.png",
+      "localRefPath": "referencias/site-baixado/assets/13-sjorge_corte_e_dobra_de_chapas017.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 125531,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas017",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-14",
+      "category": "produtos",
+      "filename": "14-sjorge_corte_e_dobra_de_chapas016.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas016.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/14-sjorge_corte_e_dobra_de_chapas016.png",
+      "localRefPath": "referencias/site-baixado/assets/14-sjorge_corte_e_dobra_de_chapas016.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 99419,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas016",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-15",
+      "category": "produtos",
+      "filename": "15-sjorge_corte_e_dobra_de_chapas16.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas16.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/15-sjorge_corte_e_dobra_de_chapas16.png",
+      "localRefPath": "referencias/site-baixado/assets/15-sjorge_corte_e_dobra_de_chapas16.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 104333,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas015",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-16",
+      "category": "produtos",
+      "filename": "16-sjorge_corte_e_dobra_de_chapas15.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas15.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/16-sjorge_corte_e_dobra_de_chapas15.png",
+      "localRefPath": "referencias/site-baixado/assets/16-sjorge_corte_e_dobra_de_chapas15.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 120743,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas014",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-17",
+      "category": "produtos",
+      "filename": "17-sjorge_corte_e_dobra_de_chapas14.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas14.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/17-sjorge_corte_e_dobra_de_chapas14.png",
+      "localRefPath": "referencias/site-baixado/assets/17-sjorge_corte_e_dobra_de_chapas14.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 129526,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas013",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-18",
+      "category": "produtos",
+      "filename": "18-sjorge_corte_e_dobra_de_chapas13.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas13.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/18-sjorge_corte_e_dobra_de_chapas13.png",
+      "localRefPath": "referencias/site-baixado/assets/18-sjorge_corte_e_dobra_de_chapas13.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 128363,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas012",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-19",
+      "category": "produtos",
+      "filename": "19-sjorge_corte_e_dobra_de_chapas12.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas12.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/19-sjorge_corte_e_dobra_de_chapas12.png",
+      "localRefPath": "referencias/site-baixado/assets/19-sjorge_corte_e_dobra_de_chapas12.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 127376,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas011",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-20",
+      "category": "produtos",
+      "filename": "20-sjorge_corte_e_dobra_de_chapas11.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas11.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/20-sjorge_corte_e_dobra_de_chapas11.png",
+      "localRefPath": "referencias/site-baixado/assets/20-sjorge_corte_e_dobra_de_chapas11.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 112532,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas010",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-21",
+      "category": "produtos",
+      "filename": "21-sjorge_corte_e_dobra_de_chapas97.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas97.png?resize=554%2C312&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/21-sjorge_corte_e_dobra_de_chapas97.png",
+      "localRefPath": "referencias/site-baixado/assets/21-sjorge_corte_e_dobra_de_chapas97.png",
+      "dimensions": {
+        "width": 554,
+        "height": 312
+      },
+      "format": "png",
+      "fileSizeBytes": 89798,
+      "altOriginal": "sjorge_corte_e_dobra_de_chapas0096",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-22",
+      "category": "produtos",
+      "filename": "22-sjorge_corte_e_dobra_de_chapas88.jpg",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2013/07/sjorge_corte_e_dobra_de_chapas88.jpg?resize=260%2C110&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/22-sjorge_corte_e_dobra_de_chapas88.jpg",
+      "localRefPath": "referencias/site-baixado/assets/22-sjorge_corte_e_dobra_de_chapas88.jpg",
+      "dimensions": {
+        "width": 260,
+        "height": 110
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 15857,
+      "altOriginal": "chapa-de-aco-carbono-porto-alegre-rs",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-23",
+      "category": "produtos",
+      "filename": "23-sjorge_corte_e_dobra_de_chapas83.jpg",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2013/07/sjorge_corte_e_dobra_de_chapas83.jpg?resize=260%2C110&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/23-sjorge_corte_e_dobra_de_chapas83.jpg",
+      "localRefPath": "referencias/site-baixado/assets/23-sjorge_corte_e_dobra_de_chapas83.jpg",
+      "dimensions": {
+        "width": 260,
+        "height": 110
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 43663,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-24",
+      "category": "produtos",
+      "filename": "24-sjorge_corte_e_dobra_de_chapas85.jpg",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2013/07/sjorge_corte_e_dobra_de_chapas85.jpg?resize=260%2C110&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/24-sjorge_corte_e_dobra_de_chapas85.jpg",
+      "localRefPath": "referencias/site-baixado/assets/24-sjorge_corte_e_dobra_de_chapas85.jpg",
+      "dimensions": {
+        "width": 260,
+        "height": 110
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 26606,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-25",
+      "category": "icones",
+      "filename": "25-sjorge_corte_e_dobra_de_chapas024.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas024.png?resize=38%2C38&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/25-sjorge_corte_e_dobra_de_chapas024.png",
+      "localRefPath": "referencias/site-baixado/assets/25-sjorge_corte_e_dobra_de_chapas024.png",
+      "dimensions": {
+        "width": 38,
+        "height": 38
+      },
+      "format": "png",
+      "fileSizeBytes": 791,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-26",
+      "category": "icones",
+      "filename": "26-sjorge_corte_e_dobra_de_chapas023.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas023.png?resize=39%2C38&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/26-sjorge_corte_e_dobra_de_chapas023.png",
+      "localRefPath": "referencias/site-baixado/assets/26-sjorge_corte_e_dobra_de_chapas023.png",
+      "dimensions": {
+        "width": 39,
+        "height": 38
+      },
+      "format": "png",
+      "fileSizeBytes": 1124,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-27",
+      "category": "icones",
+      "filename": "27-sjorge_corte_e_dobra_de_chapas023.png",
+      "originalUrl": "https://i0.wp.com/metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas023.png?resize=40%2C40&ssl=1",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/27-sjorge_corte_e_dobra_de_chapas023.png",
+      "localRefPath": "referencias/site-baixado/assets/27-sjorge_corte_e_dobra_de_chapas023.png",
+      "dimensions": {
+        "width": 40,
+        "height": 40
+      },
+      "format": "png",
+      "fileSizeBytes": 1962,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-28",
+      "category": "icones",
+      "filename": "28-WhatsAppBrancoVermelho.png",
+      "originalUrl": "https://metalurgicasaojorge.com.br/wp-content/uploads/2025/03/WhatsAppBrancoVermelho.png",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/28-WhatsAppBrancoVermelho.png",
+      "localRefPath": "referencias/site-baixado/assets/28-WhatsAppBrancoVermelho.png",
+      "dimensions": {
+        "width": 100,
+        "height": 100
+      },
+      "format": "png",
+      "fileSizeBytes": 7247,
+      "altOriginal": "WhatsAppBrancoVermelho",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-29",
+      "category": "hero",
+      "filename": "29-sjorge_corte_e_dobra_de_chapas47.png",
+      "originalUrl": "https://metalurgicasaojorge.com.br/wp-content/uploads/2022/08/sjorge_corte_e_dobra_de_chapas47.png",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/29-sjorge_corte_e_dobra_de_chapas47.png",
+      "localRefPath": "referencias/site-baixado/assets/29-sjorge_corte_e_dobra_de_chapas47.png",
+      "dimensions": {
+        "width": 1903,
+        "height": 507
+      },
+      "format": "png",
+      "fileSizeBytes": 458231,
+      "altOriginal": "Hero Background CSS",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-30",
+      "category": "icones",
+      "filename": "30-arrow.png",
+      "originalUrl": "https://metalurgicasaojorge.com.br/wp-content/plugins/jquery-smooth-scroll/images/arrow.png",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/30-arrow.png",
+      "localRefPath": "referencias/site-baixado/assets/30-arrow.png",
+      "dimensions": {
+        "width": 35,
+        "height": 35
+      },
+      "format": "png",
+      "fileSizeBytes": 208,
+      "altOriginal": "Background CSS",
+      "downloadStatus": "SUCCESS"
+    },
+    {
+      "id": "asset-31",
+      "category": "produtos",
+      "filename": "31-sjorge_corte_e_dobra_de_chapas92.mp4",
+      "originalUrl": "https://metalurgicasaojorge.com.br/wp-content/uploads/2022/09/sjorge_corte_e_dobra_de_chapas92.mp4",
+      "localPublicPath": "/assets/clients/metalurgica-sao-jorge/31-sjorge_corte_e_dobra_de_chapas92.mp4",
+      "localRefPath": "referencias/site-baixado/assets/31-sjorge_corte_e_dobra_de_chapas92.mp4",
+      "dimensions": {
+        "width": null,
+        "height": null
+      },
+      "format": "mp4",
+      "fileSizeBytes": 2912925,
+      "altOriginal": "Video Institucional",
+      "downloadStatus": "SUCCESS"
+    }
+  ],
+  "notDownloaded": []
+}

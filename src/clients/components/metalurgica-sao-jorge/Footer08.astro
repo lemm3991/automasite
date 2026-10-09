@@ -1,0 +1,4 @@
+---
+const {content,client} = Astro.props;
+---
+<footer class="sj-footer"><div class="sj-wrap"><div class="sj-footer-top"><a href="#inicio" class="sj-logo"><img src={client.business.logo} alt={client.business.name} width="200" height="88" loading="lazy"/></a><p>Metalúrgica São Jorge.<br/>Corte e dobra tem nome.</p><a class="sj-text-link" href="#inicio">Voltar ao topo ↑</a></div><div class="sj-footer-bottom"><span>© {new Date().getFullYear()} {client.business.name} · Porto Alegre / RS</span><a href={content.privacyHref} target="_blank" rel="noopener noreferrer">Política de privacidade ↗</a></div></div></footer>

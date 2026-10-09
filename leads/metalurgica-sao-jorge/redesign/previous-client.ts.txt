@@ -1,0 +1,255 @@
+import type { ClientConfig } from '../schema';
+
+const client: ClientConfig = {
+  slug: 'metalurgica-sao-jorge',
+  status: 'published',
+  createdAt: '2026-10-06T08:55:00.000Z',
+  updatedAt: '2026-10-06T08:55:00.000Z',
+  business: {
+    name: 'Metalúrgica São Jorge',
+    legalName: 'Metalúrgica São Jorge',
+    niche: 'Corte e Dobra de Chapas de Aço',
+    city: 'Porto Alegre',
+    state: 'RS',
+    logo: '/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png',
+    address: 'Rua Senhor do Bom Fim, 720 - Bairro Sarandi, Porto Alegre - RS (CEP 91140-380)',
+    phone: '(51) 99390-1225',
+    whatsapp: '(51) 99390-1225',
+    instagram: '@metsaojorge',
+    socialLinks: {
+      facebook: 'https://facebook.com/metalsaojorge',
+      instagram: 'https://instagram.com/metsaojorge'
+    }
+  },
+  theme: {
+    primaryColor: '#111827',
+    secondaryColor: '#1f293d',
+    accentColor: '#dc2626',
+    backgroundColor: '#090d16',
+    textColor: '#f8fafc',
+    headingFont: 'Barlow',
+    bodyFont: 'Inter',
+    borderRadius: 'md',
+    mode: 'dark',
+    backgroundEffect: 'dots',
+    enableParallax: true
+  },
+  pages: [
+    {
+      path: '',
+      seo: {
+        title: 'Metalúrgica São Jorge | Corte e Dobra de Chapas em Porto Alegre - RS',
+        description: 'Mais de 50 anos de tradição em corte e dobra de chapas de aço carbono e galvanizadas. Dobra até 3m por 1/2" e calandragem até 2m por 1/4" em Porto Alegre - RS.',
+        ogImage: '/assets/clients/metalurgica-sao-jorge/04-sjorge_corte_e_dobra_de_chapas44.png'
+      },
+      sections: [
+        {
+          id: 'header-main',
+          type: 'header',
+          variant: 'Header01',
+          content: {
+            logo: '/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png',
+            navLinks: [
+              { label: 'A Indústria', href: '#empresa' },
+              { label: 'Capacidades & Serviços', href: '#servicos' },
+              { label: 'Materiais', href: '#materiais' },
+              { label: 'Portfólio', href: '#portfolio' },
+              { label: 'Localização', href: '#localizacao' }
+            ],
+            ctaLabel: 'Cotação no WhatsApp'
+          }
+        },
+        {
+          id: 'hero-main',
+          type: 'hero',
+          variant: 'Hero07',
+          content: {
+            badge: '50+ Anos de Excelência Industrial • Porto Alegre - RS',
+            headline: 'Corte e Dobra de Chapas de Aço Carbono e Galvanizadas com Rigor Técnico.',
+            subheadline: 'Especialistas em conformação mecânica pesada. Capacidade de dobra de até 3m de comprimento por 1/2" de espessura e calandragem até 2m por 1/4", além de recorte a plasma e lambris sob medida.',
+            primaryCtaLabel: 'Solicitar Cotação no WhatsApp',
+            primaryCtaHref: 'https://api.whatsapp.com/send?phone=5551993901225',
+            secondaryCtaLabel: 'Ver Capacidades de Maquinário',
+            secondaryCtaHref: '#servicos',
+            featuredImage: '/assets/clients/metalurgica-sao-jorge/04-sjorge_corte_e_dobra_de_chapas44.png',
+            trustMetric: {
+              number: '3m x 1/2"',
+              text: 'Capacidade Máxima de Dobra Mecânica de Chapas Pesadas'
+            }
+          }
+        },
+        {
+          id: 'empresa',
+          type: 'about',
+          variant: 'About01',
+          content: {
+            badge: 'Parque Fabril em Porto Alegre - RS',
+            title: 'Mais de meio século de tradição, rigor técnico e confiabilidade no fornecimento de aço.',
+            description: 'A Metalúrgica São Jorge possui mais de 50 anos de experiência em corte e dobra de chapas de aço carbono e galvanizadas em Porto Alegre e em todo o Rio Grande do Sul. Nossa sede no bairro Sarandi alia equipe experiente a maquinário de porte para atender com pontualidade indústrias, caldeirarias e serralherias.',
+            highlights: [
+              { number: '50+ Anos', label: 'História e Tradição Industrial no RS' },
+              { number: 'Sarandi', label: 'Sede Fabril em Porto Alegre - RS' },
+              { number: '3m x 1/2"', label: 'Capacidade Máxima de Dobra de Chapas' }
+            ],
+            whyChoose: [
+              'Maquinário robusto para corte e dobra de até 3 metros de comprimento e 1/2 polegada de espessura.',
+              'Calandragem precisa com capacidade de até 2 metros de comprimento e 1/4 de polegada de espessura.',
+              'Recorte a plasma de alta precisão e lambris metálicos sob medida para projetos personalizados.',
+              'Atendimento direto com especialistas técnicos que compreendem o desenho e a necessidade da sua obra.'
+            ]
+          }
+        },
+        {
+          id: 'servicos',
+          type: 'services',
+          variant: 'Services01',
+          content: {
+            badge: 'Capacidades de Conformação Mecânica',
+            title: 'Serviços Industriais de Corte, Dobra e Calandragem',
+            subtitle: 'Maquinário pesado pronto para transformar chapas brutas em componentes com tolerâncias e ângulos rigorosos.',
+            services: [
+              {
+                title: 'Corte e Dobra de Chapas',
+                description: 'Dobra de chapas pesadas com capacidade de até 3 metros de comprimento por 1/2 polegada de espessura em perfis variados.',
+                icon: '⚡'
+              },
+              {
+                title: 'Calandragem de Chapas',
+                description: 'Conformação circular e curvatura de chapas com até 2 metros de comprimento por 1/4 de polegada de espessura.',
+                icon: '⚙️'
+              },
+              {
+                title: 'Recorte a Plasma',
+                description: 'Cortes especiais em chapas de aço com precisão geométrica para componentes sob medida e peças técnicas.',
+                icon: '🔥'
+              },
+              {
+                title: 'Lambris sob Medida',
+                description: 'Produção de lambris metálicos frisados e perfilados para portões, fechamentos e estruturas industriais.',
+                icon: '📐'
+              }
+            ]
+          }
+        },
+        {
+          id: 'materiais',
+          type: 'benefits',
+          variant: 'Features02',
+          content: {
+            badge: 'Restrições Comerciais & Matérias-Primas',
+            title: 'Aço Carbono, Galvanizado e Chapas Xadrez',
+            subtitle: 'Transparência total: fornecemos matérias-primas rigorosamente selecionadas para conformação pesada.',
+            items: [
+              {
+                tag: 'FOCO COMERCIAL',
+                title: 'Vendas Exclusivas de Aço Carbono e Galvanizado',
+                description: 'Política comercial clara e preservada: nossa operação foca estritamente em chapas de Aço Carbono e Chapas Galvanizadas de alta resistência estrutural.'
+              },
+              {
+                tag: 'CHAPAS XADREZ',
+                title: 'Pisos Industriais Antiderrapantes',
+                description: 'Fornecimento e dobra de chapas xadrez com estampagem antiderrapante para plataformas, escadas e passarelas de segurança.'
+              },
+              {
+                tag: 'ESPESSURAS SOB MEDIDA',
+                title: 'Até 1/2 Polegada de Espessura',
+                description: 'Trabalhamos desde bitolas finas até chapas grossas de meia polegada, com controle rigoroso de curvatura e raio de dobra.'
+              },
+              {
+                tag: 'LOGÍSTICA RS',
+                title: 'Atendimento Porto Alegre e Todo o RS',
+                description: 'Prontidão de carregamento na sede em Sarandi com distribuição e expedição para todas as regiões do Rio Grande do Sul.'
+              }
+            ]
+          }
+        },
+        {
+          id: 'portfolio',
+          type: 'projects',
+          variant: 'Showcase01',
+          content: {
+            badge: 'Acervo Real de Produção',
+            title: 'Peças e Perfis Conformados na Indústria',
+            subtitle: 'Exemplos reais de cortes, dobras, chanfros e peças conformadas no parque fabril da São Jorge.',
+            items: [
+              {
+                title: 'Perfis Estruturais em Aço Carbono',
+                category: 'Corte e Dobra Pesada',
+                image: '/assets/clients/metalurgica-sao-jorge/05-sjorge_corte_e_dobra_de_chapas96.png',
+                description: 'Dobra de perfis em U e enrijecidos com precisão angular para estrutura metálica.'
+              },
+              {
+                title: 'Chapas Conformadas com Furação',
+                category: 'Corte e Furação de Chapas',
+                image: '/assets/clients/metalurgica-sao-jorge/07-sjorge_corte_e_dobra_de_chapas022.png',
+                description: 'Corte e conformação com tolerâncias estreitas para encaixe direto em montagem industrial.'
+              },
+              {
+                title: 'Calandragem e Curvatura Especial',
+                category: 'Calandragem',
+                image: '/assets/clients/metalurgica-sao-jorge/08-sjorge_corte_e_dobra_de_chapas021.png',
+                description: 'Curvatura de alta simetria com capacidade de até 2 metros de comprimento.'
+              },
+              {
+                title: 'Recortes Técnicos a Plasma',
+                category: 'Corte a Plasma',
+                image: '/assets/clients/metalurgica-sao-jorge/09-sjorge_corte_e_dobra_de_chapas019.png',
+                description: 'Geometrias complexas e recortes industriais para maquinários e caldeirarias.'
+              },
+              {
+                title: 'Lambris e Painéis Frisados',
+                category: 'Lambris sob Medida',
+                image: '/assets/clients/metalurgica-sao-jorge/10-sjorge_corte_e_dobra_de_chapas020.png',
+                description: 'Perfis repetitivos para fechamento de alta rigidez e durabilidade estética.'
+              },
+              {
+                title: 'Chapas Xadrez e Peças para Pisos',
+                category: 'Aço Carbono / Xadrez',
+                image: '/assets/clients/metalurgica-sao-jorge/12-sjorge_corte_e_dobra_de_chapas018.png',
+                description: 'Conformação de degraus e plataformas antiderrapantes com cantos reforçados.'
+              }
+            ]
+          }
+        },
+        {
+          id: 'contato',
+          type: 'contact',
+          variant: 'Contact01',
+          content: {
+            badge: 'Atendimento Técnico B2B',
+            title: 'Fale Diretamente com a Equipe Técnica da São Jorge',
+            formTitle: 'Solicitar Cotação de Corte e Dobra',
+            formSubtitle: 'Informe tipo de chapa (aço carbono ou galvanizada), espessura e medidas para retorno direto da nossa fábrica.'
+          }
+        },
+        {
+          id: 'cta-final',
+          type: 'cta',
+          variant: 'CTA04',
+          content: {
+            badge: 'Orçamento Imediato',
+            headline: 'Precisa de peças cortadas e dobradas com rapidez e sem retrabalho?',
+            subheadline: 'Fale agora com nosso time pelo WhatsApp ou visite nossa fábrica no bairro Sarandi em Porto Alegre.',
+            primaryCtaLabel: 'Chamar no WhatsApp (51) 99390-1225',
+            primaryCtaHref: 'https://api.whatsapp.com/send?phone=5551993901225',
+            statsHighlight: {
+              value: '(51) 99390-1225',
+              label: 'Atendimento de Segunda a Sexta: 8h-12h e 13h-17h'
+            }
+          }
+        },
+        {
+          id: 'footer-main',
+          type: 'footer',
+          variant: 'Footer08',
+          content: {
+            logo: '/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png',
+            disclaimer: 'Metalúrgica São Jorge • Tradição em corte e dobra de chapas de aço carbono e galvanizadas em Porto Alegre e todo o RS. Rua Senhor do Bom Fim, 720 - Sarandi, Porto Alegre - RS. Horário: 8h às 12h e 13h às 17h (segunda a sexta).'
+          }
+        }
+      ]
+    }
+  ]
+};
+
+export default client;

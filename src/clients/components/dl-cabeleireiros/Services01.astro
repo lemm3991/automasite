@@ -1,0 +1,7 @@
+---
+const { content } = Astro.props;
+---
+<section id="servicos" class="dl-services dl-wrap">
+  <div class="dl-section-heading"><div><p class="dl-eyebrow"><span aria-hidden="true" class="dl-line"></span> Nossos serviços</p><h2>{content.title}</h2></div><p>Encontre o cuidado que combina<br class="dl-desktop-only" /> com o seu momento.</p></div>
+  <div class="dl-service-menu">{content.services.map((service, index) => <details class="dl-service"><summary><span class="dl-index" aria-hidden="true">{String(index+1).padStart(2,'0')}</span><h3>{service.title}</h3><span class="dl-service-plus" aria-hidden="true">+</span></summary><p>{service.description}</p><a href="#unidades" class="dl-text-link">Consultar na sua unidade ↗</a></details>)}</div>
+</section>

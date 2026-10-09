@@ -1,0 +1,982 @@
+{
+  "priority": [
+    "logo",
+    "observed-css-usage",
+    "asset",
+    "explicit-visual-inference"
+  ],
+  "colors": [
+    {
+      "value": "#fcfbfb",
+      "source": "logo",
+      "path": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "sha256": "cad59aedefb37921aae6bb1b2e2e720b3ff7b79b4229b2574c06a8215d7a534a",
+      "pixels": 441,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#fafafa",
+      "source": "logo",
+      "path": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "sha256": "cad59aedefb37921aae6bb1b2e2e720b3ff7b79b4229b2574c06a8215d7a534a",
+      "pixels": 417,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#fcfcfb",
+      "source": "logo",
+      "path": "/assets/clients/salete-cabeleireira/01-salao-de-beleza-salete-cabeleireira-logo.png",
+      "sha256": "cad59aedefb37921aae6bb1b2e2e720b3ff7b79b4229b2574c06a8215d7a534a",
+      "pixels": 393,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#676570",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 21,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#616068",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 20,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#686671",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 20,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e0c0d0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 43,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e0d0c0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 40,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#d0a090",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 34,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#f0d0e0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 31,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b0a090",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/02-salao-de-beleza-salete-cabeleireira-5.jpg",
+      "sha256": "1fef0a61c9b71aeed63cd41b76909fa16c963f1dda946a6ea67b4954c7391a49",
+      "pixels": 30,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 522,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#fefefe",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 60,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#fefefc",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 44,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#807060",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 57,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a03060",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 41,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c0b0a0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 41,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a09080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 39,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a04070",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/03-salao-de-beleza-salete-cabeleireira-4.jpg",
+      "sha256": "d525f8513c59e1e9af735375f886deddb90323341a9b80a5e18297967e9efd1e",
+      "pixels": 38,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 75,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e6e6e6",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 23,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ebece7",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 18,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c0c0a0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 10,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#f0e0d0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 10,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b0d0b0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 10,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b0c0d0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 10,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e0e0c0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/04-salao-de-beleza-salete-cabeleireira-2.jpg",
+      "sha256": "64fb8c8eab435e14ed97c70d580ac844a6cd26bd5456a051465051f71d54740e",
+      "pixels": 8,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ffffff",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 626,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#fefefe",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 130,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#fafafa",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 43,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#f0e0d0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 9,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e0d0c0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 8,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#607080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 3,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#405060",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 3,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#fff0e0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/05-salao-de-beleza-salete-cabeleireira-1.jpg",
+      "sha256": "3373fd9eb73cfb422db03ba014ed5af7a0e5ad1db3555507ca2654a181bda82d",
+      "pixels": 2,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#cacaca",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 25,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c9c9c9",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 24,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#d7d7d5",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 18,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#608070",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 7,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#709080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 7,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#d0c0b0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 6,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#e0c0b0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 6,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#90b0a0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/06-salao-de-beleza-salete-cabeleireira-3.jpg",
+      "sha256": "36bc3092b48eb077e2674460c389808d452dff3b9d89c9caa715b40403f7c059",
+      "pixels": 5,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 11,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#121116",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 11,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#111016",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 10,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a09080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 12,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#908070",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 6,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#608080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 5,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#806060",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 4,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#606080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/07-salao-de-beleza-salete-cabeleireira-6.jpg",
+      "sha256": "7eae5fbc86eccef1d641c05fd141ac406d1c9bf07aba202293c4c376fc0870b2",
+      "pixels": 4,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#010204",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 2202,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#020305",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 384,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#000000",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 140,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#b0b090",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 35,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#c0c0a0",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 23,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#404020",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 20,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#303010",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 20,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#a0a080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/16-salao-de-beleza-salete-cabeleireira-kerastase-homme.jpg",
+      "sha256": "162d38b98802a60404b1b8ff31fb4459a947e7da3b6053414b7589153cc5b2ce",
+      "pixels": 14,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#007848",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 127,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#007447",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 63,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#017246",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 52,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#008050",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 847,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#00a060",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 497,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#009050",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 386,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#50b080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 357,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#007040",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/17-salao-de-beleza-salete-cabeleireira-kerastase-resistance.jpg",
+      "sha256": "2f8a0b1da599902d19a0391db7ca358c882d1c3728d51bc0cbe9da9166701ef2",
+      "pixels": 309,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#830a33",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 818,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#060000",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 102,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#820b33",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 75,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#801030",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 1412,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#701030",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 294,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#601030",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 289,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#801040",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 208,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#401020",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/18-salao-de-beleza-salete-cabeleireira-kerastase-reflection.jpg",
+      "sha256": "8fbb15e3028b3a99f5838f9c6b23045329cb504329e60f207018f646c478b24f",
+      "pixels": 166,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#7cb37c",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 104,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#7db47d",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 65,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#7ab37c",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 52,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#80b080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 640,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#002000",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 205,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#70b070",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 195,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#103010",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 172,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#90c090",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/19-salao-de-beleza-salete-cabeleireira-natura-ekos.jpg",
+      "sha256": "8b31f6d6f9cc13497a1efd8f17585101b7d0e8a29c47428b3792ff891323b1de",
+      "pixels": 155,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ededed",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 2536,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ececec",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 34,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#ecebeb",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 30,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#803050",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 186,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#802050",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 138,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#602040",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 134,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#502030",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 126,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#903050",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/20-salao-de-beleza-salete-cabeleireira-wella-professionals.jpg",
+      "sha256": "89201109b7b31c998b05521e096c8bb54ea85a72dbf1abf1080a6f9b0b78c032",
+      "pixels": 114,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#020001",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 35,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#090909",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 23,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#0a0a0a",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 20,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#200010",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 390,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#300010",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 162,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#400020",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 115,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#301020",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 112,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#300020",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/21-salao-de-beleza-salete-cabeleireira-loreal-elseve.jpg",
+      "sha256": "5fe14c080714ab89e303ddaf823168303cf7c3e9455ad41405a6b367eed5e86e",
+      "pixels": 73,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#cccccc",
+      "source": "logo",
+      "path": "/assets/clients/salete-cabeleireira/27-salao-de-beleza-salete-cabeleireira-logo_footer.png",
+      "sha256": "14f34d52d3e1838aabfb974178926d0d97dd60945223d8747e5de579af61310e",
+      "pixels": 242,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#1a151c",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 107,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#140f15",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 74,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#1c171e",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 73,
+      "method": "exact-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#706080",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 42,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#605070",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 40,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#504060",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 34,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#806070",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 33,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    },
+    {
+      "value": "#807090",
+      "source": "asset",
+      "path": "/assets/clients/salete-cabeleireira/28-salao-de-beleza-salete-cabeleireira-bg_top2.jpg",
+      "sha256": "b97111e31bfa53216ac0f22033cb87455a32e16680b3adfaba9f71536dda179c",
+      "pixels": 32,
+      "method": "quantized-pixel-sample",
+      "status": "candidate"
+    }
+  ]
+}

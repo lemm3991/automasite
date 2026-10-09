@@ -1,0 +1,12 @@
+// Serialized into the isolated capture tab. Measurements are not aesthetic scores.
+function inspectPage(plan) {
+ const selectorFor=e=>{if(e.id)return '#'+CSS.escape(e.id);const parts=[];while(e&&e.nodeType===1){const siblings=[...(e.parentElement?.children||[])].filter(s=>s.tagName===e.tagName);parts.unshift(e.tagName.toLowerCase()+':nth-of-type('+(siblings.indexOf(e)+1)+')');e=e.parentElement;}return parts.join(' > ');};
+ const measure=(selector,expectedStyles={})=>{let e;try{e=document.querySelector(selector);}catch{return {selector,error:'invalid-selector',exists:false,inFirstFold:false};}if(!e)return {selector,exists:false,inFirstFold:false};const r=e.getBoundingClientRect(),s=getComputedStyle(e),intersection=Math.max(0,Math.min(r.right,innerWidth)-Math.max(0,r.left))*Math.max(0,Math.min(r.bottom,innerHeight)-Math.max(0,r.top));let shown=true,p=e;while(p){const style=getComputedStyle(p);if(style.display==='none'||style.visibility==='hidden'||Number(style.opacity)===0)shown=false;p=p.parentElement;}return {selector,exists:true,text:e.textContent.trim().replace(/\s+/g,' '),rect:{x:r.x,y:r.y,width:r.width,height:r.height},rendered:shown&&r.width>0&&r.height>0,inFirstFold:shown&&intersection>0,visibleRatio:shown&&r.width*r.height?intersection/(r.width*r.height):0,display:s.display,gridTemplateColumns:s.gridTemplateColumns,children:e.children.length,src:e.getAttribute('src'),styles:{color:s.color,backgroundColor:s.backgroundColor,fontFamily:s.fontFamily,letterSpacing:s.letterSpacing,...Object.fromEntries(Object.keys(expectedStyles).map(k=>[k,s[k]||s.getPropertyValue(k)]))}};};
+ const firstFold=Object.fromEntries(Object.entries(plan.hero?.selectors||{}).map(([key,s])=>[key,measure(s)]));
+ const referenceChecks=(plan.implementationEvidence||[]).filter(e=>e.renderCheck).map(e=>({referenceId:e.referenceId,sectionId:e.sectionId,...measure(e.renderCheck.selector,e.renderCheck.styles)}));
+ const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT),texts=[];let n;
+ while(n=walker.nextNode()){const e=n.parentElement,text=n.textContent.trim().replace(/\s+/g,' ');if(!text||!e||['SCRIPT','STYLE','NOSCRIPT'].includes(e.tagName)||e.closest('svg'))continue;const selector=selectorFor(e);texts.push({selector,text});}
+ const images=[...document.images].map(e=>({selector:selectorFor(e),src:e.getAttribute('src'),alt:e.getAttribute('alt')||'',caption:e.closest('figure')?.querySelector('figcaption')?.textContent.trim()||null}));
+ return {firstFold,referenceChecks,texts,images};
+}
+module.exports={inspectPage};

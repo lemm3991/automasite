@@ -1,0 +1,764 @@
+{
+  "schemaVersion": 3,
+  "auditContractVersion": 2,
+  "slug": "brotto-campelo",
+  "status": "approved",
+  "verdict": "READY_FOR_DEMO",
+  "method": "image-inspection",
+  "reviewedBy": "codex-independent-brotto-review",
+  "reviewedAt": "2026-10-09T19:55:02.485Z",
+  "independence": {
+    "builder": "codex-brotto-controlled-builder",
+    "reviewer": "codex-independent-brotto-review",
+    "role": "Auditoria externa independente Codex; não é execução Gemini do pipeline.",
+    "modelsConfigurationChanged": false
+  },
+  "screenshotHashes": {
+    "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+    "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+    "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+    "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+    "leads/brotto-campelo/screenshots/site-desktop.png": "366a2d39b93a1d1e6f175725c24e7ef3458a08ef042efdcd6ba510b697cad76f",
+    "leads/brotto-campelo/screenshots/site-mobile.png": "3f3d47aa8712d36be926a1bdd625d8c544f05bfe95cceaf6c94f6f50528df6a5",
+    "leads/brotto-campelo/screenshots/site-desktop-full.png": "db9b4ae4daf94787404e36c9576d05d0d91e4d4349e85386821b6a96281e8b18",
+    "leads/brotto-campelo/screenshots/site-mobile-full.png": "0d251294eee0d3e8c1db3c16bdb3489f6d56eed78331a3754029a48f4e9b265f",
+    "leads/iorc-odontologia/redesign/screenshots/home-desktop.png": "9f4551f1d6926eb301ef5ac366aee69fb64279ff19a21a5d054dfcdb5be4cc64",
+    "leads/iorc-odontologia/redesign/screenshots/home-mobile.png": "9e5333bcb661f930add03fe891de13086471b68e8306a7698af7376986f5f9b2",
+    "leads/iorc-odontologia/redesign/screenshots/home-desktop-full.png": "f294a5a45e40cf2557a2afb89db71df1764fb6ae02d591fd14dd410a9dbd3ce0",
+    "leads/iorc-odontologia/redesign/screenshots/home-mobile-full.png": "3a22eaab1efde710df4294c258e80cfc9eb8a028d546276401e280473456d4a8",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png": "22bf3a4fc45411c371a57665e27095ad32399b23076fc659c8020eca593a9a1e",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png": "cfb79369889f008ed46852a79a5f7f97f17ba72f15ba2747ef5723e65ce123cd",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png": "76712beec7a30044da79fe812d9ca8062e30ddb3725ab1528425a686a749dfec",
+    "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png": "b5d8c7b23abb2065273bd76e1379cc0ffcf1a196c31e58743417939b0a27ecc6",
+    "leads/delta-pan/redesign/screenshots/home-desktop.png": "7a1bc6b79ca2a72dab38033312daad5b8f42d2d98076d76fe833ac48ef7f8eed",
+    "leads/delta-pan/redesign/screenshots/home-mobile.png": "e7c378cea690fd24bda5c3b4f71e5034c473d05f69b84c37895284e48b396077",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png": "4947f520c1cb373666cfe9ffab3016468401de99d8ade16aa09679e66088cc18",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png": "a2ef4e5f6c85e9046f6327671c943d6e2b55728a6fde861010ad6d338612e570",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png": "12894338af2f52af358cb15c269a4eae987b5a6c07e0a1d788a63cf7587bb663",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png": "087cb9aa5fcd7cdd595c070c265075e3ec4cda16216a42863f0ad84ebad7f453"
+  },
+  "technicalEvidence": {
+    "renderSha256": "f0802e08ba40cbfeeb939cb14ee4b05103fbafb31e63769d80cd2fd85f33b8d9",
+    "finding": "Build registrado com saída zero; render HTTP 200, uma h1, sem imagens quebradas, âncoras ausentes, overflow ou erros de runtime nas duas larguras inspecionadas."
+  },
+  "factualEvidence": {
+    "sha256": "1674b01f432ccad202383612320c91f395fb414fc095755ca44306a210b1eac7"
+  },
+  "observations": [
+    {
+      "criterion": "hero",
+      "finding": "Retrato dos sócios, título legível e CTA em contraste aparecem integralmente na primeira dobra desktop e mobile; o recorte mobile preserva os rostos e prioriza contato antes da rolagem.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png"
+      ]
+    },
+    {
+      "criterion": "identity",
+      "finding": "Logo real laranja e frisos da mesma família cromática fazem a marca se reconhecer; papel quente e grafite são neutros editoriais, não apresentados como cores oficiais.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "leads/brotto-campelo/screenshots/site-desktop.png"
+      ]
+    },
+    {
+      "criterion": "composition",
+      "finding": "Abertura em split, faixa compacta de selos, diretório aberto, três princípios no grafite e sede criam variação de densidade e hierarquia; não há repetição de caixas aninhadas.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "imagery",
+      "finding": "Retrato autêntico dos sócios e fotografia arquitetônica da sede estão preservados com legendas externas coerentes. Selos 2026/2025/2024 correspondem às legendas inspecionadas.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "legibility",
+      "finding": "Título e ações são claros nos dois viewports e nomes longos das áreas quebram sem overflow; legendas de 10–11px permanecem uma limitação de conforto no mobile.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "personalization",
+      "finding": "Pessoas reais, logotipo, laranja, reconhecimentos e ênfase imobiliária/registral identificam Brotto Campelo. A estrutura editorial se aproxima de D&L e isso limita a singularidade formal.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png"
+      ]
+    },
+    {
+      "criterion": "artDirection",
+      "finding": "A direção boutique jurídica aparece em retrato e hierarquia serifada sóbria. Architecture contribui parcialmente à faixa; AI SaaS apenas superficialmente pela fonte; Luxury não se materializa.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "factualContent",
+      "finding": "Os 61 itens de texto deduplicados foram avaliados semanticamente contra fatos e assets, incluindo capacidades institucionais, 12 serviços, anos das premiações, founders e contatos. Não há alegação sem resolução no inventário atual.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+      ]
+    }
+  ],
+  "visualAnalysis": {
+    "inspections": [
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "sha256": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+        "finding": "Abertura equilibrada com pessoas reais e mensagem sem sobreposição sobre a foto.",
+        "regions": [
+          {
+            "x": 73,
+            "y": 15,
+            "width": 1290,
+            "height": 60,
+            "description": "Cabeçalho branco: logo laranja à esquerda e três links textuais à direita."
+          },
+          {
+            "x": 105,
+            "y": 180,
+            "width": 610,
+            "height": 360,
+            "description": "Título serifado em duas linhas, apoio curto e botão grafite com friso laranja."
+          },
+          {
+            "x": 772,
+            "y": 130,
+            "width": 550,
+            "height": 580,
+            "description": "Retrato amplo dos dois sócios, linha lateral laranja e legenda externa."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "sha256": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+        "finding": "Foto e CTA integralmente na primeira dobra mobile, sem colisão com o botão flutuante.",
+        "regions": [
+          {
+            "x": 18,
+            "y": 14,
+            "width": 355,
+            "height": 200,
+            "description": "Logo e contato no cabeçalho; assinatura laranja e título serifado legível em duas linhas."
+          },
+          {
+            "x": 20,
+            "y": 233,
+            "width": 350,
+            "height": 304,
+            "description": "Retrato antes da mensagem de apoio, os dois rostos inteiros e legenda externa pequena."
+          },
+          {
+            "x": 20,
+            "y": 552,
+            "width": 350,
+            "height": 162,
+            "description": "Apoio curto, CTA de largura total e link para as áreas, todos dentro de 844px."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "sha256": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+        "finding": "Alternância de retrato, faixa curta, diretório e área escura cria um ritmo claro; página mais curta que o original.",
+        "regions": [
+          {
+            "x": 105,
+            "y": 770,
+            "width": 1215,
+            "height": 260,
+            "description": "Faixa compacta de reconhecimentos: histórico à esquerda e três selos sem caixas aninhadas à direita."
+          },
+          {
+            "x": 105,
+            "y": 1060,
+            "width": 1215,
+            "height": 750,
+            "description": "Diretório de áreas em duas colunas: destaque imobiliário/registral seguido de oito outras áreas."
+          },
+          {
+            "x": 105,
+            "y": 1850,
+            "width": 1215,
+            "height": 480,
+            "description": "Pilares em três colunas abertas sobre fundo grafite, com divisórias superiores."
+          },
+          {
+            "x": 105,
+            "y": 2370,
+            "width": 1215,
+            "height": 710,
+            "description": "Foto arquitetônica monocromática, endereço, contato discreto e rodapé simples."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png",
+        "sha256": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+        "finding": "Sequência mobile legível; pequenos textos auxiliares dos selos e legendas são o limite de conforto.",
+        "regions": [
+          {
+            "x": 20,
+            "y": 760,
+            "width": 350,
+            "height": 435,
+            "description": "Reconhecimentos empilhados; três selos na mesma linha com legendas de tamanho pequeno."
+          },
+          {
+            "x": 20,
+            "y": 1260,
+            "width": 350,
+            "height": 980,
+            "description": "Diretório mobile em coluna única; nomes longos quebram sem sair da largura disponível."
+          },
+          {
+            "x": 20,
+            "y": 2320,
+            "width": 350,
+            "height": 660,
+            "description": "Pilares empilhados com bom contraste e separação por linhas."
+          },
+          {
+            "x": 20,
+            "y": 3060,
+            "width": 350,
+            "height": 820,
+            "description": "Imagem da sede, endereço e contato final; leitura linear sem cards aninhados."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/screenshots/site-desktop.png",
+        "sha256": "366a2d39b93a1d1e6f175725c24e7ef3458a08ef042efdcd6ba510b697cad76f",
+        "finding": "Original tem assinatura laranja, hierarquia sans e fachada em fundo escuro.",
+        "regions": [
+          {
+            "x": 70,
+            "y": 10,
+            "width": 1140,
+            "height": 66,
+            "description": "Menu amplo com Profissionais, Blog, Materiais e simulador em botão arredondado."
+          },
+          {
+            "x": 120,
+            "y": 430,
+            "width": 1090,
+            "height": 165,
+            "description": "Mensagem branca sobre vídeo/fachada bastante escurecida e sem CTA principal nessa região."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/screenshots/site-mobile.png",
+        "sha256": "3f3d47aa8712d36be926a1bdd625d8c544f05bfe95cceaf6c94f6f50528df6a5",
+        "finding": "Captura isolada está deslocada no scroll; não foi usada como topo real do mobile.",
+        "regions": [
+          {
+            "x": 20,
+            "y": 135,
+            "width": 345,
+            "height": 82,
+            "description": "Bloco de logo branco em fundo laranja após o final do hero."
+          },
+          {
+            "x": 20,
+            "y": 246,
+            "width": 348,
+            "height": 430,
+            "description": "Texto institucional longo no trecho intermediário da página."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/screenshots/site-desktop-full.png",
+        "sha256": "db9b4ae4daf94787404e36c9576d05d0d91e4d4349e85386821b6a96281e8b18",
+        "finding": "Original possui conteúdo rico, mas o retrato dos sócios só aparece bem abaixo na sequência.",
+        "regions": [
+          {
+            "x": 90,
+            "y": 1190,
+            "width": 1080,
+            "height": 480,
+            "description": "Reconhecimentos originais com vários selos e texto nacional/regional."
+          },
+          {
+            "x": 90,
+            "y": 1850,
+            "width": 1080,
+            "height": 1250,
+            "description": "Áreas em quadro branco; equipe circular e pilares em cards brancos sobre cinza."
+          },
+          {
+            "x": 90,
+            "y": 4430,
+            "width": 1080,
+            "height": 900,
+            "description": "Blog com seis imagens e rodapé de contatos; cobertura de conteúdo maior que a demonstração."
+          }
+        ]
+      },
+      {
+        "path": "leads/brotto-campelo/screenshots/site-mobile-full.png",
+        "sha256": "0d251294eee0d3e8c1db3c16bdb3489f6d56eed78331a3754029a48f4e9b265f",
+        "finding": "Topo da captura completa foi usado para comparar o hero original; captura isolada deslocada documentada.",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 525,
+            "description": "Topo real mobile conferido com crop em memória: logo, menu, simulador e hero sobre fachada."
+          },
+          {
+            "x": 0,
+            "y": 525,
+            "width": 390,
+            "height": 900,
+            "description": "Bloco de marca laranja, texto institucional extenso e início dos reconhecimentos."
+          },
+          {
+            "x": 0,
+            "y": 8500,
+            "width": 390,
+            "height": 905,
+            "description": "Fim da sequência de artigos e rodapé de contatos do original."
+          }
+        ]
+      }
+    ],
+    "viewports": [
+      {
+        "viewport": "desktop",
+        "finding": "Logo, mensagem, identidade, retrato e CTA aparecem integralmente no viewport 1440×900. O retrato equilibra o bloco textual sem badges sobrepostos.",
+        "firstFold": {
+          "logo": {
+            "inFirstFold": true,
+            "finding": "Marca laranja no cabeçalho, 200×40px, visível integralmente."
+          },
+          "message": {
+            "inFirstFold": true,
+            "finding": "Título em y224–364, com duas linhas e contraste grafite sobre papel claro."
+          },
+          "cta": {
+            "inFirstFold": true,
+            "finding": "Botão principal em y475–531, com fundo grafite e friso laranja; link secundário ao lado."
+          },
+          "identity": {
+            "inFirstFold": true,
+            "finding": "Nome do escritório em caixa alta acima do título, linha laranja e logo coerentes."
+          },
+          "photo": {
+            "inFirstFold": true,
+            "finding": "Retrato em y135–675 e largura aproximada de 520px; os dois rostos e boa parte dos corpos ficam visíveis."
+          }
+        }
+      },
+      {
+        "viewport": "mobile",
+        "finding": "A sequência título → foto → apoio → CTA permite ver as cinco funções em 390×844. A legenda fica fora da imagem, mas tem corpo pequeno.",
+        "firstFold": {
+          "logo": {
+            "inFirstFold": true,
+            "finding": "Marca de 172×34px no topo, sem aperto com o link Fale conosco."
+          },
+          "message": {
+            "inFirstFold": true,
+            "finding": "Título em y121–211, com duas linhas, sem cortes laterais."
+          },
+          "cta": {
+            "inFirstFold": true,
+            "finding": "Botão de 350×50,5px em y619–669; contato visível antes de rolar."
+          },
+          "identity": {
+            "inFirstFold": true,
+            "finding": "Assinatura laranja em y92; marca e friso do retrato reforçam a identidade real."
+          },
+          "photo": {
+            "inFirstFold": true,
+            "finding": "Foto de 338×278px em y234–512, ambos os rostos inteiros; recorte sacrifica o corpo inferior para caber com CTA."
+          }
+        }
+      }
+    ],
+    "references": [
+      {
+        "referenceId": "luxury-real-estate-22.aura.build",
+        "classification": "NOT_MATERIALIZED",
+        "benefit": "Não há benefício visual que possa ser atribuído de forma defensável a esta referência na composição final.",
+        "limitations": "O HTML consultado usa hero fotográfico de tela inteira com busca em vidro, navegação centralizada e rail de imóveis. Esses padrões não aparecem. Scroll suave é comportamento genérico e não sustenta materialização."
+      },
+      {
+        "referenceId": "architecture-studio.aura.build",
+        "sectionId": "awards",
+        "classification": "PARTIAL",
+        "benefit": "A faixa de selos usa contenção linear para organizar credenciais sem caixas pesadas; a divisória separa texto e imagens no desktop e vira linha horizontal no mobile. Há correspondência parcial com os alinhamentos e faixas de marcas do HTML de referência.",
+        "limitations": "A adaptação é restrita à faixa: não reproduz o sistema de linhas verticais do canvas, as escalas editoriais extremas ou os enquadramentos de projetos. Borda e grid são recursos comuns; não constituem uma influência forte nem provam originalidade.",
+        "patterns": [
+          {
+            "kind": "framing",
+            "finding": "Divisória e alinhamento horizontal transformam os três selos reais em uma faixa compacta de credibilidade.",
+            "evidencePaths": [
+              "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+              "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+            ]
+          }
+        ]
+      },
+      {
+        "referenceId": "ai-saas-landing-27.aura.build",
+        "sectionId": "hero",
+        "classification": "SUPERFICIAL",
+        "benefit": "Playfair Display materializada no hero e nos títulos dá um tom editorial legível e apropriado à apresentação jurídica.",
+        "limitations": "A fonte é a contribuição comprovável. O hero centralizado, gradientes, palavra animada, bento e camadas em vidro da referência não foram materializados. Tipografia isolada é uma influência cosmética, não uma tradução composicional forte."
+      }
+    ],
+    "antiClone": [
+      {
+        "slug": "iorc-odontologia",
+        "method": "screenshot-comparison",
+        "perceivedSimilarity": 30,
+        "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+        "conclusion": "Existe parentesco de estrutura comercial ampla, mas a impressão visual é distinta. O retrato editorial, os títulos serifados, os frisos laranja e o diretório aberto de Brotto não repetem a composição clínica do IORC.",
+        "observations": {
+          "hero": "Ambos dividem texto à esquerda e foto à direita no desktop. IORC tem subtítulo longo, prova em três itens e fotografia horizontal; Brotto tem título curto e retrato vertical dominante.",
+          "placement": "No mobile IORC coloca texto, dois CTAs e provas antes da foto, que só começa perto do fim da dobra. Brotto apresenta a foto logo após o título, com CTA ainda na primeira dobra.",
+          "badges": "IORC usa cápsula de CRO, números de estrutura e pequenos blocos. Brotto usa assinatura aberta e três selos autênticos na seção seguinte, sem badge flutuante no retrato.",
+          "order": "IORC segue hero, métricas, tratamentos, tecnologia, infraestrutura, unidades e CTA. Brotto segue hero, reconhecimentos, áreas, pilares, sede e contato.",
+          "grids": "IORC trabalha cards de quatro métricas e três colunas de tratamentos/unidades. Brotto usa diretório aberto de duas colunas e três colunas de princípios.",
+          "rhythm": "IORC tem módulos repetidos de cards claros e maior extensão; Brotto intercala faixa curta, lista ampla e uma interrupção grafite.",
+          "images": "IORC mostra atendimento clínico, retratos temáticos e unidade; Brotto concentra sócios e fachada arquitetônica com legenda externa.",
+          "backgrounds": "IORC alterna branco e azul muito claro com encerramento azul petróleo; Brotto usa papel quente, branco e bloco grafite.",
+          "cards": "IORC usa bordas arredondadas, sombras e cards internos. Brotto organiza a maior parte do conteúdo com linhas abertas e sem caixas.",
+          "typography": "IORC usa títulos sans pesados em azul; Brotto usa serif regular grafite e textos auxiliares sans.",
+          "cta": "IORC usa pílulas e destaque do contato da matriz. Brotto usa retângulos grafite com friso laranja e links sublinhados. Ambos possuem WhatsApp flutuante verde."
+        },
+        "similarities": [
+          "Hero desktop em duas colunas e CTA principal mais secundário.",
+          "Contato flutuante verde e encerramento voltado à conversa."
+        ],
+        "differences": [
+          "Ordem mobile antecipa foto e reduz copy.",
+          "Tipografia, forma dos botões, tratamento de cards e ritmo de seções distintos.",
+          "Conteúdo visual específico dos sócios e dos reconhecimentos jurídicos."
+        ],
+        "limitations": [],
+        "screenshotHashes": {
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+          "leads/iorc-odontologia/redesign/screenshots/home-desktop.png": "9f4551f1d6926eb301ef5ac366aee69fb64279ff19a21a5d054dfcdb5be4cc64",
+          "leads/iorc-odontologia/redesign/screenshots/home-mobile.png": "9e5333bcb661f930add03fe891de13086471b68e8306a7698af7376986f5f9b2",
+          "leads/iorc-odontologia/redesign/screenshots/home-desktop-full.png": "f294a5a45e40cf2557a2afb89db71df1764fb6ae02d591fd14dd410a9dbd3ce0",
+          "leads/iorc-odontologia/redesign/screenshots/home-mobile-full.png": "3a22eaab1efde710df4294c258e80cfc9eb8a028d546276401e280473456d4a8"
+        }
+      },
+      {
+        "slug": "dl-cabeleireiros",
+        "method": "screenshot-comparison",
+        "perceivedSimilarity": 60,
+        "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+        "conclusion": "É o comparador visual mais próximo. Há uma linguagem editorial compartilhada perceptível, sobretudo no mobile e no diretório. A identidade e a hierarquia de conteúdo de Brotto ainda são reconhecíveis, mas não se deve alegar composição inteiramente inédita.",
+        "observations": {
+          "hero": "D&L tem arco fotográfico à esquerda e título à direita; Brotto inverte a posição com retrato retangular à direita e título à esquerda.",
+          "placement": "No mobile ambos usam cabeçalho com contato, assinatura, título serifado, foto, apoio curto, botão largo e link secundário. Essa sequência cria semelhança significativa.",
+          "badges": "Nenhum usa badge flutuante como centro do hero. D&L incorpora legenda na foto; Brotto a coloca abaixo e acrescenta uma faixa de premiações após o hero.",
+          "order": "D&L segue hero, serviços, ambiente e unidades. Brotto insere reconhecimentos antes das áreas, depois pilares, sede e contato. A extensão e o papel das seções diferem.",
+          "grids": "Os dois usam serviços em duas colunas de linhas abertas no desktop e lista única no mobile. Brotto diferencia quatro áreas imobiliárias/registral e oito áreas sans; D&L mantém numeração e sinal de expansão.",
+          "rhythm": "Ambos dão respiro aos títulos e usam divisórias finas. Brotto acrescenta faixa branca compacta e bloco de princípios grafite; D&L tem fotos em arcos e unidades em bloco verde.",
+          "images": "D&L usa ambiente e dupla de fotos de cabelo com recortes arredondados. Brotto usa retrato retangular dos sócios e uma sede monocromática.",
+          "backgrounds": "Ambos têm fundo quente claro; D&L privilegia verde escuro e dourado, Brotto grafite e laranja do logo.",
+          "cards": "Ambos evitam caixas fechadas nas listas. Brotto também evita molduras em arco e separa princípios por linhas superiores.",
+          "typography": "Títulos serifados regulares e corpo sans próximos em sensação. D&L usa palavra em itálico no hero e maior escala desktop; Brotto tem título factual reto e mais contido.",
+          "cta": "Botões retangulares com seta e link secundário sublinhado são próximos. Brotto adiciona friso inferior laranja e um destino de contato único; D&L pede escolha de unidade."
+        },
+        "similarities": [
+          "Sequência do hero mobile quase equivalente.",
+          "Fundo quente, títulos serifados, corpo sans e diretório com linhas.",
+          "Botão retangular com seta e link secundário sublinhado."
+        ],
+        "differences": [
+          "Foto desktop no lado oposto e recorte retangular versus arco.",
+          "Premiações, bloco grafite de princípios e hierarquia das áreas jurídicas.",
+          "Logo, laranja institucional, retratos reais e fachada própria distinguem o cliente."
+        ],
+        "limitations": [],
+        "screenshotHashes": {
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+          "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png": "22bf3a4fc45411c371a57665e27095ad32399b23076fc659c8020eca593a9a1e",
+          "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png": "cfb79369889f008ed46852a79a5f7f97f17ba72f15ba2747ef5723e65ce123cd",
+          "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png": "76712beec7a30044da79fe812d9ca8062e30ddb3725ab1528425a686a749dfec",
+          "leads/dl-cabeleireiros/redesign/screenshots/home-mobile-full.png": "b5d8c7b23abb2065273bd76e1379cc0ffcf1a196c31e58743417939b0a27ecc6"
+        }
+      },
+      {
+        "slug": "delta-pan",
+        "method": "screenshot-comparison",
+        "perceivedSimilarity": 20,
+        "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+        "conclusion": "As primeiras dobras têm o padrão amplo texto/foto no desktop, porém comunicam universos visuais distintos. Não há base para afirmar semelhança da sequência completa, pois esse comparador só dispõe de capturas da dobra.",
+        "observations": {
+          "hero": "Delta Pan tem headline sans longa sobre fundo preto pontilhado e painel técnico de produto; Brotto usa mensagem serifada curta em fundo quente e retrato humano.",
+          "placement": "Texto à esquerda/imagem à direita coincide no desktop. No mobile Delta Pan mostra texto, CTAs e prova técnica antes da imagem; Brotto antecipa a foto.",
+          "badges": "Delta Pan tem cápsula industrial laranja e cartão de prova 100% Grau Alimentício; Brotto usa assinatura textual aberta e nenhum badge no retrato.",
+          "order": "Observável apenas na dobra: Delta Pan encadeia mensagem, apoio, dois CTAs e prova de material. A ordem das seções restantes não foi estimada sem capturas completas.",
+          "grids": "Split de duas colunas aparece no desktop dos dois; os grids de conteúdo posteriores da Delta Pan não puderam ser comparados visualmente.",
+          "rhythm": "Delta Pan concentra headline e copy longa em uma dobra densa; Brotto tem retrato mais alto, copy curta e início da faixa de selos.",
+          "images": "Painel técnico de forma/assadeira em Delta Pan versus fotografia real dos sócios em Brotto.",
+          "backgrounds": "Preto pontilhado e brilho laranja industrial em Delta Pan; papel claro liso e frisos discretos em Brotto.",
+          "cards": "Painel arredondado duplo e caixa de prova técnica em Delta Pan; foto sem cartão e ações abertas em Brotto. Nada afirmado sobre cards abaixo da dobra.",
+          "typography": "Sans pesada de grande escala e termos técnicos em Delta Pan; serif regular e tom institucional em Brotto.",
+          "cta": "Delta Pan usa botão laranja arredondado em maiúsculas e secundário contornado; Brotto botão grafite retangular e link sublinhado. WhatsApp verde é elemento comum."
+        },
+        "similarities": [
+          "Divisão desktop em texto à esquerda e imagem à direita.",
+          "Duas ações principais e contato flutuante verde."
+        ],
+        "differences": [
+          "Tema escuro industrial versus claro jurídico.",
+          "Retrato humano e título serifado versus painel técnico e headline sans.",
+          "Foto antecipada no mobile de Brotto."
+        ],
+        "limitations": [
+          "Somente home-desktop.png e home-mobile.png existem para Delta Pan; comparação perceptiva restrita à primeira dobra. Nenhum outro lead foi recapturado ou alterado."
+        ],
+        "screenshotHashes": {
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+          "leads/delta-pan/redesign/screenshots/home-desktop.png": "7a1bc6b79ca2a72dab38033312daad5b8f42d2d98076d76fe833ac48ef7f8eed",
+          "leads/delta-pan/redesign/screenshots/home-mobile.png": "e7c378cea690fd24bda5c3b4f71e5034c473d05f69b84c37895284e48b396077"
+        }
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "method": "screenshot-comparison",
+        "perceivedSimilarity": 35,
+        "estimationReason": "Estimativa subjetiva do revisor a partir das capturas abertas; não calculada por código, hashes ou média de dimensões.",
+        "conclusion": "Há parentesco no uso de enquadramento linear, botão retangular e foto à direita no desktop. O tema técnico escuro, a sans pesada e a organização tabular da São Jorge produzem impressão bastante diferente.",
+        "observations": {
+          "hero": "Ambos usam split desktop, foto real e linhas de enquadramento. São Jorge tem painel técnico com rótulos e cantos vermelhos; Brotto usa retrato editorial sem painel.",
+          "placement": "São Jorge põe apoio antes da foto no mobile, depois CTA. Brotto coloca foto imediatamente após o título e apoio depois, mantendo contato na dobra.",
+          "badges": "São Jorge usa marcador quadrado, rótulos técnicos e métricas 3m/2m/50+. Brotto usa traço laranja, assinatura e selos após o hero.",
+          "order": "São Jorge apresenta capacidades, história, materiais, portfólio e formulário. Brotto apresenta reconhecimentos, áreas, pilares, sede e contatos diretos.",
+          "grids": "São Jorge usa tabela de capacidades e portfólio em três imagens; Brotto usa lista jurídica em duas colunas, três princípios e sede em split.",
+          "rhythm": "São Jorge alterna grande bloco claro de tabela com várias faixas escuras e portfólio. Brotto permanece predominantemente claro com um único bloco grafite intermediário.",
+          "images": "Ação industrial e detalhes metálicos em São Jorge versus sócios, selos e edifício em Brotto.",
+          "backgrounds": "Azul quase preto com acento vermelho domina São Jorge; branco quente e laranja dominam Brotto.",
+          "cards": "Ambos usam linhas e pouca sombra. São Jorge mantém painel técnico e formulário encaixado; Brotto prefere fotografia aberta e contato sem formulário.",
+          "typography": "São Jorge tem sans pesada com rótulos monoespaçados; Brotto tem serif regular e assinatura sans pequena.",
+          "cta": "Retângulo e seta são comuns. São Jorge destaca vermelho com solicitação de orçamento e formulário; Brotto usa grafite/friso laranja para conversa."
+        },
+        "similarities": [
+          "Hero desktop em duas colunas e fotografia real.",
+          "Linhas de enquadramento, retângulo com seta e WhatsApp flutuante."
+        ],
+        "differences": [
+          "Tipografia e campos de cor muito diferentes.",
+          "Diretório jurídico e selos em vez de tabela técnica e métricas.",
+          "Contato direto em vez de formulário de orçamento."
+        ],
+        "limitations": [],
+        "screenshotHashes": {
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png": "cad8efe28f1f68312fea159118df954dcf60248fc2ddeceeadd62ef784a70b42",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png": "037d6fc5293ed4ee17c46dec73d3fb26400e4af3b0b190be7649c776c44b5f2a",
+          "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png": "4947f520c1cb373666cfe9ffab3016468401de99d8ade16aa09679e66088cc18",
+          "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png": "a2ef4e5f6c85e9046f6327671c943d6e2b55728a6fde861010ad6d338612e570",
+          "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png": "12894338af2f52af358cb15c269a4eae987b5a6c07e0a1d788a63cf7587bb663",
+          "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png": "087cb9aa5fcd7cdd595c070c265075e3ec4cda16216a42863f0ad84ebad7f453"
+        }
+      }
+    ]
+  },
+  "qualityAssessment": {
+    "strengths": [
+      {
+        "finding": "Retrato real dos sócios é protagonista, mostra os dois rostos no mobile e permanece junto da mensagem e do CTA na primeira dobra.",
+        "evidencePaths": [
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png"
+        ]
+      },
+      {
+        "finding": "Marca laranja, linhas discretas, títulos serifados e grafite formam uma identidade jurídica coerente com os assets do escritório.",
+        "evidencePaths": [
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+        ]
+      },
+      {
+        "finding": "Doze áreas documentadas aparecem em diretório escaneável, com ênfase clara no segmento imobiliário e registral.",
+        "evidencePaths": [
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+        ]
+      },
+      {
+        "finding": "Reconhecimentos se concentram em faixa compacta e o bloco grafite evita uma sucessão monótona de cartões.",
+        "evidencePaths": [
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+        ]
+      }
+    ],
+    "limitations": [
+      {
+        "finding": "Legendas e anos auxiliares usam corpo pequeno; poderiam ganhar conforto em mobile sem modificar a hierarquia principal.",
+        "evidencePaths": [
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+        ]
+      },
+      {
+        "finding": "A linguagem de papel quente, serif e listas abertas se aproxima bastante de D&L; personalização visual não equivale a composição inédita.",
+        "evidencePaths": [
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+          "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png",
+          "leads/dl-cabeleireiros/redesign/screenshots/home-desktop-full.png"
+        ]
+      },
+      {
+        "finding": "O recorte da demonstração omite a equipe completa, o blog e atalhos de materiais/simulador existentes no original.",
+        "evidencePaths": [
+          "leads/brotto-campelo/screenshots/site-desktop.png",
+          "leads/brotto-campelo/screenshots/site-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+        ]
+      }
+    ],
+    "originalComparison": [
+      {
+        "aspect": "hero",
+        "finding": "Original usa fachada/vídeo escuro com texto sobreposto e não exibe CTA principal no corpo do hero; redesign apresenta sócios iluminados, apoio curto e contato destacado. No mobile original foi usado o topo correto da captura completa.",
+        "evidencePaths": [
+          "leads/brotto-campelo/screenshots/site-desktop.png",
+          "leads/brotto-campelo/screenshots/site-mobile-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile.png"
+        ]
+      },
+      {
+        "aspect": "identity",
+        "finding": "O laranja do logo permanece; grandes campos laranja/cinza dão lugar a frisos laranja, papel quente e grafite. A marca fica reconhecível com aplicação mais contida.",
+        "evidencePaths": [
+          "leads/brotto-campelo/screenshots/site-desktop.png",
+          "leads/brotto-campelo/screenshots/site-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+        ]
+      },
+      {
+        "aspect": "services",
+        "finding": "O original já contém as 12 áreas, distribuídas em uma caixa branca com ícones pequenos; o redesign as preserva e dá hierarquia maior ao imobiliário/registral por tipografia e enquadramento.",
+        "evidencePaths": [
+          "leads/brotto-campelo/screenshots/site-desktop-full.png",
+          "leads/brotto-campelo/screenshots/site-mobile-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+        ]
+      },
+      {
+        "aspect": "credibility",
+        "finding": "Histórico nacional/regional mantido em texto e três selos representativos em faixa. O original mostra mais selos individuais; a nova faixa reduz repetição sem inventar números.",
+        "evidencePaths": [
+          "leads/brotto-campelo/screenshots/site-desktop-full.png",
+          "leads/brotto-campelo/screenshots/site-mobile-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+        ]
+      },
+      {
+        "aspect": "rhythm",
+        "finding": "O original tem várias faixas cinza/branco e cards; o redesign alterna retrato dominante, faixa de selos, diretório e princípios em grafite, com extensão menor.",
+        "evidencePaths": [
+          "leads/brotto-campelo/screenshots/site-desktop-full.png",
+          "leads/brotto-campelo/screenshots/site-mobile-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png"
+        ]
+      },
+      {
+        "aspect": "navigation-and-scope",
+        "finding": "O redesign melhora a localização do contato e da sede, mas sua navegação cobre menos conteúdo institucional que o original. Adequado para demonstração; não equivale a migração integral.",
+        "evidencePaths": [
+          "leads/brotto-campelo/screenshots/site-desktop.png",
+          "leads/brotto-campelo/screenshots/site-desktop-full.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+          "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+        ]
+      }
+    ]
+  },
+  "qualitativeScores": {
+    "visual": {
+      "score": 8.2,
+      "reason": "A composição é consistente e melhora a apresentação dos ativos reais: hero legível com foto e contato nos dois viewports, diretório completo e ritmo sem excesso de caixas. A nota fica abaixo de excelência máxima por tipografia auxiliar pequena, cobertura institucional reduzida e parentesco editorial expressivo com D&L. Não resulta de média, meta ou nota anterior.",
+      "evidencePaths": [
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile-full.png",
+        "leads/brotto-campelo/screenshots/site-desktop-full.png",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png"
+      ]
+    }
+  },
+  "copyAudit": {
+    "reviewedTextCount": 61,
+    "removedFromPrevious": [
+      "assembleias societárias e conferências internacionais",
+      "contratos de software e SaaS, inteligência artificial",
+      "operações de crédito rural (CPR)"
+    ],
+    "finding": "As três alegações removidas não constam do inventário de textos atual. Não foi usado fallback editorial para aprovar serviços/capacidades.",
+    "unresolved": []
+  },
+  "regressions": [
+    {
+      "severity": "minor",
+      "resolved": false,
+      "aspect": "navigation-content-coverage",
+      "finding": "A demonstração oferece menos rotas institucionais no cabeçalho que o original: Profissionais, Blog, Materiais e Simulador não têm atalhos próprios.",
+      "reason": "Limitação de escopo da home demonstrativa, sem quebra das ações exibidas; não impede a demonstração, mas deve ser decidida antes de uma migração integral.",
+      "evidencePaths": [
+        "leads/brotto-campelo/screenshots/site-desktop.png",
+        "leads/brotto-campelo/screenshots/site-desktop-full.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop-full.png"
+      ]
+    }
+  ],
+  "limitations": [
+    "A captura original site-mobile.png está deslocada verticalmente. O topo de site-mobile-full.png foi aberto em crop de 390×844 em memória para comparação do hero original.",
+    "Demonstração de uma página: o menu novo reduz o acesso direto a Profissionais, Blog, Materiais e Simulador presentes no original. Isso limita a equivalência funcional de produção.",
+    "As legendas do retrato, sede e selos têm aproximadamente 10–11px e ficam menos confortáveis em mobile; não impedem a leitura da proposta, das áreas e dos canais.",
+    "Há semelhança editorial perceptível com D&L, especialmente na sequência mobile e nas listas abertas; a personalização se sustenta em conteúdo, imagens e identidade, sem exclusividade composicional.",
+    "Delta Pan só tem capturas da primeira dobra. Não foi inferida a composição de seções ausentes a partir do código.",
+    "Capturas estáticas não demonstram fluidez de animações, estados de hover, atendimento externo ou experiência completa das páginas de serviço originais."
+  ]
+}

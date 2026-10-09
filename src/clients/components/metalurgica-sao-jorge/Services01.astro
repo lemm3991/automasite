@@ -1,0 +1,13 @@
+---
+const {content} = Astro.props;
+---
+<section id="servicos" class="sj-section sj-light" data-surface-rhythm="dark-light-dark-open-sections">
+  <div class="sj-wrap">
+    <div class="sj-section-heading"><div><p class="sj-kicker">01 / CAPACIDADES</p><h2>{content.title}</h2></div><p>{content.description}</p></div>
+    <div class="sj-capacity-table" role="table" aria-label="Serviços e capacidades de maquinário">
+      <div class="sj-capacity-head" role="row"><span role="columnheader">Serviço</span><span role="columnheader">Comprimento</span><span role="columnheader">Espessura</span><span role="columnheader">Detalhe</span></div>
+      {content.services.map((s:any,i:number)=><div class="sj-capacity-row" role="row"><div class="sj-capacity-name" role="cell"><span class="sj-row-index">0{i+1}</span><h3>{s.title}</h3></div><div role="cell"><small>Comprimento</small><strong>{s.length}</strong></div><div role="cell"><small>Espessura</small><strong>{s.thickness}</strong></div><div role="cell" class="sj-capacity-detail">{s.description}</div></div>)}
+    </div>
+    <a class="sj-text-link" href="#contato">Envie as medidas do seu projeto <span aria-hidden="true">↗</span></a>
+  </div>
+</section>

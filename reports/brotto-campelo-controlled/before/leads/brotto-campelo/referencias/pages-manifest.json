@@ -1,0 +1,238 @@
+{
+  "slug": "brotto-campelo",
+  "client": "Brotto Campelo Advogados",
+  "domain": "brottocampelo.adv.br",
+  "auditTimestamp": "2026-10-09T12:56:49.089Z",
+  "sitemapsInspected": [
+    "/sitemap.xml",
+    "/wp-sitemap.xml",
+    "/page-sitemap.xml",
+    "/sitemap_index.xml",
+    "/robots.txt"
+  ],
+  "realPages": [
+    {
+      "url": "https://brottocampelo.adv.br/",
+      "type": "ROTA_REAL_PRINCIPAL",
+      "category": "home",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 155681
+    },
+    {
+      "url": "https://brottocampelo.adv.br/assessoria-em-leiloes",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/assessoria-em-leiloes/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 123966
+    },
+    {
+      "url": "https://brottocampelo.adv.br/direito-do-trabalho",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/direito-do-trabalho/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 124361
+    },
+    {
+      "url": "https://brottocampelo.adv.br/direito-empresarial",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "sobre",
+      "localPath": "referencias/site-baixado/direito-empresarial/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 122450
+    },
+    {
+      "url": "https://brottocampelo.adv.br/planejamento-patrimonial-e-sucessoes",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/planejamento-patrimonial-e-sucessoes/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 124303
+    },
+    {
+      "url": "https://brottocampelo.adv.br/propriedade-intelectual",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/propriedade-intelectual/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 124570
+    },
+    {
+      "url": "https://brottocampelo.adv.br/lgpd",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/lgpd/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 128151
+    },
+    {
+      "url": "https://brottocampelo.adv.br/direito-digital",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/direito-digital/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 123530
+    },
+    {
+      "url": "https://brottocampelo.adv.br/agronegocio",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/agronegocio/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 134588
+    },
+    {
+      "url": "https://brottocampelo.adv.br/direito-imobiliario-aplicado-imobiliarias",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/direito-imobiliario-aplicado-imobiliarias/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 129283
+    },
+    {
+      "url": "https://brottocampelo.adv.br/direito-imobiliario-aplicado-ao-direito-publico",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/direito-imobiliario-aplicado-ao-direito-publico/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 127512
+    },
+    {
+      "url": "https://brottocampelo.adv.br/direito-imobiliario-aplicado-construtoras-e-incorporadoras",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/direito-imobiliario-aplicado-construtoras-e-incorporadoras/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 134404
+    },
+    {
+      "url": "https://brottocampelo.adv.br/registral-notarial",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/registral-notarial/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 124785
+    },
+    {
+      "url": "https://brottocampelo.adv.br/profissionais",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/profissionais/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 145157
+    },
+    {
+      "url": "https://brottocampelo.adv.br/blog",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/blog/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 112926
+    },
+    {
+      "url": "https://brottocampelo.adv.br/materiais",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/materiais/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 113863
+    },
+    {
+      "url": "https://brottocampelo.adv.br/contato",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "contato",
+      "localPath": "referencias/site-baixado/contato/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 107806
+    },
+    {
+      "url": "http://brottocampelo.adv.br/profissionais",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/profissionais/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 145157
+    },
+    {
+      "url": "https://brottocampelo.adv.br/reforma-tributaria-contrato-poder-publico",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/reforma-tributaria-contrato-poder-publico/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 117304
+    },
+    {
+      "url": "https://brottocampelo.adv.br/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/honorarios-advocaticios-pode-o-advogado-ganhar-mais-que-o-credor/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 116989
+    },
+    {
+      "url": "https://brottocampelo.adv.br/contratos-de-construcao-faturamento-direto-alerta-carf",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/contratos-de-construcao-faturamento-direto-alerta-carf/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 118483
+    },
+    {
+      "url": "https://brottocampelo.adv.br/brotto-campelo-socio-registral-notarial-urbanistico",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/brotto-campelo-socio-registral-notarial-urbanistico/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 111069
+    },
+    {
+      "url": "https://brottocampelo.adv.br/nova-nr1",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/nova-nr1/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 116137
+    },
+    {
+      "url": "https://brottocampelo.adv.br/brotto-campelo-anuncia-nova-socia-para-a-area-societaria",
+      "type": "ROTA_REAL_SECUNDARIA",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/brotto-campelo-anuncia-nova-socia-para-a-area-societaria/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 109929
+    },
+    {
+      "url": "https://brottocampelo.adv.br/simulador-bca",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/simulador-bca/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 78316
+    },
+    {
+      "url": "https://brottocampelo.adv.br/diagnostico-nr1",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/diagnostico-nr1/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 121825
+    },
+    {
+      "url": "https://brottocampelo.adv.br/rascunho-home-2",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/rascunho-home-2/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 167078
+    }
+  ],
+  "homeAnchors": [
+    {
+      "anchor": "#content",
+      "label": "Ir para o conteúdo",
+      "targetUrl": "https://brottocampelo.adv.br/#content"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "status": "REQUIRES_IMAGE_REVIEW",
+  "kind": "Render Validation",
+  "renderPassed": true,
+  "visualQualityScore": null,
+  "regressions": null,
+  "reviewPath": "leads/dl-cabeleireiros/redesign/visual-review.json"
+}

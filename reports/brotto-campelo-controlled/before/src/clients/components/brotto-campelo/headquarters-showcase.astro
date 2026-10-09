@@ -1,0 +1,79 @@
+---
+import './legal.css';
+
+interface Props {
+  content?: {
+    title?: string;
+  };
+}
+
+const { content } = Astro.props;
+const title = content?.title || "Sede Corporativa no Bigorrilho";
+---
+
+<section class="w-full bg-white py-14 md:py-20 px-4 md:px-8 border-b border-gray-100">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 items-center">
+    <!-- Imagem da Sede -->
+    <div class="md:col-span-7">
+      <div class="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+        <img
+          src="/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg"
+          alt="Fotografia arquitetônica em preto e branco da sede do Brotto Campelo Advogados no Bigorrilho."
+          class="w-full h-auto object-cover max-h-[440px]"
+          width="800"
+          height="450"
+        />
+        <div class="p-3 bg-gray-50 border-t border-gray-100 text-xs text-gray-500 text-center font-light">
+          Sede do Brotto Campelo Advogados — Bigorrilho, Curitiba/PR
+        </div>
+      </div>
+    </div>
+
+    <!-- Informações da Sede -->
+    <div class="md:col-span-5 flex flex-col items-start gap-4">
+      <span class="text-xs font-semibold uppercase tracking-widest text-[#e06020]">
+        Infraestrutura & Presença
+      </span>
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-normal text-[#111827]" style="font-family: 'Playfair Display', serif;">
+        {title}
+      </h2>
+      <p class="text-xs md:text-sm text-gray-600 leading-relaxed font-light">
+        Localizada no coração executivo do Bigorrilho, nossa sede oferece estrutura moderna e privativa para reuniões estratégicas, assembleias societárias e conferências internacionais.
+      </p>
+
+      <div class="w-full mt-2 space-y-3 pt-3 border-t border-gray-100">
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 shrink-0 text-xs">
+            📍
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide">Endereço Oficial</p>
+            <p class="text-xs md:text-sm font-semibold text-gray-900">Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 shrink-0 text-xs">
+            📞
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide">Central de Atendimento</p>
+            <p class="text-xs md:text-sm font-semibold text-gray-900">
+              <span>41 3026-8001</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3">
+          <div class="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 shrink-0 text-xs">
+            ✉️
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-500 uppercase tracking-wide">E-mail Corporativo</p>
+            <p class="text-xs md:text-sm font-semibold text-gray-900">contato@brottocampelo.adv.br</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

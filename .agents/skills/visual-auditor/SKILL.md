@@ -5,6 +5,18 @@ description: Processo auxiliar e especialista subordinado ao Agente 1 (Prospecto
 
 # Skill: Visual Auditor (Auditor Visual)
 
+## Contrato atual obrigatório
+
+Aplicar `auditContractVersion: 2` do contrato. A revisão factual final também é independente: avaliar alegações em cada texto, exigir fonte para serviços/capacidades/segmentos/infraestrutura/especialização e não aprovar por fallback editorial. Paleta: official/observed/inferred/neutral; presets CSS sem uso não demonstram identidade. Para cada Design System, classificar STRONG/PARTIAL/SUPERFICIAL/NOT_MATERIALIZED e explicar benefício e limites; propriedades genéricas isoladas nunca são prova forte. Abrir capturas comparáveis dos clientes obrigatórios, incluindo os três mais próximos disponíveis, mesmo com heurística baixa; registrar estrutura do hero, posição texto/imagem, badges, CTAs, sequência, grids, cards, ritmo e backgrounds. Código diferente não prova composição diferente. Notas vêm de julgamento observado com acertos, limitações e comparação com o original, jamais de constantes ou tentativa de reproduzir a nota de outra auditoria.
+
+Siga `docs/pipeline-evidence-contract.md`. `audit_visual.cjs` valida original-review.json; não estima notas por fórmulas. Abra efetivamente quatro capturas originais e quatro do redesign, registrando regiões observadas. Se conteúdo do original não apareceu por carregamento/scroll, recapture e registre a limitação antes de comparar.
+
+Para o redesign, use visual-review.json v3: técnica, análise visual e fidelidade factual separadas. Conferir inventário completo de texto contra source-review.json e imagens contra asset-review.json. Horários/telefones não podem ser classificados como copy livre. Verificar a correspondência entre cada foto e legenda, não apenas a origem do arquivo.
+
+Avalie logo, mensagem, CTA, identidade e foto no hero de cada viewport. Foto fora de 390×844 requer tradeoff explícito; não significa reprovação automática. Uma referência só conta como aplicada quando o elemento aparece, funciona e contribui para a composição; CSS inativo não conta. Compare Hero, ordem, grids, ritmo, imagens, backgrounds, cards, tipografia e CTA; percentual automático é apenas sinal.
+
+O executor da revisão final deve ser distinto do Builder e preservar sua identidade real. Se não estiver disponível, manter NEEDS_INDEPENDENT_VISUAL_REVIEW, sem assinar como outro executor. Modelos permanecem os definidos em .agents/models.json.
+
 O **Auditor Visual** é um processo auxiliar especializado e subordinado ao **Agente 1 — Prospector**. Sua missão central é conduzir uma análise estética, estrutural e funcional minuciosa do website da empresa prospectada **antes** de liberar o lead para o **Agente 2 — Builder**, assegurando que nenhum redesign seja gerado às cegas ou resulte em regressão visual em relação ao site original.
 
 ---
@@ -92,4 +104,7 @@ Se qualquer resposta for **NÃO**, o lead é retido ou redirecionado para aborda
 
 1. **Extração da Estrutura:** Gera `leads/[slug]/visual/site-structure.md` com inventário dobra por dobra, copy real e diagramas ASCII de layout.
 2. **Emissão do Handoff:** Gera `leads/[slug]/visual/visual-handoff.json` contendo scores, baseline, listas `preserve`, `improve` e instrução mandatória de não regressão.
-3. **Validação Pós-Redesign:** Após o Builder compilar o novo site, o Auditor Visual executa o comparador (`compare_redesign.cjs`) para confrontar o Original x Redesign nos mesmos 13 critérios. Caso detecte qualquer regressão, rejeita a aprovação e especifica as correções obrigatórias.
+3. **Render Validation:** `compare_redesign.cjs SLUG` verifica carregamento, imagens, dimensões, overflow e atualidade das capturas. Não mede estética, não aumenta notas automaticamente nem declara ausência de regressões.
+4. **Revisão real:** abrir as capturas originais e novas, desktop e mobile, incluindo primeira dobra e página completa. Registrar `redesign/visual-review.json`: `status` (approved/needs_changes), `method: image-inspection`, `reviewedBy`, `reviewedAt`, `screenshotHashes` (mapa caminho/hash), `observations` com `criterion`, `finding`, `evidencePaths`, `regressions` e `limitations`. Cobrir hero, identity, composition, imagery, legibility, personalization, artDirection e factualContent. Confrontar copy com as fontes; a imagem sozinha não comprova fatos.
+5. **Prioridade comercial:** primeira dobra atraente e adequada à empresa/ramo, marca reconhecível e conteúdo verdadeiro. Efeitos são opcionais conforme a direção, nunca receita obrigatória. Não exigir todas as imagens nem integração completa de produção. Backend, mapa e páginas secundárias podem ser pendências não impeditivas; hero sem identidade, invenções, ilegibilidade e composição genérica pedem correção.
+6. **Continuidade automática:** o agente responsável corrige e repete o gate afetado, recapturando quando o visual muda. Não solicitar aprovação humana a cada gate. Respeitar limites explícitos da execução; não enviar ao cliente sem autorização. Screenshots e textos declaratórios não provam que uma revisão foi feita: o agente precisa de fato abrir as imagens. Notas qualitativas são opcionais e precisam de justificativa observada.

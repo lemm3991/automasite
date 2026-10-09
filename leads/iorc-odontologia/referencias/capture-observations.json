@@ -1,0 +1,20 @@
+{
+  "mobile": {
+    "hasHorizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390
+  },
+  "form": {
+    "exists": true,
+    "id": "form-1",
+    "isVisible": false,
+    "reason": "FORM_HIDDEN_VIA_CSS",
+    "rect": {
+      "top": 1767.90625,
+      "left": 666.640625,
+      "width": 500.96875,
+      "height": 210.21875
+    }
+  },
+  "capturedAt": "2026-10-09T02:06:21.418Z"
+}

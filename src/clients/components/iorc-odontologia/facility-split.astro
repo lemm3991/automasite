@@ -1,0 +1,71 @@
+---
+import './medical.css';
+interface Props {
+  content?: {
+    title?: string;
+    subtitle?: string;
+  };
+}
+
+const { content = {} } = Astro.props;
+const title = content.title || "Espaço Planejado para o Seu Cuidado e Conforto";
+const subtitle = content.subtitle || "A matriz do IORC está situada no Alto Boqueirão e reúne 1.800 m² de infraestrutura construída segundo normas rigorosas de acessibilidade e biossegurança.";
+---
+
+<section id="estrutura" class="py-16 sm:py-20 bg-white border-b border-slate-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <div class="facility-split-grid items-center">
+      
+      <!-- Coluna de Texto e Tradição -->
+      <div class="space-y-6">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-widest text-[#104050]">Infraestrutura Clínica</span>
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#104050] mt-1 tracking-tight">{title}</h2>
+        </div>
+
+        <p class="text-sm sm:text-base text-slate-700 leading-relaxed">
+          O Instituto de Ortodontia de Curitiba (IORC) foi idealizado e fundado no ano de 1995 pelo Dr. Fabio Takachi Hase que, como Ortodontista e Clínico Geral com vasta experiência, observou que muitas pessoas necessitavam de um tratamento ortodôntico e geral com alto padrão de qualidade e conforto.
+        </p>
+
+        <p class="text-sm text-slate-600 leading-relaxed">
+          {subtitle} Além da matriz, a rede conta com unidades no Sítio Cercado e Centro, totalizando 4.000 m² de consultórios amplos, modernos e climatizados com estacionamento próprio para maior comodidade.
+        </p>
+
+        <div class="grid grid-cols-2 gap-4 pt-2">
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <span class="text-xs font-bold text-[#104050] uppercase block">Salas Climatizadas</span>
+            <span class="text-xs text-slate-600 mt-1 block">Ambientes projetados para relaxamento e assepsia total.</span>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+            <span class="text-xs font-bold text-[#104050] uppercase block">Estacionamento Próprio</span>
+            <span class="text-xs text-slate-600 mt-1 block">Acesso facilitado no Boqueirão e Sítio Cercado.</span>
+          </div>
+        </div>
+
+        <div class="pt-2">
+          <a href="https://api.whatsapp.com/send?phone=5541999076236" class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-[#104050] text-white font-semibold text-xs hover:bg-[#205060] transition-colors shadow-sm">
+            <span>Fale com a Central do IORC</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Coluna da Foto da Infraestrutura -->
+      <div class="relative">
+        <figure class="rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-slate-50">
+          <img src="/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg" alt="Estrutura e Consultórios IORC" class="w-full h-auto object-cover max-h-[440px]" width="768" height="512" />
+          <figcaption class="p-3 bg-white border-t border-slate-100 text-xs text-slate-600 text-center font-medium">1.800 m² de Infraestrutura</figcaption>
+        </figure>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .facility-split-grid-custom {
+    grid-template-columns: 1fr 1.2fr;
+  }
+</style>

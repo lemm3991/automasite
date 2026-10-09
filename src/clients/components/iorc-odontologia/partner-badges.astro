@@ -1,0 +1,61 @@
+---
+import './medical.css';
+interface Props {
+  content?: {
+    title?: string;
+    subtitle?: string;
+  };
+}
+
+const { content = {} } = Astro.props;
+const title = content.title || "Parcerias e Tecnologia de Ponta";
+const subtitle = content.subtitle || "Marcas globais e materiais homologados para assegurar previsibilidade e biocompatibilidade em cada procedimento.";
+
+const partners = [
+  {
+    name: "Invisalign",
+    caption: "Alinhadores Invisalign",
+    logo: "/assets/clients/iorc-odontologia/02-invisalign.png",
+    role: "Alinhadores Transparentes",
+    desc: "Aparelhos invisíveis com tecnologia SmartTrack para movimentação dentária precisa e confortável sem fios aparentes."
+  },
+  {
+    name: "ClearCorrect",
+    caption: "Alinhadores ClearCorrect",
+    logo: "/assets/clients/iorc-odontologia/03-clearcorrect-300x48.png",
+    role: "Ortodontia Estética Digital",
+    desc: "Alinhadores ortodônticos de alta clareza óptica e excelente retenção mecânica desenvolvidos para rotinas dinâmicas."
+  },
+  {
+    name: "Neodent",
+    caption: "Implantes Neodent",
+    logo: "/assets/clients/iorc-odontologia/04-neodent-logo-color-no-claim.png",
+    role: "Sistemas de Implantes",
+    desc: "Líder em implantodontia e reabilitação oral com titânio biocompatível e osseointegração acelerada."
+  }
+];
+---
+
+<section id="tecnologia" class="py-14 sm:py-16 bg-slate-50 border-b border-slate-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <span class="text-xs font-bold uppercase tracking-widest text-[#104050]">Chancela Tecnológica</span>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-[#104050] mt-1">{title}</h2>
+      <p class="text-sm text-slate-600 mt-2">{subtitle}</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+      {partners.map((p) => (
+        <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm flex flex-col justify-between items-center text-center">
+          <div class="h-16 flex items-center justify-center w-full mb-4 px-4 bg-slate-50/50 rounded-lg border border-slate-100">
+            <img src={p.logo} alt={p.caption} class="max-h-10 max-w-[200px] w-auto object-contain" />
+          </div>
+          <div>
+            <span class="text-xs font-bold text-[#104050] uppercase tracking-wider block">{p.role}</span>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">{p.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

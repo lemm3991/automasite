@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "slug": "salete-cabeleireira",
+  "pages": [
+    {
+      "id": "page-1",
+      "url": "https://saletecabeleireira.com.br/",
+      "path": "leads/salete-cabeleireira/referencias/site-baixado/index.html",
+      "sha256": "0c4cf21f3a7dec04e76020d934963ecf030550d8233cf9827a321fc022b4d0fc",
+      "text": "Sal&atilde;o de Beleza Salete Cabeleireira Sal&atilde;o de Beleza Home Sal&atilde;o Servi&ccedil;os Produtos Fale Conosco O Sal&atilde;o de Beleza Desde a inf&acirc;ncia, Salete, demonstrava interesse pela profiss&atilde;o e muito talento, quando fazia seus primeiros e famosos penteados nos cabelos de amigos e familiares de S&atilde;o Bento Baixo (Nova Veneza, Santa Catarina), localidade onde nasceu. Aos 14 anos, mesmo com a dificuldade de aprendizado da &eacute;poca e escassez de oportunidades, iniciou um curso de cabeleireiros por correspond&ecirc;ncia. J&aacute; com 19 anos, mudou-se para Florian&oacute;polis/SC, onde passou a trabalhar como cabeleireira em um dos mais conceituados salões de beleza da cidade, o que lhe deu a sua primeira oportunidade de adquirir experi&ecirc;ncia, partindo da&iacute; para uma carreira de muito sucesso. No in&iacute;cio de 1966, a convite de uma cabeleireira de Crici&uacute;ma/SC, Salete retornou ao sul de Santa Catarina, onde fixou resid&ecirc;ncia, adquirindo em novembro do mesmo ano o seu primeiro e &uacute;nico sal&atilde;o de beleza , conhecido em todo o Estado, marca que leva seu nome. Ao longo de sua carreira profissional participou de diversos cursos internacionais com os mais renomados cabeleireiros entre eles Vidal Sassoon e Academia TONI&GUY. Ainda hoje, &eacute; participante ativa de congressos nacionais e internacionais das mais renomadas marcas e nomes da beleza mundial. N&atilde;o &eacute; a toa que seu nome sempre &eacute; destaque entre os melhores e mais lembrados profissionais do ramo . Nossos Servi&ccedil;os Possu&iacute;mos uma completa lista de servi&ccedil;os para a sua beleza. Veja abaixo o que oferecemos a voc&ecirc;. Cabelo Alongamento Pintura Penteados Cortes Escova Definitiva Escova Progressiva Baby Liss Mechas Mechas 3D Depila&ccedil;&atilde;o Axilas Bu&ccedil;o Eg&iacute;pica Facial &iacute;ntima Meia Perna Perna Completa Virilha Est&eacute;tica Banho de Lua Bronzeamento a Jato Massoterapia Colora&ccedil;&atilde;o de C&iacute;lios Design de Sombrancelhas Colora&ccedil;&atilde;o de Sombrancelhas P&eacute;s & M&atilde;os Manicure Pedicure Unha de Gel Alongamento de Unhas Hidrata&ccedil;&atilde;o Pintura Art&iacute;stica Tratamento Capilar Queratina Botox Peeling Lifting Caspa Anti-queda Maquiagem Art&iacute;stica Coloca&ccedil;&atilde;o de C&iacute;lios Maquiagem Noturna Maquiagem Day by Day Dia da Noiva Hidromassagem Maquiagem Penteado Local para recep&ccedil;&atilde;o de familiares Espe&ccedil;o Reservado e Privado Beleza Masculina Corte Pintura Lava&ccedil;&atilde;o Manicure Pedicure Produtos Possu&iacute;mos uma completa lista de produtos para a sua beleza. Veja abaixo o que oferecemos a voc&ecirc;. Fale Conosco Deixe sua mensagem e em breve entraremos em contato com voc&ecirc;. Enviar Endere&ccedil;o Crici&uacute;ma Rua Coronel Pedro Benedet, 159 Ed. Frederico Minato, Sala 01 Centro, Crici&uacute;ma, SC Telefone 48 3433 1789 Endere&ccedil;o Balne&aacute;rio Rinc&atilde;o Rua Antonio Francisco Borgo, 175 Centro, Balne&aacute;rio Rinc&atilde;o, SC Telefone 48 3468 1297 E-mail contato@saletecabeleireira.com.br",
+      "headings": [
+        {
+          "selector": "[id=\"logo\"]",
+          "text": "Sal&atilde;o de Beleza"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "O Sal&atilde;o de Beleza"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "Nossos Servi&ccedil;os"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "Produtos"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "Fale Conosco"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Endere&ccedil;o Crici&uacute;ma"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+          "text": "Telefone 48 3433 1789"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > h3:nth-of-type(1)",
+          "text": "Endere&ccedil;o Balne&aacute;rio Rinc&atilde;o"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > h3:nth-of-type(1)",
+          "text": "Telefone 48 3468 1297"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > h3:nth-of-type(1)",
+          "text": "E-mail"
+        }
+      ],
+      "sections": [],
+      "forms": [
+        {
+          "selector": "[id=\"formcontato\"]",
+          "text": "Enviar",
+          "fields": [
+            {
+              "selector": "[id=\"nome\"]",
+              "name": "nome",
+              "type": "text"
+            },
+            {
+              "selector": "[id=\"telefone\"]",
+              "name": "telefone",
+              "type": "text"
+            },
+            {
+              "selector": "[id=\"email\"]",
+              "name": "email",
+              "type": "text"
+            },
+            {
+              "selector": "[id=\"mensagem\"]",
+              "name": "mensagem",
+              "type": "textarea"
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1)",
+          "text": "Home",
+          "href": "#topo"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1)",
+          "text": "Sal&atilde;o",
+          "href": "#salao"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1)",
+          "text": "Servi&ccedil;os",
+          "href": "#servicos"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1)",
+          "text": "Produtos",
+          "href": "#produtos"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5) > a:nth-of-type(1)",
+          "text": "Fale Conosco",
+          "href": "#contato"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > a:nth-of-type(1)",
+          "text": "contato@saletecabeleireira.com.br",
+          "href": "mailto:contato@saletecabeleireira.com.br"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+          "text": "",
+          "href": "http://goo.gl/maps/7lFtP"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > a:nth-of-type(1)",
+          "text": "",
+          "href": "http://goo.gl/maps/33eL5"
+        }
+      ],
+      "textBlocks": [
+        {
+          "selector": "[id=\"logo\"]",
+          "text": "Sal&atilde;o de Beleza"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Home"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Sal&atilde;o"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Servi&ccedil;os"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Produtos"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "Fale Conosco"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "O Sal&atilde;o de Beleza"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "text": "Desde a inf&acirc;ncia, Salete, demonstrava interesse pela profiss&atilde;o e muito talento, quando fazia seus primeiros e famosos penteados nos cabelos de amigos e familiares de S&atilde;o Bento Baixo (Nova Veneza, Santa Catarina), localidade onde nasceu."
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "text": "Aos 14 anos, mesmo com a dificuldade de aprendizado da &eacute;poca e escassez de oportunidades, iniciou um curso de cabeleireiros por correspond&ecirc;ncia. J&aacute; com 19 anos, mudou-se para Florian&oacute;polis/SC, onde passou a trabalhar como cabeleireira em um dos mais conceituados salões de beleza da cidade, o que lhe deu a sua primeira oportunidade de adquirir experi&ecirc;ncia, partindo da&iacute; para uma carreira de muito sucesso."
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3)",
+          "text": "No in&iacute;cio de 1966, a convite de uma cabeleireira de Crici&uacute;ma/SC, Salete retornou ao sul de Santa Catarina, onde fixou resid&ecirc;ncia, adquirindo em novembro do mesmo ano o seu primeiro e &uacute;nico sal&atilde;o de beleza , conhecido em todo o Estado, marca que leva seu nome."
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(4)",
+          "text": "Ao longo de sua carreira profissional participou de diversos cursos internacionais com os mais renomados cabeleireiros entre eles Vidal Sassoon e Academia TONI&GUY."
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(5)",
+          "text": "Ainda hoje, &eacute; participante ativa de congressos nacionais e internacionais das mais renomadas marcas e nomes da beleza mundial. N&atilde;o &eacute; a toa que seu nome sempre &eacute; destaque entre os melhores e mais lembrados profissionais do ramo ."
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "Nossos Servi&ccedil;os"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Alongamento"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Pintura"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Penteados"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Cortes"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "Escova Definitiva"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(6)",
+          "text": "Escova Progressiva"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(7)",
+          "text": "Baby Liss"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(8)",
+          "text": "Mechas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(9)",
+          "text": "Mechas 3D"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Axilas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Bu&ccedil;o"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Eg&iacute;pica"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Facial"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "&iacute;ntima"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(6)",
+          "text": "Meia Perna"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(7)",
+          "text": "Perna Completa"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(8)",
+          "text": "Virilha"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Banho de Lua"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Bronzeamento a Jato"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Massoterapia"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Colora&ccedil;&atilde;o de C&iacute;lios"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "Design de Sombrancelhas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(6)",
+          "text": "Colora&ccedil;&atilde;o de Sombrancelhas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Manicure"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Pedicure"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Unha de Gel"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Alongamento de Unhas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "Hidrata&ccedil;&atilde;o"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(6)",
+          "text": "Pintura Art&iacute;stica"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Queratina"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Botox"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Peeling"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Lifting"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "Caspa"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(6)",
+          "text": "Anti-queda"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Art&iacute;stica"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Coloca&ccedil;&atilde;o de C&iacute;lios"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Maquiagem Noturna"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Maquiagem Day by Day"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Hidromassagem"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Maquiagem"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Penteado"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Local para recep&ccedil;&atilde;o de familiares"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "Espe&ccedil;o Reservado e Privado"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "text": "Corte"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "text": "Pintura"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "text": "Lava&ccedil;&atilde;o"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "text": "Manicure"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(9) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(5)",
+          "text": "Pedicure"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "Produtos"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+          "text": "Fale Conosco"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Endere&ccedil;o Crici&uacute;ma"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+          "text": "Telefone 48 3433 1789"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > h3:nth-of-type(1)",
+          "text": "Endere&ccedil;o Balne&aacute;rio Rinc&atilde;o"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > h3:nth-of-type(1)",
+          "text": "Telefone 48 3468 1297"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(5) > h3:nth-of-type(1)",
+          "text": "E-mail"
+        }
+      ],
+      "cssColors": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "candidate-1",
+      "kind": "phone",
+      "value": "48 3433 1789",
+      "status": "unconfirmed",
+      "evidence": {
+        "pageId": "page-1",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > h3:nth-of-type(1)",
+        "quote": "Telefone 48 3433 1789"
+      }
+    },
+    {
+      "id": "candidate-2",
+      "kind": "phone",
+      "value": "48 3468 1297",
+      "status": "unconfirmed",
+      "evidence": {
+        "pageId": "page-1",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(4) > h3:nth-of-type(1)",
+        "quote": "Telefone 48 3468 1297"
+      }
+    }
+  ],
+  "ambiguities": [
+    {
+      "kind": "phone",
+      "values": [
+        "48 3433 1789",
+        "48 3468 1297"
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-09T21:35:21.636Z"
+}

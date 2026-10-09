@@ -1,0 +1,85 @@
+{
+  "method": "image-inspection",
+  "reviewedBy": "prospector-agent",
+  "reviewedAt": "2026-10-09T02:13:41.925Z",
+  "inspections": [
+    {
+      "path": "leads/iorc-odontologia/screenshots/site-desktop.png",
+      "sha256": "aa4f7f66751ce61f381f6cb340ccfd4fa78c3ff5411a0e133659d79e725631cd",
+      "finding": "Barra superior com contatos, logo central IORC Odontologia em azul petróleo, navegação horizontal e banner Invisalign com foco em alinhadores e paciente com sorriso alinhado.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 600,
+          "description": "Barra superior institucional com telefone e endereço, logotipo centralizado e cabeçalho de navegação."
+        }
+      ]
+    },
+    {
+      "path": "leads/iorc-odontologia/screenshots/site-desktop-full.png",
+      "sha256": "c1b3999440f97b4c8bba7e8b243b4bd618314368fe9f62d1ed7846e21d687a23",
+      "finding": "Página longa apresentando tratamentos de ortodontia e implantes, marcas parceiras (Invisalign, ClearCorrect, Neodent), infraestrutura e formulário de agendamento.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1265,
+          "height": 800,
+          "description": "Primeira dobra e seções iniciais com catálogo de serviços ortodônticos e clínicos."
+        }
+      ]
+    },
+    {
+      "path": "leads/iorc-odontologia/screenshots/site-mobile.png",
+      "sha256": "344998547f7942a620b09a7febfa84848c8d1db0e1584f9450863fd6ec61d953",
+      "finding": "Fundo escuro azul petróleo na primeira dobra mobile com apenas botão flutuante de WhatsApp; o banner do slider falhou em carregar na primeira visualização móvel.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 600,
+          "description": "Área da primeira dobra mobile sem renderização imediata do conteúdo textual ou da imagem promocional."
+        }
+      ]
+    },
+    {
+      "path": "leads/iorc-odontologia/screenshots/site-mobile-full.png",
+      "sha256": "e07de65838b766576a17851d03d93403fcf08f36be9ad77fd775c54f482676a7",
+      "finding": "Versão mobile completa exibindo repetição de menus e blocos verticais longos com espaçamento excessivo entre tratamentos e parceiros.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 800,
+          "description": "Estrutura vertical mobile com blocos informativos e lista de especialidades."
+        }
+      ]
+    }
+  ],
+  "firstFold": {
+    "desktop": "Logotipo IORC em destaque com contatos no topo e banner horizontal do alinhador Invisalign com botão de WhatsApp.",
+    "mobile": "Falha de carregamento do banner inicial, exibindo fundo escuro uniforme e botão de contato flutuante."
+  },
+  "preserve": [
+    "Identidade cromática azul petróleo corporativa (#0a3e52)",
+    "Parcerias tecnológicas de referência (Invisalign, ClearCorrect, Neodent)",
+    "Autoridade do Dr. Fabio Takachi Hase e histórico de mais de 25 anos em Curitiba"
+  ],
+  "improve": [
+    "Garantir carregamento imediato e responsivo no mobile sem telas vazias",
+    "Modernizar a composição com grid editorial e tipografia médica sofisticada",
+    "Estruturar as 3 unidades (Boqueirão matriz, Sítio Cercado e Centro) de forma clara"
+  ],
+  "limitations": [
+    "Inspeção baseada nas capturas CDP sem interação manual de formulários",
+    "Alguns elementos de slider dependiam de scripts dinâmicos de terceiros"
+  ],
+  "visualQualityScore": 5.2,
+  "scoreReason": "Site possui paleta sólida e fotos clínicas reais, mas a primeira dobra mobile falhou criticamente e a diagramação desktop carece de hierarquia contemporânea.",
+  "redesignOpportunityScore": 78,
+  "opportunityReason": "Grande oportunidade para elevar o IORC ao nível de clínicas premium e centros odontológicos de ponta, valorizando a infraestrutura de 4.000 m² e os 30 anos de excelência."
+}

@@ -1,0 +1,113 @@
+{
+  "method": "image-inspection",
+  "reviewedBy": "prospector-agent",
+  "reviewedAt": "2026-10-09T13:01:53.921Z",
+  "inspections": [
+    {
+      "path": "leads/brotto-campelo/screenshots/site-desktop.png",
+      "sha256": "366a2d39b93a1d1e6f175725c24e7ef3458a08ef042efdcd6ba510b697cad76f",
+      "finding": "Cabeçalho institucional com logo horizontal Brotto Campelo Advogados, menu de navegação, chamada principal \"Soluções jurídicas inovadoras\" e imagem executiva dos sócios-fundadores.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 120,
+          "description": "Barra de navegação superior com logotipo oficial e menus de especialidades."
+        },
+        {
+          "x": 0,
+          "y": 120,
+          "width": 1280,
+          "height": 780,
+          "description": "Primeira dobra desktop com headline institucional e retrato dos sócios-fundadores."
+        }
+      ]
+    },
+    {
+      "path": "leads/brotto-campelo/screenshots/site-desktop-full.png",
+      "sha256": "db9b4ae4daf94787404e36c9576d05d0d91e4d4349e85386821b6a96281e8b18",
+      "finding": "Página longa em Elementor com galeria de selos Análise Advocacia, lista de áreas de atuação empresarial, corpo societário, artigos recentes e rodapé com endereço no Bigorrilho.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1265,
+          "height": 1200,
+          "description": "Abertura institucional, apresentação do escritório e selos Análise Advocacia."
+        },
+        {
+          "x": 0,
+          "y": 1200,
+          "width": 1265,
+          "height": 2000,
+          "description": "Grade de especialidades jurídicas e apresentação dos advogados sócios."
+        }
+      ]
+    },
+    {
+      "path": "leads/brotto-campelo/screenshots/site-mobile.png",
+      "sha256": "3f3d47aa8712d36be926a1bdd625d8c544f05bfe95cceaf6c94f6f50528df6a5",
+      "finding": "Primeira dobra mobile com logo BCA, menu hambúrguer, chamada de abertura e botão de ação; tipografia um pouco dispersa e margens apertadas.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 100,
+          "description": "Barra móvel superior com menu e identificação do escritório."
+        },
+        {
+          "x": 0,
+          "y": 100,
+          "width": 390,
+          "height": 744,
+          "description": "Primeira dobra mobile com headline e início do bloco institucional."
+        }
+      ]
+    },
+    {
+      "path": "leads/brotto-campelo/screenshots/site-mobile-full.png",
+      "sha256": "0d251294eee0d3e8c1db3c16bdb3489f6d56eed78331a3754029a48f4e9b265f",
+      "finding": "Extensa rolagem mobile verticalizada (9.405px) resultante da estrutura do Elementor, empilhando todos os selos e artigos em coluna única.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1500,
+          "description": "Seções iniciais mobile com áreas de atuação e reconhecimentos."
+        },
+        {
+          "x": 0,
+          "y": 1500,
+          "width": 390,
+          "height": 2000,
+          "description": "Lista vertical de artigos e informações de contato no rodapé."
+        }
+      ]
+    }
+  ],
+  "firstFold": {
+    "desktop": "Cabeçalho sóbrio com logo BCA, chamada \"Soluções jurídicas inovadoras\" e fotografia de Natália Brotto e Ricardo Campelo.",
+    "mobile": "Cabeçalho compacto, chamada principal e início da mensagem institucional em viewport 390x844."
+  },
+  "preserve": [
+    "Marca corporativa e paleta sóbria em azul profundo/petróleo e cinzas refinados",
+    "Chancelas e selos oficiais do Análise Advocacia (Escritório Mais Admirado)",
+    "Identidade dos sócios-fundadores Natália Brotto e Ricardo Campelo e endereço no Bigorrilho"
+  ],
+  "improve": [
+    "Substituir a rolagem excessiva do Elementor (9.405px no mobile) por hierarquia concisa e de alto impacto executivo",
+    "Elevar a tipografia e o espaçamento editorial para estética jurídica moderna de prestígio (Boutique Jurídica Corporativa)",
+    "Destacar canais diretos de contato e agendamento de consulta jurídica de forma imediata na primeira dobra"
+  ],
+  "limitations": [
+    "Capturas realizadas via Chrome CDP na versão pública do WordPress",
+    "Sem acesso a métricas de conversão interna ou CRM"
+  ],
+  "visualQualityScore": 5.6,
+  "scoreReason": "Site original possui identidade profissional digna e selos autênticos, mas a implementação em WordPress/Elementor gera rolagem excessiva de 9.400px no celular e perde impacto editorial executivo.",
+  "redesignOpportunityScore": 82,
+  "opportunityReason": "Potencial extraordinário para posicionar o Brotto Campelo como escritório de advocacia empresarial de prestígio nacional, com direção de arte refinada e composição sob medida."
+}

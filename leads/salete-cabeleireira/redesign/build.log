@@ -1,0 +1,36 @@
+[2m19:23:50[22m [34m[types][39m Generated [2m105ms[22m
+[2m19:23:50[22m [34m[build][39m output: [34m"static"[39m
+[2m19:23:50[22m [34m[build][39m mode: [34m"server"[39m
+[2m19:23:50[22m [34m[build][39m directory: [34mD:\projetos antigravity\Site automatico\dist\[39m
+[2m19:23:50[22m [34m[build][39m adapter: [32m@astrojs/vercel[39m
+[2m19:23:50[22m [34m[build][39m Collecting build info...
+[2m19:23:50[22m [34m[build][39m [32m✓ Completed in 385ms.[39m
+[2m19:23:50[22m [34m[build][39m Building server entrypoints...
+[33m[1m19:23:56[22m [WARN] [vite][39m 
+assets/cba83117577964aa_aa933a24-d4de-4c67-83f6-b8676b.webp referenced in assets/cba83117577964aa_aa933a24-d4de-4c67-83f6-b8676b.webp didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[33m[1m19:23:56[22m [WARN] [vite][39m 
+assets/a5387a0b-52c6-40c2-b3be-ef8632_5ea829d0de5b.webp referenced in assets/a5387a0b-52c6-40c2-b3be-ef8632_5ea829d0de5b.webp didn't resolve at build time, it will remain unchanged to be resolved at runtime
+[2m19:23:56[22m [34m[vite][39m [32m✓ built in 6.17s[39m
+[2m19:24:03[22m [34m[vite][39m [32m✓ built in 6.71s[39m
+[2m19:24:04[22m [34m[vite][39m [32m✓ built in 1.42s[39m
+
+[42m[30m prerendering static routes [39m[49m
+[2m19:24:04[22m   [34m├─[39m [2m/brotto-campelo/index.html[22m [2m(+151ms)[22m 
+[2m19:24:05[22m   [34m├─[39m [2m/cadas-arquitetura/index.html[22m [2m(+7ms)[22m 
+[2m19:24:05[22m   [34m├─[39m [2m/delta-pan/index.html[22m [2m(+5ms)[22m 
+[2m19:24:05[22m   [34m├─[39m [2m/dl-cabeleireiros/index.html[22m [2m(+4ms)[22m 
+[2m19:24:05[22m   [34m├─[39m [2m/iorc-odontologia/index.html[22m [2m(+13ms)[22m 
+[2m19:24:05[22m   [34m├─[39m [2m/juliana-pippi-arquitetura/index.html[22m [2m(+6ms)[22m 
+[2m19:24:05[22m   [34m├─[39m [2m/metalurgica-sao-jorge/index.html[22m [2m(+22ms)[22m 
+[2m19:24:05[22m   [34m├─[39m [2m/salete-cabeleireira/index.html[22m [2m(+5ms)[22m 
+[2m19:24:05[22m [32m✓ Completed in 280ms.
+[39m
+[2m19:24:05[22m [34m[build][39m Rearranging server assets...
+[2m19:24:05[22m [34m[build][39m [32m✓ Completed in 14.67s.[39m
+[2m19:24:05[22m [34m[@astrojs/vercel][39m Bundling function ..\..\server\entry.mjs
+[2m19:24:08[22m [34m[build][39m Waiting for integration [1m"@astrojs/vercel"[22m, hook [1m"astro:build:done"[22m...
+[2m19:24:11[22m [34m[@astrojs/vercel][39m Copying static files to .vercel/output/static
+[2m19:24:13[22m [34m[build][39m Server built in [1m23.59s[22m
+[2m19:24:13[22m [34m[build][39m [1mComplete![22m
+
+

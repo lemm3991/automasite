@@ -1,0 +1,74 @@
+{
+  "lead": "metalurgica-sao-jorge",
+  "name": "Metalúrgica São Jorge",
+  "artDirectionFile": "leads/metalurgica-sao-jorge/referencias/art-direction.json",
+  "creativeBriefFile": "leads/metalurgica-sao-jorge/referencias/creative-brief.md",
+  "designSelectionFile": "leads/metalurgica-sao-jorge/referencias/design-selection.json",
+  "chosenDirection": "Metalúrgica São Jorge: Industrial & Presença Fabril",
+  "adequacyScore": 91,
+  "fingerprint": {
+    "heroType": "Split Hero com Evidência da Fábrica e Badges de Tradição",
+    "selectedVariants": [
+      "Header01",
+      "Hero07",
+      "About01",
+      "Services01",
+      "Features02",
+      "Showcase01",
+      "Contact01",
+      "CTA04",
+      "Footer08"
+    ],
+    "sectionOrder": [
+      "hero",
+      "empresa",
+      "servicos",
+      "condicoes-comerciais",
+      "portfolio",
+      "contato",
+      "cta-final",
+      "footer"
+    ],
+    "imageStrategy": "Destaque prioritário para a foto autêntica da fábrica (1024x683) acompanhada de badges de tradição.",
+    "gridStrategy": "Split assimétrico 60/40 no desktop com blocos robustos e tipografia condensada.",
+    "backgroundTreatment": "dark (mesh / dots / dark slate)",
+    "cardTreatment": "Bordas técnicas sutis com micro-badges de diferenciais e limites de máquina.",
+    "typography": "Inter (Headings) / Inter (Body)",
+    "ctaStyle": "cotacao-tecnica-especificacoes"
+  },
+  "similarityJustification": "Composição visual inédita e diferenciada (maior similaridade de apenas 48% com o portfólio anterior).",
+  "visualTokens": {
+    "themeMode": "dark",
+    "primaryColor": "#0f172a",
+    "secondaryColor": "#1e293b",
+    "accentColor": "#dc2626",
+    "backgroundColor": "#090d16",
+    "textColor": "#f8fafc",
+    "headingFont": "Inter",
+    "bodyFont": "Inter"
+  },
+  "keyAssets": {
+    "logo": {
+      "path": "/assets/clients/metalurgica-sao-jorge/01-sjorge_corte_e_dobra_de_chapas48.png",
+      "evidence": "Logo oficial do cliente (1 arquivos disponíveis)"
+    },
+    "heroMain": {
+      "path": "/assets/clients/metalurgica-sao-jorge/04-sjorge_corte_e_dobra_de_chapas44.png",
+      "evidence": "Imagem autêntica de cabeçalho identificada nos assets"
+    },
+    "facilityPhoto": {
+      "path": "/assets/clients/metalurgica-sao-jorge/03-sjorge_corte_e_dobra_de_chapas93.jpg",
+      "evidence": "Fotografia autêntica das instalações (1 disponíveis)"
+    },
+    "portfolioItemsCount": 20
+  },
+  "blueprintSectionsCount": 8,
+  "status": "READY_FOR_BUILDER",
+  "auditReport": {
+    "passed": true,
+    "timestamp": "2026-10-06T14:15:56.522Z",
+    "objectiveChecksCount": 12,
+    "qualitativeEvaluationsCount": 4,
+    "warningsCount": 0
+  }
+}

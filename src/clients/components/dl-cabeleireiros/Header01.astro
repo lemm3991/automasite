@@ -1,0 +1,9 @@
+---
+import './salon.css';
+const { content, client } = Astro.props;
+---
+<header id="inicio" class="dl-header">
+  <a class="dl-brand" href="#inicio" aria-label="D&L Cabeleireiros — início"><img id="dl-logo" src={client.business.logo} alt={client.business.name} width="90" height="60" /><span>D&L <small>CABELEIREIROS</small></span></a>
+  <nav aria-label="Navegação principal">{content.navLinks.map(link => <a href={link.href}>{link.label}</a>)}</nav>
+  <a class="dl-nav-cta" href="#unidades">Agendar <span aria-hidden="true">↗</span></a>
+</header>

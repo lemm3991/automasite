@@ -1,0 +1,80 @@
+{
+  "slug": "dl-cabeleireiros",
+  "client": "D&L Cabeleireiros",
+  "domain": "dlcabeleireiro.com",
+  "auditTimestamp": "2026-10-07T14:26:29.171Z",
+  "sitemapsInspected": [
+    "/sitemap.xml",
+    "/wp-sitemap.xml",
+    "/page-sitemap.xml",
+    "/sitemap_index.xml",
+    "/robots.txt"
+  ],
+  "realPages": [
+    {
+      "url": "https://dlcabeleireiro.com",
+      "type": "ROTA_REAL_PRINCIPAL",
+      "category": "home",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 251266
+    },
+    {
+      "url": "https://dlcabeleireiro.com/",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 251266
+    },
+    {
+      "url": "https://dlcabeleireiro.com/agendamentos",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/agendamentos/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 99840
+    },
+    {
+      "url": "https://dlcabeleireiro.com/servicos",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/servicos/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 141680
+    },
+    {
+      "url": "https://dlcabeleireiro.com/galeria",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/galeria/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 92168
+    },
+    {
+      "url": "https://dlcabeleireiro.com/agende-seu-horrio",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/agende-seu-horrio/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 80866
+    },
+    {
+      "url": "https://dlcabeleireiro.com/agende-seu-horrio-1",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/agende-seu-horrio-1/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 80657
+    },
+    {
+      "url": "https://dlcabeleireiro.com/agende-seu-horrio-2",
+      "type": "ROTA_REAL_SITEMAP",
+      "category": "outros",
+      "localPath": "referencias/site-baixado/agende-seu-horrio-2/index.html",
+      "status": "DOWNLOADED",
+      "bytes": 80952
+    }
+  ],
+  "homeAnchors": []
+}

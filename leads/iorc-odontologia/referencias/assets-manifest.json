@@ -1,0 +1,803 @@
+{
+  "slug": "iorc-odontologia",
+  "client": "IORC Odontologia",
+  "inventoryTimestamp": "2026-10-09T02:05:49.305Z",
+  "totalDiscovered": 22,
+  "totalDownloaded": 22,
+  "assets": [
+    {
+      "id": "asset-1",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "category": "logo",
+        "description": "Logotipo horizontal do IORC Odontologia com tipografia estilizada em tom azul petróleo.",
+        "observableDetails": [
+          "Letras IORC em formato arredondado estilizado",
+          "Palavra Odontologia sublinhada abaixo do monograma"
+        ],
+        "allowedCaptions": [
+          "IORC Odontologia",
+          "Logotipo IORC"
+        ],
+        "provenance": "client-source",
+        "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "01-cropped-logo-horizontal-300x136.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2023/07/cropped-logo-horizontal-300x136.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "localRefPath": "referencias/site-baixado/assets/01-cropped-logo-horizontal-300x136.png",
+      "dimensions": {
+        "width": 300,
+        "height": 136
+      },
+      "format": "png",
+      "fileSizeBytes": 5726,
+      "altOriginal": "",
+      "downloadStatus": "SUCCESS",
+      "sha256": "f5e597277eca2e5f0a1f3df258bd2b0e8719e6d240431e102336a24a27a00825"
+    },
+    {
+      "id": "asset-2",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/02-invisalign.png",
+        "category": "service",
+        "description": "Logotipo oficial da marca Invisalign com flor de lótus estilizada azul.",
+        "observableDetails": [
+          "Símbolo floral estilizado em tons de azul",
+          "Tipografia da marca Invisalign em caixa baixa"
+        ],
+        "allowedCaptions": [
+          "Alinhadores Invisalign",
+          "Tratamento com Invisalign"
+        ],
+        "provenance": "client-source",
+        "sha256": "4dacc13bf93869e080e7288408cd29c5013a5e7533d7b50e0c23a2b966468a85",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "02-invisalign.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/10/invisalign.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/02-invisalign.png",
+      "localRefPath": "referencias/site-baixado/assets/02-invisalign.png",
+      "dimensions": {
+        "width": 297,
+        "height": 68
+      },
+      "format": "png",
+      "fileSizeBytes": 4089,
+      "altOriginal": "invisalign",
+      "downloadStatus": "SUCCESS",
+      "sha256": "4dacc13bf93869e080e7288408cd29c5013a5e7533d7b50e0c23a2b966468a85"
+    },
+    {
+      "id": "asset-3",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/03-clearcorrect-300x48.png",
+        "category": "service",
+        "description": "Logotipo oficial da marca de alinhadores transparentes ClearCorrect.",
+        "observableDetails": [
+          "Nome ClearCorrect em tipografia limpa",
+          "Letra C inicial em destaque gráfico"
+        ],
+        "allowedCaptions": [
+          "Alinhadores ClearCorrect",
+          "Tratamento ClearCorrect"
+        ],
+        "provenance": "client-source",
+        "sha256": "d570190ab94e34e8b36ad504557226cedc37dc224755a22a5702653898c1f8a9",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "03-clearcorrect-300x48.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/11/clearcorrect-300x48.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/03-clearcorrect-300x48.png",
+      "localRefPath": "referencias/site-baixado/assets/03-clearcorrect-300x48.png",
+      "dimensions": {
+        "width": 300,
+        "height": 48
+      },
+      "format": "png",
+      "fileSizeBytes": 5090,
+      "altOriginal": "clearcorrect",
+      "downloadStatus": "SUCCESS",
+      "sha256": "d570190ab94e34e8b36ad504557226cedc37dc224755a22a5702653898c1f8a9"
+    },
+    {
+      "id": "asset-4",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/04-neodent-logo-color-no-claim.png",
+        "category": "service",
+        "description": "Logotipo de parceiro Neodent para implantes dentários.",
+        "observableDetails": [
+          "Nome Neodent em tipografia sem serifa",
+          "Grafismo corporativo colorido"
+        ],
+        "allowedCaptions": [
+          "Implantes Neodent",
+          "Tecnologia Neodent"
+        ],
+        "provenance": "client-source",
+        "sha256": "558039c455f06efeb29c1636a61e5f0f248edaf2006e599fe14f5404ee51d304",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "04-neodent-logo-color-no-claim.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/10/neodent-logo-color-no-claim.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/04-neodent-logo-color-no-claim.png",
+      "localRefPath": "referencias/site-baixado/assets/04-neodent-logo-color-no-claim.png",
+      "dimensions": {
+        "width": 294,
+        "height": 59
+      },
+      "format": "png",
+      "fileSizeBytes": 3916,
+      "altOriginal": "neodent-logo-color-no-claim",
+      "downloadStatus": "SUCCESS",
+      "sha256": "558039c455f06efeb29c1636a61e5f0f248edaf2006e599fe14f5404ee51d304"
+    },
+    {
+      "id": "asset-5",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/05-eurodonto_f.png",
+        "category": "service",
+        "description": "Marca de fornecedor odontológico Eurodonto.",
+        "observableDetails": [
+          "Tipografia corporativa Eurodonto",
+          "Emblema em tons escuros"
+        ],
+        "allowedCaptions": [
+          "Materiais Eurodonto",
+          "Parceiro Eurodonto"
+        ],
+        "provenance": "client-source",
+        "sha256": "72bed3f8aaccb713318e0e29250a6f3736475d271ba271386fd40b161110aa0c",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "05-eurodonto_f.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/10/eurodonto_f.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/05-eurodonto_f.png",
+      "localRefPath": "referencias/site-baixado/assets/05-eurodonto_f.png",
+      "dimensions": {
+        "width": 300,
+        "height": 77
+      },
+      "format": "png",
+      "fileSizeBytes": 5218,
+      "altOriginal": "eurodonto_f",
+      "downloadStatus": "SUCCESS",
+      "sha256": "72bed3f8aaccb713318e0e29250a6f3736475d271ba271386fd40b161110aa0c"
+    },
+    {
+      "id": "asset-6",
+      "category": "decoration",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/06-163215_.png",
+        "category": "decoration",
+        "description": "Selo gráfico de certificação ou convênio odontológico.",
+        "observableDetails": [
+          "Selo gráfico retangular",
+          "Tipografia institucional"
+        ],
+        "allowedCaptions": [
+          "Certificação e convênios",
+          "Padrão de qualidade"
+        ],
+        "provenance": "client-source",
+        "sha256": "ddec1d483868a5815448baed210c07d37159b7012983263eda5db862df18f1ee",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "06-163215_.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/10/163215_.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/06-163215_.png",
+      "localRefPath": "referencias/site-baixado/assets/06-163215_.png",
+      "dimensions": {
+        "width": 296,
+        "height": 83
+      },
+      "format": "png",
+      "fileSizeBytes": 8691,
+      "altOriginal": "163215_",
+      "downloadStatus": "SUCCESS",
+      "sha256": "ddec1d483868a5815448baed210c07d37159b7012983263eda5db862df18f1ee"
+    },
+    {
+      "id": "asset-7",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/07-Quinelato-Logo-Oficial-PNG.png",
+        "category": "service",
+        "description": "Logotipo do fabricante de instrumentos cirúrgicos Quinelato.",
+        "observableDetails": [
+          "Nome Quinelato em tipografia institucional",
+          "Marca registrada cirúrgica"
+        ],
+        "allowedCaptions": [
+          "Instrumental Quinelato",
+          "Precisão cirúrgica Quinelato"
+        ],
+        "provenance": "client-source",
+        "sha256": "a5d6ad7ed98d078ae0744c4eba637f83fe5bfd6492b0e40efa4e6d33b6c63af1",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "07-Quinelato-Logo-Oficial-PNG.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/10/Quinelato-Logo-Oficial-PNG.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/07-Quinelato-Logo-Oficial-PNG.png",
+      "localRefPath": "referencias/site-baixado/assets/07-Quinelato-Logo-Oficial-PNG.png",
+      "dimensions": {
+        "width": 300,
+        "height": 73
+      },
+      "format": "png",
+      "fileSizeBytes": 5258,
+      "altOriginal": "Quinelato-Logo-Oficial-PNG",
+      "downloadStatus": "SUCCESS",
+      "sha256": "a5d6ad7ed98d078ae0744c4eba637f83fe5bfd6492b0e40efa4e6d33b6c63af1"
+    },
+    {
+      "id": "asset-8",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/08-unigloves-scaled-1.png",
+        "category": "service",
+        "description": "Logotipo da fabricante de luvas e biossegurança Unigloves.",
+        "observableDetails": [
+          "Marca Unigloves em letras azuis",
+          "Identidade visual de biossegurança"
+        ],
+        "allowedCaptions": [
+          "Biossegurança Unigloves",
+          "Materiais certificados"
+        ],
+        "provenance": "client-source",
+        "sha256": "8b0c03c1b1db51cb20dcbebcb0aee1b427a13d7839d4650bf1a363c87e19a271",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "08-unigloves-scaled-1.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/10/unigloves-scaled-1.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/08-unigloves-scaled-1.png",
+      "localRefPath": "referencias/site-baixado/assets/08-unigloves-scaled-1.png",
+      "dimensions": {
+        "width": 300,
+        "height": 54
+      },
+      "format": "png",
+      "fileSizeBytes": 2529,
+      "altOriginal": "unigloves-scaled",
+      "downloadStatus": "SUCCESS",
+      "sha256": "8b0c03c1b1db51cb20dcbebcb0aee1b427a13d7839d4650bf1a363c87e19a271"
+    },
+    {
+      "id": "asset-9",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/09-ortodontia-768x512.jpeg",
+        "category": "service",
+        "description": "Fotografia de procedimento ortodôntico e alinhamento dental.",
+        "observableDetails": [
+          "Aparelho ou estrutura de alinhamento em foco clínico",
+          "Ambiente odontológico higienizado"
+        ],
+        "allowedCaptions": [
+          "Tratamento Ortodôntico",
+          "Ortodontia Especializada"
+        ],
+        "provenance": "client-source",
+        "sha256": "abbc7bc24275ad8bd64a8579dac9d792d75deded669f421d4a6bcb68d39d10e5",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "09-ortodontia-768x512.jpeg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2021/10/ortodontia-768x512.jpeg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/09-ortodontia-768x512.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/09-ortodontia-768x512.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 512
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 37918,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "abbc7bc24275ad8bd64a8579dac9d792d75deded669f421d4a6bcb68d39d10e5"
+    },
+    {
+      "id": "asset-10",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/10-implante-768x512.jpeg",
+        "category": "service",
+        "description": "Fotografia clínica demonstrativa de prótese e implante dentário.",
+        "observableDetails": [
+          "Modelo de reabilitação oral e implante",
+          "Instrumentação cirúrgica próxima"
+        ],
+        "allowedCaptions": [
+          "Implantes Dentários",
+          "Reabilitação Oral"
+        ],
+        "provenance": "client-source",
+        "sha256": "08e9da28d0639e95ac71f3cabe29ef63c9885fb904d19cf71c5c2937b84d4b0f",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "10-implante-768x512.jpeg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2021/10/implante-768x512.jpeg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/10-implante-768x512.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/10-implante-768x512.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 512
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 32553,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "08e9da28d0639e95ac71f3cabe29ef63c9885fb904d19cf71c5c2937b84d4b0f"
+    },
+    {
+      "id": "asset-11",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg",
+        "category": "service",
+        "description": "Paciente jovem sorrindo em consulta odontológica de avaliação.",
+        "observableDetails": [
+          "Paciente do sexo feminino com sorriso saudável",
+          "Consultório odontológico iluminado ao fundo"
+        ],
+        "allowedCaptions": [
+          "Consulta e Avaliação Odontológica",
+          "Atendimento Humanizado"
+        ],
+        "provenance": "stock",
+        "sha256": "73834f2b37f04b10e36254ffa383b25ede57fc6f7bb0a56448d08bf750aa580b",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "11-young-woman-consulting-dentist-768x512.jpg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/10/young-woman-consulting-dentist-768x512.jpg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg",
+      "localRefPath": "referencias/site-baixado/assets/11-young-woman-consulting-dentist-768x512.jpg",
+      "dimensions": {
+        "width": 768,
+        "height": 512
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 30620,
+      "altOriginal": "Young Woman Consulting Dentist",
+      "downloadStatus": "SUCCESS",
+      "sha256": "73834f2b37f04b10e36254ffa383b25ede57fc6f7bb0a56448d08bf750aa580b"
+    },
+    {
+      "id": "asset-12",
+      "category": "service",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/12-facetas2-768x512.jpeg",
+        "category": "service",
+        "description": "Fotografia demonstrativa de facetas em porcelana e estética dental.",
+        "observableDetails": [
+          "Demonstração de lâminas estéticas e sorriso alinhado",
+          "Iluminação clínica destacando a textura dental"
+        ],
+        "allowedCaptions": [
+          "Facetas em Porcelana e Lentes",
+          "Estética Dental Avançada"
+        ],
+        "provenance": "client-source",
+        "sha256": "fa8c56ce0ee98e2d82dacea720ca2bdf98dc0202399c593b3f597e7b32d12cec",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "12-facetas2-768x512.jpeg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2021/10/facetas2-768x512.jpeg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/12-facetas2-768x512.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/12-facetas2-768x512.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 512
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 47189,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "fa8c56ce0ee98e2d82dacea720ca2bdf98dc0202399c593b3f597e7b32d12cec"
+    },
+    {
+      "id": "asset-13",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/13-Tooth.png",
+        "category": "icon",
+        "description": "Ícone linear estilizado de um dente com traço fino.",
+        "observableDetails": [
+          "Formato anatômico de molar estilizado",
+          "Fundo transparente com traços azuis"
+        ],
+        "allowedCaptions": [
+          "Ícone Dente",
+          "Saúde Bucal"
+        ],
+        "provenance": "client-source",
+        "sha256": "117ce4237dbf8802ce15111739520e05bbf04aa7c31b3ffa6a4dc7c200cd6041",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "13-Tooth.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/09/Tooth.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/13-Tooth.png",
+      "localRefPath": "referencias/site-baixado/assets/13-Tooth.png",
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      },
+      "format": "png",
+      "fileSizeBytes": 1386,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "117ce4237dbf8802ce15111739520e05bbf04aa7c31b3ffa6a4dc7c200cd6041"
+    },
+    {
+      "id": "asset-14",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/14-whitening.png",
+        "category": "icon",
+        "description": "Ícone estilizado de clareamento dental com brilhos luminosos.",
+        "observableDetails": [
+          "Dente com elementos de brilho e reflexo ao redor",
+          "Arte vetorial simplificada para procedimentos"
+        ],
+        "allowedCaptions": [
+          "Ícone Clareamento Dental",
+          "Tratamentos Estéticos"
+        ],
+        "provenance": "client-source",
+        "sha256": "8bb49e2128ea45ec3dc5c4af743336c908c07acbdc0b01c79ae81536d84f0708",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "14-whitening.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/09/whitening.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/14-whitening.png",
+      "localRefPath": "referencias/site-baixado/assets/14-whitening.png",
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      },
+      "format": "png",
+      "fileSizeBytes": 1588,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "8bb49e2128ea45ec3dc5c4af743336c908c07acbdc0b01c79ae81536d84f0708"
+    },
+    {
+      "id": "asset-15",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/15-braces.png",
+        "category": "icon",
+        "description": "Ícone de aparelho ortodôntico estilizado sobre dentes.",
+        "observableDetails": [
+          "Braquetes representados graficamente com fio metálico",
+          "Design linear e minimalista"
+        ],
+        "allowedCaptions": [
+          "Ícone Aparelho Dentário",
+          "Ortodontia"
+        ],
+        "provenance": "client-source",
+        "sha256": "9b9feeb94cce32616cf437626211e9657841575fca61e6d8b1acec7690fbf645",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "15-braces.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/09/braces.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/15-braces.png",
+      "localRefPath": "referencias/site-baixado/assets/15-braces.png",
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      },
+      "format": "png",
+      "fileSizeBytes": 1495,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "9b9feeb94cce32616cf437626211e9657841575fca61e6d8b1acec7690fbf645"
+    },
+    {
+      "id": "asset-16",
+      "category": "icon",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/16-tooth-insurance.png",
+        "category": "icon",
+        "description": "Ícone de proteção e garantia odontológica com escudo protetor.",
+        "observableDetails": [
+          "Escudo envolvendo o contorno do elemento dental",
+          "Design informativo de garantia e segurança"
+        ],
+        "allowedCaptions": [
+          "Ícone Proteção Dental",
+          "Prevenção e Cuidados"
+        ],
+        "provenance": "client-source",
+        "sha256": "88569f613437bbaeef9f2507b4866d8ebef4fa2bc3c1be8a14b8075f44b85464",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "16-tooth-insurance.png",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/09/tooth-insurance.png",
+      "localPublicPath": "/assets/clients/iorc-odontologia/16-tooth-insurance.png",
+      "localRefPath": "referencias/site-baixado/assets/16-tooth-insurance.png",
+      "dimensions": {
+        "width": 256,
+        "height": 256
+      },
+      "format": "png",
+      "fileSizeBytes": 1596,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "88569f613437bbaeef9f2507b4866d8ebef4fa2bc3c1be8a14b8075f44b85464"
+    },
+    {
+      "id": "asset-17",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/17-Celso-Pilati-0300-768x432.jpg",
+        "category": "environment",
+        "description": "Fotografia da fachada e acesso de uma das unidades do IORC.",
+        "observableDetails": [
+          "Edificação comercial com identificação visual",
+          "Acesso e calçada urbana de Curitiba"
+        ],
+        "allowedCaptions": [
+          "Unidade IORC",
+          "Estrutura da Clínica"
+        ],
+        "provenance": "client-source",
+        "sha256": "7c66aab2dc3825fc945a08956b92c9303d3dfea3076871a706ee7d3738627717",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "17-Celso-Pilati-0300-768x432.jpg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/11/Celso-Pilati-0300-768x432.jpg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/17-Celso-Pilati-0300-768x432.jpg",
+      "localRefPath": "referencias/site-baixado/assets/17-Celso-Pilati-0300-768x432.jpg",
+      "dimensions": {
+        "width": 768,
+        "height": 432
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 60485,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "7c66aab2dc3825fc945a08956b92c9303d3dfea3076871a706ee7d3738627717"
+    },
+    {
+      "id": "asset-18",
+      "category": "environment",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg",
+        "category": "environment",
+        "description": "Ambiente interno da clínica com consultórios amplos e climatizados.",
+        "observableDetails": [
+          "Consultório odontológico com cadeira moderna e equipamentos",
+          "Iluminação natural e ambiente acolhedor"
+        ],
+        "allowedCaptions": [
+          "Estrutura e Consultórios IORC",
+          "1.800 m² de Infraestrutura"
+        ],
+        "provenance": "client-source",
+        "sha256": "a7b5308de11f2db33c463d2d33442123ac533576f6fe9061f07d0977f91d77c4",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "18-sobre-nos-768x512.jpeg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2021/10/sobre-nos-768x512.jpeg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/18-sobre-nos-768x512.jpeg",
+      "dimensions": {
+        "width": 768,
+        "height": 512
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 49120,
+      "altOriginal": "Home - IORC Odontologia",
+      "downloadStatus": "SUCCESS",
+      "sha256": "a7b5308de11f2db33c463d2d33442123ac533576f6fe9061f07d0977f91d77c4"
+    },
+    {
+      "id": "asset-19",
+      "category": "logo",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/19-iorc-odontologia-logo-1-1.svg",
+        "category": "logo",
+        "description": "Logotipo institucional em vetor SVG de alta precisão do IORC Odontologia.",
+        "observableDetails": [
+          "Curvas vetoriais limpas do nome IORC",
+          "Tipografia secundária Odontologia entre traços de apoio"
+        ],
+        "allowedCaptions": [
+          "IORC Odontologia",
+          "Marca Oficial"
+        ],
+        "provenance": "client-source",
+        "sha256": "49f562c9ecba5b6e9606e8a75f45921881559a559961619ad329fb71c63a0447",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "19-iorc-odontologia-logo-1-1.svg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/09/iorc-odontologia-logo-1-1.svg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/19-iorc-odontologia-logo-1-1.svg",
+      "localRefPath": "referencias/site-baixado/assets/19-iorc-odontologia-logo-1-1.svg",
+      "dimensions": {
+        "width": 842,
+        "height": 595
+      },
+      "format": "svg",
+      "fileSizeBytes": 6561,
+      "altOriginal": "IORC Odontologia - Logo Branco",
+      "downloadStatus": "SUCCESS",
+      "sha256": "49f562c9ecba5b6e9606e8a75f45921881559a559961619ad329fb71c63a0447"
+    },
+    {
+      "id": "asset-20",
+      "category": "decoration",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/20-WhatsApp-Image-2025-02-11-at-09.39.13.jpeg",
+        "category": "decoration",
+        "description": "Banner promocional horizontal com paciente e sorriso harmonioso.",
+        "observableDetails": [
+          "Composição horizontal panorâmica",
+          "Paciente sorrindo com elementos de design da marca"
+        ],
+        "allowedCaptions": [
+          "Banner Odontologia",
+          "Campanha de Alinhadores"
+        ],
+        "provenance": "client-source",
+        "sha256": "a28a10ebaa67dbc556f4c68dd2a57fdb98cca7a0cb7a22450936e58a65a14092",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "20-WhatsApp-Image-2025-02-11-at-09.39.13.jpeg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-11-at-09.39.13.jpeg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/20-WhatsApp-Image-2025-02-11-at-09.39.13.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/20-WhatsApp-Image-2025-02-11-at-09.39.13.jpeg",
+      "dimensions": {
+        "width": 1280,
+        "height": 400
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 39224,
+      "altOriginal": "Background CSS",
+      "downloadStatus": "SUCCESS",
+      "sha256": "a28a10ebaa67dbc556f4c68dd2a57fdb98cca7a0cb7a22450936e58a65a14092"
+    },
+    {
+      "id": "asset-21",
+      "category": "decoration",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/21-WhatsApp-Image-2025-02-11-at-09.39.30.jpeg",
+        "category": "decoration",
+        "description": "Banner institucional panorâmico de atendimento e tratamentos.",
+        "observableDetails": [
+          "Faixa horizontal panorâmica 1280x400",
+          "Mensagem de bem-estar e saúde bucal"
+        ],
+        "allowedCaptions": [
+          "Banner Institucional",
+          "Bem-estar e Saúde Bucal"
+        ],
+        "provenance": "client-source",
+        "sha256": "d3f596d94ca656b862a0463df0ed8b5c07ff76c46c0df7ed069706b1e7e5acfb",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "21-WhatsApp-Image-2025-02-11-at-09.39.30.jpeg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-11-at-09.39.30.jpeg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/21-WhatsApp-Image-2025-02-11-at-09.39.30.jpeg",
+      "localRefPath": "referencias/site-baixado/assets/21-WhatsApp-Image-2025-02-11-at-09.39.30.jpeg",
+      "dimensions": {
+        "width": 1280,
+        "height": 400
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 28955,
+      "altOriginal": "Background CSS",
+      "downloadStatus": "SUCCESS",
+      "sha256": "d3f596d94ca656b862a0463df0ed8b5c07ff76c46c0df7ed069706b1e7e5acfb"
+    },
+    {
+      "id": "asset-22",
+      "category": "decoration",
+      "classification": {
+        "path": "/assets/clients/iorc-odontologia/22-Background.jpg",
+        "category": "decoration",
+        "description": "Textura de fundo odontológico em alta resolução com tons suaves.",
+        "observableDetails": [
+          "Gradiente suave em alta resolução 1920x1080",
+          "Fundo clean para seções e contrastes"
+        ],
+        "allowedCaptions": [
+          "Textura de Fundo",
+          "Ambiente Clean"
+        ],
+        "provenance": "client-source",
+        "sha256": "860298413fccfc40ff7f9848cd39a4b87d7aeb2d40a3dc91a23880e05b58f0d9",
+        "method": "image-view",
+        "reviewedBy": "prospector-agent",
+        "reviewedAt": "2026-10-09T02:12:04.867Z",
+        "status": "verified"
+      },
+      "filename": "22-Background.jpg",
+      "originalUrl": "https://iorcpr.com.br/wp-content/uploads/2020/09/Background.jpg",
+      "localPublicPath": "/assets/clients/iorc-odontologia/22-Background.jpg",
+      "localRefPath": "referencias/site-baixado/assets/22-Background.jpg",
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "format": "jpeg",
+      "fileSizeBytes": 24509,
+      "altOriginal": "Background CSS",
+      "downloadStatus": "SUCCESS",
+      "sha256": "860298413fccfc40ff7f9848cd39a4b87d7aeb2d40a3dc91a23880e05b58f0d9"
+    }
+  ],
+  "notDownloaded": [],
+  "schemaVersion": 2
+}

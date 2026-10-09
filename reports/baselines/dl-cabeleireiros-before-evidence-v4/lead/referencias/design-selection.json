@@ -1,0 +1,48 @@
+{
+  "client": "D&L Cabeleireiros",
+  "slug": "dl-cabeleireiros",
+  "selectedDesignSystems": [
+    {
+      "name": "barbershop-landing-51.aura.build",
+      "path": "D:\\projetos antigravity\\Site automatico\\Design System\\temas_escuros\\barbershop-landing-51.aura.build\\design-system.html",
+      "adequacyScore": 53,
+      "selectionReason": "Alinhamento temático e estrutural direto com o segmento de Salão de Beleza.",
+      "elementsToUse": [
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "name": "ai-automation-17.aura.build",
+      "path": "D:\\projetos antigravity\\Site automatico\\Design System\\temas_claros\\ai-automation-17.aura.build\\design-system.html",
+      "adequacyScore": 45,
+      "selectionReason": "Padrões visuais (grid multicoluna, colunas responsivas) transferíveis com rigor ao nicho de Salão de Beleza.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Glassmorphism excessivo que possa prejudicar legibilidade",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    },
+    {
+      "name": "parallax-clean",
+      "path": "D:\\projetos antigravity\\Site automatico\\Design System\\temas_claros\\parallax-clean\\design-system.html",
+      "adequacyScore": 45,
+      "selectionReason": "Padrões visuais (grid multicoluna, colunas responsivas) transferíveis com rigor ao nicho de Salão de Beleza.",
+      "elementsToUse": [
+        "Grid responsivo para estruturação limpa de serviços e produtos",
+        "Hierarquia tipográfica robusta com badges informativos"
+      ],
+      "elementsToAvoid": [
+        "Efeitos dinâmicos complexos em dispositivos móveis",
+        "Componentes de e-commerce e carrinho de compras incompatíveis com o modelo do cliente"
+      ]
+    }
+  ]
+}

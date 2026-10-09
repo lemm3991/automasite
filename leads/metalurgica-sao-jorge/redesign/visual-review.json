@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "slug": "metalurgica-sao-jorge",
+  "status": "approved",
+  "method": "image-inspection",
+  "reviewedBy": "Codex — inspeção das imagens locais e confronto com conteúdo fonte",
+  "observations": [
+    {
+      "criterion": "hero",
+      "finding": "Desktop: fotografia real da máquina em painel amplo ao lado do título; CTA vermelho e régua de capacidades visíveis em 1440×900. Mobile: título, foto e CTA visíveis em 390×844; capacidades começam abaixo da dobra. O original mobile repetia a chamada em dois blocos e deixava grandes vazios.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png",
+        "leads/metalurgica-sao-jorge/screenshots/site-mobile.png"
+      ]
+    },
+    {
+      "criterion": "identity",
+      "finding": "Logo vermelho original preservado e legível nos dois tamanhos. A paleta escura com acento vermelho segue a direção atual do 2A e a marca; substitui o laranja e o cinza da composição anterior.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png",
+        "leads/metalurgica-sao-jorge/screenshots/site-desktop.png"
+      ]
+    },
+    {
+      "criterion": "composition",
+      "finding": "Página alterna hero escuro, tabela técnica clara, história editorial, dois materiais em linhas abertas, galeria assimétrica e contato. A oferta aparece antes da história. A sequência não é uma repetição de grades de cards.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "imagery",
+      "finding": "A foto principal mostra chapa posicionada em máquina, e não uma vista externa da fábrica. A galeria usa três fotografias selecionadas e legendas descritivas, sem atribuir furação ou usinagem pela aparência.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "legibility",
+      "finding": "Título e CTA têm contraste e escala claros. No celular, a tabela vira blocos com serviço e medidas identificados; não há corte horizontal nas capturas. Os pequenos rótulos decorativos são secundários e poderiam ganhar tamanho em um refinamento futuro.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png"
+      ]
+    },
+    {
+      "criterion": "personalization",
+      "finding": "Medidas de dobra e calandragem, dois materiais confirmados, foto da máquina e seleção de peças organizam a composição. Esses elementos refletem esta empresa e o ramo, além de mera troca de cor ou nome.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png"
+      ]
+    },
+    {
+      "criterion": "artDirection",
+      "finding": "Industrial & Presença Fabril foi materializada por fotografia importante, títulos de escala editorial, molduras técnicas, etiquetas e tabela de capacidades. Autonomous forneceu bordas/legendas; AEX, hierarquia editorial; Axion, rótulos e separadores de informações. Inter foi mantida conforme o 2A atual, sem copiar a fonte Oswald do AEX.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png"
+      ]
+    },
+    {
+      "criterion": "factualContent",
+      "finding": "Copy confrontada com site-atual.md e lead.json: experiência 50+, limites de dobra e calandragem, plasma/lambri e vendas somente carbono/galvanizada. Removidas promessas de tolerâncias e distribuição sem fonte e legendas que inferiam processos pelas fotos. A avaliação não equivale a verificação externa da capacidade fabril.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png"
+      ],
+      "sourcePaths": [
+        "leads/metalurgica-sao-jorge/referencias/site-atual.md",
+        "leads/metalurgica-sao-jorge/lead.json"
+      ]
+    },
+    {
+      "criterion": "finish",
+      "finding": "Bordas finas, alinhamento das medidas e ritmo da galeria tornam o conjunto coerente. O formulário explica que prepara uma mensagem para WhatsApp; não simula envio por backend. O contador fictício do botão flutuante foi ocultado.",
+      "evidencePaths": [
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png"
+      ]
+    }
+  ],
+  "regressions": [],
+  "regressionAssessment": "Nenhuma regressão impeditiva observada nas capturas revisadas. Esta conclusão decorre da inspeção, não do resultado do Render Validation. Redução do acervo a três fotos é uma seleção intencional para a demonstração.",
+  "improvementOpportunities": [
+    "Aumentar pequenos rótulos técnicos em refinamento futuro se o cliente desejar maior legibilidade de detalhes."
+  ],
+  "limitations": [
+    "Inspeção em 1440×900 e 390×844 e páginas completas; não cobre todos os dispositivos ou auditoria integral de acessibilidade.",
+    "Sem medição de conversão, PageSpeed novo, backend, publicação externa ou atendimento real por WhatsApp.",
+    "As fontes do próprio cliente embasam os fatos; não foi feita auditoria externa da empresa.",
+    "A aprovação vale para demonstração comercial, não para produção completa."
+  ],
+  "copyAudit": {
+    "removedFromPrevious": [
+      "tolerâncias estreitas / ângulos rigorosos como promessa",
+      "distribuição e expedição para todas as regiões do RS",
+      "furação inferida a partir de foto de peças dobradas",
+      "calandragem/curvatura inferida a partir de foto de perfis",
+      "chapas xadrez/pisos como oferta adicional sem confirmação suficiente nas fontes usadas"
+    ],
+    "requestedTermsAlreadyAbsent": [
+      "Usinagem",
+      "Ferramentaria",
+      "Inox",
+      "Bronze",
+      "100% próprio"
+    ],
+    "corrections": [
+      "Hero antigo usava fundo geométrico 04; substituído pela foto real 03.",
+      "Foto 12 descrita como chapa com frisos, sem inferir chapa xadrez.",
+      "Contador fictício de mensagem do widget compartilhado ocultado no uso deste cliente."
+    ]
+  },
+  "reviewedAt": "2026-10-06T17:21:05.342Z",
+  "screenshotHashes": {
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png": "4947f520c1cb373666cfe9ffab3016468401de99d8ade16aa09679e66088cc18",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png": "a2ef4e5f6c85e9046f6327671c943d6e2b55728a6fde861010ad6d338612e570",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop-full.png": "12894338af2f52af358cb15c269a4eae987b5a6c07e0a1d788a63cf7587bb663",
+    "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile-full.png": "087cb9aa5fcd7cdd595c070c265075e3ec4cda16216a42863f0ad84ebad7f453",
+    "leads/metalurgica-sao-jorge/screenshots/site-desktop.png": "86b45a46bde42fed799f66b4b315b47d4a3d0f92e8881bd8fe7f8eb68dcd24be",
+    "leads/metalurgica-sao-jorge/screenshots/site-mobile.png": "0d55490ff77274a4c89a3f3f4e7ba2f1ed82199d6589a0c1fdf584c957e758d1"
+  }
+}

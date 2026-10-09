@@ -12,15 +12,26 @@
         "dev": "astro dev",
         "build": "astro build",
         "preview": "astro preview",
-        "client:validate": "tsx scripts/validate-clients.ts",
+        "client:validate": "node scripts/validate-clients.ts",
         "client:audit": "tsx scripts/audit-component-usage.ts",
         "client:new": "tsx scripts/new-client.ts",
         "client:eject": "tsx scripts/clone-component-to-client.ts",
-        "handoff:validate": "tsx scripts/validate-handoff.ts",
+        "handoff:validate": "node scripts/validate-handoff.ts",
         "components:index": "tsx scripts/index-components.ts",
-        "design-systems:index": "tsx scripts/index-design-systems.ts",
-        "pipeline:top5": "tsx scripts/run-top5-pipeline.ts",
-        "pipeline:run": "node scripts/run-autonomous-pipeline.cjs"
+        "design-systems:index": "node --experimental-strip-types scripts/index-design-systems.ts",
+        "design-systems:check": "node --experimental-strip-types scripts/index-design-systems.ts --check",
+        "design-systems:search": "node \"Design System/search.cjs\"",
+        "test:design-systems": "node --experimental-strip-types --test tests/design-systems.test.cjs",
+        "art-direction": "node scripts/art-director-engine.cjs",
+        "pipeline:top5": "node scripts/run-top5-pipeline.ts",
+        "pipeline:run": "node scripts/run-autonomous-pipeline.cjs",
+        "builder:plan": "node scripts/validate-builder-implementation.cjs --phase plan",
+        "builder:validate": "node scripts/validate-builder-implementation.cjs --phase implemented",
+        "builder:build": "node scripts/verify-builder-build.cjs",
+        "builder:capture": "node scripts/capture-redesign.cjs",
+        "builder:handoff": "node scripts/generate-builder-handoff.cjs",
+        "test:builder": "node --test tests/builder-pipeline.test.cjs",
+        "test:evidence": "node --test tests/evidence-pipeline.test.cjs"
     },
     "keywords": [
         "prospector",
@@ -42,6 +53,9 @@
     },
     "type": "module",
     "devDependencies": {
-        "tsx": "^4.23.13"
+        "tsx": "^4.23.13",
+        "ultrahtml": "^1.7.0",
+        "html-escaper": "^3.0.3",
+        "sharp": "^0.35.4"
     }
 }

@@ -1,0 +1,72 @@
+{
+  "lead": "dl-cabeleireiros",
+  "name": "D&L Cabeleireiros",
+  "artDirectionFile": "leads/dl-cabeleireiros/referencias/art-direction.json",
+  "creativeBriefFile": "leads/dl-cabeleireiros/referencias/creative-brief.md",
+  "designSelectionFile": "leads/dl-cabeleireiros/referencias/design-selection.json",
+  "chosenDirection": "D&L Cabeleireiros: Salão de Beleza: Rigor Especializado & Portfólio",
+  "adequacyScore": 84,
+  "fingerprint": {
+    "heroType": "Hero Bento Grid com Mostruário de Serviços e Diferenciais",
+    "selectedVariants": [
+      "Header01",
+      "Hero07",
+      "Services01",
+      "Features02",
+      "Showcase01",
+      "Contact01",
+      "CTA04",
+      "Footer08"
+    ],
+    "sectionOrder": [
+      "hero",
+      "servicos",
+      "condicoes-comerciais",
+      "portfolio",
+      "contato",
+      "cta-final",
+      "footer"
+    ],
+    "imageStrategy": "Galeria técnica com itens de portfólio.",
+    "gridStrategy": "Bento grid modular com destaque para diferenciais.",
+    "backgroundTreatment": "light (clean / subtle noise / white space)",
+    "cardTreatment": "Cards informativos com micro-badges.",
+    "typography": "Inter (Headings) / Inter (Body)",
+    "ctaStyle": "whatsapp-direto"
+  },
+  "similarityJustification": "Composição visual inédita e diferenciada (maior similaridade de apenas 42% com o portfólio anterior).",
+  "visualTokens": {
+    "themeMode": "light",
+    "primaryColor": "#0f172a",
+    "secondaryColor": "#e2e8f0",
+    "accentColor": "#dc2626",
+    "backgroundColor": "#f8fafc",
+    "textColor": "#0f172a",
+    "headingFont": "Inter",
+    "bodyFont": "Inter"
+  },
+  "keyAssets": {
+    "logo": {
+      "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "evidence": "Logo oficial do cliente (2 arquivos disponíveis)"
+    },
+    "heroMain": {
+      "path": null,
+      "evidence": "Imagem autêntica de cabeçalho identificada nos assets"
+    },
+    "facilityPhoto": {
+      "path": null,
+      "evidence": "Fotografia autêntica das instalações (0 disponíveis)"
+    },
+    "portfolioItemsCount": 7
+  },
+  "blueprintSectionsCount": 7,
+  "status": "READY_FOR_BUILDER",
+  "auditReport": {
+    "passed": true,
+    "timestamp": "2026-10-06T17:59:55.244Z",
+    "objectiveChecksCount": 10,
+    "qualitativeEvaluationsCount": 4,
+    "warningsCount": 0
+  }
+}

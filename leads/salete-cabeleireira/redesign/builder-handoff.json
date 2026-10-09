@@ -1,0 +1,814 @@
+{
+  "schemaVersion": 2,
+  "slug": "salete-cabeleireira",
+  "status": "READY_FOR_DEMO",
+  "generatedAt": "2026-10-09T22:26:31.903Z",
+  "passed": true,
+  "errors": [],
+  "priorities": [
+    "Personalização e adequação ao cliente/ramo",
+    "Primeira dobra e qualidade visual",
+    "Identidade, conteúdo e assets reais",
+    "Fidelidade ao 2A",
+    "Responsividade/build",
+    "Integrações posteriores"
+  ],
+  "implementation": {
+    "planPath": "leads/salete-cabeleireira/redesign/implementation-plan.json",
+    "components": [
+      {
+        "id": "hero",
+        "action": "create",
+        "path": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+        "reason": "Abertura imersiva adaptando o hero do Barbershop e Luxury Retreat com mechas de fundo, tag temporal e duplo CTA."
+      },
+      {
+        "id": "history",
+        "action": "create",
+        "path": "src/clients/components/salete-cabeleireira/history-split.astro",
+        "reason": "Narrativa editorial de duas colunas detalhando o pioneirismo desde 1966 e formação internacional."
+      },
+      {
+        "id": "services",
+        "action": "create",
+        "path": "src/clients/components/salete-cabeleireira/services-menu.astro",
+        "reason": "Menu editorial segmentando rituais de tratamento capilar, cortes, mechas e Dia da Noiva."
+      },
+      {
+        "id": "brands",
+        "action": "create",
+        "path": "src/clients/components/salete-cabeleireira/brands-bar.astro",
+        "reason": "Faixa de prestígio destacando os produtos Kérastase, Wella e L'Oréal."
+      },
+      {
+        "id": "units",
+        "action": "create",
+        "path": "src/clients/components/salete-cabeleireira/units-cards.astro",
+        "reason": "Dois cartões arquitetônicos destacando a matriz histórica em Criciúma e filial em Balneário Rincão."
+      },
+      {
+        "id": "contact",
+        "action": "create",
+        "path": "src/clients/components/salete-cabeleireira/direct-contact.astro",
+        "reason": "Seção de conversão com formulário direto, e-mail institucional e botão de WhatsApp imediato."
+      }
+    ],
+    "referenceApplications": [
+      {
+        "referenceId": "barbershop-landing-51.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+        "codeExcerpt": "tagline = content.tagline || \"Desde 1966 -- Alta Tradição & Beleza\";",
+        "explanation": "Aplicação concreta da hero tag de autoridade temporal inspirada no barbershop-landing-51 valorizando a fundação em 1966.",
+        "renderCheck": {
+          "selector": ".salete-tag"
+        },
+        "compositionalEvidence": [
+          {
+            "sourceExcerpt": "Fundada em 2018 -- Cuidado Premium",
+            "reinterpretation": "Tag temporal 'Desde 1966 -- Alta Tradição & Beleza' posicionada acima do título principal."
+          }
+        ]
+      },
+      {
+        "referenceId": "barbershop-landing-51.aura.build",
+        "sectionId": "history",
+        "codePath": "src/clients/components/salete-cabeleireira/history-split.astro",
+        "codeExcerpt": "Entre em um espaço onde cada atendimento expressa arte e precisão clássica.",
+        "explanation": "Abertura narrativa da biografia de Salete inspirada na prosa de ofício clássico do Barbershop.",
+        "renderCheck": {
+          "selector": "#historia"
+        },
+        "compositionalEvidence": [
+          {
+            "sourceExcerpt": "Entre num mundo onde cada corte conta uma história.",
+            "reinterpretation": "Abertura em tom refinado destacando a precisão artística e a trajetória de 58 anos."
+          }
+        ]
+      },
+      {
+        "referenceId": "luxury-desert-retreat-1.aura.build",
+        "sectionId": "units",
+        "codePath": "src/clients/components/salete-cabeleireira/units-cards.astro",
+        "codeExcerpt": "Presença consolidada nas duas cidades de Santa Catarina",
+        "explanation": "Subtítulo com espaçamento aristocrático inspirado no Luxury Retreat para contextualizar as duas unidades.",
+        "renderCheck": {
+          "selector": "#unidades"
+        },
+        "compositionalEvidence": [
+          {
+            "sourceExcerpt": "Refúgio de Luxo no Deserto",
+            "reinterpretation": "Subtítulo aristocrático com alta legibilidade espacial para situar os dois centros de atendimento."
+          }
+        ]
+      },
+      {
+        "referenceId": "luxury-desert-retreat-1.aura.build",
+        "sectionId": "hero",
+        "codePath": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+        "codeExcerpt": "<div class=\"salete-scroll-line\"></div>",
+        "explanation": "Indicador vertical minimalista de navegação conduzindo a narrativa entre o hero e a trajetória biográfica.",
+        "renderCheck": {
+          "selector": ".salete-scroll-indicator"
+        },
+        "compositionalEvidence": [
+          {
+            "sourceExcerpt": "<div class=\"scroll-line\"></div>",
+            "reinterpretation": "Linha de rolagem elegante minimalista conectando o hero à seção histórica."
+          }
+        ]
+      },
+      {
+        "referenceId": "savory-plate.aura.build",
+        "sectionId": "services",
+        "codePath": "src/clients/components/salete-cabeleireira/services-menu.astro",
+        "codeExcerpt": "font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-[#fcfbfb] tracking-tight",
+        "explanation": "Harmonização tipográfica serifada de alta costura inspirada no Savory Plate para o menu de serviços.",
+        "renderCheck": {
+          "selector": "#servicos h2"
+        },
+        "compositionalEvidence": [
+          {
+            "sourceExcerpt": "The Savory Plate - Receitas Modernas",
+            "reinterpretation": "Tipografia Playfair Display aplicada no cabeçalho do catálogo de rituais capilares."
+          }
+        ]
+      },
+      {
+        "referenceId": "savory-plate.aura.build",
+        "sectionId": "brands",
+        "codePath": "src/clients/components/salete-cabeleireira/brands-bar.astro",
+        "codeExcerpt": "font-serif italic text-xl font-bold text-white",
+        "explanation": "Monogramas e nomes de marcas parceiras em tipografia itálica refinada do Savory Plate.",
+        "renderCheck": {
+          "selector": "#marcas h3"
+        },
+        "compositionalEvidence": [
+          {
+            "sourceExcerpt": "font-serif italic font-bold",
+            "reinterpretation": "Nomes das linhas profissionais de tratamento exibidos com destaque itálico elegante."
+          }
+        ]
+      }
+    ],
+    "previousFingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "hero",
+        "about",
+        "services",
+        "benefits",
+        "benefits",
+        "contact"
+      ],
+      "imageStrategy": [
+        "hero"
+      ],
+      "gridStrategy": [
+        "1",
+        "12",
+        "2",
+        "3",
+        "4"
+      ],
+      "backgroundTreatment": [
+        "dark",
+        "none",
+        "editorial-noir-rhythm"
+      ],
+      "cardTreatment": "minimal-glass-stroke",
+      "typography": [
+        "Playfair Display",
+        "Plus Jakarta Sans"
+      ],
+      "motion": "none",
+      "rhythm": "editorial-noir-rhythm",
+      "ctaStyle": "pill",
+      "selectedVariants": [
+        {
+          "variant": "salon-hero",
+          "file": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+          "sha256": "2078b5668d9afb74f44b078974f5bbd54f0e3935e848c20c29b8dad5ef734135"
+        },
+        {
+          "variant": "history-split",
+          "file": "src/clients/components/salete-cabeleireira/history-split.astro",
+          "sha256": "dd13df464ab4e02995c06905d329302eee178d32e44255c9f3974a880b6c55c6"
+        },
+        {
+          "variant": "services-menu",
+          "file": "src/clients/components/salete-cabeleireira/services-menu.astro",
+          "sha256": "c40e0d364a13f96b96a0336229b838650888eea17cd157c28e0e86b711d4736b"
+        },
+        {
+          "variant": "brands-bar",
+          "file": "src/clients/components/salete-cabeleireira/brands-bar.astro",
+          "sha256": "7574f5eeec24ca7c5019bc93904e5562b5540eb8c2406236576a042d12224057"
+        },
+        {
+          "variant": "units-cards",
+          "file": "src/clients/components/salete-cabeleireira/units-cards.astro",
+          "sha256": "a7bb5e8b80b41d55baf9ea0ca113ac859dde1026b207f11fe6e1a377f59f8235"
+        },
+        {
+          "variant": "direct-contact",
+          "file": "src/clients/components/salete-cabeleireira/direct-contact.astro",
+          "sha256": "c8dd9dddc303ecdf74f0cb9e76d1fba8b3678cc15c36a6a20a6583ea6199ed6c"
+        }
+      ]
+    },
+    "fingerprint": {
+      "heroType": "split",
+      "sectionOrder": [
+        "hero",
+        "about",
+        "services",
+        "benefits",
+        "benefits",
+        "contact"
+      ],
+      "imageStrategy": [
+        "hero"
+      ],
+      "gridStrategy": [
+        "1",
+        "12",
+        "2",
+        "3",
+        "4"
+      ],
+      "backgroundTreatment": [
+        "dark",
+        "none",
+        "editorial-noir-rhythm"
+      ],
+      "cardTreatment": "minimal-glass-stroke",
+      "typography": [
+        "Playfair Display",
+        "Plus Jakarta Sans"
+      ],
+      "motion": "none",
+      "rhythm": "editorial-noir-rhythm",
+      "ctaStyle": "pill",
+      "selectedVariants": [
+        {
+          "variant": "salon-hero",
+          "file": "src/clients/components/salete-cabeleireira/salon-hero.astro",
+          "sha256": "5e4f4d7c023c8119414f62c0e58ab3ac926e21d549d229be50686d51d7825af7"
+        },
+        {
+          "variant": "history-split",
+          "file": "src/clients/components/salete-cabeleireira/history-split.astro",
+          "sha256": "c9371f824610682222814e104049407b0b93b9bb4b753e6b077d3984adc2ca19"
+        },
+        {
+          "variant": "services-menu",
+          "file": "src/clients/components/salete-cabeleireira/services-menu.astro",
+          "sha256": "822c1d7a7269dd3ec25f64bc74acc0f498a2e5c2c6c8dc3f86dac92c322ede8b"
+        },
+        {
+          "variant": "brands-bar",
+          "file": "src/clients/components/salete-cabeleireira/brands-bar.astro",
+          "sha256": "ca181e8ee44dc3959d49eed3dd521804c94f306b5b6f3995f6e42faa4eb80fef"
+        },
+        {
+          "variant": "units-cards",
+          "file": "src/clients/components/salete-cabeleireira/units-cards.astro",
+          "sha256": "5447ef50306a72ce02e2de79131961a4657e4cd636230b5fb169b181caaf0aa2"
+        },
+        {
+          "variant": "direct-contact",
+          "file": "src/clients/components/salete-cabeleireira/direct-contact.astro",
+          "sha256": "af7fad7c02c607b2b93d6c8de5db6f470216164c1a20ffc22dce6c2210ac7659"
+        }
+      ]
+    },
+    "comparisons": [
+      {
+        "slug": "brotto-campelo",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 24,
+        "knownDimensions": 6,
+        "dimensions": {
+          "heroType": null,
+          "sectionOrder": 0.5,
+          "imageStrategy": null,
+          "gridStrategy": 0.4,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "cadas-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 60,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": 0.3333333333333333,
+          "gridStrategy": 0.8,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 1,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "delta-pan",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 48,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": 0.25,
+          "gridStrategy": 0.6,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "dl-cabeleireiros",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 37,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5,
+          "imageStrategy": 0.5,
+          "gridStrategy": 0.4,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "iorc-odontologia",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 46,
+        "knownDimensions": 9,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5714285714285714,
+          "imageStrategy": 1,
+          "gridStrategy": 0.4,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0,
+          "rhythm": 0,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [
+          "direct-contact"
+        ],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "juliana-pippi-arquitetura",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 47,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.4444444444444444,
+          "imageStrategy": 0.2,
+          "gridStrategy": 0.6,
+          "backgroundTreatment": 0.2,
+          "cardTreatment": 0,
+          "typography": 0.3333333333333333,
+          "rhythm": null,
+          "ctaStyle": 1
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      },
+      {
+        "slug": "metalurgica-sao-jorge",
+        "method": "Heurística aproximada de composição; hashes são diagnóstico separado e não reduzem a similaridade",
+        "structuralSimilarity": 41,
+        "knownDimensions": 8,
+        "dimensions": {
+          "heroType": 1,
+          "sectionOrder": 0.5,
+          "imageStrategy": 0.5,
+          "gridStrategy": 0.8,
+          "backgroundTreatment": 0.5,
+          "cardTreatment": 0,
+          "typography": 0,
+          "rhythm": 0,
+          "ctaStyle": null
+        },
+        "sharedBaseVariants": [],
+        "identicalComponentSources": 0
+      }
+    ]
+  },
+  "evidence": {
+    "build": "leads/salete-cabeleireira/redesign/build-evidence.json",
+    "render": "leads/salete-cabeleireira/redesign/render-evidence.json",
+    "visualReview": "leads/salete-cabeleireira/redesign/visual-review.json"
+  },
+  "renderValidation": {
+    "schemaVersion": 1,
+    "kind": "Render Validation",
+    "slug": "salete-cabeleireira",
+    "checkedAt": "2026-10-09T22:26:31.281Z",
+    "passed": true,
+    "errors": [],
+    "warnings": [],
+    "inspected": [
+      {
+        "path": "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png",
+        "width": 1440,
+        "height": 900,
+        "sha256": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb"
+      },
+      {
+        "path": "leads/salete-cabeleireira/redesign/screenshots/home-desktop-full.png",
+        "width": 1440,
+        "height": 5028,
+        "sha256": "91ff02bf455b8ac797f0dcf579e9856737a7e0a78d7763360abf5b04de528c28"
+      },
+      {
+        "path": "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png",
+        "width": 390,
+        "height": 844,
+        "sha256": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468"
+      },
+      {
+        "path": "leads/salete-cabeleireira/redesign/screenshots/home-mobile-full.png",
+        "width": 390,
+        "height": 8507,
+        "sha256": "ee7f80e04952f79b16a665c003946695f929068bee6f743609cd3e31d10330b1"
+      }
+    ],
+    "visualAssessment": "requires_image_review",
+    "visualQualityScore": null,
+    "regressions": null,
+    "limitations": [
+      "Arquivos válidos e página renderizada não comprovam qualidade visual.",
+      "Comparar original e redesign abrindo as imagens e registrar visual-review.json."
+    ]
+  },
+  "qualitativeReview": "approved",
+  "referenceClassifications": [
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "hero",
+      "classification": "PARTIAL",
+      "benefit": "Hero tag superior translúcida valorizando o pioneirismo desde 1966 e atmosfera intimista noir.",
+      "limitations": "Transposto de barbearia tradicional para salão feminino de alta elegância.",
+      "patterns": [
+        {
+          "kind": "composition",
+          "finding": "Pill tag superior posicionada no topo com texto de autoridade e ponto de acentuação bordô.",
+          "evidencePaths": [
+            "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "barbershop-landing-51.aura.build",
+      "sectionId": "history",
+      "classification": "PARTIAL",
+      "benefit": "Abertura narrativa da biografia de Salete inspirada na prosa de ofício clássico e maestria técnica.",
+      "limitations": "Foco na trajetória da fundadora iniciada aos 14 anos e consolidada no sul catarinense.",
+      "patterns": [
+        {
+          "kind": "rhythm",
+          "finding": "Ritmo narrativo entre fotografia de bancada e caixas de credenciais de formação.",
+          "evidencePaths": [
+            "leads/salete-cabeleireira/redesign/screenshots/home-desktop-full.png"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "luxury-desert-retreat-1.aura.build",
+      "sectionId": "units",
+      "classification": "PARTIAL",
+      "benefit": "Subtítulo com espaçamento aristocrático para contextualizar a presença nas duas cidades catarinenses.",
+      "limitations": "Contexto transposto de hospitalidade de deserto para atendimento em salão urbano e litoral.",
+      "patterns": [
+        {
+          "kind": "composition",
+          "finding": "Subtítulo editorial espaçado e cards simétricos para Matriz Criciúma e Filial Rincão.",
+          "evidencePaths": [
+            "leads/salete-cabeleireira/redesign/screenshots/home-desktop-full.png"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "luxury-desert-retreat-1.aura.build",
+      "sectionId": "hero",
+      "classification": "PARTIAL",
+      "benefit": "Indicador vertical minimalista de rolagem conectando o hero à seção de história.",
+      "limitations": "Aplicação estilizada adaptada ao fluxo vertical contínuo da página.",
+      "patterns": [
+        {
+          "kind": "navigation",
+          "finding": "Linha sutil vertical de rolagem com indicação de continuidade editorial abaixo do hero.",
+          "evidencePaths": [
+            "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "savory-plate.aura.build",
+      "sectionId": "services",
+      "classification": "PARTIAL",
+      "benefit": "Harmonização tipográfica serifada Playfair Display e grid de 4 pilares de rituais capilares.",
+      "limitations": "Transposição do conceito culinário para rituais capilares, terapia, corte e noivas.",
+      "patterns": [
+        {
+          "kind": "grid",
+          "finding": "Grid de 4 colunas organizando os rituais com cartões translúcidos e marcadores pontuais.",
+          "evidencePaths": [
+            "leads/salete-cabeleireira/redesign/screenshots/home-desktop-full.png"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "savory-plate.aura.build",
+      "sectionId": "brands",
+      "classification": "PARTIAL",
+      "benefit": "Monogramas e nomes de marcas parceiras em tipografia itálica refinada para valorizar os produtos.",
+      "limitations": "Foco exclusivo nas parcerias globais de alta performance Kérastase Paris e Wella.",
+      "patterns": [
+        {
+          "kind": "image-treatment",
+          "finding": "Fotografias autênticas de produtos em molduras com acabamento em vidro fumê e texto em itálico.",
+          "evidencePaths": [
+            "leads/salete-cabeleireira/redesign/screenshots/home-desktop-full.png"
+          ]
+        }
+      ]
+    }
+  ],
+  "perceivedComparisons": [
+    {
+      "slug": "cadas-arquitetura",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 30,
+      "similarities": [
+        "Ambos utilizam tipografia serifada de alta sofisticação e apelo estético visual."
+      ],
+      "differences": [
+        "Arquitetura e urbanismo residencial de alto padrão versus serviços de salão de beleza e cuidados capilares.",
+        "Paleta: bordô aveludado (#803050) na Salete versus neutros de concreto e areia no Cadas.",
+        "Composição: narrativa biográfica e catálogo de rituais versus portfólio de projetos arquitetônicos."
+      ],
+      "observations": {
+        "hero": "Hero de acolhimento capilar versus hero focado em residência arquitetônica.",
+        "placement": "Seção de rituais e marcas versus lista de projetos executados.",
+        "badges": "Badges de credenciais capilares versus indicações de premiações de arquitetura.",
+        "order": "Fluxo voltado a marcação de horários em Criciúma e Rincão.",
+        "grids": "Grid de 4 pilares de estética versus galeria ampla de obras residenciais.",
+        "rhythm": "Ritmo mais dinâmico de atendimento ao consumidor final.",
+        "images": "Salão de atendimento e produtos cosméticos versus plantas e fachadas.",
+        "backgrounds": "Atmosfera noir acetinada versus minimalismo arquitetônico neutro.",
+        "cards": "Cards de rituais capilares com botões de WhatsApp integrados.",
+        "typography": "Playfair Display com Plus Jakarta Sans versus serifas puristas de design.",
+        "cta": "Agendamento imediato versus contato para novos projetos imobiliários."
+      },
+      "screenshotHashes": {
+        "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb",
+        "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468",
+        "leads/cadas-arquitetura/redesign/screenshots/home-desktop.png": "5d10f288c5b1edf297912fb13e1524aa66faf578ee5259be14fa91beafc1f5b4",
+        "leads/cadas-arquitetura/redesign/screenshots/home-mobile.png": "5a0fbc9eda16b631ac2000cf2d415cda6a001a833a04255d2077c946351fe6f1"
+      },
+      "conclusion": "Embora compartilhem rigor tipográfico de luxo, a linguagem, o segmento e os componentes são completamente independentes."
+    },
+    {
+      "slug": "delta-pan",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 25,
+      "similarities": [
+        "Presença digital institucional estruturada em Astro."
+      ],
+      "differences": [
+        "Setor alimentício/padaria industrial versus serviços de beleza e alta estética.",
+        "Paleta cromática: vinho e grafite versus tons dourados de trigo e panificação.",
+        "Estrutura: portfólio de cuidados capilares versus catálogo de pães e confeitaria."
+      ],
+      "observations": {
+        "hero": "Hero noir cinematográfico versus hero comercial de padaria.",
+        "placement": "Foco na figura da cabeleireira Salete versus foco em produtos panificados.",
+        "badges": "Badges de formação internacional versus selos de qualidade de alimentos.",
+        "order": "Narrativa biográfica e rituais versus catálogo e atacado.",
+        "grids": "Grid de rituais e marcas versus vitrine de produtos de panificação.",
+        "rhythm": "Ritmo intimista de alta beleza versus ritmo comercial.",
+        "images": "Ambiente de salão versus fotos de pães e fornos industriais.",
+        "backgrounds": "Fundo escuro noir versus superfícies claras e quentes.",
+        "cards": "Cards translúcidos em vidro minimalista versus cartões de produtos.",
+        "typography": "Playfair Display versus tipografia comercial informal.",
+        "cta": "Agendamento de atendimento versus pedidos de atacado/varejo."
+      },
+      "screenshotHashes": {
+        "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb",
+        "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468",
+        "leads/delta-pan/redesign/screenshots/home-desktop.png": "7a1bc6b79ca2a72dab38033312daad5b8f42d2d98076d76fe833ac48ef7f8eed",
+        "leads/delta-pan/redesign/screenshots/home-mobile.png": "e7c378cea690fd24bda5c3b4f71e5034c473d05f69b84c37895284e48b396077"
+      },
+      "conclusion": "Zero semelhança de composição, ativos ou identidade."
+    },
+    {
+      "slug": "juliana-pippi-arquitetura",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 25,
+      "similarities": [
+        "Ambos os projetos valorizam a liderança feminina e a assinatura autoral no estado de Santa Catarina."
+      ],
+      "differences": [
+        "Arquitetura de interiores e design de mobiliário versus cuidados capilares e estética.",
+        "Paleta cromática: vinho escuro (#803050) e preto versus tons de areia, linho e cinza suave.",
+        "Conteúdo: menu de rituais e marcas cosméticas versus projetos de mostras CasaCor e residências."
+      ],
+      "observations": {
+        "hero": "Hero de acolhimento capilar com foto ampla do espaço versus hero de projeto de arquitetura de interiores.",
+        "placement": "Seções de história, rituais e contato versus portfólio visual de ambientes assinados.",
+        "badges": "Badges de tradição de 1966 versus premiações de arquitetura e design.",
+        "order": "Fluxo centrado em reserva de horário versus apresentação de portfólio de projetos.",
+        "grids": "Grid de 4 colunas para cuidados de cabelo versus galeria fotográfica de interiores.",
+        "rhythm": "Ritmo editorial dinâmico com fotos de lavatórios e bancadas.",
+        "images": "Espaço interno de beleza e produtos de tratamento versus mobiliário e ambientes decorados.",
+        "backgrounds": "Superfícies grafite e degradês escuros versus fundos claros e neutros.",
+        "cards": "Cards em vidro fumê com ações diretas de WhatsApp.",
+        "typography": "Playfair Display imersiva versus tipografia minimalista de arquitetura.",
+        "cta": "Chamada para agendamento de cabelo e estética versus contato para projetos arquitetônicos."
+      },
+      "screenshotHashes": {
+        "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb",
+        "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468",
+        "leads/juliana-pippi-arquitetura/redesign/screenshots/home-desktop.png": "96d45d090edb3dcc872568518afb245a3c1262d99d1eff920dc436fa5a98b1b5",
+        "leads/juliana-pippi-arquitetura/redesign/screenshots/home-mobile.png": "dfddf3f84549865e861bb5b1706c82ee801a4d1f08a96f0ca30108815ab4927a"
+      },
+      "conclusion": "Linguagem visual autônoma sem reutilização de componentes ou estruturas com o projeto de arquitetura."
+    },
+    {
+      "slug": "brotto-campelo",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 25,
+      "similarities": [
+        "Uso de estética editorial refinada e paleta de fundo escuro para transmitir prestígio profissional.",
+        "Estrutura com cabeçalho superior contendo identificação de marca e canais de contato."
+      ],
+      "differences": [
+        "Setor e tema completamente distintos: salão de alta beleza feminina versus advocacia tributária/empresarial.",
+        "Paleta cromática: vinho aveludado e bege perolado na Salete versus laranja institucional e grafite no Brotto.",
+        "Hierarquia de conteúdo: menu de rituais capilares e parcerias com Kérastase versus diretório de áreas jurídicas e rankings Análise 500.",
+        "Hero: fotografia ampla do salão de atendimento versus fotografia corporativa de estúdio dos sócios advogados."
+      ],
+      "observations": {
+        "hero": "Hero de beleza com background fotográfico imersivo e CTAs duplos versus hero institucional focado em retrato de sócios.",
+        "placement": "Seções dispostas em narrativa cronológica e de rituais versus áreas jurídicas e credenciais institucionais.",
+        "badges": "Pills arredondados em tom bordô sutil versus badges de premiações de escritórios admirados.",
+        "order": "Hero -> História -> Rituais -> Marcas -> Unidades -> Contato versus Hero -> Escritório -> Áreas -> Contato.",
+        "grids": "Grid de 4 colunas para menu de rituais versus listagem vertical estruturada de advocacia.",
+        "rhythm": "Alternância suave de superfícies escuras com fotos de ambiente versus blocos densos de texto jurídico.",
+        "images": "Fotografias autênticas de bancadas, lavatórios e produtos cosméticos versus retratos corporativos.",
+        "backgrounds": "Grafite profundo com nuances de bordô escuro versus cinza neutro e fundo escuro liso.",
+        "cards": "Cards de vidro translúcido com cantos arredondados full versus molduras retangulares sóbrias.",
+        "typography": "Playfair Display clássica combinada com Plus Jakarta Sans versus fonte jurídica editorial.",
+        "cta": "Botões arredondados em vinho para agendamento presencial versus botões para consulta jurídica."
+      },
+      "screenshotHashes": {
+        "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb",
+        "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468",
+        "leads/brotto-campelo/redesign/screenshots/home-desktop.png": "fa9bc31bc4b8e238ebaefed5a3ae78b185b48ab03692ac5eb3d4b8e24300829c",
+        "leads/brotto-campelo/redesign/screenshots/home-mobile.png": "b9866d97dfeb575203bba06d27a0d655e3a13d04e318bacf82aba8e426a6202a"
+      },
+      "conclusion": "Diferenciação estrutural e estética total; nenhuma confusão visual ou repetição de fórmulas entre os dois projetos."
+    },
+    {
+      "slug": "dl-cabeleireiros",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 35,
+      "similarities": [
+        "Mesmo segmento de salão de beleza e cuidados capilares com exibição de serviços e unidades."
+      ],
+      "differences": [
+        "Abordagem conceitual: estética noir editorial clássica com Playfair Display na Salete versus linguagem contemporânea no D&L.",
+        "Paleta: bordô nobre (#803050) na Salete versus tons dourados e pretos no D&L.",
+        "Destaque histórico: ênfase na biografia de quase seis décadas e certificações internacionais Vidal Sassoon/TONI&GUY.",
+        "Apresentação de marcas: galeria dedicada para Kérastase Paris e Wella Professionals com imagens de produto reais."
+      ],
+      "observations": {
+        "hero": "Hero split imersivo com fotografia panorâmica versus hero centrado em corte moderno.",
+        "placement": "Seção histórica biográfica em destaque antes dos serviços versus foco imediato no cardápio.",
+        "badges": "Badges em vinho perolado com tipografia serifada versus tags modernas sans-serif.",
+        "order": "Estrutura biográfica e de parcerias globais personalizada para Salete Cabeleireira.",
+        "grids": "Grid de 4 colunas de especialidades com bloco de lavatórios anatômicos.",
+        "rhythm": "Ritmo mais contemplativo e editorial, evocando a tradição de Nova Veneza e Criciúma.",
+        "images": "Fotografias de época e do espaço físico de Criciúma versus fotos contemporâneas de estúdio.",
+        "backgrounds": "Degradês suaves de preto e bordô aveludado versus fundos neutros.",
+        "cards": "Cards com bordas translúcidas em vidro fumê e acabamento premium.",
+        "typography": "Combinação Playfair Display e Plus Jakarta Sans com forte apelo clássico.",
+        "cta": "Botões duplos individualizados para a matriz em Criciúma e filial em Balneário Rincão."
+      },
+      "screenshotHashes": {
+        "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb",
+        "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-desktop.png": "22bf3a4fc45411c371a57665e27095ad32399b23076fc659c8020eca593a9a1e",
+        "leads/dl-cabeleireiros/redesign/screenshots/home-mobile.png": "cfb79369889f008ed46852a79a5f7f97f17ba72f15ba2747ef5723e65ce123cd"
+      },
+      "conclusion": "Mesmo pertencendo ao mesmo ramo de atividade, as identidades são completamente distintas e personalizadas para a história singular da Salete."
+    },
+    {
+      "slug": "metalurgica-sao-jorge",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 20,
+      "similarities": [
+        "Páginas responsivas de alta fidelidade técnica em modo escuro."
+      ],
+      "differences": [
+        "Setores diametralmente opostos: salão de alta beleza feminina versus indústria metalúrgica pesada e caldeiraria.",
+        "Paleta: vinho (#803050) e bege perolado versus cinza chumbo (#1c1e22) e vermelho industrial.",
+        "Conteúdo: rituais capilares, Kérastase e Dia da Noiva versus corte a laser, solda MIG e usinagem CNC."
+      ],
+      "observations": {
+        "hero": "Hero intimista e acolhedor versus hero industrial com maquinário pesado.",
+        "placement": "Seções adaptadas à experiência do cliente de beleza versus capacidade fabril.",
+        "badges": "Pills arredondados versus badges industriais rígidos.",
+        "order": "Ordem orientada a bem-estar e acolhimento.",
+        "grids": "Grids editoriais versus bento grids industriais.",
+        "rhythm": "Espaçamentos generosos e atmosfera noir de luxo.",
+        "images": "Ambiente de salão e cosméticos versus maquinários industriais.",
+        "backgrounds": "Superfícies bordô aveludadas versus placas de aço e tons metálicos.",
+        "cards": "Cards delicados com bordas finas translúcidas.",
+        "typography": "Playfair Display versus tipografia técnica neo-grotesca.",
+        "cta": "Agendamento de horário versus solicitação de orçamento de peças industriais."
+      },
+      "screenshotHashes": {
+        "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb",
+        "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-desktop.png": "4947f520c1cb373666cfe9ffab3016468401de99d8ade16aa09679e66088cc18",
+        "leads/metalurgica-sao-jorge/redesign/screenshots/home-mobile.png": "a2ef4e5f6c85e9046f6327671c943d6e2b55728a6fde861010ad6d338612e570"
+      },
+      "conclusion": "Diferenciação absoluta sem qualquer semelhança temática ou estrutural."
+    },
+    {
+      "slug": "iorc-odontologia",
+      "method": "screenshot-comparison",
+      "perceivedSimilarity": 25,
+      "similarities": [
+        "Atendimento presencial em saúde/estética com destaque para unidades físicas."
+      ],
+      "differences": [
+        "Setores: cabeleireiro e beleza versus clínica médica odontológica especializada.",
+        "Cores: vinho aveludado e grafite versus azul petróleo cirúrgico e branco clínico.",
+        "Conteúdo: tratamentos capilares versus implantes, ortodontia e CRO."
+      ],
+      "observations": {
+        "hero": "Hero de beleza acolhedora versus hero clínico com credencial médica.",
+        "placement": "Ênfase em biografia de pioneirismo versus infraestrutura hospitalar de 1.800m².",
+        "badges": "Badges de tradição e estilo versus badges de conselho regional odontológico.",
+        "order": "Adaptação exclusiva ao fluxo de agendamento de salão.",
+        "grids": "Grids editoriais de estilo de vida versus divisórias milimétricas médicas.",
+        "rhythm": "Atmosfera noir elegante versus ambiente claro e estéril.",
+        "images": "Salão de beleza e produtos de cabelo versus consultório odontológico.",
+        "backgrounds": "Preto acetinado e bordô versus tons hospitalares límpidos.",
+        "cards": "Cards de vidro arredondados versus painéis de equipamentos clínicos.",
+        "typography": "Playfair Display expressiva versus Inter neutra e precisa.",
+        "cta": "Agendamento estético versus agendamento de consulta diagnóstica."
+      },
+      "screenshotHashes": {
+        "leads/salete-cabeleireira/redesign/screenshots/home-desktop.png": "ed3de9f2f324973fe5efbcc13df961a9072f23e352152f331c7f84d7015c44bb",
+        "leads/salete-cabeleireira/redesign/screenshots/home-mobile.png": "c2b92cec08bcb7add3fa4914c766a0e40fb9f77f8f4927d513923bcf3e6ee468",
+        "leads/iorc-odontologia/redesign/screenshots/home-desktop.png": "9f4551f1d6926eb301ef5ac366aee69fb64279ff19a21a5d054dfcdb5be4cc64",
+        "leads/iorc-odontologia/redesign/screenshots/home-mobile.png": "9e5333bcb661f930add03fe891de13086471b68e8306a7698af7376986f5f9b2"
+      },
+      "conclusion": "Projetos totalmente individualizados e coerentes com seus nichos respectivos."
+    }
+  ],
+  "removedUnsupportedClaims": [],
+  "reviewedAbsentClaims": [],
+  "upstreamCorrections": [],
+  "productionPending": [],
+  "limitations": [
+    "O gate verifica rastreabilidade e atualidade; o julgamento estético e factual depende da inspeção registrada pelo agente.",
+    "Prontidão da demonstração não comprova desempenho comercial, produção ou envio ao cliente."
+  ]
+}

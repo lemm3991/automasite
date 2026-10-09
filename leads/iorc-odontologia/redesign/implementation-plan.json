@@ -1,0 +1,589 @@
+{
+  "schemaVersion": 2,
+  "slug": "iorc-odontologia",
+  "concept": "Centro Clínico de Excelência & Tradição Médica",
+  "createdBy": "builder-agent",
+  "inputs": [
+    {
+      "path": "leads/iorc-odontologia/referencias/creative-brief.md"
+    },
+    {
+      "path": "leads/iorc-odontologia/referencias/art-direction.json"
+    },
+    {
+      "path": "leads/iorc-odontologia/referencias/design-selection.json"
+    },
+    {
+      "path": "leads/iorc-odontologia/visual/visual-handoff.json"
+    },
+    {
+      "path": "leads/iorc-odontologia/referencias/site-atual.md"
+    },
+    {
+      "path": "leads/iorc-odontologia/lead.json"
+    },
+    {
+      "path": "leads/iorc-odontologia/referencias/assets-manifest.json"
+    },
+    {
+      "path": "leads/iorc-odontologia/referencias/source-evidence.json"
+    },
+    {
+      "path": "leads/iorc-odontologia/referencias/source-review.json"
+    },
+    {
+      "path": "leads/iorc-odontologia/referencias/asset-review.json"
+    }
+  ],
+  "hero": {
+    "sectionId": "hero",
+    "direction": "Layout split contemporâneo com logo oficial IORC, badge de 30 anos de tradição (fundado em 1995), chamada para alinhadores e reabilitação, botão de agendamento e fotografia clínica humanizada em consultório.",
+    "asset": "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg",
+    "baseComponent": "src/components/hero/Hero01.astro",
+    "action": "adapt",
+    "changes": [
+      "Composição de duas colunas com contraste nítido em fundo branco",
+      "Logotipo oficial centralizado no topo e na chamada",
+      "Animação de subida suave reveal-up inspirada no white-medical"
+    ],
+    "desktop": "No desktop (1440x900): cabeçalho médico com contatos e navegação, coluna esquerda com headline, credencial do Dr. Fabio Takachi Hase e botão de WhatsApp; coluna direita com fotografia enquadrada do consultório.",
+    "mobile": "No mobile (390x844): logotipo visível, badge médica, headline sucinta, fotografia clínica proporcional e botão de agendamento na primeira dobra sem cortes ou telas em branco.",
+    "selectors": {
+      "logo": "#iorc-logo",
+      "message": "#iorc-hero h1",
+      "cta": "#iorc-hero .iorc-cta-btn",
+      "identity": "#iorc-hero .iorc-badge",
+      "photo": "#iorc-hero .iorc-hero-photo img"
+    }
+  },
+  "references": [
+    {
+      "id": "white-medical",
+      "sourcePath": "Design System/temas_claros/white-medical/design-system.html",
+      "observations": [
+        {
+          "excerpt": "background: var(--grid-color);",
+          "benefit": "Linhas de grid sutil médico que transmitem precisão cirúrgica e assepsia clínica.",
+          "factIds": [
+            "service-implantes",
+            "service-ortodontia"
+          ],
+          "element": "grid sutil médico",
+          "appliedTo": [
+            "services"
+          ],
+          "reinterpretation": "Adoção de linhas milimétricas em cor de grid suave para delimitar os módulos de especialidades sem criar caixas pesadas."
+        },
+        {
+          "excerpt": "animation: reveal-up 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;",
+          "benefit": "Animação suave de subida conferindo elegância e sobriedade institucional à apresentação dos tratamentos.",
+          "factIds": [
+            "positioning-history",
+            "mission-statement"
+          ],
+          "element": "revelação suave reveal-up",
+          "appliedTo": [
+            "hero"
+          ],
+          "reinterpretation": "Entrada progressiva do título clínico e da fotografia do consultório com desaceleração cúbica suave."
+        }
+      ]
+    },
+    {
+      "id": "parallax-clean",
+      "sourcePath": "Design System/temas_claros/parallax-clean/design-system.html",
+      "observations": [
+        {
+          "excerpt": "grid-template-columns: 1fr 1.2fr;",
+          "benefit": "Composição de cartão em duas colunas assimétricas equilibrando imagem do consultório e texto explicativo.",
+          "factIds": [
+            "infrastructure-matriz",
+            "boqueirao-address"
+          ],
+          "element": "composição assimétrica 1fr 1.2fr",
+          "appliedTo": [
+            "infrastructure"
+          ],
+          "reinterpretation": "Apresentação em proporção assimétrica destacando a fotografia de 1.800 m² do consultório e as credenciais clínicas ao lado."
+        }
+      ]
+    },
+    {
+      "id": "digital-architect.aura.build",
+      "sourcePath": "Design System/temas_claros/digital-architect.aura.build/design-system.html",
+      "observations": [
+        {
+          "excerpt": "transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;",
+          "benefit": "Transição estruturada e fluida em revelações de blocos para visualização de especificações clínicas.",
+          "factIds": [
+            "infrastructure-total",
+            "founder-director"
+          ],
+          "element": "transição de blocos estruturados",
+          "appliedTo": [
+            "units"
+          ],
+          "reinterpretation": "Transição suave ao interagir com as abas e cartões das unidades físicas de Curitiba."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+      "description": "Logotipo horizontal do IORC Odontologia com tipografia estilizada em tom azul petróleo.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "logo",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/iorc-odontologia/02-invisalign.png",
+      "description": "Logotipo oficial da marca Invisalign com flor de lótus estilizada azul.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/iorc-odontologia/03-clearcorrect-300x48.png",
+      "description": "Logotipo oficial da marca de alinhadores transparentes ClearCorrect.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/iorc-odontologia/04-neodent-logo-color-no-claim.png",
+      "description": "Logotipo de parceiro Neodent para implantes dentários.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg",
+      "description": "Paciente jovem sorrindo em consulta odontológica de avaliação.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "stock"
+      }
+    },
+    {
+      "path": "/assets/clients/iorc-odontologia/12-facetas2-768x512.jpeg",
+      "description": "Fotografia demonstrativa de facetas em porcelana e estética dental.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "service",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/iorc-odontologia/17-Celso-Pilati-0300-768x432.jpg",
+      "description": "Fotografia da fachada e acesso de uma das unidades do IORC.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "environment",
+        "provenance": "client-source"
+      }
+    },
+    {
+      "path": "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg",
+      "description": "Ambiente interno da clínica com consultórios amplos e climatizados.",
+      "inspection": {
+        "method": "image-view",
+        "observed": true,
+        "category": "environment",
+        "provenance": "client-source"
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-name",
+      "factIds": [
+        "company-name"
+      ],
+      "text": "INSTITUTO DE ORTODONTIA DE CURITIBA S/S LTDA",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "INSTITUTO DE ORTODONTIA DE CURITIBA",
+      "usedIn": [
+        "hero",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-trade-name",
+      "factIds": [
+        "trade-name"
+      ],
+      "text": "IORC - INSTITUTO DE ODONTOLOGIA DE CURITIBA",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "IORC - INSTITUTO DE ODONTOLOGIA DE CURITIBA",
+      "usedIn": [
+        "hero"
+      ]
+    },
+    {
+      "id": "claim-founder",
+      "factIds": [
+        "founder-director"
+      ],
+      "text": "Fundado pelo Dr. Fabio Takachi Hase (CRO/PR-9169)",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "Dr. Fabio Takachi Hase",
+      "usedIn": [
+        "hero",
+        "stats",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "claim-foundation-year",
+      "factIds": [
+        "positioning-history"
+      ],
+      "text": "Idealizado e fundado no ano de 1995",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "fundado no ano de 1995",
+      "usedIn": [
+        "stats",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "claim-infrastructure-total",
+      "factIds": [
+        "infrastructure-total"
+      ],
+      "text": "3 clínicas somando 4.000 m² de área total",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "4.000 m²",
+      "usedIn": [
+        "stats",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "claim-infrastructure-matriz",
+      "factIds": [
+        "infrastructure-matriz"
+      ],
+      "text": "Matriz no Alto Boqueirão com 1.800 m² de infraestrutura construída",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "Alto Boqueirão",
+      "usedIn": [
+        "infrastructure",
+        "units"
+      ]
+    },
+    {
+      "id": "claim-boqueirao-address",
+      "factIds": [
+        "boqueirao-address"
+      ],
+      "text": "Rua Francisco Derosso, 4567 - Boqueirão",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "Rua Francisco Derosso, 4567",
+      "usedIn": [
+        "units",
+        "cta",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-boqueirao-phone",
+      "factIds": [
+        "boqueirao-phone"
+      ],
+      "text": "(41) 3026-1234",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "(41) 3026-1234",
+      "usedIn": [
+        "units",
+        "cta",
+        "business"
+      ]
+    },
+    {
+      "id": "claim-service-ortodontia",
+      "factIds": [
+        "service-ortodontia",
+        "service-aparelho-invisivel"
+      ],
+      "text": "Ortodontia especializada com Aparelho Invisível, Safira e Tradicional",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "Aparelho Invisível",
+      "usedIn": [
+        "hero",
+        "services",
+        "technology"
+      ]
+    },
+    {
+      "id": "claim-service-implantes",
+      "factIds": [
+        "service-implantes",
+        "service-protese"
+      ],
+      "text": "Implantes dentários de precisão e reabilitação oral com próteses",
+      "sourcePath": "leads/iorc-odontologia/referencias/site-atual.md",
+      "sourceExcerpt": "Implantes",
+      "usedIn": [
+        "services",
+        "technology"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "variant": "split-showcase",
+      "title": "Excelência em Ortodontia e Implantes",
+      "action": "adapt",
+      "outputPath": "src/clients/components/iorc-odontologia/split-showcase.astro",
+      "candidateComponents": [
+        "src/components/hero/Hero01.astro"
+      ],
+      "reason": "Adaptação dedicada em duas colunas com logotipo oficial, selo de 30 anos e fotografia do consultório clínico.",
+      "changes": [
+        "Inclusão de badge de autoridade médica: Dr. Fabio Takachi Hase CRO/PR-9169",
+        "Layout de duas colunas assimétricas com CTA direto para avaliação via WhatsApp",
+        "Animação de subida inspirada no white-medical"
+      ],
+      "referenceIds": [
+        "white-medical"
+      ],
+      "claimIds": [
+        "claim-name",
+        "claim-trade-name",
+        "claim-founder",
+        "claim-service-ortodontia"
+      ],
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png",
+        "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg"
+      ]
+    },
+    {
+      "id": "stats",
+      "type": "stats",
+      "variant": "metric-bar",
+      "title": "Estrutura e Tradição em Números",
+      "action": "adapt",
+      "outputPath": "src/clients/components/iorc-odontologia/metric-bar.astro",
+      "candidateComponents": [
+        "src/components/stats/Stats01.astro"
+      ],
+      "reason": "Faixa institucional destacando métricas reais comprovadas nas fontes oficiais.",
+      "changes": [
+        "30 Anos de Tradição desde 1995",
+        "4.000 m² de Estrutura Integrada em Curitiba",
+        "1.800 m² de Matriz no Alto Boqueirão com Estacionamento Próprio"
+      ],
+      "referenceIds": [
+        "white-medical"
+      ],
+      "claimIds": [
+        "claim-foundation-year",
+        "claim-infrastructure-total",
+        "claim-infrastructure-matriz"
+      ],
+      "assetPaths": []
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "variant": "clinical-grid",
+      "title": "Especialidades e Tratamentos Integrados",
+      "action": "adapt",
+      "outputPath": "src/clients/components/iorc-odontologia/clinical-grid.astro",
+      "candidateComponents": [
+        "src/components/services/Services01.astro"
+      ],
+      "reason": "Grid de tratamentos odontológicos com linhas de grid sutis médicas inspiradas no white-medical.",
+      "changes": [
+        "Organização por especialidades clínicas: Ortodontia Digital, Implantes & Próteses, Estética Bucal",
+        "Uso de linhas de divisão médica background: var(--grid-color)",
+        "Cards sem sombras pesadas, priorizando sobriedade e limpeza"
+      ],
+      "referenceIds": [
+        "white-medical"
+      ],
+      "claimIds": [
+        "claim-service-ortodontia",
+        "claim-service-implantes"
+      ],
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/12-facetas2-768x512.jpeg"
+      ]
+    },
+    {
+      "id": "technology",
+      "type": "technology",
+      "variant": "partner-badges",
+      "title": "Parcerias e Tecnologia de Ponta",
+      "action": "adapt",
+      "outputPath": "src/clients/components/iorc-odontologia/partner-badges.astro",
+      "candidateComponents": [
+        "src/components/benefits/Features01.astro"
+      ],
+      "reason": "Destaque visual das chancelas tecnológicas de alta precisão (Invisalign, ClearCorrect, Neodent).",
+      "changes": [
+        "Apresentação dos logotipos reais dos parceiros homologados",
+        "Textos explicativos de precisão biomecânica e conforto para o paciente"
+      ],
+      "referenceIds": [
+        "white-medical"
+      ],
+      "claimIds": [
+        "claim-service-ortodontia",
+        "claim-service-implantes"
+      ],
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/02-invisalign.png",
+        "/assets/clients/iorc-odontologia/03-clearcorrect-300x48.png",
+        "/assets/clients/iorc-odontologia/04-neodent-logo-color-no-claim.png"
+      ]
+    },
+    {
+      "id": "infrastructure",
+      "type": "about",
+      "variant": "facility-split",
+      "title": "Espaço Planejado para o Seu Cuidado",
+      "action": "adapt",
+      "outputPath": "src/clients/components/iorc-odontologia/facility-split.astro",
+      "candidateComponents": [
+        "src/components/about/About01.astro"
+      ],
+      "reason": "Composição em proporção 1fr 1.2fr inspirada no parallax-clean para valorizar os 1.800 m² da matriz.",
+      "changes": [
+        "Grid de 2 colunas assimétricas com proporção 1fr 1.2fr",
+        "Fotografia real das salas amplas e consultórios modernos da clínica",
+        "Credenciais do Dr. Fabio Takachi Hase e histórico de expansão desde 1995"
+      ],
+      "referenceIds": [
+        "parallax-clean"
+      ],
+      "claimIds": [
+        "claim-founder",
+        "claim-foundation-year",
+        "claim-infrastructure-matriz",
+        "claim-infrastructure-total"
+      ],
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/18-sobre-nos-768x512.jpeg"
+      ]
+    },
+    {
+      "id": "units",
+      "type": "locations",
+      "variant": "location-cards",
+      "title": "Unidades de Atendimento em Curitiba",
+      "action": "adapt",
+      "outputPath": "src/clients/components/iorc-odontologia/location-cards.astro",
+      "candidateComponents": [
+        "src/components/contact/Contact01.astro"
+      ],
+      "reason": "Cartões estruturados das 3 unidades em Curitiba com transições suaves do digital-architect.",
+      "changes": [
+        "Cartão principal em destaque para Matriz Boqueirão (Rua Francisco Derosso, 4567)",
+        "Cartões de referência para Sítio Cercado e Centro",
+        "Indicação de estacionamento próprio e telefone fixo com link de mapa"
+      ],
+      "referenceIds": [
+        "digital-architect.aura.build"
+      ],
+      "claimIds": [
+        "claim-boqueirao-address",
+        "claim-boqueirao-phone",
+        "claim-infrastructure-matriz"
+      ],
+      "assetPaths": [
+        "/assets/clients/iorc-odontologia/17-Celso-Pilati-0300-768x432.jpg"
+      ]
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "variant": "direct-contact",
+      "title": "Agende sua Avaliação Odontológica",
+      "action": "adapt",
+      "outputPath": "src/clients/components/iorc-odontologia/direct-contact.astro",
+      "candidateComponents": [
+        "src/components/cta/CTA01.astro"
+      ],
+      "reason": "Chamada para agendamento direto com clareza dos canais oficiais (WhatsApp e telefone fixo).",
+      "changes": [
+        "Botão de conversão com estilo pill azul petróleo",
+        "Exibição do telefone fixo da matriz (41) 3026-1234 e endereço",
+        "Microcopy de agendamento ágil e acolhedor"
+      ],
+      "referenceIds": [
+        "white-medical"
+      ],
+      "claimIds": [
+        "claim-boqueirao-address",
+        "claim-boqueirao-phone"
+      ],
+      "assetPaths": []
+    }
+  ],
+  "implementationEvidence": [
+    {
+      "referenceId": "white-medical",
+      "sectionId": "services",
+      "codePath": "src/clients/components/iorc-odontologia/clinical-grid.astro",
+      "codeExcerpt": "background: var(--grid-color);",
+      "explanation": "Linhas de grid milimétricas aplicadas como divisores para estruturar procedimentos ortodônticos e clínicos.",
+      "renderCheck": {
+        "selector": ".iorc-services-grid",
+        "minColumns": 2
+      }
+    },
+    {
+      "referenceId": "white-medical",
+      "sectionId": "hero",
+      "codePath": "src/clients/components/iorc-odontologia/split-showcase.astro",
+      "codeExcerpt": "animation: reveal-up 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;",
+      "explanation": "Entrada suave do hero com desaceleração cúbica inspirada no tema médico white-medical.",
+      "renderCheck": {
+        "selector": "#iorc-hero"
+      }
+    },
+    {
+      "referenceId": "parallax-clean",
+      "sectionId": "infrastructure",
+      "codePath": "src/clients/components/iorc-odontologia/facility-split.astro",
+      "codeExcerpt": "grid-template-columns: 1fr 1.2fr;",
+      "explanation": "Grid assimétrico em proporção 1fr 1.2fr para valorizar a fotografia da infraestrutura da matriz.",
+      "renderCheck": {
+        "selector": ".facility-split-grid",
+        "minColumns": 2
+      }
+    },
+    {
+      "referenceId": "digital-architect.aura.build",
+      "sectionId": "units",
+      "codePath": "src/clients/components/iorc-odontologia/location-cards.astro",
+      "codeExcerpt": "transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;",
+      "explanation": "Transição estruturada e fluida nos cartões das unidades físicas de Curitiba.",
+      "renderCheck": {
+        "selector": "#unidades"
+      }
+    }
+  ]
+}

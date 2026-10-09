@@ -1,0 +1,3280 @@
+{
+  "schemaVersion": 3,
+  "slug": "dl-cabeleireiros",
+  "name": "D&L Cabeleireiros",
+  "niche": "Salão de Beleza",
+  "audience": "Pessoas buscando serviços de cabelo, unhas, maquiagem e dia da noiva em Palhoça e Florianópolis. Posicionamento premium declarado pelo próprio site.",
+  "facts": [
+    {
+      "id": "name",
+      "kind": "name",
+      "entityId": "company",
+      "value": "D&L Cabeleireiros",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "No D&L Cabeleireiros, oferecemos uma experiência completa de beleza e cuidado, com serviços pensados para valorizar sua autoestima e realçar sua melhor versão. Trabalhamos com técnicas modernas, produtos de alta qualidade e um atendimento personalizado para garantir resultados incríveis."
+        }
+      ]
+    },
+    {
+      "id": "headline",
+      "kind": "identity",
+      "entityId": "company",
+      "value": "Beleza e excelência em cada detalhe",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "quote": "Beleza e excelência em cada detalhe"
+        }
+      ]
+    },
+    {
+      "id": "positioning",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(3)",
+          "quote": "No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram."
+        }
+      ]
+    },
+    {
+      "id": "founders",
+      "kind": "founders",
+      "entityId": "company",
+      "value": "Fundado por Douglas e Luciano",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Fundado por Douglas e Luciano , o D&L cabeleireiro nasceu com o propósito de elevar o conceito de beleza por meio da excelência, qualidade e atendimento personalizado. Com anos de experiência no mercado , o salão se consolidou como referência em sofisticação, técnica e inovação, oferecendo serviços de alto padrão para clientes que valorizam resultados impecáveis."
+        }
+      ]
+    },
+    {
+      "id": "audience",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "clientes que valorizam resultados impecáveis",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Fundado por Douglas e Luciano , o D&L cabeleireiro nasceu com o propósito de elevar o conceito de beleza por meio da excelência, qualidade e atendimento personalizado. Com anos de experiência no mercado , o salão se consolidou como referência em sofisticação, técnica e inovação, oferecendo serviços de alto padrão para clientes que valorizam resultados impecáveis."
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "kind": "architecture",
+      "entityId": "company",
+      "value": "Nossas Unidades",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "quote": "Nossas Unidades"
+        }
+      ]
+    },
+    {
+      "id": "service-1",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Corte Feminino",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Corte Feminino"
+        }
+      ]
+    },
+    {
+      "id": "description-1",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cortes personalizados que valorizam sua identidade e movimento.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cortes personalizados que valorizam sua identidade e movimento."
+        }
+      ]
+    },
+    {
+      "id": "service-2",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Escovas",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Escovas"
+        }
+      ]
+    },
+    {
+      "id": "description-2",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Finalização impecável com leveza, brilho e durabilidade.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Finalização impecável com leveza, brilho e durabilidade."
+        }
+      ]
+    },
+    {
+      "id": "service-3",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Mechas",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Mechas"
+        }
+      ]
+    },
+    {
+      "id": "description-3",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Ilumine seu cabelo com tons naturais e sofisticados.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Ilumine seu cabelo com tons naturais e sofisticados."
+        }
+      ]
+    },
+    {
+      "id": "service-4",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Mega Hair",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Mega Hair"
+        }
+      ]
+    },
+    {
+      "id": "description-4",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Técnicas modernas para volume, comprimento e acabamento perfeito.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(17) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Técnicas modernas para volume, comprimento e acabamento perfeito."
+        }
+      ]
+    },
+    {
+      "id": "service-5",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Kérastase",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Kérastase"
+        }
+      ]
+    },
+    {
+      "id": "description-5",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(21) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios."
+        }
+      ]
+    },
+    {
+      "id": "service-6",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Tratamentos Davines",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(24) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Tratamentos Davines"
+        }
+      ]
+    },
+    {
+      "id": "description-6",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Tratamentos premium com performance, sustentabilidade e resultados visíveis.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(25) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Tratamentos premium com performance, sustentabilidade e resultados visíveis."
+        }
+      ]
+    },
+    {
+      "id": "service-7",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Colorações",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(33) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Colorações"
+        }
+      ]
+    },
+    {
+      "id": "description-7",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cores personalizadas que realçam sua beleza e estilo.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(34) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cores personalizadas que realçam sua beleza e estilo."
+        }
+      ]
+    },
+    {
+      "id": "service-8",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Dia da Noiva",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(35) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Dia da Noiva"
+        }
+      ]
+    },
+    {
+      "id": "description-8",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Uma experiência completa para tornar seu dia inesquecível.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(36) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Uma experiência completa para tornar seu dia inesquecível."
+        }
+      ]
+    },
+    {
+      "id": "service-9",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Corte Masculino",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(37) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Corte Masculino"
+        }
+      ]
+    },
+    {
+      "id": "description-9",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Estilo, precisão e acabamento alinhado às tendências atuais.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(38) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Estilo, precisão e acabamento alinhado às tendências atuais."
+        }
+      ]
+    },
+    {
+      "id": "service-10",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Alongamento de Unhas",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(41) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Alongamento de Unhas"
+        }
+      ]
+    },
+    {
+      "id": "description-10",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Unhas sofisticadas, resistentes e com acabamento perfeito.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(42) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Unhas sofisticadas, resistentes e com acabamento perfeito."
+        }
+      ]
+    },
+    {
+      "id": "service-11",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Manicure e Pedicure",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(44) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Manicure e Pedicure"
+        }
+      ]
+    },
+    {
+      "id": "description-11",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Cuidado, higiene e beleza para mãos e pés impecáveis.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(46) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Cuidado, higiene e beleza para mãos e pés impecáveis."
+        }
+      ]
+    },
+    {
+      "id": "service-12",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Maquiagens",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(45) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "quote": "Maquiagens"
+        }
+      ]
+    },
+    {
+      "id": "description-12",
+      "kind": "description",
+      "entityId": "company",
+      "value": "Produções elegantes que destacam sua beleza em cada ocasião.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(47) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Produções elegantes que destacam sua beleza em cada ocasião."
+        }
+      ]
+    },
+    {
+      "id": "palhoca-name",
+      "kind": "name",
+      "entityId": "palhoca",
+      "value": "D&L – Pedra Branca",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "D&L – Pedra Branca"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-city",
+      "kind": "city",
+      "entityId": "palhoca",
+      "value": "Palhoça",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-phone",
+      "kind": "phone",
+      "entityId": "palhoca",
+      "value": "(48) 99936-0284",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(5)",
+          "quote": "Contatos (48) 99936-0284"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-address",
+      "kind": "address",
+      "entityId": "palhoca",
+      "value": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Av. Paulista, 1234, São Paulo",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Av. Paulista, 1234, São Paulo"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "palhoca-hours",
+      "kind": "hours",
+      "entityId": "palhoca",
+      "value": "Segunda a Sábado: 09h às 21h",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(4)",
+          "quote": "Segunda a Sábado: 09h às 21h"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Seg a Sáb, 9h-20h",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Seg a Sáb, 9h-20h"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Segunda a Sábado: 09h às 21h",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "florianopolis-name",
+      "kind": "name",
+      "entityId": "florianopolis",
+      "value": "Salão D&L – Agronômica",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+          "quote": "Salão D&L – Agronômica"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-city",
+      "kind": "city",
+      "entityId": "florianopolis",
+      "value": "Florianópolis",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-phone",
+      "kind": "phone",
+      "entityId": "florianopolis",
+      "value": "(48) 99936-0365",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(5)",
+          "quote": "Contatos (48) 99936-0365"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-address",
+      "kind": "address",
+      "entityId": "florianopolis",
+      "value": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-hours",
+      "kind": "hours",
+      "entityId": "florianopolis",
+      "value": "Segunda a Sábado: 09h às 21h30",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(4)",
+          "quote": "Segunda a Sábado: 09h às 21h30"
+        }
+      ]
+    },
+    {
+      "id": "palhoca-state",
+      "kind": "state",
+      "entityId": "palhoca",
+      "value": "SC",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ]
+    },
+    {
+      "id": "florianopolis-state",
+      "kind": "state",
+      "entityId": "florianopolis",
+      "value": "SC",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ]
+    },
+    {
+      "id": "contact-link-2",
+      "kind": "contactLink",
+      "entityId": "company",
+      "value": "https://api.whatsapp.com/send/?phone=5548999360365&amp;text=Quero+agendar+um+hor%C3%A1rio!&amp;type=phone_number&amp;app_absent=0",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(3)",
+          "quote": "https://api.whatsapp.com/send/?phone=5548999360365&amp;text=Quero+agendar+um+hor%C3%A1rio!&amp;type=phone_number&amp;app_absent=0",
+          "attribute": "href"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "palhoca-address",
+      "kind": "address",
+      "entityId": "palhoca",
+      "value": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(2)",
+          "quote": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Av. Paulista, 1234, São Paulo",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Av. Paulista, 1234, São Paulo"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "palhoca-hours",
+      "kind": "hours",
+      "entityId": "palhoca",
+      "value": "Segunda a Sábado: 09h às 21h",
+      "status": "conflicting",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > p:nth-of-type(4)",
+          "quote": "Segunda a Sábado: 09h às 21h"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "Seg a Sáb, 9h-20h",
+          "evidence": [
+            {
+              "pageId": "page-3",
+              "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > p:nth-of-type(1)",
+              "quote": "Seg a Sáb, 9h-20h"
+            }
+          ]
+        }
+      ],
+      "resolution": {
+        "selectedValue": "Segunda a Sábado: 09h às 21h",
+        "reason": "A home associa expressamente este dado à unidade Pedra Branca. /servicos apresenta localização e horário genéricos divergentes, sem nome de unidade; preservados no conflito, não usados na demonstração. Escolha documental, sem confirmação telefônica."
+      }
+    },
+    {
+      "id": "contact-link-0",
+      "kind": "contactLink",
+      "entityId": "company",
+      "value": "https://wa.me/554899360365?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20Cabeleireiros%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.",
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "[id=\"ai--ac2aR\"]",
+          "quote": "https://wa.me/554899360365?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20Cabeleireiros%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.",
+          "attribute": "href"
+        }
+      ]
+    },
+    {
+      "id": "contact-link-1",
+      "kind": "contactLink",
+      "entityId": "company",
+      "value": "https://wa.me/554899936036?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.",
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "[id=\"zsBSuE\"]",
+          "quote": "https://wa.me/554899936036?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20D&amp;L%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.",
+          "attribute": "href"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+      "category": "logo",
+      "description": "Monograma dourado D&L sobre fundo transparente.",
+      "observableDetails": [
+        "Letras entrelaçadas em dourado",
+        "Fundo transparente"
+      ],
+      "allowedCaptions": [
+        "D&L Cabeleireiros"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.968Z"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+      "category": "environment",
+      "description": "Ambiente com cadeiras verdes, espelhos circulares iluminados e bancadas de madeira.",
+      "observableDetails": [
+        "Cadeiras verdes junto às bancadas",
+        "Espelhos redondos com iluminação"
+      ],
+      "allowedCaptions": [
+        "Um olhar para o ambiente D&L"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.968Z"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/05-hqdefault.webp",
+      "sha256": "a5dedd75506de0566872d67abfd0f50736b9b3d4b3ce43d12c69a0a8f461b82d",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo mostrando um corte de cabelo masculino em atendimento.",
+      "observableDetails": [
+        "Homem sentado com cabelo curto",
+        "Profissional trabalhando atrás da cadeira"
+      ],
+      "allowedCaptions": [
+        "Corte em atendimento"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.969Z"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/06-hqdefault.webp",
+      "sha256": "0ec6e9fb6f177eb3821ade6d266d0b9bb362b9b5d75493842c5c65890527dc07",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo com um profissional segurando uma mecha de cabelo castanho.",
+      "observableDetails": [
+        "Mecha de cabelo castanho em primeiro plano",
+        "Espelhos circulares ao fundo"
+      ],
+      "allowedCaptions": [
+        "Um momento de cuidado"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.969Z"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "sha256": "161e2631f079134069f1002c8586f276501d2e6211ad6c02e7550d140aae2d29",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo com cliente de cabelo loiro e profissional ao fundo.",
+      "observableDetails": [
+        "Cabelo loiro longo e ondulado",
+        "Cliente sentada e profissional atrás"
+      ],
+      "allowedCaptions": [
+        "Cabelos em movimento"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.969Z"
+    },
+    {
+      "path": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "sha256": "55053c395d1a450fdd1b1fa04d8c8421ab8cf66cfbf60de164583d0f960e2c1e",
+      "category": "thumbnail",
+      "description": "Miniatura de vídeo com mulher de cabelo longo e claro vista em três quartos.",
+      "observableDetails": [
+        "Cabelo longo com tons claros",
+        "Mulher em pose de três quartos"
+      ],
+      "allowedCaptions": [
+        "Detalhes que fazem o visual"
+      ],
+      "provenance": "client-source",
+      "method": "image-view",
+      "reviewedBy": "codex-dl-prospector",
+      "reviewedAt": "2026-10-07T14:39:22.970Z"
+    }
+  ],
+  "baseline": {
+    "method": "image-inspection",
+    "reviewedBy": "codex-dl-prospector",
+    "reviewedAt": "2026-10-07T14:40:11.427Z",
+    "inspections": [
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-desktop.png",
+        "sha256": "cb37990d5b9040b9fe455ef3729b8cd475a010a39a977694b87091c34998fa7b",
+        "finding": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão.",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 1200,
+            "height": 600,
+            "description": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-desktop-full.png",
+        "sha256": "5079572203b199988460a80cd622793bcde4c744fdd5b221feb2ad12d9ce99c7",
+        "finding": "Página mostra cardápio longo em fundo azul escuro, apresentação, galeria e unidades. Áreas ainda não reveladas pelo carregamento/animações limitam a leitura integral da captura.",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 1200,
+            "height": 600,
+            "description": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-mobile.png",
+        "sha256": "a46eb492718d374d7e69c88857c099cfdbe27090aa59219f22163889a3205feb",
+        "finding": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy.",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 600,
+            "description": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy."
+          }
+        ]
+      },
+      {
+        "path": "leads/dl-cabeleireiros/screenshots/site-mobile-full.png",
+        "sha256": "d7a5cb5b48a7deebe4e9b7563527e6d22f3aea37496c0b6b7fb3b78d42a8e1e7",
+        "finding": "Página mostra cardápio longo em fundo azul escuro, apresentação, galeria e unidades. Áreas ainda não reveladas pelo carregamento/animações limitam a leitura integral da captura.",
+        "regions": [
+          {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 600,
+            "description": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy."
+          }
+        ]
+      }
+    ],
+    "firstFold": {
+      "desktop": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão.",
+      "mobile": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy."
+    },
+    "preserve": [
+      "Monograma dourado e posicionamento de cuidado pessoal",
+      "Cardápio de 12 serviços e identificação das duas unidades"
+    ],
+    "improve": [
+      "Trocar a mídia genérica de abertura por foto do ambiente disponível",
+      "Organizar cardápio para leitura rápida",
+      "Dar escolha clara entre as duas unidades no agendamento"
+    ],
+    "limitations": [
+      "Capturas completas ainda têm áreas de conteúdo não revelado; não considerar esses vazios como defeitos intrínsecos do original.",
+      "Vídeo muda o contraste a cada frame.",
+      "Não inferir identidade de pessoas ou unidade exata a partir das fotos."
+    ],
+    "visualQualityScore": 6.5,
+    "scoreReason": "Entrada reconhecível com logo, foto e CTA, mas elementos de embed aparentes e cardápio longo prejudicam acabamento e leitura.",
+    "redesignOpportunityScore": 55,
+    "opportunityReason": "Melhoria moderada com foto mais específica, ritmo editorial e contatos corrigidos; o original já apresenta marca e serviços."
+  },
+  "architecture": [
+    {
+      "pageId": "page-1",
+      "url": "https://dlcabeleireiro.com",
+      "headings": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "text": "Beleza e excelência em cada detalhe"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "text": "NOSSO SERVIÇOS"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Corte Feminino"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Escovas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Mechas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(16) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Mega Hair"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(20) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Kérastase"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(24) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Tratamentos Davines"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(33) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Colorações"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(35) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Dia da Noiva"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(37) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Corte Masculino"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(41) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Alongamento de Unhas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(44) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Manicure e Pedicure"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(45) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Maquiagens"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Quem Somos"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Resultados Reais, Clientes Reais"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Nossas Unidades"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "FLORIANÓPOLIS"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "PALHOÇA"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(6) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h5:nth-of-type(1)",
+          "text": "Contato"
+        }
+      ]
+    },
+    {
+      "pageId": "page-2",
+      "url": "https://dlcabeleireiro.com/agendamentos",
+      "headings": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h5:nth-of-type(1)",
+          "text": "Contato"
+        }
+      ]
+    },
+    {
+      "pageId": "page-3",
+      "url": "https://dlcabeleireiro.com/servicos",
+      "headings": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "text": "Nossos Serviços"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Mechas"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Mega Hair"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(9) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Kérastase"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Beleza com excelência"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Nossa missão"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+          "text": "Localização"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Endereço"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > h6:nth-of-type(1)",
+          "text": "Horário"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(4) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h5:nth-of-type(1)",
+          "text": "Contato"
+        }
+      ]
+    },
+    {
+      "pageId": "page-4",
+      "url": "https://dlcabeleireiro.com/galeria",
+      "headings": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "text": "Galeria"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h5:nth-of-type(1)",
+          "text": "Contato"
+        }
+      ]
+    },
+    {
+      "pageId": "page-5",
+      "url": "https://dlcabeleireiro.com/agende-seu-horrio",
+      "headings": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "text": "Agende seu horário"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h5:nth-of-type(1)",
+          "text": "Contato"
+        }
+      ]
+    },
+    {
+      "pageId": "page-6",
+      "url": "https://dlcabeleireiro.com/agende-seu-horrio-1",
+      "headings": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "text": "Agende seu horário"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h5:nth-of-type(1)",
+          "text": "Contato"
+        }
+      ]
+    },
+    {
+      "pageId": "page-7",
+      "url": "https://dlcabeleireiro.com/agende-seu-horrio-2",
+      "headings": [
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > h1:nth-of-type(1)",
+          "text": "Agende seu horário"
+        },
+        {
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h5:nth-of-type(1)",
+          "text": "Contato"
+        }
+      ]
+    }
+  ],
+  "palette": {
+    "priority": [
+      "logo",
+      "css",
+      "asset",
+      "explicit-visual-inference"
+    ],
+    "colors": [
+      {
+        "value": "#ffe0b0",
+        "source": "logo",
+        "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+        "pixels": 85,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#f0d0a0",
+        "source": "logo",
+        "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+        "pixels": 70,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#f0e0a0",
+        "source": "logo",
+        "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+        "pixels": 63,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#f0d090",
+        "source": "logo",
+        "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+        "pixels": 52,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#504020",
+        "source": "logo",
+        "path": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+        "sha256": "3c3b54287e871d136f1569bd17e296d7034cb377772115ce5a2fd408dc9860bc",
+        "pixels": 44,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#605040",
+        "source": "asset",
+        "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+        "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+        "pixels": 224,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#a09070",
+        "source": "asset",
+        "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+        "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+        "pixels": 212,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#706050",
+        "source": "asset",
+        "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+        "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+        "pixels": 210,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#a09080",
+        "source": "asset",
+        "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+        "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+        "pixels": 191,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#908060",
+        "source": "asset",
+        "path": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+        "sha256": "4689d8bcda5d368da8f1875ea79c1283df58aab0bfd8a88ffa3ae57618352128",
+        "pixels": 186,
+        "method": "quantized-pixel-sample",
+        "status": "candidate"
+      },
+      {
+        "value": "#2f1c6a",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#1f1346",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#8c85ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#d5dfff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#5025d1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#673de6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#ebe4ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#b39ef3",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#d63163",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#fc5185",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffe8ef",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea8c2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea419",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#9f6000",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffd28c",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffcd35",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff8e2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#008361",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#00b090",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#def4f0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#1d1e20",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#36344d",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#727586",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#dadce0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#f2f3f6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#357df9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#e3ebf9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#265ab2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#6366f1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#d8dae0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#0d141a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffffff",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/index.html",
+        "sha256": "c2c88b1ed41e82c9d106ea6abb91134d7777e0f175ff8c544f9a6a153928dcbf",
+        "status": "candidate"
+      },
+      {
+        "value": "#2f1c6a",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#1f1346",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#8c85ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#d5dfff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#5025d1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#673de6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ebe4ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#b39ef3",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#d63163",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fc5185",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffe8ef",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea8c2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea419",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#9f6000",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffd28c",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffcd35",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff8e2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#008361",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#00b090",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#def4f0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#1d1e20",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#36344d",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#727586",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#dadce0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#f2f3f6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#357df9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#e3ebf9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#265ab2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#6366f1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#d8dae0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#0d141a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffffff",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#31232b",
+        "selector": "[id=\"ai-zKWOyJ\"]",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agendamentos/index.html",
+        "sha256": "5f62b4bd98261254bb9e6a8f1125516f59ae0da92390ded57dbe82e8759b731a",
+        "status": "candidate"
+      },
+      {
+        "value": "#2f1c6a",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#1f1346",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#8c85ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#d5dfff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#5025d1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#673de6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#ebe4ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#b39ef3",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#d63163",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#fc5185",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffe8ef",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea8c2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea419",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#9f6000",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffd28c",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffcd35",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff8e2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#008361",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#00b090",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#def4f0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#1d1e20",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#36344d",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#727586",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#dadce0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#f2f3f6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#357df9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#e3ebf9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#265ab2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#6366f1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#d8dae0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#0d141a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffffff",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#f6e7c1",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(1) > div:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#18131a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > section:nth-of-type(3) > div:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/servicos/index.html",
+        "sha256": "17edaf23a5bb5995c61142bb828f7125c0ece35c5426de64f12555b1858a4bf0",
+        "status": "candidate"
+      },
+      {
+        "value": "#2f1c6a",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#1f1346",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#8c85ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#d5dfff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#5025d1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#673de6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ebe4ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#b39ef3",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#d63163",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fc5185",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffe8ef",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea8c2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea419",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#9f6000",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffd28c",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffcd35",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff8e2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#008361",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#00b090",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#def4f0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#1d1e20",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#36344d",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#727586",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#dadce0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#f2f3f6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#357df9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#e3ebf9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#265ab2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#6366f1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#d8dae0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#0d141a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffffff",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/galeria/index.html",
+        "sha256": "b27f1aaf6fef25ed3f7f2ab0e27c87ba65ba9d661d77a4e24728a70ecb50a6f8",
+        "status": "candidate"
+      },
+      {
+        "value": "#2f1c6a",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#1f1346",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#8c85ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#d5dfff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#5025d1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#673de6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#ebe4ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#b39ef3",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#d63163",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#fc5185",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffe8ef",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea8c2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea419",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#9f6000",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffd28c",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffcd35",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff8e2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#008361",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#00b090",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#def4f0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#1d1e20",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#36344d",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#727586",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#dadce0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#f2f3f6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#357df9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#e3ebf9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#265ab2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#6366f1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#d8dae0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#0d141a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffffff",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio/index.html",
+        "sha256": "39011f6eb629b94b6edabdf999a48694a7732815bcca87928158e055f3c61c22",
+        "status": "candidate"
+      },
+      {
+        "value": "#2f1c6a",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#1f1346",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#8c85ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#d5dfff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#5025d1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#673de6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ebe4ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#b39ef3",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#d63163",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fc5185",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffe8ef",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea8c2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea419",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#9f6000",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffd28c",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffcd35",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff8e2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#008361",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#00b090",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#def4f0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#1d1e20",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#36344d",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#727586",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#dadce0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#f2f3f6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#357df9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#e3ebf9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#265ab2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#6366f1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#d8dae0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#0d141a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffffff",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-1/index.html",
+        "sha256": "6dce96eab7d31150dee64fe8932d3a198b91fc76eaf7e3fd138d3440d71bacc8",
+        "status": "candidate"
+      },
+      {
+        "value": "#2f1c6a",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#1f1346",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#8c85ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#d5dfff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#5025d1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#673de6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ebe4ff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#b39ef3",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#d63163",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fc5185",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffe8ef",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea8c2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fea419",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#9f6000",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffd28c",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffcd35",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff8e2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#008361",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#00b090",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#def4f0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#1d1e20",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#36344d",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#727586",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#dadce0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#f2f3f6",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#fff",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#357df9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#e3ebf9",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#265ab2",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#6366f1",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#d8dae0",
+        "selector": "html:nth-of-type(1) > head:nth-of-type(1) > style:nth-of-type(2)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#0d141a",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      },
+      {
+        "value": "#ffffff",
+        "selector": "html:nth-of-type(1) > body:nth-of-type(1) > div:nth-of-type(1) > astro-island:nth-of-type(2) > main:nth-of-type(1)",
+        "source": "css",
+        "path": "leads/dl-cabeleireiros/referencias/site-baixado/agende-seu-horrio-2/index.html",
+        "sha256": "5dec5bb81a755d12901d2b802c7b1ac19894f50740c1c5fa00acc7a1bef9948a",
+        "status": "candidate"
+      }
+    ]
+  },
+  "retrieval": [
+    {
+      "query": "Salão de Beleza",
+      "results": [
+        {
+          "id": "barbershop-landing-51.aura.build",
+          "path": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+          "score": 15,
+          "reasons": [
+            "Contexto do modelo: beleza.",
+            "Cobertura de termos: 1/2."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        }
+      ]
+    },
+    {
+      "query": "salão beleza fotografia editorial serif",
+      "results": [
+        {
+          "id": "architecture-studio.aura.build",
+          "path": "Design System/temas_claros/architecture-studio.aura.build/architecture-studio.aura.build/design-system.html",
+          "score": 24,
+          "reasons": [
+            "Padrões visuais: fotografia, editorial, serifada.",
+            "Cobertura de termos: 3/5."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        },
+        {
+          "id": "green-museum",
+          "path": "Design System/temas_claros/green-museum/design-system.html",
+          "score": 24,
+          "reasons": [
+            "Padrões visuais: fotografia, editorial, serifada.",
+            "Cobertura de termos: 3/5."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        },
+        {
+          "id": "genlabs.aura.build",
+          "path": "Design System/temas_claros/genlabs.aura.build/design-system.html",
+          "score": 24,
+          "reasons": [
+            "Padrões visuais: fotografia, editorial, serifada.",
+            "Cobertura de termos: 3/5."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        },
+        {
+          "id": "savory-plate.aura.build",
+          "path": "Design System/temas_claros/savory-plate.aura.build/savory-plate.aura.build/design-system.html",
+          "score": 24,
+          "reasons": [
+            "Padrões visuais: fotografia, editorial, serifada.",
+            "Cobertura de termos: 3/5."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        },
+        {
+          "id": "elicyon.com",
+          "path": "Design System/temas_claros/elicyon.com/elicyon.com/design-system.html",
+          "score": 24,
+          "reasons": [
+            "Padrões visuais: fotografia, editorial, serifada.",
+            "Cobertura de termos: 3/5."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "partial_requires_director"
+        },
+        {
+          "id": "novachain-crypto-trading-protocol-1.aura.build",
+          "path": "Design System/temas_escuros/novachain-crypto-trading-protocol-1.aura.build/design-system.html",
+          "score": 24,
+          "reasons": [
+            "Padrões visuais: fotografia, editorial, serifada.",
+            "Cobertura de termos: 3/5."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        }
+      ]
+    },
+    {
+      "query": "barbearia tipografia serviços",
+      "results": [
+        {
+          "id": "barbershop-landing-51.aura.build",
+          "path": "Design System/temas_escuros/barbershop-landing-51.aura.build/design-system.html",
+          "score": 23.33,
+          "reasons": [
+            "Contexto do modelo: barbearia, servicos.",
+            "Cobertura de termos: 2/3."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        },
+        {
+          "id": "ai-saas-landing-27.aura.build",
+          "path": "Design System/temas_claros/ai-saas-landing-27.aura.build/ai-saas-landing-27.aura.build/design-system.html",
+          "score": 13.33,
+          "reasons": [
+            "Padrões visuais: tipografia.",
+            "Conteúdo salvo: servicos.",
+            "Cobertura de termos: 2/3."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "partial_requires_director"
+        },
+        {
+          "id": "aris-photograph.aura.build",
+          "path": "Design System/temas_claros/aris-photograph.aura.build/aris-photograph.aura.build/design-system.html",
+          "score": 13.33,
+          "reasons": [
+            "Padrões visuais: tipografia.",
+            "Conteúdo salvo: servicos.",
+            "Cobertura de termos: 2/3."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        },
+        {
+          "id": "finex-internet.aura.build",
+          "path": "Design System/temas_escuros/finex-internet.aura.build/design-system.html",
+          "score": 13.33,
+          "reasons": [
+            "Padrões visuais: tipografia.",
+            "Conteúdo salvo: servicos.",
+            "Cobertura de termos: 2/3."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "partial_requires_director"
+        },
+        {
+          "id": "white-medical",
+          "path": "Design System/temas_claros/white-medical/design-system.html",
+          "score": 13.33,
+          "reasons": [
+            "Padrões visuais: tipografia.",
+            "Conteúdo salvo: servicos.",
+            "Cobertura de termos: 2/3."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        },
+        {
+          "id": "parallax-geometry",
+          "path": "Design System/temas_claros/parallax-geometry/design-system.html",
+          "score": 6.67,
+          "reasons": [
+            "Padrões visuais: tipografia.",
+            "Cobertura de termos: 1/3."
+          ],
+          "method": "lexical_reviewed_metadata",
+          "tokenStatus": "draft_requires_project_adaptation"
+        }
+      ]
+    },
+    {
+      "query": "No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram.",
+      "results": []
+    },
+    {
+      "query": "clientes que valorizam resultados impecáveis",
+      "results": []
+    },
+    {
+      "query": "Corte Feminino",
+      "results": []
+    }
+  ],
+  "sourceHashes": {
+    "leads/dl-cabeleireiros/referencias/source-evidence.json": "19fdd69a3fea9520c6bdaa38019b3f8c5339e25010124602c401367c69738c8a",
+    "leads/dl-cabeleireiros/referencias/source-review.json": "c5e2d04243b083f798c9c5de73270f2e0194cf08c0bc7949ca9d050642f4ead9",
+    "leads/dl-cabeleireiros/referencias/asset-review.json": "1ae33ce400ab2595e3bab02f24d981dd71b376168929a9fb3a2d87316e91bd42",
+    "leads/dl-cabeleireiros/referencias/palette-candidates.json": "7bcdc8e59fc93b289eae19c8a3bc0176214d60499cb67140272366ef10353e0f",
+    "leads/dl-cabeleireiros/visual/original-review.json": "174e596338e31be5c6bea00d53e15f68b1191547a4c0799fbbad45127b0ea670"
+  }
+}

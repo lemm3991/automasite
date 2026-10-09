@@ -1,48 +1,20 @@
 ---
 trigger: always_on
-description: Regra de consulta e extração de tokens dos 61 Design Systems para Diretor de Arte (2A) e Builder (2B)
+description: Consulta fundamentada do acervo e validação da direção de arte antes do Builder.
 ---
 
-# Regra de Seleção de Design System (Diretor de Arte & Builder)
+# Referências para Diretor de Arte e Builder
 
-O Diretor de Arte (Agente 2A) e o Platform Builder (Agente 2B) devem consultar os **61 Design Systems de Produção** para extrair identidade visual autêntica, paleta de cores e tipografia de alto padrão para cada cliente.
+Antes da direção de arte, identifique a empresa a partir do site atual, da marca e das imagens reais. Consulte Design System/search.cjs ou a API queryDesignSystems em src/lib/design-systems.ts. As interfaces Python e TypeScript usam o mesmo motor.
 
----
+A consulta pode não encontrar referências relevantes. Reformule a busca por padrões visuais observados; nunca use os primeiros itens do catálogo nem padrões fixos por cliente. Tema escuro, glow, vidro e parallax são decisões do projeto. A primeira dobra deve ter composição e tratamento próprios, com efeitos que contribuam para legibilidade e identidade.
 
-## 1. Ponto de Entrada Programático (TypeScript / Node)
+Inspecione as páginas retornadas pelo catálogo, registre os padrões aproveitados e diferencie a proposta dos projetos recentes. Tokens são sugestões e podem estar incompletos. recommended_components não fornece uma página pronta.
 
-Em vez de criar paletas arbitrárias, importe e consulte diretamente o catálogo enriquecido:
+Siga .agents/skills/art-director/SKILL.md para gerar o briefing, escrever a proposta e validar a entrega. Antes do Builder, execute:
 
-```typescript
-import { 
-  queryDesignSystems, 
-  getDesignSystemTokens, 
-  recommendDesignSystemAndComponents 
-} from '@/lib/design-systems.ts';
-
-// 1. Recomendação unificada (Design System + Tokens Zod + Componentes Astro)
-const recommendation = recommendDesignSystemAndComponents({
-  niche: client.business.niche,
-  vibe: 'luxury-minimal',
-  themePreference: 'dark' // ou 'light'
-});
-
-// 2. Injetar diretamente no client config:
-// client.theme = recommendation.tokens;
+```bash
+node .agents/skills/art-director/scripts/generate_art_direction.cjs cliente-slug --check
 ```
 
----
-
-## 2. Arquivos de Referência
-
-1. **Biblioteca em TypeScript:** [`src/lib/design-systems.ts`](file:///D:/projetos%20antigravity/Site%20automatico/src/lib/design-systems.ts)
-2. **Motor de Seleção Semântica:** [`Design System/design-system-selector.ts`](file:///D:/projetos%20antigravity/Site%20automatico/Design%20System/design-system-selector.ts)
-3. **Catálogo Completo Enriquecido:** [`Design System/catalog.json`](file:///D:/projetos%20antigravity/Site%20automatico/Design%20System/catalog.json) e [`Design System/design-systems-meta.ts`](file:///D:/projetos%20antigravity/Site%20automatico/Design%20System/design-systems-meta.ts)
-
----
-
-## 3. Diretriz Anti-Clone
-
-- Nunca utilize o mesmo Design System repetidamente para clientes do mesmo nicho.
-- O seletor possui 61 referências completas: varie entre os arquétipos editoriais, bento-tech, luxo escuro e clean médico.
-- Os tokens retornados já são 100% validados contra o `ThemeTokensSchema` do Zod.
+A presença de um arquivo art-direction.json ou de uma lista de referências não comprova que a etapa foi concluída. Não publique avaliações, números, selos ou capacidades sem evidência no material do cliente.

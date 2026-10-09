@@ -1,0 +1,43 @@
+/* BROTTO CAMPELO ADVOGADOS — ESTILOS DEDICADOS E ISOLADOS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bca-primary: #0693e3;
+  --bca-secondary: #32373c;
+  --bca-accent: #e06020;
+  --bca-dark: #111827;
+  --bca-light: #f8fafc;
+  --bca-border: rgba(196, 207, 192, 0.4);
+}
+
+.bca-font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+.bca-font-sans {
+  font-family: 'Inter', sans-serif;
+}
+
+.bca-awards-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.bca-practice-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  .bca-awards-bar {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .bca-practice-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

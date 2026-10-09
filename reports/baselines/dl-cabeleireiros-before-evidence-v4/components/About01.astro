@@ -1,0 +1,96 @@
+---
+import './salon.css';
+interface Props {
+  content: {
+    title?: string;
+    description?: string;
+    units?: Array<{
+      name: string;
+      city: string;
+      address: string;
+      cep: string;
+      hours: string;
+      phone: string;
+      whatsappUrl: string;
+      isPriority?: boolean;
+    }>;
+  };
+}
+
+const { content } = Astro.props;
+const title = content?.title || "Nossas Unidades: Palhoça & Florianópolis";
+const description = content?.description || "Fundado por Douglas e Luciano, o D&L cabeleireiro consolidou-se como referência em sofisticação e técnica. Conheça nossos dois espaços pensados para o seu bem-estar.";
+const units = content?.units || [
+  {
+    name: "D&L — Pedra Branca",
+    city: "Palhoça - SC",
+    address: "Rua Portinari, 170, Pedra Branca",
+    cep: "CEP 88137-076",
+    hours: "Segunda a Sábado: 09h às 21h",
+    phone: "(48) 99936-0284",
+    whatsappUrl: "https://wa.me/5548999360284",
+    isPriority: true
+  },
+  {
+    name: "Salão D&L — Agronômica",
+    city: "Florianópolis - SC",
+    address: "Rua Frei Caneca, 17, Agronômica",
+    cep: "CEP 88025-000",
+    hours: "Segunda a Sábado: 09h às 21h30",
+    phone: "(48) 99936-0365",
+    whatsappUrl: "https://wa.me/5548999360365",
+    isPriority: false
+  }
+];
+---
+
+<section id="unidades" class="dl-section" data-card-treatment="luxury-bordered" data-surface-rhythm="continuous">
+  <div class="dl-wrap">
+    <div class="max-w-2xl mb-12">
+      <div class="dl-badge">
+        <span class="section-tag-line"></span>
+        <span class="text-xs font-semibold uppercase tracking-wider text-amber-700">Espaços e Atendimento</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900 mb-4">{title}</h2>
+      <p class="text-base text-gray-600 leading-relaxed">{description}</p>
+    </div>
+
+    <div class="dl-units-grid">
+      {units.map((unit) => (
+        <div class={`dl-unit-card ${unit.isPriority ? 'primary-unit' : ''}`}>
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-bold uppercase tracking-widest text-amber-700">{unit.city}</span>
+              {unit.isPriority && (
+                <span class="px-3 py-1 text-[11px] font-semibold bg-amber-100 text-amber-800 rounded-full">
+                  Unidade Local
+                </span>
+              )}
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">{unit.name}</h3>
+            <p class="text-sm text-gray-600 mb-2">{unit.address}</p>
+            <p class="text-xs text-gray-400 mb-6">{unit.cep}</p>
+
+            <div class="space-y-2 pt-4 border-t border-gray-100 text-sm">
+              <div class="flex items-center gap-2 text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <span>{unit.hours}</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <strong class="text-gray-900">{unit.phone}</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-gray-100">
+            <a href={unit.whatsappUrl} target="_blank" rel="noopener noreferrer" class="dl-button w-full">
+              <span>Agendar nesta unidade</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -5,5 +5,29 @@
   "niche": "Metalúrgica e Equipamentos para Panificação",
   "city": "Criciúma",
   "state": "SC",
-  "status": "REDESIGN_COMPLETED"
+  "status": "ativo",
+  "ranking": 1,
+  "scores": {
+    "opportunity": 9.8
+  },
+  "main_gap": "Site atual inacabado com textos Lorem Ipsum e produtos de joalheria cadastrados por engano pela agência anterior.",
+  "business": {
+    "name": "Delta Pan Equipamentos",
+    "razao_social": "DELTA PAN - EQUIPAMENTOS INDUSTRIA E COMERCIO LTDA",
+    "niche": "Metalúrgica e Equipamentos para Panificação",
+    "city": "Criciúma",
+    "state": "SC",
+    "phone": "(48) 99617-0558",
+    "whatsapp": "(48) 99617-0558",
+    "email": "contato@deltapan.com.br",
+    "address": "Rua Francisco Severo Pizzetti, Vila Francesa - Criciúma - SC, CEP 88.817-380",
+    "website": "https://deltapan.com.br/"
+  },
+  "contatos": {
+    "telefone": "(48) 99617-0558",
+    "whatsapp": "(48) 99617-0558",
+    "email": "contato@deltapan.com.br",
+    "endereco": "Rua Francisco Severo Pizzetti, Vila Francesa - Criciúma - SC, CEP 88.817-380",
+    "website": "https://deltapan.com.br/"
+  }
 }

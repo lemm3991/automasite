@@ -1,0 +1,43 @@
+{
+  "slug": "dl-cabeleireiros",
+  "name": "D&L Cabeleireiros",
+  "url": "https://dlcabeleireiro.com",
+  "niche": "Salão de Beleza",
+  "searchNiche": "Salão",
+  "detailedNiche": "Salão de Beleza",
+  "city": "Palhoça",
+  "state": "SC",
+  "region": "Brasil",
+  "status": "ativo",
+  "ranking": 1,
+  "scores": {
+    "opportunity": 9.1
+  },
+  "main_gap": "Presença digital com defasagem visual, formulário desativado no CSS e ausência de especificações técnicas para cotação B2B imediata.",
+  "business": {
+    "name": "D&L Cabeleireiros",
+    "niche": "Salão de Beleza",
+    "city": "Palhoça",
+    "state": "SC",
+    "phone": "(48) 9936-0365",
+    "whatsapp": "(48) 9936-0365",
+    "email": "",
+    "instagram": "@dlcabeleireiros",
+    "facebook": "dlcabeleireiros",
+    "address": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+    "website": "https://dlcabeleireiro.com",
+    "literal_technical_terms": [
+      "Cortes personalizados que valorizam sua identidade e movimento.",
+      "Técnicas modernas para volume, comprimento e acabamento perfeito."
+    ]
+  },
+  "contatos": {
+    "telefone": "(48) 9936-0365",
+    "whatsapp": "(48) 9936-0365",
+    "email": "",
+    "instagram": "@dlcabeleireiros",
+    "facebook": "dlcabeleireiros",
+    "endereco": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+    "website": "https://dlcabeleireiro.com"
+  }
+}

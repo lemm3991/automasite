@@ -1,0 +1,103 @@
+---
+import './medical.css';
+interface Props {
+  content?: {
+    tagline?: string;
+    title?: string;
+    description?: string;
+    ctaPrimary?: { label: string; href: string };
+    ctaSecondary?: { label: string; href: string };
+    heroImage?: string;
+    heroImageAlt?: string;
+    doctorBadge?: string;
+    traditionBadge?: string;
+  };
+}
+
+const { content = {} } = Astro.props;
+const tagline = content.tagline || "INSTITUTO DE ORTODONTIA DE CURITIBA";
+const title = content.title || "Excelência em Ortodontia e Implantes em Curitiba";
+const description = content.description || "Referência desde 1995 sob a liderança do Dr. Fabio Takachi Hase (CRO/PR-9169). Tratamentos ortodônticos avançados com alinhadores invisíveis, reabilitação oral e 4.000 m² de estrutura integrada.";
+const heroImage = content.heroImage || "/assets/clients/iorc-odontologia/11-young-woman-consulting-dentist-768x512.jpg";
+const heroImageAlt = content.heroImageAlt || "Atendimento Humanizado";
+---
+
+<header class="w-full bg-white border-b border-slate-100 py-3 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+    <div class="flex items-center gap-3">
+      <img id="iorc-logo" src="/assets/clients/iorc-odontologia/01-cropped-logo-horizontal-300x136.png" alt="IORC Odontologia" class="h-10 sm:h-12 w-auto object-contain" />
+      <span class="text-xs font-semibold uppercase tracking-wider text-[#104050] border-l border-slate-200 pl-3">Tradição desde 1995</span>
+    </div>
+    <div class="flex items-center gap-4 text-xs sm:text-sm text-slate-600">
+      <span class="hidden sm:inline font-medium">Matriz Boqueirão: <span class="font-bold text-[#104050]">(41) 3026-1234</span></span>
+      <a href="https://api.whatsapp.com/send?phone=5541999076236" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#104050] text-white font-medium hover:bg-[#205060] transition-colors text-xs">
+        <span>WhatsApp Matriz</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<section id="iorc-hero" class="relative overflow-hidden bg-white py-12 sm:py-16 lg:py-20 border-b border-slate-100" data-hero-type="split-clinical-showcase" data-surface-rhythm="clinical-sterile-white" data-card-treatment="crisp-bordered-slate-panels">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+      
+      <!-- Coluna de Texto e Autoridade -->
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-[#104050] text-xs font-semibold uppercase tracking-wider iorc-badge">
+          <span class="w-2 h-2 rounded-full bg-[#104050]"></span>
+          <span>{tagline} • CRO/PR-9169</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#104050] leading-tight">
+          {title}
+        </h1>
+
+        <p class="text-base sm:text-lg text-slate-700 leading-relaxed max-w-2xl">
+          {description}
+        </p>
+
+        <div class="pt-2 flex flex-col sm:flex-row gap-4 items-stretch sm:items-center">
+          <a href="https://api.whatsapp.com/send?phone=5541999076236" class="iorc-cta-btn inline-flex justify-center items-center px-6 py-3.5 rounded-full bg-[#104050] text-white font-semibold text-sm hover:bg-[#205060] transition-all shadow-sm">
+            <span>Agendar Consulta na Matriz</span>
+          </a>
+          <a href="#unidades" class="inline-flex justify-center items-center px-6 py-3.5 rounded-full bg-white border border-slate-300 text-[#104050] font-semibold text-sm hover:bg-slate-50 transition-colors">
+            <span>Conhecer as 3 Unidades</span>
+          </a>
+        </div>
+
+        <div class="pt-4 border-t border-slate-100 grid grid-cols-2 sm:grid-cols-3 gap-4 text-xs text-slate-600">
+          <div>
+            <span class="block font-bold text-[#104050]">Dr. Fabio Takachi Hase</span>
+            <span>Responsável Técnico</span>
+          </div>
+          <div>
+            <span class="block font-bold text-[#104050]">4.000 m² Totais</span>
+            <span>Estrutura Própria</span>
+          </div>
+          <div class="col-span-2 sm:col-span-1">
+            <span class="block font-bold text-[#104050]">Alto Boqueirão</span>
+            <span>Matriz com Estacionamento</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coluna de Imagem e Destaque -->
+      <div class="lg:col-span-5 relative iorc-hero-photo">
+        <div class="relative rounded-2xl overflow-hidden border border-slate-200 shadow-md bg-slate-50">
+          <img src={heroImage} alt={heroImageAlt} class="w-full h-auto object-cover max-h-[460px]" width="768" height="512" fetchpriority="high" />
+          <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#104050]/90 to-transparent p-4 sm:p-6 text-white">
+            <p class="text-xs font-semibold tracking-wider uppercase text-sky-200">Atendimento Humanizado</p>
+            <p class="text-sm font-medium mt-1">Mais de 25 anos cuidando do sorriso e da saúde bucal em Curitiba.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .animate-reveal-up-custom {
+    animation: reveal-up 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+</style>

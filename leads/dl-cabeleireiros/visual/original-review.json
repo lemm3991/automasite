@@ -1,0 +1,85 @@
+{
+  "method": "image-inspection",
+  "reviewedBy": "codex-dl-prospector",
+  "reviewedAt": "2026-10-07T14:40:11.427Z",
+  "inspections": [
+    {
+      "path": "leads/dl-cabeleireiros/screenshots/site-desktop.png",
+      "sha256": "cb37990d5b9040b9fe455ef3729b8cd475a010a39a977694b87091c34998fa7b",
+      "finding": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 600,
+          "description": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão."
+        }
+      ]
+    },
+    {
+      "path": "leads/dl-cabeleireiros/screenshots/site-desktop-full.png",
+      "sha256": "5079572203b199988460a80cd622793bcde4c744fdd5b221feb2ad12d9ce99c7",
+      "finding": "Página mostra cardápio longo em fundo azul escuro, apresentação, galeria e unidades. Áreas ainda não reveladas pelo carregamento/animações limitam a leitura integral da captura.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 1200,
+          "height": 600,
+          "description": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão."
+        }
+      ]
+    },
+    {
+      "path": "leads/dl-cabeleireiros/screenshots/site-mobile.png",
+      "sha256": "a46eb492718d374d7e69c88857c099cfdbe27090aa59219f22163889a3205feb",
+      "finding": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 600,
+          "description": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy."
+        }
+      ]
+    },
+    {
+      "path": "leads/dl-cabeleireiros/screenshots/site-mobile-full.png",
+      "sha256": "d7a5cb5b48a7deebe4e9b7563527e6d22f3aea37496c0b6b7fb3b78d42a8e1e7",
+      "finding": "Página mostra cardápio longo em fundo azul escuro, apresentação, galeria e unidades. Áreas ainda não reveladas pelo carregamento/animações limitam a leitura integral da captura.",
+      "regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 600,
+          "description": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy."
+        }
+      ]
+    }
+  ],
+  "firstFold": {
+    "desktop": "Logo dourado central, vídeo de atendimento ao fundo, headline serifada branca e CTA contornado. Texto estranho de embed aparece sob o botão.",
+    "mobile": "Logo, mensagem e CTA estão visíveis sobre vídeo; a entrada conserva identidade, mas o fundo em movimento pode disputar atenção com a copy."
+  },
+  "preserve": [
+    "Monograma dourado e posicionamento de cuidado pessoal",
+    "Cardápio de 12 serviços e identificação das duas unidades"
+  ],
+  "improve": [
+    "Trocar a mídia genérica de abertura por foto do ambiente disponível",
+    "Organizar cardápio para leitura rápida",
+    "Dar escolha clara entre as duas unidades no agendamento"
+  ],
+  "limitations": [
+    "Capturas completas ainda têm áreas de conteúdo não revelado; não considerar esses vazios como defeitos intrínsecos do original.",
+    "Vídeo muda o contraste a cada frame.",
+    "Não inferir identidade de pessoas ou unidade exata a partir das fotos."
+  ],
+  "visualQualityScore": 6.5,
+  "scoreReason": "Entrada reconhecível com logo, foto e CTA, mas elementos de embed aparentes e cardápio longo prejudicam acabamento e leitura.",
+  "redesignOpportunityScore": 55,
+  "opportunityReason": "Melhoria moderada com foto mais específica, ritmo editorial e contatos corrigidos; o original já apresenta marca e serviços."
+}

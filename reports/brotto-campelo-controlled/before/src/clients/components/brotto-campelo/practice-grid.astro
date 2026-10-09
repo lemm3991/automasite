@@ -1,0 +1,87 @@
+---
+import './legal.css';
+
+interface Props {
+  content?: {
+    title?: string;
+  };
+}
+
+const { content } = Astro.props;
+const title = content?.title || "Áreas de Atuação Estratégica Empresarial";
+
+const practices = [
+  {
+    name: "Direito Empresarial",
+    desc: "Assessoria consultiva e contenciosa societária, contratos comerciais complexos, fusões e aquisições com foco em viabilização de negócios."
+  },
+  {
+    name: "Direito do Trabalho",
+    desc: "Gestão preventiva de passivos trabalhistas, conformidade regulatória com as novas NRs e defesa contenciosa estratégica corporativa."
+  },
+  {
+    name: "Planejamento Patrimonial e Sucessões",
+    desc: "Estruturação de holdings familiares, governança sucessória segura e proteção patrimonial de longo prazo para famílias e acionistas."
+  },
+  {
+    name: "Propriedade Intelectual",
+    desc: "Proteção de marcas, patentes, segredos industriais, contratos de licenciamento e franquias com segurança jurídica."
+  },
+  {
+    name: "LGPD, Privacidade e Proteção de Dados",
+    desc: "Programas completos de governança em privacidade, adequação de processos corporativos, mapeamento de dados e resposta a incidentes."
+  },
+  {
+    name: "Direito Digital",
+    desc: "Estruturação de negócios digitais, contratos de software e SaaS, inteligência artificial e conformidade no ambiente tecnológico."
+  },
+  {
+    name: "Agronegócio",
+    desc: "Contratos agrários, operações de crédito rural (CPR), regularização imobiliária rural e governança no setor produtivo agro."
+  },
+  {
+    name: "Assessoria em Leilões",
+    desc: "Auditoria jurídica prévia de arrematação, diligência imobiliária completa e segurança na aquisição de ativos judiciais e extrajudiciais."
+  }
+];
+---
+
+<section id="areas" class="w-full bg-white py-14 md:py-20 px-4 md:px-8 border-b border-gray-100">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <span class="text-xs font-semibold uppercase tracking-widest text-[#e06020] mb-2 block">
+        Atuação Especializada
+      </span>
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-normal text-[#111827]" style="font-family: 'Playfair Display', serif;">
+        {title}
+      </h2>
+      <p class="text-sm md:text-base text-gray-600 mt-3 font-light">
+        Advocacia moderna, dinâmica e pautada em soluções jurídicas personalizadas que viabilizam negócios e fortalecem relações.
+      </p>
+    </div>
+
+    <!-- Grid estruturado com rolagem suave inspirada no luxury-real-estate-22 -->
+    <div class="bca-practice-grid" style="scroll-behavior: smooth;">
+      {practices.map((item, index) => (
+        <div class="p-6 md:p-8 rounded-xl border border-gray-100 bg-[#f8fafc]/50 hover:bg-white hover:border-gray-200 hover:shadow-xs transition-all flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-bold text-gray-400">0{index + 1}</span>
+              <span class="w-2 h-2 rounded-full bg-[#0693e3]"></span>
+            </div>
+            <h3 class="text-lg md:text-xl font-medium text-[#111827] mb-2" style="font-family: 'Playfair Display', serif;">
+              {item.name}
+            </h3>
+            <p class="text-xs md:text-sm text-gray-600 leading-relaxed font-light">
+              {item.desc}
+            </p>
+          </div>
+          <div class="pt-4 mt-4 border-t border-gray-100 flex items-center justify-between text-xs text-[#0693e3] font-medium">
+            <span>Consultoria especializada</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

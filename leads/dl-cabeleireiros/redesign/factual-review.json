@@ -1,0 +1,933 @@
+{
+  "schemaVersion": 1,
+  "slug": "dl-cabeleireiros",
+  "status": "approved",
+  "method": "source-and-render-inspection",
+  "reviewedBy": "/root/independent_dl_review",
+  "reviewedAt": "2026-10-07T19:33:31.362Z",
+  "modelExecutionNote": "Subagente Codex independente do Builder codex-dl-builder. Exceção Codex autorizada para este teste; configuração central Gemini preservada.",
+  "sourceReviewSha256": "c5e2d04243b083f798c9c5de73270f2e0194cf08c0bc7949ca9d050642f4ead9",
+  "assetReviewSha256": "1ae33ce400ab2595e3bab02f24d981dd71b376168929a9fb3a2d87316e91bd42",
+  "renderSha256": "d7f3ef9ed9936e2d08eb5186fa9646c0a7a8013c670e70e197ad013804720845",
+  "textReviews": [
+    {
+      "id": "9c8f816d99a0abbe99e34bcfa4096d969882c62220050db253455f9732430392",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "D&L",
+      "kind": "factual",
+      "factIds": [
+        "name"
+      ],
+      "reason": "Corresponde ao fato liberado name, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "094a3a2d53ee9b6457a6efe626937662dfbbcb7588369a7447a18f667e18cb90",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(1) > span:nth-of-type(1) > small:nth-of-type(1)",
+      "text": "CABELEIREIROS",
+      "kind": "interface",
+      "reason": "Complemento tipográfico do nome da marca no cabeçalho; caixa alta mantém o sentido de D&L Cabeleireiros, fato name.",
+      "factIds": [
+        "name"
+      ]
+    },
+    {
+      "id": "55b378e26149c0399ee946ac668e2c50efa8b480f6be7930ffcdc5e9bdd31410",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "Serviços",
+      "kind": "interface",
+      "reason": "Rótulo de navegação para o cardápio existente."
+    },
+    {
+      "id": "9ec448771f89b4f3e22059e2b0a4677e11e53f7578375f11d3b11f824b487990",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(2)",
+      "text": "O salão",
+      "kind": "interface",
+      "reason": "Rótulo de navegação para apresentação e galeria."
+    },
+    {
+      "id": "da3a8fb348f9c32f29f376a8339feadf1b4701f7340fec71630f765aae421a7c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > nav:nth-of-type(1) > a:nth-of-type(3)",
+      "text": "Unidades",
+      "kind": "interface",
+      "reason": "Rótulo de navegação para os dois contatos existentes."
+    },
+    {
+      "id": "54a30035170bd34509ae4a67af24fd01234de4946ab71637808d3e71e486818f",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(2)",
+      "text": "Agendar",
+      "kind": "interface",
+      "reason": "Navega à escolha de unidade; não promete reserva confirmada."
+    },
+    {
+      "id": "e9a540d5a16a660428a9f38b2689675699fc3ba89a80a28ec64c45ea8f8c4b8a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > header:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "4d12b198500c3c02168a08874b45d4dfb5bd421a83766258f7ca34c3cbe8411f",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "D&L Cabeleireiros",
+      "kind": "factual",
+      "factIds": [
+        "name"
+      ],
+      "reason": "Corresponde ao fato liberado name, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "ae2213878604554235be709a2db6f0bd283fc0a1bc98757764d03dc92bb9e1c2",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+      "text": "Um espaço para o seu",
+      "kind": "editorial",
+      "reason": "Parte da chamada criativa de acolhimento, sem alegação mensurável."
+    },
+    {
+      "id": "8e25b6d206a3510df7601a043eb23896a00f271ae150430b19ed72e8c81e7e70",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1) > em:nth-of-type(1)",
+      "text": "estilo.",
+      "kind": "editorial",
+      "reason": "Fechamento criativo da chamada do hero, sem fato operacional."
+    },
+    {
+      "id": "8f6ea0a6bcf943aa32cec0766550ba3fbd52d329fd43102c7e722d59ead801cd",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+      "text": "Um olhar para o ambiente D&L",
+      "kind": "visual",
+      "assetPath": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "reason": "Legenda exatamente aprovada e coerente com a foto renderizada; não identifica pessoa, unidade ou procedimento."
+    },
+    {
+      "id": "7a9047bf021da557f926fe02d327edcfbed617df3fd5ee905270e49646bfbf2b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Beleza, conforto e cuidado em cada detalhe. Encontre seu momento no D&L.",
+      "kind": "editorial",
+      "reason": "Convite coerente com positioning; não contém nova capacidade, exclusividade, número ou garantia."
+    },
+    {
+      "id": "319bc2cb2c05ddc0475804c095f1bce6c25021ef3dbae62943341204a15213ab",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1)",
+      "text": "Escolher unidade e agendar",
+      "kind": "interface",
+      "reason": "Leva à seção de unidades para escolher um contato e iniciar conversa; não afirma disponibilidade."
+    },
+    {
+      "id": "f5ebf9d41b23c4883d4becd67ad176350b4ebd4ab6ed160297d609bfdb18af30",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "ec092475570d335e69a3db09109271c42821719a17783000ca24a9f656532112",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2)",
+      "text": "Conheça nossos serviços",
+      "kind": "interface",
+      "reason": "Link ao cardápio."
+    },
+    {
+      "id": "e17c67bae76e363775797b5f220d9fe27db6df533641774c433040f09bb5a508",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "↓",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "2ceda0fdfa0e498f70cf0d6c6d1d5e5754df5c32112ae742f94d87c7f0c40ce2",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Nossos serviços",
+      "kind": "interface",
+      "reason": "Título da seção com os 12 serviços documentados."
+    },
+    {
+      "id": "9bc6b7cb954bce3e35af9353314d919ac18580627b6a31d349aa2524e815bcd1",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Seu cuidado, do seu jeito.",
+      "kind": "editorial",
+      "reason": "Título criativo do cardápio, sem acrescentar procedimento."
+    },
+    {
+      "id": "ec221ae323dc92f5785a214610f8580f3795c68793c338d5dba471f3ae960772",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Encontre o cuidado que combina",
+      "kind": "editorial",
+      "reason": "Convite à consulta do cardápio."
+    },
+    {
+      "id": "7ae89cdda42789c377881627306137687be647a0cfbd2ed5d7767002852a20af",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "com o seu momento.",
+      "kind": "editorial",
+      "reason": "Continuação do convite à consulta do cardápio."
+    },
+    {
+      "id": "eb0ab6b9687b8c0e5a2a4fb07672f8b6faca5c0e9d155f42bb4314edafe2d159",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(1) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "01",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "51c2948af60adb6e4eca9bc57aaddbb7c61a791d1ccb6b1e9fa83c8c8c138597",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(1) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Corte Feminino",
+      "kind": "factual",
+      "factIds": [
+        "service-1"
+      ],
+      "reason": "Corresponde ao fato liberado service-1, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "c19cf3ae1b642271aa1b5b48c60b5b09bc583f799a373962ad793727e9fd7971",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(1) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "735e13739603d44451e6b4731ddf0c3123d371669dd1b4247ff7c87c609d63c9",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Cortes personalizados que valorizam sua identidade e movimento.",
+      "kind": "factual",
+      "factIds": [
+        "description-1"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-1; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "cdc56542d22443bd4128e4d076d2cd964073aee0bed19b1e4bb89ae09b4af8c1",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "17f85091604cf2a3b92bd59a629909d412a4cdd12526d78fd0fbb591dba91925",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(2) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "02",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "868d5e6803dfb56f6842e4ebffea12238de048fe7e88c60584db9e91b85cb334",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(2) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Escovas",
+      "kind": "factual",
+      "factIds": [
+        "service-2"
+      ],
+      "reason": "Corresponde ao fato liberado service-2, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "755b22b205d49aeb44af37b4a18d4775097a574821976517914956550ec17352",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(2) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "2ff77ab7e418e94ce0771b7fd769e750704da98a7a71cade0ba92402a3e72f10",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Finalização impecável com leveza, brilho e durabilidade.",
+      "kind": "factual",
+      "factIds": [
+        "description-2"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-2; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "6f783d8da8e6540cdff74f25c54ed4bddd552f66a6e6e551f76efb8a8b55e7a5",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(2) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "db0b52745dcbc9bc1b019b9159f155227f607f984ad68c5908a7493865570652",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(3) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "03",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "68907cad29868bbcfb11bce70ebcd196d196ae7f750095de605230a273d0522d",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(3) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Mechas",
+      "kind": "factual",
+      "factIds": [
+        "service-3"
+      ],
+      "reason": "Corresponde ao fato liberado service-3, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "5198af33b7ff0fe9caa150d84c82797e8e4e648a13ddfaefd0b50f1a64fe18b7",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(3) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "570345cc1179a77338ceb7e100136736e7c6a7475ebf2bd1aafb95e7216de412",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(3) > p:nth-of-type(1)",
+      "text": "Ilumine seu cabelo com tons naturais e sofisticados.",
+      "kind": "factual",
+      "factIds": [
+        "description-3"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-3; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "227065f325ba4584f2a0392f5245a3a41d614ce3a2804f7a2910a39d940a944f",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(3) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "6e60a51b8409121c4c45cc941f85b2173a1492436d19902e4e6758c9eeee7ef2",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(4) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "04",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "3a9a91eb8f4400b20224c0ab65875e21df79e5e2f8b0fa8146eaf3d49c4cf964",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(4) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Mega Hair",
+      "kind": "factual",
+      "factIds": [
+        "service-4"
+      ],
+      "reason": "Corresponde ao fato liberado service-4, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "d828dc8de668cf7aca2233e0cdad8a5a0ada31274c363b6ac7918f57a5d492dd",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(4) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "53c2687438426689b8335cb811f8aaf356df26d80088ce9b451bc4b7efc59e81",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(4) > p:nth-of-type(1)",
+      "text": "Técnicas modernas para volume, comprimento e acabamento perfeito.",
+      "kind": "factual",
+      "factIds": [
+        "description-4"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-4; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "b71879e00c3dda5f08c81b61fd6a338f17df69582b240e5d8d530c7a90ef84df",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(4) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "aa234cfbcb84bfee927d01c2aa3d524274014cefd1ba6a0b038eccaf8e681b25",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(5) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "05",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "ebba055fa19f5f08f82864c6e874bcb781b7d6ef145f7201de57fff618793afc",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(5) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Kérastase",
+      "kind": "factual",
+      "factIds": [
+        "service-5"
+      ],
+      "reason": "Corresponde ao fato liberado service-5, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "0e4afcc87073a90d83ce87746c3ad17266419050cf06d1de8aad2d9ab4e45574",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(5) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "8475a7c3e5a04901898c9737a85ad75099b8324f23e797762b7892c10d324ed8",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(5) > p:nth-of-type(1)",
+      "text": "Cuidados exclusivos para restaurar a saúde e o brilho dos fios.",
+      "kind": "factual",
+      "factIds": [
+        "description-5"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-5; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "bb9892bebc40fa775a147a88edc03b4a20c7f153629c048534076cdeb781a43d",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(5) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "d25dfbb0b124ee25eda98cf67b1dac440de5dcb1e3d5962c2a7a244399f81d48",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(6) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "06",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "704574a5856d6254cbca6a483b1a4c72eb24d742c9a0fbce516974bce25517ce",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(6) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Tratamentos Davines",
+      "kind": "factual",
+      "factIds": [
+        "service-6"
+      ],
+      "reason": "Corresponde ao fato liberado service-6, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "56aef9adec8a412f12055b9179061a0fb2dd4ee34843bb8ef5d0cc5dfba7dcae",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(6) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "86c97712c6382669721a9908684881f979b837058a0bdf2d62e6b7548311bfd4",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(6) > p:nth-of-type(1)",
+      "text": "Tratamentos premium com performance, sustentabilidade e resultados visíveis.",
+      "kind": "factual",
+      "factIds": [
+        "description-6"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-6; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "95fdee5c16a699f6ab7748f7ef230d2b8812d1681a54cb78c69da183a1643452",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(6) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "04ec6af709a3ced687eeac7cd94e9cf6ef922b9372bdbbe8a373445a1d07ed6d",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(7) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "07",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "cd95d820cac5fe510a420db034a8f406ded23b4b22c479cece3adb06d92286e7",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(7) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Colorações",
+      "kind": "factual",
+      "factIds": [
+        "service-7"
+      ],
+      "reason": "Corresponde ao fato liberado service-7, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "1fd2ea78975cf5fac8a2ce646ac57e29847057558df98f7e1c50957161f609ae",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(7) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "8b42ad7f87620e2763bb10ec1d835b88a7d6c86422bf9130d4649920c4993299",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(7) > p:nth-of-type(1)",
+      "text": "Cores personalizadas que realçam sua beleza e estilo.",
+      "kind": "factual",
+      "factIds": [
+        "description-7"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-7; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "956cc3de311f8ba18f6ff10abdf10da7db92823c786eec04c0fd9365a8e81eae",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(7) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "449dd6c66dc72857fc1635aae9e08a98f2b4ba58c08a9a828239352dd20a85f6",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(8) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "08",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "89a2364368224f6d70ebebdac17c310cd9a283eb4232a384d8ae482ea34b4ebb",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(8) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Dia da Noiva",
+      "kind": "factual",
+      "factIds": [
+        "service-8"
+      ],
+      "reason": "Corresponde ao fato liberado service-8, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "a0ef0688f940a96bf83ee000ed14af86e98422aadc3f0bcf4331891a52dba6ec",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(8) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "3b584f3c6f64e0517863bd43c67b78bfcba57f7095bb75ec3bed38613840efac",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(8) > p:nth-of-type(1)",
+      "text": "Uma experiência completa para tornar seu dia inesquecível.",
+      "kind": "factual",
+      "factIds": [
+        "description-8"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-8; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "21f8e08e25c2994af042657c1113fa69973ebc2f8852e3a7c4ddcfc254262780",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(8) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "770d9ee5c7d4979b3b0c465d5dfcbc56d762fe8cb3b23728cd1d6ad2a4d41d30",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(9) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "09",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "fe7e811ac1a99f8fe9797d86f60fe06a8b4cd0e1d27b49cfd28326db39425577",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(9) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Corte Masculino",
+      "kind": "factual",
+      "factIds": [
+        "service-9"
+      ],
+      "reason": "Corresponde ao fato liberado service-9, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "313a34190dae050c4c180a077e0bc6cff194b8fe006c5598235af42d965e216b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(9) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "ca7215455e6ade0aaebe354eefe068610161a7eb919f7bdfc0df20194cf9f5a1",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(9) > p:nth-of-type(1)",
+      "text": "Estilo, precisão e acabamento alinhado às tendências atuais.",
+      "kind": "factual",
+      "factIds": [
+        "description-9"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-9; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "d1a81a998c6dcee9398aae001cbf90e65942234f4af05d231f068440870a4b76",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(9) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "3f46ab6acb6a662966f6944475b57935f618ec3c6d33c7bdddeef8283a4396aa",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(10) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "10",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "5a96055720336ba6a0102cc2b7c29b7c25ba33bfeab7b4eb2d12b93fc8212f34",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(10) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Alongamento de Unhas",
+      "kind": "factual",
+      "factIds": [
+        "service-10"
+      ],
+      "reason": "Corresponde ao fato liberado service-10, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "0013eee2b391be22a281e200461a587c1cc8fb8d0e2d462855f7d30cb758da2a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(10) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "a0b26164bfd71dda99df5ecaf8c940124ced0de590412943287350ebcbebbd51",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(10) > p:nth-of-type(1)",
+      "text": "Unhas sofisticadas, resistentes e com acabamento perfeito.",
+      "kind": "factual",
+      "factIds": [
+        "description-10"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-10; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "3355a068fc10fb29a9ed78124bf3e667ac5bb03dd21ba43d558fe7111ed59fe4",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(10) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "2f74d2b63aaaaa09e088e5c9e285a73c9cc7f1a6217a87837418ce01fd475ebb",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(11) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "11",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "76ed4070a8f01b423d002600cb873db569f032eae945104b203d76d6f4c96005",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(11) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Manicure e Pedicure",
+      "kind": "factual",
+      "factIds": [
+        "service-11"
+      ],
+      "reason": "Corresponde ao fato liberado service-11, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "25dd7437df4a83e68446d00affa0383364fb8c9bb20760706a5ba811b21e78a6",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(11) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "d9b404ce80b6deae4134f1324ddb5be1d5f6106460875e276bc82f82b6b27a79",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(11) > p:nth-of-type(1)",
+      "text": "Cuidado, higiene e beleza para mãos e pés impecáveis.",
+      "kind": "factual",
+      "factIds": [
+        "description-11"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-11; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "a7fa3e56cbdfc1c26758aca9bc079d7d6f6b81c10d6068264ae6b152ab161212",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(11) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "b66ca9e02d33bf22e829229e8778d76450b0e32303cc291b977d2341b4e027d0",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(12) > summary:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "12",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "b182e6bbe647d97156f38129fad27f9b0101dc1fd9d311312a8034155d654d0a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(12) > summary:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "Maquiagens",
+      "kind": "factual",
+      "factIds": [
+        "service-12"
+      ],
+      "reason": "Corresponde ao fato liberado service-12, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "c30b781d434c3b9581ca03597553b705776834744f9e6ae3961147492a584978",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(12) > summary:nth-of-type(1) > span:nth-of-type(2)",
+      "text": "+",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "5b4a03e8d826480b5e6d9e951dc802f5e2b51e1e31f4b5bf48ea6485c86b6031",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(12) > p:nth-of-type(1)",
+      "text": "Produções elegantes que destacam sua beleza em cada ocasião.",
+      "kind": "factual",
+      "factIds": [
+        "description-12"
+      ],
+      "reason": "Descrição do serviço reproduzida da fonte liberada description-12; alegação documentada da empresa, não validação independente de eficácia."
+    },
+    {
+      "id": "677c4a7a025c6bb06ab3257f1f0257591f6c8ab64d744cfb53c4d96684395304",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(2) > div:nth-of-type(2) > details:nth-of-type(12) > a:nth-of-type(1)",
+      "text": "Consultar na sua unidade ↗",
+      "kind": "interface",
+      "reason": "Ação para consultar os contatos, sem novo serviço ou disponibilidade afirmada."
+    },
+    {
+      "id": "f2a47476497c90ec4e235b5ba41f8de6029a11069ef185ec78bb42d8bd3ae0b2",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "O universo D&L",
+      "kind": "editorial",
+      "reason": "Título editorial da apresentação da marca."
+    },
+    {
+      "id": "91c88dc48def65fb09982cabe00e96d082e71d416500a313a21a789a643e2900",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Beleza nos detalhes.",
+      "kind": "editorial",
+      "reason": "Título da galeria, sem atribuir resultado específico às fotos."
+    },
+    {
+      "id": "7c6cf9dc360a705b2dd114608d0f0155ae9360af7c4f4b99d5e8d2bdf0e3e8d3",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "text": "Fundado por Douglas e Luciano",
+      "kind": "factual",
+      "factIds": [
+        "founders"
+      ],
+      "reason": "Corresponde ao fato liberado founders, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "06212308a7937d3a85c057b44f986bc4ca9067aab74225b4febe8d933412a198",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > p:nth-of-type(3)",
+      "text": "No D&L Salão, cada detalhe é pensado para proporcionar uma experiência única, onde estilo, conforto e excelência se encontram.",
+      "kind": "factual",
+      "factIds": [
+        "positioning"
+      ],
+      "reason": "Corresponde ao fato liberado positioning, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "9c6a95b851f9f540191b964e9d4071c0efa22550e32f544e2d513a45eb731ceb",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "Venha viver o seu momento ↗",
+      "kind": "editorial",
+      "reason": "Convite aos contatos, sem promessa operacional."
+    },
+    {
+      "id": "4cb4bec08d3948fc14ac70294078bd34aa9423d4e63f13f307ba93ffe0a6d167",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption:nth-of-type(1)",
+      "text": "Cabelos em movimento",
+      "kind": "visual",
+      "assetPath": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "reason": "Legenda exatamente aprovada e coerente com a foto renderizada; não identifica pessoa, unidade ou procedimento."
+    },
+    {
+      "id": "5e34deaf7995cc9c67cff3caafbe6f9711f0bf8a190a8abe9b4e735600b5a1d1",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption:nth-of-type(1)",
+      "text": "Detalhes que fazem o visual",
+      "kind": "visual",
+      "assetPath": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "reason": "Legenda exatamente aprovada e coerente com a foto renderizada; não identifica pessoa, unidade ou procedimento."
+    },
+    {
+      "id": "a2c133fea0282d04d4e23a975592e4c7c91b13e84af2052d0b4f5e4574a2c564",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Nossas unidades",
+      "kind": "interface",
+      "reason": "Título de localização; corresponde a architecture com alteração de caixa, sem unidade adicional.",
+      "factIds": [
+        "architecture"
+      ]
+    },
+    {
+      "id": "0070b94d30e7076afbebe9e0f3ff7306f11f7587156d506e68d8ed86af08eac1",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "text": "Escolha onde viver o seu momento.",
+      "kind": "editorial",
+      "reason": "Convite à escolha entre as unidades documentadas."
+    },
+    {
+      "id": "61933ad1a04b9d3cd1c6f6af5f4f9253affecfeaa0aefb0b84a2ddde0edbf026",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Seu próximo momento de cuidado",
+      "kind": "editorial",
+      "reason": "Convite editorial junto aos contatos."
+    },
+    {
+      "id": "eea7f477f2c65a9856ec8c4604bb71445b71f8ca59ebe5b215fc1fa8f1faf52a",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "começa com uma conversa.",
+      "kind": "editorial",
+      "reason": "Explica a ação de contato sem prometer reserva."
+    },
+    {
+      "id": "a5d58e91dec1d36f91a5a65b0577e1bedfa55b64e2287462389a7df7ee1bec00",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "Palhoça",
+      "kind": "factual",
+      "factIds": [
+        "palhoca-city"
+      ],
+      "reason": "Corresponde ao fato liberado palhoca-city, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "94174364bc06a055b7fabd215c73fc74d3a5e8879e5eb9572db50eca64be181c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > h3:nth-of-type(1)",
+      "text": "D&L – Pedra Branca",
+      "kind": "factual",
+      "factIds": [
+        "palhoca-name"
+      ],
+      "reason": "Corresponde ao fato liberado palhoca-name, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "4d409ce0919fcb4c13c2cdd0efdce725429f9300f9c1b8309a129a4f868036b9",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > address:nth-of-type(1)",
+      "text": "Rua Portinari, 170, Pedra Branca, Palhoça - SC. CEP 88137-076",
+      "kind": "factual",
+      "factIds": [
+        "palhoca-address"
+      ],
+      "reason": "Corresponde ao valor liberado pela resolução documental de palhoca-address. Conflito e necessidade de confirmação operacional preservados."
+    },
+    {
+      "id": "1707b52d144aedef9d9d174e867ebcfd86441427d86ab1fa5a5481157a09c49c",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "text": "Segunda a Sábado: 09h às 21h",
+      "kind": "factual",
+      "factIds": [
+        "palhoca-hours"
+      ],
+      "reason": "Corresponde ao valor liberado pela resolução documental de palhoca-hours. Conflito e necessidade de confirmação operacional preservados."
+    },
+    {
+      "id": "9c4b5d1a5e7a8fcb72728eee2f30008d35b02999092daf82d8ba14cb649c2350",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(1)",
+      "text": "(48) 99936-0284",
+      "kind": "factual",
+      "factIds": [
+        "palhoca-phone"
+      ],
+      "reason": "Corresponde ao fato liberado palhoca-phone, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "f167f5e7a218d7b0b11675c12269cd662aa96831f973f1bf72ad5512a79850ef",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(2)",
+      "text": "Conversar pelo WhatsApp",
+      "kind": "interface",
+      "reason": "Abre conversa no número da unidade; não confirma reserva."
+    },
+    {
+      "id": "b1b41a1f52e5e46c3c440afeb7b9b7f7a802dd7e58839842265bdc155000eb76",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(1) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "ac8b445e166c54a2a0695af7a6569b78dab946f57ec2b198c48765d817fa94b7",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(1)",
+      "text": "Florianópolis",
+      "kind": "factual",
+      "factIds": [
+        "florianopolis-city"
+      ],
+      "reason": "Corresponde ao fato liberado florianopolis-city, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "7f559bc220894fed2bf931fe02a694a118f363ad94e0e279b874eb59b86d2326",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > h3:nth-of-type(1)",
+      "text": "Salão D&L – Agronômica",
+      "kind": "factual",
+      "factIds": [
+        "florianopolis-name"
+      ],
+      "reason": "Corresponde ao fato liberado florianopolis-name, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "4b0d2176e7354231353f7f8783ca749af128e0d61ca9326bcde44e59e75f2e20",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > address:nth-of-type(1)",
+      "text": "Rua Frei Caneca, 17 Agronômica, Florianópolis - SC. CEP 88025-000",
+      "kind": "factual",
+      "factIds": [
+        "florianopolis-address"
+      ],
+      "reason": "Corresponde ao fato liberado florianopolis-address, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "51655fc899ae56fd688db67fa52cf191e67934e10e2d18ad33a412fd231c9b5b",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > p:nth-of-type(2)",
+      "text": "Segunda a Sábado: 09h às 21h30",
+      "kind": "factual",
+      "factIds": [
+        "florianopolis-hours"
+      ],
+      "reason": "Corresponde ao fato liberado florianopolis-hours, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "ec3a01d103c9f74ce27a6c6a7f5dc34d25568f5c9b64075d418223218178bee1",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > a:nth-of-type(1)",
+      "text": "(48) 99936-0365",
+      "kind": "factual",
+      "factIds": [
+        "florianopolis-phone"
+      ],
+      "reason": "Corresponde ao fato liberado florianopolis-phone, no contexto correto da marca, serviço ou unidade."
+    },
+    {
+      "id": "f14371443c797e91960442725f0370b443cfc483e8935f97584869ec426b33f3",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > a:nth-of-type(2)",
+      "text": "Conversar pelo WhatsApp",
+      "kind": "interface",
+      "reason": "Abre conversa no número da unidade; não confirma reserva."
+    },
+    {
+      "id": "de2f2dc14393ae051558a75a784fed59e43fe9b18da7adc7e85a27b6c11c2708",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) > a:nth-of-type(2) > span:nth-of-type(1)",
+      "text": "↗",
+      "kind": "interface",
+      "reason": "Marcador sequencial, expansão ou seta de navegação; não é estatística comercial."
+    },
+    {
+      "id": "e6fadb17b0927376ded219ac5b60d4bbc0269421953102dd64f210054c099b51",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "text": "© 2026 D&L Cabeleireiros. Todos os direitos reservados.",
+      "kind": "interface",
+      "reason": "Rodapé convencional com nome documentado e ano atual da renderização; não afirma ano de fundação."
+    },
+    {
+      "id": "1db03bfcde1f96cdeae1fe689824cf6206f4e9555fb101fcd38763a893ad17f9",
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+      "text": "Falar no WhatsApp",
+      "kind": "interface",
+      "reason": "Rótulo do contato com a unidade prioritária documentada."
+    }
+  ],
+  "imageReviews": [
+    {
+      "selector": "#dl-logo",
+      "src": "/assets/clients/dl-cabeleireiros/01-d-l---logo-sem-fundo-RC4m511o2CDnGJl0.png",
+      "alt": "D&L Cabeleireiros",
+      "caption": null,
+      "status": "approved",
+      "reason": "Arquivo aberto pelo auditor. Alt e legenda correspondem à inspeção validada. Recorte não prova nome de pessoa, procedimento específico ou unidade."
+    },
+    {
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(1) > figure:nth-of-type(1) > img:nth-of-type(1)",
+      "src": "/assets/clients/dl-cabeleireiros/03-whatsapp-image-2026-03-11-at-13.25.26-W6QUkRMQrgKOxaJJ.jpeg",
+      "alt": "Ambiente com cadeiras verdes, espelhos circulares iluminados e bancadas de madeira.",
+      "caption": "Um olhar para o ambiente D&L",
+      "status": "approved",
+      "reason": "Arquivo aberto pelo auditor. Alt e legenda correspondem à inspeção validada. Recorte não prova nome de pessoa, procedimento específico ou unidade."
+    },
+    {
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > figure:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1)",
+      "src": "/assets/clients/dl-cabeleireiros/07-hqdefault.webp",
+      "alt": "Miniatura de vídeo com cliente de cabelo loiro e profissional ao fundo.",
+      "caption": "Cabelos em movimento",
+      "status": "approved",
+      "reason": "Arquivo aberto pelo auditor. Alt e legenda correspondem à inspeção validada. Recorte não prova nome de pessoa, procedimento específico ou unidade."
+    },
+    {
+      "selector": "html:nth-of-type(0) > body:nth-of-type(1) > main:nth-of-type(1) > section:nth-of-type(3) > div:nth-of-type(2) > figure:nth-of-type(2) > div:nth-of-type(1) > img:nth-of-type(1)",
+      "src": "/assets/clients/dl-cabeleireiros/08-hqdefault.webp",
+      "alt": "Miniatura de vídeo com mulher de cabelo longo e claro vista em três quartos.",
+      "caption": "Detalhes que fazem o visual",
+      "status": "approved",
+      "reason": "Arquivo aberto pelo auditor. Alt e legenda correspondem à inspeção validada. Recorte não prova nome de pessoa, procedimento específico ou unidade."
+    }
+  ],
+  "findings": [
+    "12 nomes e 12 descrições de serviços preservados, incluindo textos dos details.",
+    "Douglas e Luciano documentados como fundadores; não associados nominalmente ao homem fotografado.",
+    "Palhoça: Segunda a Sábado, 09h às 21h; Florianópolis: Segunda a Sábado, 09h às 21h30. Endereço e telefone permanecem na unidade correta.",
+    "Av. Paulista e horário genérico divergente excluídos por resolução documental explícita, preservada no source-review.",
+    "Links tel/WhatsApp do HTML construído conferidos: 5548999360284 e 5548999360365. Flutuante usa Palhoça conforme entidade prioritária.",
+    "Nenhuma nota Google, estatística de clientes, identidade de pessoa ou procedimento foi inventado."
+  ],
+  "limitations": [
+    "Revisão confirma fidelidade às fontes, não operação atual nem veracidade externa de todas as alegações da empresa.",
+    "Não houve mensagem, ligação, reserva ou confirmação operacional de conflitos.",
+    "Interfaces com caixa alterada foram avaliadas pelo sentido; serviços, telefones, endereços e horários são factuais."
+  ]
+}

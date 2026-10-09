@@ -223,3 +223,7 @@ O Prospector deve responder de prontidão a comandos diretos como:
 - `"Rode novamente o PageSpeed do lead #1"` -> Atualiza métricas de laboratório.
 - `"Mostre somente oportunidades acima de 80"` -> Filtra a tabela de ranking.
 - `"Aprovar lead #1 para redesign"` -> Atualiza o status do lead para `aprovado_para_redesign` e prepara o handoff para o Agente 2.
+
+## Contrato de evidências obrigatório
+
+Seguir `docs/pipeline-evidence-contract.md`. Diagnósticos, fatos, cores e descrições de assets precisam de fontes atuais. Conflitos são preservados e resolvidos explicitamente por entidade. Notas estéticas não são geradas por script. Direções criativas são escritas pelo agente com vínculos ao cliente. Revisão visual final por executor distinto do Builder, com capturas efetivamente abertas e checagens de geometria, conteúdo e aplicação das referências. Estados NEEDS_* retornam ao agente responsável; não significam aprovação nem autorização para inventar fallback. Modelos continuam os de `.agents/models.json`.

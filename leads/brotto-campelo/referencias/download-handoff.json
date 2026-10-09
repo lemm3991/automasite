@@ -1,0 +1,448 @@
+{
+  "handoffVersion": "4.0-evidence",
+  "leadSlug": "brotto-campelo",
+  "companyName": "Brotto Campelo Advogados",
+  "officialUrl": "https://brottocampelo.adv.br/",
+  "niche": "Direito Empresarial e Tributário",
+  "status": "READY_FOR_ART_DIRECTION",
+  "errors": [],
+  "facts": [
+    {
+      "id": "company-name",
+      "kind": "name",
+      "entityId": "company",
+      "value": "Brotto Campelo Advogados",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "quote": "O Brotto Campelo Advogados nasceu da união entre experiência e inovação, com forte atuação em Direito Empresarial e Imobiliário, além de outras áreas estratégicas. Somos um escritório premiado nacionalmente e referência entre os mais admirados do Sul do país, sempre atuando como parceiros estratégicos dos clientes. Nossa advocacia é moderna e dinâmica, pautada em transparência, proximidade e soluções jurídicas personalizadas que viabilizam negócios e fortalecem relações."
+        }
+      ]
+    },
+    {
+      "id": "tagline-hero",
+      "kind": "identity",
+      "entityId": "company",
+      "value": "Soluções jurídicas inovadoras",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+          "quote": "Soluções jurídicas inovadoras"
+        }
+      ]
+    },
+    {
+      "id": "address-sede",
+      "kind": "address",
+      "entityId": "sede-curitiba",
+      "value": "Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "quote": "Rua Padre Agostinho 1926 - Bigorrilho, Curitiba - PR"
+        }
+      ]
+    },
+    {
+      "id": "phone-sede",
+      "kind": "phone",
+      "entityId": "sede-curitiba",
+      "value": "41 3026-8001",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "quote": "41 3026-8001"
+        }
+      ]
+    },
+    {
+      "id": "email-sede",
+      "kind": "email",
+      "entityId": "sede-curitiba",
+      "value": "contato@brottocampelo.adv.br",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > footer:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "quote": "contato@brottocampelo.adv.br"
+        }
+      ]
+    },
+    {
+      "id": "founder-ricardo",
+      "kind": "founders",
+      "entityId": "company",
+      "value": "Ricardo Campelo",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(8) > div:nth-of-type(3) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "quote": "Ricardo Campelo"
+        }
+      ]
+    },
+    {
+      "id": "service-empresarial",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Direito Empresarial",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "Direito Empresarial"
+        }
+      ]
+    },
+    {
+      "id": "service-trabalho",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Direito do Trabalho",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "Direito do Trabalho"
+        }
+      ]
+    },
+    {
+      "id": "service-planejamento",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Planejamento Patrimonial e Sucessões",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "Planejamento Patrimonial e Sucessões"
+        }
+      ]
+    },
+    {
+      "id": "service-propriedade-intelectual",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Propriedade Intelectual",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "Propriedade Intelectual"
+        }
+      ]
+    },
+    {
+      "id": "service-lgpd",
+      "kind": "service",
+      "entityId": "company",
+      "value": "LGPD, Privacidade e Proteção de Dados",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "LGPD, Privacidade e Proteção de Dados"
+        }
+      ]
+    },
+    {
+      "id": "service-direito-digital",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Direito Digital",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "Direito Digital"
+        }
+      ]
+    },
+    {
+      "id": "service-agronegocio",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Agronegócio",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "Agronegócio"
+        }
+      ]
+    },
+    {
+      "id": "service-leiloes",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Assessoria em Leilões",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > a:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1)",
+          "quote": "Assessoria em Leilões"
+        }
+      ]
+    },
+    {
+      "id": "pillar-inovacao",
+      "kind": "identity",
+      "entityId": "company",
+      "value": "Inovação e visão para além dos riscos",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "quote": "Inovação e visão para além dos riscos"
+        }
+      ]
+    },
+    {
+      "id": "pillar-abordagem",
+      "kind": "identity",
+      "entityId": "company",
+      "value": "Abordagem personalizada",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "quote": "Abordagem personalizada"
+        }
+      ]
+    },
+    {
+      "id": "pillar-facilitadores",
+      "kind": "identity",
+      "entityId": "company",
+      "value": "Facilitadores de negócios",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(3) > div:nth-of-type(2) > h2:nth-of-type(1)",
+          "quote": "Facilitadores de negócios"
+        }
+      ]
+    },
+    {
+      "id": "service-imobiliarias",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Direito Imobiliário Aplicado – Imobiliárias",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1)",
+          "quote": "Direito Imobiliário Aplicado – Imobiliárias"
+        }
+      ]
+    },
+    {
+      "id": "service-imobiliario-publico",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Direito Imobiliário Aplicado ao Direito Público",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > nav:nth-of-type(1) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(2)",
+          "quote": "Direito Imobiliário Aplicado ao Direito Público"
+        }
+      ]
+    },
+    {
+      "id": "service-construtoras",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Direito Imobiliário Aplicado – Construtoras e Incorporadoras",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(3)",
+          "quote": "Direito Imobiliário Aplicado – Construtoras e Incorporadoras"
+        }
+      ]
+    },
+    {
+      "id": "service-registral",
+      "kind": "service",
+      "entityId": "company",
+      "value": "Registral e Notarial",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(3) > div:nth-of-type(1) > ul:nth-of-type(1) > li:nth-of-type(4)",
+          "quote": "Registral e Notarial"
+        }
+      ]
+    },
+    {
+      "id": "positioning-empresarial-imobiliario",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "com forte atuação em Direito Empresarial e Imobiliário",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "quote": "O Brotto Campelo Advogados nasceu da união entre experiência e inovação, com forte atuação em Direito Empresarial e Imobiliário, além de outras áreas estratégicas. Somos um escritório premiado nacionalmente e referência entre os mais admirados do Sul do país, sempre atuando como parceiros estratégicos dos clientes. Nossa advocacia é moderna e dinâmica, pautada em transparência, proximidade e soluções jurídicas personalizadas que viabilizam negócios e fortalecem relações."
+        }
+      ]
+    },
+    {
+      "id": "award-national-label",
+      "kind": "credential",
+      "entityId": "company",
+      "value": "ESCRITÓRIOS MAIS ADMIRADOS DO BRASIL",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "quote": "ESCRITÓRIOS MAIS ADMIRADOS DO BRASIL"
+        }
+      ]
+    },
+    {
+      "id": "award-national-years",
+      "kind": "credential",
+      "entityId": "company",
+      "value": "2021, 2022, 2023/2024, 2025 e 2026.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(4) > p:nth-of-type(1)",
+          "quote": "2021, 2022, 2023/2024, 2025 e 2026."
+        }
+      ]
+    },
+    {
+      "id": "award-regional-label",
+      "kind": "credential",
+      "entityId": "company",
+      "value": "ESCRITÓRIOS MAIS ADMIRADOS DA REGIÃO SUL",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(5) > p:nth-of-type(1)",
+          "quote": "ESCRITÓRIOS MAIS ADMIRADOS DA REGIÃO SUL"
+        }
+      ]
+    },
+    {
+      "id": "award-regional-years",
+      "kind": "credential",
+      "entityId": "company",
+      "value": "2022, 2023, 2024, 2025 e 2026.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(6) > p:nth-of-type(1)",
+          "quote": "2022, 2023, 2024, 2025 e 2026."
+        }
+      ]
+    },
+    {
+      "id": "pillar-inovacao-copy",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "DNA inovador que orienta o escritório a explorar possibilidades além dos riscos convencionais, abrindo caminho para novos negócios e parcerias transformadoras.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "quote": "DNA inovador que orienta o escritório a explorar possibilidades além dos riscos convencionais, abrindo caminho para novos negócios e parcerias transformadoras."
+        }
+      ]
+    },
+    {
+      "id": "pillar-abordagem-copy",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "Compromisso com o atendimento personalizado, estreitando a relação cliente-advogado através de uma advocacia baseada na confiança, proximidade e compreensão das necessidades individuais dos clientes.",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(2) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "quote": "Compromisso com o atendimento personalizado, estreitando a relação cliente-advogado através de uma advocacia baseada na confiança, proximidade e compreensão das necessidades individuais dos clientes."
+        }
+      ]
+    },
+    {
+      "id": "pillar-facilitadores-copy",
+      "kind": "positioning",
+      "entityId": "company",
+      "value": "uma atitude proativa em viabilizar negócios e encontrar soluções jurídicas personalizadas",
+      "status": "verified",
+      "evidence": [
+        {
+          "pageId": "page-1",
+          "selector": "html:nth-of-type(1) > body:nth-of-type(1) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(3) > div:nth-of-type(3) > p:nth-of-type(1)",
+          "quote": "A autoimagem de facilitadores, não limitadores, reflete uma atitude proativa em viabilizar negócios e encontrar soluções jurídicas personalizadas e"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "ambiguities": [],
+  "primaryEntityId": "sede-curitiba",
+  "primaryEntityReason": "Sede corporativa localizada na Rua Padre Agostinho, 1926 - Bigorrilho, Curitiba - PR.",
+  "primaryLogoLocal": "/assets/clients/brotto-campelo/01-BCA-logos-03-1024x205.png",
+  "primaryHeroImageLocal": null,
+  "primaryFacilityPhotoLocal": "/assets/clients/brotto-campelo/27-predio-brotto-campelo-advogados-pb-02.jpg",
+  "filesMap": {
+    "leadJson": "leads/brotto-campelo/lead.json",
+    "siteAtualMd": "leads/brotto-campelo/referencias/site-atual.md",
+    "pagesManifest": "leads/brotto-campelo/referencias/pages-manifest.json",
+    "assetsManifest": "leads/brotto-campelo/referencias/assets-manifest.json",
+    "sources": "leads/brotto-campelo/referencias/source-evidence.json",
+    "factsReview": "leads/brotto-campelo/referencias/source-review.json",
+    "assetReview": "leads/brotto-campelo/referencias/asset-review.json",
+    "screenshots": {
+      "desktopFull": "leads/brotto-campelo/screenshots/site-desktop-full.png",
+      "desktopFold": "leads/brotto-campelo/screenshots/site-desktop.png",
+      "mobileFull": "leads/brotto-campelo/screenshots/site-mobile-full.png",
+      "mobileFold": "leads/brotto-campelo/screenshots/site-mobile.png"
+    }
+  },
+  "metricsSummary": {
+    "opportunityScore": 7.9,
+    "pagesDownloaded": 26,
+    "assetsDownloaded": 27
+  },
+  "limitations": [
+    "A coleta não atribui notas estéticas. Critérios operacionais exigem avaliação do agente com fontes.",
+    "Classificação dimensional não identifica assunto; assets sem inspeção permanecem indisponíveis para descrições factuais."
+  ]
+}
