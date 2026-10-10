@@ -1,0 +1,9 @@
+﻿<svg xmlns=" http://www.w3.org/2000/svg\ width=\800\ height=\500\ viewBox=\0 0 800 500\ fill=\none\>
+ <rect width=\800\ height=\500\ fill=\#0f172a\/>
+ <rect x=\20\ y=\20\ width=\760\ height=\460\ rx=\12\ fill=\#1e293b\ stroke=\#334155\ stroke-width=\2\ stroke-dasharray=\8 8\/>
+ <circle cx=\400\ cy=\210\ r=\40\ fill=\#334155\/>
+ <path d=\M380 220L395 200L410 215L425 195L435 220H365Z\ fill=\#64748b\/>
+ <circle cx=\420\ cy=\185\ r=\6\ fill=\#94a3b8\/>
+ <text x=\400\ y=\290\ text-anchor=\middle\ fill=\#94a3b8\ font-family=\system-ui -apple-system sans-serif\ font-size=\16\ font-weight=\600\>Screenshot em Processamento</text>
+ <text x=\400\ y=\318\ text-anchor=\middle\ fill=\#64748b\ font-family=\system-ui -apple-system sans-serif\ font-size=\13\>Visualizacao disponivel apos geracao dos assets</text>
+</svg>
