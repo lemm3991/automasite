@@ -1,4 +1,4 @@
-﻿---
+---
 import { getPublishedClients } from '../../clients/registry';
 import type { ClientConfig } from '../../clients/schema';
 import BaseLayout from '../../components/BaseLayout.astro';
@@ -20,7 +20,7 @@ const { client } = Astro.props;
 const homePage = client.pages.find(p => p.path === "") || client.pages[0];
 ---
 
-<BaseLayout client={client} title={homePage.seo.title} description={homePage.seo.description} isPrivatePreview={false}>
+<BaseLayout client={client} title={homePage.seo.title} description={homePage.seo.description} isPrivatePreview={true}>
   <main>
     {homePage.sections.map(section => (
       <SectionRenderer section={section} client={client} />
