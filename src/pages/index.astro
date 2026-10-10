@@ -3,13 +3,12 @@ export const prerender = false;
 
 import BaseLayout from '../components/BaseLayout.astro';
 import { getAllLeadDossiers } from '../lib/dossier';
-import { getSupabaseServerClient } from '../lib/supabase';
+import { getAdminSession } from '../lib/session';
 
 // Validação em Camada Dupla (Defense-in-Depth): Verifica sessão na própria página
 try {
-  const supabase = getSupabaseServerClient(Astro.cookies, Astro.request);
-  const { data: { user }, error: authErr } = await supabase.auth.getUser();
-  if (authErr || !user) {
+  const session = getAdminSession(Astro.cookies, Astro.request);
+  if (!session) {
     return Astro.redirect('/login');
   }
 } catch {

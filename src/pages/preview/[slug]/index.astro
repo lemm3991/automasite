@@ -2,7 +2,7 @@
 export const prerender = false;
 
 import { resolveClient } from '../../../clients/registry';
-import { getSupabaseServerClient } from '../../../lib/supabase';
+import { getAdminSession } from '../../../lib/session';
 
 // Rota de Preview: Exige autenticação para visualizar sites que não estão publicados
 const { slug } = Astro.params;
@@ -19,9 +19,8 @@ if (!client) {
 // Se o cliente for draft/review/arquivado, exige login
 if (client.status !== 'published' && client.status !== 'ativo') {
   try {
-    const supabase = getSupabaseServerClient(Astro.cookies, Astro.request);
-    const { data: { user }, error } = await supabase.auth.getUser();
-    if (error || !user) {
+    const session = getAdminSession(Astro.cookies, Astro.request);
+    if (!session) {
       return Astro.redirect(`/login?redirect=${encodeURIComponent(Astro.url.pathname)}`);
     }
   } catch {

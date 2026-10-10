@@ -30,7 +30,7 @@ function getEncryptionKey(): Buffer {
   }
 
   // Fallback seguro derivado das variáveis de ambiente de infraestrutura existentes
-  const fallbackSeed = (typeof process !== 'undefined' ? (process.env.SUPABASE_URL || process.env.NODE_ENV || 'local-secure-dev-salt') : 'local-secure-dev-salt');
+  const fallbackSeed = (typeof process !== 'undefined' ? (process.env.SESSION_SECRET || process.env.NODE_ENV || 'local-secure-dev-salt') : 'local-secure-dev-salt');
   return crypto.createHash('sha256').update(`site-automatico-encryption-salt:${fallbackSeed}`).digest();
 }
 

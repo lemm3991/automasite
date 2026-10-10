@@ -1,5 +1,5 @@
 import { defineMiddleware } from 'astro:middleware';
-import { getSupabaseServerClient } from './lib/supabase';
+import { getAdminSession } from './lib/session';
 
 export const onRequest = defineMiddleware(async (context, next) => {
   const { pathname } = context.url;
@@ -33,10 +33,8 @@ export const onRequest = defineMiddleware(async (context, next) => {
   }
 
   try {
-    const supabase = getSupabaseServerClient(context.cookies, context.request);
-    const { data: { user }, error } = await supabase.auth.getUser();
-
-    const isAuthenticated = !!user && !error;
+    const session = getAdminSession(context.cookies, context.request);
+    const isAuthenticated = !!session;
 
     // Se o usuário tentar acessar API protegida sem autenticação válida
     if (isProtectedApi && !isAuthenticated) {

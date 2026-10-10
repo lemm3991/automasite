@@ -1,7 +1,7 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
-import { getSupabaseServerClient } from '../../../lib/supabase';
+import { verifySitePassword, createAdminSession } from '../../../lib/session';
 import { checkRateLimitAsync, createRateLimitResponse, resetRateLimit, getClientIp } from '../../../lib/rate-limiter';
 
 export const POST: APIRoute = async ({ request, cookies, redirect }) => {
@@ -41,32 +41,31 @@ export const POST: APIRoute = async ({ request, cookies, redirect }) => {
     redirectTo = formData.get('redirect')?.toString() || '/';
   }
 
-  if (!email || !password) {
+  if (!password) {
     if (isJsonRequest) {
-      return new Response(JSON.stringify({ error: 'Preencha todos os campos obrigatórios.' }), {
+      return new Response(JSON.stringify({ error: 'Preencha a chave de acesso.' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json' }
       });
     }
-    return redirect('/login?error=Preencha todos os campos obrigatórios.');
+    return redirect('/login?error=Preencha a chave de acesso.');
   }
 
   try {
-    const supabase = getSupabaseServerClient(cookies, request);
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password
-    });
+    const isValid = await verifySitePassword(password);
 
-    if (error) {
+    if (!isValid) {
       if (isJsonRequest) {
-        return new Response(JSON.stringify({ error: 'Credenciais inválidas. Verifique seu e-mail e senha.' }), {
+        return new Response(JSON.stringify({ error: 'Credenciais inválidas. Verifique sua chave de acesso.' }), {
           status: 401,
           headers: { 'Content-Type': 'application/json' }
         });
       }
-      return redirect(`/login?error=${encodeURIComponent('Credenciais inválidas. Verifique seu e-mail e senha.')}`);
+      return redirect(`/login?error=${encodeURIComponent('Credenciais inválidas. Verifique sua chave de acesso.')}`);
     }
+
+    // Cria a sessão segura com cookie assinado
+    createAdminSession(cookies);
 
     // Login bem-sucedido: limpa o contador de tentativas para este IP
     resetRateLimit('login', ip);
@@ -75,7 +74,7 @@ export const POST: APIRoute = async ({ request, cookies, redirect }) => {
     const safeRedirect = redirectTo.startsWith('/') && !redirectTo.startsWith('//') ? redirectTo : '/';
     
     if (isJsonRequest) {
-      return new Response(JSON.stringify({ success: true, redirectTo: safeRedirect, user: { id: data.user.id, email: data.user.email } }), {
+      return new Response(JSON.stringify({ success: true, redirectTo: safeRedirect, user: { role: 'admin' } }), {
         status: 200,
         headers: { 'Content-Type': 'application/json' }
       });

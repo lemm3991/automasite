@@ -3,7 +3,7 @@ export const prerender = false;
 import type { APIRoute } from 'astro';
 import fs from 'fs';
 import path from 'path';
-import { getSupabaseServerClient } from '../../../../lib/supabase';
+import { getAdminSession } from '../../../../lib/session';
 import { checkRateLimit, getClientIp } from '../../../../lib/rate-limiter';
 
 export const GET: APIRoute = async ({ params, request, cookies }) => {
@@ -24,10 +24,9 @@ export const GET: APIRoute = async ({ params, request, cookies }) => {
 
   // 2. Validação Server-Side Obrigatória de Sessão
   try {
-    const supabase = getSupabaseServerClient(cookies, request);
-    const { data: { user }, error: authError } = await supabase.auth.getUser();
+    const session = getAdminSession(cookies, request);
 
-    if (authError || !user) {
+    if (!session) {
       return new Response('Acesso restrito. Autenticação obrigatória.', { status: 401 });
     }
   } catch (err) {

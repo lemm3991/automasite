@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import fs from 'fs';
 import path from 'path';
-import { getSupabaseServerClient } from '../../lib/supabase';
+import { getAdminSession } from '../../lib/session';
 import { checkRateLimitAsync, createRateLimitResponse, getClientIp } from '../../lib/rate-limiter';
 
 export const prerender = false;
@@ -10,12 +10,11 @@ export const POST: APIRoute = async ({ request, cookies }) => {
   const ip = getClientIp(request);
 
   // 1. Validação Server-Side Obrigatória de Sessão
-  let userId = '';
+  let userId = 'admin';
   try {
-    const supabase = getSupabaseServerClient(cookies, request);
-    const { data: { user }, error: authError } = await supabase.auth.getUser();
+    const session = getAdminSession(cookies, request);
 
-    if (authError || !user) {
+    if (!session) {
       return new Response(
         JSON.stringify({ error: 'Não autorizado. Autenticação obrigatória.' }), 
         {
@@ -24,7 +23,6 @@ export const POST: APIRoute = async ({ request, cookies }) => {
         }
       );
     }
-    userId = user.id;
   } catch (err) {
     return new Response(
       JSON.stringify({ error: 'Erro de validação de autenticação.' }), 

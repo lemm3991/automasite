@@ -1,19 +1,18 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
-import { getSupabaseServerClient } from '../../../lib/supabase';
+import { getAdminSession } from '../../../lib/session';
 import { checkRateLimitAsync, createRateLimitResponse, getClientIp } from '../../../lib/rate-limiter';
 
 export const POST: APIRoute = async ({ request, cookies }) => {
   const ip = getClientIp(request);
 
   // 1. Validação Server-Side Obrigatória de Sessão (Endpoint de Alto Custo)
-  let userId = '';
+  let userId = 'admin';
   try {
-    const supabase = getSupabaseServerClient(cookies, request);
-    const { data: { user }, error } = await supabase.auth.getUser();
+    const session = getAdminSession(cookies, request);
 
-    if (error || !user) {
+    if (!session) {
       return new Response(JSON.stringify({ 
         error: 'Acesso restrito. Autenticação obrigatória para utilizar recursos de inteligência artificial.' 
       }), {
@@ -21,8 +20,6 @@ export const POST: APIRoute = async ({ request, cookies }) => {
         headers: { 'Content-Type': 'application/json' }
       });
     }
-
-    userId = user.id;
   } catch {
     return new Response(JSON.stringify({ error: 'Falha na validação de credenciais.' }), {
       status: 401,

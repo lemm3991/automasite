@@ -4,6 +4,7 @@ export const prerender = false;
 import { resolveClient } from '../../../clients/registry';
 import BaseLayout from '../../../components/BaseLayout.astro';
 import SectionRenderer from '../../../components/SectionRenderer.astro';
+import { getAdminSession } from '../../../lib/session';
 
 const { slug, page: pagePath } = Astro.params;
 
@@ -25,11 +26,9 @@ if (!page) {
 
 // Se o cliente for draft/review/arquivado, exige login
 if (client.status !== 'published' && client.status !== 'ativo') {
-  const { getSupabaseServerClient } = await import('../../../lib/supabase');
   try {
-    const supabase = getSupabaseServerClient(Astro.cookies, Astro.request);
-    const { data: { user }, error } = await supabase.auth.getUser();
-    if (error || !user) {
+    const session = getAdminSession(Astro.cookies, Astro.request);
+    if (!session) {
       return Astro.redirect(`/login?redirect=${encodeURIComponent(Astro.url.pathname)}`);
     }
   } catch {
